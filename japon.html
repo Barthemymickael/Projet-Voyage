@@ -3,131 +3,195 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>Japon • Blog statique (HTML/CSS/JS) – Lecture seule</title>
+  <title>Mon voyage au Japon</title>
   <meta name="color-scheme" content="dark" />
   <style>
-    /* ------------------------------
-       Design System & Reset
-    ------------------------------ */
-    :root {
-      --bg: #0a0a0a;
-      --bg-elev: #151515;
-      --card: #1b1b1b;
-      --text: #f5f5f5;
-      --muted: #b7b7b7;
-      --accent: #ff5555;
-      --accent-2: #ff8a65;
-      --ring: #ffffff;
-      --radius: 16px;
-      --shadow-lg: 0 20px 50px rgba(0, 0, 0, 0.6);
-      --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.45);
-      --container: 1200px;
-      --space: clamp(18px, 2.2vw, 28px);
-      --section-pad: clamp(48px, 8vw, 90px);
-      --card-w: clamp(200px, 42vw, 280px);
+    :root{
+      --bg:#0a0a0a; --bg-elev:#151515; --card:#1b1b1b; --text:#f5f5f5; --muted:#b7b7b7;
+      --accent:#ff5555; --accent-2:#ff8a65; --ring:#ffffff;
+      --radius:16px; --shadow-lg:0 20px 50px rgba(0,0,0,.6);
+      --shadow-md:0 10px 30px rgba(0,0,0,.45);
+      --container:1200px; --space:clamp(18px,2.2vw,28px);
+      --section-pad:clamp(48px,8vw,90px); --card-w:clamp(200px,42vw,280px);
+    }
+    *,*::before,*::after{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,"Noto Sans","Apple Color Emoji","Segoe UI Emoji";background:var(--bg);color:var(--text);overflow-x:clip;line-height:1.6}
+    img,svg,video{display:block;max-width:100%}
+    a{color:inherit;text-underline-offset:2px}
+    html{scroll-behavior:smooth}
+    ::selection{background:color-mix(in oklab, var(--accent) 55%, transparent);color:#fff}
+
+    .section{padding:var(--section-pad) var(--space);border-bottom:1px solid rgba(255,255,255,.08)}
+    .wrap{max-width:var(--container);margin-inline:auto}
+    h2{font-size:clamp(1.5rem,1.1rem + 2vw,2.4rem);margin:0 0 22px;display:inline-flex;align-items:center;gap:12px;letter-spacing:.3px}
+    h2 .bar{inline-size:10px;block-size:28px;border-radius:999px;background:linear-gradient(180deg,var(--accent),var(--accent-2));box-shadow:0 6px 18px rgba(255,85,85,.35)}
+    p{color:var(--muted)}
+
+    /* ===== Scrollers cartes ===== */
+    .scroll-card{display:grid;grid-auto-flow:column;grid-auto-columns:var(--card-w);gap:18px;overflow-x:auto;padding:6px 2px 14px;scroll-snap-type:x mandatory;scroll-padding-inline:var(--space);-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain}
+    .scroll-card{scrollbar-width:none}.scroll-card::-webkit-scrollbar{display:none}
+    .mini-card{position:relative;background:linear-gradient(180deg,var(--card),#111);border-radius:var(--radius);overflow:clip;scroll-snap-align:start;outline:none;border:1px solid rgba(255,255,255,.06);box-shadow:var(--shadow-md);transition:transform .28s ease, box-shadow .28s ease, border-color .28s ease;cursor:pointer}
+    @media (hover:hover) and (pointer:fine){.mini-card:hover{transform:translateY(-6px) scale(1.01);box-shadow:0 20px 40px rgba(255,85,85,.25);border-color:rgba(255,85,85,.35)}}
+    .mini-card__img{width:100%;aspect-ratio:16/10;object-fit:cover;background:#0f0f0f}
+    .mini-card__body{padding:12px 14px 16px}
+    .mini-card__title{font-size:clamp(1rem,.9rem + .5vw,1.15rem);margin:6px 0 6px}
+    .mini-card__text{margin:0;font-size:.98rem;line-height:1.7}
+    .mini-card__day{position:absolute;top:8px;left:8px;padding:4px 10px;border-radius:999px;background:rgba(0,0,0,.55);border:1px solid rgba(255,255,255,.18);box-shadow:0 6px 14px rgba(0,0,0,.35);font-size:.82rem;line-height:1;backdrop-filter:blur(4px)}
+
+    /* ===== Backdrop modal ===== */
+    .backdrop{position:fixed;inset:0;background:rgba(0,0,0,0);opacity:0;pointer-events:none;transition:opacity .35s ease;z-index:999}
+    .backdrop.is-open{opacity:1;background:rgba(0,0,0,.6);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+
+    /* ===== Wrappers maps ===== */
+    .map-shell{
+      position:relative;
+      border-radius:var(--radius);
+      overflow:hidden;
+      box-shadow:var(--shadow-md);
+      border:1px solid rgba(255,255,255,.08);
+      background:#0f0f0f;
+      contain:paint;
+      isolation:isolate;
+    }
+    .is-safari-clip .map-shell{
+      overflow:visible;
+      clip-path: inset(0 round var(--radius));
+      border:none;
+      box-shadow:var(--shadow-md);
     }
 
-    *, *::before, *::after { box-sizing: border-box; }
-    html, body { height: 100%; }
-    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"; background: var(--bg); color: var(--text); overflow-x: clip; line-height: 1.6; }
-    img, picture, svg, video { display: block; max-width: 100%; }
-    a { color: inherit; text-underline-offset: 2px; }
-    button { font: inherit; color: inherit; }
-
-    .section { padding: var(--section-pad) var(--space); border-bottom: 1px solid rgba(255,255,255,0.08); }
-    .wrap { max-width: var(--container); margin-inline: auto; }
-
-    h2 {
-      font-size: clamp(1.5rem, 1.1rem + 2vw, 2.4rem);
-      margin: 0 0 22px;
-      display: inline-flex;
-      align-items: center;
-      gap: 12px;
-      letter-spacing: .3px;
+    #travel-map, #route-map{
+      height:clamp(420px,62vh,720px);
+      width:100%;
+      transform:translateZ(0);
+      backface-visibility:hidden;
+      will-change:transform;
+      border-radius:0;
     }
-    h2 .bar { inline-size: 10px; block-size: 28px; border-radius: 999px; background: linear-gradient(180deg, var(--accent), var(--accent-2)); box-shadow: 0 6px 18px rgba(255,85,85,.35); }
+    .map-shell--route #route-map{height:clamp(260px,46vh,560px)}
 
-    p { color: var(--muted); }
+    .panel{margin-block:14px 0 0;display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+    .chip{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.14);background:#151515;cursor:pointer}
 
-    .scroll-card { display: grid; grid-auto-flow: column; grid-auto-columns: var(--card-w); gap: 18px; overflow-x: auto; padding: 6px 2px 14px; scroll-snap-type: x mandatory; scroll-padding-inline: var(--space); -webkit-overflow-scrolling: touch; overscroll-behavior-x: contain; }
-    .scroll-card { scrollbar-width: none; }
-    .scroll-card::-webkit-scrollbar { display: none; }
+    .emoji-pin{position:relative;display:grid;place-items:center;width:38px;height:38px;border-radius:999px;background:radial-gradient(circle at 30% 30%,#2a2a2a,#141414);border:2px solid rgba(255,255,255,.2);box-shadow:0 6px 16px rgba(0,0,0,.5),0 0 0 2px rgba(255,85,85,.15);font-size:18px;color:#fff;cursor:pointer}
 
-    .mini-card { position: relative; background: linear-gradient(180deg, var(--card), #111); border-radius: var(--radius); overflow: clip; scroll-snap-align: start; outline: none; border: 1px solid rgba(255,255,255,.06); box-shadow: var(--shadow-md); transition: transform .28s ease, box-shadow .28s ease, border-color .28s ease; cursor: pointer; contain: paint; }
-    @media (hover: hover) and (pointer: fine) { .mini-card:hover { transform: translateY(-6px) scale(1.01); box-shadow: 0 20px 40px rgba(255,85,85,.25); border-color: rgba(255,85,85,.35); } }
-    .mini-card:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(255,255,255,.15), 0 0 0 6px color-mix(in oklab, var(--accent) 70%, transparent); }
-    .mini-card__img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; background: #0f0f0f; filter: saturate(1.05) contrast(1.02); transform: translateZ(0); }
-    .mini-card__body { padding: 12px 14px 16px; }
-    .mini-card__title { font-size: clamp(1rem, .9rem + .5vw, 1.15rem); margin: 6px 0 6px; letter-spacing: .2px; }
-    .mini-card__text { margin: 0; font-size: .98rem; }
+    /* ===== Véhicules (route) ===== */
+    .route-vehicle{width:34px;height:34px;transform-origin:50% 50%;transition:transform 120ms ease, opacity 280ms ease;pointer-events:none;filter:drop-shadow(0 0 10px rgba(255,85,85,.65));opacity:1}
+    .route-vehicle.is-hidden{opacity:0;transform:scale(.85) rotate(var(--keep-rot,0deg))}
+    .route-vehicle svg{width:100%;height:100%;display:block}
+    .is-safari .route-vehicle{ filter:none; }
 
-    .mini-card__day {
-      position: absolute;
-      top: 8px;
-      left: 8px;
-      padding: 4px 10px;
-      border-radius: 999px;
-      background: rgba(0,0,0,.55);
-      border: 1px solid rgba(255,255,255,.18);
-      box-shadow: 0 6px 14px rgba(0,0,0,.35);
-      font-size: .82rem;
-      line-height: 1;
-      backdrop-filter: blur(4px);
-    }
-
-    .backdrop { position: fixed; inset: 0; background: rgba(0,0,0,.6); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); opacity: 0; pointer-events: none; transition: opacity .35s ease; z-index: 999; }
-    .backdrop.is-open { opacity: 1; pointer-events: auto; }
-
-    .card-clone { position: fixed; z-index: 1000; inset: auto auto auto auto; border-radius: calc(var(--radius) + 4px); box-shadow: var(--shadow-lg); overflow: clip; transform-origin: center center; background: var(--bg-elev); border: 1px solid rgba(255,255,255,.08); }
-    .clone-media { width: 100%; aspect-ratio: 16/10; object-fit: cover; background: #0f0f0f; }
-    .clone-content { padding: clamp(16px, 2.2vw, 24px); max-height: 60svh; overflow: auto; }
-
-    .close-btn { position: absolute; top: 10px; right: 10px; inline-size: 36px; block-size: 36px; border-radius: 999px; border: none; background: var(--accent); color: #fff; display: grid; place-items: center; box-shadow: 0 8px 20px rgba(255,85,85,.35); cursor: pointer; transition: transform .18s ease, opacity .18s ease, box-shadow .18s ease; }
-    .close-btn:hover { transform: scale(1.04); }
-    .close-btn:active { transform: scale(.98); }
-    .close-btn:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(255,255,255,.2), 0 0 0 6px color-mix(in oklab, var(--accent) 70%, transparent); }
-
-    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
-
-    @media (max-width: 560px) { .clone-content { max-height: 55svh; } }
-    @media (prefers-reduced-motion: reduce) { .mini-card, .backdrop, .card-clone, .close-btn { transition: none !important; } }
-
-    /* Leaflet */
-    #travel-map { height: clamp(420px, 62vh, 720px); width: 100%; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-md); border: 1px solid rgba(255,255,255,.08); background: #0f0f0f; }
-    .leaflet-control-zoom a { background: #222; color: #fff; border: 1px solid rgba(255,255,255,.1); }
-    .leaflet-control-zoom a:hover { background: #2a2a2a; }
-    .leaflet-control-attribution { background: rgba(0,0,0,.35); color: #ddd; }
-
-    .panel { position: relative; margin-block: 14px 0 0; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
-    .filters { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; justify-content: center; }
-    .chip { display: inline-flex; align-items: center; gap: 6px; padding: 8px 12px; border-radius: 999px; border: 1px solid rgba(255,255,255,.14); background: #151515; font-size: .92rem; }
-    .chip input { accent-color: #ff5555; }
-
-    .emoji-pin { position: relative; display: grid; place-items: center; width: 38px; height: 38px; border-radius: 999px; background: radial-gradient(circle at 30% 30%, #2a2a2a, #141414); border: 2px solid rgba(255,255,255,.2); box-shadow: 0 6px 16px rgba(0,0,0,.5), 0 0 0 2px rgba(255,85,85,.15); font-size: 18px; }
-    .emoji-pin::after { content: ""; position: absolute; bottom: -6px; width: 0; height: 0; border-left: 8px solid transparent; border-right: 8px solid transparent; border-top: 10px solid #1a1a1a; filter: drop-shadow(0 2px 2px rgba(0,0,0,.6)); }
+    /* ===== Progression itinéraire (barre sous la map) ===== */
+    .route-progress{margin-top:12px}
+    .route-progress__head{display:flex;justify-content:space-between;align-items:center;font-size:.92rem;color:var(--muted);margin:8px 2px}
+    .route-progress__track{position:relative;height:12px;background:#111;border:1px solid rgba(255,255,255,.12);border-radius:999px;overflow:hidden;box-shadow:inset 0 4px 12px rgba(0,0,0,.35)}
+    .route-progress__fill{position:absolute;inset:0 auto 0 0;width:0%;background:linear-gradient(90deg,var(--accent),var(--accent-2));box-shadow:inset 0 0 20px rgba(255,85,85,.35);border-radius:999px}
+    .route-progress__stops{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);pointer-events:none}
+    .route-progress__stops .stop{position:absolute;left:var(--pos);transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:8px;white-space:nowrap}
+    .route-progress__stops .stop i{display:block;width:12px;height:12px;border-radius:999px;background:#0f0f0f;border:2px solid rgba(255,255,255,.6);box-shadow:0 1px 6px rgba(0,0,0,.4)}
+    .route-progress__stops .stop em{display:block;font-style:normal;margin-top:8px;font-size:.8rem;color:var(--muted);text-shadow:0 1px 1px rgba(0,0,0,.35)}
+    .route-progress__stops .stop.is-passed i{background:var(--accent);border-color:var(--accent)}
+    .route-progress__stops .stop.is-active i{background:var(--accent-2);border-color:var(--accent-2);box-shadow:0 0 0 4px rgba(255,85,85,.15), 0 0 12px rgba(255,85,85,.45)}
   </style>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin>
 </head>
 <body>
 
   <div class="backdrop" id="backdrop" aria-hidden="true"></div>
 
-  <!-- Bloc 1 : Carte interactive (lecture seule) -->
-  <section id="map" class="section">
+  <!-- =================== ROUTE (train + avions) =================== -->
+  <section id="route" class="section">
     <div class="wrap">
-      <h2><span class="bar" aria-hidden="true"></span> Carte de mon voyage</h2>
-      <div id="travel-map" role="region" aria-label="Carte interactive du Japon"></div>
-      <div class="panel" aria-label="Filtres">
-        <div class="filters" id="filters">
-          <span class="chip"><input type="radio" name="mapcat" data-cat="city" checked> 🏙️ Villes</span>
-          <span class="chip"><input type="radio" name="mapcat" data-cat="monument"> 🏛️ Monuments</span>
-          <span class="chip"><input type="radio" name="mapcat" data-cat="activity"> 🎌 Activités</span>
+      <h2><span class="bar" aria-hidden="true"></span>Le tracé de mon voyage</h2>
+
+      <div class="map-shell map-shell--route">
+        <div id="route-map" role="region" aria-label="Carte du tracé du voyage"></div>
+      </div>
+
+      <div class="route-progress" id="route-progress" aria-label="Progression du trajet">
+        <div class="route-progress__head">
+          <span>Le tracé de mon voyage</span>
+          <span id="route-progress-time">00:00 / 00:15</span>
+        </div>
+        <div class="route-progress__track">
+          <div class="route-progress__fill" id="route-progress-fill" style="width:0%"></div>
+          <div class="route-progress__stops" id="route-progress-stops">
+            <span class="stop is-active" style="--pos:0%"><i></i><em>Cherbourg</em></span>
+            <span class="stop" style="--pos:26.6667%"><i></i><em>Paris</em></span>
+            <span class="stop" style="--pos:76%"><i></i><em>Pékin</em></span>
+            <span class="stop" style="--pos:100%"><i></i><em>Tokyo</em></span>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Bloc 2 : Villes visitées -->
+  <!-- =================== Carte activités (Leaflet) =================== -->
+  <section id="map" class="section">
+    <div class="wrap">
+      <h2><span class="bar" aria-hidden="true"></span> Carte des activités</h2>
+      <div class="map-shell">
+        <div id="travel-map" role="region" aria-label="Carte interactive du Japon"></div>
+      </div>
+
+      <div class="panel" aria-label="Filtres">
+        <div class="filters" id="filters">
+          <label class="chip"><input type="radio" name="mapcat" data-cat="city" checked> 🏙️ Villes</label>
+          <label class="chip"><input type="radio" name="mapcat" data-cat="monument"> 🏛️ Monuments</label>
+          <label class="chip"><input type="radio" name="mapcat" data-cat="activity"> 🎌 Activités</label>
+        </div>
+      </div>
+
+      <!-- Marqueurs JSON inline -->
+      <script id="markers-data" type="application/json">
+      {
+        "items": [
+          { "lat": 35.6595, "lng": 139.7005, "category": "city",    "emoji": "🏙️", "title": "Jour 1 – Tokyo",            "desc": "Rien à l’heure actuelle", "slug": "jour-1-tokyo" },
+          { "lat": 35.7148, "lng": 139.7967, "category": "temple",  "emoji": "⛩️", "title": "Jour 2 – Asakusa",          "desc": "Rien à l’heure actuelle", "slug": "jour-2-asakusa" },
+          { "lat": 34.9671, "lng": 135.7727, "category": "temple",  "emoji": "⛩️", "title": "Jour 3 – Fushimi Inari",    "desc": "Rien à l’heure actuelle", "slug": "jour-3-fushimi-inari" },
+          { "lat": 35.0116, "lng": 135.7681, "category": "activity","emoji": "🎌", "title": "Jour 4 – Cérémonie du thé", "desc": "Rien à l’heure actuelle", "slug": "jour-4-ceremonie-the" },
+          { "lat": 35.6895, "lng": 139.6917, "category": "feeling", "emoji": "💭", "title": "Jour 5 – Choc culturel",     "desc": "Rien à l’heure actuelle", "slug": "jour-5-choc-culturel" },
+          { "lat": 35.6762, "lng": 139.6503, "category": "sport",   "emoji": "🏃", "title": "Jour 6 – Marche à Tokyo",    "desc": "Rien à l’heure actuelle", "slug": "jour-6-marche-tokyo" },
+          { "lat": 35.0394, "lng": 135.7292, "category": "book",    "emoji": "📚", "title": "Jour 7 – L’Idiot — F. Dostoïevski", "desc": "Résumé : ...", "slug": "jour-7-l-idiot" }
+        ]
+      }
+      </script>
+
+      <!-- Programme du jour JSON inline -->
+      <script id="daylog-data" type="application/json">
+      {
+        "days": [
+          { "date": "2025-10-30", "place": "Kyoto — Gion", "done": ["Balade au quartier traditionnel", "Gyôza au marché de Nishiki"] },
+          { "date": "2025-10-31", "place": "Shibuya, Tokyo", "done": ["Passage à Shibuya Crossing", "Lecture : L'Idiot (2 chapitres)"] }
+        ]
+      }
+      </script>
+
+      <!-- Où suis-je -->
+      <div class="nowinfo" id="nowinfo">
+        <div class="nowinfo__card" style="background:linear-gradient(180deg, var(--card), #121212); border:1px solid rgba(255,255,255,.10); border-radius:var(--radius); padding:14px 16px; box-shadow:var(--shadow-md);">
+          <div class="nowinfo__title" style="font-weight:700; letter-spacing:.2px; margin-bottom:10px; font-size:1.05rem;">Programme du jour (<span class="nowinfo__date" id="nowinfo-date">—</span>)</div>
+          <div class="nowinfo__row" style="display:flex; gap:10px; align-items:baseline; margin-top:4px;">
+            <span class="nowinfo__label" style="color:var(--muted); font-size:.92rem; min-width:110px;">Lieu :</span>
+            <span id="nowinfo-place">—</span>
+          </div>
+          <div class="nowinfo__row" style="display:flex; gap:10px; align-items:baseline; margin-top:4px;">
+            <span class="nowinfo__label" style="color:var(--muted); font-size:.92rem; min-width:110px;">Ce que j'ai fait :</span>
+            <ul class="nowinfo__list" id="nowinfo-done" style="margin:0; padding-left:1.1rem; color:var(--muted)"><li>—</li></ul>
+          </div>
+          <div class="nowinfo__row" style="display:flex; gap:10px; align-items:baseline; margin-top:10px;">
+            <span class="nowinfo__label" style="color:var(--muted); font-size:.92rem; min-width:110px;">Historique :</span>
+            <div id="nowinfo-history" aria-live="polite">—</div>
+          </div>
+        </div>
+      </div>
+      <!-- /Où suis-je -->
+    </div>
+  </section>
+
+  <!-- =================== Sections cartes =================== -->
   <section class="section">
     <div class="wrap">
       <h2><span class="bar" aria-hidden="true"></span> Villes visitées</h2>
@@ -143,7 +207,6 @@
     </div>
   </section>
 
-  <!-- Bloc 3 : Monuments vus -->
   <section class="section">
     <div class="wrap">
       <h2><span class="bar" aria-hidden="true"></span> Monuments vus</h2>
@@ -159,7 +222,6 @@
     </div>
   </section>
 
-  <!-- Bloc 4 : Activités faites -->
   <section class="section">
     <div class="wrap">
       <h2><span class="bar" aria-hidden="true"></span> Activités faites</h2>
@@ -175,7 +237,6 @@
     </div>
   </section>
 
-  <!-- Bloc 5 : Ressenti / Émotion -->
   <section class="section">
     <div class="wrap">
       <h2><span class="bar" aria-hidden="true"></span> Ressenti / Émotion</h2>
@@ -191,7 +252,6 @@
     </div>
   </section>
 
-  <!-- Bloc 6 : Edit -->
   <section class="section">
     <div class="wrap">
       <h2><span class="bar" aria-hidden="true"></span> Edit</h2>
@@ -207,25 +267,254 @@
     </div>
   </section>
 
-  <!-- Bloc 8 : Livre lu -->
   <section class="section">
     <div class="wrap">
       <h2><span class="bar" aria-hidden="true"></span> Livre lu</h2>
       <div class="scroll-card" role="list" aria-label="Aperçus cartes – Livres">
-        <article class="mini-card" data-slug="jour-7-mishima" role="button" tabindex="0" aria-label="Carte – ouvrir" data-title="Rien à l'heure actuelle" data-text="Rien à l'heure actuelle">
-          <img class="mini-card__img" src="images/mishima.jpg" alt="Livre" loading="lazy" />
+        <article
+          class="mini-card"
+          data-slug="jour-7-l-idiot"
+          role="button"
+          tabindex="0"
+          aria-label="Carte – ouvrir"
+          data-title="L'Idiot — F. Dostoïevski (1869)"
+          data-text="La bonté peut-elle survivre ?"
+          data-longtext="Résumé : ...">
+          <img class="mini-card__img" src="images/lidiot.jpg" alt="« L'Idiot » de Fiodor Dostoïevski" loading="lazy" />
           <div class="mini-card__body">
-            <h3 class="mini-card__title">Rien à l'heure actuelle</h3>
-            <p class="mini-card__text">Rien à l'heure actuelle</p>
+            <h3 class="mini-card__title">L'Idiot — F. Dostoïevski (1869)</h3>
+            <p class="mini-card__text">La bonté peut-elle survivre ?</p>
           </div>
         </article>
       </div>
     </div>
   </section>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <!-- =================== Leaflet =================== -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin></script>
   <script>
-    // ===== Fly Card (lecture seule) =====
+    /* ===== Carte activités (Japon) ===== */
+    const map = L.map('travel-map', { zoomControl: true }).setView([36.2048, 138.2529], 5);
+
+    const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 20,
+      attribution: '© OpenStreetMap contributors',
+      crossOrigin: true
+    }).addTo(map);
+
+    // Fallback tuile si OSM renvoie une tuile cassée -> dark Carto
+    const FALLBACK_TMPL = 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png';
+    osm.on('tileerror', (e) => {
+      const dpr = window.devicePixelRatio > 1 ? '@2x' : '';
+      const url = FALLBACK_TMPL
+        .replace('{s}', 'a')
+        .replace('{z}', e.coords.z)
+        .replace('{x}', e.coords.x)
+        .replace('{y}', e.coords.y)
+        .replace('{r}', dpr);
+      e.tile.src = url;
+    });
+
+    // Pane dédié aux emoji
+    const emojiPane = map.createPane('emojiPane');
+    emojiPane.style.zIndex = 650;
+
+    const CATS = {
+      city: { label:'Villes', emoji:'🏙️' }, monument:{ label:'Monuments', emoji:'🏛️' },
+      activity:{ label:'Activités', emoji:'🎌' }, feeling:{ label:'Ressenti', emoji:'💭' }, book:{ label:'Livres', emoji:'📚' }
+    };
+    const VISIBLE_CATS = ['city','monument','activity'];
+    const categoryLayers = Object.fromEntries(VISIBLE_CATS.map(k => [k, L.layerGroup().addTo(map)]));
+
+    function emojiIcon(emoji='📍'){
+      return L.divIcon({
+        className: 'emoji-icon',
+        html: `<div class="emoji-pin" aria-hidden="true">${emoji}</div>`,
+        iconSize: [38, 44], iconAnchor: [19, 40], popupAnchor: [0, -32]
+      });
+    }
+    function openCardBySlug(slug) {
+      if (!slug) return;
+      const card = document.querySelector(`.mini-card[data-slug="${slug}"]`);
+      if (!card) return;
+      const scroller = card.closest('.scroll-card');
+      if (scroller) card.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+      else card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      setTimeout(() => flyCard(card), 250);
+    }
+    function getMarkersData(){
+      const inlineEl = document.getElementById('markers-data');
+      if (inlineEl && inlineEl.textContent.trim()) {
+        try { return Promise.resolve(JSON.parse(inlineEl.textContent)); }
+        catch (e) { console.warn('[markers] JSON inline invalide', e); }
+      }
+      return Promise.resolve({ items: [] });
+    }
+
+    getMarkersData().then(loadFrom);
+    function loadFrom(json){
+      const items = (json && Array.isArray(json.items)) ? json.items : [];
+      items.forEach((it) => {
+        if (typeof it.lat !== 'number' || typeof it.lng !== 'number') return;
+        const rawCat = it.category || 'city';
+        const cat = (rawCat === 'temple') ? 'monument' : rawCat;
+        const marker = L.marker([it.lat, it.lng], {
+          icon: emojiIcon(it.emoji || (CATS[cat]?.emoji) || '📍'),
+          pane: 'emojiPane'
+        });
+        const popup = renderPopup(it, cat);
+        marker.bindPopup(popup, { closeButton: true });
+        if (categoryLayers[cat]) categoryLayers[cat].addLayer(marker);
+      });
+      if (items.length) fitToMarkers();
+    }
+    function renderPopup(it, cat){
+      const wrap = document.createElement('div');
+      const t = (it.title || "Rien à l'heure actuelle");
+      const d = (it.desc  || "Rien à l'heure actuelle");
+      const slug = it.slug;
+
+      wrap.innerHTML = `
+        <strong style="display:block;margin-bottom:4px">${(it.emoji||'📍')} ${escapeHtml(t)}</strong>
+        ${it.day ? `<div style="color:#bbb;">${escapeHtml(it.day)}</div>` : ''}
+        <div style="color:#ccc;white-space:pre-wrap">${escapeHtml(d)}</div>
+        <div style="margin-top:8px;font-size:.85rem;color:#bbb">Catégorie : ${CATS[it.category]?.emoji || ''} ${CATS[it.category]?.label || it.category || cat}</div>
+        ${slug ? `<div style="margin-top:10px"><button type="button" class="goto-card" style="border:1px solid rgba(255,255,255,.14);background:#222;color:#fff;padding:6px 10px;border-radius:8px;cursor:pointer">Voir la carte →</button></div>` : ''}
+      `;
+      if (slug) {
+        wrap.querySelector('.goto-card').addEventListener('click', () => {
+          map.closePopup();
+          openCardBySlug(slug);
+        });
+      }
+      return wrap;
+    }
+    function escapeHtml(str=''){ return String(str).replace(/[&<>"]/g, s => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[s])); }
+    function fitToMarkers(){
+      const b=L.latLngBounds([]);
+      for (const g of Object.values(categoryLayers)) g.eachLayer(m=>{ if(m.getLatLng) b.extend(m.getLatLng()); });
+      if (b.isValid()) map.fitBounds(b.pad(0.2));
+    }
+
+    // Filtres
+    document.querySelectorAll('#filters input[type="radio"]').forEach(rb => {
+      const cat = rb.dataset.cat;
+      rb.addEventListener('change', () => {
+        if (!rb.checked) return;
+        Object.values(categoryLayers).forEach(g => { try { map.removeLayer(g); } catch(e){} });
+        const group = categoryLayers[cat];
+        if (group) map.addLayer(group);
+      });
+    });
+    (function(){
+      const selected = document.querySelector('#filters input[type="radio"]:checked');
+      if (!selected) return;
+      Object.values(categoryLayers).forEach(g => { try { map.removeLayer(g); } catch(e){} });
+      const group = categoryLayers[selected.dataset.cat];
+      if (group) map.addLayer(group);
+    })();
+
+    /* ===== Où suis-je ===== */
+    const CURRENT_PLACE = 'Shibuya, Tokyo';
+    const CURRENT_DONE = [];
+    function getDayLogData(){
+      const inlineEl = document.getElementById('daylog-data');
+      if (inlineEl && inlineEl.textContent.trim()) {
+        try { return Promise.resolve(JSON.parse(inlineEl.textContent)); }
+        catch(e){ console.warn('[daylog] JSON inline invalide', e); }
+      }
+      return Promise.resolve({ days: [] });
+    }
+    function formatFRDateISO(iso){
+      try { return new Intl.DateTimeFormat('fr-FR', { weekday:'long', day:'2-digit', month:'long', year:'numeric', timeZone: 'Europe/Paris' }).format(new Date(iso+'T00:00:00')); } catch(e){ return iso; }
+    }
+    (function fillNowInfo(){
+      const placeEl = document.getElementById('nowinfo-place');
+      const doneEl  = document.getElementById('nowinfo-done');
+      const histEl  = document.getElementById('nowinfo-history');
+
+      getDayLogData().then(data => {
+        const days = Array.isArray(data?.days) ? [...data.days] : [];
+        days.sort((a,b)=> String(b.date).localeCompare(String(a.date)) );
+
+        const todayISO = new Date().toLocaleDateString('en-CA', { timeZone: 'Europe/Paris' });
+        const todayEntry = days.find(d => d.date === todayISO);
+
+        const place = todayEntry?.place ?? CURRENT_PLACE;
+        const done  = todayEntry?.done ?? (Array.isArray(CURRENT_DONE) ? CURRENT_DONE : []);
+
+        if (placeEl) placeEl.textContent = place || '—';
+        if (doneEl) {
+          if (done.length) {
+            doneEl.innerHTML = '';
+            done.forEach(txt => { const li = document.createElement('li'); li.textContent = txt; doneEl.appendChild(li); });
+          } else {
+            doneEl.innerHTML = '<li>—</li>';
+          }
+        }
+
+        if (histEl) {
+          const previous = days.filter(d => String(d.date) < todayISO);
+          if (previous.length) {
+            const wrap = document.createElement('div'); wrap.className = 'history';
+            previous.forEach(d => {
+              const item = document.createElement('div');
+              item.className = 'history__item';
+              item.style.cssText = 'padding:8px 10px;border-radius:10px;background:#121212;border:1px solid rgba(255,255,255,.08);margin:6px 0;';
+              item.innerHTML = `
+                <div class="history__date" style="font-weight:600;font-size:.92rem">${formatFRDateISO(d.date)}</div>
+                ${d.place ? `<div class="history__place" style="color:var(--muted)">${d.place}</div>` : ''}
+              `;
+              if (Array.isArray(d.done) && d.done.length) {
+                const ul = document.createElement('ul'); ul.className = 'history__list'; ul.style.cssText='margin:4px 0 0;padding-left:1.1rem;color:var(--muted)';
+                d.done.forEach(t => { const li = document.createElement('li'); li.textContent = t; ul.appendChild(li); });
+                item.appendChild(ul);
+              }
+              wrap.appendChild(item);
+            });
+            histEl.innerHTML = '';
+            histEl.appendChild(wrap);
+          } else {
+            histEl.textContent = '—';
+          }
+        }
+      });
+    })();
+    (function showToday(){
+      const el = document.getElementById('nowinfo-date');
+      if (!el) return;
+      const opts = { weekday: 'long', day: '2-digit', month: 'long', year: 'numeric' };
+      el.textContent = new Intl.DateTimeFormat('fr-FR', opts).format(new Date());
+    })();
+
+    /* ===== Fallback d’images locales ===== */
+    (function fallbackLocalImages(){
+      const ph = encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 100'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#1b1b1b'/><stop offset='1' stop-color='#111111'/></linearGradient></defs><rect width='160' height='100' fill='url(#g)'/><g fill='#ff5555' opacity='0.85'><circle cx='24' cy='24' r='6'/><circle cx='48' cy='24' r='6'/><circle cx='72' cy='24' r='6'/></g><text x='50%' y='56%' dominant-baseline='middle' text-anchor='middle' font-family='-apple-system,Segoe UI,Roboto,Arial' font-size='10' fill='#b7b7b7'>aperçu indisponible</text></svg>`);
+      const PLACEHOLDER = `data:image/svg+xml;charset=utf-8,${ph}`;
+      const imgs = document.querySelectorAll('img.mini-card__img');
+      imgs.forEach(img => {
+        img.addEventListener('error', () => {
+          if (!img.dataset.fallbackApplied) {
+            img.src = PLACEHOLDER;
+            img.dataset.fallbackApplied = '1';
+          }
+        }, { once: true });
+      });
+      if (location.protocol === 'file:') {
+        const allowList = new Set(['images/tokyo.png','images/lidiot.jpg']);
+        imgs.forEach(img => {
+          const src = img.getAttribute('src') || '';
+          if (!allowList.has(src)) {
+            img.setAttribute('src', PLACEHOLDER);
+            img.dataset.fallbackApplied = '1';
+          }
+        });
+      }
+    })();
+  </script>
+
+  <!-- =================== Fly Card (modal animée) =================== -->
+  <script>
     const FOCUSABLE = 'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])';
     const backdrop = document.getElementById('backdrop');
     let openClone = null, originRect = null, lastFocusedEl = null;
@@ -241,13 +530,11 @@
       if (card && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); flyCard(card); }
       if (e.key === 'Escape' && openClone) closeFly();
     });
-
-    // Injecte un badge "Jour X" directement sur chaque mini-card
     (function attachDayBadges(){
       document.querySelectorAll('.mini-card').forEach(card => {
         const day = card.dataset.day;
         if (!day) return;
-        if (card.querySelector('.mini-card__day')) return; // évite doublons
+        if (card.querySelector('.mini-card__day')) return;
         const badge = document.createElement('div');
         badge.className = 'mini-card__day';
         badge.textContent = day;
@@ -271,21 +558,24 @@
 
       const content = document.createElement('div');
       content.className = 'clone-content';
+
       const title = document.createElement('h3');
-      title.textContent = "Rien à l'heure actuelle";
-      const dayLine = document.createElement('div');
+      title.textContent = card.dataset.title || card.querySelector('.mini-card__title')?.textContent || "Rien à l'heure actuelle";
+
       const day = card.dataset.day;
+      let dayLine;
       if (day) {
+        dayLine = document.createElement('div');
         dayLine.textContent = day;
-        dayLine.style.fontSize = '.9rem';
-        dayLine.style.opacity = '.85';
-        dayLine.style.marginTop = '-2px';
-        dayLine.style.marginBottom = '8px';
+        dayLine.style.cssText = 'font-size:.9rem;opacity:.85;margin-top:-2px;margin-bottom:8px';
       }
+
       const text = document.createElement('p');
-      text.textContent = "Rien à l'heure actuelle";
+      text.textContent = card.dataset.longtext || card.dataset.text || card.querySelector('.mini-card__text')?.textContent || "Rien à l'heure actuelle";
       text.style.color = 'var(--muted)';
-      content.append(title, day ? dayLine : null, text);
+      text.style.whiteSpace = 'pre-wrap';
+
+      if (dayLine) content.append(title, dayLine, text); else content.append(title, text);
 
       const close = document.createElement('button');
       close.className = 'close-btn';
@@ -297,16 +587,37 @@
       clone.append(media, close, content);
       document.body.appendChild(clone);
 
+      clone.style.opacity = '0';
+      clone.style.transform = 'translate(0, 0) scale(0.98)';
+
       requestAnimationFrame(() => {
         const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
         backdrop.classList.add('is-open');
         backdrop.setAttribute('aria-hidden','false');
         document.documentElement.style.overflow = 'hidden';
+
+        const DURATION = 520;
+        const EASE = 'cubic-bezier(0.22, 0.61, 0.36, 1)';
+
         const target = targetRect();
-        if (!reduced) clone.style.transition = 'all 450ms cubic-bezier(.2,.7,.2,1)';
+        if (!reduced) {
+          clone.style.transition = `
+            top ${DURATION}ms ${EASE},
+            left ${DURATION}ms ${EASE},
+            width ${DURATION}ms ${EASE},
+            height ${DURATION}ms ${EASE},
+            transform ${DURATION}ms ${EASE},
+            opacity 360ms ease-out,
+            box-shadow ${DURATION}ms ${EASE}
+          `;
+        }
+
         applyRect(clone.style, target);
-        clone.style.transform = 'translate(-50%, -50%)';
-        setTimeout(() => (clone.querySelector(FOCUSABLE) || close).focus({preventScroll:true}), reduced?0:220);
+        clone.style.transform = 'translate(-50%, -50%) scale(1)';
+        clone.style.opacity = '1';
+        clone.style.boxShadow = '0 24px 60px rgba(0,0,0,.55)';
+
+        setTimeout(() => (clone.querySelector(FOCUSABLE) || close).focus({preventScroll:true}), reduced?0:240);
       });
       openClone = clone;
       document.addEventListener('focus', trapFocus, true);
@@ -314,267 +625,340 @@
     function closeFly(){
       if (!openClone) return;
       const clone = openClone; const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      if (!reduced) clone.style.transition = 'all 420ms cubic-bezier(.2,.7,.2,1)';
-      setRect(clone.style, originRect); clone.style.transform = 'translate(0,0)';
+      const DURATION = 480;
+      const EASE = 'cubic-bezier(0.22, 0.61, 0.36, 1)';
+      if (!reduced) {
+        clone.style.transition = `
+          top ${DURATION}ms ${EASE},
+          left ${DURATION}ms ${EASE},
+          width ${DURATION}ms ${EASE},
+          height ${DURATION}ms ${EASE},
+          transform ${DURATION}ms ${EASE},
+          opacity 300ms ease-in,
+          box-shadow ${DURATION}ms ${EASE}
+        `;
+      }
+      setRect(clone.style, originRect);
+      clone.style.transform = 'translate(0,0) scale(0.985)';
+      clone.style.opacity = '0';
+      clone.style.boxShadow = '0 16px 40px rgba(0,0,0,.40)';
       backdrop.classList.remove('is-open'); backdrop.setAttribute('aria-hidden','true');
-      setTimeout(()=>{ clone.remove(); openClone=null; document.documentElement.style.overflow=''; document.removeEventListener('focus', trapFocus, true); if (lastFocusedEl?.focus) lastFocusedEl.focus({preventScroll:true}); }, reduced?0:420);
+      setTimeout(()=>{ clone.remove(); openClone=null; document.documentElement.style.overflow=''; document.removeEventListener('focus', trapFocus, true); if (lastFocusedEl?.focus) lastFocusedEl.focus({preventScroll:true}); }, reduced?0:480);
     }
     function trapFocus(e){ if (openClone && !openClone.contains(e.target)){ e.stopPropagation(); (openClone.querySelector(FOCUSABLE)||openClone).focus(); } }
     function setRect(s, r){ s.top=r.top+'px'; s.left=r.left+'px'; s.width=r.width+'px'; s.height=r.height+'px'; }
-    function applyRect(s, r){ s.top=r.top; s.left=r.left; s.width=r.width; s.height=r.height; }
-    function targetRect(){ const w=Math.min(900, innerWidth*0.9), h=Math.min(900, innerHeight*0.85); return { top:'50%', left:'50%', width:w+'px', height:h+'px' }; }
-
-  // ===== Leaflet (lecture seule) — version FR, ordre garanti =====
-  // 1) Crée la carte d'abord
-  const map = L.map('travel-map', {
-    zoomControl: false,
-    scrollWheelZoom: true,
-    worldCopyJump: true,
-    attributionControl: true
-  }).setView([36.2048, 138.2529], 5);
-
-  // 2) Tuiles OSM France (libellés FR)
-  L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
-    maxZoom: 20,
-    subdomains: 'abc',
-    attribution: 'Données cartographiques © contributeurs OpenStreetMap | Tuiles : OpenStreetMap France'
-  }).addTo(map);
-
-  // 3) Contrôles FR
-  L.control.zoom({ position: 'topleft', zoomInTitle: 'Zoomer', zoomOutTitle: 'Dézoomer' }).addTo(map);
-  L.control.scale({ metric: true, imperial: false, maxWidth: 200 }).addTo(map);
-
-  // 4) Panne 'emoji' au-dessus des overlays (sécurité visibilité)
-  //    (par défaut markerPane zIndex=600 ; on monte à 650)
-  const emojiPane = map.createPane('emojiPane');
-  emojiPane.style.zIndex = 650;
-
-  // 5) Catégories + calques
-  const CATS = {
-    city:     { label: 'Villes',    emoji: '🏙️' },
-    monument: { label: 'Monuments', emoji: '🏛️' },
-    activity: { label: 'Activités', emoji: '🎌' },
-    feeling:  { label: 'Ressenti',  emoji: '💭' },
-    book:     { label: 'Livres',    emoji: '📚' }
-  };
-  const VISIBLE_CATS = ['city','monument','activity'];
-  const categoryLayers = Object.fromEntries(VISIBLE_CATS.map(k => [k, L.layerGroup().addTo(map)]));
-
-  // 6) Icône emoji (dans notre pane dédié)
-  function emojiIcon(emoji='📍'){
-    return L.divIcon({
-      className: 'emoji-icon',
-      html: `<div class="emoji-pin" aria-hidden="true">${emoji}</div>`,
-      iconSize: [38, 44],
-      iconAnchor: [19, 40],
-      popupAnchor: [0, -32]
-    });
-  }
-
-  // 7) Liaison pin -> card
-  function openCardBySlug(slug) {
-    if (!slug) return;
-    const card = document.querySelector(`.mini-card[data-slug="${slug}"]`);
-    if (!card) return;
-    const scroller = card.closest('.scroll-card');
-    if (scroller) card.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
-    else card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    setTimeout(() => flyCard(card), 250);
-  }
-
-  // 8) Chargement markers.json
-  fetch('./markers.json', { cache: 'no-cache' })
-    .then(r => { console.log('[markers] HTTP', r.status); if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
-    .then(json => { console.log('[markers] payload', json); loadFrom(json); })
-    .catch(err => {
-      console.error('[markers] échec :', err);
-      // Seed test si fetch échoue
-      loadFrom({ items: [{ lat:35.6595, lng:139.7005, category:'city', emoji:'🏙️', day:'Jour 1', title:'Tokyo (seed)', desc:"Rien à l'heure actuelle", slug:'jour-1-tokyo' }] });
-    });
-
-  function loadFrom(json){
-    const items = (json && Array.isArray(json.items)) ? json.items : [];
-    console.log(`[markers] ${items.length} items`);
-    items.forEach((it, i) => {
-      if (typeof it.lat !== 'number' || typeof it.lng !== 'number') {
-        console.warn('[markers] item ignoré (lat/lng invalides):', it);
-        return;
-      }
-      const rawCat = it.category || 'city';
-      const cat = (rawCat === 'temple') ? 'monument' : rawCat;
-      const marker = L.marker([it.lat, it.lng], {
-        icon: emojiIcon(it.emoji || (CATS[cat]?.emoji) || '📍'),
-        pane: 'emojiPane' // force le rendu au-dessus
-      });
-
-      const popup = renderPopup(it, cat);
-      marker.bindPopup(popup, { closeButton: true });
-      if (categoryLayers[cat]) {
-        categoryLayers[cat].addLayer(marker);
-      }
-
-      console.log(`[markers] OK -> #${i+1}`, it.title || '(sans titre)');
-    });
-    if (items.length) fitToMarkers();
-  }
-
-  function renderPopup(it, cat){
-    const wrap = document.createElement('div');
-    const t = (it.title || "Rien à l'heure actuelle");
-    const d = (it.desc  || "Rien à l'heure actuelle");
-    const slug = it.slug;
-
-    wrap.innerHTML = `
-      <strong style="display:block;margin-bottom:4px">${(it.emoji||'📍')} ${escapeHtml(t)}</strong>
-      ${it.day ? `<div style="color:#bbb;">${escapeHtml(it.day)}</div>` : ''}
-      <div style="color:#ccc;white-space:pre-wrap">${escapeHtml(d)}</div>
-      <div style="margin-top:8px;font-size:.85rem;color:#bbb">Catégorie : ${CATS[it.category]?.emoji || ''} ${CATS[it.category]?.label || it.category || cat}</div>
-      ${slug ? `<div style="margin-top:10px"><button type="button" class="goto-card" style="border:1px solid rgba(255,255,255,.14);background:#222;color:#fff;padding:6px 10px;border-radius:8px;cursor:pointer">Voir la carte →</button></div>` : ''}
-    `;
-
-    if (slug) {
-      wrap.querySelector('.goto-card').addEventListener('click', () => {
-        map.closePopup();
-        openCardBySlug(slug);
-      });
-    }
-    return wrap;
-  }
-
-  function escapeHtml(str=''){ return str.replace(/[&<>\"]/g, s => ({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[s])); }
-  function fitToMarkers(){ const b=L.latLngBounds([]); for (const g of Object.values(categoryLayers)) g.eachLayer(m=>{ if(m.getLatLng) b.extend(m.getLatLng()); }); if (b.isValid()) map.fitBounds(b.pad(0.2)); }
-
-  // 9) Filtres lecture seule (restent inchangés)
-  document.querySelectorAll('#filters input[type="checkbox"]').forEach(cb => {
-    const cat = cb.dataset.cat; const group = categoryLayers[cat];
-    cb.addEventListener('change', () => { cb.checked ? map.addLayer(group) : map.removeLayer(group); });
-  });
-
-  // (le reste de ton code map : CATS, categoryLayers, emojiIcon, fetch/loadFrom, renderPopup, etc.)
-
-    // --- Helpers pour lier pin -> card ---
-    function openCardBySlug(slug) {
-      if (!slug) return;
-      const card = document.querySelector(`.mini-card[data-slug="${slug}"]`);
-      if (!card) return;
-      // scroll jusqu’à la card (dans le scroller horizontal si présent)
-      const scroller = card.closest('.scroll-card');
-      if (scroller) {
-        card.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
-      } else {
-        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }
-      // ouvre la fly-card après un court délai
-      setTimeout(() => flyCard(card), 250);
-    }
-
-    // --- Charge markers.json ---
-    fetch('./markers.json', { cache: 'no-cache' })
-      .then(r => {
-        console.log('[markers] HTTP status =', r.status, r.url);
-        if (!r.ok) throw new Error(`HTTP ${r.status}`);
-        return r.json();
-      })
-      .then(json => {
-        console.log('[markers] payload =', json);
-        loadFrom(json);
-      })
-      .catch(err => {
-        console.error('[markers] échec de chargement :', err);
-        // Seed de secours si fetch échoue (pour test)
-        loadFrom({
-          items: [{
-            lat: 35.6595, lng: 139.7005,
-            category: 'city', emoji: '🏙️',
-            title: "Tokyo (seed)", desc: "Rien à l'heure actuelle", slug: "jour-1-tokyo"
-          }]
-        });
-      });
-
-    function loadFrom(json){
-      const items = (json && Array.isArray(json.items)) ? json.items : [];
-      console.log(`[markers] ${items.length} items`);
-      items.forEach((it, i) => {
-        if (typeof it.lat !== 'number' || typeof it.lng !== 'number') {
-          console.warn('[markers] item ignoré (lat/lng invalides):', it);
-          return;
-        }
-        const rawCat = it.category || 'city';
-        const cat = (rawCat === 'temple') ? 'monument' : rawCat;
-        const m = L.marker([it.lat, it.lng], {
-          icon: emojiIcon(it.emoji || (CATS[cat]?.emoji) || '📍')
-        });
-
-        // Popup avec bouton pour ouvrir la card liée
-        const popup = renderPopup(it, cat);
-        m.bindPopup(popup, { closeButton: true });
-
-        if (categoryLayers[cat]) {
-          categoryLayers[cat].addLayer(m);
-        }
-        console.log(`[markers] OK -> #${i+1}`, it.title || '(sans titre)');
-      });
-      if (items.length) fitToMarkers();
-    }
-
-    function renderPopup(it, cat){
-      const wrap = document.createElement('div');
-      const t = (it.title || "Rien à l'heure actuelle");
-      const d = (it.desc  || "Rien à l'heure actuelle");
-      const slug = it.slug;
-
-      wrap.innerHTML = `
-        <strong style="display:block;margin-bottom:4px">${(it.emoji||'📍')} ${escapeHtml(t)}</strong>
-        ${it.day ? `<div style="color:#bbb;">${escapeHtml(it.day)}</div>` : ''}
-        <div style="color:#ccc;white-space:pre-wrap">${escapeHtml(d)}</div>
-        <div style="margin-top:8px;font-size:.85rem;color:#bbb">Catégorie : ${CATS[it.category]?.emoji || ''} ${CATS[it.category]?.label || it.category || cat}</div>
-        ${slug ? `<div style="margin-top:10px"><button type="button" class="goto-card" style="border:1px solid rgba(255,255,255,.14);background:#222;color:#fff;padding:6px 10px;border-radius:8px;cursor:pointer">Voir la carte →</button></div>` : ''}
-      `;
-
-      if (slug) {
-        wrap.querySelector('.goto-card').addEventListener('click', () => {
-          map.closePopup();
-          openCardBySlug(slug);
-        });
-      }
-      return wrap;
-    }
-
-    function escapeHtml(str=''){ return str.replace(/[&<>\"]/g, s => ({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[s])); }
-    function fitToMarkers(){ const b=L.latLngBounds([]); for (const g of Object.values(categoryLayers)) g.eachLayer(m=>{ if(m.getLatLng) b.extend(m.getLatLng()); }); if (b.isValid()) map.fitBounds(b.pad(0.2)); }
-
-    // Filtres lecture seule (radios)
-    document.querySelectorAll('#filters input[type="radio"]').forEach(rb => {
-      const cat = rb.dataset.cat;
-      rb.addEventListener('change', () => {
-        if (!rb.checked) return;
-        // retire tous les calques
-        Object.values(categoryLayers).forEach(g => { try { map.removeLayer(g); } catch(e){} });
-        // ajoute le calque choisi
-        const group = categoryLayers[cat];
-        if (group) map.addLayer(group);
-      });
-    });
-
-    // Appliquer l'état initial (radio sélectionné)
-    (function(){
-      const selected = document.querySelector('#filters input[type="radio"]:checked');
-      if (!selected) return;
-      Object.values(categoryLayers).forEach(g => { try { map.removeLayer(g); } catch(e){} });
-      const group = categoryLayers[selected.dataset.cat];
-      if (group) map.addLayer(group);
-    })();
-
-    // -- Aligner l'ordre des boutons sur les cards (Villes, Monuments, Activités)
-    (function(){
-      const desiredOrder = ['city','monument','activity'];
-      const container = document.getElementById('filters');
-      if (!container) return;
-      const pairs = Array.from(container.querySelectorAll('.chip'))
-        .map(ch => [ch.querySelector('input')?.dataset.cat, ch]);
-      const byCat = new Map(pairs);
-      desiredOrder.forEach(cat => { const chip = byCat.get(cat); if (chip) container.appendChild(chip); });
-    })();
+    function applyRect(s, r){ s.top=r.top; s.left=r.left; s.width=r.width+'px'; s.height=r.height+'px'; }
+    function targetRect(){ const w=Math.min(900, innerWidth*0.9), h=Math.min(900, innerHeight*0.85); return { top:'50%', left:'50%', width:w, height:h }; }
   </script>
+
+<!-- =================== Google Maps : route animée (smooth + progress bar + zoom final Japon) =================== -->
+<script>
+  /* Timeline totale: 15s
+     0: Cherbourg → Paris (train) 4.0 s
+     1: Pause Paris               0.4 s
+     2: Paris → Pékin  (avion)    7.0 s
+     3: Pékin → Tokyo  (avion)    3.6 s
+  */
+  const CUSTOM_ROUTE = [
+    { name:'Cherbourg-en-Cotentin', lat:49.639,  lng:-1.623,  mode:'train' },
+    { name:'Paris',                  lat:48.8566, lng:  2.3522, mode:'plane' },
+    { name:'Pékin',                  lat:39.9042, lng:116.4074, mode:'plane' },
+    { name:'Tokyo',                  lat:35.6895, lng:139.6917, mode:'arrival' }
+  ];
+  const TOTAL_DURATION = 15000;
+  const TL_FRAC = [0.2666667, 0.0266667, 0.4666667, 0.2400000]; // somme = 1
+
+  // Easing / Utils
+  const easeOutCubic   = t => 1 - Math.pow(1 - t, 3);
+  const easeInOutCubic = t => (t < .5) ? 4*t*t*t : 1 - Math.pow(-2*t+2,3)/2;
+  const clamp01 = v => Math.max(0, Math.min(1, v));
+  const lerp = (a,b,t)=> a + (b-a)*t;
+  const damp = (cur, target, lambda, dt) => cur + (target - cur) * (1 - Math.exp(-lambda * dt));
+  const dampAngle = (cur, target, lambda, dt) => {
+    let diff = ((target - cur + 180) % 360 + 360) % 360 - 180;
+    return cur + diff * (1 - Math.exp(-lambda * dt));
+  };
+  const fmtTime = (ms)=> {
+    const s = Math.round(ms/1000);
+    const mm = String(Math.floor(s/60)).padStart(2,'0');
+    const ss = String(s%60).padStart(2,'0');
+    return `${mm}:${ss}`;
+  };
+
+  // Zooms
+  const Z_START  = 6.0;
+  const Z_TRAIN  = 9.6;
+  const Z_FLIGHT = 3.5;
+  const Z_JAPAN  = 6.4; // 🔎 zoom pays (archipel)
+
+  // Flag anti-double init
+  window.__routeMapInitDone = false;
+
+  async function __doInitRouteMap(){
+    if (window.__routeMapInitDone) return;
+    window.__routeMapInitDone = true;
+
+    const { Map, Polyline } = await google.maps.importLibrary('maps');
+    const { AdvancedMarkerElement } = await google.maps.importLibrary('marker');
+    await google.maps.importLibrary('geometry');
+
+    const el = document.getElementById('route-map');
+    const START_CENTER = { lat: 47.5, lng: 5 };
+
+    const gmap = new Map(el, {
+      mapId: 'f60c984af47f9eb0883d6725',
+      center: START_CENTER,
+      zoom: Z_START,
+      gestureHandling: 'greedy',
+      backgroundColor: '#0f0f0f',
+      mapTypeControl: false,
+      fullscreenControl: false,
+      streetViewControl: false,
+      zoomControl: true
+    });
+
+    const coords = CUSTOM_ROUTE.map(s => ({ lat: s.lat, lng: s.lng }));
+
+    // Ligne guide animée + glow + ligne de progression
+    const dashSymbol = { path:'M 0,-1 0,1', strokeOpacity:0.5, strokeWeight:2, scale:3, strokeColor:'#ffffff' };
+    const guide = new Polyline({ path: coords, geodesic:true, strokeOpacity:0, map:gmap, icons:[{icon:dashSymbol, offset:'0', repeat:'16px'}], clickable:false });
+    let guideAnimId = null, guideOffset = 0;
+    const animateGuide = () => { guideOffset=(guideOffset+1)%32; guide.set('icons',[{icon:dashSymbol, offset:`${guideOffset}px`, repeat:'16px'}]); guideAnimId=requestAnimationFrame(animateGuide); };
+
+    const glow = new Polyline({ path: coords, geodesic:true, strokeColor:'#ff6b6b', strokeOpacity:0.28, strokeWeight:10, map:gmap, clickable:false });
+    const line = new Polyline({ path: [coords[0]], geodesic:true, strokeColor:'#ff5555', strokeOpacity:1, strokeWeight:4, map:gmap, clickable:false });
+
+    // Étapes numérotées
+    coords.forEach((pos,i)=>{
+      const div = document.createElement('div'); div.className='emoji-pin'; div.style.borderColor='rgba(255,255,255,.35)';
+      div.innerHTML = `<strong style="font-size:14px">${i+1}</strong>`;
+      new AdvancedMarkerElement({ map:gmap, position:pos, content:div, title:`Étape ${i+1} – ${CUSTOM_ROUTE[i].name}` });
+    });
+
+    // Véhicules (train + avion)
+    const trainEl = document.createElement('div');
+    trainEl.className = 'route-vehicle';
+    trainEl.innerHTML = `
+      <svg viewBox="0 0 64 64" aria-hidden="true">
+        <defs><linearGradient id="gradTrain" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#cfe7ff"/></linearGradient></defs>
+        <path d="M32 4c5 0 10 2 13 5 5 5 5 13 5 20v8c0 3-2 5-5 6l-4 1v6h4a2 2 0 110 4H19a2 2 0 110-4h4v-6l-4-1c-3-1-5-3-5-6v-8c0-7 0-15 5-20 3-3 8-5 13-5z" fill="url(#gradTrain)"/>
+        <rect x="22" y="14" width="20" height="10" rx="2" fill="#1b6dff" opacity=".85"/>
+        <rect x="20" y="28" width="24" height="8" rx="2" fill="#555"/>
+        <circle cx="24" cy="52" r="3" fill="#444"/><circle cx="40" cy="52" r="3" fill="#444"/>
+      </svg>`;
+    const trainMarker = new google.maps.marker.AdvancedMarkerElement({ map:gmap, position:coords[0], content:trainEl, zIndex:1000 });
+
+    const planeEl = document.createElement('div');
+    planeEl.className = 'route-vehicle is-hidden';
+    planeEl.innerHTML = `
+      <svg viewBox="0 0 64 64" aria-hidden="true">
+        <defs><linearGradient id="gradPlane" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffb3b3"/></linearGradient></defs>
+        <path d="M32 2c2.2 0 3.2 6.8 4.2 12.1l2.6 13.2 16.8 8.1c2.1 1 .9 3.6-1.3 3.2L39.7 36l1.7 12.2c.3 2-1.3 3.6-3.2 3L32 48l-6.2 3.2c-1.9 .6-3.5-1-3.2-3L24 36l-14.6 2.6c-2.2 .4-3.4-2.1-1.3-3.2l16.8-8.1 2.6-13.2C28.8 8.8 29.8 2 32 2z" fill="url(#gradPlane)"/>
+        <rect x="28" y="20" width="8" height="10" rx="2" ry="2" fill="#ff5555" opacity="0.9"/>
+      </svg>`;
+    const planeMarker = new google.maps.marker.AdvancedMarkerElement({ map:gmap, position:coords[1], content:planeEl, zIndex:1000 });
+
+    // Distances cumulées
+    const segLen=[], cumLen=[0];
+    for (let i=0;i<coords.length-1;i++){
+      const a = new google.maps.LatLng(coords[i]);
+      const b = new google.maps.LatLng(coords[i+1]);
+      const d = google.maps.geometry.spherical.computeDistanceBetween(a,b);
+      segLen.push(d); cumLen.push((cumLen[i]??0)+d);
+    }
+    function pathAtDistance(d){
+      if (d<=0) return [coords[0]];
+      const out=[coords[0]];
+      let rem=d, i=0;
+      while (i<segLen.length && rem>segLen[i]){ out.push(coords[i+1]); rem-=segLen[i]; i++; }
+      if (i<segLen.length){
+        const a = new google.maps.LatLng(coords[i]);
+        const b = new google.maps.LatLng(coords[i+1]);
+        const f = segLen[i] ? (rem/segLen[i]) : 0;
+        const interp = google.maps.geometry.spherical.interpolate(a,b,f);
+        out.push(interp);
+      }
+      return out;
+    }
+
+    // Caméra amortie + orientation
+    const cam = { lat: START_CENTER.lat, lng: START_CENTER.lng, zoom: Z_START };
+    let heading = 0;
+    function setVehiclePositionSmooth(markerEl, marker, from, to, dt){
+      marker.position = to;
+      const desired = google.maps.geometry.spherical.computeHeading(from, to);
+      if (isFinite(desired)){
+        heading = dampAngle(heading, desired, 8.0, dt);
+        markerEl.style.transform = `rotate(${heading}deg)`;
+        markerEl.style.setProperty('--keep-rot', `${heading}deg`);
+      }
+    }
+    function showTrain(){ if (!trainMarker.map) trainMarker.map = gmap; trainEl.classList.remove('is-hidden'); }
+    function hideTrain(){ trainEl.classList.add('is-hidden'); trainEl.addEventListener('transitionend',()=>{ trainMarker.map=null; }, { once:true }); }
+    function showPlane(){ if (!planeMarker.map) planeMarker.map = gmap; planeEl.classList.remove('is-hidden'); }
+    function hidePlane(){ planeEl.classList.add('is-hidden'); planeEl.addEventListener('transitionend',()=>{ planeMarker.map=null; }, { once:true }); }
+
+    // ===== Progress bar DOM
+    const STOP_POS = [0, TL_FRAC[0], TL_FRAC[0]+TL_FRAC[1]+TL_FRAC[2], 1];
+    const fillEl = document.getElementById('route-progress-fill');
+    const timeEl = document.getElementById('route-progress-time');
+    const stopsEls = Array.from(document.querySelectorAll('#route-progress-stops .stop'));
+    function activeStopIndex(p){ let idx=0; for (let i=0;i<STOP_POS.length;i++){ if (p+1e-6>=STOP_POS[i]) idx=i; } return idx; }
+    function setProgress(global01, elapsedMs){
+      const p = clamp01(global01);
+      if (fillEl) fillEl.style.width = (p*100)+'%';
+      if (timeEl) timeEl.textContent = `${fmtTime(elapsedMs)} / ${fmtTime(TOTAL_DURATION)}`;
+      if (stopsEls.length){
+        const a = activeStopIndex(p);
+        stopsEls.forEach((el,i)=>{
+          el.classList.toggle('is-passed', p >= STOP_POS[i]-1e-6);
+          el.classList.toggle('is-active', i === a);
+        });
+      }
+    }
+
+    // 🔎 Zoom final sur le Japon (après l'arrivée)
+    function focusOnJapan(center = { lat: 36.2048, lng: 138.2529 }, zoom = Z_JAPAN, ms = 2400){
+      const startC = gmap.getCenter().toJSON();
+      const startZ = gmap.getZoom() ?? cam.zoom ?? Z_START;
+      const t0 = performance.now();
+
+      const stepZoom = (now)=>{
+        const t = Math.min(1, (now - t0) / ms);
+        const e = easeInOutCubic(t);
+        const cLat = lerp(startC.lat, center.lat, e);
+        const cLng = lerp(startC.lng, center.lng, e);
+        const z    = lerp(startZ, zoom, e);
+        gmap.moveCamera({ center: { lat: cLat, lng: cLng }, zoom: z });
+        if (t < 1) requestAnimationFrame(stepZoom);
+      };
+      requestAnimationFrame(stepZoom);
+    }
+
+    // Timeline
+    const tDur = TL_FRAC.map(f => f * TOTAL_DURATION);
+    const tCum = [0, tDur[0], tDur[0]+tDur[1], tDur[0]+tDur[2]+tDur[1], TOTAL_DURATION];
+    let raf=null, currentTL=-1;
+
+    function onTLChange(i){
+      currentTL = i;
+      if (i === 0){ showTrain(); hidePlane(); }
+      else if (i === 1){ hideTrain(); showPlane(); planeMarker.position = coords[1]; }
+      else { hideTrain(); showPlane(); }
+    }
+
+    function animateRoute(duration = TOTAL_DURATION){
+      cancelAnimationFrame(raf);
+      line.setPath([coords[0]]);
+      heading = 0;
+
+      planeEl.classList.add('is-hidden'); planeMarker.map=null;
+      trainMarker.map=gmap; trainEl.classList.remove('is-hidden');
+
+      // repart de l’état réel de la caméra
+      const c0 = gmap.getCenter().toJSON();
+      cam.lat = c0.lat; cam.lng = c0.lng; cam.zoom = gmap.getZoom() ?? Z_START;
+
+      // reset UI
+      setProgress(0, 0);
+
+      const t0 = performance.now();
+      let last = t0;
+
+      const step = (now)=>{
+        const elapsed = Math.min(now - t0, duration);
+        const dt = Math.min((now - last)/1000, 0.05); last = now;
+
+        // phase
+        let tl = 0;
+        if (elapsed >= tCum[3]) tl = 3;
+        else if (elapsed >= tCum[2]) tl = 2;
+        else if (elapsed >= tCum[1]) tl = 1;
+        if (tl !== currentTL) onTLChange(tl);
+
+        // progression locale
+        const segStart = tCum[tl], segEnd = tCum[tl+1];
+        const segT = (segEnd > segStart) ? (elapsed - segStart) / (segEnd - segStart) : 1;
+        const pLocal = easeOutCubic(clamp01(segT));
+
+        // distance parcourue
+        let dist;
+        if (tl === 0) dist = cumLen[0] + pLocal * segLen[0];
+        else if (tl === 1) dist = cumLen[1];
+        else if (tl === 2) dist = cumLen[1] + pLocal * segLen[1];
+        else dist = cumLen[2] + pLocal * segLen[2];
+
+        // mise à jour du tracé
+        const subPath = pathAtDistance(dist);
+        line.setPath(subPath);
+        const cur = subPath[subPath.length-1];
+        const prevLL = subPath.length > 1 ? subPath[subPath.length-2] : subPath[0];
+
+        // véhicule
+        if (tl === 0) setVehiclePositionSmooth(trainEl, trainMarker, prevLL, cur, dt);
+        else          setVehiclePositionSmooth(planeEl,  planeMarker,  prevLL, cur, dt);
+
+        // cible caméra + zoom
+        const centerTarget = (cur.lat && cur.lng)
+          ? (typeof cur.lat === 'function' ? { lat: cur.lat(), lng: cur.lng() } : { lat: cur.lat, lng: cur.lng })
+          : gmap.getCenter().toJSON();
+
+        let desiredZ;
+        if (tl === 0){
+          const zt = easeInOutCubic(Math.min(segT * 1.1, 1));
+          desiredZ = lerp(Z_START, Z_TRAIN, zt);
+        } else if (tl === 1){
+          desiredZ = lerp(Z_TRAIN, Z_FLIGHT, easeInOutCubic(segT));
+        } else {
+          desiredZ = Z_FLIGHT;
+        }
+
+        // amortisage (pas de saut de zoom)
+        cam.lat  = damp(cam.lat,  centerTarget.lat,  6.0, dt);
+        cam.lng  = damp(cam.lng,  centerTarget.lng,  6.0, dt);
+        cam.zoom = damp(cam.zoom, desiredZ,         5.0, dt);
+
+        gmap.moveCamera({ center: { lat: cam.lat, lng: cam.lng }, zoom: cam.zoom });
+
+        // UI progression
+        setProgress(elapsed / duration, elapsed);
+
+        if (elapsed < duration){
+          raf = requestAnimationFrame(step);
+        } else {
+          planeMarker.position = coords[coords.length-1];
+          setProgress(1, duration);
+          hidePlane();
+
+          // 🔎 Zoom doux sur l'archipel japonais après l'arrivée
+          focusOnJapan({ lat: 36.2048, lng: 138.2529 }, Z_JAPAN, 2400);
+        }
+      };
+      raf = requestAnimationFrame(step);
+    }
+
+    animateGuide();
+    animateRoute();
+    document.getElementById('route-replay')?.addEventListener('click', ()=> animateRoute(TOTAL_DURATION));
+    window.addEventListener('beforeunload', ()=>{ cancelAnimationFrame(guideAnimId); cancelAnimationFrame(raf); });
+  }
+
+  // Expose la callback demandée par le script Google
+  window.initRouteMap = function initRouteMap(){ __doInitRouteMap().catch(console.error); };
+
+  // Fallback au cas où le callback n'est pas appelé (ordre de chargement)
+  (function ensureGMapInit(){
+    let tries = 0;
+    const iv = setInterval(()=>{
+      if (window.google && google.maps && typeof __doInitRouteMap === 'function'){
+        clearInterval(iv); __doInitRouteMap().catch(()=>{});
+      }
+      if (++tries > 60) clearInterval(iv);
+    }, 250);
+  })();
+</script>
+<!-- Google Maps (async + defer + callback) -->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6dRG5nFFMMfX0rtZtYuYqOsTbKIgmR_g&v=weekly&libraries=marker,geometry&callback=initRouteMap&map_ids=f60c984af47f9eb0883d6725"></script>
+
 </body>
 </html>

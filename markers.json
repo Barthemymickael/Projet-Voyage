@@ -6,7 +6,6 @@
     { "lat": 34.9671, "lng": 135.7727, "category": "temple",  "emoji": "⛩️", "title": "Jour 3 – Fushimi Inari",    "desc": "Rien à l’heure actuelle", "slug": "jour-3-fushimi-inari" },
     { "lat": 35.0116, "lng": 135.7681, "category": "activity","emoji": "🎌", "title": "Jour 4 – Cérémonie du thé", "desc": "Rien à l’heure actuelle", "slug": "jour-4-ceremonie-the" },
     { "lat": 35.6895, "lng": 139.6917, "category": "feeling", "emoji": "💭", "title": "Jour 5 – Choc culturel",     "desc": "Rien à l’heure actuelle", "slug": "jour-5-choc-culturel" },
-    { "lat": 35.6762, "lng": 139.6503, "category": "sport",   "emoji": "🏃", "title": "Jour 6 – Marche à Tokyo",    "desc": "Rien à l’heure actuelle", "slug": "jour-6-marche-tokyo" },
-    { "lat": 35.0394, "lng": 135.7292, "category": "book",    "emoji": "📚", "title": "Jour 7 – Mishima",           "desc": "Rien à l’heure actuelle", "slug": "jour-7-mishima" }
+    { "lat": 35.6762, "lng": 139.6503, "category": "sport",   "emoji": "🏃", "title": "Jour 6 – Marche à Tokyo",    "desc": "Rien à l’heure actuelle", "slug": "jour-6-marche-tokyo" }
   ]
 }
