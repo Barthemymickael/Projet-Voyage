@@ -25,7 +25,7 @@ import * as L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
 /* ====================================================================================
-   Données (markers + programme du jour + cartes)
+   Données (markers + programme du jour + cartes) — VERSION CORÉE DU SUD
 ==================================================================================== */
 type MarkerItem = {
   lat: number;
@@ -39,19 +39,83 @@ type MarkerItem = {
 };
 
 const MARKERS: MarkerItem[] = [
-  { lat: 35.6595, lng: 139.7005, category: "city",    emoji: "🏙️", title: "Jour 1 – Tokyo",            desc: "Rien à l’heure actuelle", slug: "jour-1-tokyo" },
-  { lat: 35.7148, lng: 139.7967, category: "temple",  emoji: "⛩️", title: "Jour 2 – Asakusa",          desc: "Rien à l’heure actuelle", slug: "jour-2-asakusa" },
-  { lat: 34.9671, lng: 135.7727, category: "temple",  emoji: "⛩️", title: "Jour 3 – Fushimi Inari",    desc: "Rien à l’heure actuelle", slug: "jour-3-fushimi-inari" },
-  { lat: 35.0116, lng: 135.7681, category: "activity",emoji: "🎌", title: "Jour 4 – Cérémonie du thé", desc: "Rien à l’heure actuelle", slug: "jour-4-ceremonie-the" },
-  { lat: 35.6895, lng: 139.6917, category: "feeling", emoji: "💭", title: "Jour 5 – Choc culturel",     desc: "Rien à l’heure actuelle", slug: "jour-5-choc-culturel" },
-  { lat: 35.6762, lng: 139.6503, category: "sport",   emoji: "🏃", title: "Jour 6 – Marche à Tokyo",    desc: "Rien à l’heure actuelle", slug: "jour-6-marche-tokyo" },
-  { lat: 35.0394, lng: 135.7292, category: "book",    emoji: "📚", title: "Jour 7 – L’Idiot — Dostoïevski", desc: "Résumé : ...", slug: "jour-7-l-idiot" },
+  {
+    lat: 37.5665,
+    lng: 126.9780,
+    category: "city",
+    emoji: "🏙️",
+    title: "Jour 1 – Séoul (Centre-ville)",
+    desc: "Rien à l’heure actuelle",
+    slug: "jour-1-seoul-centre",
+  },
+  {
+    lat: 37.5796,
+    lng: 126.9770,
+    category: "temple",
+    emoji: "🏯",
+    title: "Jour 2 – Palais Gyeongbokgung",
+    desc: "Rien à l’heure actuelle",
+    slug: "jour-2-gyeongbokgung",
+  },
+  {
+    lat: 37.5704,
+    lng: 126.9868,
+    category: "activity",
+    emoji: "🛍️",
+    title: "Jour 3 – Quartier d’Insadong",
+    desc: "Rien à l’heure actuelle",
+    slug: "jour-3-insadong",
+  },
+  {
+    lat: 37.5349,
+    lng: 126.9944,
+    category: "activity",
+    emoji: "🌉",
+    title: "Jour 4 – Namsan Tower & vues de nuit",
+    desc: "Rien à l’heure actuelle",
+    slug: "jour-4-namsan",
+  },
+  {
+    lat: 35.1796,
+    lng: 129.0756,
+    category: "city",
+    emoji: "🌊",
+    title: "Jour 5 – Busan (plage de Haeundae)",
+    desc: "Rien à l’heure actuelle",
+    slug: "jour-5-busan",
+  },
+  {
+    lat: 35.8562,
+    lng: 129.2247,
+    category: "temple",
+    emoji: "⛩️",
+    title: "Jour 6 – Gyeongju, temples & tombeaux",
+    desc: "Rien à l’heure actuelle",
+    slug: "jour-6-gyeongju",
+  },
+  {
+    lat: 33.4996,
+    lng: 126.5312,
+    category: "book",
+    emoji: "📚",
+    title: "Jour 7 – Jeju & lecture sur la péninsule",
+    desc: "Résumé : ...",
+    slug: "jour-7-jeju-lecture",
+  },
 ];
 
 type DayLog = { date: string; place?: string; done?: string[] };
 const DAYLOG: DayLog[] = [
-  { date: "2025-10-30", place: "Kyoto — Gion", done: ["Balade au quartier traditionnel", "Gyôza au marché de Nishiki"] },
-  { date: "2025-10-31", place: "Shibuya, Tokyo", done: ["Passage à Shibuya Crossing", "Lecture : L'Idiot (2 chapitres)"] },
+  {
+    date: "2025-10-30",
+    place: "Séoul — Hongdae",
+    done: ["Balade dans les rues animées", "K-BBQ tardif dans une petite rue"],
+  },
+  {
+    date: "2025-10-31",
+    place: "Busan — Haeundae",
+    done: ["Marche le long de la plage", "Lecture : quelques pages d’un roman coréen"],
+  },
 ];
 
 /* Jeu de cartes pour les scrollers (utilise les slug des markers) */
@@ -62,13 +126,54 @@ type MiniCard = {
   img?: string;
   day?: string;
 };
+
 const CARDS: MiniCard[] = [
-  { slug: "jour-1-tokyo", title: "Rien à l'heure actuelle", text: "Rien à l'heure actuelle", img: "/images/tokyo.png", day: "Jour 1" },
-  { slug: "jour-3-fushimi-inari", title: "Rien à l'heure actuelle", text: "Rien à l'heure actuelle", img: "/images/fushimi.jpg", day: "Jour 1" },
-  { slug: "jour-4-ceremonie-the", title: "Rien à l'heure actuelle", text: "Rien à l'heure actuelle", img: "/images/ceremonie.jpg", day: "Jour 1" },
-  { slug: "jour-5-choc-culturel", title: "Rien à l'heure actuelle", text: "Rien à l'heure actuelle", img: "/images/ressenti.jpg", day: "Jour 1" },
-  { slug: "jour-6-marche-tokyo", title: "Rien à l'heure actuelle", text: "Rien à l'heure actuelle", img: "/images/marche.jpg" },
-  { slug: "jour-7-l-idiot", title: "L'Idiot — F. Dostoïevski (1869)", text: "La bonté peut-elle survivre ?", img: "/images/lidiot.jpg" },
+  {
+    slug: "jour-1-seoul-centre",
+    title: "Rien à l'heure actuelle",
+    text: "Rien à l'heure actuelle",
+    img: "/images/seoul-centre.jpg",
+    day: "Jour 1",
+  },
+  {
+    slug: "jour-2-gyeongbokgung",
+    title: "Rien à l'heure actuelle",
+    text: "Rien à l'heure actuelle",
+    img: "/images/gyeongbokgung.jpg",
+    day: "Jour 2",
+  },
+  {
+    slug: "jour-3-insadong",
+    title: "Rien à l'heure actuelle",
+    text: "Rien à l'heure actuelle",
+    img: "/images/insadong.jpg",
+    day: "Jour 3",
+  },
+  {
+    slug: "jour-4-namsan",
+    title: "Rien à l'heure actuelle",
+    text: "Rien à l'heure actuelle",
+    img: "/images/namsan.jpg",
+    day: "Jour 4",
+  },
+  {
+    slug: "jour-5-busan",
+    title: "Rien à l'heure actuelle",
+    text: "Rien à l'heure actuelle",
+    img: "/images/busan-haeundae.jpg",
+  },
+  {
+    slug: "jour-6-gyeongju",
+    title: "Rien à l'heure actuelle",
+    text: "Rien à l'heure actuelle",
+    img: "/images/gyeongju.jpg",
+  },
+  {
+    slug: "jour-7-jeju-lecture",
+    title: "Lecture sur Jeju",
+    text: "Une île volcanique, du vent, et quelques lignes de littérature pour accompagner le bruit des vagues.",
+    img: "/images/jeju.jpg",
+  },
 ];
 
 /* ====================================================================================
@@ -142,8 +247,6 @@ function MagneticButton({ children, className = "", as = Button, disabled = fals
       style={{ x: dampX, y: dampY }}
       onMouseMove={disabled ? undefined : handleMove}
       onMouseLeave={disabled ? undefined : handleLeave}
-      // si tu veux bloquer TOUT interaction souris, décommente:
-      // className={disabled ? "pointer-events-none" : undefined}
     >
       <Comp
         ref={ref}
@@ -194,7 +297,7 @@ function TiltCard({ children, className = "" }: { children: React.ReactNode; cla
   );
 }
 
-/** Sakura en fond */
+/** Petales (reste 🌸, ça marche aussi en Corée) */
 function SakuraBackground() {
   const petals = Array.from({ length: 24 });
   return (
@@ -256,12 +359,10 @@ function Section({ id, title, kicker, children, className = "" }: any) {
 function QuickActions({ open, setOpen }: { open: boolean; setOpen: (v: boolean) => void }) {
   const links = [
     { id: "hero", label: "Aller au début (Hero)" },
-    { id: "parcours", label: "Parcours & moments forts" },
     { id: "timeline", label: "Chronologie (scroll story)" },
     { id: "galerie", label: "Galerie vivante" },
     { id: "journal", label: "Carnet de bord" },
     { id: "map", label: "Carte interactive" },
-    { id: "cards", label: "Villes / Monuments / Activités" },
     { id: "contact", label: "Contact & réseaux" },
   ];
 
@@ -274,24 +375,18 @@ function QuickActions({ open, setOpen }: { open: boolean; setOpen: (v: boolean) 
   return (
     <>
       <CommandDialog open={open} onOpenChange={setOpen as any}>
-        {/* input blanc + placeholder blanc atténué */}
         <CommandInput
           className="text-white placeholder:text-white/60"
           placeholder="Naviguer… (ex: galerie)"
         />
-
-        {/* tout le contenu en blanc */}
         <CommandList className="text-white">
           <CommandEmpty className="text-white/80">Aucun résultat.</CommandEmpty>
-
-          {/* heading passé en ReactNode pour le styler en blanc */}
           <CommandGroup heading={<span className="text-white/90">Sections</span>}>
             {links.map((l) => (
               <CommandItem
                 key={l.id}
                 value={l.label}
                 onSelect={() => go(l.id)}
-                // états visuels lisibles
                 className="text-white data-[selected=true]:bg-white/10 data-[selected=true]:text-white aria-selected:bg-white/10"
               >
                 {l.label}
@@ -301,9 +396,7 @@ function QuickActions({ open, setOpen }: { open: boolean; setOpen: (v: boolean) 
         </CommandList>
       </CommandDialog>
 
-      {/* Overrides ciblés pour la palette (cmdk) */}
       <style jsx global>{`
-        /* Forcer le texte en blanc à l'intérieur du dialog de commande */
         .cmdk-root,
         .cmdk-input,
         .cmdk-item,
@@ -313,7 +406,6 @@ function QuickActions({ open, setOpen }: { open: boolean; setOpen: (v: boolean) 
         .cmdk-input::placeholder {
           color: rgba(255, 255, 255, 0.6) !important;
         }
-        /* Surbrillance + focus visibles sur fond sombre */
         .cmdk-item[aria-selected="true"] {
           background: rgba(255, 255, 255, 0.10) !important;
         }
@@ -345,7 +437,6 @@ function ScrollRow({
         {title}
       </h3>
       <div className="grid auto-cols-[minmax(220px,280px)] grid-flow-col gap-4 overflow-x-auto px-1 pb-3 pt-1 [scrollbar-width:none] [-ms-overflow-style:none] snap-x snap-mandatory">
-        {/* hide scrollbar webkit */}
         <style>{`.grid::-webkit-scrollbar{display:none}`}</style>
         {items.map((it) => (
           <article
@@ -359,13 +450,22 @@ function ScrollRow({
             <div className="aspect-[16/10] w-full bg-neutral-900">
               {it.img ? (
                 // eslint-disable-next-line @next/next/no-img-element
-                <img src={it.img} alt={it.title} className="h-full w-full object-cover" onError={(e) => ((e.currentTarget.src = makePlaceholder()), (e.currentTarget.onerror = null))} />
+                <img
+                  src={it.img}
+                  alt={it.title}
+                  className="h-full w-full object-cover"
+                  onError={(e) => ((e.currentTarget.src = makePlaceholder()), (e.currentTarget.onerror = null))}
+                />
               ) : (
                 <div className="grid h-full place-items-center text-neutral-400">—</div>
               )}
             </div>
             <div className="p-4">
-              {it.day && <div className="inline-flex rounded-full border border-white/20 bg-black/20 px-2 py-0.5 text-xs backdrop-blur">{it.day}</div>}
+              {it.day && (
+                <div className="inline-flex rounded-full border border-white/20 bg-black/20 px-2 py-0.5 text-xs backdrop-blur">
+                  {it.day}
+                </div>
+              )}
               <h4 className="mt-2 text-base font-semibold">{it.title}</h4>
               <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-300">{it.text}</p>
             </div>
@@ -390,17 +490,15 @@ function FlyCardModal({ card, onClose }: { card: MiniCard | null; onClose: () =>
 
   useEffect(() => {
     if (!card) return;
-    // mémorise l'élément actif
+
     lastActiveRef.current = document.activeElement as HTMLElement | null;
 
     const root = contentRef.current;
-    const selector =
-      'a,button,input,select,textarea,[tabindex]:not([tabindex="-1"])';
+    const selector = 'a,button,input,select,textarea,[tabindex]:not([tabindex="-1"])';
     const focusables = root?.querySelectorAll<HTMLElement>(selector);
     const first = focusables?.[0];
     const last = focusables?.[focusables.length - 1];
 
-    // focus initial
     first?.focus();
 
     function onKey(e: KeyboardEvent) {
@@ -422,7 +520,6 @@ function FlyCardModal({ card, onClose }: { card: MiniCard | null; onClose: () =>
     document.addEventListener("keydown", onKey);
     return () => {
       document.removeEventListener("keydown", onKey);
-      // restitue le focus
       lastActiveRef.current?.focus?.();
     };
   }, [card, onClose]);
@@ -449,7 +546,6 @@ function FlyCardModal({ card, onClose }: { card: MiniCard | null; onClose: () =>
             transition={{ type: "spring", stiffness: 200, damping: 20 }}
             className="relative w-[min(92vw,900px)] max-h-[85vh] overflow-hidden rounded-3xl border border-white/10 bg-neutral-950 shadow-[0_24px_60px_rgba(0,0,0,.55)]"
           >
-            {/* header image */}
             <div className="aspect-[16/9] w-full bg-neutral-900">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src={card.img ?? makePlaceholder()} alt={card.title} className="h-full w-full object-cover" />
@@ -505,16 +601,14 @@ function useLeafletMap(
     activity: L.layerGroup(),
   });
 
-  // init once
   useEffect(() => {
     const el = ref.current;
     if (!el || mapRef.current) return;
 
-    // Map
-    const map = L.map(el, { zoomControl: true }).setView([36.2048, 138.2529], 5);
+    // Centre sur la Corée du Sud
+    const map = L.map(el, { zoomControl: true }).setView([36.5, 127.8], 6);
     mapRef.current = map;
 
-    // Tiles (OSM) + fallback dark Carto en cas d'erreur de tuile
     const osm = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 20,
       attribution: "© OpenStreetMap contributors",
@@ -532,11 +626,9 @@ function useLeafletMap(
       e.tile.src = url;
     });
 
-    // Pane pour émojis
     const emojiPane = map.createPane("emojiPane");
     emojiPane.style.zIndex = "650";
 
-    // Markers -> layers
     const groups = layersRef.current;
     const bounds = L.latLngBounds([]);
     items.forEach((it) => {
@@ -557,7 +649,6 @@ function useLeafletMap(
         pane: "emojiPane",
       });
 
-      // contenu popup: bouton "Voir la carte →" qui ouvre la modal liée au slug
       const popupEl = document.createElement("div");
       popupEl.innerHTML = `
         <div style="font-weight:600;margin-bottom:4px">${(it.emoji || "📍") + " "}${escapeHtml(it.title ?? "—")}</div>
@@ -577,7 +668,6 @@ function useLeafletMap(
       bounds.extend([it.lat, it.lng]);
     });
 
-    // Ajoute le layer actif et fit initial
     groups[activeCat].addTo(map);
     if (bounds.isValid()) map.fitBounds(bounds.pad(0.2));
 
@@ -585,24 +675,19 @@ function useLeafletMap(
       map.remove();
       mapRef.current = null;
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [ref, items]); // init uniquement
+  }, [ref, items, activeCat, onOpenCard]);
 
-  // toggle layers + fitBounds à chaque changement de catégorie
   useEffect(() => {
     const map = mapRef.current;
     if (!map) return;
     const groups = layersRef.current;
 
-    // remove all
     (Object.keys(groups) as VisibleCat[]).forEach((k) => {
       if (map.hasLayer(groups[k])) map.removeLayer(groups[k]);
     });
 
-    // add active
     groups[activeCat].addTo(map);
 
-    // fit bounds sur les markers de la catégorie
     const b = L.latLngBounds([]);
     groups[activeCat].eachLayer((l: any) => {
       if (l.getLatLng) b.extend(l.getLatLng());
@@ -616,16 +701,14 @@ function escapeHtml(str = "") {
 }
 
 /* ====================================================================================
-   Composant principal
+   Composant principal — VERSION CORÉE DU SUD
 ==================================================================================== */
-export default function JapanShowcase2025() {
+export default function KoreaShowcase2025() {
   const [dark, setDark] = useState(true);
   const [cmdOpen, setCmdOpen] = useState(false);
   const [images, setImages] = useState<string[]>(() => []);
-
   const [activeCard, setActiveCard] = useState<MiniCard | null>(null);
 
-  // Carte Leaflet
   const [activeCat, setActiveCat] = useState<VisibleCat>("city");
   const mapDivRef = useRef<HTMLDivElement>(null);
 
@@ -634,7 +717,6 @@ export default function JapanShowcase2025() {
     if (card) setActiveCard(card);
   });
 
-  // ⌘K
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
@@ -647,13 +729,11 @@ export default function JapanShowcase2025() {
     return () => window.removeEventListener("keydown", onKey);
   }, []);
 
-  // Hero parallax
   const { scrollYProgress } = useScroll();
   const yHero = useTransform(scrollYProgress, [0, 0.5], [0, -120]);
   const blurAmount = useTransform(scrollYProgress, [0, 0.3], [0, 6]);
   const blurFilter = useTransform(blurAmount, (b) => `blur(${b}px)`);
 
-  // Galerie drag/drop
   function onDropFiles(e: React.DragEvent<HTMLDivElement>) {
     e.preventDefault();
     const files = Array.from(e.dataTransfer.files || []).filter((f) => f.type.startsWith("image/"));
@@ -666,18 +746,24 @@ export default function JapanShowcase2025() {
     setImages((prev) => [...urls, ...prev]);
   }
 
-  // Thème
   useEffect(() => {
     document.documentElement.classList.toggle("dark", dark);
   }, [dark]);
 
-  // Galerie base
   const baseGallery = useMemo(
-    () => ["🗼 Tokyo", "⛩️ Kyoto", "🗻 Fuji", "🏯 Osaka", "🌸 Nara", "♨️ Hakone", "🎎 Nikko", "🌊 Kamakura"],
+    () => [
+      "🏙️ Séoul",
+      "🌊 Busan",
+      "🏯 Gyeongju",
+      "🌋 Jeju",
+      "🎶 Hongdae",
+      "🛍️ Myeongdong",
+      "🌉 Namsan",
+      "🍜 Ramen / K-BBQ",
+    ],
     []
   );
 
-  // Programme du jour
   const today = useMemo(() => {
     try {
       const iso = new Date().toLocaleDateString("en-CA", { timeZone: "Europe/Paris" });
@@ -699,8 +785,8 @@ export default function JapanShowcase2025() {
       <header className="sticky top-0 z-[70] border-b border-white/20 backdrop-blur supports-[backdrop-filter]:bg-white/40 dark:border-white/5 dark:supports-[backdrop-filter]:bg-neutral-900/40">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3">
           <div className="flex items-center gap-2">
-            <span className="text-2xl">🇯🇵</span>
-            <span className="font-semibold tracking-tight">Voyage au Japon — 2025</span>
+            <span className="text-2xl">🇰🇷</span>
+            <span className="font-semibold tracking-tight">Voyage en Corée du Sud — 2025</span>
             <Badge className="ml-3" variant="secondary">
               Mickaël
             </Badge>
@@ -733,15 +819,19 @@ export default function JapanShowcase2025() {
             </div>
             <h1 className="mt-5 text-4xl font-bold leading-tight tracking-tight sm:text-5xl md:text-6xl">
               <span className="bg-gradient-to-br from-pink-500 via-fuchsia-500 to-indigo-500 bg-clip-text text-transparent">
-                Japon
+                Corée du Sud
               </span>{" "}
               2025/2026
             </h1>
             <p className="mt-4 max-w-xl text-base/7 text-neutral-600 dark:text-neutral-300">
-              Une vitrine animée de mon périple : Mon PolarStep version plus personnelle
+              Une vitrine animée de mon périple en Corée : mon PolarStep version plus personnelle, entre Séoul, Busan, Jeju
+              et des nuits illuminées de néons.
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-3">
-              <MagneticButton as={Button} className="bg-neutral-900 text-white hover:bg-neutral-800 dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100">
+              <MagneticButton
+                as={Button}
+                className="bg-neutral-900 text-white hover:bg-neutral-800 dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100"
+              >
                 <Plane className="mr-2 h-4 w-4" /> Itinéraire
               </MagneticButton>
               <Button variant="outline" className="backdrop-blur">
@@ -750,7 +840,7 @@ export default function JapanShowcase2025() {
             </div>
             <div className="mt-8 flex items-center gap-3 text-sm text-neutral-500 dark:text-neutral-400">
               <Stars className="h-4 w-4" />
-              <span>Mon voyage pendant 6 mois, un mélange de Lock In et de flanerie</span>
+              <span>Un voyage mêlant travail, flânerie, K-cafés, rooftops, marchés de nuit et métros interminables.</span>
             </div>
           </motion.div>
 
@@ -762,18 +852,41 @@ export default function JapanShowcase2025() {
               className="relative aspect-[4/5] w-full overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-2xl ring-1 ring-black/5 backdrop-blur dark:bg-white/5"
             >
               <div className="absolute inset-0">
-                <motion.div className="absolute -left-10 -top-10 h-56 w-56 rounded-full bg-pink-500/30 blur-3xl" animate={{ y: [0, -10, 0] }} transition={{ repeat: Infinity, duration: 8 }} />
-                <motion.div className="absolute -bottom-8 -right-8 h-56 w-56 rounded-full bg-indigo-500/30 blur-3xl" animate={{ y: [0, 10, 0] }} transition={{ repeat: Infinity, duration: 7 }} />
+                <motion.div
+                  className="absolute -left-10 -top-10 h-56 w-56 rounded-full bg-pink-500/30 blur-3xl"
+                  animate={{ y: [0, -10, 0] }}
+                  transition={{ repeat: Infinity, duration: 8 }}
+                />
+                <motion.div
+                  className="absolute -bottom-8 -right-8 h-56 w-56 rounded-full bg-indigo-500/30 blur-3xl"
+                  animate={{ y: [0, 10, 0] }}
+                  transition={{ repeat: Infinity, duration: 7 }}
+                />
               </div>
               <div className="relative flex h-full flex-col items-center justify-center gap-5">
-                <motion.div initial={{ scale: 0.9, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 0.2 }} className="rounded-2xl bg-white/60 px-4 py-2 text-sm backdrop-blur dark:bg-neutral-900/60">
-                  <span className="mr-2">🗻</span> Fuji au lever du soleil
+                <motion.div
+                  initial={{ scale: 0.9, opacity: 0 }}
+                  animate={{ scale: 1, opacity: 1 }}
+                  transition={{ delay: 0.2 }}
+                  className="rounded-2xl bg-white/60 px-4 py-2 text-sm backdrop-blur dark:bg-neutral-900/60"
+                >
+                  <span className="mr-2">🏙️</span> Néons de Séoul à minuit
                 </motion.div>
-                <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.35 }} className="rounded-2xl bg-white/60 px-4 py-2 text-sm backdrop-blur dark:bg-neutral-900/60">
-                  <span className="mr-2">⛩️</span> Torii de Fushimi Inari
+                <motion.div
+                  initial={{ y: 20, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  transition={{ delay: 0.35 }}
+                  className="rounded-2xl bg-white/60 px-4 py-2 text-sm backdrop-blur dark:bg-neutral-900/60"
+                >
+                  <span className="mr-2">🌊</span> Busan et la mer qui cogne
                 </motion.div>
-                <motion.div initial={{ y: 30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.5 }} className="rounded-2xl bg-white/60 px-4 py-2 text-sm backdrop-blur dark:bg-neutral-900/60">
-                  <span className="mr-2">🌸</span> Hanami au parc d'Ueno
+                <motion.div
+                  initial={{ y: 30, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  transition={{ delay: 0.5 }}
+                  className="rounded-2xl bg-white/60 px-4 py-2 text-sm backdrop-blur dark:bg-neutral-900/60"
+                >
+                  <span className="mr-2">🌋</span> Jeju, le vent et les falaises
                 </motion.div>
               </div>
             </motion.div>
@@ -781,53 +894,21 @@ export default function JapanShowcase2025() {
         </div>
       </section>
 
-      {/* Parcours 
-      <Section id="parcours" kicker="Itinéraire" title="Moments forts & sensations">
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
-          {[
-            { icon: <Landmark className="h-5 w-5" />, title: "Kyoto — sanctuaires", text: "Des milliers de torii, la quiétude du matin." },
-            { icon: <Mountain className="h-5 w-5" />, title: "Fuji — ascension", text: "Nuages, vent, et l'horizon en récompense." },
-            { icon: <Train className="h-5 w-5" />, title: "Shinkansen", text: "Vitesse, ponctualité, lignes qui filent." },
-            { icon: <Camera className="h-5 w-5" />, title: "Tokyo — nuits", text: "Néons, izakayas, ruelles électriques." },
-            { icon: <MapPin className="h-5 w-5" />, title: "Nara — nature", text: "Cerfs en liberté, temples millénaires." },
-            { icon: <Calendar className="h-5 w-5" />, title: "Hakone — onsen", text: "L'eau chaude, la vapeur et le calme." },
-          ].map((c, i) => (
-            <TiltCard key={i}>
-              <Card className="group h-full border-white/20 bg-white/60 backdrop-blur transition hover:border-pink-500/40 hover:shadow-xl dark:bg-neutral-900/60">
-                <CardContent className="p-6">
-                  <div className="flex items-center gap-3">
-                    <div className="grid h-10 w-10 place-items-center rounded-xl border border-white/20 bg-gradient-to-br from-pink-500/20 to-indigo-500/20">
-                      {c.icon}
-                    </div>
-                    <h3 className="text-lg font-semibold">{c.title}</h3>
-                  </div>
-                  <p className="mt-3 text-sm text-neutral-600 dark:text-neutral-300">{c.text}</p>
-                  <div className="mt-4 flex flex-wrap gap-2">
-                    <Badge variant="secondary">Photo</Badge>
-                    <Badge variant="secondary">Story</Badge>
-                    <Badge variant="secondary">Map</Badge>
-                  </div>
-                </CardContent>
-              </Card>
-            </TiltCard>
-          ))}
-        </div>
-      </Section> */}
-
       {/* Chronologie */}
       <Section id="timeline" kicker="Récit" title="Chronologie immersive">
         <div className="grid gap-10 md:grid-cols-5">
           <div className="md:col-span-2">
             <div className="sticky top-24 rounded-2xl border border-white/20 bg-white/50 p-6 backdrop-blur dark:bg-neutral-900/50">
               <p className="text-sm text-neutral-600 dark:text-neutral-300">
-                Une narration scrollée : au fil de la page, les étapes s’animent et dévoilent photos, notes et sensations. Idéal pour raconter un voyage en 2025.
+                Une narration scrollée : au fil de la page, les étapes s’animent et dévoilent photos, notes et sensations.
+                Idéal pour raconter un voyage en 2025.
               </p>
               <ul className="mt-5 space-y-2 text-sm">
                 <li>• Cherbourg-En-Cotentin — Le départ</li>
                 <li>• Aéroport de Paris-Charles de Gaulle — 1er avion</li>
-                <li>• Aéroport international de Pékin-Daxing — 2ème avion</li>
-                <li>• Aéroport international de Tokyo-Haneda — Bus jusqu'a l'hostel</li>
-                <li>• Hostel : — Arrivée</li>
+                <li>• Aéroport international d’Incheon — Arrivée en Corée</li>
+                <li>• Métro / bus — Direction Séoul</li>
+                <li>• Guesthouse / hostel — Première nuit</li>
               </ul>
             </div>
           </div>
@@ -846,15 +927,21 @@ export default function JapanShowcase2025() {
                   Étape {i + 1}
                 </div>
                 <h3 className="text-xl font-semibold">
-                  {["Départ de Cherbourg-En-Cotentin", "Aéroport de Paris-Charles de Gaulle", "Aéroport international de Pékin-Daxing", "Aéroport international de Tokyo-Haneda", "Arrivée à l'hostel"][i]}
+                  {[
+                    "Départ de Cherbourg-En-Cotentin",
+                    "Aéroport de Paris-Charles de Gaulle",
+                    "Aéroport international d’Incheon",
+                    "Trajet vers Séoul",
+                    "Installation à l’hostel",
+                  ][i]}
                 </h3>
                 <p className="mt-2 text-neutral-600 dark:text-neutral-300">
                   {[
-                    "Train direction Paris : 3h30",
-                    "Avion direction Pékin",
-                    "Avion direction Tokyo",
-                    "Arrivée à l'Aéroport international de Tokyo-Haneda, direction l'hostel",
-                    "Avec un total de xxhxx de trajet porte à porte",
+                    "Train direction Paris : 3h30 (playlist de départ, sac trop lourd, excitation maximale).",
+                    "Embarquement pour la Corée, dernier café français avant plusieurs mois.",
+                    "Arrivée à Incheon : fatigue, nouvelles odeurs, panneaux en hangul partout.",
+                    "Bus / métro vers Séoul, premières lumières de la ville et buildings qui défilent.",
+                    "Check-in, douche, regard par la fenêtre sur la ville et première vraie sensation d’être loin.",
                   ][i]}
                 </p>
               </motion.div>
@@ -875,7 +962,8 @@ export default function JapanShowcase2025() {
             Glisse-dépose des images ici ou{" "}
             <button onClick={() => document.getElementById("filepick")?.click()} className="underline">
               sélectionne des fichiers
-            </button>.
+            </button>
+            .
           </p>
         </div>
 
@@ -912,11 +1000,12 @@ export default function JapanShowcase2025() {
                   <div className="text-sm text-neutral-500">Jour {n}</div>
                   <h3 className="mt-1 text-xl font-semibold">Titre de la note {n}</h3>
                   <p className="mt-2 line-clamp-3 text-neutral-600 dark:text-neutral-300">
-                    Un paragraphe court sur l’instant vécu : odeurs, sons, textures, un détail qui change tout et qui reste en tête bien après…
+                    Un paragraphe court sur l’instant vécu : bruits de la ville, odeur de street food, pluie sur les
+                    pavés ou silence d’un temple perché au-dessus de tout.
                   </p>
                   <div className="mt-4 flex items-center gap-3 text-sm">
-                    <Badge variant="secondary">Tokyo</Badge>
-                    <Badge variant="secondary">Emotion</Badge>
+                    <Badge variant="secondary">Séoul</Badge>
+                    <Badge variant="secondary">Émotion</Badge>
                   </div>
                 </CardContent>
               </Card>
@@ -953,14 +1042,13 @@ export default function JapanShowcase2025() {
 
       <footer className="border-t border-white/20 py-10 text-center text-sm text-neutral-500">
         <div className="container mx-auto max-w-6xl px-6">
-          <p>© {new Date().getFullYear()} — Voyage au Japon</p>
+          <p>© {new Date().getFullYear()} — Voyage en Corée du Sud</p>
           <p className="mt-2">
             Appuie sur <kbd className="rounded bg-white/10 px-1">⌘K</kbd> pour naviguer.
           </p>
         </div>
       </footer>
 
-      {/* Modal fly card */}
       <FlyCardModal card={activeCard} onClose={() => setActiveCard(null)} />
     </div>
   );
