@@ -55,8 +55,7 @@ export const CountryPage: React.FC<CountryPageProps> = ({ data, onBack }) => {
         </div>
 
         <footer className="py-12 text-center text-zinc-600 text-sm border-t border-zinc-900 bg-zinc-950">
-            <p>Conçu pour l'expédition 2025.</p>
-            <p className="mt-2 text-xs">Appuyez sur ⌘K pour naviguer</p>
+            <p>Pour garder une trace de mon voyage en passant par mes réussites, mes doutes, mes pensées et, bien sûr, mes découvertes.</p>
         </footer>
     </div>
   );

@@ -32,7 +32,7 @@ export const COUNTRIES: CountryData[] = [
       },
       {
         id: 't2',
-        date: 'Jour 2 (5 000 pas)',
+        date: 'Jour 2 (5 189 pas)',
         title: 'Mon logement pour 1,5 mois',
         description:
           'Quartier Gwanak-gu, proche de l’université et à 35 minutes en métro du centre-ville. Un Seven-Eleven et une salle de sport en bas de la rue. Parfait ! Journée balade tout le début de journée (8h-15h).',
@@ -115,7 +115,7 @@ Et évidemment, la question de mon bagage en soute revenait souvent : escale obl
         day: 3,
         title: 'Dimanche randonnée',
         excerpt:
-          'Premier vrai dimanche sur place. Après avoir réglé les aspects pratiques les jours précédents, je pars en randonnée dans les collines autour de Gwanak-gu. Les sentiers grimpent vite, mais la vue sur Séoul en vaut largement l’effort. Entre les temples cachés dans la forêt et le silence au milieu des pins, je sens enfin que je souffle après le voyage. Un mélange de fatigue dans les jambes et de calme total dans la tête.',
+          'Premier dimanche sur place. Après avoir réglé les aspects pratiques, je pars en randonnée dans les collines autour de Gwanak-gu. Quelques gâteaux dans le sac et c’est parti pour gambader, les mains dans les poches, dans ces collines couvertes de neige.',
         image:
           'https://images.unsplash.com/photo-1517821099601-1a962ff56ae5?q=80&w=2070&auto=format&fit=crop',
         mood: 'Dimanche randonnée'
