@@ -32,7 +32,7 @@ export const COUNTRIES: CountryData[] = [
       },
       {
         id: 't2',
-        date: 'Jour 2 (X pas)',
+        date: 'Jour 2 (5 000 pas)',
         title: 'Mon logement pour 1,5 mois',
         description:
           'Quartier Gwanak-gu, proche de l’université et à 35 minutes en métro du centre-ville. Un Seven-Eleven et une salle de sport en bas de la rue. Parfait ! Journée balade tout le début de journée (8h-15h).',
