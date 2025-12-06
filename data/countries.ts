@@ -18,8 +18,7 @@ export const COUNTRIES: CountryData[] = [
       title: '3 mois en Corée du Sud',
       subtitle: 'Mon voyage solo',
       description: 'Voyage du 4 décembre 2025 jusqu’au 4 mars 2026',
-      bgImage:
-        withBase('seoul.jpg')
+      bgImage: withBase('seoul.jpg')
     },
     timeline: [
       {
@@ -43,47 +42,47 @@ export const COUNTRIES: CountryData[] = [
         id: 't3',
         date: 'Jour 3 (X pas)',
         title: 'Après le repos, la découverte des alentours',
-        description:
-          'Mise en place de tous les outils nécessaires :',
+        description: 'Mise en place de tous les outils nécessaires :',
         bullets: [
           'Forfait mobile coréen pour 3 mois',
           'Abonnement à la salle de sport',
-          'Achat de la carte de transport (et +) : La T-Money Card',
+          'Achat de la carte de transport (et +) : la T-Money Card',
           'Courses pour la semaine'
         ],
         image: 'https://picsum.photos/id/1039/400/300'
       }
     ],
     markers: [
-  {
-    id: 'm1',
-    lat: 37.4602,
-    lng: 126.4407,
-    title: 'Aéroport international d’Incheon (ICN)',
-    category: 'Ville',
-    description: 'Point d’entrée principal de mon voyage en Corée.',
-    emoji: '🛬'
-  },
-  {
-    id: 'm2',
-    lat: 37.4784,
-    lng: 126.9516,
-    title: 'Gwanak-gu',
-    category: 'Ville',
-    description:
-      'Mon quartier de vie : proche de SNU, calme, avec salle de sport et convenience stores.',
-    emoji: '🏡'
-  },
-  {
-    id: 'm3',
-    lat: 37.5665,
-    lng: 126.978,
-    title: 'Centre-ville de Séoul',
-    category: 'Ville',
-    description: 'Le cœur de Séoul, entre gratte-ciels, palais et rues animées.',
-    emoji: '🏙️'
-  }
-],
+      {
+        id: 'm1',
+        lat: 37.4602,
+        lng: 126.4407,
+        title: 'Aéroport international d’Incheon (ICN)',
+        category: 'Ville',
+        description: 'Point d’entrée principal de mon voyage en Corée.',
+        emoji: '🛬'
+      },
+      {
+        id: 'm2',
+        lat: 37.4784,
+        lng: 126.9516,
+        title: 'Gwanak-gu',
+        category: 'Ville',
+        description:
+          'Mon quartier de vie : proche de SNU, calme, avec salle de sport et convenience stores.',
+        emoji: '🏡'
+      },
+      {
+        id: 'm3',
+        lat: 37.5665,
+        lng: 126.978,
+        title: 'Centre-ville de Séoul',
+        category: 'Ville',
+        description:
+          'Le cœur de Séoul, entre gratte-ciels, palais et rues animées.',
+        emoji: '🏙️'
+      }
+    ],
 
     journal: [
       {
@@ -106,19 +105,20 @@ Et évidemment, la question de mon bagage en soute revenait souvent : escale obl
         day: 2,
         title: 'Le goût du kimchi',
         excerpt:
-          'Avec le décallage horaire je me reveille assez tot. 6h20. Je pars donc à la découverte des petites rues et ruelles du quartier. Je me perds, je fais demi tour ect.Ici il y a des épiceries et lavomatique tous les 300m, 7-Eleven, GS25 ou CU.Les rues sont trés colorés, les deventures également.',
+          'Avec le décalage horaire je me réveille assez tôt. 6h20. Je pars donc à la découverte des petites rues et ruelles du quartier. Je me perds, je fais demi-tour, etc. Ici il y a des épiceries et laveries automatiques tous les 300 m : 7-Eleven, GS25 ou CU. Les rues sont très colorées, les devantures également.',
         image:
           'https://images.unsplash.com/photo-1580651315530-69c8e0026377?q=80&w=2070&auto=format&fit=crop',
         mood: 'La découverte'
       },
       {
         id: 'j3',
-        day: 8,
-        title: 'Brise marine',
-        excerpt: 'La plage de Haeundae était calme. Je pourrais rester des heures face à la mer.',
+        day: 3,
+        title: 'Dimanche randonnée',
+        excerpt:
+          'Premier vrai dimanche sur place. Après avoir réglé les aspects pratiques les jours précédents, je pars en randonnée dans les collines autour de Gwanak-gu. Les sentiers grimpent vite, mais la vue sur Séoul en vaut largement l’effort. Entre les temples cachés dans la forêt et le silence au milieu des pins, je sens enfin que je souffle après le voyage. Un mélange de fatigue dans les jambes et de calme total dans la tête.',
         image:
-          'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2073&auto=format&fit=crop',
-        mood: 'Zen'
+          'https://images.unsplash.com/photo-1517821099601-1a962ff56ae5?q=80&w=2070&auto=format&fit=crop',
+        mood: 'Dimanche randonnée'
       }
     ]
   },
