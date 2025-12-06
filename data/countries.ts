@@ -1,5 +1,11 @@
 import { CountryData } from '../types';
 
+const withBase = (path: string) => {
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+  const normalizedPath = path.replace(/^\//, '');
+  return `${base}/${normalizedPath}`;
+};
+
 export const COUNTRIES: CountryData[] = [
   {
     id: 'korea',
@@ -13,7 +19,7 @@ export const COUNTRIES: CountryData[] = [
       subtitle: 'Mon voyage solo',
       description: 'Voyage du 4 décembre 2025 jusqu’au 4 mars 2026',
       bgImage:
-        'seoul.jpg'
+        withBase('seoul.jpg')
     },
     timeline: [
       {
@@ -23,7 +29,7 @@ export const COUNTRIES: CountryData[] = [
         description:
           'Départ de Cherbourg-en-Cotentin à 5h du matin, direction Paris Saint-Lazare en train. De là, j’embarque pour mon premier vol Paris → Shanghai (12 heures). Après une escale de 2 heures à Shanghai, je prends mon second avion Shanghai → Séoul (2h10). Une fois arrivé à Incheon (ICN), je monte dans un bus pour 1h10 de trajet jusqu’à l’arrêt SNU (Seoul National University), situé juste à côté du quartier où je vais vivre durant plusieurs semaines.',
         note: 'Porte à porte global : 26h',
-        image: 'image.jpg'
+        image: withBase('image.jpg')
       },
       {
         id: 't2',
@@ -31,7 +37,7 @@ export const COUNTRIES: CountryData[] = [
         title: 'Mon logement pour 1,5 mois',
         description:
           'Quartier Gwanak-gu, proche de l’université et à 35 minutes en métro du centre-ville. Un Seven-Eleven et une salle de sport en bas de la rue. Parfait ! Journée balade tout le début de journée (8h-15h).',
-        image: 'image2.jpg'
+        image: withBase('image2.jpg')
       },
       {
         id: 't3',
