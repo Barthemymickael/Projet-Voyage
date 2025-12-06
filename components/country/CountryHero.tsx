@@ -20,7 +20,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
   const scale = useTransform(scrollYProgress, [0, 1], [1, 1.1]);
 
   return (
-    <div ref={containerRef} className="relative h-screen w-full overflow-hidden flex items-center justify-center">
+    <div ref={containerRef} className="relative min-h-[85vh] md:h-screen w-full overflow-hidden flex items-center justify-center px-4 sm:px-6">
         {/* Background Parallax */}
         <motion.div 
             style={{ y, scale }}
@@ -56,7 +56,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
         {/* Content */}
         <motion.div 
             style={{ opacity }}
-            className="relative z-20 text-center px-4 max-w-4xl mx-auto"
+            className="relative z-20 text-center px-4 sm:px-6 max-w-4xl mx-auto space-y-5 sm:space-y-6"
         >
             <motion.p 
                 initial={{ y: 20, opacity: 0 }}
@@ -71,7 +71,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.4 }}
-                    className="text-5xl md:text-8xl font-serif font-bold text-white mb-8 leading-tight drop-shadow-2xl whitespace-nowrap"
+                    className="text-4xl sm:text-5xl md:text-7xl font-serif font-bold text-white leading-tight drop-shadow-2xl break-words"
                 >
                     {data.hero.title}
                 </motion.h1>
@@ -80,16 +80,16 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                 initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.6 }}
-                className="text-zinc-300 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed mb-10"
+                className="text-zinc-300 text-base sm:text-lg md:text-xl max-w-2xl mx-auto leading-relaxed"
             >
                 {data.hero.description}
             </motion.p>
             
-            <div className="flex gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-stretch sm:items-center w-full sm:w-auto max-w-xl mx-auto">
                 <Magnetic>
                     <Button
                         size="lg"
-                        className="rounded-full px-8 bg-white text-black hover:bg-zinc-200"
+                        className="rounded-full px-6 sm:px-8 bg-white text-black hover:bg-zinc-200 w-full sm:w-auto"
                         onClick={() => scrollToSection('timeline')}
                     >
                         Commencer le voyage
@@ -98,7 +98,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                 <Button
                     variant="outline"
                     size="lg"
-                    className="rounded-full px-8 backdrop-blur-md border-white/20 hover:bg-white/10"
+                    className="rounded-full px-6 sm:px-8 backdrop-blur-md border-white/20 hover:bg-white/10 w-full sm:w-auto"
                     onClick={() => scrollToSection('map')}
                 >
                     <Map className="w-4 h-4 mr-2" /> Voir la carte
