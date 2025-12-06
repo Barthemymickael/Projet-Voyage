@@ -13,7 +13,7 @@ export const COUNTRIES: CountryData[] = [
       subtitle: 'Mon voyage solo',
       description: 'Voyage du 4 décembre 2025 jusqu’au 4 mars 2026',
       bgImage:
-        'https://images.unsplash.com/photo-1517154421773-0529f29ea451?q=80&w=2070&auto=format&fit=crop'
+        'seoul.jpg'
     },
     timeline: [
       {
