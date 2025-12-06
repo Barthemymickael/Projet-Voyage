@@ -4,7 +4,6 @@ import { MapContainer, TileLayer, Marker, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MarkerItem } from '../../types';
-import { Button } from '../ui/Button';
 import { X } from 'lucide-react';
 
 // Fix for default marker icons in Leaflet if needed, though we use custom divs here.
@@ -41,7 +40,6 @@ const FlyCardModal = ({ marker, onClose }: { marker: MarkerItem; onClose: () => 
                     </div>
                     <h3 className="text-2xl font-serif text-white mb-2">{marker.title}</h3>
                     <p className="text-zinc-400 text-sm leading-relaxed mb-6">{marker.description}</p>
-                    <Button className="w-full">Obtenir l'itinéraire</Button>
                 </div>
             </motion.div>
         </motion.div>
