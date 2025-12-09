@@ -26,7 +26,7 @@ export const COUNTRIES: CountryData[] = [
         date: 'Jour 1 (15 468 pas)',
         title: 'Le départ',
         description:
-          'Départ de Cherbourg-en-Cotentin à 5 h du matin, direction Paris Saint-Lazare en train. De là, j’embarque pour mon premier vol Paris → Shanghai (12 heures). Après une escale de 2 heures à Shanghai, je prends mon second avion Paris → Séoul (2 h 10). Une fois arrivé à Incheon (ICN), je monte dans un bus pour 1 h 10 de trajet jusqu’à l’arrêt SNU (Seoul National University), situé juste à côté du quartier où je vais vivre durant plusieurs semaines.',
+          'Départ de Cherbourg-en-Cotentin à 5 h du matin, direction Paris Saint-Lazare en train. De là, j’embarque pour mon premier vol Paris → Shanghai (12 heures). Après une escale de 2 heures à Shanghai, je prends mon second avion Shanghai → Séoul (2 h 10). Une fois arrivé à Incheon (ICN), je monte dans un bus pour 1 h 10 de trajet jusqu’à l’arrêt SNU (Seoul National University), situé juste à côté du quartier où je vais vivre durant plusieurs semaines.',
         note: 'Porte-à-porte global : 26 h',
         image: withBase('image.jpg')
       },
@@ -58,6 +58,14 @@ export const COUNTRIES: CountryData[] = [
         description:
           'Départ à 9 h et arrivée à 10 h à Gangnam. Au programme : découverte du COEX, un mall immense. Repas dans une food zone, pause café chez Starbucks, puis balade pour finir l’après-midi.',
         image: withBase('j4.jpg')
+      },
+      {
+        id: 't5',
+        date: 'Jour 5 (21 304 pas)',
+        title: 'Excursion à Suwon',
+        description:
+          'Départ en fin de matinée depuis Séoul pour rejoindre Suwon en train. Découverte de la forteresse Hwaseong, balade sur les remparts avec vue sur la ville, puis exploration des petites rues autour du marché traditionnel. Retour à Séoul en début de soirée, fatigué mais avec la sensation d’avoir vu une autre facette de la Corée.',
+        image: withBase('j5.jpg')
       }
     ],
     markers: [
@@ -101,14 +109,24 @@ export const COUNTRIES: CountryData[] = [
         emoji: '🛍️'
       },
       {
-        id: 'm6',
-        lat: 37.4656,
-        lng: 126.9497,
-        title: 'Gwanaksan (Montagne)',
-        category: 'Activité',
+        id: 'm5',
+        lat: 37.2636,
+        lng: 127.0286,
+        title: 'Suwon',
+        category: 'Ville',
         description:
-          'Lieu de randonnée proche de Gwanak-gu, parfait pour les dimanches en plein air.',
-        emoji: '⛰️'
+          'Grande ville au sud de Séoul, connue pour sa forteresse et son ambiance plus locale.',
+        emoji: '🌆'
+      },
+      {
+        id: 'm6',
+        lat: 37.285,
+        lng: 127.0139,
+        title: 'Forteresse Hwaseong',
+        category: 'Monument',
+        description:
+          'Forteresse classée au patrimoine mondial de l’UNESCO, idéale pour marcher sur les remparts et admirer Suwon.',
+        emoji: '🏰'
       },
       {
         id: 'm8',
@@ -151,22 +169,21 @@ Et évidemment, la question de mon bagage en soute revenait souvent : escale obl
       {
         id: 'j2',
         day: 2,
-        title: 'Le goût du kimchi',
+        title: 'La découverte de mon quartier',
         excerpt:
           'Avec le décalage horaire je me réveille assez tôt. 6 h 20. Je pars donc à la découverte des petites rues et ruelles du quartier. Je me perds, je fais demi-tour, etc. Ici, il y a des épiceries et laveries automatiques tous les 300 m : 7-Eleven, GS25 ou CU. Les rues sont très colorées, les devantures également.',
         image:
           'https://images.unsplash.com/photo-1580651315530-69c8e0026377?q=80&w=2070&auto=format&fit=crop',
-        mood: 'La découverte'
+        mood: 'La découverte de mon quartier'
       },
       {
         id: 'j3',
         day: 3,
-        title: 'Dimanche randonnée',
-        excerpt:
-          'Premier dimanche sur place. Après avoir réglé les aspects pratiques, je pars en randonnée dans les collines autour de Gwanak-gu. Quelques gâteaux dans le sac et c’est parti pour gambader, les mains dans les poches, dans ces collines couvertes de neige.',
+        title: 'La découverte de Séoul centre',
+        excerpt: 'Premier dimanche sur place.',
         image:
           'https://images.unsplash.com/photo-1517821099601-1a962ff56ae5?q=80&w=2070&auto=format&fit=crop',
-        mood: 'Dimanche randonnée'
+        mood: 'La découverte de Séoul centre'
       },
       {
         id: 'j4',
@@ -177,6 +194,16 @@ Et évidemment, la question de mon bagage en soute revenait souvent : escale obl
         image:
           'https://images.unsplash.com/photo-1517821099601-1a962ff56ae5?q=80&w=2070&auto=format&fit=crop',
         mood: 'Découverte de Gangnam'
+      },
+      {
+        id: 'j5',
+        day: 5,
+        title: 'Suwon',
+        excerpt:
+          'Aujourd’hui, je pars découvrir Suwon. Le trajet en bus depuis mon quartier est assez rapide (1 h). Je commence par le Starfield de Suwon avec sa grande bibliothèque, je me pose 1 h 30 puis je mange sur place. Enfin, je pars voir la forteresse Hwaseong : je marche sur les remparts, je m’arrête à plusieurs points de vue, et je regarde la ville. Ambiance plus calme qu’à Séoul.',
+        image:
+          'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=2070&auto=format&fit=crop',
+        mood: 'Excursion à Suwon'
       }
     ]
   },
