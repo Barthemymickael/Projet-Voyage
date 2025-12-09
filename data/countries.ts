@@ -137,7 +137,7 @@ export const COUNTRIES: CountryData[] = [
         description:
           'Le plus grand palais de Séoul, incontournable lors d’une première visite.',
         emoji: '🏯'
-      },
+      }
     ],
 
     journal: [
@@ -170,7 +170,8 @@ Et évidemment, la question de mon bagage en soute revenait souvent : escale obl
         id: 'j3',
         day: 3,
         title: 'La découverte de Séoul centre',
-        excerpt: 'Premier dimanche sur place.',
+        excerpt:
+          'Premier dimanche sur place. Je pars pour la première fois à la découverte du centre de Séoul. Et aujourd’hui, j’ai fait une bonne partie du trajet à pied. Je me balade, je prends des cafés à emporter. Je visite plusieurs temples et un musée.',
         image:
           'https://images.unsplash.com/photo-1517821099601-1a962ff56ae5?q=80&w=2070&auto=format&fit=crop',
         mood: 'La découverte de Séoul centre'
