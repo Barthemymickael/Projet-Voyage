@@ -138,16 +138,6 @@ export const COUNTRIES: CountryData[] = [
           'Le plus grand palais de Séoul, incontournable lors d’une première visite.',
         emoji: '🏯'
       },
-      {
-        id: 'm9',
-        lat: 37.5512,
-        lng: 126.9882,
-        title: 'N Seoul Tower',
-        category: 'Monument',
-        description:
-          'Point de vue panoramique sur toute la capitale, situé sur le mont Namsan.',
-        emoji: '📍'
-      }
     ],
 
     journal: [
