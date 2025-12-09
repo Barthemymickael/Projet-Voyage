@@ -54,7 +54,7 @@ export const COUNTRIES: CountryData[] = [
       },
 {
   id: 't4',
-  date: 'Jour 4 (X pas)',
+  date: 'Jour 4 (15 818 pas)',
   title: 'Découverte de la ville de Gangnam',
   description:
     "Départ à 9h00 et arrivée à 10h00 à Gangnam. Au programme : découverte du COEX, un mall immense. Repas dans une food zone, pause café chez Starbucks, puis balade pour finir l'après-midi.",
@@ -131,15 +131,16 @@ Et évidemment, la question de mon bagage en soute revenait souvent : escale obl
         mood: 'Dimanche randonnée'
       },
       {
-        id: 'j4',
-        day: 4,
-        title: 'Découverte de Gangnam',
-        excerpt:
-          'Découverte de la ville de Gangnam cette fois-ci, je prends le bus et le métro. Gangnam est une ville gratte-ciel, beaucoup d entreprise ici. Le plus important à voir ici est la statue Gangnam Style ainsi que le Lotte world.Ò',
-        image:
-          'https://images.unsplash.com/photo-1517821099601-1a962ff56ae5?q=80&w=2070&auto=format&fit=crop',
-        mood: 'Dimanche randonnée'
-      }
+  id: 'j4',
+  day: 4,
+  title: 'Découverte de Gangnam',
+  excerpt:
+    "Découverte de Gangnam aujourd’hui : j’ai pris le bus puis le métro pour y aller. Le quartier est rempli de gratte-ciel et d’entreprises, et ressemble beaucoup à La Défense à Paris. Les incontournables du coin : la statue Gangnam Style et les temples entre les buildings",
+  image:
+    'https://images.unsplash.com/photo-1517821099601-1a962ff56ae5?q=80&w=2070&auto=format&fit=crop',
+  mood: 'Dimanche randonnée'
+}
+
     ]
   },
   {
