@@ -26,8 +26,8 @@ export const COUNTRIES: CountryData[] = [
         date: 'Jour 1 (15 468 pas)',
         title: 'Le départ',
         description:
-          'Départ de Cherbourg-en-Cotentin à 5h du matin, direction Paris Saint-Lazare en train. De là, j’embarque pour mon premier vol Paris → Shanghai (12 heures). Après une escale de 2 heures à Shanghai, je prends mon second avion Shanghai → Séoul (2h10). Une fois arrivé à Incheon (ICN), je monte dans un bus pour 1h10 de trajet jusqu’à l’arrêt SNU (Seoul National University), situé juste à côté du quartier où je vais vivre durant plusieurs semaines.',
-        note: 'Porte à porte global : 26h',
+          'Départ de Cherbourg-en-Cotentin à 5 h du matin, direction Paris Saint-Lazare en train. De là, j’embarque pour mon premier vol Paris → Shanghai (12 heures). Après une escale de 2 heures à Shanghai, je prends mon second avion Paris → Séoul (2 h 10). Une fois arrivé à Incheon (ICN), je monte dans un bus pour 1 h 10 de trajet jusqu’à l’arrêt SNU (Seoul National University), situé juste à côté du quartier où je vais vivre durant plusieurs semaines.',
+        note: 'Porte-à-porte global : 26 h',
         image: withBase('image.jpg')
       },
       {
@@ -35,7 +35,7 @@ export const COUNTRIES: CountryData[] = [
         date: 'Jour 2 (5 189 pas)',
         title: 'Mon logement pour 1,5 mois',
         description:
-          'Quartier Gwanak-gu, proche de l’université et à 35 minutes en métro du centre-ville. Un Seven-Eleven et une salle de sport en bas de la rue. Parfait ! Journée balade tout le début de journée (8h-15h).',
+          'Quartier Gwanak-gu, proche de l’université et à 35 minutes en métro du centre-ville. Un 7-Eleven et une salle de sport en bas de la rue. Parfait ! Journée balade en début de journée (8 h - 15 h).',
         image: withBase('image2.jpg')
       },
       {
@@ -46,21 +46,19 @@ export const COUNTRIES: CountryData[] = [
         bullets: [
           'Forfait mobile coréen pour 3 mois',
           'Abonnement à la salle de sport',
-          'Achat de la carte de transport (et +) : la T-Money Card',
-          'Courses pour la semaine',
-          
+          'Achat de la carte de transport (et plus) : la T-Money Card',
+          'Courses pour la semaine'
         ],
         image: 'https://picsum.photos/id/1039/400/300'
       },
-{
-  id: 't4',
-  date: 'Jour 4 (15 818 pas)',
-  title: 'Découverte de la ville de Gangnam',
-  description:
-    "Départ à 9h00 et arrivée à 10h00 à Gangnam. Au programme : découverte du COEX, un mall immense. Repas dans une food zone, pause café chez Starbucks, puis balade pour finir l'après-midi.",
-  image: withBase('j4.jpg')
-}
-
+      {
+        id: 't4',
+        date: 'Jour 4 (15 818 pas)',
+        title: 'Découverte de la ville de Gangnam',
+        description:
+          'Départ à 9 h et arrivée à 10 h à Gangnam. Au programme : découverte du COEX, un mall immense. Repas dans une food zone, pause café chez Starbucks, puis balade pour finir l’après-midi.',
+        image: withBase('j4.jpg')
+      }
     ],
     markers: [
       {
@@ -91,6 +89,66 @@ export const COUNTRIES: CountryData[] = [
         description:
           'Le cœur de Séoul, entre gratte-ciels, palais et rues animées.',
         emoji: '🏙️'
+      },
+      {
+        id: 'm4',
+        lat: 37.5087,
+        lng: 127.063,
+        title: 'Gangnam (COEX Mall)',
+        category: 'Ville',
+        description:
+          'Centre commercial emblématique de Séoul : librairie Starfield, aquarium, restaurants.',
+        emoji: '🛍️'
+      },
+      {
+        id: 'm5',
+        lat: 37.5112,
+        lng: 127.0982,
+        title: 'Statue Gangnam Style',
+        category: 'Monument',
+        description:
+          'Une statue mythique dédiée au tube mondial de PSY, au cœur de Gangnam.',
+        emoji: '🕺'
+      },
+      {
+        id: 'm6',
+        lat: 37.4656,
+        lng: 126.9497,
+        title: 'Gwanaksan (Montagne)',
+        category: 'Activité',
+        description:
+          'Lieu de randonnée proche de Gwanak-gu, parfait pour les dimanches en plein air.',
+        emoji: '⛰️'
+      },
+      {
+        id: 'm7',
+        lat: 37.5826,
+        lng: 126.985,
+        title: 'Bukchon Hanok Village',
+        category: 'Ville',
+        description:
+          'Quartier traditionnel aux maisons hanok, très apprécié des voyageurs.',
+        emoji: '🏘️'
+      },
+      {
+        id: 'm8',
+        lat: 37.5796,
+        lng: 126.977,
+        title: 'Palais Gyeongbokgung',
+        category: 'Monument',
+        description:
+          'Le plus grand palais de Séoul, incontournable lors d’une première visite.',
+        emoji: '🏯'
+      },
+      {
+        id: 'm9',
+        lat: 37.5512,
+        lng: 126.9882,
+        title: 'N Seoul Tower',
+        category: 'Monument',
+        description:
+          'Point de vue panoramique sur toute la capitale, situé sur le mont Namsan.',
+        emoji: '📍'
       }
     ],
 
@@ -99,13 +157,13 @@ export const COUNTRIES: CountryData[] = [
         id: 'j1',
         day: 1,
         title: 'Réflexions',
-        excerpt: `26h de déplacement, ça reste bien relou. Mais la finalité est incroyable.
-Le plus embêtant, c’est que l’enregistrement du vol ne pouvait pas se faire en ligne, donc obligé de le faire directement à l’aéroport, donc perte de temps sachant que je n’ai que 2h.
+        excerpt: `26 h de déplacement, ça reste bien relou. Mais la finalité est incroyable.
+Le plus embêtant, c’est que l’enregistrement du vol ne pouvait pas se faire en ligne, donc j’ai été obligé de le faire directement à l’aéroport, ce qui m’a fait perdre du temps sachant que je n’avais que 2 h.
 
-Puis je devais enregistrer mon bagage en soute. Puis passer l’embarquement. Adepte des vols loupés car toujours en retard (une première fois pour aller à Milan en novembre 2024, puis une deuxième fois pour aller à Vigo en Espagne).
-D’habitude je me dis que 45 minutes c’est good ; là je me dis que 2h ce n’est pas assez.
+Ensuite, je devais enregistrer mon bagage en soute, puis passer l’embarquement. Adepte des vols loupés car toujours en retard (une première fois pour aller à Milan en novembre 2024, puis une deuxième fois pour aller à Vigo en Espagne).
+D’habitude je me dis que 45 minutes c’est good ; là, je me dis que 2 h ce n’est pas assez.
 
-Et évidemment, la question de mon bagage en soute revenait souvent : escale oblige, je croisais les doigts pour bien retrouver mon sac à Séoul.`,
+Et évidemment, la question de mon bagage en soute revenait souvent : escale oblige, je croisais les doigts pour le retrouver à Séoul.`,
         image:
           'https://images.unsplash.com/photo-1535189043414-47a3c49a0bed?q=80&w=1931&auto=format&fit=crop',
         mood: 'Le trajet'
@@ -115,7 +173,7 @@ Et évidemment, la question de mon bagage en soute revenait souvent : escale obl
         day: 2,
         title: 'Le goût du kimchi',
         excerpt:
-          'Avec le décalage horaire je me réveille assez tôt. 6h20. Je pars donc à la découverte des petites rues et ruelles du quartier. Je me perds, je fais demi-tour, etc. Ici il y a des épiceries et laveries automatiques tous les 300 m : 7-Eleven, GS25 ou CU. Les rues sont très colorées, les devantures également.',
+          'Avec le décalage horaire je me réveille assez tôt. 6 h 20. Je pars donc à la découverte des petites rues et ruelles du quartier. Je me perds, je fais demi-tour, etc. Ici, il y a des épiceries et laveries automatiques tous les 300 m : 7-Eleven, GS25 ou CU. Les rues sont très colorées, les devantures également.',
         image:
           'https://images.unsplash.com/photo-1580651315530-69c8e0026377?q=80&w=2070&auto=format&fit=crop',
         mood: 'La découverte'
@@ -131,16 +189,15 @@ Et évidemment, la question de mon bagage en soute revenait souvent : escale obl
         mood: 'Dimanche randonnée'
       },
       {
-  id: 'j4',
-  day: 4,
-  title: 'Découverte de Gangnam',
-  excerpt:
-    "Découverte de Gangnam aujourd’hui : j’ai pris le bus puis le métro pour y aller. Le quartier est rempli de gratte-ciel et d’entreprises, et ressemble beaucoup à La Défense à Paris. Les incontournables du coin : la statue Gangnam Style et les temples entre les buildings",
-  image:
-    'https://images.unsplash.com/photo-1517821099601-1a962ff56ae5?q=80&w=2070&auto=format&fit=crop',
-  mood: 'Dimanche randonnée'
-}
-
+        id: 'j4',
+        day: 4,
+        title: 'Découverte de Gangnam',
+        excerpt:
+          'Découverte de Gangnam aujourd’hui : j’ai pris le bus puis le métro pour y aller. Le quartier est rempli de gratte-ciel et d’entreprises, et ressemble beaucoup à La Défense, à Paris. Les incontournables du coin : la statue Gangnam Style et les temples entre les buildings.',
+        image:
+          'https://images.unsplash.com/photo-1517821099601-1a962ff56ae5?q=80&w=2070&auto=format&fit=crop',
+        mood: 'Découverte de Gangnam'
+      }
     ]
   },
   {
