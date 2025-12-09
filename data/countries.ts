@@ -101,16 +101,6 @@ export const COUNTRIES: CountryData[] = [
         emoji: '🛍️'
       },
       {
-        id: 'm5',
-        lat: 37.5112,
-        lng: 127.0982,
-        title: 'Statue Gangnam Style',
-        category: 'Monument',
-        description:
-          'Une statue mythique dédiée au tube mondial de PSY, au cœur de Gangnam.',
-        emoji: '🕺'
-      },
-      {
         id: 'm6',
         lat: 37.4656,
         lng: 126.9497,
@@ -119,16 +109,6 @@ export const COUNTRIES: CountryData[] = [
         description:
           'Lieu de randonnée proche de Gwanak-gu, parfait pour les dimanches en plein air.',
         emoji: '⛰️'
-      },
-      {
-        id: 'm7',
-        lat: 37.5826,
-        lng: 126.985,
-        title: 'Bukchon Hanok Village',
-        category: 'Ville',
-        description:
-          'Quartier traditionnel aux maisons hanok, très apprécié des voyageurs.',
-        emoji: '🏘️'
       },
       {
         id: 'm8',
