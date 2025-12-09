@@ -52,13 +52,15 @@ export const COUNTRIES: CountryData[] = [
         ],
         image: 'https://picsum.photos/id/1039/400/300'
       },
-            {
-        id: 't4',
-        date: 'Jour 4 (X pas)',
-        title: 'Découverte de la ville de Gangnam',
-        description: 'Départ 9h00, arrivée à 10h00 dans la ville de Gangnam, au progrommage, découverte du Coex, un mall géant. Repas dans une food zone, pause café dans un Starbuck et balade pour la fin d après-midi.',
-        image: withBase('j4.jpg')
-      }
+{
+  id: 't4',
+  date: 'Jour 4 (X pas)',
+  title: 'Découverte de la ville de Gangnam',
+  description:
+    "Départ à 9h00 et arrivée à 10h00 à Gangnam. Au programme : découverte du COEX, un mall immense. Repas dans une food zone, pause café chez Starbucks, puis balade pour finir l'après-midi.",
+  image: withBase('j4.jpg')
+}
+
     ],
     markers: [
       {
