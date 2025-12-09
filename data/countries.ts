@@ -40,16 +40,24 @@ export const COUNTRIES: CountryData[] = [
       },
       {
         id: 't3',
-        date: 'Jour 3 (X pas)',
+        date: 'Jour 3 (28 733 pas)',
         title: 'Après le repos, la découverte des alentours',
         description: 'Mise en place de tous les outils nécessaires :',
         bullets: [
           'Forfait mobile coréen pour 3 mois',
           'Abonnement à la salle de sport',
           'Achat de la carte de transport (et +) : la T-Money Card',
-          'Courses pour la semaine'
+          'Courses pour la semaine',
+          
         ],
         image: 'https://picsum.photos/id/1039/400/300'
+      },
+            {
+        id: 't4',
+        date: 'Jour 4 (X pas)',
+        title: 'Découverte de la ville de Gangnam',
+        description: 'Départ 9h00, arrivée à 10h00 dans la ville de Gangnam, au progrommage, découverte du Coex, un mall géant. Repas dans une food zone, pause café dans un Starbuck et balade pour la fin d après-midi.',
+        image: withBase('j4.jpg')
       }
     ],
     markers: [
@@ -116,6 +124,16 @@ Et évidemment, la question de mon bagage en soute revenait souvent : escale obl
         title: 'Dimanche randonnée',
         excerpt:
           'Premier dimanche sur place. Après avoir réglé les aspects pratiques, je pars en randonnée dans les collines autour de Gwanak-gu. Quelques gâteaux dans le sac et c’est parti pour gambader, les mains dans les poches, dans ces collines couvertes de neige.',
+        image:
+          'https://images.unsplash.com/photo-1517821099601-1a962ff56ae5?q=80&w=2070&auto=format&fit=crop',
+        mood: 'Dimanche randonnée'
+      },
+      {
+        id: 'j4',
+        day: 4,
+        title: 'Découverte de Gangnam',
+        excerpt:
+          'Découverte de la ville de Gangnam cette fois-ci, je prends le bus et le métro. Gangnam est une ville gratte-ciel, beaucoup d entreprise ici. Le plus important à voir ici est la statue Gangnam Style ainsi que le Lotte world.Ò',
         image:
           'https://images.unsplash.com/photo-1517821099601-1a962ff56ae5?q=80&w=2070&auto=format&fit=crop',
         mood: 'Dimanche randonnée'
