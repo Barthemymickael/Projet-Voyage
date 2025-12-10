@@ -49,7 +49,7 @@ export const COUNTRIES: CountryData[] = [
           'Achat de la carte de transport (et plus) : la T-Money Card',
           'Courses pour la semaine'
         ],
-        image: 'https://picsum.photos/id/1039/400/300'
+        image: withBase('temple.jpg')
       },
       {
         id: 't4',
