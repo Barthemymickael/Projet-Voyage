@@ -41,7 +41,7 @@ export const COUNTRIES: CountryData[] = [
       {
         id: 't3',
         date: 'Jour 3 (28 733 pas)',
-        title: 'Après le repos, la découverte des alentours',
+        title: 'Après le repos, la découverte du centre de Séoul',
         description: 'Mise en place de tous les outils nécessaires :',
         bullets: [
           'Forfait mobile coréen pour 3 mois',
@@ -64,7 +64,7 @@ export const COUNTRIES: CountryData[] = [
         date: 'Jour 5 (21 304 pas)',
         title: 'Excursion à Suwon',
         description:
-          'Départ en fin de matinée depuis Séoul pour rejoindre Suwon en train. Découverte de la forteresse Hwaseong, balade sur les remparts avec vue sur la ville, puis exploration des petites rues autour du marché traditionnel. Retour à Séoul en début de soirée, fatigué mais avec la sensation d’avoir vu une autre facette de la Corée.',
+          'Départ en matinée pour rejoindre Suwon en bus. Découverte de la forteresse Hwaseong, balade sur les remparts avec vue sur la ville, puis exploration des petites rues autour du marché traditionnel.',
         image: withBase('j5.jpg')
       }
     ],
