@@ -72,7 +72,7 @@ export const COUNTRIES: CountryData[] = [
         date: 'Jour 6',
         title: 'Retour à Gangnam',
         description:
-          'Un peu fatigué de la randonnée d’hier à Suwon, je pars tranquillement en début d’après-midi pour Gangnam. Je retourne au mall COEX pour, cette fois-ci, visiter l’aquarium « Sea Life ». Comme je suis parti en début d’après-midi, j’en profite pour me balader en soirée dans les rues animées de Gangnam.',
+          'Retour à Gangnam. Visite de l’aquarium « Sea Life ».',
         image: withBase('suwon.jpg')
       }
     ],
