@@ -65,7 +65,7 @@ export const COUNTRIES: CountryData[] = [
         title: 'Excursion à Suwon',
         description:
           'Départ en matinée pour rejoindre Suwon en bus. Découverte de la forteresse Hwaseong, balade sur les remparts avec vue sur la ville, puis exploration des petites rues autour du marché traditionnel.',
-        image: withBase('j5.jpg')
+        image: withBase('suwon.jpg')
       },
       {
         id: 't6',
