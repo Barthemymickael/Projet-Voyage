@@ -20,7 +20,7 @@ export const COUNTRIES: CountryData[] = [
       description: 'Voyage du 4 décembre 2025 jusqu’au 4 mars 2026',
       bgImage: withBase('seoul.jpg')
     },
-    timeline: [
+        timeline: [
       {
         id: 't1',
         date: 'Jour 1 (15 468 pas)',
@@ -66,6 +66,14 @@ export const COUNTRIES: CountryData[] = [
         description:
           'Départ en matinée pour rejoindre Suwon en bus. Découverte de la forteresse Hwaseong, balade sur les remparts avec vue sur la ville, puis exploration des petites rues autour du marché traditionnel.',
         image: withBase('j5.jpg')
+      },
+      {
+        id: 't6',
+        date: 'Jour 6',
+        title: 'Retour à Gangnam',
+        description:
+          'Un peu fatigué de la randonnée d\'hier à Suwon, je pars tranquillement en début d\'après-midi pour Gangnam. Je retourne au mall COEX pour, cette fois-ci, visiter l\'aquarium « Sea Life ». Comme je suis parti en début d\'après-midi, j\'en profite pour me balader en soirée dans les rues animées de Gangnam.',
+        image: withBase('j6.jpg')
       }
     ],
     markers: [
