@@ -35,7 +35,7 @@ export const COUNTRIES: CountryData[] = [
         date: 'Jour 2 (5 189 pas)',
         title: 'Mon logement pour 1,5 mois',
         description:
-          'Quartier Gwanak-gu, proche de l’université et à 35 minutes en métro du centre-ville. Un 7-Eleven et une salle de sport en bas de la rue. Parfait ! Journée balade en début de journée (8 h - 15 h).',
+          'Quartier Gwanak-gu, proche de l’université et à 35 minutes en métro du centre-ville. Un 7-Eleven et une salle de sport en bas de la rue. Parfait ! Journée de balade en début de journée (8 h - 15 h).',
         image: withBase('image2.jpg')
       },
       {
@@ -56,12 +56,12 @@ export const COUNTRIES: CountryData[] = [
         date: 'Jour 4 (15 818 pas)',
         title: 'Découverte de la ville de Gangnam',
         description:
-          'Départ à 9 h et arrivée à 10 h à Gangnam. Au programme : découverte du COEX, un mall immense. Repas dans une food zone, pause café chez Starbucks, puis balade pour finir l’après-midi.',
+          'Départ à 9 h et arrivée à 10 h à Gangnam. Au programme : découverte du COEX, un mall immense. Repas dans une food zone, pause café chez Starbucks, puis balade pour finir l’après-midi. Avant de prendre le bus retour, je marche le long des buildings et trouve un café assez luxueux, tout en marbre, avec une belle lumière et un écran énorme diffusant une vidéo d’une cheminée style Noël. Je rentre, je commande un cake cacao et je me pose ici pendant 1 h, du jazz en fond et un calme fou.',
         image: withBase('j4.jpg')
       },
       {
         id: 't5',
-        date: 'Jour 5 (21 304 pas)',
+        date: 'Jour 5 (21 192 pas)',
         title: 'Excursion à Suwon',
         description:
           'Départ en matinée pour rejoindre Suwon en bus. Découverte de la forteresse Hwaseong, balade sur les remparts avec vue sur la ville, puis exploration des petites rues autour du marché traditionnel.',
