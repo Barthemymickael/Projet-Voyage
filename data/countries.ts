@@ -72,7 +72,7 @@ export const COUNTRIES: CountryData[] = [
         date: 'Jour 6',
         title: 'Retour à Gangnam',
         description:
-          "Un peu fatigué de la randonnée d'hier à Suwon, je pars tranquillement en début d'après-midi pour Gangnam. Je retourne au mall COEX pour, cette fois-ci, visiter l'aquarium « Sea Life ». Comme je suis parti en début d'après-midi, j'en profite pour me balader en soirée dans les rues animées de Gangnam.",
+          'Un peu fatigué de la randonnée d’hier à Suwon, je pars tranquillement en début d’après-midi pour Gangnam. Je retourne au mall COEX pour, cette fois-ci, visiter l’aquarium « Sea Life ». Comme je suis parti en début d’après-midi, j’en profite pour me balader en soirée dans les rues animées de Gangnam.',
         image: withBase('suwon.jpg')
       }
     ],
@@ -178,7 +178,7 @@ Et évidemment, la question de mon bagage en soute revenait souvent : escale obl
         day: 2,
         title: 'La découverte de mon quartier',
         excerpt:
-          'Avec le décalage horaire je me réveille assez tôt. 6 h 20. Je pars donc à la découverte des petites rues et ruelles du quartier. Je me perds, je fais demi-tour, etc. Ici, il y a des épiceries et laveries automatiques tous les 300 m : 7-Eleven, GS25 ou CU. Les rues sont très colorées, les devantures également.',
+          'Avec le décalage horaire, je me réveille assez tôt. 6 h 20. Je pars donc à la découverte des petites rues et ruelles du quartier. Je me perds, je fais demi-tour, etc. Ici, il y a des épiceries et laveries automatiques tous les 300 m : 7-Eleven, GS25 ou CU. Les rues sont très colorées, les devantures également.',
         image:
           'https://images.unsplash.com/photo-1580651315530-69c8e0026377?q=80&w=2070&auto=format&fit=crop',
         mood: 'La découverte de mon quartier'
@@ -208,10 +208,20 @@ Et évidemment, la question de mon bagage en soute revenait souvent : escale obl
         day: 5,
         title: 'Suwon',
         excerpt:
-          'Aujourd’hui, je pars découvrir Suwon. Le trajet en bus depuis mon quartier est assez rapide (1 h). Je commence par le Starfield de Suwon avec sa grande bibliothèque, je me pose 1 h 30 puis je mange sur place. Enfin, je pars voir la forteresse Hwaseong : je marche sur les remparts, je m’arrête à plusieurs points de vue, et je regarde la ville. Ambiance plus calme qu’à Séoul.',
+          'Aujourd’hui, je pars découvrir Suwon. Le trajet en bus depuis mon quartier est assez rapide (1 h). Je commence par le Starfield de Suwon avec sa grande bibliothèque, je me pose 1 h 30 puis je mange sur place. Enfin, je pars voir la forteresse Hwaseong : je marche sur les remparts, je m’arrête à plusieurs points de vue et je regarde la ville. Ambiance plus calme qu’à Séoul.',
         image:
           'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=2070&auto=format&fit=crop',
         mood: 'Excursion à Suwon'
+      },
+      {
+        id: 'j6',
+        day: 6,
+        title: 'Gangnam',
+        excerpt:
+          'Un peu fatigué de la randonnée d’hier à Suwon, je pars tranquillement en début d’après-midi pour Gangnam. Je retourne au mall COEX pour, cette fois-ci, visiter l’aquarium « Sea Life ». Comme je suis parti en début d’après-midi, j’en profite pour me balader en soirée dans les rues animées de Gangnam.',
+        image:
+          'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=2070&auto=format&fit=crop',
+        mood: 'Retour à Gangnam'
       }
     ]
   },
