@@ -20,7 +20,7 @@ export const COUNTRIES: CountryData[] = [
       description: 'Voyage du 4 décembre 2025 jusqu’au 4 mars 2026',
       bgImage: withBase('seoul.jpg')
     },
-        timeline: [
+    timeline: [
       {
         id: 't1',
         date: 'Jour 1 (15 468 pas)',
@@ -72,7 +72,7 @@ export const COUNTRIES: CountryData[] = [
         date: 'Jour 6',
         title: 'Retour à Gangnam',
         description:
-          'Un peu fatigué de la randonnée d\'hier à Suwon, je pars tranquillement en début d\'après-midi pour Gangnam. Je retourne au mall COEX pour, cette fois-ci, visiter l\'aquarium « Sea Life ». Comme je suis parti en début d\'après-midi, j\'en profite pour me balader en soirée dans les rues animées de Gangnam.',
+          "Un peu fatigué de la randonnée d'hier à Suwon, je pars tranquillement en début d'après-midi pour Gangnam. Je retourne au mall COEX pour, cette fois-ci, visiter l'aquarium « Sea Life ». Comme je suis parti en début d'après-midi, j'en profite pour me balader en soirée dans les rues animées de Gangnam.",
         image: withBase('suwon.jpg')
       }
     ],
@@ -145,9 +145,18 @@ export const COUNTRIES: CountryData[] = [
         description:
           'Le plus grand palais de Séoul, incontournable lors d’une première visite.',
         emoji: '🏯'
+      },
+      {
+        id: 'm9',
+        lat: 37.4725, // approximation du quartier Hoam-ro / Sillim
+        lng: 126.938, // approximation
+        title: 'EDIYA Coffee (이디야커피 신림대학동점)',
+        category: 'Cuisine', // conforme à "Ville" | "Monument" | "Activité" | "Cuisine"
+        description:
+          'Café de quartier à Gwanak-gu, parfait pour bosser au calme ou faire une pause proche de chez moi (17 Hoam-ro 26-gil, Gwanak-gu, Seoul).',
+        emoji: '☕'
       }
     ],
-
     journal: [
       {
         id: 'j1',
