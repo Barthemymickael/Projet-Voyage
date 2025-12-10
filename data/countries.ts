@@ -73,7 +73,7 @@ export const COUNTRIES: CountryData[] = [
         title: 'Retour à Gangnam',
         description:
           'Retour à Gangnam. Visite de l’aquarium « Sea Life ».',
-        image: withBase('suwon.jpg')
+        image: withBase('aqura.jpg')
       }
     ],
     markers: [
