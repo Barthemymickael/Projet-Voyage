@@ -29,7 +29,8 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
             style={{ y, scale }}
             className="absolute inset-0 z-0"
         >
-            <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black z-10" />
+            <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/50 to-black/85 z-10 mix-blend-multiply" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent z-10" />
             <img 
                 src={data.hero.bgImage} 
                 alt="Arrière-plan" 
@@ -59,13 +60,13 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
         {/* Content */}
         <motion.div 
             style={{ opacity }}
-            className="relative z-20 text-center px-4 sm:px-6 max-w-4xl mx-auto space-y-5 sm:space-y-6"
+            className="relative z-20 text-center px-4 sm:px-6 max-w-4xl mx-auto space-y-5 sm:space-y-6 bg-black/55 border border-white/10 rounded-3xl shadow-2xl backdrop-blur-sm py-8 sm:py-10"
         >
             <motion.p 
                 initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.2 }}
-                className="text-indigo-400 font-mono tracking-[0.2em] text-sm md:text-base mb-4 uppercase"
+                className="inline-flex items-center justify-center px-4 py-1.5 rounded-full bg-indigo-500/20 border border-indigo-400/40 text-indigo-100 font-mono tracking-[0.2em] text-xs sm:text-sm md:text-base uppercase shadow-[0_8px_30px_rgba(99,102,241,0.35)]"
             >
                 {data.hero.subtitle}
             </motion.p>
@@ -74,7 +75,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.4 }}
-                    className="text-3xl sm:text-5xl md:text-7xl font-serif font-bold text-white leading-tight drop-shadow-2xl break-words max-w-[90vw]"
+                    className="text-3xl sm:text-5xl md:text-7xl font-serif font-bold text-white leading-tight drop-shadow-[0_20px_40px_rgba(0,0,0,0.65)] break-words max-w-[90vw]"
                 >
                     {data.hero.title}
                 </motion.h1>
@@ -83,7 +84,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                 initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.6 }}
-                className="text-zinc-300 text-base sm:text-lg md:text-xl max-w-2xl mx-auto leading-relaxed px-1"
+                className="text-zinc-100 text-base sm:text-lg md:text-xl max-w-2xl mx-auto leading-relaxed px-3 sm:px-6 drop-shadow-[0_10px_25px_rgba(0,0,0,0.4)]"
             >
                 {data.hero.description}
             </motion.p>
