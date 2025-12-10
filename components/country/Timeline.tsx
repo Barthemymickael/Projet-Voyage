@@ -1,8 +1,27 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React, { useEffect, useState } from 'react';
+import { AnimatePresence, motion } from 'framer-motion';
+import { X } from 'lucide-react';
 import { TimelineEvent } from '../../types';
 
 export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
+  const [activeImage, setActiveImage] = useState<{ src: string; title: string } | null>(null);
+
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        setActiveImage(null);
+      }
+    };
+
+    if (activeImage) {
+      window.addEventListener('keydown', handleKeyDown);
+    }
+
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [activeImage]);
+
   return (
     <section className="py-24 bg-zinc-950 relative overflow-hidden">
         <div className="max-w-6xl mx-auto px-4 relative z-10">
@@ -50,13 +69,18 @@ export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
                                     </ul>
                                 )}
                                 {event.image && (
-                                    <div className="overflow-hidden rounded-lg">
+                                    <button
+                                        type="button"
+                                        onClick={() => setActiveImage({ src: event.image!, title: event.title })}
+                                        className="relative block w-full h-48 overflow-hidden rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500/70 focus:ring-offset-2 focus:ring-offset-zinc-900 cursor-zoom-in"
+                                    >
                                         <img 
                                             src={event.image} 
                                             alt={event.title} 
-                                            className="w-full h-48 object-cover transform group-hover:scale-110 transition-transform duration-700"
+                                            className="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
                                         />
-                                    </div>
+                                        <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                                    </button>
                                 )}
                             </div>
                         </div>
@@ -72,6 +96,44 @@ export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
                 ))}
             </div>
         </div>
+
+        <AnimatePresence>
+            {activeImage && (
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    className="fixed inset-0 z-[120] bg-black/85 backdrop-blur-sm flex items-center justify-center p-6"
+                    onClick={() => setActiveImage(null)}
+                >
+                    <motion.div
+                        initial={{ scale: 0.95, opacity: 0 }}
+                        animate={{ scale: 1, opacity: 1 }}
+                        exit={{ scale: 0.95, opacity: 0 }}
+                        transition={{ type: 'spring', stiffness: 180, damping: 18 }}
+                        className="relative w-full max-w-5xl"
+                        onClick={(e) => e.stopPropagation()}
+                    >
+                        <button
+                            type="button"
+                            onClick={() => setActiveImage(null)}
+                            className="absolute -top-4 -right-4 flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors"
+                            aria-label="Fermer l'image"
+                        >
+                            <X className="h-5 w-5" />
+                        </button>
+                        <div className="overflow-hidden rounded-2xl border border-white/10 shadow-2xl bg-zinc-950/60">
+                            <img
+                                src={activeImage.src}
+                                alt={activeImage.title}
+                                className="w-full h-[70vh] object-contain bg-zinc-950"
+                            />
+                        </div>
+                        <div className="mt-4 text-center text-sm text-zinc-300">{activeImage.title}</div>
+                    </motion.div>
+                </motion.div>
+            )}
+        </AnimatePresence>
     </section>
   );
 };
