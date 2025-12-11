@@ -155,6 +155,16 @@ export const COUNTRIES: CountryData[] = [
         description:
           'Café de quartier à Gwanak-gu, parfait pour bosser au calme ou faire une pause proche de chez moi (17 Hoam-ro 26-gil, Gwanak-gu, Seoul).',
         emoji: '☕'
+      },
+      {
+        id: 'm10',
+        lat: 37.4728, // approximation proche de Hoam-ro 22-gil
+        lng: 126.9392, // approximation
+        title: 'Gomjim',
+        category: 'Activité',
+        description:
+          'Salle de sport indépendante où je suis inscrit pour 30 jours (60 Hoam-ro 22-gil, Sillim-dong, Gwanak-gu, Seoul).',
+        emoji: '🏋️‍♂️'
       }
     ],
     journal: [
