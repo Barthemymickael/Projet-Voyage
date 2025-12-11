@@ -148,8 +148,8 @@ export const COUNTRIES: CountryData[] = [
       },
       {
         id: 'm9',
-        lat: 37.4725, // approximation du quartier Hoam-ro / Sillim
-        lng: 126.938, // approximation
+        lat: 37.470934, // approximation du quartier Hoam-ro / Sillim
+        lng: 126.934557, // approximation
         title: 'EDIYA Coffee (이디야커피 신림대학동점)',
         category: 'Cuisine', // conforme à "Ville" | "Monument" | "Activité" | "Cuisine"
         description:
