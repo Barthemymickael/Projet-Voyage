@@ -158,8 +158,8 @@ export const COUNTRIES: CountryData[] = [
       },
       {
         id: 'm10',
-        lat: 37.4728, // approximation proche de Hoam-ro 22-gil
-        lng: 126.9392, // approximation
+        lat: 37.468611, // approximation proche de Hoam-ro 22-gil
+        lng: 126.936150, // approximation
         title: 'Gomjim',
         category: 'Activité',
         description:
