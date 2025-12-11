@@ -77,10 +77,10 @@ export const COUNTRIES: CountryData[] = [
       },
       {
         id: 't7',
-        date: 'Jour 7 (peu de pas)',
+        date: 'Jour 7 (9 008 pas)',
         title: 'Bukchon Hanok Village & cafés',
         description:
-          'Réveil vers 7 h, petit déjeuner devant une petite vidéo YouTube. En début d’après-midi, je pars découvrir Bukchon Hanok Village. Pas énormément de pas aujourd’hui : le bus, juste en bas de chez moi, me dépose directement au pied du village. Je me balade tranquillement dans les ruelles, puis je m’installe dans un café-galerie pour savourer un thé vert, ambiance zen. Ensuite, je passe par Onion Coffee : croissant, cake à la fraise… endroit hyper chill où je commence L’Idiot de Dostoïevski. Salle vers 20 h.',
+      'Journée tranquille : visite de Bukchon Hanok Village, pause thé dans un café-galerie, parenthèse chez Onion Coffee où je commence L’Idiot, puis séance en salle à 20 h.',
         image: withBase('bukchon.jpg')
       }
     ],
