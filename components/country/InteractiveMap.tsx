@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { MapContainer, TileLayer, Marker, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -47,11 +47,13 @@ const FlyCardModal = ({ marker, onClose }: { marker: MarkerItem; onClose: () => 
 };
 
 // Component to handle map view updates
-const MapController = ({ center }: { center: [number, number] }) => {
+const MapController = ({ markers }: { markers: MarkerItem[] }) => {
     const map = useMap();
     useEffect(() => {
-        map.flyTo(center, 10, { duration: 2 });
-    }, [center, map]);
+        if (!markers.length) return;
+        const bounds = L.latLngBounds(markers.map((m) => [m.lat, m.lng]));
+        map.flyToBounds(bounds, { padding: [80, 80], duration: 1.25 });
+    }, [markers, map]);
     return null;
 };
 
@@ -72,9 +74,15 @@ export const InteractiveMap = ({ markers, mapId }: { markers: MarkerItem[], mapI
         };
     }, [mapContainerId]);
 
-    const filteredMarkers = activeCategory === 'Tous' 
-        ? markers 
-        : markers.filter(m => m.category === activeCategory);
+    const filteredMarkers = useMemo(
+        () => (activeCategory === 'Tous'
+            ? markers
+            : markers.filter(m => m.category === activeCategory)),
+        [activeCategory, markers]
+    );
+    const initialCenter: [number, number] = filteredMarkers.length
+        ? [filteredMarkers[0].lat, filteredMarkers[0].lng]
+        : [36.5, 127.5];
 
     // Create custom icon
     const createIcon = (emoji: string) => L.divIcon({
@@ -111,8 +119,8 @@ export const InteractiveMap = ({ markers, mapId }: { markers: MarkerItem[], mapI
             <MapContainer 
                 key={mapId}
                 id={mapContainerId}
-                center={[36.5, 127.5]} 
-                zoom={7} 
+                center={initialCenter} 
+                zoom={11} 
                 scrollWheelZoom={false} 
                 className="w-full h-full z-0 outline-none"
                 style={{ background: '#18181b' }}
@@ -121,6 +129,7 @@ export const InteractiveMap = ({ markers, mapId }: { markers: MarkerItem[], mapI
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
                     url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
                 />
+                <MapController markers={filteredMarkers} />
                 
                 {filteredMarkers.map((marker) => (
                     <Marker 
@@ -133,10 +142,6 @@ export const InteractiveMap = ({ markers, mapId }: { markers: MarkerItem[], mapI
                     />
                 ))}
 
-                {/* Optional: Center map on first marker when category changes */}
-                {filteredMarkers.length > 0 && activeCategory !== 'Tous' && (
-                    <MapController center={[filteredMarkers[0].lat, filteredMarkers[0].lng]} />
-                )}
             </MapContainer>
 
             <AnimatePresence>

@@ -98,8 +98,8 @@ export const COUNTRIES: CountryData[] = [
       },
       {
         id: 'm3',
-        lat: 37.5665,
-        lng: 126.978,
+        lat: 37.5663,
+        lng: 126.9779,
         title: 'Centre-ville de Séoul',
         category: 'Ville',
         description:
@@ -108,8 +108,8 @@ export const COUNTRIES: CountryData[] = [
       },
       {
         id: 'm4',
-        lat: 37.5087,
-        lng: 127.063,
+        lat: 37.5111,
+        lng: 127.0592,
         title: 'Gangnam (COEX Mall)',
         category: 'Ville',
         description:
@@ -128,8 +128,8 @@ export const COUNTRIES: CountryData[] = [
       },
       {
         id: 'm6',
-        lat: 37.285,
-        lng: 127.0139,
+        lat: 37.2851,
+        lng: 127.0117,
         title: 'Forteresse Hwaseong',
         category: 'Monument',
         description:
