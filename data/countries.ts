@@ -88,8 +88,8 @@ export const COUNTRIES: CountryData[] = [
       },
       {
         id: 'm2',
-        lat: 37.4784,
-        lng: 126.9516,
+        lat: 37.467397,
+        lng: 126.938980,
         title: 'Gwanak-gu',
         category: 'Ville',
         description:
