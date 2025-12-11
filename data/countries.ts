@@ -165,7 +165,19 @@ export const COUNTRIES: CountryData[] = [
         description:
           'Salle de sport indépendante où je suis inscrit pour 30 jours (60 Hoam-ro 22-gil, Sillim-dong, Gwanak-gu, Seoul).',
         emoji: '🏋️‍♂️'
+      },
+            {
+        id: 'm11',
+        lat: 37.470934, // approximation du quartier Hoam-ro / Sillim
+        lng: 126.934557, // approximation
+        title: 'CU',
+        category: 'Cuisine', // conforme à "Ville" | "Monument" | "Activité" | "Cuisine"
+        description:
+          'Café de quartier à Gwanak-gu, parfait pour bosser au calme ou faire une pause proche de chez moi (17 Hoam-ro 26-gil, Gwanak-gu, Seoul).',
+        emoji: '☕'
       }
+      
+
     ],
     journal: [
       {
