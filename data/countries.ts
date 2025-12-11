@@ -80,7 +80,7 @@ export const COUNTRIES: CountryData[] = [
         date: 'Jour 7 (9 008 pas)',
         title: 'Bukchon Hanok Village & cafés',
         description:
-      'Journée tranquille : visite de Bukchon Hanok Village, pause thé dans un café-galerie, parenthèse chez Onion Coffee où je commence L’Idiot, puis séance en salle à 20 h.',
+          'Journée tranquille : visite de Bukchon Hanok Village, pause thé dans un café-galerie, parenthèse chez Onion Coffee où je commence L’Idiot, puis séance en salle à 20 h.',
         image: withBase('bukchon.jpg')
       }
     ],
@@ -183,6 +183,16 @@ export const COUNTRIES: CountryData[] = [
         description:
           'Café de quartier à Gwanak-gu, parfait pour bosser au calme ou faire une pause proche de chez moi (17 Hoam-ro 26-gil, Gwanak-gu, Seoul).',
         emoji: '☕'
+      },
+      {
+        id: 'm12',
+        lat: 37.57776,
+        lng: 126.986535,
+        title: 'Café Onion (Bukchon)',
+        category: 'Cuisine',
+        description:
+          'Café Onion près de Bukchon Hanok Village : croissant, cake à la fraise et ambiance chill où je commence L’Idiot de Dostoïevski.',
+        emoji: '🥐'
       }
     ],
     journal: [
