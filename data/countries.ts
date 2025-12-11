@@ -74,6 +74,14 @@ export const COUNTRIES: CountryData[] = [
         description:
           'Retour à Gangnam. Visite de l’aquarium « Sea Life » + Entraînement des bras à la salle vers 19 h.',
         image: withBase('aqura.jpg')
+      },
+      {
+        id: 't7',
+        date: 'Jour 7 (peu de pas)',
+        title: 'Bukchon Hanok Village & cafés',
+        description:
+          'Réveil vers 7 h, petit déjeuner devant une petite vidéo YouTube. En début d’après-midi, je pars découvrir Bukchon Hanok Village. Pas énormément de pas aujourd’hui : le bus, juste en bas de chez moi, me dépose directement au pied du village. Je me balade tranquillement dans les ruelles, puis je m’installe dans un café-galerie pour savourer un thé vert, ambiance zen. Ensuite, je passe par Onion Coffee : croissant, cake à la fraise… endroit hyper chill où je commence L’Idiot de Dostoïevski. Salle vers 20 h.',
+        image: withBase('bukchon.jpg')
       }
     ],
     markers: [
@@ -89,7 +97,7 @@ export const COUNTRIES: CountryData[] = [
       {
         id: 'm2',
         lat: 37.467397,
-        lng: 126.938980,
+        lng: 126.93898,
         title: 'Gwanak-gu',
         category: 'Ville',
         description:
@@ -159,14 +167,14 @@ export const COUNTRIES: CountryData[] = [
       {
         id: 'm10',
         lat: 37.468611, // approximation proche de Hoam-ro 22-gil
-        lng: 126.936150, // approximation
+        lng: 126.93615, // approximation
         title: 'Gomjim',
         category: 'Activité',
         description:
           'Salle de sport indépendante où je suis inscrit pour 30 jours (60 Hoam-ro 22-gil, Sillim-dong, Gwanak-gu, Seoul).',
         emoji: '🏋️‍♂️'
       },
-            {
+      {
         id: 'm11',
         lat: 37.470934, // approximation du quartier Hoam-ro / Sillim
         lng: 126.934557, // approximation
@@ -176,8 +184,6 @@ export const COUNTRIES: CountryData[] = [
           'Café de quartier à Gwanak-gu, parfait pour bosser au calme ou faire une pause proche de chez moi (17 Hoam-ro 26-gil, Gwanak-gu, Seoul).',
         emoji: '☕'
       }
-      
-
     ],
     journal: [
       {
@@ -244,6 +250,22 @@ Et évidemment, la question de mon bagage en soute revenait souvent : escale obl
         image:
           'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=2070&auto=format&fit=crop',
         mood: 'Retour à Gangnam'
+      },
+      {
+        id: 'j7',
+        day: 7,
+        title: 'Bukchon Hanok Village',
+        excerpt: `Réveil vers 7 h, petit déjeuner devant une petite vidéo YouTube.
+En début d’après-midi, je pars découvrir Bukchon Hanok Village. Pas énormément de pas aujourd’hui : le bus, juste en bas de chez moi, m’a déposé directement au pied du village.
+
+Je me balade tranquillement dans les ruelles, puis je m’installe dans un café-galerie pour savourer un thé vert, ambiance zen.
+
+Ensuite, je passe par Onion Coffee : croissant, cake à la fraise… endroit hyper chill où j’ai commencé L’Idiot de Dostoïevski.
+
+Salle vers 20 h.`,
+        image:
+          'https://images.unsplash.com/photo-1554797589-7241bb691973?q=80&w=2070&auto=format&fit=crop',
+        mood: 'Bukchon Hanok Village'
       }
     ]
   },
