@@ -35,7 +35,7 @@ export const COUNTRIES: CountryData[] = [
         date: 'Jour 2 (5 189 pas)',
         title: 'Mon logement pour 1,5 mois',
         description:
-          'Quartier Gwanak-gu, proche de l’université et à 35 minutes en métro du centre-ville. Un 7-Eleven et une salle de sport en bas de la rue. Parfait ! Journée de balade en début de journée (8 h - 15 h).',
+          'Quartier Gwanak-gu, proche de l’université et à 35 minutes en métro du centre-ville. Un 7-Eleven et une salle de sport en bas de la rue. Parfait ! Balade en matinée (8 h - 15 h).',
         image: withBase('image2.jpg')
       },
       {
@@ -69,10 +69,10 @@ export const COUNTRIES: CountryData[] = [
       },
       {
         id: 't6',
-        date: 'Jour 6',
+        date: 'Jour 6 (8 817 pas)',
         title: 'Retour à Gangnam',
         description:
-          'Retour à Gangnam. Visite de l’aquarium « Sea Life ».',
+          'Retour à Gangnam. Visite de l’aquarium « Sea Life » + Entraînement des bras à la salle vers 19 h.',
         image: withBase('aqura.jpg')
       }
     ],
@@ -218,7 +218,7 @@ Et évidemment, la question de mon bagage en soute revenait souvent : escale obl
         day: 6,
         title: 'Gangnam',
         excerpt:
-          'Un peu fatigué de la randonnée d’hier à Suwon, je pars tranquillement en début d’après-midi pour Gangnam. Je retourne au mall COEX pour, cette fois-ci, visiter l’aquarium « Sea Life ». Comme je suis parti en début d’après-midi, j’en profite pour me balader en soirée dans les rues animées de Gangnam.',
+          'Un peu fatigué de la randonnée d’hier à Suwon, je pars tranquillement en début d’après-midi pour Gangnam. Je retourne au mall COEX pour, cette fois-ci, visiter l’aquarium « Sea Life ». Comme je suis parti en début d’après-midi, j’en profite pour me balader en soirée dans les rues animées de Gangnam. Sur le trajet retour, je me motive pour aller à la salle, séance bras. Complètement cuit en rentrant, je m’endors très rapidement.',
         image:
           'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=2070&auto=format&fit=crop',
         mood: 'Retour à Gangnam'
