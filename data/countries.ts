@@ -90,7 +90,7 @@ export const COUNTRIES: CountryData[] = [
         date: 'Jour 8',
         title: 'War Memorial of Korea & illuminations de Noël',
         description:
-          'Visite du War Memorial of Korea, l’un des musées les plus importants d’Asie. Je pensais n’y voir que la guerre de Corée (1950-1953), souvent appelée la « guerre oubliée », mais le musée retrace en réalité l’histoire des conflits du pays, la guerre de 1950, ainsi que l’aide apportée par la Corée du Sud pendant la guerre du Vietnam. Je pensais rester 3 à 4 heures : j’y ai passé 6 h 30, en faisant toutes les activités et en regardant presque toutes les vidéos. Ensuite, direction les illuminations de Noël (annoncées à 19 h sur le flyer, le show a commencé un peu avant). Séance épaules à 22 h.',
+          'Visite du War Memorial of Korea et illuminations de Noël',
         image: withBase('war-museum.jpg')
       }
     ],
