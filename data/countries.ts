@@ -225,7 +225,18 @@ export const COUNTRIES: CountryData[] = [
         description:
           'Show de Noël en ville (annoncé à 19 h sur le flyer, démarrage un peu avant).',
         emoji: '🎄'
-      }
+      },
+            {
+        id: 'm15',
+        lat: 37.514912,
+        lng: 127.057355,
+        title: 'Bongeunsa',
+        category: 'Monument',
+        description:
+          'Temple bouddhiste coréen traditionnel avec une statue de 23 mètres du Bouddha Maitreya.',
+        emoji: '🛕'
+      },
+
     ],
     journal: [
       {
