@@ -87,7 +87,7 @@ export const COUNTRIES: CountryData[] = [
       // ✅ AJOUT JOUR 8
       {
         id: 't8',
-        date: 'Jour 8',
+        date: 'Jour 8 (12 609 pas)',
         title: 'War Memorial of Korea & illuminations de Noël',
         description:
           'Visite du War Memorial of Korea et illuminations de Noël',
