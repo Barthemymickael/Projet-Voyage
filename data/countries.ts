@@ -309,8 +309,6 @@ Salle vers 20 h.`,
           'https://images.unsplash.com/photo-1554797589-7241bb691973?q=80&w=2070&auto=format&fit=crop',
         mood: 'Bukchon Hanok Village'
       },
-
-      // ✅ AJOUT JOUR 8 (JOURNAL)
       {
         id: 'j8',
         day: 8,
