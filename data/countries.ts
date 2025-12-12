@@ -82,6 +82,16 @@ export const COUNTRIES: CountryData[] = [
         description:
           'Journée tranquille : visite de Bukchon Hanok Village, pause thé dans un café-galerie, parenthèse chez Onion Coffee où je commence L’Idiot, puis séance en salle à 20 h.',
         image: withBase('bukchon.jpg')
+      },
+
+      // ✅ AJOUT JOUR 8
+      {
+        id: 't8',
+        date: 'Jour 8',
+        title: 'War Memorial of Korea & illuminations de Noël',
+        description:
+          'Visite du War Memorial of Korea, l’un des musées les plus importants d’Asie. Je pensais n’y voir que la guerre de Corée (1950-1953), souvent appelée la « guerre oubliée », mais le musée retrace en réalité l’histoire des conflits du pays, la guerre de 1950, ainsi que l’aide apportée par la Corée du Sud pendant la guerre du Vietnam. Je pensais rester 3 à 4 heures : j’y ai passé 6 h 30, en faisant toutes les activités et en regardant presque toutes les vidéos. Ensuite, direction les illuminations de Noël (annoncées à 19 h sur le flyer, le show a commencé un peu avant). Séance épaules à 22 h.',
+        image: withBase('war-museum.jpg')
       }
     ],
     markers: [
@@ -159,7 +169,7 @@ export const COUNTRIES: CountryData[] = [
         lat: 37.470934, // approximation du quartier Hoam-ro / Sillim
         lng: 126.934557, // approximation
         title: 'EDIYA Coffee (이디야커피 신림대학동점)',
-        category: 'Cuisine', // conforme à "Ville" | "Monument" | "Activité" | "Cuisine"
+        category: 'Cuisine',
         description:
           'Café de quartier à Gwanak-gu, parfait pour bosser au calme ou faire une pause proche de chez moi (17 Hoam-ro 26-gil, Gwanak-gu, Seoul).',
         emoji: '☕'
@@ -179,7 +189,7 @@ export const COUNTRIES: CountryData[] = [
         lat: 37.470934, // approximation du quartier Hoam-ro / Sillim
         lng: 126.934557, // approximation
         title: 'CU',
-        category: 'Cuisine', // conforme à "Ville" | "Monument" | "Activité" | "Cuisine"
+        category: 'Cuisine',
         description:
           'Café de quartier à Gwanak-gu, parfait pour bosser au calme ou faire une pause proche de chez moi (17 Hoam-ro 26-gil, Gwanak-gu, Seoul).',
         emoji: '☕'
@@ -193,6 +203,28 @@ export const COUNTRIES: CountryData[] = [
         description:
           'Café Onion près de Bukchon Hanok Village : croissant, cake à la fraise et ambiance chill où je commence L’Idiot de Dostoïevski.',
         emoji: '🥐'
+      },
+
+      // ✅ AJOUTS JOUR 8 (MAP)
+      {
+        id: 'm13',
+        lat: 37.5365,
+        lng: 126.977,
+        title: 'War Memorial of Korea (전쟁기념관)',
+        category: 'Activité',
+        description:
+          'Un des musées majeurs d’Asie : guerres de l’histoire coréenne, guerre de Corée (1950-1953) et focus sur d’autres engagements militaires.',
+        emoji: '🏛️'
+      },
+      {
+        id: 'm14',
+        lat: 37.5665,
+        lng: 126.978, // Seoul Plaza / City Hall (approx)
+        title: 'Illuminations de Noël (Seoul Plaza)',
+        category: 'Activité',
+        description:
+          'Show de Noël en ville (annoncé à 19 h sur le flyer, démarrage un peu avant).',
+        emoji: '🎄'
       }
     ],
     journal: [
@@ -276,6 +308,28 @@ Salle vers 20 h.`,
         image:
           'https://images.unsplash.com/photo-1554797589-7241bb691973?q=80&w=2070&auto=format&fit=crop',
         mood: 'Bukchon Hanok Village'
+      },
+
+      // ✅ AJOUT JOUR 8 (JOURNAL)
+      {
+        id: 'j8',
+        day: 8,
+        title: 'Le poids de l’Histoire',
+        excerpt: `Aujourd’hui, je vais voir l’un des musées les plus importants d’Asie : le War Memorial of Korea.
+
+La guerre de Corée (1950-1953) est, pour moi, une guerre dont je n’ai entendu parler que dans les films. J’ai en tête plusieurs scènes où les personnages parlent de cette guerre, connue pour être la « guerre oubliée ».
+
+C’est en grande partie pour cela que je fais ce voyage : découvrir l’histoire profonde qui a construit la puissance de ce pays.
+
+Moi qui pensais que le musée ne parlait que de la guerre de Corée, j’ai découvert qu’il évoque à la fois les guerres qui se sont déroulées tout au long de l’histoire du pays, la guerre de Corée de 1950, ainsi que l’aide apportée par la Corée du Sud pendant la guerre du Vietnam.
+
+Moi qui pensais faire une visite de 3 à 4 heures, j’ai finalement passé 6 h 30 dans le musée. J’ai littéralement fait toutes les activités, cliqué sur tous les boutons et regardé presque toutes les vidéos.
+
+Avant de terminer cette journée, je me suis rendu aux illuminations de Noël de la ville : sur le flyer, il était marqué 19 heures. Le show a commencé un peu avant.
+
+Séance épaule à 22h.`,
+        image: withBase('noel-seoul.jpg'),
+        mood: 'Histoire et mémoire'
       }
     ]
   },
