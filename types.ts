@@ -47,3 +47,19 @@ export interface CountryData {
 }
 
 export type Theme = 'light' | 'dark';
+
+export interface GitHubCommitInfo {
+  sha?: string;
+  url?: string;
+  message?: string;
+  date?: string;
+}
+
+export interface GitHubStatus {
+  connected: boolean;
+  repo?: string;
+  branch?: string;
+  filePath?: string;
+  lastCommit?: GitHubCommitInfo;
+  reason?: string;
+}

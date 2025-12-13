@@ -82,6 +82,56 @@ const pushToGitHub = async (countries) => {
   }
 };
 
+const fetchGitHubStatus = async () => {
+  if (!hasGitHubConfig()) {
+    return {
+      connected: false,
+      reason: 'GITHUB_TOKEN ou GITHUB_REPO non définis sur le serveur.'
+    };
+  }
+
+  const headers = {
+    Authorization: `Bearer ${GITHUB_TOKEN}`,
+    'Content-Type': 'application/json',
+    Accept: 'application/vnd.github+json',
+    'User-Agent': 'projet-voyage-server'
+  };
+
+  try {
+    const commitRes = await fetch(
+      `https://api.github.com/repos/${GITHUB_REPO}/commits?path=${encodeURIComponent(
+        GITHUB_FILE_PATH
+      )}&sha=${GITHUB_BRANCH}&per_page=1`,
+      { headers }
+    );
+
+    if (!commitRes.ok) {
+      const message = await commitRes.text();
+      return { connected: false, reason: `Impossible de lire GitHub: ${message || commitRes.status}` };
+    }
+
+    const commits = await commitRes.json();
+    const lastCommit = Array.isArray(commits) && commits.length ? commits[0] : null;
+
+    return {
+      connected: true,
+      repo: GITHUB_REPO,
+      branch: GITHUB_BRANCH,
+      filePath: GITHUB_FILE_PATH,
+      lastCommit: lastCommit
+        ? {
+            sha: lastCommit.sha,
+            url: lastCommit.html_url,
+            message: lastCommit.commit?.message,
+            date: lastCommit.commit?.committer?.date
+          }
+        : undefined
+    };
+  } catch (error) {
+    return { connected: false, reason: `Erreur réseau GitHub: ${String(error)}` };
+  }
+};
+
 const sendJson = (res, status, payload) => {
   res.writeHead(status, {
     'Content-Type': 'application/json',
@@ -136,6 +186,11 @@ const server = createServer(async (req, res) => {
         return sendJson(res, 400, { message: 'JSON invalide', error: String(error) });
       }
     }
+  }
+
+  if (req.url.startsWith('/api/github/status') && req.method === 'GET') {
+    const status = await fetchGitHubStatus();
+    return sendJson(res, 200, status);
   }
 
   sendJson(res, 404, { message: 'Route non trouvée' });
