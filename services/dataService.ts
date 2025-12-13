@@ -19,8 +19,10 @@ const inferDefaultApiBase = () => {
   return null;
 };
 
-const API_BASE = inferDefaultApiBase();
-const COUNTRIES_ENDPOINT = API_BASE ? `${API_BASE}/api/countries` : null;
+export const API_BASE = inferDefaultApiBase();
+export const buildApiUrl = (path: string) => (API_BASE ? `${API_BASE}${path}` : null);
+
+const COUNTRIES_ENDPOINT = buildApiUrl('/api/countries');
 
 export const loadCountries = async (
   fallback: CountryData[]

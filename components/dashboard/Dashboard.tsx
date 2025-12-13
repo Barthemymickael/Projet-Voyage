@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { CountryData, JournalEntry, MarkerItem, TimelineEvent } from '../../types';
+import { CountryData, GitHubStatus, JournalEntry, MarkerItem, TimelineEvent } from '../../types';
 import { DataSource } from '../../services/dataService';
 
 const createId = () =>
@@ -17,6 +17,8 @@ interface Props {
   isPublishing: boolean;
   publishState: 'idle' | 'success' | 'error';
   dataSource: DataSource;
+  gitHubStatus: GitHubStatus | null;
+  onRefreshGitStatus: () => void;
   onBack: () => void;
 }
 
@@ -66,6 +68,8 @@ export const Dashboard: React.FC<Props> = ({
   isPublishing,
   publishState,
   dataSource,
+  gitHubStatus,
+  onRefreshGitStatus,
   onBack
 }) => {
   const [selectedId, setSelectedId] = useState<string | null>(countries[0]?.id ?? null);
@@ -246,6 +250,68 @@ export const Dashboard: React.FC<Props> = ({
               Nouveau voyage
             </button>
           </div>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-4 items-start">
+        <div className="bg-white/5 border border-white/10 rounded-3xl p-6 shadow-lg shadow-black/30">
+          <div className="flex items-center justify-between gap-3">
+            <div>
+              <p className="text-xs uppercase tracking-[0.25em] text-indigo-200/70">Synchronisation GitHub</p>
+              <div className="flex items-center gap-2">
+                <h2 className="text-xl font-semibold">{gitHubStatus?.connected ? 'Connecté' : 'Non connecté'}</h2>
+                <span
+                  className={`px-2 py-1 text-[11px] rounded-full border ${
+                    gitHubStatus?.connected
+                      ? 'bg-emerald-500/10 border-emerald-400/50 text-emerald-100'
+                      : 'bg-amber-500/10 border-amber-300/40 text-amber-100'
+                  }`}
+                >
+                  {gitHubStatus?.connected ? 'Live' : 'En attente'}
+                </span>
+              </div>
+              <p className="text-sm text-white/70 mt-1">
+                {gitHubStatus?.connected
+                  ? `Suivi de ${gitHubStatus.filePath} sur ${gitHubStatus.repo} (${gitHubStatus.branch}).`
+                  : gitHubStatus?.reason || 'Configurez les variables GitHub pour activer les mises à jour.'}
+              </p>
+              {gitHubStatus?.lastCommit && (
+                <p className="text-xs text-white/60 mt-2">
+                  Dernier commit :
+                  {gitHubStatus.lastCommit.url ? (
+                    <a
+                      href={gitHubStatus.lastCommit.url}
+                      className="ml-1 text-indigo-200 underline decoration-dotted"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {gitHubStatus.lastCommit.sha?.slice(0, 7) || 'SHA inconnu'}
+                    </a>
+                  ) : (
+                    <span className="ml-1">{gitHubStatus.lastCommit.sha?.slice(0, 7) || 'SHA inconnu'}</span>
+                  )}
+                  {gitHubStatus.lastCommit.message && <span className="ml-1">— {gitHubStatus.lastCommit.message}</span>}
+                  {gitHubStatus.lastCommit.date && (
+                    <span className="ml-1 text-white/40">({new Date(gitHubStatus.lastCommit.date).toLocaleString()})</span>
+                  )}
+                </p>
+              )}
+            </div>
+            <button
+              className="px-3 py-2 text-sm rounded-full bg-white/10 border border-white/15 hover:bg-white/15 transition"
+              onClick={onRefreshGitStatus}
+            >
+              Rafraîchir
+            </button>
+          </div>
+        </div>
+
+        <div className="bg-gradient-to-r from-indigo-500/20 via-purple-500/20 to-cyan-400/15 border border-white/10 rounded-3xl p-6 shadow-inner shadow-black/30">
+          <p className="text-xs uppercase tracking-[0.25em] text-indigo-200/70">Conseil</p>
+          <p className="text-sm text-white/80 mt-2">
+            Activez <code className="bg-white/10 px-2 py-0.5 rounded">GITHUB_TOKEN</code> et <code className="bg-white/10 px-2 py-0.5 rounded">GITHUB_REPO</code>
+            {' '}sur l'API pour publier et suivre vos carnets directement dans votre dépôt.
+          </p>
         </div>
       </div>
 
