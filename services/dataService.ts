@@ -59,7 +59,13 @@ export const persistCountries = async (countries: CountryData[]): Promise<boolea
       body: JSON.stringify(countries)
     });
 
-    return response.ok;
+    if (!response.ok) {
+      const message = await response.text();
+      console.warn('Échec de la publication distante', message);
+      return false;
+    }
+
+    return true;
   } catch (error) {
     console.warn('Impossible de sauvegarder les données à distance', error);
     return false;
