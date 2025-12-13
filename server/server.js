@@ -1,11 +1,5 @@
 import { createServer } from 'http';
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const DATA_PATH = path.join(__dirname, 'db.json');
+import { getDatabasePath, readCountries, writeCountries } from './database.js';
 const PORT = process.env.PORT || 4000;
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
@@ -14,18 +8,6 @@ const GITHUB_BRANCH = process.env.GITHUB_BRANCH || 'main';
 const GITHUB_FILE_PATH = process.env.GITHUB_FILE_PATH || 'server/db.json';
 
 const hasGitHubConfig = () => Boolean(GITHUB_TOKEN && GITHUB_REPO);
-
-const readData = () => {
-  if (!fs.existsSync(DATA_PATH)) {
-    fs.writeFileSync(DATA_PATH, JSON.stringify({ countries: [] }, null, 2));
-  }
-  const raw = fs.readFileSync(DATA_PATH, 'utf-8');
-  return JSON.parse(raw);
-};
-
-const writeData = (countries) => {
-  fs.writeFileSync(DATA_PATH, JSON.stringify({ countries }, null, 2));
-};
 
 const pushToGitHub = async (countries) => {
   if (!hasGitHubConfig()) {
@@ -158,8 +140,8 @@ const server = createServer(async (req, res) => {
 
   if (req.url.startsWith('/api/countries')) {
     if (req.method === 'GET') {
-      const data = readData();
-      return sendJson(res, 200, data.countries || []);
+      const countries = readCountries();
+      return sendJson(res, 200, countries);
     }
 
     if (req.method === 'PUT') {
@@ -173,7 +155,7 @@ const server = createServer(async (req, res) => {
         if (!Array.isArray(payload)) {
           return sendJson(res, 400, { message: 'Le format doit être un tableau de pays.' });
         }
-        writeData(payload);
+        writeCountries(payload);
         const gitResult = await pushToGitHub(payload);
         if (!gitResult.ok) {
           return sendJson(res, 500, {
@@ -198,4 +180,5 @@ const server = createServer(async (req, res) => {
 
 server.listen(PORT, () => {
   console.log(`API prête sur http://localhost:${PORT}`);
+  console.log(`Base de données SQLite : ${getDatabasePath()}`);
 });

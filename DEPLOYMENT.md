@@ -2,7 +2,7 @@
 
 Ce dépôt contient deux parties :
 - **Front Vite** (racine du projet)
-- **API Node** dans `server/server.js` (expose `GET/PUT /api/countries`)
+- **API Node** dans `server/server.js` (expose `GET/PUT /api/countries`) avec stockage SQLite (`server/data.db`)
 
 Les étapes ci-dessous permettent de déployer l'API et de configurer le front pour qu'il pointe dessus.
 
@@ -46,16 +46,16 @@ Le front compose ensuite l'endpoint complet `${VITE_API_BASE_URL}/api/countries`
 
 ## Astuces
 - Si vous préférez un autre hébergeur HTTPS, fournissez simplement l'URL racine dans `VITE_API_BASE_URL`; aucune modification de code n'est nécessaire.
-- Le fichier `server/db.json` est créé automatiquement au premier appel si absent.
+- La base SQLite `server/data.db` est créée automatiquement au premier appel si absente.
 
 ## 4. Activer le push GitHub automatique lors d'une publication
 Pour que le clic sur **Publier** sauvegarde aussi les données dans votre dépôt GitHub, définissez ces variables d'environnement
 sur l'API :
 
-- `GITHUB_TOKEN` : un token PAT avec le scope `repo`.
-- `GITHUB_REPO` : le dépôt cible au format `owner/nom-repo`.
-- `GITHUB_BRANCH` *(optionnel)* : branche à mettre à jour (par défaut `main`).
-- `GITHUB_FILE_PATH` *(optionnel)* : chemin du fichier de données dans le repo (par défaut `server/db.json`).
+ - `GITHUB_TOKEN` : un token PAT avec le scope `repo`.
+ - `GITHUB_REPO` : le dépôt cible au format `owner/nom-repo`.
+ - `GITHUB_BRANCH` *(optionnel)* : branche à mettre à jour (par défaut `main`).
+ - `GITHUB_FILE_PATH` *(optionnel)* : chemin du fichier JSON à mettre à jour dans le repo (par défaut `server/db.json`).
 
-Quand elles sont présentes, l'API commitera le contenu `{ countries: [...] }` dans le fichier choisi et renverra une erreur 500 si
+Quand elles sont présentes, l'API exporte les données SQLite dans le fichier `{ countries: [...] }` choisi et renvoie une erreur 500 si
 le push échoue, afin que le bouton **Publier** signale le problème dans le dashboard.
