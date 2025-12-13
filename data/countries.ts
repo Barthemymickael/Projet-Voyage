@@ -100,9 +100,14 @@ export const COUNTRIES: CountryData[] = [
         date: 'Jour 9',
         title: 'Neige, café et ramen du soir',
         description:
-          'Jour neige/pluie : événement K-pop déplacé, je préfère lire au café (cookie + caramel latte), retouche du site en fin de journée, séance pec vers 20 h, puis ramen et gimbap au thon à deux pas de chez moi.',
+          'Neige mêlée de pluie : l’événement K-pop est délocalisé dans un hall de magasin, ambiance qui me tente moins, alors je file bouquiner dans un café du quartier avec un cookie et un caramel latte.',
+        bullets: [
+          'Retour à la maison vers 18 h 30 pour noter mes idées et améliorer la page web',
+          'Séance pec à la salle vers 20 h',
+          'Envie de ressortir : ramen et gimbap au thon dans un resto à 4 minutes de chez moi'
+        ],
         image:
-          'https://images.unsplash.com/photo-1471253387723-35c53c9f97ca?q=80&w=1974&auto=format&fit=crop'
+          'https://images.unsplash.com/photo-1521389508051-d7ffb5dc8bb0?auto=format&fit=crop&w=2070&q=80'
       }
     ],
     markers: [
@@ -355,13 +360,13 @@ Séance épaule à 22h.`,
         id: 'j9',
         day: 9,
         title: 'Neige, café et ramen du soir',
-        excerpt: `Aujourd’hui, pluie et neige mêlées : l’événement K-pop du soir est déplacé dans un grand hall de magasin, et ça ne me tente pas.
-Je choisis plutôt un café de quartier pour lire un livre, cookie et caramel latte à la main.
-Retour à la maison vers 18 h 30 pour noter mes idées et améliorer cette page web.
+        excerpt: `Mélange de neige et de pluie : l’événement K-pop du soir est déplacé dans un grand hall de magasin, ambiance qui ne me tente pas.
+Je préfère un café tout près pour bouquiner, cookie et caramel latte à la main.
+Retour à la maison vers 18 h 30 pour coucher mes idées et améliorer cette page web.
 Salle à 20 h pour une séance pec.
-Plus tard, une envie de sortir : un petit resto de ramen avec gimbap au thon à quatre minutes de chez moi, c’était super bon.`,
+Plus tard, l’envie de ressortir : un petit resto de ramen avec gimbap au thon à quatre minutes de chez moi, c’était super bon.`,
         image:
-          'https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1974&auto=format&fit=crop',
+          'https://images.unsplash.com/photo-1521389508051-d7ffb5dc8bb0?auto=format&fit=crop&w=2070&q=80',
         mood: 'Neige et réconfort'
       }
     ]
