@@ -2,7 +2,7 @@
 
 Ce dépôt contient deux parties :
 - **Front Vite** (racine du projet)
-- **API Node** dans `server/server.js` (expose `GET/PUT /api/countries`)
+- **API Node** dans `server/server.js` (expose `GET/PUT /api/countries`) avec stockage SQLite (`server/data.db`)
 
 Les étapes ci-dessous permettent de déployer l'API et de configurer le front pour qu'il pointe dessus.
 
@@ -46,27 +46,16 @@ Le front compose ensuite l'endpoint complet `${VITE_API_BASE_URL}/api/countries`
 
 ## Astuces
 - Si vous préférez un autre hébergeur HTTPS, fournissez simplement l'URL racine dans `VITE_API_BASE_URL`; aucune modification de code n'est nécessaire.
-- Le fichier `server/db.json` est créé automatiquement au premier appel si absent.
+- La base SQLite `server/data.db` est créée automatiquement au premier appel si absente.
 
 ## 4. Activer le push GitHub automatique lors d'une publication
-Pour que le clic sur **Publier** sauvegarde aussi les données dans votre dépôt GitHub, définissez les variables d'environnement
-ci-dessous sur **l'API** (localement et/ou sur Vercel) :
+Pour que le clic sur **Publier** sauvegarde aussi les données dans votre dépôt GitHub, définissez ces variables d'environnement
+sur l'API :
 
-1. **Créer un token PAT** :
-   - Dans GitHub > *Settings* > *Developer settings* > *Personal access tokens* > *Fine-grained tokens*.
-   - Donnez-lui le scope `Contents: Read and write` (équivalent `repo` sur les PAT classiques).
-   - Copiez la valeur du token généré : elle sera votre `GITHUB_TOKEN`.
-2. **Choisir la cible de commit** :
-   - `GITHUB_REPO` : dépôt cible au format `owner/nom-repo` (ex. `mon-org/voyage-data`).
-   - `GITHUB_BRANCH` *(optionnel)* : branche à mettre à jour (par défaut `main`).
-   - `GITHUB_FILE_PATH` *(optionnel)* : chemin du fichier JSON dans le repo (par défaut `server/db.json`).
-3. **Définir les variables** :
-   - En local (si vous lancez `npm run dev` côté API) : exportez-les avant `node server.js` ou ajoutez-les à un fichier `.env` lu par
-     votre outil de déploiement.
-   - Sur Vercel : `vercel env add GITHUB_TOKEN` puis `vercel env add GITHUB_REPO` (et éventuellement `GITHUB_BRANCH` /
-     `GITHUB_FILE_PATH`). Redeployez ensuite l'API.
-4. **Tester** :
-   - Le dashboard affiche « Activez GITHUB_TOKEN et GITHUB_REPO » tant que les variables manquent ; une fois en place le badge passe
-     en mode synchronisation GitHub.
-   - Cliquez sur **Publier** : le serveur met à jour le fichier `{ countries: [...] }` dans le dépôt choisi. En cas d'erreur de push,
-     l'API renvoie une 500 pour que l'UI signale le problème.
+ - `GITHUB_TOKEN` : un token PAT avec le scope `repo`.
+ - `GITHUB_REPO` : le dépôt cible au format `owner/nom-repo`.
+ - `GITHUB_BRANCH` *(optionnel)* : branche à mettre à jour (par défaut `main`).
+ - `GITHUB_FILE_PATH` *(optionnel)* : chemin du fichier JSON à mettre à jour dans le repo (par défaut `server/db.json`).
+
+Quand elles sont présentes, l'API exporte les données SQLite dans le fichier `{ countries: [...] }` choisi et renvoie une erreur 500 si
+le push échoue, afin que le bouton **Publier** signale le problème dans le dashboard.
