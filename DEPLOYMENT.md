@@ -38,6 +38,8 @@ vercel deploy --prod --token <VERCEL_TOKEN>
 
 Le front compose ensuite l'endpoint complet `${VITE_API_BASE_URL}/api/countries`. Quand l'API répond, le badge en haut à gauche affiche **"Backend en ligne"** et le bouton **Publier** fonctionne.
 
+> ⚠️ Sans `VITE_API_BASE_URL` sur un domaine public, le front reste en mode lecture seule (chargement et publication désactivés) pour éviter des appels vers une API inexistante.
+
 ## 3. Vérifications rapides
 - `curl https://<votre-host>/api/countries` doit renvoyer un tableau JSON.
 - Depuis l'UI, le badge passe à "Backend en ligne" et un clic sur **Publier** renvoie 200.
