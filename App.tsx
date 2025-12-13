@@ -11,6 +11,36 @@ export default function App() {
   const [countries, setCountries] = useState<CountryData[]>([]);
   const [selectedCountryId, setSelectedCountryId] = useState<string | null>(null);
   const [showDashboard, setShowDashboard] = useState(false);
+  const [hasLoaded, setHasLoaded] = useState(false);
+
+  useEffect(() => {
+    const params = typeof window !== 'undefined' ? new URLSearchParams(window.location.search) : null;
+    if (params?.get('admin') === 'true') {
+      setShowDashboard(true);
+    }
+  }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+    const loadData = async () => {
+      const initial = await loadCountries(COUNTRIES);
+      if (cancelled) return;
+      setCountries(initial);
+      setHasLoaded(true);
+      if (!initial.length) {
+        await persistCountries(COUNTRIES);
+      }
+    };
+    loadData();
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!hasLoaded || !countries.length) return;
+    persistCountries(countries);
+  }, [countries, hasLoaded]);
 
   useEffect(() => {
     const initial = loadCountries(COUNTRIES);
@@ -41,6 +71,15 @@ export default function App() {
 
   const handleCountryCreate = (country: CountryData) => {
     setCountries((prev) => [...prev, country]);
+  };
+
+  const handleDashboardExit = () => {
+    setShowDashboard(false);
+    if (typeof window !== 'undefined') {
+      const url = new URL(window.location.href);
+      url.searchParams.delete('admin');
+      window.history.replaceState({}, '', url.toString());
+    }
   };
 
   return (
@@ -76,6 +115,7 @@ export default function App() {
               onCreate={handleCountryCreate}
               onDelete={handleCountryDelete}
               onUpdate={handleCountryUpdate}
+              onBack={handleDashboardExit}
               onBack={() => setShowDashboard(false)}
             />
           </motion.div>
