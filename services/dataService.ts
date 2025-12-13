@@ -23,16 +23,19 @@ export const loadCountries = async (
   return { data: fallback, source: 'fallback' };
 };
 
-export const persistCountries = async (countries: CountryData[]) => {
+export const persistCountries = async (countries: CountryData[]): Promise<boolean> => {
   try {
-    await fetch(COUNTRIES_ENDPOINT, {
+    const response = await fetch(COUNTRIES_ENDPOINT, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify(countries)
     });
+
+    return response.ok;
   } catch (error) {
     console.warn('Impossible de sauvegarder les données à distance', error);
+    return false;
   }
 };

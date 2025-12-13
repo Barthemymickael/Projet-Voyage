@@ -13,6 +13,9 @@ export default function App() {
   const [showDashboard, setShowDashboard] = useState(false);
   const [hasLoaded, setHasLoaded] = useState(false);
   const [dataSource, setDataSource] = useState<DataSource>('fallback');
+  const [hasPendingChanges, setHasPendingChanges] = useState(false);
+  const [isPublishing, setIsPublishing] = useState(false);
+  const [publishState, setPublishState] = useState<'idle' | 'success' | 'error'>('idle');
 
   useEffect(() => {
     const params = typeof window !== 'undefined' ? new URLSearchParams(window.location.search) : null;
@@ -29,20 +32,12 @@ export default function App() {
       setCountries(data);
       setDataSource(source);
       setHasLoaded(true);
-      if (!data.length) {
-        await persistCountries(COUNTRIES);
-      }
     };
     loadData();
     return () => {
       cancelled = true;
     };
   }, []);
-
-  useEffect(() => {
-    if (!hasLoaded || !countries.length) return;
-    persistCountries(countries);
-  }, [countries, hasLoaded]);
 
   const selectedCountry = useMemo(
     () => countries.find((c) => c.id === selectedCountryId) || null,
@@ -51,10 +46,12 @@ export default function App() {
 
   const handleCountryUpdate = (updated: CountryData) => {
     setCountries((prev) => prev.map((c) => (c.id === updated.id ? updated : c)));
+    setHasPendingChanges(true);
   };
 
   const handleCountryDelete = (id: string) => {
     setCountries((prev) => prev.filter((c) => c.id !== id));
+    setHasPendingChanges(true);
     if (selectedCountryId === id) {
       setSelectedCountryId(null);
     }
@@ -62,6 +59,18 @@ export default function App() {
 
   const handleCountryCreate = (country: CountryData) => {
     setCountries((prev) => [...prev, country]);
+    setHasPendingChanges(true);
+  };
+
+  const handlePublish = async () => {
+    if (isPublishing || !countries.length) return;
+
+    setIsPublishing(true);
+    setPublishState('idle');
+    const ok = await persistCountries(countries);
+    setPublishState(ok ? 'success' : 'error');
+    setHasPendingChanges(!ok);
+    setIsPublishing(false);
   };
 
   const handleDashboardExit = () => {
@@ -105,7 +114,28 @@ export default function App() {
           {dataSource === 'api' ? 'Backend en ligne' : 'Données par défaut'}
         </span>
       </div>
-      <div className="absolute top-4 right-4 z-20 flex gap-3">
+      <div className="absolute top-4 right-4 z-20 flex gap-3 items-center">
+        {(showDashboard || selectedCountry) && (
+          <div className="flex items-center gap-2">
+            <button
+              className={`px-3 py-2 text-sm rounded-full border transition-colors ${
+                hasPendingChanges
+                  ? 'bg-indigo-600 text-white border-indigo-400 hover:bg-indigo-500'
+                  : 'bg-white/5 text-white/80 border-white/10 cursor-not-allowed'
+              }`}
+              onClick={handlePublish}
+              disabled={!hasPendingChanges || isPublishing}
+            >
+              {isPublishing ? 'Publication…' : hasPendingChanges ? 'Publier' : 'À jour'}
+            </button>
+            {publishState === 'success' && (
+              <span className="text-xs text-emerald-300">Publication réussie</span>
+            )}
+            {publishState === 'error' && (
+              <span className="text-xs text-amber-300">Échec de la publication</span>
+            )}
+          </div>
+        )}
         {selectedCountry && !showDashboard && (
           <button
             className="px-3 py-2 text-sm bg-white/10 text-white rounded-full border border-white/20 hover:bg-white/20"
@@ -130,6 +160,11 @@ export default function App() {
               onCreate={handleCountryCreate}
               onDelete={handleCountryDelete}
               onUpdate={handleCountryUpdate}
+              onPublish={handlePublish}
+              hasPendingChanges={hasPendingChanges}
+              isPublishing={isPublishing}
+              publishState={publishState}
+              dataSource={dataSource}
               onBack={handleDashboardExit}
             />
           </motion.div>
@@ -156,6 +191,10 @@ export default function App() {
             <CountryPage
               data={selectedCountry}
               onUpdate={handleCountryUpdate}
+              onPublish={handlePublish}
+              hasPendingChanges={hasPendingChanges}
+              isPublishing={isPublishing}
+              publishState={publishState}
               onBack={() => setSelectedCountryId(null)}
             />
           </motion.div>
