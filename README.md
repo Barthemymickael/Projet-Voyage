@@ -19,3 +19,7 @@ View your app in AI Studio: https://ai.studio/apps/drive/1P3YpjYl7INbsREUcqCmN7j
 3. Run the app:
    `npm run dev`
 # trigger vercel
+
+## Déploiement Vercel
+
+Pour mettre en ligne l'API (`server/server.js`) et configurer le front avec `VITE_API_BASE_URL`, suivez les étapes détaillées dans [DEPLOYMENT.md](DEPLOYMENT.md).
