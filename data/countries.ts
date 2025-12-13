@@ -106,8 +106,7 @@ export const COUNTRIES: CountryData[] = [
           'Séance pec à la salle vers 20 h',
           'Envie de ressortir : ramen et gimbap au thon dans un resto à 4 minutes de chez moi'
         ],
-        image:
-          'https://images.unsplash.com/photo-1521389508051-d7ffb5dc8bb0?auto=format&fit=crop&w=2070&q=80'
+        image: withBase('IMG_9238.jpg')
       }
     ],
     markers: [
