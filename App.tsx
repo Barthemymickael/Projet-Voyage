@@ -42,6 +42,17 @@ export default function App() {
     persistCountries(countries);
   }, [countries, hasLoaded]);
 
+  useEffect(() => {
+    const initial = loadCountries(COUNTRIES);
+    setCountries(initial);
+  }, []);
+
+  useEffect(() => {
+    if (countries.length) {
+      persistCountries(countries);
+    }
+  }, [countries]);
+
   const selectedCountry = useMemo(
     () => countries.find((c) => c.id === selectedCountryId) || null,
     [countries, selectedCountryId]
@@ -82,6 +93,12 @@ export default function App() {
             Retour à l'accueil
           </button>
         )}
+        <button
+          className="px-3 py-2 text-sm bg-white text-black rounded-full shadow hover:bg-gray-100"
+          onClick={() => setShowDashboard((prev) => !prev)}
+        >
+          {showDashboard ? 'Voir la page' : 'Tableau de bord'}
+        </button>
       </div>
       <AnimatePresence mode="wait">
         {showDashboard ? (
@@ -99,6 +116,7 @@ export default function App() {
               onDelete={handleCountryDelete}
               onUpdate={handleCountryUpdate}
               onBack={handleDashboardExit}
+              onBack={() => setShowDashboard(false)}
             />
           </motion.div>
         ) : !selectedCountry ? (
