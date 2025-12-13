@@ -2,11 +2,10 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { LandingPage } from './components/landing/LandingPage';
 import { CountryPage } from './components/country/CountryPage';
 import { COUNTRIES } from './data/countries';
-import { CountryData, GitHubStatus } from './types';
+import { CountryData } from './types';
 import { AnimatePresence, motion } from 'framer-motion';
 import { Dashboard } from './components/dashboard/Dashboard';
 import { DataSource, loadCountries, persistCountries } from './services/dataService';
-import { fetchGitHubStatus } from './services/githubService';
 
 export default function App() {
   const [countries, setCountries] = useState<CountryData[]>([]);
@@ -17,7 +16,6 @@ export default function App() {
   const [hasPendingChanges, setHasPendingChanges] = useState(false);
   const [isPublishing, setIsPublishing] = useState(false);
   const [publishState, setPublishState] = useState<'idle' | 'success' | 'error'>('idle');
-  const [gitHubStatus, setGitHubStatus] = useState<GitHubStatus | null>(null);
 
   useEffect(() => {
     const params = typeof window !== 'undefined' ? new URLSearchParams(window.location.search) : null;
@@ -40,30 +38,6 @@ export default function App() {
       cancelled = true;
     };
   }, []);
-
-  useEffect(() => {
-    let cancelled = false;
-    let intervalId: number | undefined;
-
-    const refreshStatus = async () => {
-      const status = await fetchGitHubStatus();
-      if (!cancelled) {
-        setGitHubStatus(status);
-      }
-    };
-
-    if (showDashboard) {
-      refreshStatus();
-      intervalId = window.setInterval(refreshStatus, 30000);
-    }
-
-    return () => {
-      cancelled = true;
-      if (intervalId) {
-        window.clearInterval(intervalId);
-      }
-    };
-  }, [showDashboard]);
 
   const selectedCountry = useMemo(
     () => countries.find((c) => c.id === selectedCountryId) || null,
@@ -191,8 +165,6 @@ export default function App() {
               isPublishing={isPublishing}
               publishState={publishState}
               dataSource={dataSource}
-              gitHubStatus={gitHubStatus}
-              onRefreshGitStatus={() => fetchGitHubStatus().then(setGitHubStatus)}
               onBack={handleDashboardExit}
             />
           </motion.div>
