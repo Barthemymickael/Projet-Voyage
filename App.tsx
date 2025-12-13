@@ -42,17 +42,6 @@ export default function App() {
     persistCountries(countries);
   }, [countries, hasLoaded]);
 
-  useEffect(() => {
-    const initial = loadCountries(COUNTRIES);
-    setCountries(initial);
-  }, []);
-
-  useEffect(() => {
-    if (countries.length) {
-      persistCountries(countries);
-    }
-  }, [countries]);
-
   const selectedCountry = useMemo(
     () => countries.find((c) => c.id === selectedCountryId) || null,
     [countries, selectedCountryId]
@@ -116,7 +105,6 @@ export default function App() {
               onDelete={handleCountryDelete}
               onUpdate={handleCountryUpdate}
               onBack={handleDashboardExit}
-              onBack={() => setShowDashboard(false)}
             />
           </motion.div>
         ) : !selectedCountry ? (
