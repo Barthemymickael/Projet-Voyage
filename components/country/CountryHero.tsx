@@ -88,6 +88,18 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
             >
                 {data.hero.description}
             </motion.p>
+
+            {data.hero.note && (
+                <motion.p
+                    initial={{ y: 20, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ delay: 0.7 }}
+                    className="text-sm text-indigo-100/80 bg-white/10 border border-white/10 rounded-xl px-4 py-2 inline-flex items-center gap-2 justify-center"
+                >
+                    <span className="text-lg">✏️</span>
+                    <span>{data.hero.note}</span>
+                </motion.p>
+            )}
             
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-stretch sm:items-center w-full max-w-xl mx-auto">
                 <Magnetic>

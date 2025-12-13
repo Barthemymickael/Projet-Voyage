@@ -9,13 +9,15 @@ import { JournalSection } from './Journal3D';
 import { CommandPalette } from './CommandPalette';
 import { ArrowLeft } from 'lucide-react';
 import { Button } from '../ui/Button';
+import { AdminDashboard } from './AdminDashboard';
 
 interface CountryPageProps {
   data: CountryData;
   onBack: () => void;
+  onUpdate: (data: CountryData) => void;
 }
 
-export const CountryPage: React.FC<CountryPageProps> = ({ data, onBack }) => {
+export const CountryPage: React.FC<CountryPageProps> = ({ data, onBack, onUpdate }) => {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
@@ -53,6 +55,8 @@ export const CountryPage: React.FC<CountryPageProps> = ({ data, onBack }) => {
         <div id="journal">
             <JournalSection entries={data.journal} />
         </div>
+
+        <AdminDashboard country={data} onUpdate={onUpdate} />
 
         <footer className="py-12 text-center text-zinc-600 text-sm border-t border-zinc-900 bg-zinc-950">
             <p>Pour garder une trace de mon voyage en passant par mes réussites, mes doutes, mes pensées et, bien sûr, mes découvertes.</p>
