@@ -15,9 +15,21 @@ interface CountryPageProps {
   data: CountryData;
   onBack: () => void;
   onUpdate: (data: CountryData) => void;
+  onPublish: () => Promise<void>;
+  hasPendingChanges: boolean;
+  isPublishing: boolean;
+  publishState: 'idle' | 'success' | 'error';
 }
 
-export const CountryPage: React.FC<CountryPageProps> = ({ data, onBack, onUpdate }) => {
+export const CountryPage: React.FC<CountryPageProps> = ({
+  data,
+  onBack,
+  onUpdate,
+  onPublish,
+  hasPendingChanges,
+  isPublishing,
+  publishState
+}) => {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
@@ -104,7 +116,16 @@ export const CountryPage: React.FC<CountryPageProps> = ({ data, onBack, onUpdate
           </div>
         )}
 
-        {adminAuthorized && <AdminDashboard country={data} onUpdate={onUpdate} />}
+        {adminAuthorized && (
+          <AdminDashboard
+            country={data}
+            onUpdate={onUpdate}
+            onPublish={onPublish}
+            hasPendingChanges={hasPendingChanges}
+            isPublishing={isPublishing}
+            publishState={publishState}
+          />
+        )}
 
         <footer className="py-12 text-center text-zinc-600 text-sm border-t border-zinc-900 bg-zinc-950">
             <p>Pour garder une trace de mon voyage en passant par mes réussites, mes doutes, mes pensées et, bien sûr, mes découvertes.</p>

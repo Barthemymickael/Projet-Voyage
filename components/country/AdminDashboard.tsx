@@ -6,6 +6,10 @@ import { Plus, X, Sparkles, MapPin, CalendarRange } from 'lucide-react';
 interface AdminDashboardProps {
   country: CountryData;
   onUpdate: (data: CountryData) => void;
+  onPublish: () => Promise<void>;
+  hasPendingChanges: boolean;
+  isPublishing: boolean;
+  publishState: 'idle' | 'success' | 'error';
 }
 
 const emptyTimelineForm = {
@@ -26,7 +30,14 @@ const emptyMarkerForm = {
   lng: ''
 };
 
-export const AdminDashboard: React.FC<AdminDashboardProps> = ({ country, onUpdate }) => {
+export const AdminDashboard: React.FC<AdminDashboardProps> = ({
+  country,
+  onUpdate,
+  onPublish,
+  hasPendingChanges,
+  isPublishing,
+  publishState
+}) => {
   const [isOpen, setIsOpen] = useState(false);
   const [timelineForm, setTimelineForm] = useState(emptyTimelineForm);
   const [markerForm, setMarkerForm] = useState(emptyMarkerForm);
@@ -147,6 +158,26 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ country, onUpdat
                 <div>
                   <p className="text-sm text-zinc-400">Mode édition</p>
                   <h3 className="text-xl font-semibold text-white">Tableau de bord — {country.name}</h3>
+                </div>
+                <div className="flex items-center gap-3">
+                  <button
+                    type="button"
+                    onClick={onPublish}
+                    disabled={!hasPendingChanges || isPublishing}
+                    className={`px-3 py-2 rounded-full text-sm font-semibold border transition-colors ${
+                      hasPendingChanges
+                        ? 'bg-indigo-600 text-white border-indigo-400 hover:bg-indigo-500'
+                        : 'bg-white/5 text-white/70 border-white/10 cursor-not-allowed'
+                    }`}
+                  >
+                    {isPublishing ? 'Publication…' : hasPendingChanges ? 'Publier' : 'À jour'}
+                  </button>
+                  {publishState === 'success' && (
+                    <span className="text-xs text-emerald-300">En ligne</span>
+                  )}
+                  {publishState === 'error' && (
+                    <span className="text-xs text-amber-300">Échec, vérifier l'API</span>
+                  )}
                 </div>
                 <button
                   type="button"

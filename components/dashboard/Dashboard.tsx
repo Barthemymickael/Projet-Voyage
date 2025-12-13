@@ -1,5 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import { CountryData, JournalEntry, MarkerItem, TimelineEvent } from '../../types';
+import { DataSource } from '../../services/dataService';
 
 const createId = () =>
   typeof crypto !== 'undefined' && 'randomUUID' in crypto
@@ -11,6 +12,11 @@ interface Props {
   onUpdate: (country: CountryData) => void;
   onDelete: (id: string) => void;
   onCreate: (country: CountryData) => void;
+  onPublish: () => Promise<void>;
+  hasPendingChanges: boolean;
+  isPublishing: boolean;
+  publishState: 'idle' | 'success' | 'error';
+  dataSource: DataSource;
   onBack: () => void;
 }
 
@@ -41,7 +47,18 @@ const SectionCard: React.FC<{ title: string; children: React.ReactNode }> = ({ t
   </section>
 );
 
-export const Dashboard: React.FC<Props> = ({ countries, onUpdate, onDelete, onCreate, onBack }) => {
+export const Dashboard: React.FC<Props> = ({
+  countries,
+  onUpdate,
+  onDelete,
+  onCreate,
+  onPublish,
+  hasPendingChanges,
+  isPublishing,
+  publishState,
+  dataSource,
+  onBack
+}) => {
   const [selectedId, setSelectedId] = useState<string | null>(countries[0]?.id ?? null);
 
   const selectedCountry = useMemo(
@@ -169,19 +186,49 @@ export const Dashboard: React.FC<Props> = ({ countries, onUpdate, onDelete, onCr
           <p className="text-sm text-white/60">Tableau de bord</p>
           <h1 className="text-3xl font-bold">Gestion des voyages</h1>
         </div>
-        <div className="flex gap-3">
-          <button
-            className="px-4 py-2 rounded-lg bg-gray-800 border border-white/10 hover:bg-gray-700"
-            onClick={onBack}
+        <div className="flex flex-col gap-2 items-end md:flex-row md:items-center md:gap-3">
+          <span
+            className={`px-3 py-1 text-xs rounded-full border ${
+              dataSource === 'api'
+                ? 'bg-emerald-500/20 border-emerald-400/50 text-emerald-100'
+                : 'bg-amber-500/20 border-amber-400/50 text-amber-100'
+            }`}
           >
-            Voir la page publique
-          </button>
-          <button
-            className="px-4 py-2 rounded-lg bg-indigo-500 hover:bg-indigo-400"
-            onClick={handleCreateCountry}
-          >
-            Nouveau voyage
-          </button>
+            {dataSource === 'api' ? 'Backend en ligne' : 'Données par défaut'}
+          </span>
+          <div className="flex items-center gap-2">
+            <button
+              className={`px-4 py-2 rounded-lg border font-semibold ${
+                hasPendingChanges
+                  ? 'bg-indigo-600 border-indigo-400 hover:bg-indigo-500'
+                  : 'bg-white/5 border-white/10 text-white/60 cursor-not-allowed'
+              }`}
+              onClick={onPublish}
+              disabled={!hasPendingChanges || isPublishing}
+            >
+              {isPublishing ? 'Publication…' : hasPendingChanges ? 'Publier' : 'À jour'}
+            </button>
+            {publishState === 'success' && (
+              <span className="text-xs text-emerald-300">Modifications publiées</span>
+            )}
+            {publishState === 'error' && (
+              <span className="text-xs text-amber-300">Échec de la publication</span>
+            )}
+          </div>
+          <div className="flex gap-3">
+            <button
+              className="px-4 py-2 rounded-lg bg-gray-800 border border-white/10 hover:bg-gray-700"
+              onClick={onBack}
+            >
+              Voir la page publique
+            </button>
+            <button
+              className="px-4 py-2 rounded-lg bg-indigo-500 hover:bg-indigo-400"
+              onClick={handleCreateCountry}
+            >
+              Nouveau voyage
+            </button>
+          </div>
         </div>
       </div>
 
