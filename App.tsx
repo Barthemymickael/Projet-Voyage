@@ -5,13 +5,14 @@ import { COUNTRIES } from './data/countries';
 import { CountryData } from './types';
 import { AnimatePresence, motion } from 'framer-motion';
 import { Dashboard } from './components/dashboard/Dashboard';
-import { loadCountries, persistCountries } from './services/dataService';
+import { DataSource, loadCountries, persistCountries } from './services/dataService';
 
 export default function App() {
   const [countries, setCountries] = useState<CountryData[]>([]);
   const [selectedCountryId, setSelectedCountryId] = useState<string | null>(null);
   const [showDashboard, setShowDashboard] = useState(false);
   const [hasLoaded, setHasLoaded] = useState(false);
+  const [dataSource, setDataSource] = useState<DataSource>('fallback');
 
   useEffect(() => {
     const params = typeof window !== 'undefined' ? new URLSearchParams(window.location.search) : null;
@@ -23,11 +24,12 @@ export default function App() {
   useEffect(() => {
     let cancelled = false;
     const loadData = async () => {
-      const initial = await loadCountries(COUNTRIES);
+      const { data, source } = await loadCountries(COUNTRIES);
       if (cancelled) return;
-      setCountries(initial);
+      setCountries(data);
+      setDataSource(source);
       setHasLoaded(true);
-      if (!initial.length) {
+      if (!data.length) {
         await persistCountries(COUNTRIES);
       }
     };
@@ -71,8 +73,38 @@ export default function App() {
     }
   };
 
+  const handleDashboardAccess = () => {
+    setShowDashboard(true);
+    if (typeof window !== 'undefined') {
+      const url = new URL(window.location.href);
+      url.searchParams.set('admin', 'true');
+      window.history.replaceState({}, '', url.toString());
+    }
+  };
+
   return (
     <main className="relative w-full min-h-screen bg-black overflow-hidden">
+      <a
+        href="?admin=true"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:right-4 focus:bg-white focus:text-black focus:px-3 focus:py-2 focus:rounded-full"
+        onClick={(e) => {
+          e.preventDefault();
+          handleDashboardAccess();
+        }}
+      >
+        Accès administrateur
+      </a>
+      <div className="absolute top-4 left-4 z-20">
+        <span
+          className={`px-3 py-1 text-xs rounded-full border ${
+            dataSource === 'api'
+              ? 'bg-emerald-500/20 border-emerald-400/50 text-emerald-100'
+              : 'bg-amber-500/20 border-amber-400/50 text-amber-100'
+          }`}
+        >
+          {dataSource === 'api' ? 'Backend en ligne' : 'Mode stockage local'}
+        </span>
+      </div>
       <div className="absolute top-4 right-4 z-20 flex gap-3">
         {selectedCountry && !showDashboard && (
           <button
@@ -82,12 +114,6 @@ export default function App() {
             Retour à l'accueil
           </button>
         )}
-        <button
-          className="px-3 py-2 text-sm bg-white text-black rounded-full shadow hover:bg-gray-100"
-          onClick={() => setShowDashboard((prev) => !prev)}
-        >
-          {showDashboard ? 'Voir la page' : 'Tableau de bord'}
-        </button>
       </div>
       <AnimatePresence mode="wait">
         {showDashboard ? (
