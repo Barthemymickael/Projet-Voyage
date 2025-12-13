@@ -92,6 +92,17 @@ export const COUNTRIES: CountryData[] = [
         description:
           'Visite du War Memorial of Korea et illuminations de Noël',
         image: withBase('war-museum.jpg')
+      },
+
+      // ✅ AJOUT JOUR 9
+      {
+        id: 't9',
+        date: 'Jour 9',
+        title: 'Neige, café et ramen du soir',
+        description:
+          'Jour neige/pluie : événement K-pop déplacé, je préfère lire au café (cookie + caramel latte), retouche du site en fin de journée, séance pec vers 20 h, puis ramen et gimbap au thon à deux pas de chez moi.',
+        image:
+          'https://images.unsplash.com/photo-1471253387723-35c53c9f97ca?q=80&w=1974&auto=format&fit=crop'
       }
     ],
     markers: [
@@ -339,6 +350,19 @@ Avant de terminer cette journée, je me suis rendu aux illuminations de Noël de
 Séance épaule à 22h.`,
         image: withBase('noel-seoul.jpg'),
         mood: 'Histoire et mémoire'
+      },
+      {
+        id: 'j9',
+        day: 9,
+        title: 'Neige, café et ramen du soir',
+        excerpt: `Aujourd’hui, pluie et neige mêlées : l’événement K-pop du soir est déplacé dans un grand hall de magasin, et ça ne me tente pas.
+Je choisis plutôt un café de quartier pour lire un livre, cookie et caramel latte à la main.
+Retour à la maison vers 18 h 30 pour noter mes idées et améliorer cette page web.
+Salle à 20 h pour une séance pec.
+Plus tard, une envie de sortir : un petit resto de ramen avec gimbap au thon à quatre minutes de chez moi, c’était super bon.`,
+        image:
+          'https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1974&auto=format&fit=crop',
+        mood: 'Neige et réconfort'
       }
     ]
   },
