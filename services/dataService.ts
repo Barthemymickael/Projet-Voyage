@@ -2,8 +2,10 @@ import { CountryData } from '../types';
 
 export type DataSource = 'api' | 'fallback';
 
+const cleanBase = (base: string | undefined | null) => base?.replace(/\/+$/, '') ?? null;
+
 const inferDefaultApiBase = () => {
-  const envBase = (import.meta.env.VITE_API_BASE_URL as string | undefined)?.replace(/\/$/, '');
+  const envBase = cleanBase(import.meta.env.VITE_API_BASE_URL as string | undefined);
   if (envBase) return envBase;
 
   const isLocalHost = ['localhost', '127.0.0.1', '::1'].includes(window.location.hostname);
@@ -20,7 +22,19 @@ const inferDefaultApiBase = () => {
 };
 
 export const API_BASE = inferDefaultApiBase();
-export const buildApiUrl = (path: string) => (API_BASE ? `${API_BASE}${path}` : null);
+export const buildApiUrl = (path: string) => {
+  if (!API_BASE) return null;
+
+  const normalizedBase = cleanBase(API_BASE) as string;
+  const normalizedPath = `/${path.replace(/^\/+/g, '')}`;
+
+  // Avoid generating "/api/api/..." if the provided base already contains the prefix.
+  if (normalizedBase.endsWith('/api') && normalizedPath.startsWith('/api/')) {
+    return `${normalizedBase}${normalizedPath.replace(/^\/api/, '')}`;
+  }
+
+  return `${normalizedBase}${normalizedPath}`;
+};
 
 const COUNTRIES_ENDPOINT = buildApiUrl('/api/countries');
 
