@@ -102,7 +102,7 @@ export default function App() {
               : 'bg-amber-500/20 border-amber-400/50 text-amber-100'
           }`}
         >
-          {dataSource === 'api' ? 'Backend en ligne' : 'Mode stockage local'}
+          {dataSource === 'api' ? 'Backend en ligne' : 'Données par défaut'}
         </span>
       </div>
       <div className="absolute top-4 right-4 z-20 flex gap-3">
