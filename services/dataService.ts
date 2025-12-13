@@ -2,7 +2,16 @@ import { CountryData } from '../types';
 
 export type DataSource = 'api' | 'fallback';
 
-const API_BASE = (import.meta.env.VITE_API_BASE_URL as string | undefined)?.replace(/\/$/, '') || 'http://localhost:4000';
+const inferDefaultApiBase = () => {
+  const envBase = (import.meta.env.VITE_API_BASE_URL as string | undefined)?.replace(/\/$/, '');
+  if (envBase) return envBase;
+
+  return window.location.protocol === 'https:'
+    ? window.location.origin
+    : 'http://localhost:4000';
+};
+
+const API_BASE = inferDefaultApiBase();
 const COUNTRIES_ENDPOINT = `${API_BASE}/api/countries`;
 
 export const loadCountries = async (
