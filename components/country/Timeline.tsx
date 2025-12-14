@@ -68,19 +68,30 @@ export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
                                         ))}
                                     </ul>
                                 )}
-                                {event.image && (
-                                    <button
-                                        type="button"
-                                        onClick={() => setActiveImage({ src: event.image!, title: event.title })}
-                                        className="relative block w-full h-48 overflow-hidden rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500/70 focus:ring-offset-2 focus:ring-offset-zinc-900 cursor-zoom-in"
-                                    >
-                                        <img 
-                                            src={event.image} 
-                                            alt={event.title} 
-                                            className="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                                {event.video ? (
+                                    <div className="relative block w-full overflow-hidden rounded-lg border border-white/5 bg-black/40">
+                                        <video
+                                            src={event.video}
+                                            controls
+                                            playsInline
+                                            className="w-full h-48 object-cover"
                                         />
-                                        <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                                    </button>
+                                    </div>
+                                ) : (
+                                    event.image && (
+                                        <button
+                                            type="button"
+                                            onClick={() => setActiveImage({ src: event.image!, title: event.title })}
+                                            className="relative block w-full h-48 overflow-hidden rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500/70 focus:ring-offset-2 focus:ring-offset-zinc-900 cursor-zoom-in"
+                                        >
+                                            <img
+                                                src={event.image}
+                                                alt={event.title}
+                                                className="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                                            />
+                                            <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                                        </button>
+                                    )
                                 )}
                             </div>
                         </div>
