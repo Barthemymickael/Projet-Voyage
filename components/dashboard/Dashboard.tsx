@@ -223,7 +223,7 @@ export const Dashboard: React.FC<Props> = ({
               onClick={onPublish}
               disabled={!hasPendingChanges || isPublishing}
             >
-              {isPublishing ? 'Publication…' : hasPendingChanges ? 'Publier' : 'À jour'}
+              {isPublishing ? 'Publication…' : 'Publier'}
             </button>
             {publishState === 'success' && (
               <span className="text-xs text-emerald-300">Modifications publiées</span>
