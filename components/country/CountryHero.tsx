@@ -190,10 +190,10 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                                 </div>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-lg">🧭</span>
+                                <span className="text-lg">🎬</span>
                                 <div>
-                                    <p className="font-semibold text-white">Autres infos à venir</p>
-                                    <p className="text-sm text-white/80">Ajoute ici toutes les futures dépenses pratiques à garder en tête.</p>
+                                    <p className="font-semibold text-white">La série que je regarde pour ce voyage</p>
+                                    <p className="text-sm text-white/80">Psych : Enquêteur malgré lui (2006-2014)</p>
                                 </div>
                             </div>
                         </div>
