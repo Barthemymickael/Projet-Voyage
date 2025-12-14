@@ -209,7 +209,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                                 <p className="text-xs font-mono uppercase tracking-[0.2em] text-fuchsia-200/80">Mes projets</p>
                                 <h3 className="text-3xl font-semibold text-white flex items-center gap-2">
                                     <Sparkles className="w-6 h-6 text-amber-300" />
-                                    Mes 4 projets sur un objectif de 6 mois pour les tous les déployer.
+                                    Mes 4 projets sur un objectif de 6 mois
                                 </h3>
                             </div>
                             <button
