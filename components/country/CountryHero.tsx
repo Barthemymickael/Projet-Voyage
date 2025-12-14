@@ -27,7 +27,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
       description: 'Transforme tes sons en slowed + reverb, nightcore ou speed up. Rapide, simple, export MP3/WAV/FLAC en mois de 30s',
       date: 'Septembre 2025',
       link: 'https://convertislowed.app',
-      mood: 'Nostalgie électrique',
+      mood: 'Musique',
       gradient: 'from-indigo-500/80 via-fuchsia-500/70 to-amber-400/70',
       accent: 'text-indigo-100',
     },
@@ -209,11 +209,8 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                                 <p className="text-xs font-mono uppercase tracking-[0.2em] text-fuchsia-200/80">Mes projets</p>
                                 <h3 className="text-3xl font-semibold text-white flex items-center gap-2">
                                     <Sparkles className="w-6 h-6 text-amber-300" />
-                                    Carnet d'idées vivantes
+                                    Mes 4 projets sur un objectif de 6 mois pour les tous les déployer.
                                 </h3>
-                                <p className="text-sm text-white/70 max-w-2xl">
-                                    Une sélection de projets créatifs pour prolonger le voyage. Chaque carte a son propre mood, ses couleurs et un lien pour explorer.
-                                </p>
                             </div>
                             <button
                                 className="text-white/70 hover:text-white bg-white/10 rounded-full p-2 border border-white/10"
