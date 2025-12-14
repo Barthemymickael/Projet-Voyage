@@ -196,6 +196,13 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                                     <p className="text-sm text-white/80">Psych : Enquêteur malgré lui (2006-2014)</p>
                                 </div>
                             </div>
+                          <div className="flex items-start gap-3">
+                                <span className="text-lg">📖</span>
+                                <div>
+                                    <p className="font-semibold text-white">Le livre que je lis pour ce voyage</p>
+                                    <p className="text-sm text-white/80">L'Idiot de Dostoïevski (1874)</p>
+                                </div>
+                            </div>
                         </div>
                     </motion.div>
                 </motion.div>
