@@ -157,7 +157,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                         <div className="flex items-start justify-between gap-4 mb-4">
                             <div>
                                 <p className="text-xs font-mono uppercase tracking-[0.2em] text-indigo-200/80">Infos pratiques</p>
-                                <h3 className="text-2xl font-semibold text-white mt-1">Préparer le budget quotidien</h3>
+                                <h3 className="text-2xl font-semibold text-white mt-1">Quelques petites infos</h3>
                             </div>
                             <button
                                 className="text-white/70 hover:text-white bg-white/10 rounded-full p-2 border border-white/10"
@@ -172,21 +172,21 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                                 <span className="text-lg">🚇</span>
                                 <div>
                                     <p className="font-semibold text-white">Ticket métro/bus</p>
-                                    <p className="text-sm text-white/80">Prix indicatif d'un trajet : à compléter selon la ville.</p>
+                                    <p className="text-sm text-white/80">Prix moyen d'un trajet : 1750 ₩ = 1€</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3">
                                 <span className="text-lg">💪</span>
                                 <div>
                                     <p className="font-semibold text-white">Abonnement salle de sport</p>
-                                    <p className="text-sm text-white/80">29 € par mois pour garder la forme pendant le séjour.</p>
+                                    <p className="text-sm text-white/80"> 50 000₩ = 29 € pour le mois</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3">
                                 <span className="text-lg">🍽️</span>
                                 <div>
                                     <p className="font-semibold text-white">Repas du soir</p>
-                                    <p className="text-sm text-white/80">En moyenne 5 € par repas pour se régaler sans se ruiner.</p>
+                                    <p className="text-sm text-white/80">En moyenne 5 € par repas </p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3">
