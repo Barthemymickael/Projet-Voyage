@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { AnimatePresence, motion, useScroll, useTransform } from 'framer-motion';
 import { Magnetic } from '../ui/Magnetic';
 import { Button } from '../ui/Button';
 import { ArrowDown, Map } from 'lucide-react';
