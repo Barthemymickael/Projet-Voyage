@@ -2,12 +2,13 @@ import React, { useRef, useState } from 'react';
 import { AnimatePresence, motion, useScroll, useTransform } from 'framer-motion';
 import { Magnetic } from '../ui/Magnetic';
 import { Button } from '../ui/Button';
-import { ArrowDown, Map } from 'lucide-react';
+import { ArrowDown, Map, Sparkles } from 'lucide-react';
 import { CountryData } from '../../types';
 
 export const CountryHero = ({ data }: { data: CountryData }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [showInfo, setShowInfo] = useState(false);
+  const [showProjects, setShowProjects] = useState(false);
   const { scrollYProgress } = useScroll({
     target: containerRef,
     offset: ["start start", "end start"]
@@ -19,6 +20,45 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
   const y = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
   const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
   const scale = useTransform(scrollYProgress, [0, 1], [1, 1.1]);
+
+  const projectCards = [
+    {
+      title: 'Moments suspendus',
+      description: 'Mini-série photo sur les villes qui ne dorment jamais, entre néons et ruelles brumeuses.',
+      date: 'Mars 2024',
+      link: 'https://example.com/moments',
+      mood: 'Nostalgie électrique',
+      gradient: 'from-indigo-500/80 via-fuchsia-500/70 to-amber-400/70',
+      accent: 'text-indigo-100',
+    },
+    {
+      title: 'Cartes postales vivantes',
+      description: 'Courtes vidéos façon carnet de route, avec sons d’ambiance et notes manuscrites animées.',
+      date: 'Janvier 2025',
+      link: 'https://example.com/cartes',
+      mood: 'Rêve pastel',
+      gradient: 'from-sky-400/80 via-cyan-400/70 to-lime-300/70',
+      accent: 'text-sky-100',
+    },
+    {
+      title: 'Atlas nocturne',
+      description: 'Exploration interactive des métropoles après minuit : rooftops, cafés secrets, itinéraires de nuit.',
+      date: 'Mai 2025',
+      link: 'https://example.com/atlas',
+      mood: 'Aventure cosmique',
+      gradient: 'from-blue-900/80 via-purple-800/70 to-pink-700/70',
+      accent: 'text-purple-100',
+    },
+    {
+      title: 'Rituels du matin',
+      description: 'Recueil des habitudes locales au lever du soleil, accompagné de recettes et playlists douces.',
+      date: 'Août 2024',
+      link: 'https://example.com/rituels',
+      mood: 'Calme solaire',
+      gradient: 'from-amber-300/80 via-orange-400/70 to-rose-300/70',
+      accent: 'text-amber-50',
+    },
+  ];
 
   return (
     <div
@@ -128,8 +168,100 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                 >
                     Infos pratiques
                 </Button>
+                <Magnetic>
+                    <Button
+                        size="lg"
+                        className="rounded-full px-5 sm:px-8 bg-gradient-to-r from-purple-500 via-pink-500 to-amber-400 text-white shadow-[0_15px_40px_rgba(236,72,153,0.35)] border border-white/20 hover:shadow-[0_20px_45px_rgba(236,72,153,0.45)] w-full sm:w-auto min-h-[52px]"
+                        onClick={() => setShowProjects(true)}
+                    >
+                        <Sparkles className="w-4 h-4 mr-2" /> Mes projets
+                    </Button>
+                </Magnetic>
             </div>
         </motion.div>
+
+        <AnimatePresence>
+            {showProjects && (
+                <motion.div
+                    className="fixed inset-0 z-50 flex items-center justify-center p-4"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    onClick={() => setShowProjects(false)}
+                >
+                    <motion.div
+                        className="absolute inset-0 bg-gradient-to-br from-purple-900/70 via-black/80 to-amber-900/60 backdrop-blur-md"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                    />
+                    <motion.div
+                        initial={{ scale: 0.9, opacity: 0, y: 20 }}
+                        animate={{ scale: 1, opacity: 1, y: 0 }}
+                        exit={{ scale: 0.95, opacity: 0, y: 20 }}
+                        transition={{ type: 'spring', stiffness: 200, damping: 20 }}
+                        className="relative z-10 max-w-5xl w-full bg-zinc-900/90 border border-white/10 rounded-3xl shadow-[0_30px_80px_rgba(0,0,0,0.55)] p-6 sm:p-8 overflow-hidden"
+                        onClick={(e) => e.stopPropagation()}
+                    >
+                        <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_20%_20%,rgba(236,72,153,0.1),transparent_45%),_radial-gradient(circle_at_80%_0%,rgba(59,130,246,0.12),transparent_35%)]" />
+                        <div className="relative flex items-start justify-between gap-4 mb-6">
+                            <div className="space-y-1">
+                                <p className="text-xs font-mono uppercase tracking-[0.2em] text-fuchsia-200/80">Mes projets</p>
+                                <h3 className="text-3xl font-semibold text-white flex items-center gap-2">
+                                    <Sparkles className="w-6 h-6 text-amber-300" />
+                                    Carnet d'idées vivantes
+                                </h3>
+                                <p className="text-sm text-white/70 max-w-2xl">
+                                    Une sélection de projets créatifs pour prolonger le voyage. Chaque carte a son propre mood, ses couleurs et un lien pour explorer.
+                                </p>
+                            </div>
+                            <button
+                                className="text-white/70 hover:text-white bg-white/10 rounded-full p-2 border border-white/10"
+                                onClick={() => setShowProjects(false)}
+                                aria-label="Fermer"
+                            >
+                                ✕
+                            </button>
+                        </div>
+                        <div className="relative grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            {projectCards.map((card, index) => (
+                                <motion.a
+                                    key={card.title}
+                                    href={card.link}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={`group relative overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br ${card.gradient} p-5 sm:p-6 shadow-lg backdrop-blur-md`}
+                                    initial={{ y: 15, opacity: 0 }}
+                                    animate={{ y: 0, opacity: 1 }}
+                                    transition={{ delay: 0.05 * index, duration: 0.35, ease: 'easeOut' }}
+                                    whileHover={{ y: -6, scale: 1.01 }}
+                                >
+                                    <div className="absolute inset-0 opacity-0 group-hover:opacity-20 transition-opacity duration-500 bg-[radial-gradient(circle_at_20%_30%,white,transparent_35%),_radial-gradient(circle_at_80%_0%,white,transparent_35%)]" />
+                                    <div className="relative flex flex-col gap-3 text-white">
+                                        <div className="flex items-center justify-between">
+                                            <h4 className={`text-xl font-semibold drop-shadow ${card.accent}`}>{card.title}</h4>
+                                            <span className="text-xs uppercase tracking-[0.2em] bg-black/25 border border-white/20 rounded-full px-3 py-1 backdrop-blur-sm">
+                                                {card.mood}
+                                            </span>
+                                        </div>
+                                        <p className="text-sm leading-relaxed text-white/90 drop-shadow-[0_8px_25px_rgba(0,0,0,0.35)]">
+                                            {card.description}
+                                        </p>
+                                        <div className="flex items-center justify-between text-xs text-white/80">
+                                            <span className="font-mono">{card.date}</span>
+                                            <span className="inline-flex items-center gap-1 text-amber-100 group-hover:gap-2 transition-all">
+                                                Découvrir <ArrowDown className="w-3 h-3 rotate-[-90deg]" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div className="absolute -right-10 -bottom-12 w-44 h-44 bg-white/15 rounded-full blur-3xl group-hover:scale-125 transition-transform duration-500" />
+                                </motion.a>
+                            ))}
+                        </div>
+                    </motion.div>
+                </motion.div>
+            )}
+        </AnimatePresence>
 
         <AnimatePresence>
             {showInfo && (
