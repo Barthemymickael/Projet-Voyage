@@ -203,7 +203,7 @@ export const COUNTRIES: CountryData[] = [
         id: 'm11',
         lat: 37.470934, // approximation du quartier Hoam-ro / Sillim
         lng: 126.934557, // approximation
-        title: 'CU',
+        title: 'EDIYA',
         category: 'Cuisine',
         description:
           'Café de quartier à Gwanak-gu, parfait pour bosser au calme ou faire une pause proche de chez moi (17 Hoam-ro 26-gil, Gwanak-gu, Seoul).',
