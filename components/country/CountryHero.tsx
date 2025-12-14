@@ -23,10 +23,10 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
 
   const projectCards = [
     {
-      title: 'Moments suspendus',
-      description: 'Mini-série photo sur les villes qui ne dorment jamais, entre néons et ruelles brumeuses.',
-      date: 'Mars 2024',
-      link: 'https://example.com/moments',
+      title: 'Convertislowed.app',
+      description: 'Transforme tes sons en slowed + reverb, nightcore ou speed up. Rapide, simple, export MP3/WAV/FLAC en mois de 30s',
+      date: 'Septembre 2025',
+      link: 'https://convertislowed.app',
       mood: 'Nostalgie électrique',
       gradient: 'from-indigo-500/80 via-fuchsia-500/70 to-amber-400/70',
       accent: 'text-indigo-100',
