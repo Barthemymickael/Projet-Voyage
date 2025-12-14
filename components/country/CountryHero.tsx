@@ -203,6 +203,13 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                                     <p className="text-sm text-white/80">L'Idiot de Dostoïevski (1874)</p>
                                 </div>
                             </div>
+                          <div className="flex items-start gap-3">
+                                <span className="text-lg">🎵</span>
+                                <div>
+                                    <p className="font-semibold text-white">La musique que j'écoute en boucle</p>
+                                    <p className="text-sm text-white/80">Plush - Stone Temple Pilots</p>
+                                </div>
+                            </div>
                         </div>
                     </motion.div>
                 </motion.div>
