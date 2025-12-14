@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Magnetic } from '../ui/Magnetic';
 import { Button } from '../ui/Button';
@@ -7,6 +7,7 @@ import { CountryData } from '../../types';
 
 export const CountryHero = ({ data }: { data: CountryData }) => {
   const containerRef = useRef<HTMLDivElement>(null);
+  const [showInfo, setShowInfo] = useState(false);
   const { scrollYProgress } = useScroll({
     target: containerRef,
     offset: ["start start", "end start"]
@@ -119,11 +120,90 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                 >
                     <Map className="w-4 h-4 mr-2" /> Voir la carte
                 </Button>
+                <Button
+                    variant="secondary"
+                    size="lg"
+                    className="rounded-full px-5 sm:px-8 bg-white/10 text-white border border-white/20 hover:bg-white/15 w-full sm:w-auto min-h-[52px]"
+                    onClick={() => setShowInfo(true)}
+                >
+                    Infos pratiques
+                </Button>
             </div>
         </motion.div>
 
+        <AnimatePresence>
+            {showInfo && (
+                <motion.div
+                    className="fixed inset-0 z-50 flex items-center justify-center p-4"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    onClick={() => setShowInfo(false)}
+                >
+                    <motion.div
+                        className="absolute inset-0 bg-black/70 backdrop-blur-sm"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                    />
+                    <motion.div
+                        initial={{ scale: 0.9, opacity: 0, y: 20 }}
+                        animate={{ scale: 1, opacity: 1, y: 0 }}
+                        exit={{ scale: 0.95, opacity: 0, y: 20 }}
+                        transition={{ type: 'spring', stiffness: 200, damping: 20 }}
+                        className="relative z-10 max-w-lg w-full bg-zinc-900/95 border border-white/10 rounded-2xl shadow-2xl p-6 sm:p-8 text-left"
+                        onClick={(e) => e.stopPropagation()}
+                    >
+                        <div className="flex items-start justify-between gap-4 mb-4">
+                            <div>
+                                <p className="text-xs font-mono uppercase tracking-[0.2em] text-indigo-200/80">Infos pratiques</p>
+                                <h3 className="text-2xl font-semibold text-white mt-1">Préparer le budget quotidien</h3>
+                            </div>
+                            <button
+                                className="text-white/70 hover:text-white bg-white/10 rounded-full p-2 border border-white/10"
+                                onClick={() => setShowInfo(false)}
+                                aria-label="Fermer"
+                            >
+                                ✕
+                            </button>
+                        </div>
+                        <div className="space-y-3 text-white/90">
+                            <div className="flex items-start gap-3">
+                                <span className="text-lg">🚇</span>
+                                <div>
+                                    <p className="font-semibold text-white">Ticket métro/bus</p>
+                                    <p className="text-sm text-white/80">Prix indicatif d'un trajet : à compléter selon la ville.</p>
+                                </div>
+                            </div>
+                            <div className="flex items-start gap-3">
+                                <span className="text-lg">💪</span>
+                                <div>
+                                    <p className="font-semibold text-white">Abonnement salle de sport</p>
+                                    <p className="text-sm text-white/80">29 € par mois pour garder la forme pendant le séjour.</p>
+                                </div>
+                            </div>
+                            <div className="flex items-start gap-3">
+                                <span className="text-lg">🍽️</span>
+                                <div>
+                                    <p className="font-semibold text-white">Repas du soir</p>
+                                    <p className="text-sm text-white/80">En moyenne 5 € par repas pour se régaler sans se ruiner.</p>
+                                </div>
+                            </div>
+                            <div className="flex items-start gap-3">
+                                <span className="text-lg">🧭</span>
+                                <div>
+                                    <p className="font-semibold text-white">Autres infos à venir</p>
+                                    <p className="text-sm text-white/80">Ajoute ici toutes les futures dépenses pratiques à garder en tête.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </motion.div>
+                </motion.div>
+            )}
+        </AnimatePresence>
+
         {/* Scroll Indicator */}
-        <motion.div 
+        <motion.div
             animate={{ y: [0, 10, 0] }}
             transition={{ repeat: Infinity, duration: 2 }}
             className="absolute bottom-10 z-20 text-white/50"
