@@ -126,7 +126,7 @@ export default function App() {
               onClick={handlePublish}
               disabled={!hasPendingChanges || isPublishing}
             >
-              {isPublishing ? 'Publication…' : hasPendingChanges ? 'Publier' : 'À jour'}
+              {isPublishing ? 'Publication…' : 'Publier'}
             </button>
             {publishState === 'success' && (
               <span className="text-xs text-emerald-300">Publication réussie</span>

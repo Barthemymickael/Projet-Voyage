@@ -170,7 +170,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
                         : 'bg-white/5 text-white/70 border-white/10 cursor-not-allowed'
                     }`}
                   >
-                    {isPublishing ? 'Publication…' : hasPendingChanges ? 'Publier' : 'À jour'}
+                    {isPublishing ? 'Publication…' : 'Publier'}
                   </button>
                   {publishState === 'success' && (
                     <span className="text-xs text-emerald-300">En ligne</span>
