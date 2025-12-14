@@ -107,6 +107,21 @@ export const COUNTRIES: CountryData[] = [
           'Envie de ressortir : ramen et gimbap au thon dans un resto à 4 minutes de chez moi'
         ],
         image: withBase('IMG_9238.jpg')
+      },
+
+      // ✅ AJOUT JOUR 10
+      {
+        id: 't10',
+        date: 'Jour 10 (~6 h de marche)',
+        title: 'Randonnée enneigée jusqu’au Samsungsan',
+        description:
+          'Journée de randonnée sous la neige avec trois sommets enchaînés et un point culminant à 480,9 m.',
+        bullets: [
+          'Dolsan Mountain (239 m)',
+          'Hoamsan Mountain (393 m)',
+          'Samsungsan Mountain (480,9 m)'
+        ],
+        image: 'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=2070&auto=format&fit=crop'
       }
     ],
     markers: [
@@ -252,7 +267,7 @@ export const COUNTRIES: CountryData[] = [
         emoji: '🛕'
       },
 
-            {
+      {
         id: 'm16',
         lat: 37.470381,
         lng: 126.940359,
@@ -261,6 +276,35 @@ export const COUNTRIES: CountryData[] = [
         description:
           'Restaurant de Gimbap et ramen à 4 minutes de chez moi',
         emoji: '🍜'
+      },
+
+      // ✅ AJOUT JOUR 10 (RANDONNÉE)
+      {
+        id: 'm17',
+        lat: 37.4485,
+        lng: 126.9408,
+        title: 'Dolsan Mountain',
+        category: 'Activité',
+        description: 'Premier sommet de la rando enneigée, environ 239 m.',
+        emoji: '🥾'
+      },
+      {
+        id: 'm18',
+        lat: 37.452,
+        lng: 126.946,
+        title: 'Hoamsan Mountain',
+        category: 'Activité',
+        description: 'Deuxième étape à 393 m, toujours sous la neige.',
+        emoji: '🥾'
+      },
+      {
+        id: 'm19',
+        lat: 37.455,
+        lng: 126.951,
+        title: 'Samsungsan Mountain',
+        category: 'Activité',
+        description: 'Sommet final à 480,9 m avec vue dégagée entre deux passages nuageux.',
+        emoji: '🏔️'
       },
 
     ],
@@ -378,6 +422,97 @@ Plus tard, l’envie de ressortir : un petit resto de ramen avec gimbap au thon 
         image:
           'https://images.unsplash.com/photo-1521389508051-d7ffb5dc8bb0?auto=format&fit=crop&w=2070&q=80',
         mood: 'Neige et ramen'
+      },
+      {
+        id: 'j10',
+        day: 10,
+        title: 'Randonnée enneigée',
+        excerpt: `Aujourd’hui, je pense avoir vécu la plus belle randonnée qu’il m’ait été donné de faire.
+
+Tout commence la veille au soir : la neige tombe bien en montagne.
+Alors c’est décidé, dimanche sera une journée rando.
+
+Résultat : 6 heures de marche jusqu’au sommet de la montagne la plus proche :
+SamsungSan Mountain (480 m).
+
+Au départ, tout est simple : chemins propres, ponts bien construits.
+Puis, petit à petit, plus rien… que de la neige et des cailloux.
+
+J’atteins une première montagne : Dolsan Mountain (239m).
+Fier d’y être… jusqu’au moment où je lève la tête et que je vois deux autres monts, bien plus hauts.
+
+Il est 13 h.
+J’ai le temps.
+
+Je continue et j’atteins la suivante : Hoamsan Mountain (393 m).
+
+Mais évidemment, toujours en quête de mieux, j’aperçois au loin la SamsungSan Mountain (480,9 m).
+Et là, changement d’ambiance.
+
+Une randonnée normalement simple, mais avec la neige… un poil dangereux
+Je croise quelques personnes qui s’arrêtent pour mettre des chaînes sous leurs chaussures de rando.
+Et moi, comme un con, j’ai mes Puma classiques de tous les jours et mon cuir en guise de manteau.
+
+Résultat : trois belles glissades, heureusement bien amorties par le sac.
+
+J’atteins enfin le sommet.
+Je m’y pose pendant 45 minutes. Absolument personne autour de moi.
+Zen. Tranquille. De la musique, seul au sommet.
+Par moments, le ciel se dégage, le soleil apparaît. Hyper agréable.
+
+J’aurais voulu rester bien plus longtemps, mais le soleil se couchait deux heures plus tard.
+
+Et HEUREUSEMENT que je me suis écouté.
+
+Le retour a été un véritable bordel.
+La map me fait passer par un autre chemin, plus court… mais évidemment beaucoup plus dangereux.
+La preuve : une seule trace de chaussure à suivre.
+
+Je passe donc plus d’une heure à suivre les grosses traces de bottes de cette personne inconnue.
+24 % de batterie.
+Un GPS qui déconne et me téléporte sur la map, impossible à suivre correctement.
+
+Solo, je joue un peu avec les limites.
+Je rigole, je me dis :
+« Mais en fait… je ne vais jamais rentrer. »
+
+Les mains complètement arrachées par le froid et les glissades.
+De la neige jusqu’aux mollets.
+Et les cailloux bah hyper glissant 
+Et je le rappelle : tenue classique de ville.
+
+Mais j’étais hyper content de ce que je venais de vivre.
+Je parlais tout seul, je m’arrêtais et je me disais :
+« Mais pourquoi j’ai pris ce putain de chemin de con… »
+
+Même si j’étais dans un bon mood, certaines pentes étaient vraiment hard à prendre sans bonnes chaussures et sans gants pour s’agripper.
+J’ai littéralement croisé zéro personne habillée comme moi.
+
+Au fond, j’ai juste répondu à ce que je voulais :
+Une montagne, de la neige — ok, j’y vais.
+
+Et c’est là que le voyage solo prend tout son sens… ou son non-sens.
+Personne pour me dire :
+« Ouais non, je le sens pas »
+« Non, on ne va pas faire ça sans bonnes chaussures»
+« C’est bon, on a fait deux montagnes, on peut rentrer »
+
+Ce sont exactement les pensées que j’ai eues.
+Mais absorbé par l’envie d’aller plus loin, j’ai continué.
+
+18 h, je suis bien rentré.
+J’ai vu des rivières, des oiseaux, la neige, des points de vue incroyables, des bancs 10/10
+Un silence fou.
+Je me suis mis en difficulté, volontairement.
+
+Une belle randonnée, par la nature sous la neige,
+mais surtout par ce que j’ai vécu…
+et pensé.
+
+Ps : Quand je regarde les vidéos tiktoks et insta des 3 montagnes, on voit que les gens font la randonnée sans neige, par temps sec. Ça doit vraiment etre tellement plus simple et moins dangereux par la même occasion. Mais évidemment par la même expérience`,
+        image:
+          'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=2070&auto=format&fit=crop',
+        mood: 'Randonnée enneigée'
       }
     ]
   },
