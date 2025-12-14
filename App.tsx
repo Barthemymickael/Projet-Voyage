@@ -115,27 +115,6 @@ export default function App() {
         </span>
       </div>
       <div className="absolute top-4 right-4 z-20 flex gap-3 items-center">
-        {(showDashboard || selectedCountry) && (
-          <div className="flex items-center gap-2">
-            <button
-              className={`px-3 py-2 text-sm rounded-full border transition-colors ${
-                hasPendingChanges
-                  ? 'bg-indigo-600 text-white border-indigo-400 hover:bg-indigo-500'
-                  : 'bg-white/5 text-white/80 border-white/10 cursor-not-allowed'
-              }`}
-              onClick={handlePublish}
-              disabled={!hasPendingChanges || isPublishing}
-            >
-              {isPublishing ? 'Publication…' : 'Publier'}
-            </button>
-            {publishState === 'success' && (
-              <span className="text-xs text-emerald-300">Publication réussie</span>
-            )}
-            {publishState === 'error' && (
-              <span className="text-xs text-amber-300">Échec de la publication</span>
-            )}
-          </div>
-        )}
         {selectedCountry && !showDashboard && (
           <button
             className="px-3 py-2 text-sm bg-white/10 text-white rounded-full border border-white/20 hover:bg-white/20"
