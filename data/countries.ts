@@ -97,12 +97,12 @@ export const COUNTRIES: CountryData[] = [
       // ✅ AJOUT JOUR 9
       {
         id: 't9',
-        date: 'Jour 9',
-        title: 'Neige, café et ramen du soir',
+        date: 'Jour 9 (3 557 pas)',
+        title: 'Neige, café et ramen',
         description:
-          'Neige mêlée de pluie : l’événement K-pop est délocalisé dans un hall de magasin, ambiance qui me tente moins, alors je file bouquiner dans un café du quartier avec un cookie et un caramel latte.',
+          'Neige mêlée de pluie',
         bullets: [
-          'Retour à la maison vers 18 h 30 pour noter mes idées et améliorer la page web',
+          'Café dans mon quartier',
           'Séance pec à la salle vers 20 h',
           'Envie de ressortir : ramen et gimbap au thon dans un resto à 4 minutes de chez moi'
         ],
