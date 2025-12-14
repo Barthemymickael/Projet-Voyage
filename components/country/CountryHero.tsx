@@ -142,11 +142,11 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                 </motion.p>
             )}
             
-            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-stretch sm:items-center w-full max-w-xl mx-auto">
+            <div className="w-full flex flex-wrap justify-center gap-3 sm:gap-4 items-stretch sm:items-center max-w-2xl mx-auto">
                 <Magnetic>
                     <Button
                         size="lg"
-                        className="rounded-full px-5 sm:px-8 bg-white text-black hover:bg-zinc-200 w-full sm:w-auto min-h-[52px]"
+                        className="rounded-full px-6 sm:px-8 bg-gradient-to-r from-indigo-500 via-purple-500 to-sky-500 text-white shadow-[0_18px_45px_rgba(79,70,229,0.35)] border border-white/20 hover:shadow-[0_22px_55px_rgba(59,130,246,0.45)] w-full sm:w-auto min-h-[54px]"
                         onClick={() => scrollToSection('timeline')}
                     >
                         Commencer le voyage
@@ -155,7 +155,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                 <Button
                     variant="outline"
                     size="lg"
-                    className="rounded-full px-5 sm:px-8 backdrop-blur-md border-white/20 hover:bg-white/10 w-full sm:w-auto min-h-[52px]"
+                    className="rounded-full px-6 sm:px-8 backdrop-blur-md border-white/20 bg-white/5 text-white hover:border-white/40 hover:bg-white/10 w-full sm:w-auto min-h-[54px] shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
                     onClick={() => scrollToSection('map')}
                 >
                     <Map className="w-4 h-4 mr-2" /> Voir la carte
@@ -163,7 +163,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                 <Button
                     variant="secondary"
                     size="lg"
-                    className="rounded-full px-5 sm:px-8 bg-white/10 text-white border border-white/20 hover:bg-white/15 w-full sm:w-auto min-h-[52px]"
+                    className="rounded-full px-6 sm:px-8 bg-white/10 text-white border border-white/20 hover:bg-white/15 w-full sm:w-auto min-h-[54px] shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
                     onClick={() => setShowInfo(true)}
                 >
                     Infos pratiques
@@ -171,7 +171,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                 <Magnetic>
                     <Button
                         size="lg"
-                        className="rounded-full px-5 sm:px-8 bg-gradient-to-r from-purple-500 via-pink-500 to-amber-400 text-white shadow-[0_15px_40px_rgba(236,72,153,0.35)] border border-white/20 hover:shadow-[0_20px_45px_rgba(236,72,153,0.45)] w-full sm:w-auto min-h-[52px]"
+                        className="rounded-full px-6 sm:px-8 bg-white text-zinc-900 shadow-[0_14px_40px_rgba(0,0,0,0.35)] border border-white/20 hover:-translate-y-0.5 w-full sm:w-auto min-h-[54px]"
                         onClick={() => setShowProjects(true)}
                     >
                         <Sparkles className="w-4 h-4 mr-2" /> Mes projets
@@ -227,31 +227,32 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                                     href={card.link}
                                     target="_blank"
                                     rel="noreferrer"
-                                    className={`group relative overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br ${card.gradient} p-5 sm:p-6 shadow-lg backdrop-blur-md`}
+                                    className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-5 sm:p-6 shadow-[0_20px_50px_rgba(0,0,0,0.45)] backdrop-blur-md"
                                     initial={{ y: 15, opacity: 0 }}
                                     animate={{ y: 0, opacity: 1 }}
                                     transition={{ delay: 0.05 * index, duration: 0.35, ease: 'easeOut' }}
                                     whileHover={{ y: -6, scale: 1.01 }}
                                 >
-                                    <div className="absolute inset-0 opacity-0 group-hover:opacity-20 transition-opacity duration-500 bg-[radial-gradient(circle_at_20%_30%,white,transparent_35%),_radial-gradient(circle_at_80%_0%,white,transparent_35%)]" />
+                                    <div className={`absolute inset-x-0 top-0 h-[3px] opacity-80 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-r ${card.gradient}`} />
+                                    <div className="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-500 bg-[radial-gradient(circle_at_20%_30%,white,transparent_35%),_radial-gradient(circle_at_80%_0%,white,transparent_35%)]" />
                                     <div className="relative flex flex-col gap-3 text-white">
                                         <div className="flex items-center justify-between">
-                                            <h4 className={`text-xl font-semibold drop-shadow ${card.accent}`}>{card.title}</h4>
-                                            <span className="text-xs uppercase tracking-[0.2em] bg-black/25 border border-white/20 rounded-full px-3 py-1 backdrop-blur-sm">
+                                            <h4 className="text-xl font-semibold drop-shadow-sm text-white/90 group-hover:text-white transition-colors">{card.title}</h4>
+                                            <span className="text-xs uppercase tracking-[0.18em] bg-white/5 border border-white/10 rounded-full px-3 py-1 backdrop-blur-sm text-white/70">
                                                 {card.mood}
                                             </span>
                                         </div>
-                                        <p className="text-sm leading-relaxed text-white/90 drop-shadow-[0_8px_25px_rgba(0,0,0,0.35)]">
+                                        <p className="text-sm leading-relaxed text-white/80">
                                             {card.description}
                                         </p>
-                                        <div className="flex items-center justify-between text-xs text-white/80">
+                                        <div className="flex items-center justify-between text-xs text-white/70 border-t border-white/5 pt-3">
                                             <span className="font-mono">{card.date}</span>
-                                            <span className="inline-flex items-center gap-1 text-amber-100 group-hover:gap-2 transition-all">
+                                            <span className="inline-flex items-center gap-1 text-white/80 group-hover:text-white group-hover:gap-2 transition-all">
                                                 Découvrir <ArrowDown className="w-3 h-3 rotate-[-90deg]" />
                                             </span>
                                         </div>
                                     </div>
-                                    <div className="absolute -right-10 -bottom-12 w-44 h-44 bg-white/15 rounded-full blur-3xl group-hover:scale-125 transition-transform duration-500" />
+                                    <div className="absolute -right-12 -bottom-16 w-48 h-48 bg-white/8 rounded-full blur-3xl group-hover:scale-125 transition-transform duration-500" />
                                 </motion.a>
                             ))}
                         </div>
