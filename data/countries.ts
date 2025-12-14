@@ -121,7 +121,7 @@ export const COUNTRIES: CountryData[] = [
           'Hoamsan Mountain (393 m)',
           'Samsungsan Mountain (480,9 m)'
         ],
-        image: 'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=2070&auto=format&fit=crop'
+        video: withBase('jour10.mp4')
       }
     ],
     markers: [

@@ -14,6 +14,7 @@ export interface TimelineEvent {
   title: string;
   description: string;
   image?: string;
+  video?: string;
   note?: string;
   bullets?: string[];
   steps?: string;
