@@ -103,17 +103,13 @@ export default function App() {
       >
         Accès administrateur
       </a>
-      <div className="absolute top-4 left-4 z-20">
-        <span
-          className={`px-3 py-1 text-xs rounded-full border ${
-            dataSource === 'api'
-              ? 'bg-emerald-500/20 border-emerald-400/50 text-emerald-100'
-              : 'bg-amber-500/20 border-amber-400/50 text-amber-100'
-          }`}
-        >
-          {dataSource === 'api' ? 'Backend en ligne' : 'Données par défaut'}
-        </span>
-      </div>
+        <div className="absolute top-4 left-4 z-20">
+          {dataSource === 'api' && (
+            <span className="px-3 py-1 text-xs rounded-full border bg-emerald-500/20 border-emerald-400/50 text-emerald-100">
+              Backend en ligne
+            </span>
+          )}
+        </div>
       <div className="absolute top-4 right-4 z-20 flex gap-3 items-center">
         {selectedCountry && !showDashboard && (
           <button

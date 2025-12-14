@@ -204,15 +204,11 @@ export const Dashboard: React.FC<Props> = ({
           </p>
         </div>
         <div className="flex flex-col gap-3 items-end md:flex-row md:items-center md:gap-3">
-          <span
-            className={`px-3 py-2 text-xs rounded-full border font-semibold shadow-inner ${
-              dataSource === 'api'
-                ? 'bg-emerald-400/10 border-emerald-300/40 text-emerald-100'
-                : 'bg-amber-400/10 border-amber-300/40 text-amber-100'
-            }`}
-          >
-            {dataSource === 'api' ? 'Backend en ligne' : 'Données par défaut'}
-          </span>
+          {dataSource === 'api' && (
+            <span className="px-3 py-2 text-xs rounded-full border font-semibold shadow-inner bg-emerald-400/10 border-emerald-300/40 text-emerald-100">
+              Backend en ligne
+            </span>
+          )}
           <div className="flex items-center gap-3">
             <button
               className={`px-4 py-2.5 rounded-full border font-semibold shadow-lg shadow-indigo-900/40 transition ${
