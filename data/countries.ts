@@ -132,8 +132,7 @@ export const COUNTRIES: CountryData[] = [
         description:
           'Visite du musée SONGEUN Art and Cultural Foundation puis découverte d’un magasin Samsung sur quatre étages (smartphones, téléviseurs 8K, électroménagers connectés).',
         bullets: ['Visite du musée SONGEUN', 'Visite d’un magasin Samsung sur 4 étages'],
-        image:
-          'https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1974&q=80'
+        image: withBase('jour11.jpg')
       }
     ],
     markers: [
