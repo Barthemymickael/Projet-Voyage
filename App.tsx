@@ -112,14 +112,6 @@ export default function App() {
               </span>
             )}
           </div>
-          {selectedCountry && !showDashboard && (
-            <button
-              className="pointer-events-auto px-3 py-2 text-xs sm:text-sm bg-white/10 text-white rounded-full border border-white/20 hover:bg-white/20 backdrop-blur-md"
-              onClick={() => setSelectedCountryId(null)}
-            >
-              Retour à l'accueil
-            </button>
-          )}
         </div>
       </div>
       <AnimatePresence mode="wait">
