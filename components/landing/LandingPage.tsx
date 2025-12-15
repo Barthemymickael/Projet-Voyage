@@ -27,7 +27,7 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
 
   return (
     <div
-      className="relative flex-1 min-h-[60vh] md:min-h-[70vh] lg:h-screen w-full lg:w-auto overflow-hidden group cursor-pointer border border-zinc-900/30 rounded-3xl lg:rounded-none lg:border-b-0 lg:border-r bg-zinc-900/40"
+      className="relative flex-1 min-h-[55vh] md:min-h-[65vh] lg:min-h-[80vh] w-full lg:w-auto overflow-hidden group cursor-pointer border border-white/5 rounded-3xl lg:rounded-none lg:border-b-0 lg:border-r bg-gradient-to-b from-white/5 via-white/0 to-black/60 backdrop-blur-xl shadow-[0_25px_60px_rgba(0,0,0,0.35)] focus-within:ring-2 focus-within:ring-white/70 focus:outline-none"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       onClick={handleClick}
@@ -41,10 +41,10 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
         <img
           src={country.videoUrl}
           alt={country.name}
-          className={`w-full h-full object-cover transition-all duration-700 ${country.isLocked ? 'grayscale opacity-30 blur-sm' : 'opacity-80'}`}
+          className={`w-full h-full object-cover transition-all duration-700 ${country.isLocked ? 'grayscale opacity-25 blur-[2px]' : 'opacity-85'} group-focus-visible:scale-[1.03]`}
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/70 to-black/30" />
-        <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/85 via-black/55 to-black/80" />
+        <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
       </motion.div>
 
       {/* Content */}
@@ -52,7 +52,7 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
         <motion.div
           animate={{ y: isHovered ? -6 : 0 }}
           transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-          className="flex items-center justify-center gap-3 bg-white/5 border border-white/10 rounded-full px-4 py-2 backdrop-blur-md shadow-lg shadow-black/30"
+          className="flex items-center justify-center gap-3 bg-white/8 border border-white/15 rounded-full px-4 py-2 backdrop-blur-lg shadow-lg shadow-black/30"
         >
           {country.isLocked ? (
             <Lock className="w-6 h-6 lg:w-8 lg:h-8 text-zinc-300" />
@@ -65,15 +65,17 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
         </motion.div>
 
         <div className="space-y-3 w-full flex flex-col items-center">
-          <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-b from-white to-zinc-400 uppercase font-serif drop-shadow-[0_10px_30px_rgba(0,0,0,0.45)]">
+          <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-b from-white to-zinc-300 uppercase font-serif drop-shadow-[0_10px_30px_rgba(0,0,0,0.45)]">
             {country.name}
           </h2>
 
           <AnimatePresence>
             {!country.isLocked && (
               <motion.div
-                className="inline-flex items-center justify-center gap-2 text-white font-semibold text-sm sm:text-base tracking-tight uppercase mt-2 bg-white/20 px-4 py-2 rounded-full backdrop-blur-sm border border-white/20 shadow-[0_10px_30px_rgba(0,0,0,0.4)] mx-auto"
-                whileHover={{ backgroundColor: 'rgba(255,255,255,0.25)' }}
+                className="inline-flex items-center justify-center gap-2 text-white font-semibold text-sm sm:text-base tracking-tight uppercase mt-2 bg-white/15 px-4 py-2 rounded-full backdrop-blur-md border border-white/20 shadow-[0_12px_35px_rgba(0,0,0,0.4)] mx-auto transition-transform duration-300"
+                whileHover={{ backgroundColor: 'rgba(255,255,255,0.2)', scale: 1.02 }}
+                whileFocus={{ scale: 1.02 }}
+                tabIndex={0}
               >
                 Entrer dans le journal <ArrowRight className="w-4 h-4" />
               </motion.div>
@@ -97,8 +99,9 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
 
 export const LandingPage: React.FC<LandingPageProps> = ({ onSelectCountry }) => {
   return (
-    <div className="min-h-screen w-full bg-black px-4 py-6 sm:px-6 lg:px-0 lg:py-0">
-      <div className="mx-auto max-w-6xl lg:max-w-none flex flex-col lg:flex-row gap-4 lg:gap-0">
+    <div className="relative min-h-screen w-full bg-gradient-to-b from-black via-zinc-950 to-black px-4 py-8 sm:px-6 lg:px-12">
+      <div className="pointer-events-none absolute inset-0 opacity-40 bg-[radial-gradient(circle_at_30%_10%,rgba(59,130,246,0.08),transparent_30%),radial-gradient(circle_at_70%_60%,rgba(244,114,182,0.08),transparent_30%)]" />
+      <div className="mx-auto max-w-6xl lg:max-w-[1400px] grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-0 relative z-10 rounded-[32px] overflow-hidden border border-white/10 shadow-[0_30px_80px_rgba(0,0,0,0.45)]">
         {COUNTRIES.map((country) => (
           <CountryBlock key={country.id} country={country} onSelect={onSelectCountry} />
         ))}
