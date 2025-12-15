@@ -48,7 +48,7 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
       </motion.div>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex flex-col items-center justify-end lg:justify-center p-6 sm:p-8 text-center gap-4">
+      <div className="relative z-10 h-full flex flex-col items-center justify-center p-6 sm:p-8 text-center gap-4">
         <motion.div
           animate={{ y: isHovered ? -6 : 0 }}
           transition={{ type: 'spring', stiffness: 300, damping: 20 }}
