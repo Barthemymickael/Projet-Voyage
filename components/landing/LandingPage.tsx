@@ -92,20 +92,13 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
           </AnimatePresence>
         </div>
 
-        <div className="w-full flex flex-col sm:flex-row items-center justify-center gap-3 text-left sm:text-center">
-          <p className="text-xs sm:text-sm text-white/70 leading-relaxed max-w-xl">
-            {country.isLocked
-              ? 'Cette étape sera disponible dès que le contenu sera prêt. Active les notifications pour ne rien manquer.'
-              : 'Découvre les carnets de route, cartes interactives et journaux immersifs pour cette destination.'}
-          </p>
-          {!country.isLocked && (
-            <button
-              className="w-full sm:w-auto px-4 py-2 rounded-full bg-white text-black font-semibold text-sm shadow-lg shadow-black/30 hover:-translate-y-0.5 transition-transform"
-            >
-              Explorer
-            </button>
-          )}
-        </div>
+        {country.isLocked && (
+          <div className="w-full flex flex-col sm:flex-row items-center justify-center gap-3 text-left sm:text-center">
+            <p className="text-xs sm:text-sm text-white/70 leading-relaxed max-w-xl">
+              Cette étape sera disponible dès que le contenu sera prêt. Active les notifications pour ne rien manquer.
+            </p>
+          </div>
+        )}
       </div>
 
       {/* Flash Effect */}
