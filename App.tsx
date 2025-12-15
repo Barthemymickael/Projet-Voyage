@@ -93,6 +93,8 @@ export default function App() {
 
   return (
     <main className="relative w-full min-h-screen bg-black overflow-hidden">
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(99,102,241,0.08),transparent_35%),radial-gradient(circle_at_80%_10%,rgba(236,72,153,0.08),transparent_35%)]" />
+      <div className="pointer-events-none absolute inset-0 opacity-50 mix-blend-screen bg-[linear-gradient(120deg,rgba(255,255,255,0.06)_0%,rgba(255,255,255,0.02)_45%,rgba(255,255,255,0.04)_100%)]" />
       <a
         href="?admin=true"
         className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:right-4 focus:bg-white focus:text-black focus:px-3 focus:py-2 focus:rounded-full"
