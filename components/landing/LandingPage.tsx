@@ -52,7 +52,7 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
         <motion.div
           animate={{ y: isHovered ? -6 : 0 }}
           transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-          className="flex items-center gap-3 bg-white/5 border border-white/10 rounded-full px-4 py-2 backdrop-blur-md shadow-lg shadow-black/30"
+          className="flex items-center justify-center gap-3 bg-white/5 border border-white/10 rounded-full px-4 py-2 backdrop-blur-md shadow-lg shadow-black/30"
         >
           {country.isLocked ? (
             <Lock className="w-6 h-6 lg:w-8 lg:h-8 text-zinc-300" />
@@ -64,7 +64,7 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
           </span>
         </motion.div>
 
-        <div className="space-y-3">
+        <div className="space-y-3 w-full flex flex-col items-center">
           <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-b from-white to-zinc-400 uppercase font-serif drop-shadow-[0_10px_30px_rgba(0,0,0,0.45)]">
             {country.name}
           </h2>
@@ -72,7 +72,7 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
           <AnimatePresence>
             {!country.isLocked && (
               <motion.div
-                className="inline-flex items-center gap-2 text-white font-semibold text-sm sm:text-base tracking-tight uppercase mt-2 bg-white/20 px-4 py-2 rounded-full backdrop-blur-sm border border-white/20 shadow-[0_10px_30px_rgba(0,0,0,0.4)]"
+                className="inline-flex items-center justify-center gap-2 text-white font-semibold text-sm sm:text-base tracking-tight uppercase mt-2 bg-white/20 px-4 py-2 rounded-full backdrop-blur-sm border border-white/20 shadow-[0_10px_30px_rgba(0,0,0,0.4)] mx-auto"
                 whileHover={{ backgroundColor: 'rgba(255,255,255,0.25)' }}
               >
                 Entrer dans le journal <ArrowRight className="w-4 h-4" />
