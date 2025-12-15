@@ -106,14 +106,16 @@ export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
                                             type="button"
                                             onClick={(e) => {
                                               const rect = e.currentTarget.getBoundingClientRect();
+                                              const scrollX = window.scrollX || window.pageXOffset;
+                                              const scrollY = window.scrollY || window.pageYOffset;
 
                                               setActiveImage({
                                                 src: event.image!,
                                                 title: event.title,
                                                 id: event.id,
                                                 rect: {
-                                                  x: rect.left,
-                                                  y: rect.top,
+                                                  x: rect.left + scrollX,
+                                                  y: rect.top + scrollY,
                                                   width: rect.width,
                                                   height: rect.height,
                                                 },
@@ -159,20 +161,22 @@ export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
               />
               <motion.div
                 initial={{
-                  left: activeImage.rect.x,
-                  top: activeImage.rect.y,
+                  left: activeImage.rect.x - window.scrollX,
+                  top: activeImage.rect.y - window.scrollY,
                   width: activeImage.rect.width,
                   height: activeImage.rect.height,
                 }}
                 animate={() => {
+                  const currentScrollX = window.scrollX;
+                  const currentScrollY = window.scrollY;
                   const targetWidth = Math.min(viewportSize.width - 32, 1100);
                   const targetHeight = Math.min(viewportSize.height - 120, Math.max(360, targetWidth * 0.6));
                   const targetLeft = Math.min(
-                    Math.max(16, activeImage.rect.x + activeImage.rect.width / 2 - targetWidth / 2),
+                    Math.max(16, activeImage.rect.x - currentScrollX + activeImage.rect.width / 2 - targetWidth / 2),
                     viewportSize.width - targetWidth - 16,
                   );
                   const targetTop = Math.min(
-                    Math.max(16, activeImage.rect.y + activeImage.rect.height / 2 - targetHeight / 2),
+                    Math.max(16, activeImage.rect.y - currentScrollY + activeImage.rect.height / 2 - targetHeight / 2),
                     viewportSize.height - targetHeight - 16,
                   );
 
