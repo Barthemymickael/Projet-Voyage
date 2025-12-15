@@ -112,14 +112,14 @@ export const COUNTRIES: CountryData[] = [
       // ✅ AJOUT JOUR 10
       {
         id: 't10',
-        date: 'Jour 10 (~6 h de marche)',
-        title: 'Randonnée enneigée jusqu’au Samsungsan',
+        date: 'Jour 10 (~6 h de marche et 20 226 pas)',
+        title: 'Randonnée enneigée jusqu’au Samseongsan',
         description:
           'Journée de randonnée sous la neige avec trois sommets enchaînés et un point culminant à 480,9 m.',
         bullets: [
           'Dolsan Mountain (239 m)',
           'Hoamsan Mountain (393 m)',
-          'Samsungsan Mountain (480,9 m)'
+          'Samseongsan Mountain (480,9 m)'
         ],
         video: withBase('jour10.mp4')
       },
@@ -456,7 +456,7 @@ Tout commence la veille au soir : la neige tombe bien en montagne.
 Alors c’est décidé, dimanche sera une journée rando.
 
 Résultat : 6 heures de marche jusqu’au sommet de la montagne la plus proche :
-SamsungSan Mountain (480 m).
+Samseongsan Mountain (480 m).
 
 Au départ, tout est simple : chemins propres, ponts bien construits.
 Puis, petit à petit, plus rien… que de la neige et des cailloux.
@@ -469,7 +469,7 @@ J’ai le temps.
 
 Je continue et j’atteins la suivante : Hoamsan Mountain (393 m).
 
-Mais évidemment, toujours en quête de mieux, j’aperçois au loin la SamsungSan Mountain (480,9 m).
+Mais évidemment, toujours en quête de mieux, j’aperçois au loin la Samseongsan Mountain (480,9 m).
 Et là, changement d’ambiance.
 
 Une randonnée normalement simple, mais avec la neige… un poil dangereux
@@ -544,7 +544,7 @@ Ps : Quand je regarde les vidéos tiktoks et insta des 3 montagnes, on voit que 
         excerpt: `Aujourd’hui, je suis allé visiter le musée SONGEUN Art and Cultural Foundation, un musée d’art contemporain.
 Je suis assez mitigé sur cette visite, même avec les explications audio et les textes. J’ai eu du mal à trouver du sens à certaines œuvres.
 
-Je suis ensuite allé visiter l’un des plus grands magasins Samsung de Corée. J’ai pu tester les téléphones, les tablettes, les ordinateurs, les énormes télévisions 8K QLED, mais aussi les frigos et les machines à laver dotés d’intelligence artificielle — carrément.
+Je suis ensuite allé visiter l’un des plus grands magasins Samsung de Corée. J’ai pu tester les téléphones, les tablettes, les ordinateurs, les énormes télévisions 8K QLED, mais aussi les frigos et les machines à laver dotés d’intelligence artificielle carrément.
 
 J’ai marché le long des buildings de Gangnam. Je ne suis pas un grand fan des magasins de luxe, alors j’ai simplement regardé les devantures en passant devant Rolls-Royce, Bentley, Dior, Burberry.
 
