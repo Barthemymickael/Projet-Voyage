@@ -58,21 +58,50 @@ export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
                       </ul>
                     )}
 
+                    {/* MÉDIA */}
+                    {event.video && (
+                      <div className="mt-4">
+                        {event.video.includes('drive.google.com') ? (
+                          <div
+                            className="relative w-full overflow-hidden rounded-lg border border-zinc-800 bg-black"
+                            style={{ paddingTop: '56.25%' }}
+                          >
+                            <iframe
+                              src={event.video.replace('/view', '/preview')}
+                              className="absolute inset-0 h-full w-full"
+                              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                              allowFullScreen
+                              title={`${event.title} vidéo`}
+                            />
+                          </div>
+                        ) : (
+                          <video
+                            controls
+                            className="mt-2 w-full overflow-hidden rounded-lg border border-zinc-800 bg-black"
+                            title={`${event.title} vidéo`}
+                          >
+                            <source src={event.video} />
+                            Votre navigateur ne prend pas en charge la lecture vidéo.
+                          </video>
+                        )}
+                      </div>
+                    )}
+
                     {/* BOUTON IMAGE THUMBNAIL */}
                     {event.image && (
-                        <button
-                          type="button"
-                          onClick={() => setActiveImage({ src: event.image!, title: event.title, id: event.id })}
-                          className="relative block w-full h-48 overflow-hidden rounded-lg cursor-zoom-in group mt-4"
-                        >
-                          <motion.img
-                            layoutId={`timeline-image-${event.id}`}
-                            src={event.image}
-                            alt={event.title}
-                            className="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
-                          />
-                          <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                        </button>
+                      <button
+                        type="button"
+                        onClick={() => setActiveImage({ src: event.image!, title: event.title, id: event.id })}
+                        className="relative mt-4 block h-48 w-full cursor-zoom-in overflow-hidden rounded-lg group"
+                      >
+                        <motion.img
+                          layoutId={`timeline-image-${event.id}`}
+                          src={event.image}
+                          alt={event.title}
+                          className="absolute inset-0 h-full w-full transform object-cover transition-transform duration-700 group-hover:scale-110"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-black/10 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+                      </button>
                     )}
                   </div>
                 </div>
