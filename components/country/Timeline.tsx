@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { AnimatePresence, motion } from 'framer-motion';
+import { AnimatePresence, LayoutGroup, motion } from 'framer-motion';
 import { X } from 'lucide-react';
 import { TimelineEvent } from '../../types';
 
 export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
-  const [activeImage, setActiveImage] = useState<{ src: string; title: string } | null>(null);
+  const [activeImage, setActiveImage] = useState<
+    { src: string; title: string; id: string } | null
+  >(null);
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
@@ -23,7 +25,8 @@ export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
   }, [activeImage]);
 
   return (
-    <section className="py-24 bg-zinc-950 relative overflow-hidden">
+    <LayoutGroup>
+      <section className="py-24 bg-zinc-950 relative overflow-hidden">
         <div className="max-w-6xl mx-auto px-4 relative z-10">
             <motion.h2 
                 initial={{ opacity: 0, x: -50 }}
@@ -81,13 +84,21 @@ export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
                                     event.image && (
                                         <button
                                             type="button"
-                                            onClick={() => setActiveImage({ src: event.image!, title: event.title })}
+                                            onClick={() =>
+                                              setActiveImage({
+                                                src: event.image!,
+                                                title: event.title,
+                                                id: event.id,
+                                              })
+                                            }
                                             className="relative block w-full h-48 overflow-hidden rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500/70 focus:ring-offset-2 focus:ring-offset-zinc-900 cursor-zoom-in"
                                         >
-                                            <img
+                                            <motion.img
+                                                layoutId={`timeline-image-${event.id}`}
                                                 src={event.image}
                                                 alt={event.title}
                                                 className="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                                                transition={{ type: 'spring', stiffness: 240, damping: 24 }}
                                             />
                                             <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                                         </button>
@@ -109,42 +120,42 @@ export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
         </div>
 
         <AnimatePresence>
-            {activeImage && (
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    exit={{ opacity: 0 }}
-                    className="fixed inset-0 z-[120] bg-black/85 backdrop-blur-sm flex items-center justify-center p-6"
-                    onClick={() => setActiveImage(null)}
+          {activeImage && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="fixed inset-0 z-[120] bg-black/85 backdrop-blur-sm"
+              onClick={() => setActiveImage(null)}
+            >
+              <motion.div
+                className="fixed left-1/2 top-1/2 z-[121] w-[min(92vw,1100px)] max-h-[78vh] -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-2xl border border-white/10 shadow-2xl bg-zinc-950/70"
+                onClick={(e) => e.stopPropagation()}
+                transition={{ type: 'spring', stiffness: 220, damping: 22 }}
+              >
+                <button
+                  type="button"
+                  onClick={() => setActiveImage(null)}
+                  className="absolute right-3 top-3 z-10 flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors"
+                  aria-label="Fermer l'image"
                 >
-                    <motion.div
-                        initial={{ scale: 0.95, opacity: 0 }}
-                        animate={{ scale: 1, opacity: 1 }}
-                        exit={{ scale: 0.95, opacity: 0 }}
-                        transition={{ type: 'spring', stiffness: 180, damping: 18 }}
-                        className="relative w-full max-w-5xl"
-                        onClick={(e) => e.stopPropagation()}
-                    >
-                        <button
-                            type="button"
-                            onClick={() => setActiveImage(null)}
-                            className="absolute -top-4 -right-4 flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors"
-                            aria-label="Fermer l'image"
-                        >
-                            <X className="h-5 w-5" />
-                        </button>
-                        <div className="overflow-hidden rounded-2xl border border-white/10 shadow-2xl bg-zinc-950/60 flex items-center justify-center p-2 md:p-4">
-                            <img
-                                src={activeImage.src}
-                                alt={activeImage.title}
-                                className="max-h-[70vh] max-w-full object-contain bg-zinc-950 rounded-lg"
-                            />
-                        </div>
-                        <div className="mt-4 text-center text-sm text-zinc-300">{activeImage.title}</div>
-                    </motion.div>
-                </motion.div>
-            )}
+                  <X className="h-5 w-5" />
+                </button>
+                <motion.img
+                  layoutId={`timeline-image-${activeImage.id}`}
+                  src={activeImage.src}
+                  alt={activeImage.title}
+                  className="h-full w-full max-h-[78vh] object-contain bg-gradient-to-br from-zinc-950 to-zinc-900"
+                  transition={{ type: 'spring', stiffness: 220, damping: 22 }}
+                />
+                <div className="px-4 pb-4 pt-2 text-center text-sm text-zinc-200 bg-gradient-to-t from-black/40 via-black/20 to-transparent">
+                  {activeImage.title}
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
         </AnimatePresence>
-    </section>
+      </section>
+    </LayoutGroup>
   );
 };
