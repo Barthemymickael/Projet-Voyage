@@ -32,13 +32,13 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
       category: 'Produit audio',
     },
     {
-      title: 'Playlist intime & souvenirs',
-      description: 'Un mini-site pour partager des morceaux et histoires personnelles, pensé comme une capsule de souvenirs en ligne.',
+      title: 'pour bientôt ',
+      description: 'pour bientôt',
       date: 'Janvier 2026',
       link: '#',
       mood: 'Nostalgie',
       status: 'En conception',
-      category: 'Expérience narrative',
+      category: 'pour bientôt',
     },
     {
       title: 'Blog voyage Asie 2025/2026',
@@ -50,13 +50,13 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
       category: 'Journal numérique',
     },
     {
-      title: 'Carnet vidéo mensuel',
-      description: 'Un format vidéo mensuel pour documenter l’évolution personnelle et les découvertes locales sur 6 mois.',
+      title: 'pour bientôt',
+      description: 'pour bientôt',
       date: '2026',
       link: '#',
-      mood: 'Création',
+      mood: 'pour bientôt',
       status: 'Planifié',
-      category: 'Série vidéo',
+      category: 'pour bientôt',
     },
   ];
 
