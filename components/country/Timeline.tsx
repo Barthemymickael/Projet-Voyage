@@ -133,11 +133,11 @@ export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
                         >
                             <X className="h-5 w-5" />
                         </button>
-                        <div className="overflow-hidden rounded-2xl border border-white/10 shadow-2xl bg-zinc-950/60">
+                        <div className="overflow-hidden rounded-2xl border border-white/10 shadow-2xl bg-zinc-950/60 flex items-center justify-center p-2 md:p-4">
                             <img
                                 src={activeImage.src}
                                 alt={activeImage.title}
-                                className="w-full h-[70vh] object-contain bg-zinc-950"
+                                className="max-h-[70vh] max-w-full object-contain bg-zinc-950 rounded-lg"
                             />
                         </div>
                         <div className="mt-4 text-center text-sm text-zinc-300">{activeImage.title}</div>
