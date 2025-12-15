@@ -103,22 +103,24 @@ export default function App() {
       >
         Accès administrateur
       </a>
-        <div className="absolute top-4 left-4 z-20">
-          {dataSource === 'api' && (
-            <span className="px-3 py-1 text-xs rounded-full border bg-emerald-500/20 border-emerald-400/50 text-emerald-100">
-              Backend en ligne
-            </span>
+      <div className="absolute inset-x-0 top-0 z-20 px-3 pt-3 sm:px-6 sm:pt-6 pointer-events-none">
+        <div className="flex items-start justify-between gap-3 flex-wrap">
+          <div className="flex flex-col gap-2 pointer-events-auto">
+            {dataSource === 'api' && (
+              <span className="self-start px-3 py-1 text-xs rounded-full border bg-emerald-500/20 border-emerald-400/50 text-emerald-100 shadow-lg shadow-emerald-500/20">
+                Backend en ligne
+              </span>
+            )}
+          </div>
+          {selectedCountry && !showDashboard && (
+            <button
+              className="pointer-events-auto px-3 py-2 text-xs sm:text-sm bg-white/10 text-white rounded-full border border-white/20 hover:bg-white/20 backdrop-blur-md"
+              onClick={() => setSelectedCountryId(null)}
+            >
+              Retour à l'accueil
+            </button>
           )}
         </div>
-      <div className="absolute top-4 right-4 z-20 flex gap-3 items-center">
-        {selectedCountry && !showDashboard && (
-          <button
-            className="px-3 py-2 text-sm bg-white/10 text-white rounded-full border border-white/20 hover:bg-white/20"
-            onClick={() => setSelectedCountryId(null)}
-          >
-            Retour à l'accueil
-          </button>
-        )}
       </div>
       <AnimatePresence mode="wait">
         {showDashboard ? (
