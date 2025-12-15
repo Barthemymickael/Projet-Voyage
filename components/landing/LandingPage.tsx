@@ -101,6 +101,12 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
               </motion.div>
             )}
           </AnimatePresence>
+          {country.isLocked && (
+            <div
+              className="mt-2 h-[44px] sm:h-[48px] w-full max-w-[230px] rounded-full border border-transparent"
+              aria-hidden
+            />
+          )}
         </div>
       </div>
 
