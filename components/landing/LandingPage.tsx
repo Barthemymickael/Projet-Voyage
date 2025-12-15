@@ -60,7 +60,7 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
             <Unlock className="w-6 h-6 lg:w-8 lg:h-8 text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.5)]" />
           )}
           <span className="text-xs sm:text-sm uppercase tracking-[0.16em] text-white/80 font-mono">
-            {country.isLocked ? 'Région verrouillée' : 'Zone accessible'}
+            {country.isLocked ? 'Région verrouillée' : 'Région déverrouillée'}
           </span>
         </motion.div>
 
