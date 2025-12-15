@@ -183,7 +183,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
         <AnimatePresence>
             {showProjects && (
                 <motion.div
-                    className="fixed inset-0 z-50 flex items-center justify-center p-4"
+                    className="fixed inset-0 z-50 flex items-start sm:items-center justify-center p-4 sm:p-6 overflow-y-auto"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
@@ -200,7 +200,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                         animate={{ scale: 1, opacity: 1, y: 0 }}
                         exit={{ scale: 0.95, opacity: 0, y: 20 }}
                         transition={{ type: 'spring', stiffness: 200, damping: 20 }}
-                        className="relative z-10 max-w-5xl w-full bg-zinc-900/90 border border-white/10 rounded-3xl shadow-[0_30px_80px_rgba(0,0,0,0.55)] p-6 sm:p-8 overflow-hidden"
+                        className="relative z-10 w-full max-w-5xl bg-zinc-900/90 border border-white/10 rounded-3xl shadow-[0_30px_80px_rgba(0,0,0,0.55)] p-6 sm:p-8 overflow-hidden max-h-[90vh] sm:max-h-[80vh] overflow-y-auto mt-10 sm:mt-0"
                         onClick={(e) => e.stopPropagation()}
                     >
                         <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_20%_20%,rgba(236,72,153,0.1),transparent_45%),_radial-gradient(circle_at_80%_0%,rgba(59,130,246,0.12),transparent_35%)]" />
