@@ -72,12 +72,32 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
           <AnimatePresence>
             {!country.isLocked && (
               <motion.div
-                className="inline-flex items-center justify-center gap-2 text-white font-semibold text-sm sm:text-base tracking-tight uppercase mt-2 bg-white/15 px-4 py-2 rounded-full backdrop-blur-md border border-white/20 shadow-[0_12px_35px_rgba(0,0,0,0.4)] mx-auto transition-transform duration-300"
-                whileHover={{ backgroundColor: 'rgba(255,255,255,0.2)', scale: 1.02 }}
-                whileFocus={{ scale: 1.02 }}
+                className="group relative inline-flex items-center justify-center gap-2 text-white font-semibold text-sm sm:text-base tracking-tight uppercase mt-2 px-4 py-2 rounded-full backdrop-blur-md border border-white/20 shadow-[0_12px_35px_rgba(0,0,0,0.4)] mx-auto overflow-hidden"
+                whileHover={{ scale: 1.05, rotate: -1 }}
+                whileTap={{ scale: 0.98, rotate: 0 }}
                 tabIndex={0}
+                role="button"
+                aria-label="Entrer dans le journal"
               >
-                Entrer dans le journal <ArrowRight className="w-4 h-4" />
+                <motion.div
+                  className="absolute inset-[-20%] bg-[conic-gradient(at_top,_#a855f7,_#22d3ee,_#a855f7)] opacity-60 blur-2xl"
+                  animate={{ rotate: 360 }}
+                  transition={{ duration: 6, repeat: Infinity, ease: 'linear' }}
+                />
+                <motion.div
+                  className="absolute inset-0 bg-white/10"
+                  animate={{ backgroundColor: ['rgba(255,255,255,0.08)', 'rgba(255,255,255,0.18)', 'rgba(255,255,255,0.08)'] }}
+                  transition={{ duration: 2.4, repeat: Infinity, ease: 'easeInOut' }}
+                />
+                <motion.div
+                  className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-r from-transparent via-white/40 to-transparent"
+                  initial={{ x: '-100%' }}
+                  animate={{ x: ['-120%', '120%'] }}
+                  transition={{ duration: 1.4, repeat: Infinity, ease: 'easeInOut', repeatDelay: 0.6 }}
+                />
+                <span className="relative z-10 flex items-center gap-2 px-2 py-0.5">
+                  Entrer dans le journal <ArrowRight className="w-4 h-4" />
+                </span>
               </motion.div>
             )}
           </AnimatePresence>
