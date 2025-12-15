@@ -122,6 +122,18 @@ export const COUNTRIES: CountryData[] = [
           'Samsungsan Mountain (480,9 m)'
         ],
         video: withBase('jour10.mp4')
+      },
+
+      // ✅ AJOUT JOUR 11
+      {
+        id: 't11',
+        date: 'Jour 11 (7 413 pas)',
+        title: 'SONGEUN Art and Cultural Foundation & Samsung',
+        description:
+          'Visite du musée SONGEUN Art and Cultural Foundation puis découverte d’un magasin Samsung sur quatre étages (smartphones, téléviseurs 8K, électroménagers connectés).',
+        bullets: ['Visite du musée SONGEUN', 'Visite d’un magasin Samsung sur 4 étages'],
+        image:
+          'https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1974&q=80'
       }
     ],
     markers: [
@@ -305,6 +317,17 @@ export const COUNTRIES: CountryData[] = [
         category: 'Activité',
         description: 'Sommet final à 480,9 m avec vue dégagée entre deux passages nuageux.',
         emoji: '🏔️'
+      },
+
+      // ✅ AJOUT JOUR 11 (MAP)
+      {
+        id: 'm20',
+        lat: 37.5256,
+        lng: 127.0402,
+        title: 'SONGEUN Art and Cultural Foundation',
+        category: 'Activité',
+        description: '441 Dosan-daero, Gangnam District, Seoul.',
+        emoji: '🖼️'
       },
 
     ],
@@ -513,6 +536,22 @@ Ps : Quand je regarde les vidéos tiktoks et insta des 3 montagnes, on voit que 
         image:
           'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=2070&auto=format&fit=crop',
         mood: 'Randonnée enneigée'
+      },
+      {
+        id: 'j11',
+        day: 11,
+        title: 'Musée SONGEUN et magasin Samsung',
+        excerpt: `Aujourd’hui, je suis allé visiter le musée SONGEUN Art and Cultural Foundation, un musée d’art contemporain.
+Je suis assez mitigé sur cette visite, même avec les explications audio et les textes. J’ai eu du mal à trouver du sens à certaines œuvres.
+
+Je suis ensuite allé visiter l’un des plus grands magasins Samsung de Corée. J’ai pu tester les téléphones, les tablettes, les ordinateurs, les énormes télévisions 8K QLED, mais aussi les frigos et les machines à laver dotés d’intelligence artificielle — carrément.
+
+J’ai marché le long des buildings de Gangnam. Je ne suis pas un grand fan des magasins de luxe, alors j’ai simplement regardé les devantures en passant devant Rolls-Royce, Bentley, Dior, Burberry.
+
+Lecture dans le bus, puis salle à 20h : séance épaules`,
+        image:
+          'https://images.unsplash.com/photo-1470229538611-16ba8c7ffbd7?auto=format&fit=crop&w=2070&q=80',
+        mood: 'Art contemporain et tech'
       }
     ]
   },
