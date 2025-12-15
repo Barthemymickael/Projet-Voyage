@@ -101,7 +101,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onSelectCountry }) => 
   return (
     <div className="relative min-h-screen w-full bg-gradient-to-b from-black via-zinc-950 to-black px-4 py-8 sm:px-6 lg:px-12">
       <div className="pointer-events-none absolute inset-0 opacity-40 bg-[radial-gradient(circle_at_30%_10%,rgba(59,130,246,0.08),transparent_30%),radial-gradient(circle_at_70%_60%,rgba(244,114,182,0.08),transparent_30%)]" />
-      <div className="mx-auto max-w-6xl lg:max-w-[1400px] grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-0 relative z-10 rounded-[32px] overflow-hidden border border-white/10 shadow-[0_30px_80px_rgba(0,0,0,0.45)]">
+      <div className="mx-auto max-w-6xl lg:max-w-[1400px] grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-0 relative z-10 rounded-[32px] overflow-hidden border border-white/10 shadow-[0_30px_80px_rgba(0,0,0,0.45)]">
         {COUNTRIES.map((country) => (
           <CountryBlock key={country.id} country={country} onSelect={onSelectCountry} />
         ))}
