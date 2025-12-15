@@ -70,18 +70,7 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
           </h2>
 
           <AnimatePresence>
-            {country.isLocked ? (
-              isHovered && (
-                <motion.span
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: 10 }}
-                  className="text-zinc-300 font-mono text-xs sm:text-sm tracking-widest uppercase mt-2"
-                >
-                  Reviens après publication
-                </motion.span>
-              )
-            ) : (
+            {!country.isLocked && (
               <motion.div
                 className="inline-flex items-center gap-2 text-white font-semibold text-sm sm:text-base tracking-tight uppercase mt-2 bg-white/20 px-4 py-2 rounded-full backdrop-blur-sm border border-white/20 shadow-[0_10px_30px_rgba(0,0,0,0.4)]"
                 whileHover={{ backgroundColor: 'rgba(255,255,255,0.25)' }}
@@ -91,14 +80,6 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
             )}
           </AnimatePresence>
         </div>
-
-        {country.isLocked && (
-          <div className="w-full flex flex-col sm:flex-row items-center justify-center gap-3 text-left sm:text-center">
-            <p className="text-xs sm:text-sm text-white/70 leading-relaxed max-w-xl">
-              Cette étape sera disponible dès que le contenu sera prêt. Active les notifications pour ne rien manquer.
-            </p>
-          </div>
-        )}
       </div>
 
       {/* Flash Effect */}
