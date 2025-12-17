@@ -27,7 +27,7 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
 
   return (
     <div
-      className="relative flex-1 min-h-[55vh] md:min-h-[65vh] lg:min-h-[80vh] w-full lg:w-auto overflow-hidden group cursor-pointer border border-white/5 rounded-3xl lg:rounded-none lg:border-b-0 lg:border-r bg-gradient-to-b from-white/5 via-white/0 to-black/60 backdrop-blur-xl shadow-[0_25px_60px_rgba(0,0,0,0.35)] focus-within:ring-2 focus-within:ring-white/70 focus:outline-none"
+      className="relative flex-1 w-full aspect-[3/4] sm:aspect-[4/5] lg:aspect-auto lg:min-h-[78vh] overflow-hidden group cursor-pointer border border-white/8 rounded-3xl lg:rounded-none lg:border-b-0 lg:border-r bg-gradient-to-b from-white/5 via-white/0 to-black/60 backdrop-blur-xl shadow-[0_25px_60px_rgba(0,0,0,0.35)] focus-within:ring-2 focus-within:ring-white/70 focus:outline-none transition-[transform,box-shadow] duration-500"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       onClick={handleClick}
@@ -48,11 +48,11 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
       </motion.div>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex flex-col items-center justify-center p-6 sm:p-8 text-center gap-4">
+      <div className="relative z-10 h-full flex flex-col items-center justify-center px-6 sm:px-8 md:px-10 lg:px-12 py-8 sm:py-10 text-center gap-5 md:gap-6">
         <motion.div
           animate={{ y: isHovered ? -6 : 0 }}
           transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-          className="flex items-center justify-center gap-3 bg-white/8 border border-white/15 rounded-full px-4 py-2 backdrop-blur-lg shadow-lg shadow-black/30"
+          className="flex items-center justify-center gap-3 bg-white/8 border border-white/15 rounded-full px-4 py-2 sm:px-5 sm:py-2.5 backdrop-blur-lg shadow-lg shadow-black/30"
         >
           {country.isLocked ? (
             <Lock className="w-6 h-6 lg:w-8 lg:h-8 text-zinc-300" />
@@ -65,14 +65,14 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
         </motion.div>
 
         <div className="space-y-3 w-full flex flex-col items-center">
-          <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-b from-white to-zinc-300 uppercase font-serif drop-shadow-[0_10px_30px_rgba(0,0,0,0.45)]">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-b from-white to-zinc-300 uppercase font-serif drop-shadow-[0_10px_30px_rgba(0,0,0,0.45)] leading-tight text-balance max-w-[18ch]">
             {country.name}
           </h2>
 
           <AnimatePresence>
             {!country.isLocked && (
               <motion.div
-                className="group relative inline-flex items-center justify-center gap-2 text-white font-semibold text-sm sm:text-base tracking-tight uppercase mt-2 px-4 py-2 rounded-full backdrop-blur-md border border-white/20 shadow-[0_12px_35px_rgba(0,0,0,0.4)] mx-auto overflow-hidden"
+                className="group relative inline-flex w-full max-w-[260px] sm:max-w-[280px] items-center justify-center gap-2 text-white font-semibold text-sm sm:text-base tracking-tight uppercase mt-2 px-4 py-2 rounded-full backdrop-blur-md border border-white/20 shadow-[0_12px_35px_rgba(0,0,0,0.4)] mx-auto overflow-hidden"
                 whileHover={{ scale: 1.05, rotate: -1 }}
                 whileTap={{ scale: 0.98, rotate: 0 }}
                 tabIndex={0}
@@ -95,7 +95,7 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
                   animate={{ x: ['-120%', '120%'] }}
                   transition={{ duration: 1.4, repeat: Infinity, ease: 'easeInOut', repeatDelay: 0.6 }}
                 />
-                <span className="relative z-10 flex items-center gap-2 px-2 py-0.5">
+                <span className="relative z-10 flex items-center gap-2 px-2 py-0.5 whitespace-nowrap">
                   Entrer dans le journal <ArrowRight className="w-4 h-4" />
                 </span>
               </motion.div>
@@ -103,7 +103,7 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
           </AnimatePresence>
           {country.isLocked && (
             <div
-              className="mt-2 h-[44px] sm:h-[48px] w-full max-w-[230px] rounded-full border border-transparent"
+              className="mt-2 h-[44px] sm:h-[48px] w-full max-w-[280px] rounded-full border border-transparent"
               aria-hidden
             />
           )}
@@ -125,9 +125,9 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
 
 export const LandingPage: React.FC<LandingPageProps> = ({ onSelectCountry }) => {
   return (
-    <div className="relative min-h-screen w-full bg-gradient-to-b from-black via-zinc-950 to-black px-4 py-8 sm:px-6 lg:px-12 flex items-center">
+    <div className="relative min-h-screen w-full bg-gradient-to-b from-black via-zinc-950 to-black px-4 py-10 sm:px-6 sm:py-14 lg:px-12 lg:py-16 flex items-center">
       <div className="pointer-events-none absolute inset-0 opacity-40 bg-[radial-gradient(circle_at_30%_10%,rgba(59,130,246,0.08),transparent_30%),radial-gradient(circle_at_70%_60%,rgba(244,114,182,0.08),transparent_30%)]" />
-      <div className="mx-auto max-w-6xl lg:max-w-[1400px] grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-0 relative z-10 rounded-[32px] overflow-hidden border border-white/10 shadow-[0_30px_80px_rgba(0,0,0,0.45)]">
+      <div className="mx-auto max-w-6xl lg:max-w-[1400px] grid grid-cols-1 gap-6 sm:gap-8 lg:grid-cols-2 lg:gap-0 relative z-10 rounded-[32px] overflow-hidden border border-white/10 shadow-[0_30px_80px_rgba(0,0,0,0.45)] bg-white/0">
         {COUNTRIES.map((country) => (
           <CountryBlock key={country.id} country={country} onSelect={onSelectCountry} />
         ))}
