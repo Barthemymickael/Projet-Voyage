@@ -142,11 +142,6 @@ export const COUNTRIES: CountryData[] = [
         title: 'National Museum of Modern and Contemporary Art, Seoul',
         description:
           'Découverte de la deuxième branche du MMCA à Séoul : expositions plus percutantes que la veille, notamment celle de Kim Tschang-Yeul et ses gouttes d’eau hyperréalistes. Fin de journée à Gyeongbokgung pour les illuminations, puis promenade le long de la rivière Cheonggyecheon pour admirer près d’un kilomètre de lanternes.',
-        bullets: [
-          'Exposition sur Kim Tschang-Yeul et ses gouttes d’eau symbolisant pureté et guérison',
-          'Fermeture du musée puis illuminations sur la place de Gyeongbokgung',
-          'Balade nocturne le long de Cheonggyecheon pour voir les lanternes historiques'
-        ],
         image:
           'https://images.unsplash.com/photo-1580427917406-8dd1cd1d2fd4?q=80&w=2070&auto=format&fit=crop'
       }
