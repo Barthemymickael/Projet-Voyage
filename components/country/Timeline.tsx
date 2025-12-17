@@ -120,11 +120,7 @@ export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
                                 />
                               </div>
 
-                              <div className="flex items-center justify-between gap-3 px-4 py-3 text-xs text-white/80 backdrop-blur-sm bg-black/30 border-t border-white/10">
-                                <div className="flex items-center gap-2">
-                                  <span className="inline-flex h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_0_4px_rgba(16,185,129,0.2)]" />
-                                  <span className="uppercase tracking-[0.12em] text-white/70">Lecture optimisée</span>
-                                </div>
+                              <div className="flex items-center justify-end gap-3 px-4 py-3 text-xs text-white/80 backdrop-blur-sm bg-black/30 border-t border-white/10">
                                 <a
                                   href={event.video}
                                   target="_blank"
