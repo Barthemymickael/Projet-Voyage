@@ -327,14 +327,14 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                                 <span className="text-lg">💪</span>
                                 <div>
                                     <p className="font-semibold text-white">Abonnement salle de sport</p>
-                                    <p className="text-sm text-white/80"> 50 000₩ = 29 € pour le mois</p>
+                                    <p className="text-sm text-white/80"> 50 000 ₩ = 29 € pour le mois</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3">
                                 <span className="text-lg">🍽️</span>
                                 <div>
-                                    <p className="font-semibold text-white">Repas du soir</p>
-                                    <p className="text-sm text-white/80">En moyenne 5 € par repas </p>
+                                    <p className="font-semibold text-white">Repas</p>
+                                    <p className="text-sm text-white/80">Prix d'un repas moyen : 10 000₩ = 5 €</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3">
@@ -348,14 +348,14 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                                 <span className="text-lg">📖</span>
                                 <div>
                                     <p className="font-semibold text-white">Le livre que je lis pour ce voyage</p>
-                                    <p className="text-sm text-white/80">L'Idiot de Dostoïevski (1874)</p>
+                                    <p className="text-sm text-white/80">L'Idiot - Dostoïevski (1874)</p>
                                 </div>
                             </div>
                           <div className="flex items-start gap-3">
                                 <span className="text-lg">🎵</span>
                                 <div>
                                     <p className="font-semibold text-white">La musique que j'écoute en boucle</p>
-                                    <p className="text-sm text-white/80">Plush - Stone Temple Pilots</p>
+                                    <p className="text-sm text-white/80">Plush - Stone Temple Pilots (1992)</p>
                                 </div>
                             </div>
                         </div>
