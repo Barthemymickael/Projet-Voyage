@@ -107,10 +107,6 @@ export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
                                 title={`${event.title} vidéo YouTube`}
                               />
                             </div>
-                            <div className="flex items-center justify-between px-4 py-3 text-sm text-indigo-100/80 bg-gradient-to-r from-white/5 via-white/0 to-white/5 border-t border-indigo-500/20">
-                              <span className="font-medium">Format vertical 9/16</span>
-                              <span className="rounded-full bg-indigo-500/20 px-3 py-1 text-xs uppercase tracking-wide">YouTube</span>
-                            </div>
                           </div>
                         ) : (
                           <video
