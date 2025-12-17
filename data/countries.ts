@@ -121,7 +121,7 @@ export const COUNTRIES: CountryData[] = [
           'Hoamsan Mountain (393 m)',
           'Samseongsan Mountain (480,9 m)'
         ],
-        video: 'https://drive.google.com/file/d/12tviX4h6oGYzTvM-UWz65z6RXDk9T0FC/view'
+        video: 'https://youtube.com/shorts/omArH5D08Qc?si=lPuN-VIVf2EMEFxz'
       },
 
       // ✅ AJOUT JOUR 11
