@@ -10,7 +10,19 @@ const getYouTubeEmbedUrl = (url: string) => {
   const standardMatch = url.match(/(?:v=|youtu\.be\/)([\w-]+)/i);
   const videoId = shortMatch?.[1] ?? standardMatch?.[1];
 
-  return videoId ? `https://www.youtube.com/embed/${videoId}?modestbranding=1&rel=0` : null;
+  if (!videoId) return null;
+
+  const params = new URLSearchParams({
+    modestbranding: '1',
+    rel: '0',
+    playsinline: '1',
+    controls: '1',
+    disablekb: '1',
+    fs: '0',
+    iv_load_policy: '3',
+  });
+
+  return `https://www.youtube.com/embed/${videoId}?${params.toString()}`;
 };
 
 export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
@@ -89,8 +101,9 @@ export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
                               <iframe
                                 src={getYouTubeEmbedUrl(event.video)!}
                                 className="absolute inset-0 h-full w-full"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen
+                                allow="autoplay; encrypted-media"
+                                sandbox="allow-scripts allow-same-origin allow-presentation"
+                                referrerPolicy="no-referrer"
                                 title={`${event.title} vidéo YouTube`}
                               />
                             </div>
