@@ -334,7 +334,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                                 <span className="text-lg">🍽️</span>
                                 <div>
                                     <p className="font-semibold text-white">Repas</p>
-                                    <p className="text-sm text-white/80">Prix d'un repas moyen : 10 000₩ = 5 €</p>
+                                    <p className="text-sm text-white/80">Prix moyen d'un repas : 10 000₩ = 5 €</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3">
