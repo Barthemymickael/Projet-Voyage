@@ -56,70 +56,97 @@ export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
           <div className="relative">
             <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-indigo-500/50 to-transparent" />
 
-            {events.map((event, index) => (
-              <motion.div 
-                key={event.id}
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-100px" }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                className={`flex flex-col md:flex-row gap-8 mb-24 relative ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}`}
-              >
-                <div className="flex-1 ml-12 md:ml-0">
-                  <div className="bg-zinc-900/50 backdrop-blur-sm border border-zinc-800 p-6 rounded-2xl group hover:border-indigo-500/50 transition-colors">
-                    {/* ... Contenu texte ... */}
-                    <span className="text-indigo-400 font-mono text-sm mb-2 block">{event.date}</span>
-                    <h3 className="text-2xl font-bold text-white mb-3">{event.title}</h3>
-                    <p className="text-zinc-400 leading-relaxed mb-4">{event.description}</p>
-                    
-                    {event.bullets && (
-                      <ul className="text-zinc-400 leading-relaxed mb-4 list-disc list-inside">
-                        {event.bullets.map((item, idx) => <li key={idx}>{item}</li>)}
-                      </ul>
-                    )}
+            {events.map((event, index) => {
+              const youtubeEmbedUrl = event.video ? getYouTubeEmbedUrl(event.video) : null;
+              const isYouTubeShort = event.video?.includes('youtube.com/shorts') || event.video?.includes('youtu.be/shorts');
 
-                    {/* MÉDIA */}
-                    {event.video && (
-                      <div className="mt-4 space-y-3">
-                        {event.video.includes('drive.google.com') ? (
-                          <div
-                            className="relative w-full overflow-hidden rounded-xl border border-indigo-500/40 bg-gradient-to-br from-zinc-900 via-zinc-950 to-black shadow-[0_20px_60px_rgba(0,0,0,0.35)]"
-                            style={{ paddingTop: '56.25%' }}
-                          >
-                            <iframe
-                              src={event.video.replace('/view', '/preview')}
-                              className="absolute inset-0 h-full w-full"
-                              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                              allowFullScreen
-                              title={`${event.title} vidéo`}
-                            />
-                          </div>
-                        ) : getYouTubeEmbedUrl(event.video) ? (
-                          <div className="relative w-full md:max-w-[320px] md:mx-auto overflow-hidden rounded-xl border border-indigo-500/40 bg-gradient-to-br from-indigo-500/10 via-zinc-900 to-black shadow-[0_20px_60px_rgba(0,0,0,0.35)]">
-                            <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(99,102,241,0.12),transparent_45%)]" />
-                            <div className="relative aspect-[9/16]">
+              return (
+                <motion.div
+                  key={event.id}
+                  initial={{ opacity: 0, y: 50 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: "-100px" }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  className={`flex flex-col md:flex-row gap-8 mb-24 relative ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}`}
+                >
+                  <div className="flex-1 ml-12 md:ml-0">
+                    <div className="bg-zinc-900/50 backdrop-blur-sm border border-zinc-800 p-6 rounded-2xl group hover:border-indigo-500/50 transition-colors">
+                      {/* ... Contenu texte ... */}
+                      <span className="text-indigo-400 font-mono text-sm mb-2 block">{event.date}</span>
+                      <h3 className="text-2xl font-bold text-white mb-3">{event.title}</h3>
+                      <p className="text-zinc-400 leading-relaxed mb-4">{event.description}</p>
+                    
+                      {event.bullets && (
+                        <ul className="text-zinc-400 leading-relaxed mb-4 list-disc list-inside">
+                          {event.bullets.map((item, idx) => <li key={idx}>{item}</li>)}
+                        </ul>
+                      )}
+
+                      {/* MÉDIA */}
+                      {event.video && (
+                        <div className="mt-4 space-y-3">
+                          {event.video.includes('drive.google.com') ? (
+                            <div
+                              className="relative w-full overflow-hidden rounded-xl border border-indigo-500/40 bg-gradient-to-br from-zinc-900 via-zinc-950 to-black shadow-[0_20px_60px_rgba(0,0,0,0.35)]"
+                              style={{ paddingTop: '56.25%' }}
+                            >
                               <iframe
-                                src={getYouTubeEmbedUrl(event.video)!}
+                                src={event.video.replace('/view', '/preview')}
                                 className="absolute inset-0 h-full w-full"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen
-                                loading="lazy"
-                                title={`${event.title} vidéo YouTube`}
+                                title={`${event.title} vidéo`}
                               />
                             </div>
-                          </div>
-                        ) : (
-                          <video
-                            controls
-                            className="mt-2 w-full overflow-hidden rounded-lg border border-zinc-800 bg-black"
-                            title={`${event.title} vidéo`}
-                          >
-                            <source src={event.video} />
-                            Votre navigateur ne prend pas en charge la lecture vidéo.
-                          </video>
-                        )}
-                      </div>
-                    )}
+                          ) : youtubeEmbedUrl ? (
+                            <div className="relative w-full md:max-w-[380px] md:mx-auto overflow-hidden rounded-2xl border border-indigo-500/40 bg-gradient-to-br from-indigo-500/10 via-zinc-900 to-black shadow-[0_20px_70px_rgba(0,0,0,0.45)]">
+                              <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(99,102,241,0.12),transparent_45%)]" />
+
+                              <div className="absolute left-4 top-4 flex items-center gap-2 text-xs font-medium text-white/90">
+                                <span className="rounded-full bg-indigo-500/20 px-3 py-1 text-[11px] uppercase tracking-widest">YouTube</span>
+                                {isYouTubeShort && (
+                                  <span className="rounded-full bg-emerald-500/20 px-2.5 py-1 text-[11px] uppercase tracking-widest text-emerald-200">Short</span>
+                                )}
+                              </div>
+
+                              <div className="relative aspect-[9/16]">
+                                <iframe
+                                  src={youtubeEmbedUrl}
+                                  className="absolute inset-0 h-full w-full"
+                                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                  allowFullScreen
+                                  loading="lazy"
+                                  title={`${event.title} vidéo YouTube`}
+                                />
+                              </div>
+
+                              <div className="flex items-center justify-between gap-3 px-4 py-3 text-xs text-white/80 backdrop-blur-sm bg-black/30 border-t border-white/10">
+                                <div className="flex items-center gap-2">
+                                  <span className="inline-flex h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_0_4px_rgba(16,185,129,0.2)]" />
+                                  <span className="uppercase tracking-[0.12em] text-white/70">Lecture optimisée</span>
+                                </div>
+                                <a
+                                  href={event.video}
+                                  target="_blank"
+                                  rel="noreferrer"
+                                  className="inline-flex items-center gap-1 rounded-full bg-white/10 px-3 py-1 font-semibold text-white transition hover:bg-white/20"
+                                >
+                                  Ouvrir dans YouTube
+                                </a>
+                              </div>
+                            </div>
+                          ) : (
+                            <video
+                              controls
+                              className="mt-2 w-full overflow-hidden rounded-lg border border-zinc-800 bg-black"
+                              title={`${event.title} vidéo`}
+                            >
+                              <source src={event.video} />
+                              Votre navigateur ne prend pas en charge la lecture vidéo.
+                            </video>
+                          )}
+                        </div>
+                      )}
 
                     {/* BOUTON IMAGE THUMBNAIL */}
                     {event.image && (
@@ -142,8 +169,9 @@ export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
                 
                 <div className="absolute left-4 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-zinc-950 border-2 border-indigo-500 shadow-[0_0_15px_rgba(99,102,241,0.5)] z-20" />
                 <div className="flex-1 hidden md:block" />
-              </motion.div>
-            ))}
+                </motion.div>
+              );
+            })}
           </div>
         </div>
       </section>
