@@ -5,6 +5,14 @@ import { AnimatePresence, LayoutGroup, motion } from 'framer-motion';
 import { X } from 'lucide-react';
 import { TimelineEvent } from '../../types';
 
+const getYouTubeEmbedUrl = (url: string) => {
+  const shortMatch = url.match(/youtube\.com\/shorts\/([\w-]+)/i);
+  const standardMatch = url.match(/(?:v=|youtu\.be\/)([\w-]+)/i);
+  const videoId = shortMatch?.[1] ?? standardMatch?.[1];
+
+  return videoId ? `https://www.youtube.com/embed/${videoId}?modestbranding=1&rel=0` : null;
+};
+
 export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
   const [activeImage, setActiveImage] = useState<{
     src: string;
@@ -60,10 +68,10 @@ export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
 
                     {/* MÉDIA */}
                     {event.video && (
-                      <div className="mt-4">
+                      <div className="mt-4 space-y-3">
                         {event.video.includes('drive.google.com') ? (
                           <div
-                            className="relative w-full overflow-hidden rounded-lg border border-zinc-800 bg-black"
+                            className="relative w-full overflow-hidden rounded-xl border border-indigo-500/40 bg-gradient-to-br from-zinc-900 via-zinc-950 to-black shadow-[0_20px_60px_rgba(0,0,0,0.35)]"
                             style={{ paddingTop: '56.25%' }}
                           >
                             <iframe
@@ -73,6 +81,23 @@ export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
                               allowFullScreen
                               title={`${event.title} vidéo`}
                             />
+                          </div>
+                        ) : getYouTubeEmbedUrl(event.video) ? (
+                          <div className="relative w-full overflow-hidden rounded-xl border border-indigo-500/40 bg-gradient-to-br from-indigo-500/10 via-zinc-900 to-black shadow-[0_20px_60px_rgba(0,0,0,0.35)]">
+                            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(99,102,241,0.12),transparent_45%)]" />
+                            <div className="relative aspect-[9/16]">
+                              <iframe
+                                src={getYouTubeEmbedUrl(event.video)!}
+                                className="absolute inset-0 h-full w-full"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                                title={`${event.title} vidéo YouTube`}
+                              />
+                            </div>
+                            <div className="flex items-center justify-between px-4 py-3 text-sm text-indigo-100/80 bg-gradient-to-r from-white/5 via-white/0 to-white/5 border-t border-indigo-500/20">
+                              <span className="font-medium">Format vertical 9/16</span>
+                              <span className="rounded-full bg-indigo-500/20 px-3 py-1 text-xs uppercase tracking-wide">YouTube</span>
+                            </div>
                           </div>
                         ) : (
                           <video
