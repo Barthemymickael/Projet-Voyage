@@ -330,11 +330,18 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                                     <p className="text-sm text-white/80"> 50 000 ₩ = 29 € pour le mois</p>
                                 </div>
                             </div>
+                          <div className="flex items-start gap-3">
+                                <span className="text-lg">💪</span>
+                                <div>
+                                    <p className="font-semibold text-white">Musée</p>
+                                    <p className="text-sm text-white/80"> Gratuit pour beaucoup (peu importe l’âge) ou alors 5000 ₩ = 2,50 € </p>
+                                </div>
+                            </div>
                             <div className="flex items-start gap-3">
                                 <span className="text-lg">🍽️</span>
                                 <div>
                                     <p className="font-semibold text-white">Repas</p>
-                                    <p className="text-sm text-white/80">Prix moyen d'un repas : 10 000₩ = 5 €</p>
+                                    <p className="text-sm text-white/80">Prix moyen d'un repas : 10 000 ₩ = 5 €</p>
                                 </div>
                             </div>
                             <div className="flex items-start gap-3">
