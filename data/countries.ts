@@ -23,7 +23,7 @@ export const COUNTRIES: CountryData[] = [
     timeline: [
       {
         id: 't1',
-        date: 'Jour 1 (15 468 pas)',
+        date: 'Jour 1 (17 092 pas)',
         title: 'Le départ',
         description:
           'Départ de Cherbourg-en-Cotentin à 5 h du matin, direction Paris Saint-Lazare en train. De là, j’embarque pour mon premier vol Paris → Shanghai (12 heures). Après une escale de 2 heures à Shanghai, je prends mon second avion Shanghai → Séoul (2 h 10). Une fois arrivé à Incheon (ICN), je monte dans un bus pour 1 h 10 de trajet jusqu’à l’arrêt SNU (Seoul National University), situé juste à côté du quartier où je vais vivre durant plusieurs semaines.',
@@ -32,7 +32,7 @@ export const COUNTRIES: CountryData[] = [
       },
       {
         id: 't2',
-        date: 'Jour 2 (5 189 pas)',
+        date: 'Jour 2 (4 203 pas)',
         title: 'Mon logement pour 1,5 mois',
         description:
           'Quartier Gwanak-gu, proche de l’université et à 35 minutes en métro du centre-ville. Un 7-Eleven et une salle de sport en bas de la rue. Parfait ! Balade en matinée (8 h - 15 h).',
@@ -127,7 +127,7 @@ export const COUNTRIES: CountryData[] = [
       // ✅ AJOUT JOUR 11
       {
         id: 't11',
-        date: 'Jour 11 (7 413 pas)',
+        date: 'Jour 11 (7 416 pas)',
         title: 'SONGEUN Art and Cultural Foundation & Samsung',
         description:
           'Visite du musée SONGEUN Art and Cultural Foundation puis découverte d’un magasin Samsung sur quatre étages (smartphones, téléviseurs 8K, électroménagers connectés).',
