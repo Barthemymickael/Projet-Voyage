@@ -133,6 +133,22 @@ export const COUNTRIES: CountryData[] = [
           'Visite du musée SONGEUN Art and Cultural Foundation puis découverte d’un magasin Samsung sur quatre étages (smartphones, téléviseurs 8K, électroménagers connectés).',
         bullets: ['Visite du musée SONGEUN', 'Visite d’un magasin Samsung sur 4 étages'],
         image: withBase('jour11.jpg')
+      },
+
+      // ✅ AJOUT JOUR 12
+      {
+        id: 't12',
+        date: 'Jour 12 (10 435 pas)',
+        title: 'National Museum of Modern and Contemporary Art, Seoul',
+        description:
+          'Découverte de la deuxième branche du MMCA à Séoul : expositions plus percutantes que la veille, notamment celle de Kim Tschang-Yeul et ses gouttes d’eau hyperréalistes. Fin de journée à Gyeongbokgung pour les illuminations, puis promenade le long de la rivière Cheonggyecheon pour admirer près d’un kilomètre de lanternes.',
+        bullets: [
+          'Exposition sur Kim Tschang-Yeul et ses gouttes d’eau symbolisant pureté et guérison',
+          'Fermeture du musée puis illuminations sur la place de Gyeongbokgung',
+          'Balade nocturne le long de Cheonggyecheon pour voir les lanternes historiques'
+        ],
+        image:
+          'https://images.unsplash.com/photo-1580427917406-8dd1cd1d2fd4?q=80&w=2070&auto=format&fit=crop'
       }
     ],
     markers: [
@@ -326,6 +342,18 @@ export const COUNTRIES: CountryData[] = [
         title: 'SONGEUN Art and Cultural Foundation',
         category: 'Activité',
         description: '441 Dosan-daero, Gangnam District, Seoul.',
+        emoji: '🖼️'
+      },
+
+      // ✅ AJOUT JOUR 12 (MAP)
+      {
+        id: 'm21',
+        lat: 37.579617,
+        lng: 126.980389,
+        title: 'National Museum of Modern and Contemporary Art (Seoul)',
+        category: 'Activité',
+        description:
+          'Deuxième branche visitée du MMCA : expositions contemporaines et rétrospective de Kim Tschang-Yeul.',
         emoji: '🖼️'
       },
 
@@ -551,6 +579,30 @@ Lecture dans le bus, puis salle à 20h : séance épaules`,
         image:
           'https://images.unsplash.com/photo-1470229538611-16ba8c7ffbd7?auto=format&fit=crop&w=2070&q=80',
         mood: 'Art contemporain et tech'
+      },
+      {
+        id: 'j12',
+        day: 12,
+        title: 'MMCA Séoul et lanternes sur Cheonggyecheon',
+        excerpt: `Aujourd’hui, je pars à la découverte de la deuxième branche du MMCA (National Museum of Modern and Contemporary Art).
+Si j’ai bien compris, il y a quatre branches au total dans toute la ville, et j’en ai déjà visité deux (Deoksugung et celui-ci à Séoul).
+
+Cette fois-ci, les œuvres ont un sens beaucoup plus fort, en tout cas moins perchées que celles d’hier.
+
+Par exemple, j’ai terminé la visite par une exposition que j’ai adorée : celle de Kim Tschang-Yeul.
+Voici la description :
+
+Il a consacré la majeure partie de sa carrière à peindre des gouttes d’eau hyperréalistes, un motif qui symbolisait pour lui la pureté et la guérison de traumatismes liés à la guerre de Corée.
+
+On apprend dans cette exposition qu’il est même parti vivre en France, dans la ville de Draguignan, et qu’il parle très, très bien français. Il est aussi Chevalier de l’Ordre des Arts et des Lettres.
+
+Enfin, je termine cette journée en faisant la fermeture du musée. En sortant, je me retrouve sur la place de Gyeongbokgung pour assister à un spectacle d’illuminations.
+
+Mon objectif pour cette fin de journée était ensuite d’aller observer les lanternes illuminées le long de la rivière Cheonggyecheon.
+Le spectacle s’étend sur presque 1 km, avec des lanternes représentant des scènes importantes de l’histoire de la Corée du Sud et du monde.`,
+        image:
+          'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=2070&auto=format&fit=crop',
+        mood: 'Art moderne et lanternes'
       }
     ]
   },
