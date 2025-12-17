@@ -603,7 +603,10 @@ On apprend dans cette exposition qu’il est même parti vivre en France, dans l
 Enfin, je termine cette journée en faisant la fermeture du musée. En sortant, je me retrouve sur la place de Gyeongbokgung pour assister à un spectacle d’illuminations.
 
 Mon objectif pour cette fin de journée était ensuite d’aller observer les lanternes illuminées le long de la rivière Cheonggyecheon.
-Le spectacle s’étend sur presque 1 km, avec des lanternes représentant des scènes importantes de l’histoire de la Corée du Sud et du monde.`,
+Le spectacle s’étend sur presque 1 km, avec des lanternes représentant des scènes importantes de l’histoire de la Corée du Sud et du monde.
+
+Lecture dans le bus retour, salle à 21h30 : séance dos
+Puis j'ai commandé à emporter 2 gimbab (1 thon et 1 fromage)`,
         image:
           'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=2070&auto=format&fit=crop',
         mood: 'Art moderne et lanternes'
