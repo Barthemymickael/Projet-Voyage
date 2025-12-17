@@ -96,7 +96,7 @@ export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
                           </div>
                         ) : getYouTubeEmbedUrl(event.video) ? (
                           <div className="relative w-full md:max-w-[320px] md:mx-auto overflow-hidden rounded-xl border border-indigo-500/40 bg-gradient-to-br from-indigo-500/10 via-zinc-900 to-black shadow-[0_20px_60px_rgba(0,0,0,0.35)]">
-                            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(99,102,241,0.12),transparent_45%)]" />
+                            <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(99,102,241,0.12),transparent_45%)]" />
                             <div className="relative aspect-[9/16]">
                               <iframe
                                 src={getYouTubeEmbedUrl(event.video)!}
