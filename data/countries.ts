@@ -589,7 +589,7 @@ Lecture dans le bus, puis salle à 20h : séance épaules`,
         day: 12,
         title: 'MMCA Séoul et lanternes sur Cheonggyecheon',
         excerpt: `Aujourd’hui, je pars à la découverte de la deuxième branche du MMCA (National Museum of Modern and Contemporary Art).
-Si j’ai bien compris, il y a quatre branches au total dans toute la ville, et j’en ai déjà visité deux (Deoksugung et celui-ci à Séoul).
+Si j’ai bien compris, il y a quatre branches au total dans tout le pays, et j’en ai déjà visité deux (Deoksugung et Séoul).
 
 Cette fois-ci, les œuvres ont un sens beaucoup plus fort, en tout cas moins perchées que celles d’hier.
 
