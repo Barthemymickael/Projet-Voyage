@@ -27,7 +27,7 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
 
     return (
       <div
-        className="relative flex-1 w-full aspect-[3/4] sm:aspect-[4/5] lg:aspect-auto lg:min-h-[78vh] xl:min-h-[86vh] overflow-hidden group cursor-pointer border border-white/8 rounded-3xl lg:rounded-none lg:border-b-0 lg:border-r bg-gradient-to-b from-white/5 via-white/0 to-black/60 backdrop-blur-xl shadow-[0_25px_60px_rgba(0,0,0,0.35)] focus-within:ring-2 focus-within:ring-white/70 focus:outline-none transition-[transform,box-shadow] duration-500"
+        className="relative flex-1 w-full aspect-[3/4] sm:aspect-[4/5] lg:aspect-auto lg:min-h-[78vh] xl:min-h-[86vh] overflow-hidden group cursor-pointer rounded-3xl lg:rounded-none bg-gradient-to-b from-white/5 via-white/0 to-black/60 backdrop-blur-xl shadow-[0_25px_60px_rgba(0,0,0,0.35)] focus-within:ring-2 focus-within:ring-white/70 focus:outline-none transition-[transform,box-shadow] duration-500"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
         onClick={handleClick}
@@ -141,7 +141,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onSelectCountry }) => 
       <div className="pointer-events-none absolute inset-0 opacity-40 bg-[radial-gradient(circle_at_30%_10%,rgba(59,130,246,0.08),transparent_30%),radial-gradient(circle_at_70%_60%,rgba(244,114,182,0.08),transparent_30%)]" />
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_10%_85%,rgba(34,211,238,0.06),transparent_35%),radial-gradient(circle_at_90%_20%,rgba(168,85,247,0.06),transparent_32%)]" />
       <div className="mx-auto max-w-6xl lg:max-w-[1400px] w-full space-y-6 sm:space-y-8">
-        <div className="relative rounded-[28px] sm:rounded-[32px] overflow-hidden border border-white/10 shadow-[0_30px_80px_rgba(0,0,0,0.45)] bg-white/5">
+        <div className="relative rounded-[28px] sm:rounded-[32px] overflow-hidden shadow-[0_30px_80px_rgba(0,0,0,0.45)] bg-white/5">
           <div className="absolute inset-0 bg-gradient-to-b from-white/5 via-white/0 to-white/5 opacity-60" aria-hidden />
           <div className="relative grid grid-cols-1 gap-6 sm:gap-8 lg:grid-cols-2 lg:gap-0">
             {COUNTRIES.map((country) => (
