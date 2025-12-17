@@ -300,6 +300,16 @@ export const COUNTRIES: CountryData[] = [
         emoji: '🍜'
       },
 
+      {
+        id: 'm22',
+        lat: 37.467777,
+        lng: 126.936181,
+        title: 'My friend Gimbab (내친구김밥)',
+        category: 'Cuisine',
+        description: 'Restaurant de gimbap dans mon quartier, parfait pour une pause rapide.',
+        emoji: '🍙'
+      },
+
       // ✅ AJOUT JOUR 10 (RANDONNÉE)
       {
         id: 'm17',
