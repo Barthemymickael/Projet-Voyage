@@ -27,7 +27,7 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
 
   return (
     <div
-      className="relative flex-1 w-full aspect-[3/4] sm:aspect-[4/5] lg:aspect-auto lg:min-h-[78vh] overflow-hidden group cursor-pointer border border-white/8 rounded-3xl lg:rounded-none lg:border-b-0 lg:border-r bg-gradient-to-b from-white/5 via-white/0 to-black/60 backdrop-blur-xl shadow-[0_25px_60px_rgba(0,0,0,0.35)] focus-within:ring-2 focus-within:ring-white/70 focus:outline-none transition-[transform,box-shadow] duration-500"
+      className="relative flex-1 w-full min-h-[520px] sm:min-h-[560px] lg:min-h-[78vh] overflow-hidden group cursor-pointer border border-white/10 rounded-3xl bg-gradient-to-b from-white/5 via-white/0 to-black/60 backdrop-blur-xl shadow-[0_25px_60px_rgba(0,0,0,0.35)] focus-within:ring-2 focus-within:ring-white/70 focus:outline-none transition-[transform,box-shadow] duration-500"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       onClick={handleClick}
