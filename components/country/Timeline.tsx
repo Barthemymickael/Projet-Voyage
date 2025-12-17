@@ -101,8 +101,8 @@ export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
                               <iframe
                                 src={getYouTubeEmbedUrl(event.video)!}
                                 className="absolute inset-0 h-full w-full"
-                                allow="autoplay; encrypted-media; picture-in-picture"
-                                sandbox="allow-scripts allow-same-origin"
+                                allow="fullscreen; autoplay; encrypted-media; picture-in-picture; accelerometer; gyroscope; clipboard-write"
+                                allowFullScreen
                                 referrerPolicy="no-referrer"
                                 title={`${event.title} vidéo YouTube`}
                               />
