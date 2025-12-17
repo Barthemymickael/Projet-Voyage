@@ -218,9 +218,6 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                                         <Sparkles className="w-6 h-6 text-amber-200" />
                                         Mes 4 projets sur un objectif de 6 mois
                                     </h3>
-                                    <p className="text-sm text-white/70 max-w-2xl">
-                                        Une sélection sobre et hiérarchisée pour suivre rapidement les priorités, leurs statuts et leurs prochaines échéances.
-                                    </p>
                                 </div>
                                 <div className="flex flex-wrap gap-3 pt-1 text-xs text-white/60">
                                     <span className="inline-flex items-center gap-2 rounded-full border border-white/10 px-3 py-1 bg-white/5">
