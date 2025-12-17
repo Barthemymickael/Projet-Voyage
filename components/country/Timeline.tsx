@@ -120,7 +120,7 @@ export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
                                 />
                               </div>
 
-                              <div className="flex items-center justify-end gap-3 px-4 py-3 text-xs text-white/80 backdrop-blur-sm bg-black/30 border-t border-white/10">
+                              <div className="flex items-center justify-center gap-3 px-4 py-3 text-xs text-white/80 backdrop-blur-sm bg-black/30 border-t border-white/10">
                                 <a
                                   href={event.video}
                                   target="_blank"
