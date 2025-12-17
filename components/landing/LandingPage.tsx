@@ -25,13 +25,25 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
     }, 800);
   };
 
-  return (
-    <div
-      className="relative flex-1 w-full aspect-[3/4] sm:aspect-[4/5] lg:aspect-auto lg:min-h-[78vh] overflow-hidden group cursor-pointer border border-white/8 rounded-3xl lg:rounded-none lg:border-b-0 lg:border-r bg-gradient-to-b from-white/5 via-white/0 to-black/60 backdrop-blur-xl shadow-[0_25px_60px_rgba(0,0,0,0.35)] focus-within:ring-2 focus-within:ring-white/70 focus:outline-none transition-[transform,box-shadow] duration-500"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-      onClick={handleClick}
-    >
+    return (
+      <div
+        className="relative flex-1 w-full aspect-[3/4] sm:aspect-[4/5] lg:aspect-auto lg:min-h-[78vh] xl:min-h-[86vh] overflow-hidden group cursor-pointer border border-white/8 rounded-3xl lg:rounded-none lg:border-b-0 lg:border-r bg-gradient-to-b from-white/5 via-white/0 to-black/60 backdrop-blur-xl shadow-[0_25px_60px_rgba(0,0,0,0.35)] focus-within:ring-2 focus-within:ring-white/70 focus:outline-none transition-[transform,box-shadow] duration-500"
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+        onClick={handleClick}
+        tabIndex={country.isLocked ? -1 : 0}
+        role="button"
+        onKeyDown={(event) => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            handleClick();
+          }
+        }}
+      >
+        <div
+          className="absolute inset-0 opacity-30 blur-3xl bg-[radial-gradient(circle_at_50%_20%,rgba(255,255,255,0.12),transparent_45%)]"
+          aria-hidden
+        />
       {/* Background Video/Image */}
       <motion.div
         className="absolute inset-0 bg-zinc-900"
@@ -48,7 +60,7 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
       </motion.div>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex flex-col items-center justify-center px-6 sm:px-8 md:px-10 lg:px-12 py-8 sm:py-10 text-center gap-5 md:gap-6">
+      <div className="relative z-10 h-full flex flex-col items-center justify-center px-5 sm:px-8 md:px-10 lg:px-12 py-8 sm:py-10 text-center gap-5 md:gap-6">
         <motion.div
           animate={{ y: isHovered ? -6 : 0 }}
           transition={{ type: 'spring', stiffness: 300, damping: 20 }}
@@ -64,7 +76,7 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
           </span>
         </motion.div>
 
-        <div className="space-y-3 w-full flex flex-col items-center">
+        <div className="space-y-4 w-full flex flex-col items-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-b from-white to-zinc-300 uppercase font-serif drop-shadow-[0_10px_30px_rgba(0,0,0,0.45)] leading-tight text-balance max-w-[18ch]">
             {country.name}
           </h2>
@@ -72,7 +84,7 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
           <AnimatePresence>
             {!country.isLocked && (
               <motion.div
-                className="group relative inline-flex w-full max-w-[260px] sm:max-w-[280px] items-center justify-center gap-2 text-white font-semibold text-sm sm:text-base tracking-tight uppercase mt-2 px-4 py-2 rounded-full backdrop-blur-md border border-white/20 shadow-[0_12px_35px_rgba(0,0,0,0.4)] mx-auto overflow-hidden"
+                className="group relative inline-flex w-full max-w-[300px] sm:max-w-[320px] items-center justify-center gap-2 text-white font-semibold text-sm sm:text-base tracking-tight uppercase mt-2 px-4 py-2 rounded-full backdrop-blur-md border border-white/20 shadow-[0_12px_35px_rgba(0,0,0,0.4)] mx-auto overflow-hidden"
                 whileHover={{ scale: 1.05, rotate: -1 }}
                 whileTap={{ scale: 0.98, rotate: 0 }}
                 tabIndex={0}
@@ -103,7 +115,7 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
           </AnimatePresence>
           {country.isLocked && (
             <div
-              className="mt-2 h-[44px] sm:h-[48px] w-full max-w-[280px] rounded-full border border-transparent"
+              className="mt-2 h-[44px] sm:h-[48px] w-full max-w-[320px] rounded-full border border-transparent"
               aria-hidden
             />
           )}
@@ -125,12 +137,18 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
 
 export const LandingPage: React.FC<LandingPageProps> = ({ onSelectCountry }) => {
   return (
-    <div className="relative min-h-screen w-full bg-gradient-to-b from-black via-zinc-950 to-black px-4 py-10 sm:px-6 sm:py-14 lg:px-12 lg:py-16 flex items-center">
+    <div className="relative min-h-screen w-full bg-gradient-to-b from-black via-zinc-950 to-black px-4 py-10 sm:px-6 sm:py-14 lg:px-12 lg:py-16 flex items-stretch lg:items-center">
       <div className="pointer-events-none absolute inset-0 opacity-40 bg-[radial-gradient(circle_at_30%_10%,rgba(59,130,246,0.08),transparent_30%),radial-gradient(circle_at_70%_60%,rgba(244,114,182,0.08),transparent_30%)]" />
-      <div className="mx-auto max-w-6xl lg:max-w-[1400px] grid grid-cols-1 gap-6 sm:gap-8 lg:grid-cols-2 lg:gap-0 relative z-10 rounded-[32px] overflow-hidden border border-white/10 shadow-[0_30px_80px_rgba(0,0,0,0.45)] bg-white/0">
-        {COUNTRIES.map((country) => (
-          <CountryBlock key={country.id} country={country} onSelect={onSelectCountry} />
-        ))}
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_10%_85%,rgba(34,211,238,0.06),transparent_35%),radial-gradient(circle_at_90%_20%,rgba(168,85,247,0.06),transparent_32%)]" />
+      <div className="mx-auto max-w-6xl lg:max-w-[1400px] w-full space-y-6 sm:space-y-8">
+        <div className="relative rounded-[28px] sm:rounded-[32px] overflow-hidden border border-white/10 shadow-[0_30px_80px_rgba(0,0,0,0.45)] bg-white/5">
+          <div className="absolute inset-0 bg-gradient-to-b from-white/5 via-white/0 to-white/5 opacity-60" aria-hidden />
+          <div className="relative grid grid-cols-1 gap-6 sm:gap-8 lg:grid-cols-2 lg:gap-0">
+            {COUNTRIES.map((country) => (
+              <CountryBlock key={country.id} country={country} onSelect={onSelectCountry} />
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
