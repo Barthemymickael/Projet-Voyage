@@ -162,24 +162,11 @@ export const COUNTRIES: CountryData[] = [
         date: 'Jour 14 (14 755 pas)',
         title: 'Barber, musée et N Seoul Tower',
         description:
-          `Ce matin, rdv chez le barber à 10h à Hongdae (5/5 étoiles sur 780 avis)
+          `Rendez-vous chez le barber à 10 h à Hongdae (5/5 sur 780 avis). Le coiffeur, de passage depuis Amsterdam, est super sympa : on parle rap US/UK vs FR et il me fait découvrir Ascendant Vierge.
 
-Le mec était hyper sympa, il venait d’Amsterdam et bossait dans cette enseigne pour quelques jours. On a parlé rap US/UK vs FR (que j’ai défendu corps et âme)
-Bon, il m’a parlé d’Ascendant Vierge niveau musique française, je ne connaissais pas du tout.
+Je prends ensuite le métro pour aller à la Namsan Tower, mais je rate l’arrêt et finis à la Dongdaemun Design Plaza. Parfait : je voulais la voir. Je prends un ticket à 17 € et commence par l’expo gratuite en pensant que c’était la payante, avant d’entrer finalement dans le musée éphémère sur Jean-Michel Basquiat. Les 17 € sont largement rentabilisés : je découvre ses œuvres des années 80, son lien avec Andy Warhol, son regard sur la condition afro-américaine, son accident qui a influencé son style et son parcours jusqu’au « club des 27 ». Fun fact : il a été en couple avec Madonna.
 
-Ensuite, j’ai pris le métro pour aller à la Namsan Tower, mais j’ai loupé l’arrêt et je me suis retrouvé à la Dongdaemun Design Plaza (DDP). Parfait, je voulais justement visiter le lieu. Je prends donc un ticket à 17 euros. Au début, je fais l’exposition gratuite en pensant que c’était la payante, et je me dis : 17 € pour ça, c’est un peu la douille.
-
-Mais en fait, je finis par entrer dans le musée éphémère sur Jean-Michel Basquiat.
-
-Et là, hyper hyper intéressant : les 17 euros sont clairement rentabilisés. Moi qui adore les années 80, je découvre les œuvres de cet artiste ayant vécu à cette période, surtout dans le Manhattan et le Brooklyn crasseux de l’époque. Il devient connu et fait la connaissance d’Andy Warhol, qui deviendra l’un de ses très bons amis.
-
-À travers ses œuvres, il exprime la réalité d’être afro-américain à cette période. Son style lui vient en partie de son plus jeune âge, notamment après avoir été victime d’un accident de voiture.
-
-Et comme beaucoup d’artistes de cette époque, il consomme de la drogue, très ancrée dans le milieu artistique new-yorkais des années 70-80. Il meurt à l’âge de 27 ans et rejoint donc le club des 27.
-
-Petite info : il a été en relation avec Madonna. Bref, je suis presque sûr d’avoir déjà vu certaines de ses œuvres de loin ou au moins entendu son nom.
-
-Une très, très belle découverte, qui m’a donné envie d’en apprendre davantage sur lui (vidéos YouTube à regarder plus tard).`,
+Une visite hyper intéressante qui me donne envie d’en apprendre plus sur lui (vidéos YouTube en attente). Direction ensuite la N Seoul Tower pour clôturer la journée.`,
         image:
           'https://images.unsplash.com/photo-1473830394358-91588751b241?q=80&w=2070&auto=format&fit=crop'
       }
@@ -714,9 +701,22 @@ Demain, grosse journée`,
         title: 'Barber, DDP et N Seoul Tower',
         excerpt: `Rendez-vous chez le barber à 10 h à Hongdae (5/5 sur 780 avis). Le coiffeur, de passage depuis Amsterdam, est super sympa : on parle rap US/UK vs FR et il me fait découvrir Ascendant Vierge.
 
-Je prends ensuite le métro pour aller à la Namsan Tower, mais je rate l’arrêt et finis à la Dongdaemun Design Plaza. Parfait : je voulais la voir. Je prends un ticket à 17 € et commence par l’expo gratuite en pensant que c’était la payante, avant d’entrer finalement dans le musée éphémère sur Jean-Michel Basquiat. Les 17 € sont largement rentabilisés : je découvre ses œuvres des années 80, son lien avec Andy Warhol, son regard sur la condition afro-américaine, son accident qui a influencé son style et son parcours jusqu’au « club des 27 ». Fun fact : il a été en couple avec Madonna.
+Le mec était hyper sympa, il venait d’Amsterdam et bossait dans cette enseigne pour quelques jours. On a parlé rap US/UK vs FR (que j’ai défendu corps et âme)
+Bon, il m’a parlé d’Ascendant Vierge niveau musique française, je ne connaissais pas du tout.
 
-Une visite hyper intéressante qui me donne envie d’en apprendre plus sur lui (vidéos YouTube en attente). Direction ensuite la N Seoul Tower pour clôturer la journée.`,
+Ensuite, j’ai pris le métro pour aller à la Namsan Tower, mais j’ai loupé l’arrêt et je me suis retrouvé à la Dongdaemun Design Plaza (DDP). Parfait, je voulais justement visiter le lieu. Je prends donc un ticket à 17 euros. Au début, je fais l’exposition gratuite en pensant que c’était la payante, et je me dis : 17 € pour ça, c’est un peu la douille.
+
+Mais en fait, je finis par entrer dans le musée éphémère sur Jean-Michel Basquiat.
+
+Et là, hyper hyper intéressant : les 17 euros sont clairement rentabilisés. Moi qui adore les années 80, je découvre les œuvres de cet artiste ayant vécu à cette période, surtout dans le Manhattan et le Brooklyn crasseux de l’époque. Il devient connu et fait la connaissance d’Andy Warhol, qui deviendra l’un de ses très bons amis.
+
+À travers ses œuvres, il exprime la réalité d’être afro-américain à cette période. Son style lui vient en partie de son plus jeune âge, notamment après avoir été victime d’un accident de voiture.
+
+Et comme beaucoup d’artistes de cette époque, il consomme de la drogue, très ancrée dans le milieu artistique new-yorkais des années 70-80. Il meurt à l’âge de 27 ans et rejoint donc le club des 27.
+
+Petite info : il a été en relation avec Madonna. Bref, je suis presque sûr d’avoir déjà vu certaines de ses œuvres de loin ou au moins entendu son nom.
+
+Une très, très belle découverte, qui m’a donné envie d’en apprendre davantage sur lui (vidéos YouTube à regarder plus tard).`,
         image:
           'https://images.unsplash.com/photo-1465750088002-2cbb1e74c0d2?q=80&w=2070&auto=format&fit=crop',
         mood: 'Expo imprévue et skyline'
