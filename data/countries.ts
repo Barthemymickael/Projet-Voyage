@@ -143,6 +143,17 @@ export const COUNTRIES: CountryData[] = [
         description:
           'Découverte de la deuxième branche du MMCA à Séoul : expositions plus percutantes que la veille, notamment celle de Kim Tschang-Yeul et ses gouttes d’eau hyperréalistes. Fin de journée à Gyeongbokgung pour les illuminations, puis promenade le long de la rivière Cheonggyecheon pour admirer près d’un kilomètre de lanternes.',
         video: 'https://youtube.com/shorts/ugXsLSn4tss?si=IrlWjPQqo9OuARW5'
+      },
+
+      // ✅ AJOUT JOUR 13
+      {
+        id: 't13',
+        date: 'Jour 13 (5 281 pas)',
+        title: 'Lessive et plan de com au café',
+        description:
+          'Matinée tranquille au lavomatique avec un livre, suivie d’un grand ménage et d’une mission ravitaillement (dentifrice, savon, repas). Une notification m’annonce que mon nouveau projet pourrait sortir plus vite que prévu, alors je pars travailler le plan de communication pour les trois prochains mois au Paik’s Coffee, juste à côté. Journée douce à 6 °C autour de Sillim Station avant la séance de salle vers 20 h 30.',
+        image:
+          'https://images.unsplash.com/photo-1464306076886-da185f6a9d05?q=80&w=2070&auto=format&fit=crop'
       }
     ],
     markers: [
@@ -359,6 +370,18 @@ export const COUNTRIES: CountryData[] = [
         description:
           'Deuxième branche visitée du MMCA : expositions contemporaines et rétrospective de Kim Tschang-Yeul.',
         emoji: '🖼️'
+      },
+
+      // ✅ AJOUT JOUR 13 (MAP)
+      {
+        id: 'm23',
+        lat: 37.470042,
+        lng: 126.934945,
+        title: "Paik's Coffee",
+        category: 'Cuisine',
+        description:
+          "Café de quartier pour bosser sur mon plan de communication, avec smoothie banane Oreo et cookie.",
+        emoji: '🍪'
       },
 
     ],
@@ -610,6 +633,23 @@ Puis j'ai commandé à emporter 2 gimbab (1 thon et 1 fromage)`,
         image:
           'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=2070&auto=format&fit=crop',
         mood: 'Art moderne et lanternes'
+      },
+      {
+        id: 'j13',
+        day: 13,
+        title: 'Lessive + café/lecture',
+        excerpt: `Aujourd’hui, j’arrive à court de vêtements propres, alors je pars tranquillement au lavomatique, juste à côté de chez moi. Je m’y pose et je continue ma lecture.
+Nettoyage de l’appart et ravitaillement en dentifrice, savon et repas.
+
+En milieu d’après-midi, je reçois une notification concernant mon nouveau projet. Il pourrait être en ligne plus rapidement que prévu.
+Je décide donc de me poser dans un café proche de chez moi et de bosser sur le plan de com que je vais appliquer pendant au minimum 3 mois : le Paik’s Coffee.
+
+Aujourd’hui, il fait plutôt bon (6 degrés), je me balade autour de la Sillim Station et je pars à la salle vers 20 h 30.
+
+Demain, grosse journée`,
+        image:
+          'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2070&auto=format&fit=crop',
+        mood: 'Lessive et plan de com'
       }
     ]
   },
