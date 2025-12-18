@@ -699,7 +699,7 @@ Demain, grosse journée`,
         id: 'j14',
         day: 14,
         title: 'Barber, DDP et N Seoul Tower',
-        excerpt: `Rendez-vous chez le barber à 10 h à Hongdae (5/5 sur 780 avis). Le coiffeur, de passage depuis Amsterdam, est super sympa : on parle rap US/UK vs FR et il me fait découvrir Ascendant Vierge.
+        excerpt: `Rendez-vous chez le barber à 10 h à Hongdae (5/5 sur 780 avis).
 
 Le mec était hyper sympa, il venait d’Amsterdam et bossait dans cette enseigne pour quelques jours. On a parlé rap US/UK vs FR (que j’ai défendu corps et âme)
 Bon, il m’a parlé d’Ascendant Vierge niveau musique française, je ne connaissais pas du tout.
