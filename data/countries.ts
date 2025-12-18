@@ -149,9 +149,15 @@ export const COUNTRIES: CountryData[] = [
       {
         id: 't13',
         date: 'Jour 13 (5 281 pas)',
-        title: 'Lessive et plan de com au café',
-        description:
-          'Matinée tranquille au lavomatique avec un livre, suivie d’un grand ménage et d’une mission ravitaillement (dentifrice, savon, repas). Une notification m’annonce que mon nouveau projet pourrait sortir plus vite que prévu, alors je pars travailler le plan de communication pour les trois prochains mois au Paik’s Coffee, juste à côté. Journée douce à 6 °C autour de Sillim Station avant la séance de salle vers 20 h 30.',
+        title: 'Lessive et plan de com',
+        description: 'Lessive et plan de com',
+        bullets: [
+          'Lavomatique et lecture',
+          'Ménage et ravitaillement (produits du quotidien, repas)',
+          'Travail sur le plan de communication au Paik’s Coffee suite à une notif de projet',
+          'Balade autour de Sillim Station (6 °C)',
+          'Salle vers 20 h 30'
+        ],
         image:
           'https://images.unsplash.com/photo-1464306076886-da185f6a9d05?q=80&w=2070&auto=format&fit=crop'
       },
