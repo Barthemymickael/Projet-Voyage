@@ -157,8 +157,7 @@ export const COUNTRIES: CountryData[] = [
           'Balade autour de Sillim Station (6 °C)',
           'Salle vers 20 h 30'
         ],
-        image:
-          'https://images.unsplash.com/photo-1464306076886-da185f6a9d05?q=80&w=2070&auto=format&fit=crop'
+        image: withBase('jour13.jpg')
       },
 
       // ✅ AJOUT JOUR 14
