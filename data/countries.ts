@@ -154,6 +154,17 @@ export const COUNTRIES: CountryData[] = [
           'Matinée tranquille au lavomatique avec un livre, suivie d’un grand ménage et d’une mission ravitaillement (dentifrice, savon, repas). Une notification m’annonce que mon nouveau projet pourrait sortir plus vite que prévu, alors je pars travailler le plan de communication pour les trois prochains mois au Paik’s Coffee, juste à côté. Journée douce à 6 °C autour de Sillim Station avant la séance de salle vers 20 h 30.',
         image:
           'https://images.unsplash.com/photo-1464306076886-da185f6a9d05?q=80&w=2070&auto=format&fit=crop'
+      },
+
+      // ✅ AJOUT JOUR 14
+      {
+        id: 't14',
+        date: 'Jour 14 (14 755 pas)',
+        title: 'Barber, musée et N Seoul Tower',
+        description:
+          'Rendez-vous chez LEKKER Barbershop à 10 h à Hongdae avec un coiffeur venu d’Amsterdam (5/5 sur 780 avis) avec qui je parle rap US/UK vs FR. Après avoir manqué mon arrêt de métro pour la Namsan Tower, je me retrouve à Dongdaemun Design Plaza : je visite l’exposition gratuite avant d’entrer dans le musée éphémère sur Jean-Michel Basquiat, super rentabilisé pour 17 €. Direction ensuite la N Seoul Tower pour conclure la journée.',
+        image:
+          'https://images.unsplash.com/photo-1473830394358-91588751b241?q=80&w=2070&auto=format&fit=crop'
       }
     ],
     markers: [
@@ -318,6 +329,35 @@ export const COUNTRIES: CountryData[] = [
         category: 'Cuisine',
         description: 'Restaurant de gimbap dans mon quartier, parfait pour une pause rapide.',
         emoji: '🍙'
+      },
+
+      // ✅ AJOUT JOUR 14 (MAP)
+      {
+        id: 'm23',
+        lat: 37.5569,
+        lng: 126.9237,
+        title: 'LEKKER Barbershop (Hongdae)',
+        category: 'Activité',
+        description: 'Barbershop noté 5/5 (780 avis) à Hongdae, coiffeur invité depuis Amsterdam.',
+        emoji: '💈'
+      },
+      {
+        id: 'm24',
+        lat: 37.566,
+        lng: 127.0095,
+        title: 'Dongdaemun Design Plaza (DDP)',
+        category: 'Activité',
+        description: 'Complexe futuriste où je visite une expo gratuite et l’exposition éphémère consacrée à Jean-Michel Basquiat.',
+        emoji: '🏛️'
+      },
+      {
+        id: 'm25',
+        lat: 37.5512,
+        lng: 126.9882,
+        title: 'N Seoul Tower',
+        category: 'Activité',
+        description: 'Tour emblématique de Séoul perchée sur Namsan, destination finale de la journée.',
+        emoji: '🗼'
       },
 
       // ✅ AJOUT JOUR 10 (RANDONNÉE)
@@ -650,6 +690,19 @@ Demain, grosse journée`,
         image:
           'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2070&auto=format&fit=crop',
         mood: 'Lessive et plan de com'
+      },
+      {
+        id: 'j14',
+        day: 14,
+        title: 'Barber, DDP et N Seoul Tower',
+        excerpt: `Rendez-vous chez le barber à 10 h à Hongdae (5/5 sur 780 avis). Le coiffeur, de passage depuis Amsterdam, est super sympa : on parle rap US/UK vs FR et il me fait découvrir Ascendant Vierge.
+
+Je prends ensuite le métro pour aller à la Namsan Tower, mais je rate l’arrêt et finis à la Dongdaemun Design Plaza. Parfait : je voulais la voir. Je prends un ticket à 17 € et commence par l’expo gratuite en pensant que c’était la payante, avant d’entrer finalement dans le musée éphémère sur Jean-Michel Basquiat. Les 17 € sont largement rentabilisés : je découvre ses œuvres des années 80, son lien avec Andy Warhol, son regard sur la condition afro-américaine, son accident qui a influencé son style et son parcours jusqu’au « club des 27 ». Fun fact : il a été en couple avec Madonna.
+
+Une visite hyper intéressante qui me donne envie d’en apprendre plus sur lui (vidéos YouTube en attente). Direction ensuite la N Seoul Tower pour clôturer la journée.`,
+        image:
+          'https://images.unsplash.com/photo-1465750088002-2cbb1e74c0d2?q=80&w=2070&auto=format&fit=crop',
+        mood: 'Expo imprévue et skyline'
       }
     ]
   },
