@@ -149,8 +149,7 @@ export const COUNTRIES: CountryData[] = [
       {
         id: 't13',
         date: 'Jour 13 (5 281 pas)',
-        title: 'Lessive et plan de com',
-        description: 'Lessive et plan de com',
+        title: 'Lessive/lecture et projet',
         bullets: [
           'Lavomatique et lecture',
           'Ménage et ravitaillement (produits du quotidien, repas)',
