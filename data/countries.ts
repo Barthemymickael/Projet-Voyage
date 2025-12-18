@@ -162,7 +162,24 @@ export const COUNTRIES: CountryData[] = [
         date: 'Jour 14 (14 755 pas)',
         title: 'Barber, musée et N Seoul Tower',
         description:
-          'Rendez-vous chez LEKKER Barbershop à 10 h à Hongdae avec un coiffeur venu d’Amsterdam (5/5 sur 780 avis) avec qui je parle rap US/UK vs FR. Après avoir manqué mon arrêt de métro pour la Namsan Tower, je me retrouve à Dongdaemun Design Plaza : je visite l’exposition gratuite avant d’entrer dans le musée éphémère sur Jean-Michel Basquiat, super rentabilisé pour 17 €. Direction ensuite la N Seoul Tower pour conclure la journée.',
+          `Ce matin, rdv chez le barber à 10h à Hongdae (5/5 étoiles sur 780 avis)
+
+Le mec était hyper sympa, il venait d’Amsterdam et bossait dans cette enseigne pour quelques jours. On a parlé rap US/UK vs FR (que j’ai défendu corps et âme)
+Bon, il m’a parlé d’Ascendant Vierge niveau musique française, je ne connaissais pas du tout.
+
+Ensuite, j’ai pris le métro pour aller à la Namsan Tower, mais j’ai loupé l’arrêt et je me suis retrouvé à la Dongdaemun Design Plaza (DDP). Parfait, je voulais justement visiter le lieu. Je prends donc un ticket à 17 euros. Au début, je fais l’exposition gratuite en pensant que c’était la payante, et je me dis : 17 € pour ça, c’est un peu la douille.
+
+Mais en fait, je finis par entrer dans le musée éphémère sur Jean-Michel Basquiat.
+
+Et là, hyper hyper intéressant : les 17 euros sont clairement rentabilisés. Moi qui adore les années 80, je découvre les œuvres de cet artiste ayant vécu à cette période, surtout dans le Manhattan et le Brooklyn crasseux de l’époque. Il devient connu et fait la connaissance d’Andy Warhol, qui deviendra l’un de ses très bons amis.
+
+À travers ses œuvres, il exprime la réalité d’être afro-américain à cette période. Son style lui vient en partie de son plus jeune âge, notamment après avoir été victime d’un accident de voiture.
+
+Et comme beaucoup d’artistes de cette époque, il consomme de la drogue, très ancrée dans le milieu artistique new-yorkais des années 70-80. Il meurt à l’âge de 27 ans et rejoint donc le club des 27.
+
+Petite info : il a été en relation avec Madonna. Bref, je suis presque sûr d’avoir déjà vu certaines de ses œuvres de loin ou au moins entendu son nom.
+
+Une très, très belle découverte, qui m’a donné envie d’en apprendre davantage sur lui (vidéos YouTube à regarder plus tard).`,
         image:
           'https://images.unsplash.com/photo-1473830394358-91588751b241?q=80&w=2070&auto=format&fit=crop'
       }
