@@ -166,13 +166,15 @@ export const COUNTRIES: CountryData[] = [
       {
         id: 't14',
         date: 'Jour 14 (14 755 pas)',
-        title: 'Barber, musée et N Seoul Tower',
+        title: 'Barber, expo et skyline',
         description:
-          `Rendez-vous chez le barber à 10 h à Hongdae (5/5 sur 780 avis). Le coiffeur, de passage depuis Amsterdam, est super sympa : on parle rap US/UK vs FR et il me fait découvrir Ascendant Vierge.
-
-Je prends ensuite le métro pour aller à la Namsan Tower, mais je rate l’arrêt et finis à la Dongdaemun Design Plaza. Parfait : je voulais la voir. Je prends un ticket à 17 € et commence par l’expo gratuite en pensant que c’était la payante, avant d’entrer finalement dans le musée éphémère sur Jean-Michel Basquiat. Les 17 € sont largement rentabilisés : je découvre ses œuvres des années 80, son lien avec Andy Warhol, son regard sur la condition afro-américaine, son accident qui a influencé son style et son parcours jusqu’au « club des 27 ». Fun fact : il a été en couple avec Madonna.
-
-Une visite hyper intéressante qui me donne envie d’en apprendre plus sur lui (vidéos YouTube en attente). Direction ensuite la N Seoul Tower pour clôturer la journée.`,
+          'Programme en bref : barber, expo Basquiat et skyline à la N Seoul Tower.',
+        bullets: [
+          'Barber à 10 h à Hongdae (5/5 – 780 avis)',
+          'Dongdaemun Design Plaza (DDP)',
+          'Musée éphémère Jean-Michel Basquiat (ticket 17 €)',
+          'Fin de journée à la N Seoul Tower'
+        ],
         image:
           'https://images.unsplash.com/photo-1473830394358-91588751b241?q=80&w=2070&auto=format&fit=crop'
       }
