@@ -173,8 +173,7 @@ export const COUNTRIES: CountryData[] = [
           'Musée éphémère Jean-Michel Basquiat (ticket 17 €)',
           'Fin de journée à la N Seoul Tower'
         ],
-        image:
-          'https://images.unsplash.com/photo-1473830394358-91588751b241?q=80&w=2070&auto=format&fit=crop'
+        video: 'https://youtube.com/shorts/eL1oSBb7YrI?si=3_Q_QpSSCKTh5WET'
       }
     ],
     markers: [
