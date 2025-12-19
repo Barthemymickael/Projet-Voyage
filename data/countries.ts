@@ -420,6 +420,24 @@ export const COUNTRIES: CountryData[] = [
           'Deuxième branche visitée du MMCA : expositions contemporaines et rétrospective de Kim Tschang-Yeul.',
         emoji: '🖼️'
       },
+      {
+        id: 'm26',
+        lat: 37.565768,
+        lng: 126.974913,
+        title: 'Deoksugung Palace',
+        category: 'Monument',
+        description: 'Palais royal au cœur de Séoul, connu pour son architecture et ses jardins.',
+        emoji: '🏯'
+      },
+      {
+        id: 'm27',
+        lat: 37.565964,
+        lng: 126.973706,
+        title: 'National Museum of Modern and Contemporary Art, Deoksugung',
+        category: 'Activité',
+        description: 'Branche Deoksugung du MMCA, juste à côté du palais.',
+        emoji: '🖼️'
+      },
 
       // ✅ AJOUT JOUR 13 (MAP)
       {
