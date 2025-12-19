@@ -300,8 +300,8 @@ export const COUNTRIES: CountryData[] = [
       },
       {
         id: 'm14',
-        lat: 37.5665,
-        lng: 126.978, // Seoul Plaza / City Hall (approx)
+        lat: 37.575651,
+        lng: 126.976795, // Seoul Plaza / City Hall (approx)
         title: 'Illuminations de Noël (Seoul Plaza)',
         category: 'Activité',
         description:
@@ -315,7 +315,7 @@ export const COUNTRIES: CountryData[] = [
         title: 'Marché de Noël du Gwanghwamun Square',
         category: 'Activité',
         description: 'Marché de Noël installé sur Gwanghwamun Square.',
-        emoji: '🎁'
+        emoji: '🎄'
       },
             {
         id: 'm15',
