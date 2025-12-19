@@ -857,7 +857,7 @@ https://www.youtube.com/watch?v=vX_4bBTBctc
 https://www.youtube.com/watch?v=lHePKNTRmdI&pp=ugUEEgJlbg%3D%3D
 
 J’améliore cette page, je valide et je retravaille les tests de mon projet.
-Le temps passé à une vitesse folle quand j’ai le pif dans le projet c’est fou
+Le temps passe à une vitesse folle quand j’ai le pif dans le projet c’est fou
 
 En cette fin de journée, je vois à peu près ce que je vais pouvoir faire samedi et dimanche.
 
