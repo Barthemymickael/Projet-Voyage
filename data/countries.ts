@@ -174,6 +174,15 @@ export const COUNTRIES: CountryData[] = [
           'Fin de journée à la N Seoul Tower'
         ],
         video: 'https://youtube.com/shorts/eL1oSBb7YrI?si=3_Q_QpSSCKTh5WET'
+      },
+      // ✅ AJOUT JOUR 15
+      {
+        id: 't15',
+        date: 'Jour 15',
+        title: 'Projet et vidéos Basquiat',
+        description:
+          'Je regarde plusieurs vidéos sur Jean-Michel Basquiat, puis j’améliore la page et j’avance sur mon projet. Balade dans le quartier et découverte d’un café en libre service avec fauteuils et musique de Noël.',
+        bullets: ['Salle à 21 h : séance épaules']
       }
     ],
     markers: [
@@ -531,6 +540,16 @@ export const COUNTRIES: CountryData[] = [
         description: 'La librairie iconique de Starfield Suwon, parfaite pour flâner.',
         emoji: '📚'
       },
+      {
+        id: 'm37',
+        lat: 37.468963,
+        lng: 126.942185,
+        title: 'Café Lboon',
+        category: 'Cuisine',
+        description:
+          'Café en libre service découvert lors d’une balade de quartier, avec fauteuils et musique de Noël.',
+        emoji: '☕'
+      }
 
     ],
     journal: [
@@ -823,6 +842,32 @@ Salle à 19h30 : séance bras`,
         image:
           'https://images.unsplash.com/photo-1465750088002-2cbb1e74c0d2?q=80&w=2070&auto=format&fit=crop',
         mood: 'Expo imprévue et skyline'
+      },
+      {
+        id: 'j15',
+        day: 15,
+        title: 'Basquiat, projet et café de quartier',
+        excerpt: `Projet et vidéos YouTube
+Je voulais en savoir plus sur Jean-Michel Basquiat, donc j’ai regardé pas mal de vidéos sur sa vie.
+Amélioration de la page et avancement de mon projet.
+
+J’ai regardé 4 vidéos sur Jean-Michel Basquiat :
+https://www.youtube.com/watch?v=TVX8z5b7jHQ
+https://www.youtube.com/watch?v=ISeQl7CQw54
+https://www.youtube.com/watch?v=vX_4bBTBctc
+https://www.youtube.com/watch?v=lHePKNTRmdI&pp=ugUEEgJlbg%3D%3D
+
+J’améliore cette page, je valide et je retravaille les tests de mon projet.
+Le temps passé à une vitesse folle quand j’ai le pif dans le projet c’est fou
+
+En cette fin de journée, je vois à peu près ce que je vais pouvoir faire samedi et dimanche.
+
+Balade dans le quartier et découverte d’un café en libre service avec fauteuil et musique de Noël.
+
+Salle à 22 h : séance épaules`,
+        image:
+          'https://images.unsplash.com/photo-1454903010535-9f2b6f2da2a0?q=80&w=2070&auto=format&fit=crop',
+        mood: 'Projet et inspirations'
       }
     ]
   },
