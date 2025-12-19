@@ -847,8 +847,7 @@ Salle à 19h30 : séance bras`,
         id: 'j15',
         day: 15,
         title: 'Basquiat, projet et café de quartier',
-        excerpt: `Projet et vidéos YouTube
-Je voulais en savoir plus sur Jean-Michel Basquiat, donc j’ai regardé pas mal de vidéos sur sa vie.
+        excerpt: `Je voulais en savoir plus sur Jean-Michel Basquiat, donc j’ai regardé pas mal de vidéos sur sa vie.
 Amélioration de la page et avancement de mon projet.
 
 J’ai regardé 4 vidéos sur Jean-Michel Basquiat :
