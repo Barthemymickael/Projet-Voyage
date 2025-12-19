@@ -308,6 +308,15 @@ export const COUNTRIES: CountryData[] = [
           'Show de Noël en ville (annoncé à 19 h sur le flyer, démarrage un peu avant).',
         emoji: '🎄'
       },
+      {
+        id: 'm31',
+        lat: 37.572631,
+        lng: 126.976683,
+        title: 'Marché de Noël du Gwanghwamun Square',
+        category: 'Activité',
+        description: 'Marché de Noël installé sur Gwanghwamun Square.',
+        emoji: '🎁'
+      },
             {
         id: 'm15',
         lat: 37.514912,
