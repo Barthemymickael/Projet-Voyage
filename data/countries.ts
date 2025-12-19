@@ -450,6 +450,33 @@ export const COUNTRIES: CountryData[] = [
           "Café de quartier pour bosser sur mon plan de communication, avec smoothie banane Oreo et cookie.",
         emoji: '🍪'
       },
+      {
+        id: 'm28',
+        lat: 37.470559,
+        lng: 126.934508,
+        title: 'Franck Burger',
+        category: 'Cuisine',
+        description: 'Burger spot tout près du quartier, pratique pour un repas rapide.',
+        emoji: '🍔'
+      },
+      {
+        id: 'm29',
+        lat: 37.571527,
+        lng: 126.976088,
+        title: "Mom's Touch",
+        category: 'Cuisine',
+        description: 'Adresse de poulet frit coréen au centre de Séoul.',
+        emoji: '🍗'
+      },
+      {
+        id: 'm30',
+        lat: 37.571639,
+        lng: 126.975629,
+        title: 'Ediya Coffee',
+        category: 'Cuisine',
+        description: 'Café Ediya Coffee dans le centre de Séoul.',
+        emoji: '☕'
+      },
 
     ],
     journal: [
