@@ -486,6 +486,33 @@ export const COUNTRIES: CountryData[] = [
         description: 'Café Ediya Coffee dans le centre de Séoul.',
         emoji: '☕'
       },
+      {
+        id: 'm32',
+        lat: 37.468349,
+        lng: 126.938626,
+        title: 'CU (Convenience store)',
+        category: 'Cuisine',
+        description: 'Supérette CU ouverte pour les courses du quotidien.',
+        emoji: '🛒'
+      },
+      {
+        id: 'm33',
+        lat: 37.468018,
+        lng: 126.938711,
+        title: 'Lavomatique 24/24',
+        category: 'Activité',
+        description: 'Laverie automatique ouverte 24/24.',
+        emoji: '🧺'
+      },
+      {
+        id: 'm34',
+        lat: 37.499317,
+        lng: 127.026516,
+        title: 'Samsung Gangnam',
+        category: 'Activité',
+        description: 'Boutique Samsung à Gangnam pour découvrir les produits et nouveautés.',
+        emoji: '📱'
+      },
 
     ],
     journal: [
