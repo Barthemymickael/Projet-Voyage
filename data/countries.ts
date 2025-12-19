@@ -513,6 +513,24 @@ export const COUNTRIES: CountryData[] = [
         description: 'Boutique Samsung à Gangnam pour découvrir les produits et nouveautés.',
         emoji: '📱'
       },
+      {
+        id: 'm35',
+        lat: 37.502248,
+        lng: 127.040426,
+        title: 'Bar221',
+        category: 'Cuisine',
+        description: 'Bar à Gangnam pour une pause en soirée.',
+        emoji: '🍸'
+      },
+      {
+        id: 'm36',
+        lat: 37.28739,
+        lng: 126.991191,
+        title: 'Starfield Library Suwon',
+        category: 'Activité',
+        description: 'La librairie iconique de Starfield Suwon, parfaite pour flâner.',
+        emoji: '📚'
+      },
 
     ],
     journal: [
