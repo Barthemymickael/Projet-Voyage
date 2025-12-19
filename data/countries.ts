@@ -178,7 +178,7 @@ export const COUNTRIES: CountryData[] = [
       // ✅ AJOUT JOUR 15
       {
         id: 't15',
-        date: 'Jour 15',
+        date: 'Jour 15 (3 390 pas)',
         title: 'Projet et vidéos Basquiat',
         description:
           'Je regarde plusieurs vidéos sur Jean-Michel Basquiat, puis j’améliore la page et j’avance sur mon projet. Balade dans le quartier et découverte d’un café en libre service avec fauteuils et musique de Noël.',
