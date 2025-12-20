@@ -412,8 +412,8 @@ export const COUNTRIES: CountryData[] = [
       },
       {
         id: 'm18',
-        lat: 37.452,
-        lng: 126.946,
+        lat: 37.451041,
+        lng: 126.928249,
         title: 'Hoamsan Mountain',
         category: 'Activité',
         description: 'Deuxième étape à 393 m, toujours sous la neige.',
@@ -421,8 +421,8 @@ export const COUNTRIES: CountryData[] = [
       },
       {
         id: 'm19',
-        lat: 37.455,
-        lng: 126.951,
+        lat: 37.435957,
+        lng: 126.939948,
         title: 'Samsungsan Mountain',
         category: 'Activité',
         description: 'Sommet final à 480,9 m avec vue dégagée entre deux passages nuageux.',
