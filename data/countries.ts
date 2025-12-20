@@ -183,6 +183,18 @@ export const COUNTRIES: CountryData[] = [
         description:
           'Je regarde plusieurs vidéos sur Jean-Michel Basquiat, puis j’améliore la page et j’avance sur mon projet. Balade dans le quartier et découverte d’un café en libre service avec fauteuils et musique de Noël.',
         bullets: ['Salle à 21 h : séance épaules']
+      },
+      {
+        id: 't16',
+        date: 'Jour 16',
+        title: 'Musée national de Corée & Gwangjang Market',
+        description:
+          'Visite du Musée national de Corée puis découverte du Gwangjang Market.',
+        bullets: [
+          'Musée national de Corée (11 h – 16 h) : parcours historique et artistique (coup de cœur pour le bouddhisme et les figures du bodhisattva).',
+          'Gwangjang Market : street food, stands partagés, ambiance vivante.',
+          'Salle à 20 h : séance dos.'
+        ]
       }
     ],
     markers: [
@@ -549,6 +561,26 @@ export const COUNTRIES: CountryData[] = [
         description:
           'Café en libre service découvert lors d’une balade de quartier, avec fauteuils et musique de Noël.',
         emoji: '☕'
+      },
+      {
+        id: 'm38',
+        lat: 37.523961,
+        lng: 126.980438,
+        title: 'Musée national de Corée',
+        category: 'Activité',
+        description:
+          'Grand musée national avec collections historiques et artistiques, trois étages de visite.',
+        emoji: '🏛️'
+      },
+      {
+        id: 'm39',
+        lat: 37.570048,
+        lng: 126.9996,
+        title: 'Gwangjang Market',
+        category: 'Cuisine',
+        description:
+          'Marché couvert emblématique pour la street food et les stands partagés.',
+        emoji: '🥢'
       }
 
     ],
@@ -867,6 +899,36 @@ Salle à 22 h : séance épaules`,
         image:
           'https://images.unsplash.com/photo-1454903010535-9f2b6f2da2a0?q=80&w=2070&auto=format&fit=crop',
         mood: 'Projet et inspirations'
+      },
+      {
+        id: 'j16',
+        day: 16,
+        title: 'Musée national de Corée et Gwangjang Market',
+        excerpt: `Aujourd’hui, réveil à 9 h pour arriver presque à l’ouverture du Musée national de Corée.
+Le temps est gris et pluvieux, donc ça s’annonce parfait pour une journée musée.
+
+Le musée est immense et se divise en trois étages :
+• le 1er est consacré à la préhistoire ainsi qu’à l’histoire ancienne et médiévale de la Corée
+• le 2eme met en avant la calligraphie, la peinture et les œuvres offertes
+• le 3eme est dédié aux arts du monde (Chine / Japon / Islam / Grèce et Rome) ainsi qu’aux sculptures et aux objets d’artisanat.
+
+Je reste au musée de 11 h à 16 h. Il me parle moins que celui de la guerre, mais reste tout de même intéressant.
+Beaucoup d’objets du quotidien : poteries, vases, ustensiles etc.
+
+Petit coup de cœur pour la partie sur le bouddhisme, qui est pour moi quelque chose d’assez abstrait mais qui me parle beaucoup. Notamment le bodhisattva, très proche, dans l’idée, de la philosophie de Nietzsche dans Ainsi parlait Zarathoustra que j’ai lu en 2023, et aussi de mon film préféré : Point Break.
+
+Pour faire simple : un sage qui a atteint un état d’éveil pourrait accéder au nirvana, mais choisit de rester sur Terre pour aider les siens.
+
+Une fois le musée terminé, je me dirige vers le plus grand marché ouvert de Séoul, ouvert 7j/7 : le Gwangjang Market.
+
+Il y a énormément de choix, et on peut manger à emporter ou directement sur place, assis devant les étals, face aux vendeurs, à une table partagée avec des inconnus.
+
+C’est ici qu’on trouve notamment le poulpe tué vivant, qui bouge encore dans l’assiette. Je me suis installé à deux stands différents, très rapidement mais l’ambiance était super cool.
+
+Salle à 20 h : séance dos.`,
+        image:
+          'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?q=80&w=2070&auto=format&fit=crop',
+        mood: 'Musée et marché'
       }
     ]
   },
