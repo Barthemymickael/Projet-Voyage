@@ -186,7 +186,7 @@ export const COUNTRIES: CountryData[] = [
       },
       {
         id: 't16',
-        date: 'Jour 16',
+        date: 'Jour 16 (14 609 pas)',
         title: 'Musée national de Corée & Gwangjang Market',
         description:
           'Visite du Musée national de Corée puis découverte du Gwangjang Market.',
