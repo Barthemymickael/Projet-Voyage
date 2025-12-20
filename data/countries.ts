@@ -194,7 +194,8 @@ export const COUNTRIES: CountryData[] = [
           'Musée national de Corée (11 h – 16 h) : parcours historique et artistique (coup de cœur pour le bouddhisme et les figures du bodhisattva).',
           'Gwangjang Market : street food, stands partagés, ambiance vivante.',
           'Salle à 20 h : séance dos.'
-        ]
+        ],
+        video: 'https://youtube.com/shorts/kR1Yf3BmEus?si=xtgy5QXJUe51eyZQ'
       }
     ],
     markers: [
