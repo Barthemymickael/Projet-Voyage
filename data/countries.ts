@@ -403,12 +403,12 @@ export const COUNTRIES: CountryData[] = [
       // ✅ AJOUT JOUR 10 (RANDONNÉE)
       {
         id: 'm17',
-        lat: 37.4485,
-        lng: 126.9408,
+        lat: 37.458433,
+        lng: 126.937340,
         title: 'Dolsan Mountain',
         category: 'Activité',
         description: 'Premier sommet de la rando enneigée, environ 239 m.',
-        emoji: '🥾'
+        emoji: '🏔️'
       },
       {
         id: 'm18',
@@ -417,7 +417,7 @@ export const COUNTRIES: CountryData[] = [
         title: 'Hoamsan Mountain',
         category: 'Activité',
         description: 'Deuxième étape à 393 m, toujours sous la neige.',
-        emoji: '🥾'
+        emoji: '🏔️'
       },
       {
         id: 'm19',
