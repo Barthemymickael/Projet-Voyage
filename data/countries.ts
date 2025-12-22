@@ -203,6 +203,18 @@ export const COUNTRIES: CountryData[] = [
         title: 'Repos et programme de la semaine',
         description:
           'Déplacement au CU pour manger le soir et élaboration rapide du programme de cette semaine.'
+      },
+      {
+        id: 't18',
+        date: 'Jour 18 (12 489 pas)',
+        title: 'Jogyesa Temple, Myeongdong et friperie',
+        bullets: [
+          'Balade dans l’hyper-centre',
+          'Visite du temple Jogyesa',
+          'Passage par le LOL Park',
+          'Découverte de Myeongdong de nuit',
+          'Achat d’une veste vintage en friperie'
+        ]
       }
     ],
     markers: [
@@ -589,6 +601,45 @@ export const COUNTRIES: CountryData[] = [
         description:
           'Marché couvert emblématique pour la street food et les stands partagés.',
         emoji: '🥢'
+      },
+      {
+        id: 'm40',
+        lat: 37.573842,
+        lng: 126.982201,
+        title: 'Jogyesa Temple',
+        category: 'Activité',
+        description: 'Temple bouddhiste en plein cœur de Séoul.',
+        emoji: '🛕'
+      },
+      {
+        id: 'm41',
+        lat: 37.571234,
+        lng: 126.981516,
+        title: 'LOL Park',
+        category: 'Activité',
+        description:
+          'Espace dédié à l’e-sport et à League of Legends, avec trophées et figurines.',
+        emoji: '🎮'
+      },
+      {
+        id: 'm42',
+        lat: 37.561675,
+        lng: 126.985843,
+        title: 'Myeongdong Night Market',
+        category: 'Cuisine',
+        description:
+          'Marché nocturne animé pour la street food et les stands en plein air.',
+        emoji: '🌙'
+      },
+      {
+        id: 'm43',
+        lat: 37.563775,
+        lng: 126.984473,
+        title: 'Myeongdong Shopping Street',
+        category: 'Shopping',
+        description:
+          'Grande artère commerçante de Myeongdong, pleine de boutiques et d’enseignes.',
+        emoji: '🛍️'
       }
 
     ],
@@ -945,6 +996,17 @@ Salle à 20 h : séance dos.`,
         excerpt: `Dimanche repos, j’ai écouté quelques podcasts en bossant sur le projet.
 Mini déplacement au CU pour manger le soir et élaboration rapide du programme de cette semaine.`,
         mood: 'Repos et organisation'
+      },
+      {
+        id: 'j18',
+        day: 18,
+        title: 'Jogyesa et Myeongdong de nuit',
+        excerpt: `Balade dans l’hyper-centre, visite du temple Jogyesa, puis passage par le LOL Park. Bon, j’avoue que je n’y connais pas grand-chose, mais c’était amusant de se retrouver entouré des personnages du jeu et de voir les trophées des champions.
+
+Découverte ensuite du deuxième grand marché de la ville : le Myeongdong Night Market, et Myeongdong Shopping Street. Une fois la nuit tombée, l’ambiance, le mood, changent radicalement et je préfère ainsi.
+
+J’ai essayé de parcourir toutes les allées du marché, de faire quelques boutiques… et j’en ai profité pour acheter une veste vintage dans une friperie.`,
+        mood: 'Myeongdong by night'
       }
     ]
   },
