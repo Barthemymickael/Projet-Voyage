@@ -629,7 +629,7 @@ export const COUNTRIES: CountryData[] = [
         category: 'Cuisine',
         description:
           'Marché nocturne animé pour la street food et les stands en plein air.',
-        emoji: '🌙'
+        emoji: '🍡'
       },
       {
         id: 'm43',
