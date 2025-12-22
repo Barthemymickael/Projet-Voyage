@@ -196,6 +196,13 @@ export const COUNTRIES: CountryData[] = [
           'Salle à 20 h : séance dos.'
         ],
         video: 'https://youtube.com/shorts/kR1Yf3BmEus?si=xtgy5QXJUe51eyZQ'
+      },
+      {
+        id: 't17',
+        date: 'Jour 17 (467 pas)',
+        title: 'Repos et programme de la semaine',
+        description:
+          'Déplacement au CU pour manger le soir et élaboration rapide du programme de cette semaine.'
       }
     ],
     markers: [
@@ -930,6 +937,14 @@ Salle à 20 h : séance dos.`,
         image:
           'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?q=80&w=2070&auto=format&fit=crop',
         mood: 'Musée et marché'
+      },
+      {
+        id: 'j17',
+        day: 17,
+        title: 'Dimanche repos',
+        excerpt: `Dimanche repos, j’ai écouté quelques podcasts en bossant sur le projet.
+Mini déplacement au CU pour manger le soir et élaboration rapide du programme de cette semaine.`,
+        mood: 'Repos et organisation'
       }
     ]
   },
