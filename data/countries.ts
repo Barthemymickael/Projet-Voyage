@@ -528,6 +528,15 @@ export const COUNTRIES: CountryData[] = [
         emoji: '☕'
       },
       {
+        id: 'm44',
+        lat: 37.570428,
+        lng: 126.980621,
+        title: "Jimmy John's",
+        category: 'Cuisine',
+        description: 'Spot à sandwiches au centre de Séoul.',
+        emoji: '🥪'
+      },
+      {
         id: 'm32',
         lat: 37.468349,
         lng: 126.938626,
