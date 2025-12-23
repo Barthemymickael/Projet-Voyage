@@ -214,7 +214,8 @@ export const COUNTRIES: CountryData[] = [
           'Passage par le LOL Park',
           'Découverte de Myeongdong de nuit',
           'Achat d’une veste vintage en friperie'
-        ]
+        ],
+        video: 'https://youtube.com/shorts/rrPFU8UfjbY?si=3othWAKZQBylhRLR'
       }
     ],
     markers: [
