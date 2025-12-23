@@ -220,7 +220,8 @@ export const COUNTRIES: CountryData[] = [
       {
         id: 't19',
         date: 'Jour 19 (X pas)',
-        title: 'Froid, refuge dans un café, ambiance studieuse'
+        title: 'Froid, refuge dans un café, ambiance studieuse',
+        image: withBase('jour19.jpg')
       }
     ],
     markers: [
