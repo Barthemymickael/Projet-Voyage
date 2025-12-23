@@ -216,6 +216,11 @@ export const COUNTRIES: CountryData[] = [
           'Achat d’une veste vintage en friperie'
         ],
         video: 'https://youtube.com/shorts/rrPFU8UfjbY?si=3othWAKZQBylhRLR'
+      },
+      {
+        id: 't19',
+        date: 'Jour 19 (X pas)',
+        title: 'Froid, refuge dans un café, ambiance studieuse'
       }
     ],
     markers: [
@@ -650,6 +655,15 @@ export const COUNTRIES: CountryData[] = [
         description:
           'Grande artère commerçante de Myeongdong, pleine de boutiques et d’enseignes.',
         emoji: '🛍️'
+      },
+      {
+        id: 'm45',
+        lat: 37.470351,
+        lng: 126.939915,
+        title: 'Compose Coffee',
+        category: 'Cuisine',
+        description: 'Café Compose Coffee près de Sillim Station.',
+        emoji: '☕'
       }
 
     ],
@@ -1017,6 +1031,18 @@ Découverte ensuite du deuxième grand marché de la ville : le Myeongdong Night
 
 J’ai essayé de parcourir toutes les allées du marché, de faire quelques boutiques… et j’en ai profité pour acheter une veste vintage dans une friperie.`,
         mood: 'Myeongdong by night'
+      },
+      {
+        id: 'j19',
+        day: 19,
+        title: 'Froid, refuge dans un café',
+        excerpt: `Aujourd’hui, -6 degrés annoncés, avec de la neige mêlée à de la pluie dès le début d’après-midi.
+Difficile de me motiver. Alors je me pose de 15h à 19h dans un café, entouré d’étudiants sur leurs PC, je fais de même.
+Je prends un tiramisu cake et un café mocha, le tout pour l’équivalent de 4€.
+En fond, des musiques de Noël. Devant moi, la grande route de Sillim Station : la neige tombe, touche le sol… et disparaît.
+
+Salle à 21h : Séance pec`,
+        mood: 'Froid et café studieux'
       }
     ]
   },
