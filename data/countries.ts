@@ -237,7 +237,8 @@ export const COUNTRIES: CountryData[] = [
           'Séance bras à la salle',
           'Salon de jeux vidéo (PS5, FC26)',
           'Fin de soirée bière et pizza'
-        ]
+        ],
+        video: 'https://youtube.com/shorts/7KE3vzUBlHQ?si=OxzWg9KSSyYuDBVT'
       }
     ],
     markers: [
