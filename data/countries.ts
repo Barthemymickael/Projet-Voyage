@@ -222,6 +222,22 @@ export const COUNTRIES: CountryData[] = [
         date: 'Jour 19 (X pas)',
         title: 'Froid, refuge dans un café, ambiance studieuse',
         image: withBase('jour19.jpg')
+      },
+      {
+        id: 't20',
+        date: 'Jour 20 (8 549 pas)',
+        title: 'Village traditionnel, art et soirée simple',
+        description:
+          'Visite d’un village traditionnel entouré de montagnes. Une après-midi tranquille entre balade, art et café avec vue, suivie d’une soirée simple entre sport, jeux vidéo et restaurant.',
+        bullets: [
+          'Village traditionnel',
+          'Hanoks modernisés, galeries d’art et cafés',
+          'Pause au rooftop avec café et vue sur la montagne',
+          'Courte balade de nuit',
+          'Séance bras à la salle',
+          'Salon de jeux vidéo (PS5, FC26)',
+          'Fin de soirée bière et pizza'
+        ]
       }
     ],
     markers: [
@@ -665,6 +681,33 @@ export const COUNTRIES: CountryData[] = [
         category: 'Cuisine',
         description: 'Café Compose Coffee près de Sillim Station.',
         emoji: '☕'
+      },
+      {
+        id: 'm46',
+        lat: 37.641328,
+        lng: 126.939203,
+        title: 'Eunpyeong Hanok Village',
+        category: 'Activité',
+        description: 'Village hanok traditionnel entouré de montagnes.',
+        emoji: '🏘️'
+      },
+      {
+        id: 'm47',
+        lat: 37.639925,
+        lng: 126.93681,
+        title: 'Novelty Rooftop',
+        category: 'Cuisine',
+        description: 'Rooftop café avec vue sur la montagne.',
+        emoji: '☕'
+      },
+      {
+        id: 'm48',
+        lat: 37.469333,
+        lng: 126.939018,
+        title: 'Record Pizza',
+        category: 'Cuisine',
+        description: 'Adresse pour pizza et bière en soirée.',
+        emoji: '🍕'
       }
 
     ],
@@ -1044,6 +1087,41 @@ En fond, des musiques de Noël. Devant moi, la grande route de Sillim Station : 
 
 Salle à 21h : Séance pec`,
         mood: 'Froid et café studieux'
+      },
+      {
+        id: 'j20',
+        day: 20,
+        title: 'Eunpyeong Hanok Village',
+        excerpt: `Je pars en début d’après-midi pour aller voir ce petit village traditionnel.
+
+Un village qui donne vraiment l’impression d’être perdu au milieu de nulle part. Il est pourtant accessible en bus. À seulement 1 km, il y a énormément de grands immeubles d’habitation, avec des numéros comme « 1401 », « 1402 », des tours de 40 à 50 étages. Et puis, une fois arrivé ici, plus rien. Juste le village et les montagnes autour, notamment la Bukhasan mountain.
+
+Le lieu est un mélange d’habitations traditionnelles et de galeries d’art, avec quelques cafés un peu partout.
+Même si le terme « modernité et tradition » est assez mal vu ces temps-ci, le musée du village explique qu’il y avait un vrai besoin de modernisation.
+
+En 2005, le village n’était pas entretenu. Les hanoks, les habitations traditionnelles, étaient en mauvais état et peu valorisées. Une reconstruction partielle des jardins et des allées a donc été faite, pour apporter un peu de nouveauté, attirer des visiteurs, mais surtout redonner vie au village.
+
+C’est comme ça que sont apparus les hanoks de « dernière génération » : une architecture traditionnelle, mais avec des vitres modernes et des systèmes de chauffage plus efficaces.
+
+De mon côté, je me suis baladé le long des allées ce mercredi 24. J’ai croisé à peine une trentaine de personnes. C’était extrêmement calme. J’entendais seulement mes pas et ma respiration.
+
+Je suis entré dans une galerie d’art avec une vingtaine de tableaux, installée dans un hanok de nouvelle génération.
+
+Ensuite, je me suis posé au Novelty rooftop. J’ai pris un brownie avec un café, avec une vue sur la montagne éclairée par la lumière du coucher de soleil. Jazz en fond, et lecture d’articles que j’avais enregistrés sur Substack. Moment très agréable.
+
+J’écris ce texte depuis ce café. Il me reste environ 1h40 pour rentrer à l’appartement, donc je ne suis pas pressé. J’y reste encore une heure, puis je fais une courte balade de nuit. Je m’attendais à ce que tout le village soit éclairé, mais seuls quelques hanoks l’étaient. Très beau aussi, différemment.
+
+Salle à 20h : séance bras
+
+En sortant, je décide d’entrer dans un bar qui me rendait perplexe depuis quelques jours. Sur la devanture : des logos PlayStation, Xbox et Nintendo. À l’intérieur, c’est un salon de jeux vidéo, avec une dizaine de canapés et de très grands écrans.
+
+Je demande FC26 et je joue pendant une heure sur PS5. Environ 2,50 €.
+Par contre, je ne sais pas pourquoi, mais les canapés étaient extrêmement proches des télévisions, genre à 1m50.
+
+Ensuite, je sors. Je voulais manger des sushis dans un restaurant, mais il était fermé. Je décide alors de prendre une bière avec des parts de pizza dans un restaurant que je voulais tester depuis deux semaines.
+
+Bonne ambiance. Je discute un peu avec le serveur.`,
+        mood: 'Eunpyeong Hanok Village'
       }
     ]
   },
