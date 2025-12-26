@@ -239,6 +239,11 @@ export const COUNTRIES: CountryData[] = [
           'Fin de soirée bière et pizza'
         ],
         video: 'https://youtube.com/shorts/7KE3vzUBlHQ?si=OxzWg9KSSyYuDBVT'
+      },
+      {
+        id: 't21',
+        date: 'Jour 21',
+        title: '–11 degrés et café'
       }
     ],
     markers: [
@@ -1123,6 +1128,15 @@ Ensuite, je sors. Je voulais manger des sushis dans un restaurant, mais il étai
 
 Bonne ambiance. Je discute un peu avec le serveur.`,
         mood: 'Eunpyeong Hanok Village'
+      },
+      {
+        id: 'j21',
+        day: 21,
+        title: '–11 degrés et café',
+        excerpt: `25 décembre, –11 degrés au thermomètre. Pas de grosse activité aujourd’hui, si ce n’est une pause café et lecture au Compose Coffee.
+Après-midi graphismes, tranquille. Le froid tabasse les oreilles et les yeux, et en plus il y a du vent.
+Sur la route du retour, j’ai aidé une vendeuse d’une supérette à ramasser les produits qui s’étaient envolés dans toute la rue. Elle m’a beaucoup remercié.`,
+        mood: 'Froid et pause café'
       }
     ]
   },
