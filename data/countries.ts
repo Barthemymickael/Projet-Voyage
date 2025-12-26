@@ -206,7 +206,7 @@ export const COUNTRIES: CountryData[] = [
       },
       {
         id: 't18',
-        date: 'Jour 18 (12 489 pas)',
+        date: 'Jour 18 (12 525 pas)',
         title: 'Jogyesa Temple, Myeongdong et friperie',
         bullets: [
           'Balade dans l’hyper-centre',
