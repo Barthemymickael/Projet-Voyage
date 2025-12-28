@@ -728,6 +728,51 @@ export const COUNTRIES: CountryData[] = [
         category: 'Cuisine',
         description: 'Adresse pour pizza et bière en soirée.',
         emoji: '🍕'
+      },
+      {
+        id: 'm49',
+        lat: 37.556723,
+        lng: 126.969577,
+        title: 'Seoullo 7017',
+        category: 'Activité',
+        description: 'Skygarden piétonnier offrant une promenade urbaine et des vues sur Séoul.',
+        emoji: '🌉'
+      },
+      {
+        id: 'm50',
+        lat: 37.554528,
+        lng: 126.970698,
+        title: 'Seoul Station',
+        category: 'Ville',
+        description: 'Gare centrale de Séoul, point de passage majeur du réseau ferroviaire.',
+        emoji: '🚉'
+      },
+      {
+        id: 'm51',
+        lat: 37.559289,
+        lng: 126.977698,
+        title: 'Namdaemun Market',
+        category: 'Cuisine',
+        description: 'Marché emblématique pour la street food, les stands et les bonnes affaires.',
+        emoji: '🧺'
+      },
+      {
+        id: 'm52',
+        lat: 37.564755,
+        lng: 126.981707,
+        title: 'LOTTE Department Store',
+        category: 'Shopping',
+        description: 'Grand magasin emblématique pour le shopping au centre de Séoul.',
+        emoji: '🛍️'
+      },
+      {
+        id: 'm53',
+        lat: 37.468555,
+        lng: 126.937142,
+        title: 'HoJeu We Beef Noodles',
+        category: 'Cuisine',
+        description: 'Adresse pour un bol de noodles au bœuf dans le quartier.',
+        emoji: '🍜'
       }
 
     ],
