@@ -263,7 +263,8 @@ export const COUNTRIES: CountryData[] = [
         id: 't24',
         date: 'Jour 24 (13 744 pas)',
         title: 'Passerelle, Seoul Station et magasins',
-        bullets: ['Seoullo 7017', 'Seoul Station', 'LOTTE Department Store']
+        bullets: ['Seoullo 7017', 'Seoul Station', 'LOTTE Department Store'],
+        video: 'https://youtube.com/shorts/hNNZO3RsZEk?si=mazakP7OOg17iige'
       }
     ],
     markers: [
