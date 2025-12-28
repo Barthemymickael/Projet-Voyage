@@ -244,6 +244,20 @@ export const COUNTRIES: CountryData[] = [
         id: 't21',
         date: 'Jour 21',
         title: '–11 degrés et café'
+      },
+      {
+        id: 't22',
+        date: 'Jour 22',
+        title: 'Journée repos',
+        description:
+          'Pas de grosse activité aujourd’hui. Salle à 19 h.'
+      },
+      {
+        id: 't23',
+        date: 'Jour 23',
+        title: 'Gros froid et manque de motivation',
+        description:
+          'Encore du gros froid aujourd’hui, pas de motivation, salle à 21 h.'
       }
     ],
     markers: [
@@ -1137,6 +1151,25 @@ Bonne ambiance. Je discute un peu avec le serveur.`,
 Après-midi graphismes, tranquille. Le froid tabasse les oreilles et les yeux, et en plus il y a du vent.
 Sur la route du retour, j’ai aidé une vendeuse d’une supérette à ramasser les produits qui s’étaient envolés dans toute la rue. Elle m’a beaucoup remercié.`,
         mood: 'Froid et pause café'
+      },
+      {
+        id: 'j22',
+        day: 22,
+        title: 'Insomnie et travail tardif',
+        excerpt: `Petite insomnie jusqu’à 3 h du matin. Je me lève assez tard, sans grosse motivation.
+Je commence à bosser vers 15 h : partie multilingue et corrections de détail sur le projet.
+
+Salle à 19 h : séance dos.`,
+        mood: 'Fatigue et avancée du projet'
+      },
+      {
+        id: 'j23',
+        day: 23,
+        title: 'Froid et sommeil léger',
+        excerpt: `Toujours du mal à m’endormir, j’alterne entre scroll et lecture (mauvais cocktail).
+
+Salle à 21 h : séance épaules.`,
+        mood: 'Fatigue et froid'
       }
     ]
   },
