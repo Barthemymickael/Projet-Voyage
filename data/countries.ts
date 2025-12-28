@@ -1177,7 +1177,7 @@ Salle à 21 h : séance épaules.`,
         title: 'Seoullo 7017 et flânerie',
         excerpt: `Ce matin, je me réveille et je fais une recherche Google pour trouver un endroit à visiter.
 
-Je tombe sur le **Seoullo 7017, une ancienne route suspendue qui traverse le centre de Séoul. Un kilomètre de long, aménagé avec des bancs et des plantes, des arbres.
+Je tombe sur le Seoullo 7017, une ancienne route suspendue qui traverse le centre de Séoul. Un kilomètre de long, aménagé avec des bancs et des plantes, des arbres.
 
 Je décide donc de partir à la découverte de ce lieu. Ce n’est pas non plus incroyable, mais ça m’a permis de découvrir la plus grande gare de Corée : Seoul Station.
 
