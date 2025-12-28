@@ -258,6 +258,12 @@ export const COUNTRIES: CountryData[] = [
         title: 'Gros froid et manque de motivation',
         description:
           'Encore du gros froid aujourd’hui, pas de motivation, salle à 21 h.'
+      },
+      {
+        id: 't24',
+        date: 'Jour 24 (13 744 pas)',
+        title: 'Passerelle, Seoul Station et magasins',
+        bullets: ['Seoullo 7017', 'Seoul Station', 'LOTTE Department Store']
       }
     ],
     markers: [
