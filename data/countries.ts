@@ -242,19 +242,19 @@ export const COUNTRIES: CountryData[] = [
       },
       {
         id: 't21',
-        date: 'Jour 21',
+        date: 'Jour 21 (1 144 pas)',
         title: '–11 degrés et café'
       },
       {
         id: 't22',
-        date: 'Jour 22',
+        date: 'Jour 22 (1 251 pas)',
         title: 'Journée repos',
         description:
           'Pas de grosse activité aujourd’hui. Salle à 19 h.'
       },
       {
         id: 't23',
-        date: 'Jour 23',
+        date: 'Jour 23 (1 830 pas)',
         title: 'Gros froid et manque de motivation',
         description:
           'Encore du gros froid aujourd’hui, pas de motivation, salle à 21 h.'
