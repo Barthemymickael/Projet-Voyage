@@ -1170,6 +1170,41 @@ Salle à 19 h : séance dos.`,
 
 Salle à 21 h : séance épaules.`,
         mood: 'Fatigue et froid'
+      },
+      {
+        id: 'j24',
+        day: 24,
+        title: 'Seoullo 7017 et flânerie',
+        excerpt: `Ce matin, je me réveille et je fais une recherche Google pour trouver un endroit à visiter.
+
+Je tombe sur le **Seoullo 7017**, une ancienne route suspendue qui traverse le centre de Séoul. Un kilomètre de long, aménagé avec des bancs et des plantes, des arbres.
+
+Je décide donc de partir à la découverte de ce lieu. Ce n’est pas non plus incroyable, mais ça m’a permis de découvrir la plus grande gare de Corée : **Seoul Station**.
+
+En fait, la “route” est directement connectée au toit de la gare. Je me balade donc sur ce toit aménagé, avec des dizaines de bancs et d’espaces verts. Vides à cette période de l’année, mais qui doivent sûrement être remplis de monde en été.
+
+Je prends les escalators et me retrouve à l’intérieur de la gare. Je me balade, un peu perdu, entre les gens qui font leurs courses au Lotte Mart de Seoul Station et ceux qui sont pressés, traînant leurs valises pour sortir de la gare ou attraper leur train.
+
+Moi, les mains dans les poches. Juste à flâner. Sans vraiment savoir où aller.
+
+Je quitte ce quartier et je me retrouve au marché de Namdaemun. Moins bien que les deux autres marchés que j’ai déjà faits ces derniers jours.
+
+Je marche. Je décide d’aller à gauche, puis à droite, etc…
+Et finalement, je me retrouve au marché de Myeongdong, que j’ai déjà visité il y a quelques jours (là où j’ai acheté la veste).
+
+Je suis à la fois content et un peu dubitatif. L’endroit est cool, mais bon… j’y suis déjà allé récemment, et en ce dimanche il y a énormément de monde.
+
+Je continue à me balader, et un magasin me laisse perplexe : le **LOTTE Department Store**. Avec, en devanture, d’immenses décors de Noël. Je décide d’entrer.
+
+Un immense centre commercial, style Galeries Lafayette, mais avec 14 étages.
+Je pense y être resté une bonne heure. J’ai juste marché et regardé les vêtements. Je m’attendais à trouver un rooftop avec un restaurant ou un café avec vue, mais malheureusement il n’y avait qu’un café “classique”.
+
+Je sors, prends mon bus, me balade dans mon quartier… et je tombe sur un petit restaurant vide, avec des places assises juste devant les fourneaux.
+
+J’entre. Le chef me prépare des nouilles au bœuf.
+J’ai vu toute la préparation en direct. C’était simple, sympa, et très bon.
+Prix : **5,50 €**.`,
+        mood: 'Balade et marchés'
       }
     ]
   },
