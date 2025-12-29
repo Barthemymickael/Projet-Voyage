@@ -265,6 +265,16 @@ export const COUNTRIES: CountryData[] = [
         title: 'Passerelle, Seoul Station et magasins',
         bullets: ['Seoullo 7017', 'Seoul Station', 'LOTTE Department Store'],
         video: 'https://youtube.com/shorts/hNNZO3RsZEk?si=mazakP7OOg17iige'
+      },
+      {
+        id: 't25',
+        date: 'Jour 25 (11 704 pas)',
+        title: 'Naksan Park & quartier universitaire',
+        bullets: [
+          'Balade à Naksan Park au coucher du soleil (visibilité réduite par la pollution, mais promenade agréable).',
+          'Pause au Alppucca Café',
+          'Salle à 20h45'
+        ]
       }
     ],
     markers: [
@@ -780,6 +790,24 @@ export const COUNTRIES: CountryData[] = [
         category: 'Cuisine',
         description: 'Adresse pour un bol de noodles au bœuf dans le quartier.',
         emoji: '🍜'
+      },
+      {
+        id: 'm54',
+        lat: 37.58043,
+        lng: 127.007851,
+        title: 'Naksan Park',
+        category: 'Activité',
+        description: 'Parc perché sur les hauteurs, idéal pour une balade au coucher du soleil.',
+        emoji: '🌳'
+      },
+      {
+        id: 'm55',
+        lat: 37.583216,
+        lng: 126.999738,
+        title: 'Alppucca Café',
+        category: 'Cuisine',
+        description: 'Café du quartier universitaire, parfait pour une pause goûter.',
+        emoji: '☕'
       }
 
     ],
@@ -1257,6 +1285,41 @@ J’entre. Le chef me prépare des nouilles au bœuf.
 J’ai vu toute la préparation en direct. C’était simple, sympa, et très bon.
 Prix : 5,50 €.`,
         mood: 'Balade et marchés'
+      },
+      {
+        id: 'j25',
+        day: 25,
+        title: 'Naksan Park et quartier universitaire',
+        excerpt: `J’ai souvent vu Naksan Park en recommandation, alors aujourd’hui je décide d’aller tester ce parc.
+
+J’arrive au départ de la forteresse pile pour le coucher du soleil.
+Malheureusement, la pollution est au rendez-vous, donc la visibilité n’est pas incroyable.
+Cela dit, la balade reste agréable. On peut vraiment voir le contraste entre les deux côtés de la forteresse : d’un côté, un centre-ville actif, de l’autre, des immeubles à perte de vue — dont une bonne dizaine en construction, tous numérotés « 107 », « 108 », « 109 ».
+
+Je me perds un peu dans le parc.
+Je dépose un colis au hwajangsil,
+toujours hyper propre, bien éclairé, même dans ce genre de parc.
+
+J’arrive ensuite vers l’université catholique de Corée.
+Et là, on sent direct que c’est un quartier jeune, qui bouge : des bars concept, beaucoup d’animation, et surtout énormément d’étudiants.
+
+Je repère un café assez sympa, le Alppucca café.
+Tu prends ton plateau, puis avec des pinces tu choisis ce que tu veux. Je prends un croissant, le dépose sur le plateau… le croissant rebondit et tombe par terre.
+La honte. Moi qui voulais une ambiance aesthetique et posée, me voilà comme le singe du village.
+
+Bon, ceci dit, ça dure 20 secondes.
+Je monte ensuite au premier étage, je m’installe et lis quelques articles en dégustant mon goûter. Je reste là une trentaine de minutes, puis je repars.
+
+Le retour est assez long. Dans le métro, une annonce du conducteur retentit. Je ne comprends rien. Les gens commencent à se lever. Je lance le traducteur vocal…
+Il me traduit : « La coupe est bien en Asie ».
+Bon. Ok. Super. Ça ne m’aide pas du tout.
+
+Finalement, le métro ne desservait pas mon arrêt. Je dois revenir en arrière, puis je me rends compte que je ne peux carrément pas reprendre cette ligne : la station est bloquée.
+Résultat, je prends une autre ligne.
++20 minutes.
+
+Salle à 20h45 : Séance pec`,
+        mood: 'Naksan Park'
       }
     ]
   },
