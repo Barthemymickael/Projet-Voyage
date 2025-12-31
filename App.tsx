@@ -17,15 +17,26 @@ export default function App() {
   const [isPublishing, setIsPublishing] = useState(false);
   const [publishState, setPublishState] = useState<'idle' | 'success' | 'error'>('idle');
   const scrollContainerRef = useRef<HTMLDivElement | null>(null);
-  const [isAtBottom, setIsAtBottom] = useState(false);
+  const [isAtTimelineLastDay, setIsAtTimelineLastDay] = useState(false);
+  const [isAtJournalLastDay, setIsAtJournalLastDay] = useState(false);
 
   useEffect(() => {
     const container = scrollContainerRef.current;
     if (!container) return;
 
+    const isAnchoredToElement = (element: HTMLElement) => {
+      const containerRect = container.getBoundingClientRect();
+      const elementRect = element.getBoundingClientRect();
+      const anchor = containerRect.top + 140;
+      return elementRect.top <= anchor && elementRect.bottom >= anchor;
+    };
+
     const handleScroll = () => {
-      const atBottom = container.scrollTop + container.clientHeight >= container.scrollHeight - 20;
-      setIsAtBottom(atBottom);
+      const timelineLastDay = document.getElementById('timeline-last-day');
+      const journalLastDay = document.getElementById('journal-last-day');
+
+      setIsAtTimelineLastDay(timelineLastDay ? isAnchoredToElement(timelineLastDay) : false);
+      setIsAtJournalLastDay(journalLastDay ? isAnchoredToElement(journalLastDay) : false);
     };
 
     handleScroll();
@@ -38,15 +49,25 @@ export default function App() {
   const handleScrollToggle = () => {
     const container = scrollContainerRef.current;
     if (!container) return;
-    if (isAtBottom) {
-      if (selectedCountryId) {
-        const lastTimelineDay = document.getElementById('timeline-last-day');
-        if (lastTimelineDay) {
-          lastTimelineDay.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          return;
-        }
+    const timelineLastDay = document.getElementById('timeline-last-day');
+    const journalLastDay = document.getElementById('journal-last-day');
+
+    if (isAtJournalLastDay) {
+      if (timelineLastDay) {
+        timelineLastDay.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        return;
       }
       container.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    }
+
+    if (isAtTimelineLastDay && journalLastDay) {
+      journalLastDay.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      return;
+    }
+
+    if (timelineLastDay) {
+      timelineLastDay.scrollIntoView({ behavior: 'smooth', block: 'start' });
       return;
     }
 
@@ -215,9 +236,15 @@ export default function App() {
           type="button"
           onClick={handleScrollToggle}
           className="fixed bottom-5 right-5 z-30 flex h-12 w-12 items-center justify-center rounded-full border border-white/15 bg-white/10 text-white shadow-lg shadow-black/40 backdrop-blur transition hover:bg-white/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
-          aria-label={isAtBottom ? 'Revenir au dernier jour de la chronologie' : 'Descendre en bas de page'}
+          aria-label={
+            isAtJournalLastDay
+              ? 'Revenir au dernier jour de la chronologie'
+              : isAtTimelineLastDay
+              ? 'Aller au dernier jour de mes pensées'
+              : 'Aller au dernier jour de la chronologie'
+          }
         >
-          <span className="text-xl leading-none">{isAtBottom ? '↑' : '↓'}</span>
+          <span className="text-xl leading-none">{isAtJournalLastDay ? '↑' : '↓'}</span>
         </button>
       )}
     </main>
