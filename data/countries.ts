@@ -1380,6 +1380,62 @@ Résultat, je prends une autre ligne.
 
 Salle à 20h45 : Séance pec`,
         mood: 'Naksan Park'
+      },
+      {
+        id: 'j26',
+        day: 26,
+        title: 'Visite de la DMZ North',
+        excerpt: `Aujourd’hui est un grand jour car c’est sûrement l’événement, l’activité qui m’intrigue le plus dans ce voyage en Corée du Sud.
+
+La visite guidée de la DMZ North :
+
+Une zone démilitarisée créée en 1953, à la fin de la guerre de Corée. Elle marque la frontière entre la Corée du Sud et la Corée du Nord (longue de plus de 250 km et large de 4 km).
+C’est l’une des frontières les plus surveillées au monde.
+
+Un bus est prévu par l’organisation qui gère le tour à 7h30 dans le centre de Séoul.
+1h de trajet avec bouchons.
+
+On commence d’abord par la place du train, avec les deux ponts.
+Rooftop sous 0 degré, avec un vent bien glacial.
+
+Ensuite, nous avons fait le tunnel 3, hyper intéressant mais aucune photo possible.
+Il s’agit de l’un des tunnels d’infiltration découverts dans les années 1970. Il a été creusé par la Corée du Nord dans le but de permettre le passage rapide de soldats vers le Sud.
+Le tunnel est profond, humide, et descend jusqu’à 73 m de profondeur. Tout en bas, une hauteur de 1m60, donc il faut se courber sur plus de 300 m.
+On nous explique qu’il aurait pu permettre à des dizaines de milliers de soldats de passer par heure.
+
+Ensuite, on passe à la partie la plus intéressante, l’observatoire de la DMZ, encore ici aucune photo possible.
+Depuis l’observatoire, on peut voir le territoire nord-coréen à l’aide de jumelles : des villages, des champs, des drapeaux, parfois même des bâtiments présentés comme factices. Tout semble figé, silencieux.
+J’ai pu observer des camions et des fermiers. C’était assez bizarre, comme si on observait des extraterrestres, en utilisant des « ils », « ils font ça », « il y a ce genre de chose là-bas ».
+Dans l’observatoire, Il y a même un grand amphithéâtre avec des énormes baies vitrées où tu peux t’asseoir et observer, « contempler », la Corée du Nord.
+Et même si les villages présentés devant nous sont peut-être factices, c’est quand même ultra bizarre de scruter des humains.
+Et cette question me revenait souvent : tant de forêts, de plages, de lacs et de rivières inaccessibles pour le monde.
+Depuis 80 ans, la Corée du Nord ne cesse de faire des tentatives : drones, tunnels, attaques cyber, tests de missiles balistiques, armement de plus en plus accru du pays. Mais aussi lancement de satellites dans l’espace.
+Ce n’est pas pour rien que chaque homme Sud-Coréen a pour obligation de faire un service militaire de 18 mois.
+Ce qui me choque, c’est qu’il n’y a pas de traité de paix entre les deux, mais un cessez-le-feu depuis 80 ans.
+
+Après ça, on s’arrête à l’Unification Village, qui selon moi est un arrêt purement commercial, histoire de faire acheter et consommer nourriture et souvenirs.
+L’arrêt dure 30 minutes, je me pose sur un banc au soleil.
+
+On finit ce tour par une balade au Gamaksan Suspension Bridge. J’ai discuté pendant toute cette balade avec un Allemand que j’ai rencontré dans le bus.
+
+Une fois revenu à Séoul, on continue à discuter ensemble, et on passe par le marché de Myeongdong, il me conseille des brochettes de poulet.
+
+Ensuite, nous avons fait ensemble un magasin Olive Young puis un pop-up store The North Face avec café au 3ᵉ étage.
+On se pose au café, on discute, et je me rends compte qu’on n’a pas la même vision des voyages.
+Lui enchaîne les villes (8 jours à Séoul, 2 jours à Busan, 9 jours à Shanghai) pendant que moi je suis plus dans une optique de bien m’imprégner d’une ville, d’y vivre pendant quelque temps et puis, à un moment donné, partir.
+Évidemment, nous n’avons pas le même contexte de vie. Lui profite de ses vacances avant de reprendre le travail, il est limité par le temps et ça, je le comprends totalement, mais malheureusement, ça se voit.
+
+Moi qui n’apprécie pas forcément les hyperactifs en général, là je tombe sur l’archétype de l’hyperactif.
+En une journée, il a pris 6 boissons différentes, laissant 1/4 à chaque fois pour en consommer une autre, et ce même au café.
+Après ce café, nous sommes partis dans un magasin sur 11 étages, Daiso (comme Action). J’en ai profité pour acheter des écouteurs (2 €).
+Cependant, grâce à son énergie débordante, nous passions presque moins de 3 minutes dans chaque étage.
+
+À la différence de d’habitude, je n’avais pas le temps de me balader, mains dans les poches, et de me perdre dans les rayons.
+Puis, en sortant de Daiso, j’étais complètement rincé, mais je voyais qu’il souhaitait qu’on mange ensemble.
+Nous avons passé 3h ensemble et nos discussions étaient cool, et j’ai apprécié connaître sa vie, mais il était temps pour moi de rentrer, préférant garder ce moment en souvenir plutôt que de me forcer à passer quelques heures de plus et paraître moins agréable ou moins souriant en cette fin de journée.
+
+Salle à 20h : séance bras.`,
+        mood: 'DMZ North'
       }
     ]
   },
