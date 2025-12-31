@@ -1393,10 +1393,10 @@ Une zone démilitarisée créée en 1953, à la fin de la guerre de Corée. Elle
 C’est l’une des frontières les plus surveillées au monde.
 
 Un bus est prévu par l’organisation qui gère le tour à 7h30 dans le centre de Séoul.
-1h de trajet avec bouchons.
 
-On commence d’abord par la place du train, avec les deux ponts.
-Rooftop sous 0 degré, avec un vent bien glacial.
+On commence d’abord par la place du train, Ce train est là pour une raison précise.
+Pendant la guerre, il transportait du matériel militaire vers Pyongyang. Sur la route, l’intervention des forces chinoises oblige le convoi à faire demi-tour. Le train est alors bombardé, mitraillé, et finit par dérailler près de la gare de Jangdan.
+Il restera bloqué là, en pleine DMZ
 
 Ensuite, nous avons fait le tunnel 3, hyper intéressant mais aucune photo possible.
 Il s’agit de l’un des tunnels d’infiltration découverts dans les années 1970. Il a été creusé par la Corée du Nord dans le but de permettre le passage rapide de soldats vers le Sud.
