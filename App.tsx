@@ -201,14 +201,16 @@ export default function App() {
           </motion.div>
         )}
       </AnimatePresence>
-      <button
-        type="button"
-        onClick={handleScrollToggle}
-        className="fixed bottom-5 right-5 z-30 flex h-12 w-12 items-center justify-center rounded-full border border-white/15 bg-white/10 text-white shadow-lg shadow-black/40 backdrop-blur transition hover:bg-white/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
-        aria-label={isAtTop ? 'Descendre en bas de page' : 'Remonter en haut de page'}
-      >
-        <span className="text-xl leading-none">{isAtTop ? '↓' : '↑'}</span>
-      </button>
+      {(showDashboard || selectedCountry) && (
+        <button
+          type="button"
+          onClick={handleScrollToggle}
+          className="fixed bottom-5 right-5 z-30 flex h-12 w-12 items-center justify-center rounded-full border border-white/15 bg-white/10 text-white shadow-lg shadow-black/40 backdrop-blur transition hover:bg-white/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+          aria-label={isAtTop ? 'Descendre en bas de page' : 'Remonter en haut de page'}
+        >
+          <span className="text-xl leading-none">{isAtTop ? '↓' : '↑'}</span>
+        </button>
+      )}
     </main>
   );
 }
