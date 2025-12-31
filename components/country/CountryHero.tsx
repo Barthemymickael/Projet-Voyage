@@ -34,7 +34,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
     {
       title: 'BuddyNotes',
       description: 'Le journal intime de ton parcours sentimental.BuddyNotes est un espace 100 % privé pour écrire, comprendre et avancer.',
-      date: 'Décembre 2026',
+      date: 'Décembre 2025',
       link: 'https://www.buddynotes.app',
       mood: 'Nostalgie',
       status: 'En ligne',
@@ -43,7 +43,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
     {
       title: 'Blog voyage Asie 2025/2026',
       description: 'Une exploration interactive du voyage, avec cartes, récits et médias pour suivre l’évolution en temps réel.',
-      date: 'En cours',
+      date: 'Novembre 2025',
       link: 'https://voyage-asie-mickael.vercel.app',
       mood: 'Voyage',
       status: 'En cours',
