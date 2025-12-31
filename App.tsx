@@ -25,48 +25,56 @@ export default function App() {
     const container = scrollContainerRef.current;
     if (!container) return;
 
-    const getElementOffsets = (element: HTMLElement) => {
-      const containerRect = container.getBoundingClientRect();
-      const elementRect = element.getBoundingClientRect();
-      const elementTop = elementRect.top - containerRect.top + container.scrollTop;
-      const elementBottom = elementTop + elementRect.height;
-      return { elementTop, elementBottom };
-    };
-
-    const isAnchoredToElement = (element: HTMLElement) => {
-      const { elementTop, elementBottom } = getElementOffsets(element);
-      const anchor = container.scrollTop + 140;
-      return elementTop <= anchor && elementBottom >= anchor;
-    };
-
-    const isBelowElement = (element: HTMLElement) => {
-      const { elementBottom } = getElementOffsets(element);
-      const anchor = container.scrollTop + 140;
-      return elementBottom < anchor;
-    };
-
-    const isBelowElement = (element: HTMLElement) => {
-      const containerRect = container.getBoundingClientRect();
-      const elementRect = element.getBoundingClientRect();
-      const anchor = containerRect.top + 140;
-      return elementRect.bottom < anchor;
-    };
-
     const handleScroll = () => {
+      // On récupère les éléments cibles
       const timelineLastDay = document.getElementById('timeline-last-day');
       const journalLastDay = document.getElementById('journal-last-day');
 
-      setIsAtTimelineLastDay(timelineLastDay ? isAnchoredToElement(timelineLastDay) : false);
-      setIsBelowTimelineLastDay(timelineLastDay ? isBelowElement(timelineLastDay) : false);
-      setIsAtJournalLastDay(journalLastDay ? isAnchoredToElement(journalLastDay) : false);
+      // Si les éléments ne sont pas encore chargés, on arrête
+      if (!timelineLastDay && !journalLastDay) return;
+
+      // Point de repère : 140px du haut du conteneur (votre ancre)
+      const containerRect = container.getBoundingClientRect();
+      const anchorPoint = containerRect.top + 140;
+
+      // Fonction utilitaire pour vérifier la position
+      const checkPosition = (element: HTMLElement | null) => {
+        if (!element) return { isAt: false, isBelow: false };
+        
+        const rect = element.getBoundingClientRect();
+        
+        // Est "sur" l'élément : le haut de l'élément est au-dessus de l'ancre, 
+        // mais le bas est encore en dessous (l'élément croise l'ancre)
+        const isAt = rect.top <= anchorPoint && rect.bottom >= anchorPoint;
+        
+        // Est "en dessous" (l'élément est passé) : le bas de l'élément est remonté 
+        // plus haut que l'ancre (l'utilisateur a scrollé plus bas)
+        const isBelow = rect.bottom < anchorPoint;
+
+        return { isAt, isBelow };
+      };
+
+      // Calcul des états
+      const timelinePos = checkPosition(timelineLastDay);
+      const journalPos = checkPosition(journalLastDay);
+
+      setIsAtTimelineLastDay(timelinePos.isAt);
+      setIsBelowTimelineLastDay(timelinePos.isBelow);
+      setIsAtJournalLastDay(journalPos.isAt);
     };
 
+    // On lance le calcul au montage et lors du scroll
     handleScroll();
     container.addEventListener('scroll', handleScroll);
+    
+    // Ajout d'un listener 'resize' au cas où la taille de l'écran change
+    window.addEventListener('resize', handleScroll);
+
     return () => {
       container.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', handleScroll);
     };
-  }, [showDashboard, selectedCountryId]);
+  }, [showDashboard, selectedCountryId, countries]); // Ajout de countries pour recalculer si la liste change
 
   const handleScrollToggle = () => {
     const container = scrollContainerRef.current;
