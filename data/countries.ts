@@ -1411,7 +1411,7 @@ Et même si les villages présentés devant nous sont peut-être factices, c’e
 Et cette question me revenait souvent : tant de forêts, de plages, de lacs et de rivières inaccessibles pour le monde.
 Depuis 80 ans, la Corée du Nord ne cesse de faire des tentatives : drones, tunnels, attaques cyber, tests de missiles balistiques, armement de plus en plus accru du pays. Mais aussi lancement de satellites dans l’espace.
 Ce n’est pas pour rien que chaque homme Sud-Coréen a pour obligation de faire un service militaire de 18 mois.
-Ce qui me choque, c’est qu’il n’y a pas de traité de paix entre les deux, mais un cessez-le-feu depuis 80 ans.
+Ce qui me choque, c’est qu’il n’y a pas de traité de paix entre les deux, mais une armistice depuis 80 ans.
 
 Après ça, on s’arrête à l’Unification Village, qui selon moi est un arrêt purement commercial, histoire de faire acheter et consommer nourriture et souvenirs.
 L’arrêt dure 30 minutes, je me pose sur un banc au soleil.
