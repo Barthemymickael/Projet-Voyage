@@ -62,7 +62,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
       date: 'Novembre 2025',
       link: 'https://voyage-asie-mickael.vercel.app',
       mood: 'Voyage',
-      status: 'En cours',
+      status: 'En ligne',
       category: 'Journal numérique',
     },
     {
