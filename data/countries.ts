@@ -276,6 +276,19 @@ export const COUNTRIES: CountryData[] = [
           'Salle à 20h45'
         ],
         video: 'https://youtube.com/shorts/Rj7aZLlSFO8?si=io_crn3DJkLSPrVz'
+      },
+      {
+        id: 't26',
+        date: 'Jour 26 (15 358 pas)',
+        title: 'DMZ (Zone Démilitarisée)',
+        description: 'Une des activités les plus intéressantes et importantes.',
+        bullets: [
+          'Visite de la DMZ',
+          'Visite du Tunnel 3',
+          'Balade au Gamaksan Suspension Bridge',
+          'Café et balade',
+          'Salle à 20h'
+        ]
       }
     ],
     markers: [
@@ -809,6 +822,51 @@ export const COUNTRIES: CountryData[] = [
         category: 'Cuisine',
         description: 'Café du quartier universitaire, parfait pour une pause goûter.',
         emoji: '☕'
+      },
+      {
+        id: 'm56',
+        lat: 37.916484,
+        lng: 126.698154,
+        title: 'DMZ (Tunnel 3 et Dora Observatory)',
+        category: 'Activité',
+        description: 'Zone démilitarisée et sites emblématiques de la frontière.',
+        emoji: '🪖'
+      },
+      {
+        id: 'm57',
+        lat: 37.909909,
+        lng: 126.734228,
+        title: 'Unification Village',
+        category: 'Activité',
+        description: 'Village proche de la frontière, symbole de la réunification.',
+        emoji: '🏘️'
+      },
+      {
+        id: 'm58',
+        lat: 37.937797,
+        lng: 126.947079,
+        title: 'Gamaksan Suspension Bridge',
+        category: 'Activité',
+        description: 'Pont suspendu avec panorama sur la vallée de Gamaksan.',
+        emoji: '🌉'
+      },
+      {
+        id: 'm59',
+        lat: 37.560644,
+        lng: 126.985971,
+        title: 'Cafe The North Face',
+        category: 'Cuisine',
+        description: 'Café pour une pause chaude et une balade autour.',
+        emoji: '☕'
+      },
+      {
+        id: 'm60',
+        lat: 37.560761,
+        lng: 126.98668,
+        title: 'Daïso',
+        category: 'Shopping',
+        description: 'Magasin pratique pour les petites courses du quotidien.',
+        emoji: '🛍️'
       }
 
     ],
