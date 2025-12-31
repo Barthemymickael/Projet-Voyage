@@ -221,7 +221,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                                 </div>
                                 <div className="flex flex-wrap gap-3 pt-1 text-xs text-white/60">
                                     <span className="inline-flex items-center gap-2 rounded-full border border-white/10 px-3 py-1 bg-white/5">
-                                        <span className="w-2 h-2 rounded-full bg-emerald-400" /> 4 projets actifs
+                                        <span className="w-2 h-2 rounded-full bg-emerald-400" /> 3 projets actifs
                                     </span>
                                     <span className="inline-flex items-center gap-2 rounded-full border border-white/10 px-3 py-1 bg-white/5">
                                         <span className="w-2 h-2 rounded-full bg-sky-300" /> Horizon 6 mois
