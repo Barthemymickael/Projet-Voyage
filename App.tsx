@@ -19,6 +19,7 @@ export default function App() {
   const scrollContainerRef = useRef<HTMLDivElement | null>(null);
   const [isAtTimelineLastDay, setIsAtTimelineLastDay] = useState(false);
   const [isAtJournalLastDay, setIsAtJournalLastDay] = useState(false);
+  const [isBelowTimelineLastDay, setIsBelowTimelineLastDay] = useState(false);
 
   useEffect(() => {
     const container = scrollContainerRef.current;
@@ -31,11 +32,19 @@ export default function App() {
       return elementRect.top <= anchor && elementRect.bottom >= anchor;
     };
 
+    const isBelowElement = (element: HTMLElement) => {
+      const containerRect = container.getBoundingClientRect();
+      const elementRect = element.getBoundingClientRect();
+      const anchor = containerRect.top + 140;
+      return elementRect.bottom < anchor;
+    };
+
     const handleScroll = () => {
       const timelineLastDay = document.getElementById('timeline-last-day');
       const journalLastDay = document.getElementById('journal-last-day');
 
       setIsAtTimelineLastDay(timelineLastDay ? isAnchoredToElement(timelineLastDay) : false);
+      setIsBelowTimelineLastDay(timelineLastDay ? isBelowElement(timelineLastDay) : false);
       setIsAtJournalLastDay(journalLastDay ? isAnchoredToElement(journalLastDay) : false);
     };
 
@@ -237,14 +246,14 @@ export default function App() {
           onClick={handleScrollToggle}
           className="fixed bottom-5 right-5 z-30 flex h-12 w-12 items-center justify-center rounded-full border border-white/15 bg-white/10 text-white shadow-lg shadow-black/40 backdrop-blur transition hover:bg-white/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
           aria-label={
-            isAtJournalLastDay
+            isAtJournalLastDay || isBelowTimelineLastDay
               ? 'Revenir au dernier jour de la chronologie'
               : isAtTimelineLastDay
               ? 'Aller au dernier jour de mes pensées'
               : 'Aller au dernier jour de la chronologie'
           }
         >
-          <span className="text-xl leading-none">{isAtJournalLastDay ? '↑' : '↓'}</span>
+          <span className="text-xl leading-none">{isAtJournalLastDay || isBelowTimelineLastDay ? '↑' : '↓'}</span>
         </button>
       )}
     </main>
