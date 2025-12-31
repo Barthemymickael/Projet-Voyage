@@ -281,14 +281,15 @@ export const COUNTRIES: CountryData[] = [
         id: 't26',
         date: 'Jour 26 (15 358 pas)',
         title: 'DMZ (Zone Démilitarisée)',
-        description: 'Une des activités les plus intéressantes et importantes.',
+        description: 'Une des activités les plus intéressantes et importantes',
         bullets: [
-          'Visite de la DMZ',
-          'Visite du Tunnel 3',
+          'Visite de la DMZ : Découverte de cette zone unique au monde, située entre la Corée du Sud et la Corée du Nord, symbole d’un conflit toujours non résolu et d’un équilibre fragile.',
+          'Visite du Tunnel 3 : Exploration du troisième tunnel creusé par la Corée du Nord, utilisé à des fins militaires.',
           'Balade au Gamaksan Suspension Bridge',
           'Café et balade',
           'Salle à 20h'
-        ]
+        ],
+        video: 'https://youtube.com/shorts/sEJH1SIAbmk?si=iYp7e7z6F5aCTQf9'
       }
     ],
     markers: [
