@@ -2,13 +2,14 @@ import React, { useRef, useState } from 'react';
 import { AnimatePresence, motion, useScroll, useTransform } from 'framer-motion';
 import { Magnetic } from '../ui/Magnetic';
 import { Button } from '../ui/Button';
-import { ArrowDown, Map, Sparkles } from 'lucide-react';
+import { Map, Sparkles } from 'lucide-react';
 import { CountryData } from '../../types';
 
 export const CountryHero = ({ data }: { data: CountryData }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [showInfo, setShowInfo] = useState(false);
   const [showProjects, setShowProjects] = useState(false);
+  const clickTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const { scrollYProgress } = useScroll({
     target: containerRef,
     offset: ["start start", "end start"]
@@ -20,6 +21,21 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
   const y = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
   const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
   const scale = useTransform(scrollYProgress, [0, 1], [1, 1.1]);
+  const handleIndicatorClick = () => {
+    if (clickTimeoutRef.current) return;
+    clickTimeoutRef.current = window.setTimeout(() => {
+      scrollToSection('timeline-last-day');
+      clickTimeoutRef.current = null;
+    }, 250);
+  };
+
+  const handleIndicatorDoubleClick = () => {
+    if (clickTimeoutRef.current) {
+      window.clearTimeout(clickTimeoutRef.current);
+      clickTimeoutRef.current = null;
+    }
+    scrollToSection('journal-last-day');
+  };
 
   const projectCards = [
     {
@@ -372,13 +388,17 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
         </AnimatePresence>
 
         {/* Scroll Indicator */}
-        <motion.div
+        <motion.button
             animate={{ y: [0, 10, 0] }}
             transition={{ repeat: Infinity, duration: 2 }}
-            className="absolute bottom-10 z-20 text-white/50"
+            type="button"
+            onClick={handleIndicatorClick}
+            onDoubleClick={handleIndicatorDoubleClick}
+            className="absolute bottom-10 z-20 flex items-center justify-center rounded-full border border-white/50 bg-white/10 p-3 text-white/70 backdrop-blur-sm transition hover:border-white/80 hover:text-white"
+            aria-label="Aller au dernier jour de la chronologie (double clic pour Mes pensées)"
         >
-            <ArrowDown className="w-6 h-6" />
-        </motion.div>
+            <span className="h-3 w-3 rounded-full bg-white/70" />
+        </motion.button>
     </div>
   );
 };
