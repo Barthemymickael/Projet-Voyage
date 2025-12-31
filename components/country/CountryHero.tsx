@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import { AnimatePresence, motion, useScroll, useTransform } from 'framer-motion';
 import { Magnetic } from '../ui/Magnetic';
 import { Button } from '../ui/Button';
-import { Map, Sparkles } from 'lucide-react';
+import { ArrowDown, Map, Sparkles } from 'lucide-react';
 import { CountryData } from '../../types';
 
 export const CountryHero = ({ data }: { data: CountryData }) => {
