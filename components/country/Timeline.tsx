@@ -63,6 +63,7 @@ export const Timeline = ({ events }: { events: TimelineEvent[] }) => {
               return (
                 <motion.div
                   key={event.id}
+                  id={index === events.length - 1 ? 'timeline-last-day' : undefined}
                   initial={{ opacity: 0, y: 50 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: "-100px" }}

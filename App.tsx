@@ -17,14 +17,15 @@ export default function App() {
   const [isPublishing, setIsPublishing] = useState(false);
   const [publishState, setPublishState] = useState<'idle' | 'success' | 'error'>('idle');
   const scrollContainerRef = useRef<HTMLDivElement | null>(null);
-  const [isAtTop, setIsAtTop] = useState(true);
+  const [isAtBottom, setIsAtBottom] = useState(false);
 
   useEffect(() => {
     const container = scrollContainerRef.current;
     if (!container) return;
 
     const handleScroll = () => {
-      setIsAtTop(container.scrollTop <= 20);
+      const atBottom = container.scrollTop + container.clientHeight >= container.scrollHeight - 20;
+      setIsAtBottom(atBottom);
     };
 
     handleScroll();
@@ -37,11 +38,19 @@ export default function App() {
   const handleScrollToggle = () => {
     const container = scrollContainerRef.current;
     if (!container) return;
-    if (isAtTop) {
-      container.scrollTo({ top: container.scrollHeight, behavior: 'smooth' });
-    } else {
+    if (isAtBottom) {
+      if (selectedCountryId) {
+        const lastTimelineDay = document.getElementById('timeline-last-day');
+        if (lastTimelineDay) {
+          lastTimelineDay.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          return;
+        }
+      }
       container.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
     }
+
+    container.scrollTo({ top: container.scrollHeight, behavior: 'smooth' });
   };
 
   useEffect(() => {
@@ -206,9 +215,9 @@ export default function App() {
           type="button"
           onClick={handleScrollToggle}
           className="fixed bottom-5 right-5 z-30 flex h-12 w-12 items-center justify-center rounded-full border border-white/15 bg-white/10 text-white shadow-lg shadow-black/40 backdrop-blur transition hover:bg-white/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
-          aria-label={isAtTop ? 'Descendre en bas de page' : 'Remonter en haut de page'}
+          aria-label={isAtBottom ? 'Revenir au dernier jour de la chronologie' : 'Descendre en bas de page'}
         >
-          <span className="text-xl leading-none">{isAtTop ? '↓' : '↑'}</span>
+          <span className="text-xl leading-none">{isAtBottom ? '↑' : '↓'}</span>
         </button>
       )}
     </main>
