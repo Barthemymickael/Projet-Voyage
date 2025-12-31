@@ -13,6 +13,7 @@ export const JournalSection = ({ entries }: { entries: JournalEntry[] }) => {
                     {entries.map((entry, idx) => (
                         <motion.div
                             key={entry.id}
+                            id={idx === entries.length - 1 ? 'journal-last-day' : undefined}
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true, margin: '-50px' }}
