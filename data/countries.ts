@@ -268,7 +268,7 @@ export const COUNTRIES: CountryData[] = [
       },
       {
         id: 't25',
-        date: 'Jour 25 (11 704 pas)',
+        date: 'Jour 25 (11 755 pas)',
         title: 'Naksan Park & quartier universitaire',
         bullets: [
           'Balade à Naksan Park au coucher du soleil (visibilité réduite par la pollution, mais promenade agréable).',
