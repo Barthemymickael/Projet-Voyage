@@ -275,7 +275,7 @@ export const COUNTRIES: CountryData[] = [
           'Pause au Alppucca Café',
           'Salle à 20h45'
         ],
-        video: 'https://youtube.com/shorts/hNNZO3RsZEk?si=7huoL1MkFYSadTvM'
+        video: 'https://youtube.com/shorts/Rj7aZLlSFO8?si=io_crn3DJkLSPrVz'
       }
     ],
     markers: [
