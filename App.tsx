@@ -25,11 +25,24 @@ export default function App() {
     const container = scrollContainerRef.current;
     if (!container) return;
 
-    const isAnchoredToElement = (element: HTMLElement) => {
+    const getElementOffsets = (element: HTMLElement) => {
       const containerRect = container.getBoundingClientRect();
       const elementRect = element.getBoundingClientRect();
-      const anchor = containerRect.top + 140;
-      return elementRect.top <= anchor && elementRect.bottom >= anchor;
+      const elementTop = elementRect.top - containerRect.top + container.scrollTop;
+      const elementBottom = elementTop + elementRect.height;
+      return { elementTop, elementBottom };
+    };
+
+    const isAnchoredToElement = (element: HTMLElement) => {
+      const { elementTop, elementBottom } = getElementOffsets(element);
+      const anchor = container.scrollTop + 140;
+      return elementTop <= anchor && elementBottom >= anchor;
+    };
+
+    const isBelowElement = (element: HTMLElement) => {
+      const { elementBottom } = getElementOffsets(element);
+      const anchor = container.scrollTop + 140;
+      return elementBottom < anchor;
     };
 
     const isBelowElement = (element: HTMLElement) => {
