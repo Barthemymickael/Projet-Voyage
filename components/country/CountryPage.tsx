@@ -1,4 +1,3 @@
-
 import React, { useEffect, useMemo, useState } from 'react';
 import { motion, useScroll, useSpring } from 'framer-motion';
 import { CountryData } from '../../types';
@@ -87,9 +86,13 @@ export const CountryPage: React.FC<CountryPageProps> = ({
         <div className="relative z-10 flex flex-col gap-20 lg:gap-28">
           <CountryHero data={data} />
 
+          {/* TIMELINE SECTION */}
           <div id="timeline" className="px-4 sm:px-6 lg:px-10">
               <div className="max-w-6xl mx-auto rounded-3xl bg-white/5 border border-white/10 shadow-[0_30px_80px_rgba(0,0,0,0.45)] backdrop-blur-xl overflow-hidden">
                   <Timeline events={data.timeline} />
+                  
+                  {/* --- AJOUT DE L'ANCRE POUR APP.TSX --- */}
+                  <div id="timeline-last-day" className="h-px w-full opacity-0 pointer-events-none" />
               </div>
           </div>
 
@@ -99,9 +102,13 @@ export const CountryPage: React.FC<CountryPageProps> = ({
               </div>
           </div>
 
+          {/* JOURNAL SECTION */}
           <div id="journal" className="px-4 sm:px-6 lg:px-10">
               <div className="max-w-6xl mx-auto rounded-3xl bg-white/5 border border-white/10 shadow-[0_30px_80px_rgba(0,0,0,0.4)] backdrop-blur-xl overflow-hidden">
                   <JournalSection entries={data.journal} />
+                  
+                  {/* --- AJOUT DE L'ANCRE POUR APP.TSX --- */}
+                  <div id="journal-last-day" className="h-px w-full opacity-0 pointer-events-none" />
               </div>
           </div>
         </div>
