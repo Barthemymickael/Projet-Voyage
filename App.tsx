@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { LandingPage } from './components/landing/LandingPage';
 import { CountryPage } from './components/country/CountryPage';
 import { COUNTRIES } from './data/countries';
@@ -16,6 +16,33 @@ export default function App() {
   const [hasPendingChanges, setHasPendingChanges] = useState(false);
   const [isPublishing, setIsPublishing] = useState(false);
   const [publishState, setPublishState] = useState<'idle' | 'success' | 'error'>('idle');
+  const scrollContainerRef = useRef<HTMLDivElement | null>(null);
+  const [isAtTop, setIsAtTop] = useState(true);
+
+  useEffect(() => {
+    const container = scrollContainerRef.current;
+    if (!container) return;
+
+    const handleScroll = () => {
+      setIsAtTop(container.scrollTop <= 20);
+    };
+
+    handleScroll();
+    container.addEventListener('scroll', handleScroll);
+    return () => {
+      container.removeEventListener('scroll', handleScroll);
+    };
+  }, [showDashboard, selectedCountryId]);
+
+  const handleScrollToggle = () => {
+    const container = scrollContainerRef.current;
+    if (!container) return;
+    if (isAtTop) {
+      container.scrollTo({ top: container.scrollHeight, behavior: 'smooth' });
+    } else {
+      container.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
 
   useEffect(() => {
     const params = typeof window !== 'undefined' ? new URLSearchParams(window.location.search) : null;
@@ -120,6 +147,7 @@ export default function App() {
         {showDashboard ? (
         <motion.div
           key="dashboard"
+          ref={scrollContainerRef}
           initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -142,6 +170,7 @@ export default function App() {
         ) : !selectedCountry ? (
           <motion.div
             key="landing"
+            ref={scrollContainerRef}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0, scale: 1.1, filter: 'blur(10px)' }}
@@ -153,6 +182,7 @@ export default function App() {
         ) : (
           <motion.div
             key="country"
+            ref={scrollContainerRef}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -171,6 +201,14 @@ export default function App() {
           </motion.div>
         )}
       </AnimatePresence>
+      <button
+        type="button"
+        onClick={handleScrollToggle}
+        className="fixed bottom-5 right-5 z-30 flex h-12 w-12 items-center justify-center rounded-full border border-white/15 bg-white/10 text-white shadow-lg shadow-black/40 backdrop-blur transition hover:bg-white/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+        aria-label={isAtTop ? 'Descendre en bas de page' : 'Remonter en haut de page'}
+      >
+        <span className="text-xl leading-none">{isAtTop ? '↓' : '↑'}</span>
+      </button>
     </main>
   );
 }
