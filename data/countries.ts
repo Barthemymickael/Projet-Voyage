@@ -868,6 +868,15 @@ export const COUNTRIES: CountryData[] = [
         category: 'Shopping',
         description: 'Magasin pratique pour les petites courses du quotidien.',
         emoji: '🛍️'
+      },
+      {
+        id: 'm61',
+        lat: 37.512469,
+        lng: 127.102543,
+        title: 'Lotte Tower',
+        category: 'Monument',
+        description: 'Feux d’artifice du nouvel an.',
+        emoji: '🎆'
       }
 
     ],
@@ -1436,6 +1445,29 @@ Nous avons passé 3h ensemble et nos discussions étaient cool, et j’ai appré
 
 Salle à 20h : séance bras.`,
         mood: 'DMZ North'
+      },
+      {
+        id: 'j27',
+        day: 27,
+        title: 'Feu d’artifice à la Lotte Tower',
+        excerpt: `Vers 16h, j’envoie un message à Batu, l’Allemand que j’ai rencontré hier.
+On avait parlé la veille de ce qu’on avait prévu pour le Nouvel An et on ne savait pas vraiment quoi choisir comme lieu.
+Je lui propose d’aller voir le feu d’artifice de la Lotte Tower.
+Mais on hésite entre la Lotte Tower, qui aura un gros feu d’artifice, et la Dongdaemun Design Plaza (DDP), qui aura une ambiance plus festive avec des animations projetées et des artistes qui chantent.
+
+On part sur le feu d’artifice de la Lotte Tower et, à l’heure où j’écris cette ligne, je suis en direction du bus en espérant avoir fait le bon choix d’endroit.
+
+Maintenant, je peux écrire à tête reposée : le feu d’artifice de la Lotte Tower n’était pas incroyable, mais sympa !
+Quel plaisir d’être dans un autre pays, d’entendre le décompte dans une langue étrangère !
+
+Ensuite, j’ai proposé à Batu d’aller boire. J’avais oublié qu’il ne buvait pas d’alcool, étant musulman. Nous sommes partis dans une pizzeria et nous avons discuté de nos vies et des voyages que nous préparions pour le futur. Je me suis pris une pinte, histoire de fêter le coup.
+
+Contrairement à hier, il était plus posé et moins hyperactif, ce qui a laissé place à de la bonne humeur et à beaucoup de blagues.
+
+Ensuite, nous nous sommes dit au revoir vers 5 h du matin. Il a son avion à midi et moi je repars tranquillement, les mains dans les poches à cause du grand froid de cette nuit (-12 degrés et -18 ressentis)
+
+PS : la ville a laissé 1/4 des transports actifs cette nuit, mais chaque métro et chaque bus étaient incroyablement bondés. Pour sortir de la place Lotte Tower vers le métro, c’était assez compliqué, ce qui nous a pris 2h pour aller de la place à La Pizzeria dans le centre.`,
+        mood: 'Nouvel an à Séoul'
       }
     ]
   },
