@@ -290,6 +290,17 @@ export const COUNTRIES: CountryData[] = [
           'Salle à 20h'
         ],
         video: 'https://youtube.com/shorts/sEJH1SIAbmk?si=iYp7e7z6F5aCTQf9'
+      },
+      {
+        id: 't27',
+        date: 'Jour 27 (10 813 pas)',
+        title: 'Nouvel An à la Lotte Tower Avec Batu',
+        bullets: [
+          'Feu d’artifice de la Lotte Tower',
+          'Pizzeria, discussions et pinte',
+          'Retour à 06h00',
+          'Grand froid cette nuit : –12 °C / –18 ressentis'
+        ]
       }
     ],
     markers: [
