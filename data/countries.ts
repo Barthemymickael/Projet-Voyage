@@ -623,6 +623,15 @@ export const COUNTRIES: CountryData[] = [
         emoji: '🥪'
       },
       {
+        id: 'm62',
+        lat: 37.569476,
+        lng: 126.984543,
+        title: 'Pizza BROS',
+        category: 'Cuisine',
+        description: 'Pizza avec Batu.',
+        emoji: '🍕'
+      },
+      {
         id: 'm32',
         lat: 37.468349,
         lng: 126.938626,
