@@ -1500,6 +1500,18 @@ Toujours -10 dehors.
 
 Salle à 22h30 : Séance Dos`,
         mood: 'Organisation et écriture'
+      },
+      {
+        id: 'j29',
+        day: 29,
+        title: 'Café studieux',
+        excerpt: `Aujourd’hui, je décide de m’installer dans un café pour avancer sur mon projet.
+Ce café, je l’avais repéré dès le premier jour de mon arrivée : j’avais mes deux gros sacs sur le dos, 25 heures de transport dans les jambes, et je m’étais dit : ce café a l’air sympa. Juste en face de l’université.
+
+C’est un Ediya Café, et l’ambiance y est studieuse. J’y reste donc une bonne partie de l’après-midi, accompagné d’un ice tea et d’un cookie.
+
+Salle à 22 h : séance épaules`,
+        mood: 'Café et productivité'
       }
     ]
   },
