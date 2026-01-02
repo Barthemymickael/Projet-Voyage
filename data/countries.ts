@@ -300,7 +300,8 @@ export const COUNTRIES: CountryData[] = [
           'Pizzeria, discussions et pinte',
           'Retour à 06h00',
           'Grand froid cette nuit : –12 °C / –18 ressentis'
-        ]
+        ],
+        video: 'https://youtube.com/shorts/ipLajW1DfOo?si=zowDNUZZiR1ybR90'
       }
     ],
     markers: [
