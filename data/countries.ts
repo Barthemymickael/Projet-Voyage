@@ -313,7 +313,7 @@ export const COUNTRIES: CountryData[] = [
       },
       {
         id: 't29',
-        date: 'Jour 29 (2 687 pas)',
+        date: 'Jour 29 (3 851 pas)',
         title: 'Café studieux',
         description:
           'Après-midi studieuse dans un Ediya Café repéré dès le premier jour, juste en face de l’université. Ice tea et cookie pour accompagner le travail.',
