@@ -405,6 +405,16 @@ export const COUNTRIES: CountryData[] = [
         emoji: '☕'
       },
       {
+        id: 'm63',
+        lat: 37.468210,
+        lng: 126.945615,
+        title: 'EDIYA Coffee Univ',
+        category: 'Cuisine',
+        description:
+          'EDIYA Coffee près de l’université, idéal pour une pause café dans le quartier.',
+        emoji: '☕'
+      },
+      {
         id: 'm12',
         lat: 37.57776,
         lng: 126.986535,
