@@ -1489,6 +1489,17 @@ Ensuite, nous nous sommes dit au revoir vers 5 h du matin. Il a son avion à mid
 
 PS : la ville a laissé 1/4 des transports actifs cette nuit, mais chaque métro et chaque bus étaient incroyablement bondés. Pour sortir de la place Lotte Tower vers le métro, c’était assez compliqué, ce qui nous a pris 2h pour aller de la place à La Pizzeria dans le centre.`,
         mood: 'Nouvel an à Séoul'
+      },
+      {
+        id: 'j28',
+        day: 28,
+        title: 'Écriture et objectifs 2026',
+        excerpt: `Réveil à 13h en détente, aujourd’hui c’était après-midi écriture, tri de photos et objectif sur l’année 2026.
+Projets, livre à lire, film à voir.
+Toujours -10 dehors.
+
+Salle à 22h30 : Séance Dos`,
+        mood: 'Organisation et écriture'
       }
     ]
   },
