@@ -302,6 +302,22 @@ export const COUNTRIES: CountryData[] = [
           'Grand froid cette nuit : –12 °C / –18 ressentis'
         ],
         video: 'https://youtube.com/shorts/ipLajW1DfOo?si=zowDNUZZiR1ybR90'
+      },
+      {
+        id: 't28',
+        date: 'Jour 28',
+        title: 'Écriture et objectifs 2026',
+        description:
+          'Après-midi écriture et tri de photos, avec un focus sur les objectifs 2026 (projets, livres à lire, films à voir). Toujours –10 °C dehors.',
+        bullets: ['Salle à 22h30 : séance dos']
+      },
+      {
+        id: 't29',
+        date: 'Jour 29',
+        title: 'Café studieux',
+        description:
+          'Après-midi studieuse dans un Ediya Café repéré dès le premier jour, juste en face de l’université. Ice tea et cookie pour accompagner le travail.',
+        bullets: ['Salle à 22 h : séance épaules']
       }
     ],
     markers: [
