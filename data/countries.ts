@@ -305,7 +305,7 @@ export const COUNTRIES: CountryData[] = [
       },
       {
         id: 't28',
-        date: 'Jour 28',
+        date: 'Jour 28 (1 934 pas)',
         title: 'Écriture et objectifs 2026',
         description:
           'Après-midi écriture et tri de photos, avec un focus sur les objectifs 2026 (projets, livres à lire, films à voir). Toujours –10 °C dehors.',
@@ -313,7 +313,7 @@ export const COUNTRIES: CountryData[] = [
       },
       {
         id: 't29',
-        date: 'Jour 29',
+        date: 'Jour 29 (2 687 pas)',
         title: 'Café studieux',
         description:
           'Après-midi studieuse dans un Ediya Café repéré dès le premier jour, juste en face de l’université. Ice tea et cookie pour accompagner le travail.',
