@@ -325,7 +325,8 @@ export const COUNTRIES: CountryData[] = [
         title: 'Balade quartier Sillim Station et Gwanak-gu',
         description:
                     'Balade et recherche d’une nouvelle chaine de café.',
-        bullets: ['Salle à 22 h : séance pecs']
+        bullets: ['Salle à 22 h : séance pecs'],
+                      video: 'https://youtube.com/shorts/_XpTho9A8wo?si=TjLK5qs_61rzK2Z2'
       }
     ],
     markers: [
