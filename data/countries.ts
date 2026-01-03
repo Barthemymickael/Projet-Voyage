@@ -421,6 +421,16 @@ export const COUNTRIES: CountryData[] = [
         emoji: '☕'
       },
       {
+        id: 'm64',
+        lat: 37.48388,
+        lng: 126.929446,
+        title: 'The Venti Coffee',
+        category: 'Cuisine',
+        description:
+          'Café sur trois étages à l’angle d’un carrefour près de Sillim Station.',
+        emoji: '☕'
+      },
+      {
         id: 'm63',
         lat: 37.468210,
         lng: 126.945615,
@@ -1538,6 +1548,18 @@ C’est un Ediya Café, et l’ambiance y est studieuse. J’y reste donc une bo
 
 Salle à 22 h : séance épaules`,
         mood: 'Café et productivité'
+      },
+      {
+        id: 'j30',
+        day: 30,
+        title: 'Sillim Station et Venti Coffee',
+        excerpt: `Balade le long du quartier de Sillim Station : j’essaie de trouver une chaîne de café que je n’ai pas encore testée.
+Je tombe sur un café à l’angle d’un carrefour, réparti sur trois étages : le Venti Coffee.
+J’y reste toute la fin d’après-midi, puis je décide de faire le tour de la boucle de Gwanak-gu, histoire de visualiser entièrement à quoi ressemble exactement l’endroit où je vis depuis un mois.
+Moins froid aujourd’hui : -1 °C.
+
+Salle à 22 h : séance pecs`,
+        mood: 'Balade et café'
       }
     ]
   },
