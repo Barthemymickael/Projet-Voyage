@@ -56,7 +56,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
       mood: 'Nostalgie',
       status: 'En ligne',
       category: 'Journal intime',
-      image: '/jour13.jpg',
+      image: 'https://assets.zyrosite.com/ALp27jorbbtg7kpM/logo-mp84La8pwztw7oj5.png',
     },
     {
       title: 'Blog voyage Asie 2025/2026',
