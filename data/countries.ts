@@ -321,11 +321,11 @@ export const COUNTRIES: CountryData[] = [
       },
             {
         id: 't30',
-        date: 'Jour 30 (X pas)',
+        date: 'Jour 30 (11 791 pas)',
         title: 'Balade quartier Sillim Station et Gwanak-gu',
         description:
                     'Balade et recherche d’une nouvelle chaine de café.',
-        bullets: ['Salle à 22 h : séance pecs'],
+        bullets: ['Achat Olive Young  : Body Wash'],
                       video: 'https://youtube.com/shorts/_XpTho9A8wo?si=TjLK5qs_61rzK2Z2'
       }
     ],
