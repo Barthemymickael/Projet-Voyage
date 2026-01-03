@@ -46,7 +46,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
       mood: 'Musique',
       status: 'En ligne',
       category: 'Produit audio',
-      image: '/image.jpg',
+      image: 'https://assets.zyrosite.com/ALp27jorbbtg7kpM/convertislowed-VCNu04Aq3p6g40fy.png',
     },
     {
       title: 'BuddyNotes',
