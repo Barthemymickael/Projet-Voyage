@@ -318,6 +318,14 @@ export const COUNTRIES: CountryData[] = [
         description:
           'Après-midi studieuse dans un Ediya Café repéré dès le premier jour, juste en face de l’université. Ice tea et cookie pour accompagner le travail.',
         bullets: ['Salle à 22 h : séance épaules']
+      },
+            {
+        id: 't30',
+        date: 'Jour 30 (X pas)',
+        title: 'Balade quartier Sillim Station et Gwanak-gu',
+        description:
+                    'Balade et recherche d’une nouvelle chaine de café.',
+        bullets: ['Salle à 22 h : séance pecs']
       }
     ],
     markers: [
