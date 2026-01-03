@@ -46,6 +46,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
       mood: 'Musique',
       status: 'En ligne',
       category: 'Produit audio',
+      image: '/image.jpg',
     },
     {
       title: 'BuddyNotes',
@@ -55,6 +56,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
       mood: 'Nostalgie',
       status: 'En ligne',
       category: 'Journal intime',
+      image: '/jour13.jpg',
     },
     {
       title: 'Blog voyage Asie 2025/2026',
@@ -64,6 +66,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
       mood: 'Voyage',
       status: 'En ligne',
       category: 'Journal numérique',
+      image: '/seoul.jpg',
     },
     {
       title: 'pour bientôt',
@@ -73,6 +76,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
       mood: 'pour bientôt',
       status: 'Planifié',
       category: 'pour bientôt',
+      image: '/temple.jpg',
     },
   ];
 
@@ -252,39 +256,59 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                                 ✕
                             </button>
                         </div>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                             {projectCards.map((card, index) => (
                                 <motion.a
                                     key={card.title}
                                     href={card.link}
                                     target={card.link === '#' ? '_self' : '_blank'}
                                     rel="noreferrer"
-                                    className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-5 sm:p-6 shadow-[0_16px_38px_rgba(0,0,0,0.45)] backdrop-blur-md"
+                                    className="group relative overflow-hidden rounded-[32px] border border-white/10 bg-neutral-900 shadow-[0_30px_70px_rgba(0,0,0,0.45)]"
                                     initial={{ y: 15, opacity: 0 }}
                                     animate={{ y: 0, opacity: 1 }}
                                     transition={{ delay: 0.05 * index, duration: 0.35, ease: 'easeOut' }}
                                     whileHover={{ y: -4 }}
                                 >
-                                    <div className="relative flex flex-col gap-3 text-white">
-                                        <div className="flex items-start justify-between gap-3">
-                                            <div className="space-y-1">
-                                                <h4 className="text-xl font-semibold text-white group-hover:text-white/90 transition-colors">{card.title}</h4>
-                                                <p className="text-sm text-white/60">{card.category}</p>
-                                            </div>
+                                    <div className="relative min-h-[360px] sm:min-h-[420px] text-white">
+                                        <img
+                                            src={card.image}
+                                            alt={card.title}
+                                            className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                                            loading="lazy"
+                                        />
+                                        <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/30 to-black/80" />
+                                        <div className="absolute top-5 left-5 flex items-center gap-2 rounded-full border border-white/40 bg-white/15 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] backdrop-blur">
+                                            <span className="text-base">★</span>
+                                            {card.category}
+                                        </div>
+                                        <div className="absolute top-5 right-5">
                                             <span
-                                                className={`text-[11px] uppercase tracking-[0.16em] rounded-full border px-3 py-1 font-medium ${statusStyles[card.status]}`}
+                                                className={`text-[11px] uppercase tracking-[0.16em] rounded-full border px-3 py-1 font-semibold ${statusStyles[card.status]}`}
                                             >
                                                 {card.status}
                                             </span>
                                         </div>
-                                        <p className="text-sm leading-relaxed text-white/75">
-                                            {card.description}
-                                        </p>
-                                        <div className="flex items-center justify-between text-xs text-white/60 border-t border-white/5 pt-3">
-                                            <span className="font-mono">{card.date}</span>
-                                            <span className="inline-flex items-center gap-1 text-white/70 group-hover:text-white">
-                                                Découvrir <ArrowDown className="w-3 h-3 rotate-[-90deg]" />
-                                            </span>
+                                        <div className="absolute inset-x-0 bottom-0 p-6 sm:p-7">
+                                            <div className="space-y-3">
+                                                <div>
+                                                    <h4 className="text-2xl font-semibold tracking-tight text-white drop-shadow-sm">{card.title}</h4>
+                                                    <p className="text-sm text-white/75">{card.description}</p>
+                                                </div>
+                                                <div className="flex flex-wrap items-center gap-3 text-xs text-white/75">
+                                                    <span className="rounded-full border border-white/20 bg-white/10 px-3 py-1 font-mono">
+                                                        {card.date}
+                                                    </span>
+                                                    <span className="rounded-full border border-white/20 bg-white/10 px-3 py-1">
+                                                        {card.mood}
+                                                    </span>
+                                                </div>
+                                                <div className="flex items-center justify-between text-xs text-white/70 border-t border-white/20 pt-3">
+                                                    <span className="uppercase tracking-[0.18em] text-white/60">Par Mickaël</span>
+                                                    <span className="inline-flex items-center gap-1 text-white/80 group-hover:text-white">
+                                                        Découvrir <ArrowDown className="w-3 h-3 rotate-[-90deg]" />
+                                                    </span>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </motion.a>
