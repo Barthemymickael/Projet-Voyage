@@ -1592,10 +1592,32 @@ Salle à 22 h : séance épaules`,
         excerpt: `Balade le long du quartier de Sillim Station : j’essaie de trouver une chaîne de café que je n’ai pas encore testée.
 Je tombe sur un café à l’angle d’un carrefour, réparti sur trois étages : le Venti Coffee.
 J’y reste toute la fin d’après-midi, puis je décide de faire le tour de la boucle de Gwanak-gu, histoire de visualiser entièrement à quoi ressemble exactement l’endroit où je vis depuis un mois.
-Moins froid aujourd’hui : -1 °C.
-
-Salle à 22 h : séance pecs`,
+Moins froid aujourd’hui : -1 °C.`,
         mood: 'Balade et café'
+      },
+      {
+        id: 'j31',
+        day: 31,
+        title: 'Prison de seodaemun et Yeongcheon Traditional Market',
+        excerpt: `Un mois pile que je suis à Séoul ! Le temps est passé à une vitesse folle ! 
+Finalement, je commence à avoir fait pas mal d’activités importantes. Aujourd’hui, je pars visiter la prison de Seodaemun.
+
+Il fait 3 degrés, c’est quand même bien plus agréable de se balader sous le soleil avec une température positive.
+
+Cette prison n’est pas forcément mise en avant sur les différents sites de tourisme et guides touristiques, mais ça reste une visite importante pour comprendre l’histoire du pays, et c’est un très bon complément à la visite du musée de la guerre.
+
+La prison a été ouverte sous la période coloniale japonaise, de 1908 à 1945, puis récupérée par les forces nord-coréennes durant la guerre de Corée (1950-1953), et enfin utilisée comme prison « classique » jusqu’en 1987.
+
+La visite se divise en 6 bâtiments à visiter. On parcourt des couloirs, des cellules avec des reconstitutions via des mannequins, et des cellules partagées où l’on peut voir ce que les personnes qui y étaient incarcérées sont devenues.
+
+On découvre des techniques de torture, des crimes de guerre, et même, en dernier, une salle avec des bancs pour regarder les prisonniers être pendus.
+
+Assez glauque, même si je n’arrêtais pas de comparer avec les atrocités nazies. Étant Européen, je suis plus marqué par celles-ci que par les atrocités japonaises, même si la preuve est là : elles ont bien existé.
+
+En ce dimanche, je m’attendais à plus de monde, mais c’était parfait, ce qui m’a permis de rester plus longtemps dans les lieux et de pouvoir lire correctement les affiches.
+
+Une fois sorti du musée, je me suis baladé autour et je suis rentré dans le Yeongcheon Traditional Market. Ici, on voit bien que c’est un marché de quartier, moins touristique.`,
+        mood: 'Prison et marché'
       }
     ]
   },
