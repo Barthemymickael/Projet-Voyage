@@ -327,6 +327,14 @@ export const COUNTRIES: CountryData[] = [
                     'Balade et recherche d’une nouvelle chaine de café.',
         bullets: ['Achat Olive Young  : Body Wash'],
                       video: 'https://youtube.com/shorts/_XpTho9A8wo?si=TjLK5qs_61rzK2Z2'
+      },
+                  {
+        id: 't31',
+        date: 'Jour 31 (4 817 pas)',
+        title: 'Prison de seodaemun et Yeongcheon Traditional Market',
+        description:
+                    'Visite de la prison de Seodaemun, qui a servi à commettre des atrocités et des crimes de guerre sous l’occupation japonaise entre 1908 et 1945, puis balade au Yeongcheon Traditional Market.',
+                      video: 'https://youtube.com/shorts/eGfF78uoc-E?si=4tN6KiYR_O0Lp6pw'
       }
     ],
     markers: [
@@ -943,7 +951,26 @@ export const COUNTRIES: CountryData[] = [
         category: 'Monument',
         description: 'Feux d’artifice du nouvel an.',
         emoji: '🎆'
+      },
+      {
+        id: 'm62',
+        lat: 37.570664,
+        lng: 126.961207,
+        title: 'Yeongcheon Traditional Market',
+        category: 'Cuisine',
+        description: 'Marché de quartier moins touristique',
+        emoji: '🥢'
+      },
+      {
+        id: 'm63',
+        lat: 37.574279,
+        lng: 126.956073,
+        title: 'Prison de Seodaemun',
+        category: 'Activité',
+        description: 'Prison de Seodaemun : entre atrocités et crimes de guerre',
+        emoji: '⛓️'
       }
+      
 
     ],
     journal: [
