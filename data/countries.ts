@@ -1618,6 +1618,17 @@ En ce dimanche, je m’attendais à plus de monde, mais c’était parfait, ce q
 
 Une fois sorti du musée, je me suis baladé autour et je suis rentré dans le Yeongcheon Traditional Market. Ici, on voit bien que c’est un marché de quartier, moins touristique.`,
         mood: 'Prison et marché'
+      },
+      {
+        id: 'j32',
+        day: 32,
+        title: 'Insomnie, documentaire et café',
+        excerpt: `Petite insomnie cette nuit, réveil assez tard.
+Je regarde un documentaire d’Arte sur Maduro :
+https://www.arte.tv/fr/videos/114209-000-A/maduro-du-socialisme-a-la-dictature/?utm_source=ios&utm_medium=share&utm_campaign=114209-000-A
+
+Puis lecture au café Llbon, avec du jazz en fond, et salle à 20 h : séance pecs.`,
+        mood: 'Insomnie et café'
       }
     ]
   },
