@@ -335,6 +335,14 @@ export const COUNTRIES: CountryData[] = [
         description:
                     'Visite de la prison de Seodaemun, qui a servi à commettre des atrocités et des crimes de guerre sous l’occupation japonaise entre 1908 et 1945, puis balade au Yeongcheon Traditional Market.',
                       video: 'https://youtube.com/shorts/eGfF78uoc-E?si=4tN6KiYR_O0Lp6pw'
+      },
+      {
+        id: 't32',
+        date: 'Jour 32 (2 128 pas)',
+        title: 'Insmonie, documentaire et lecture',
+        description:
+          'Insmonie cette nuit, je me reveille assez tard, je regarde un Documentaire sur maduro puis je pars lire au café Llbon',
+        bullets: ['Salle à 20 h : séance pecs']
       }
     ],
     markers: [
