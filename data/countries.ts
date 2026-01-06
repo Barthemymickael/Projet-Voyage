@@ -1642,9 +1642,7 @@ Puis lecture au café Llbon, avec du jazz en fond, et salle à 20 h : séance pe
         id: 'j33',
         day: 33,
         title: 'Longue balade le long de la Han River',
-        excerpt: `
-
-Aujourd’hui, grosse balade le long de la rivière Han (Han River). 
+        excerpt: `Aujourd’hui, grosse balade le long de la rivière Han (Han River). 
 
 Comme beaucoup de villes, Séoul est coupée en deux : rive nord, rive sud.
 La rivière traverse la ville d’est en ouest.
