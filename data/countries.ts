@@ -1637,6 +1637,41 @@ https://www.arte.tv/fr/videos/114209-000-A/maduro-du-socialisme-a-la-dictature/?
 
 Puis lecture au café Llbon, avec du jazz en fond, et salle à 20 h : séance pecs.`,
         mood: 'Insomnie et café'
+      },
+      {
+        id: 'j33',
+        day: 33,
+        title: 'Longue balade le long de la Han River',
+        excerpt: `
+
+Aujourd’hui, grosse balade le long de la rivière Han (Han River). 
+
+Comme beaucoup de villes, Séoul est coupée en deux : rive nord, rive sud.
+La rivière traverse la ville d’est en ouest.
+D’un côté, les quartiers chargés d’histoire (au nord) ; de l’autre, une ville plus récente (au sud).
+
+Je suis parti en début d’après-midi jusqu’au soir !
+16,6 km parcourus : j’ai commencé au Banpo Hangang Park, avec le fameux Banpo Bridge, qui crache ses jets d’eau colorés hors période hivernale.
+J’ai terminé cette balade au Cheonhodae Bridge, 16 km plus loin.
+
+Avec mes écouteurs, c’était extrêmement agréable. 2 degrés toute l’aprem, puis 0 degré en soirée.
+
+Ce qui est cool sur cette rive, c’est qu’il y a énormément de berges aménagées, avec des restaurants, des bars et des convenience stores.
+J’ai été tenté plusieurs fois de m’arrêter, mais je ne voulais pas me poser : j’avais vraiment envie de découvrir toute la rive.
+
+J’ai suivi pendant toute la balade une piste piétonne, accompagnée d’une piste cyclable. Tous les kilomètres, ou presque : des toilettes publiques, des machines de musculation en extérieur, des parcs pour enfants, des bancs… et évidemment des vues qui changent au fil des kilomètres.
+
+Une fois arrivé du côté de Gangnam, la rive était en construction et la nuit était tombée. À ce moment-là, un son dans mes écouteurs m’a littéralement téléporté dans une ambiance folle.
+
+Puis j’aperçois la Lotte Tower. Je me pose la question :
+« Est-ce que je m’arrête là ? Est-ce que je prends le métro direction chez moi ? »
+Finalement, j’ai continué encore 4 km.
+
+J’ai fini par prendre une ligne qui m’était encore inconnue : la ligne 8. Je n’avais jamais été aussi loin au sud-est, alors c’était une belle découverte.
+
+1h22 de transport pour rentrer dans mon quartier, et salle à 21h : séance bras
+`,
+        mood: 'Balade Han River'
       }
     ]
   },
