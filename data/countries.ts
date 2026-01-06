@@ -321,7 +321,7 @@ export const COUNTRIES: CountryData[] = [
       },
             {
         id: 't30',
-        date: 'Jour 30 (11 907 pas)',
+        date: 'Jour 30 (11 903 pas)',
         title: 'Balade quartier Sillim Station et Gwanak-gu',
         description:
                     'Balade et recherche d’une nouvelle chaine de café.',
@@ -330,7 +330,7 @@ export const COUNTRIES: CountryData[] = [
       },
                   {
         id: 't31',
-        date: 'Jour 31 (4 817 pas)',
+        date: 'Jour 31 (4 862 pas)',
         title: 'Prison de seodaemun et Yeongcheon Traditional Market',
         description:
                     'Visite de la prison de Seodaemun, qui a servi à commettre des atrocités et des crimes de guerre sous l’occupation japonaise entre 1908 et 1945, puis balade au Yeongcheon Traditional Market.',
@@ -338,11 +338,25 @@ export const COUNTRIES: CountryData[] = [
       },
       {
         id: 't32',
-        date: 'Jour 32 (2 128 pas)',
+        date: 'Jour 32 (2 135 pas)',
         title: 'Insmonie, documentaire et lecture',
         description:
           'Insmonie cette nuit, je me reveille assez tard, je regarde un Documentaire sur maduro puis je pars lire au café Llbon',
         bullets: ['Salle à 20 h : séance pecs']
+      },
+      {
+        id: 't33',
+        date: 'Jour 33 (27 589 pas)',
+        title: 'Longue balade le long de la Han River',
+        description:
+          'Longue balade le long de la rivière Han, 16,6 km à pied entre jour et nuit, jusqu’aux limites sud-est de Séoul.,
+        bullets: [
+          'Départ : Banpo Hangang Park (Banpo Bridge)',
+          '16,6 km parcourus le long de la rive',
+          'Fin de la balade à Cheonhodae Bridge',
+          'Découverte de la ligne 8',
+          'Salle à 21h'
+        ],
       }
     ],
     markers: [
