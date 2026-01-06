@@ -1000,7 +1000,7 @@ export const COUNTRIES: CountryData[] = [
   category: 'Balade',
   description:
     'Parc emblématique le long du fleuve Han, point de départ de la balade du 6 janvier 2026.',
-  emoji: '🌉'
+  emoji: '🌳'
 },
 {
   id: 'm65',
@@ -1009,8 +1009,8 @@ export const COUNTRIES: CountryData[] = [
   title: 'Banpo Bridge',
   category: 'Balade',
   description:
-    'Pont célèbre reliant les rives du Han, étape centrale de la balade du 6 janvier 2026.',
-  emoji: '🚶‍♂️'
+    'Pont célèbre reliant les rives du Han.',
+  emoji: '🌉'
 },
 {
   id: 'm66',
@@ -1019,8 +1019,8 @@ export const COUNTRIES: CountryData[] = [
   title: 'Cheonho Bridge',
   category: 'Balade',
   description:
-    'Grand pont urbain marquant la fin de la balade du 6 janvier 2026 le long du fleuve Han.',
-  emoji: '🏁'
+    'Grand pont marquant la fin de la balade du 6 janvier 2026 le long du fleuve Han.',
+  emoji: '🌉'
 }
 
       
