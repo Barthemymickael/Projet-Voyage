@@ -991,7 +991,38 @@ export const COUNTRIES: CountryData[] = [
         category: 'Activité',
         description: 'Prison de Seodaemun : entre atrocités et crimes de guerre',
         emoji: '⛓️'
-      }
+      },
+      {
+  id: 'm64',
+  lat: 37.510632,
+  lng: 126.995963,
+  title: 'Banpo Hangang Park',
+  category: 'Balade',
+  description:
+    'Parc emblématique le long du fleuve Han, point de départ de la balade du 6 janvier 2026.',
+  emoji: '🌉'
+},
+{
+  id: 'm65',
+  lat: 37.512515,
+  lng: 126.997487,
+  title: 'Banpo Bridge',
+  category: 'Balade',
+  description:
+    'Pont célèbre reliant les rives du Han, étape centrale de la balade du 6 janvier 2026.',
+  emoji: '🚶‍♂️'
+},
+{
+  id: 'm66',
+  lat: 37.541968,
+  lng: 127.115364,
+  title: 'Cheonho Bridge',
+  category: 'Balade',
+  description:
+    'Grand pont urbain marquant la fin de la balade du 6 janvier 2026 le long du fleuve Han.',
+  emoji: '🏁'
+}
+
       
 
     ],
