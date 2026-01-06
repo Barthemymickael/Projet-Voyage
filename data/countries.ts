@@ -349,7 +349,7 @@ export const COUNTRIES: CountryData[] = [
         date: 'Jour 33 (27 589 pas)',
         title: 'Longue balade le long de la Han River',
         description:
-          'Longue balade le long de la rivière Han, 16,6 km à pied entre jour et nuit, jusqu’aux limites sud-est de Séoul.,
+          'Longue balade le long de la rivière Han, 16,6 km à pied entre jour et nuit, jusqu’aux limites sud-est de Séoul.',
         bullets: [
           'Départ : Banpo Hangang Park (Banpo Bridge)',
           '16,6 km parcourus le long de la rive',
