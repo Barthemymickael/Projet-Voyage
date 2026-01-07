@@ -73,7 +73,8 @@ export const COUNTRIES: CountryData[] = [
         title: 'Retour à Gangnam',
         description:
           'Retour à Gangnam. Visite de l’aquarium « Sea Life » + Entraînement des bras à la salle vers 19 h.',
-        image: withBase('aqura.jpg')
+        video: 'https://youtube.com/shorts/LG78mcFsP-4?si=dgN5QXv20fBav8z-'
+
       },
       {
         id: 't7',
