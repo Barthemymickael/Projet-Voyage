@@ -357,6 +357,8 @@ export const COUNTRIES: CountryData[] = [
           'Découverte de la ligne 8',
           'Salle à 21h'
         ],
+        video: 'https://youtu.be/rZe7VnzSLcA'
+
       }
     ],
     markers: [
