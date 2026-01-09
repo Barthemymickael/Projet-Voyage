@@ -1741,7 +1741,33 @@ C’est le 6eme gratte-ciel le plus haut du monde !
 C’est la dernière grosse activité que je fais à Séoul sous grand ciel bleu.
 `,
         mood: 'Séoul Sky Lotte Tower + Cocktail à 500m de hauteur :)'
-      }
+      },
+      {
+  id: 'j36',
+  day: 36,
+  title: 'Dernier jour à Séoul : 3ᵉ branche du National Museum of Modern and Contemporary Art',
+  excerpt: `Dernier jour à Séoul ! Hyper content de mon activité d’hier à la Lotte Tower, je pars aujourd’hui découvrir la 3ᵉ branche du National Museum of Modern and Contemporary Art.
+
+Ce musée est vraiment excentré du centre de Séoul. Pour y aller, il faut compter environ 30 minutes de métro, puis 30 minutes à pied. Il est perdu entre les montagnes de Gwanaksan, dans le parc Seoul Land. Avant d’arriver devant le bâtiment, on passe par l’entrée du parc Seoul Land, puis par un pont qui surplombe un grand lac (gelé aujourd’hui), et enfin devant un zoo.
+
+L’histoire de la journée commence dans le métro. Nous sommes une dizaine à descendre à l’arrêt Seoul Land, puis chacun part de son côté. Je me dirige vers la sortie 2 et là, je tombe sur une immense allée vide, avec les montagnes en toile de fond et, tout au bout, l’entrée du parc.
+
+Pendant ces 30 minutes de marche, je n’ai fait qu’imaginer le nombre de personnes qu’il doit y avoir ici l’été. Les parkings sont immenses, il y a plein de petits camions fermés — glaces, poulet, etc. — mais tout est à l’arrêt.
+
+Je passe ensuite sur le pont au-dessus du lac gelé. Là encore, on dirait que le temps s’est figé. Les funiculaires fonctionnent, mais il n’y a absolument personne sur les sièges.
+
+J’ai presque l’impression de visiter un parc abandonné, alors qu’en réalité il fait simplement 0 degré et que ce n’est clairement pas la bonne saison pour venir ici.
+
+Enfin bref, je fais la visite et je dois dire que c’est de loin ma branche préférée du National Museum of Modern and Contemporary Art de Séoul.
+
+Trois étages, six expositions différentes. J’y reste deux heures. On suit tout au long du parcours la transformation de l’art coréen en fonction des époques, des tendances et de l’évolution du monde.
+
+Ça commence au XIXᵉ siècle, puis au XXᵉ, pour ensuite avancer vers les contextes historiques et la place des femmes dans l’art dans la seconde moitié du XXᵉ siècle, après la guerre.
+
+Ce que je retiens surtout de ce musée, c’est l’odeur très singulière du lieu. Au deuxième étage, il y avait un parfum très fruité, presque envoûtant. Sûrement diffusé artificiellement, mais ça m’a complètement plongé dans les toiles.`,
+  mood: 'Dernier jour à Séoul : 3ᵉ branche du National Museum of Modern and Contemporary Art'
+}
+
     ]
   },
   {
