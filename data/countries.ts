@@ -1728,20 +1728,50 @@ Je bosse sur mon projet jusqu’en fin d’après-midi, puis lessive et lecture 
         mood: 'Grosse lesive et projet'
       },
       {
-        id: 'j35',
-        day: 35,
-        title: 'Séoul Sky Lotte Tower + Cocktail à 500m de hauteur :)',
-        excerpt: `Je regarde depuis plusieurs semaine la météo est notamment la meilleure visibilité pour pouvoir faire cette activité 
+  id: 'j35',
+  day: 35,
+  title: 'Séoul Sky Lotte Tower + Cocktail à 500 m de hauteur :)',
+  excerpt: `Je regarde la météo depuis plusieurs semaines, notamment pour trouver le jour avec la meilleure visibilité afin de pouvoir faire cette activité.
 
-Aujourd’hui la vue est dégagé sur 30km et pas trop de pollution ce qui est parfait pour aller au sommet de la Lotte Tower, la fameuse grande tour où j’ai vu les feux d’artifice du nouvel an et la fameuse tour qui était un repère lors de ma balade du 6 janvier sur la rive.
+Aujourd’hui, la vue est dégagée sur plus de 30 km, avec peu de pollution : des conditions parfaites pour monter au sommet de la Lotte Tower, cette immense tour où j’ai vu les feux d’artifice du Nouvel An, et qui était déjà un repère lors de ma balade du 6 janvier le long de la rive.
 
 La Lotte Tower, à Séoul, est le plus haut gratte-ciel de Corée du Sud (555 m).
-C’est le 6eme gratte-ciel le plus haut du monde ! 
+C’est le 6ᵉ gratte-ciel le plus haut du monde !
 
-C’est la dernière grosse activité que je fais à Séoul sous grand ciel bleu.
-`,
-        mood: 'Séoul Sky Lotte Tower + Cocktail à 500m de hauteur :)'
-      },
+C’est la dernière grosse activité que je fais à Séoul, sous un grand ciel bleu.
+
+J’y reste de 16 h à 20 h 15.  
+On arrive au 117ᵉ étage, puis il y a encore cinq étages à monter en escalator. Je me balade, je flâne entre les niveaux, je prends des photos et je demande aux gens de m’en prendre aussi, évidemment.
+
+Je contemple mon dernier coucher de soleil à Séoul, écouteurs dans les oreilles. Pendant une heure, ma playlist tourne en aléatoire, puis pendant deux heures, c’est ma playlist 2025 qui prend le relais.  
+Quel plaisir de réécouter des musiques que j’écoutais à Rouen, posé sur mon canapé… sauf que là, je suis à 500 m de hauteur, en train de contempler Séoul.
+
+À un moment, je vois qu’un restaurant se trouve au 123ᵉ étage. Je prends l’ascenseur, fais un pas sur la moquette bleu nuit, et là je découvre un lounge magnifique, avec une lumière tamisée et une immense baie vitrée donnant sur tout Séoul.  
+Mais je fais un pas en arrière en me disant : « Je suis tout seul, je ne vais peut-être pas m’installer là… autant prendre un Coca au 121ᵉ étage. »
+
+Je redescends, refais le parcours en me posant sur les petits sièges pour contempler la vue. Et puis je repense à ce lounge et je me dis : « Merde, il y a un endroit incroyablement beau et chill, et je ne vais pas y aller juste parce que je suis seul ? »
+
+Au bout de 30 minutes, je décide d’y retourner et d’y prendre un cocktail. Je choisis un Mai Tai. Le prix est carrément raisonnable : pour donner un ordre d’idée, ce cocktail est à 12,50 € à Rouen et 19 € place du Trocadéro à Paris.  
+Ici, je le paie 11 €, avec probablement la vue la plus incroyable qu’un restaurant puisse offrir en Corée.
+
+J’y reste une bonne demi-heure, je lis quelques articles sur Substack, puis je redescends au 120ᵉ étage.  
+Là, je mets certaines musiques en boucle. Je reste droit, immobile, face à certaines vues, et je repense au mois passé dans cette ville.
+
+Je regarde la Namsan Tower, la montagne que j’ai escaladée lors de ma randonnée, les gratte-ciel de Gangnam, et surtout je refais mentalement le parcours de ma balade du 6 janvier.  
+D’ici, je vois exactement d’où je suis parti et où je suis arrivé. Je distingue clairement le Banpo Bridge, ainsi que le pont avec la petite cascade éclairée de néons verts.
+
+Je repense à cette balade pendant plusieurs minutes, extrêmement reconnaissant envers moi-même de l’avoir faite.
+
+Il est 20 h. Ça fait déjà 4 heures que je suis ici, et à chaque fois que je me dis « Bon allez, je pars, je prends l’ascenseur », je reste encore cinq minutes de plus.  
+Impossible de lâcher cette vue : la nuit, les lumières de la ville, les phares des voitures sur les grandes avenues, les appartements allumés… tant de vies différentes.
+
+Enfin bref, qui dit partir de cette tour dit aussi dire au revoir à cette ville.  
+Demain, pour mon dernier jour, je serai un peu excentré du centre-ville.
+
+Salle à 22 h : séance bras.`,
+  mood: 'Dernier coucher de soleil, solitude choisie et vue irréelle'
+}
+,
       {
   id: 'j36',
   day: 36,
