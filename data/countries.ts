@@ -1718,6 +1718,14 @@ J’ai fini par prendre une ligne qui m’était encore inconnue : la ligne 8. J
 1h22 de transport pour rentrer dans mon quartier, et salle à 21h : séance bras
 `,
         mood: 'Balade Han River'
+      },
+      {
+        id: 'j34',
+        day: 34,
+        title: 'Grosse lesive et projet',
+        excerpt: `Aujourd’hui, le gros froid est revenu, avec pas mal de vent.
+Je bosse sur mon projet jusqu’en fin d’après-midi, puis lessive et lecture au lavomatique, et enfin salle à 21 h : séance épaules`,
+        mood: 'Grosse lesive et projet'
       }
     ]
   },
