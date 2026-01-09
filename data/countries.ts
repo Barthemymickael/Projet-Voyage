@@ -1769,7 +1769,7 @@ Enfin bref, qui dit partir de cette tour dit aussi dire au revoir à cette ville
 Demain, pour mon dernier jour, je serai un peu excentré du centre-ville.
 
 Salle à 22 h : séance bras.`,
-  mood: 'Dernier coucher de soleil, solitude choisie et vue irréelle'
+  mood: 'Séoul Sky Lotte Tower + Cocktail à 500 m de hauteur :)'
 }
 ,
       {
