@@ -1024,7 +1024,17 @@ export const COUNTRIES: CountryData[] = [
   description:
     'Grand pont marquant la fin de la balade du 6 janvier 2026 le long du fleuve Han.',
   emoji: '🌉'
-}
+},
+{
+  id: 'm67',
+  lat: 37.431044,
+  lng: 127.019960,
+  title: 'National Museum of Modern and Contemporary Art',
+  category: 'Activité',
+  description:
+    'Visite pour le dernier jour à Séoul de la 3ème branche sur 4 du National Museum of Modern and Contemporary Art',
+  emoji: '🏛️'
+
 
       
 
