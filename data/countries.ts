@@ -974,7 +974,7 @@ export const COUNTRIES: CountryData[] = [
         lng: 127.102543,
         title: 'Lotte Tower',
         category: 'Monument',
-        description: 'Feux d’artifice du nouvel an.',
+        description: 'Feux d’artifice vu du sol le 1er janvier / Visite du sommet + Cocktail au 123 Lounge le 8 janvier',
         emoji: '🎆'
       },
       {
