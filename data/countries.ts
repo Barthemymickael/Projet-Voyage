@@ -1726,6 +1726,21 @@ J’ai fini par prendre une ligne qui m’était encore inconnue : la ligne 8. J
         excerpt: `Aujourd’hui, le gros froid est revenu, avec pas mal de vent.
 Je bosse sur mon projet jusqu’en fin d’après-midi, puis lessive et lecture au lavomatique, et enfin salle à 21 h : séance épaules`,
         mood: 'Grosse lesive et projet'
+      },
+      {
+        id: 'j35',
+        day: 35,
+        title: 'Séoul Sky Lotte Tower + Cocktail à 500m de hauteur :)',
+        excerpt: `Je regarde depuis plusieurs semaine la météo est notamment la meilleure visibilité pour pouvoir faire cette activité 
+
+Aujourd’hui la vue est dégagé sur 30km et pas trop de pollution ce qui est parfait pour aller au sommet de la Lotte Tower, la fameuse grande tour où j’ai vu les feux d’artifice du nouvel an et la fameuse tour qui était un repère lors de ma balade du 6 janvier sur la rive.
+
+La Lotte Tower, à Séoul, est le plus haut gratte-ciel de Corée du Sud (555 m).
+C’est le 6eme gratte-ciel le plus haut du monde ! 
+
+C’est la dernière grosse activité que je fais à Séoul sous grand ciel bleu.
+`,
+        mood: 'Séoul Sky Lotte Tower + Cocktail à 500m de hauteur :)'
       }
     ]
   },
