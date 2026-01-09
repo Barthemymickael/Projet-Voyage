@@ -1715,7 +1715,9 @@ Finalement, j’ai continué encore 4 km.
 
 J’ai fini par prendre une ligne qui m’était encore inconnue : la ligne 8. Je n’avais jamais été aussi loin au sud-est, alors c’était une belle découverte.
 
-1h22 de transport pour rentrer dans mon quartier, et salle à 21h : séance bras
+1h22 de transport pour rentrer dans mon quartier.
+
+Salle à 21h : séance bras
 `,
         mood: 'Balade Han River'
       },
@@ -1794,7 +1796,11 @@ Trois étages, six expositions différentes. J’y reste deux heures. On suit to
 
 Ça commence au XIXᵉ siècle, puis au XXᵉ, pour ensuite avancer vers les contextes historiques et la place des femmes dans l’art dans la seconde moitié du XXᵉ siècle, après la guerre.
 
-Ce que je retiens surtout de ce musée, c’est l’odeur très singulière du lieu. Au deuxième étage, il y avait un parfum très fruité, presque envoûtant. Sûrement diffusé artificiellement, mais ça m’a complètement plongé dans les toiles.`,
+Ce que je retiens surtout de ce musée, c’est l’odeur très singulière du lieu. Au deuxième étage, il y avait un parfum très fruité, presque envoûtant. Sûrement diffusé artificiellement, mais ça m’a complètement plongé dans les toiles.
+
+Salle à 21h : Séance Pecs
+Je réalise cette dernière séance à Séoul avec beaucoup d’émotion. Je vais voir le coach (également dirigeant de cette petite salle) pour lui annoncer que c’était mon dernier jour ici. Via le traducteur sur téléphone, je le remercie pour ses conseils et pour sa salle de sport.
+Nous prenons une photo ensemble et nous nous souhaitons mutuellement une belle réussite pour la suite.`,
   mood: 'Dernier jour à Séoul : 3ᵉ branche du National Museum of Modern and Contemporary Art'
 }
 
