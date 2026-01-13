@@ -1052,7 +1052,27 @@ export const COUNTRIES: CountryData[] = [
   category: 'Activité',
   description: 'Plage de Songjeong, village surf.',
   emoji: '🏖️'
+},
+{
+  id: 'm70',
+  lat: 35.194848,
+  lng: 129.224398,
+  title: 'Godshott',
+  category: 'Cuisine',
+  description: 'Café luxueux avec vue sur la mer, réparti sur trois étages avec un rooftop.',
+  emoji: '☕'
+},
+{
+  id: 'm71',
+  lat: 35.188545,
+  lng: 129.223016,
+  title: 'Haedong Yonggungsa Temple',
+  category: 'Monument',
+  description: 'Temple bouddhiste au bord de l’eau, niché dans les falaises face à la mer.',
+  emoji: '⛩️'
 }
+
+
 
 
 
