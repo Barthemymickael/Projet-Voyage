@@ -1097,7 +1097,28 @@ export const COUNTRIES: CountryData[] = [
   category: 'Anecdote',
   description: 'À quelques pas du temple, je fais demi-tour,, recherche d’un coin discret hors du chemin tracé et dépôt du colis.',
   emoji: '💩'
-}
+},
+{
+  id: 'm75',
+  lat: 35.189164,
+  lng: 129.206643,
+  title: 'Double Up Burger',
+  category: 'Cuisine',
+  description: 'Repas du lundi 12 janvier au soir. Plus de batterie, seul au 2ᵉ étage, ambiance musique californienne.',
+  emoji: '🍔'
+},
+{
+  id: 'm76',
+  lat: 35.192130,
+  lng: 129.212911,
+  title: 'Lotte Premium Outlets – DongBusan',
+  category: 'Shopping',
+  description: 'Balade dans ce vaste centre commercial premium regroupant de nombreuses marques de luxe.',
+  emoji: '🛍️'
+},
+
+
+
 
 
 
