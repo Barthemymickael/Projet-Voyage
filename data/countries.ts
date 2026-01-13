@@ -1086,7 +1086,7 @@ export const COUNTRIES: CountryData[] = [
   lng: 129.229049,
   title: 'Temple bouddhiste Orangdae',
   category: 'Monument',
-  description: 'Temple bouddhiste perché sur un rocher, accessible en marchant sur les rochers au plus près de l’eau.',
+  description: 'Temple bouddhiste perché sur un rocher, accessible en marchant sur les rochers au plus près de l’eau. Charme dénaturé par des hotels ULTRA luxueux, avec piscine à debordmement et lounge absurde',
   emoji: '⛩️'
 },
 {
@@ -1116,6 +1116,16 @@ export const COUNTRIES: CountryData[] = [
   description: 'Balade dans ce vaste centre commercial premium regroupant de nombreuses marques de luxe.',
   emoji: '🛍️'
 },
+{
+  id: 'm77',
+  lat: 35.184310,
+  lng: 129.211815,
+  title: 'Village de pêcheur',
+  category: 'Balade',
+  description: 'Village de pêcheur au charme authentique,entouré de cafés concepts et d’hôtels bobo.',
+  emoji: '🎣'
+}
+
 
 
 
