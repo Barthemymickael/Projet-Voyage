@@ -1070,7 +1070,17 @@ export const COUNTRIES: CountryData[] = [
   category: 'Monument',
   description: 'Temple bouddhiste au bord de l’eau, niché dans les falaises face à la mer.',
   emoji: '⛩️'
+},
+{
+  id: 'm72',
+  lat: 35.184329,
+  lng: 129.219151,
+  title: 'Point de vue Osiria',
+  category: 'Activité',
+  description: 'Point de vue accessible via une randonnée dans les dunes et les falaises, premier coucher de soleil de la première journée.',
+  emoji: '🌅'
 }
+
 
 
 
