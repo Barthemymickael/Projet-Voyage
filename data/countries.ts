@@ -1210,10 +1210,10 @@ export const COUNTRIES: CountryData[] = [
   id: 'm87',
   lat: 35.183426,
   lng: 129.205073,
-  title: 'CU',
+  title: 'CU (Convenience store)',
   category: 'Cuisine',
   description: 'Petit déjeuner chaque matin de la semaine du Lundi 11 au Vendredi 16 Janvier,posé devant la fenêtre avant de partir en balade pour la journée.',
-  emoji: '🥪'
+  emoji: '🛒'
 }
 
 
