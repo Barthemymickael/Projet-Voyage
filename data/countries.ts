@@ -1196,7 +1196,26 @@ export const COUNTRIES: CountryData[] = [
   category: 'Balade',
   description: 'Magnifique point de vue spécialement aménagé pour contempler le coucher de soleil sur la mer et la skyline.',
   emoji: '🌅'
+},
+{
+  id: 'm86',
+  lat: 35.180984,
+  lng: 129.204757,
+  title: 'EDIYA Coffee Songjeong',
+  category: 'Cuisine',
+  description: 'Pause café avec un cookie et un lait à la fraise.',
+  emoji: '🍪'
+},
+{
+  id: 'm87',
+  lat: 35.183426,
+  lng: 129.205073,
+  title: 'CU',
+  category: 'Cuisine',
+  description: 'Petit déjeuner chaque matin de la semaine du Lundi 11 au Vendredi 16 Janvier,posé devant la fenêtre avant de partir en balade pour la journée.',
+  emoji: '🥪'
 }
+
 
 
 
