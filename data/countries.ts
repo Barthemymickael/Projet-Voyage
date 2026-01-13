@@ -2009,7 +2009,39 @@ Salle à 21h : Séance Pecs
 Je réalise cette dernière séance à Séoul avec beaucoup d’émotion. Je vais voir le coach (également dirigeant de cette petite salle) pour lui annoncer que c’était mon dernier jour ici. Via le traducteur sur téléphone, je le remercie pour ses conseils et pour sa salle de sport.
 Nous prenons une photo ensemble et nous nous souhaitons mutuellement une belle réussite pour la suite.`,
   mood: 'Dernier jour à Séoul : 3ᵉ branche du National Museum of Modern and Contemporary Art'
+},
+{
+  id: 'j37',
+  day: 37,
+  title: 'Trajet Séoul → Busan et arrivée à Haeundae',
+  excerpt: `Départ du logement à 11 h, avec un bus prévu à 13 h 20 direction Busan.
+
+Quatre heures de trajet dans un bus confortable, et seulement 24 € pour traverser tout le pays.
+
+Je m’installe et patiente dans le hall de la Seoul Express Bus Station.
+C’est d’ici que part une grande majorité des bus vers toutes les régions de Corée.
+Une dizaine de portes d’embarquement, des écrans géants avec des dizaines de villes affichées. Ici, que des bus.
+
+Mais impossible de trouver le mien sur les écrans.
+Sur mon billet, c’est bien indiqué porte 1 ou porte 2, mais une fois devant… rien.
+
+J’étais en avance, donc je me pose et j’attends un éventuel changement d’affichage.
+Une heure passe. Toujours rien.
+Je décide alors d’aller au guichet, d’essayer de me faire comprendre en anglais, et là on m’explique qu’il existe en fait une annexe à la station, avec d’autres départs.
+
+Bref, je marche trois minutes et j’arrive dans cette autre gare.
+Plus petite, plus calme… et cette fois-ci, ma porte d’embarquement est bien là, avec le numéro de mon bus affiché.
+Soulagement 😰
+
+Une fois installé, pas de stress : les quatre heures de trajet passent finalement assez vite.
+
+J’arrive ensuite à la Busan Express Bus Station, puis encore 1 h 40 de transport avant d’atteindre mon logement.
+Me voilà enfin à Haeundae, près de Busan, pour une semaine.
+
+Fatigué par cette longue journée de transport, je m’écroule directement dans le lit.`,
+  mood: 'Trajet Séoul → Busan et arrivée à Haeundae'
 }
+
 
     ]
   },
