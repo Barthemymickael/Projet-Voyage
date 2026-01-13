@@ -1169,7 +1169,35 @@ export const COUNTRIES: CountryData[] = [
   category: 'Activité',
   description: 'Balade sur la digue du phare blanc avec vue dégagée sur le phare jumeau rouge.',
   emoji: '🗼'
+},
+{
+  id: 'm83',
+  lat: 35.158514,
+  lng: 129.160516,
+  title: 'Haeundae Beach',
+  category: 'Balade',
+  description: 'Plage emblématique et la plus connue de Corée. Encore plus belle au coucher de soleil, lorsque les teintes bleues, violettes et même roses se reflètent sur les buildings.',
+  emoji: '🏖️'
+},
+{
+  id: 'm84',
+  lat: 35.153805,
+  lng: 129.152198,
+  title: 'Dongbaek Park',
+  category: 'Balade',
+  description: 'Parc côtier avec un chemin en bois longeant la côte, ponctué de points de vue et de monuments.',
+  emoji: '🌲'
+},
+{
+  id: 'm85',
+  lat: 35.154508,
+  lng: 129.150993,
+  title: 'Point de vue du coucher de soleil – Dongbaek Park',
+  category: 'Balade',
+  description: 'Magnifique point de vue spécialement aménagé pour contempler le coucher de soleil sur la mer et la skyline.',
+  emoji: '🌅'
 }
+
 
 
 
