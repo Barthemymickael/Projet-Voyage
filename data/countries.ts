@@ -1079,7 +1079,27 @@ export const COUNTRIES: CountryData[] = [
   category: 'Activité',
   description: 'Point de vue accessible via une randonnée dans les dunes et les falaises, premier coucher de soleil de la première journée.',
   emoji: '🌅'
+},
+{
+  id: 'm73',
+  lat: 35.206060,
+  lng: 129.229049,
+  title: 'Temple bouddhiste Orangdae',
+  category: 'Monument',
+  description: 'Temple bouddhiste perché sur un rocher, accessible en marchant sur les rochers au plus près de l’eau.',
+  emoji: '🪷'
+},
+{
+  id: 'm74',
+  lat: 35.185343,
+  lng: 129.222684,
+  title: 'Colis urgent',
+  category: 'Anecdote',
+  description: 'À quelques pas du temple, je fais demi-tour,, recherche d’un coin discret hors du chemin tracé et dépôt du colis.',
+  emoji: '💩'
 }
+
+
 
 
 
