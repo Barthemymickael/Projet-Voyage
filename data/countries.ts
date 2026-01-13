@@ -1124,7 +1124,27 @@ export const COUNTRIES: CountryData[] = [
   category: 'Balade',
   description: 'Village de pêcheur au charme authentique,entouré de cafés concepts et d’hôtels bobo.',
   emoji: '🎣'
+},
+{
+  id: 'm78',
+  lat: 35.180842,
+  lng: 129.202906,
+  title: 'Cafe Lip',
+  category: 'Cuisine',
+  description: 'Bière et pizza avec une vue incroyable sur la plage, canapés confortables et décoration en marbre.',
+  emoji: '🍕'
+},
+{
+  id: 'm79',
+  lat: 35.179126,
+  lng: 129.198230,
+  title: 'Café Boss & Snack',
+  category: 'Cuisine',
+  description: 'Repas du mardi 13 janvier : des ramens, simple et réconfortant.',
+  emoji: '🍜'
 }
+
+
 
 
 
