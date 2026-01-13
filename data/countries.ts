@@ -2040,7 +2040,38 @@ Me voilà enfin à Haeundae, près de Busan, pour une semaine.
 
 Fatigué par cette longue journée de transport, je m’écroule directement dans le lit.`,
   mood: 'Trajet Séoul → Busan et arrivée à Haeundae'
+},
+{
+  id: 'j38',
+  day: 38,
+  title: 'Première journée à Busan',
+  excerpt: `1ère journée à Busan, grasse matinée dans un lit qui possède une couverture chauffante.
+
+Comme je suis arrivée hier de nuit, je n’ai pas pu voir à quoi ressemblait exactement l’auberge. Comme nous sommes à 500 m de la plage, l’auberge est finalement un établissement pensé pour les vacanciers et le surf. Les hôtes vivent au rez-de-chaussée et, à l’étage, il y a 8 chambres, avec toilettes et salle de bain sur le palier. Et au 3ème un roof top avec chaise et transat. 
+
+Dans un contexte de vacances et d’été, ça doit être l’idéal. Ici, la température en juillet/août monte à 30 degrés.
+
+Cependant, nous sommes en janvier : nous sommes 3 et pas de surf à cette période, malgré un grand soleil et une météo qui prévoit 15 degrés jeudi, une température moyenne de 7 degrés sur la semaine.
+
+Seul truc chiant : la douche. Ça fait très douche de plage, avec un sol gelé. Cependant, les serviettes sont fournies et il y a plein de shampoings et gels douche à disposition. Pas de lavabo donc lavage de dent en même temps que la douche et pas de rasage pendant quelques jours.
+
+Road trip oblige, ça ne me dérange pas du tout de loger dans un établissement comme celui-ci, surtout pour une semaine. Mon autre logement, qui sera dans le centre-ville, ressemblera davantage à celui de Séoul et l’ambiance y sera plus studieuse.
+
+Ainsi, je vais rester ici une semaine, ce qui va me permettre d’être proche de l’océan et de me balader sur la plage le soir.
+
+À l’heure du midi, je pars en vadrouille vers la plage. Je prends un petit déjeuner dans un GS25, puis je me balade le long de la plage entre falaises et dunes.
+
+Vue magnifique et grand soleil !
+Comme l’impression d’être en vacances, il ne manque plus que la serviette, le short et les claquettes.
+
+Je dépose un colis en mode van life entre deux arbres, puis, 20 minutes après, je rentre dans le temple Haedong Yonggung, qui possède des toilettes… ahah.
+
+Le temple est magnifique. Je prends un jus d’orange et je contemple la vue, avec le bruit du ressac, tout en écrivant ce texte.
+
+Pour terminer la journée je pars sur la plage proche de mon logement et je regarde la coucher du soleil depuis le café Lip ou je prend une bière et une pizza`,
+  mood: 'Première journée à Busan'
 }
+
 
 
     ]
