@@ -1034,7 +1034,27 @@ export const COUNTRIES: CountryData[] = [
   description:
     'Visite pour le dernier jour à Séoul de la 3ème branche sur 4 du National Museum of Modern and Contemporary Art',
   emoji: '🏛️'
-    }
+    },
+  {
+  id: 'm68',
+  lat: 35.183995,
+  lng: 129.200907,
+  title: 'Mon logement à Haeundae',
+  category: 'Logement',
+  description: 'Logement à Haeundae pour un séjour d’une semaine.',
+  emoji: '🏠'
+},
+{
+  id: 'm69',
+  lat: 35.180347,
+  lng: 129.203398,
+  title: 'Plage de Songjeong',
+  category: 'Activité',
+  description: 'Plage de Songjeong, village surf.',
+  emoji: '🏖️'
+}
+
+
 
 
       
