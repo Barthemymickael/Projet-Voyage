@@ -1087,7 +1087,7 @@ export const COUNTRIES: CountryData[] = [
   title: 'Temple bouddhiste Orangdae',
   category: 'Monument',
   description: 'Temple bouddhiste perché sur un rocher, accessible en marchant sur les rochers au plus près de l’eau.',
-  emoji: '🪷'
+  emoji: '⛩️'
 },
 {
   id: 'm74',
