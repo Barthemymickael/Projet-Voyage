@@ -1142,7 +1142,35 @@ export const COUNTRIES: CountryData[] = [
   category: 'Cuisine',
   description: 'Repas du mardi 13 janvier : des ramens, simple et réconfortant.',
   emoji: '🍜'
+},
+{
+  id: 'm80',
+  lat: 35.164042,
+  lng: 129.196717,
+  title: 'Cheongsapo Daritdol Skywalk',
+  category: 'Activité',
+  description: 'Premier pont en arc de cercle avec sol en verre. Visite de jour et de nuit, aller-retour dans la journée du mardi 13 janvier.',
+  emoji: '🌉'
+},
+{
+  id: 'm81',
+  lat: 35.155817,
+  lng: 129.182684,
+  title: 'Haewol Observatory',
+  category: 'Activité',
+  description: 'Deuxième pont en arc de cercle avec sol en verre. Visite de jour et de nuit, aller-retour le mardi 13 janvier.',
+  emoji: '🌉'
+},
+{
+  id: 'm82',
+  lat: 35.158767,
+  lng: 129.192034,
+  title: 'Cheongsapo Twins Lighthouse',
+  category: 'Activité',
+  description: 'Balade sur la digue du phare blanc avec vue dégagée sur le phare jumeau rouge.',
+  emoji: '🗼'
 }
+
 
 
 
