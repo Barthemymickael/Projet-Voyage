@@ -2147,7 +2147,25 @@ Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales.
 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
 Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum.`,
   mood: 'Lorem ipsum'
+},
+{
+  id: 'j41',
+  day: 41,
+  title: 'Journée chill et musée de la pêche',
+  excerpt: `Aujourd’hui, journée plus chill. Visite du National Fisheries Science Museum, un musée sur les techniques de pêche à travers les siècles, avec pas mal d’infos sur les types de poissons et d’animaux, les courants marins et les températures de l’océan, notamment en Corée du Sud et dans l’océan Pacifique.
+
+Le musée est pensé en grande partie pour les enfants, donc j’avais un peu peur que ce soit trop enfantin. Environ la moitié du musée est traduite en anglais, le reste pas du tout : obligé de sortir le téléphone pour traduire, mais franchement ça ne gêne pas tant que ça.
+
+Environ 1 h de visite.
+
+Ensuite, je vais me poser à mon endroit préféré. Je découvre un chemin qui monte encore plus haut et je m’y pose une vingtaine de minutes.
+
+Puis je redescends me poser face à l’océan, sur une chaise en osier, avec le coucher de soleil.
+
+Chocolat chaud au Coralani : sympa, mais pas de vue directe sur le coucher de soleil.`,
+  mood: 'Musée et détente'
 }
+
 
 
 
