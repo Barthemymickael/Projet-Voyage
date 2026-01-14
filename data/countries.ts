@@ -1223,7 +1223,17 @@ export const COUNTRIES: CountryData[] = [
   category: 'Activité',
   description: 'Visite de ce musée consacré aux techniques de la pêche et au monde marin des côtes coréennes.',
   emoji: '🐟'
+},
+{
+  id: 'm89',
+  lat: 35.185656,
+  lng: 129.213507,
+  title: 'Crique de pêche calme',
+  category: 'Activité',
+  description: 'Endroit calme avec quelques chaises en osier. Calme avec le bruit du ressac.',
+  emoji: '🪑'
 }
+
 
 
 
