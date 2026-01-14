@@ -2070,7 +2070,67 @@ Le temple est magnifique. Je prends un jus d’orange et je contemple la vue, av
 
 Pour terminer la journée je pars sur la plage proche de mon logement et je regarde la coucher du soleil depuis le café Lip ou je prend une bière et une pizza`,
   mood: 'Première journée à Busan'
+},
+{
+  id: 'j39',
+  day: 39,
+  title: 'Côte est de Busan et sentiments contrastés',
+  excerpt: `Jour 39 : 
+
+Départ en fin de matinée, je prends mon petit-déjeuner dans un CU, histoire de faire le plein d’énergie pour cette journée de découverte de l’est de Busan, et plus précisément de sa partie excentrée.
+Direction le gros centre commercial Lotte Premium Outlet.
+
+Pas très fan de l’endroit : c’est grand, trop grand. Heureusement, on est lundi, donc c’est presque vide.
+Je fais ma petite balade pendant 1h30 et décide ensuite de partir à la découverte de ce qu’il y a après le temple que j’ai visité hier.
+
+Je marche 45 minutes le long de la grande avenue, puis je bifurque dans une petite rue et me voilà face à la mer. J’atterris juste après le temple d’hier.
+
+Et pendant presque deux heures, j’ai eu un sentiment étrange vis-à-vis de cette côte.
+En effet, c’est à ce moment-là que je me suis rendu compte que Busan était en réalité la Côte d’Azur coréenne.
+
+Des dizaines et des dizaines de voitures sportives, des bars concept, des hôtels et des lounges de partout.
+On marche cinq minutes, on est dans un vieux port avec son charme et son odeur, puis cinq minutes après, nous voilà sur un port aménagé avec restaurants et cafés hyper luxueux : grandes baies vitrées, rooftops avec transats et poufs.
+
+Je passe devant tous ces établissements et j’ai le FOMO (Fear of Missing Out), l’impression de tout louper.
+
+L’impression est plus que réelle : je vois tous ces gens posés devant leurs cafés à travers les vitres. Je regarde les noms, les cartes, les décos intérieures, puis je passe au suivant.
+
+Tout a l’air bien, mais j’ai l’impression que je vais me tromper en choisissant un établissement plutôt qu’un autre. Et puis, très honnêtement, je ne vais pas m’amuser à payer 3 ou 4 cafés dans l’après-midi juste pour tester différents concepts.
+Les prix sont clairement plus chers qu’ailleurs.
+
+Enfin bref, je continue ma balade sans avoir choisi d’arrêt café et là, j’arrive devant l’un des hôtels les plus grands que j’aie jamais vus de ma vie.
+Des centaines de balcons, des piscines à débordement et, au loin, un tout petit temple perché sur des rochers.
+
+Le contraste est hyper frappant.
+Assez pathétique même : impossible de bien contempler la vue et le temple en sachant que derrière moi il y a cet énorme hôtel.
+Sur 180 degrés, la vue est magnifique, puis on se retourne et là… un immense bloc symétrique et imposant.
+
+J’avais ce sentiment de pouvoir respirer à pleins poumons l’air frais de l’océan, puis, 100 mètres plus loin, d’être complètement bridé par cette architecture massive, et ce sur une bonne partie du chemin de balade le long de la côte.
+C’était assez intéressant la façon dont j’ai vécu cette balade.
+
+Je regarde la map : j’arrive au bout du chemin et, si je continue, je me dirige soit vers le terrain de golf de l’hôtel, soit vers un chemin qui mène à un autre port entouré d’hôtels.
+
+Je décide de contourner l’hôtel immense par le côté route pour ensuite retomber sur l’océan (histoire de faire une boucle et de voir ce qu’il y a derrière l’hôtel).
+
+Eh bien, j’aurais dû juste faire demi-tour et continuer près de l’eau.
+S’en sont suivies 35 minutes de marche le long d’une énorme route, avec plein de bâtiments en construction et des terrains vagues remplis d’engins de chantier.
+Bref, on comprend bien que les hôtels n’ont pas fini de pousser.
+
+Je retombe enfin sur la mer et décide d’entrer dans l’un des cafés qui me laissaient perplexe quelques heures plus tôt. Cette fois-ci, j’en ai choisi un : le God Shot. Trois étages, un rooftop, etc.
+Je prends un chocolat chaud et j’y reste 45 minutes. L’ambiance est très guindée, mais la vue est superbe.
+
+Une fois sorti, j’emprunte le chemin dans les dunes et les falaises, toujours mieux de rentrer par ici que par la route.
+
+J’arrive au point de vue d’hier, je m’y repose et contemple le coucher de soleil.
+Je pense avoir trouvé mon endroit coup de cœur.
+
+Je me balade un peu vers la partie ouest de ma plage, fais demi-tour en me disant que je réserve ça pour demain, ce sera mieux avec la lumière du jour.
+
+Ce soir, ce sera burger. Je suis passé devant l’enseigne ce matin, je vois à peu près où elle se situe. Sur le chemin, mon téléphone s’éteint, plus de batterie, mais je suis dans mon quartier, donc aucun problème de localisation.
+Très bon burger et ambiance chill, avec musique californienne.`,
+  mood: 'Balade côtière et contrastes'
 }
+
 
 
 
