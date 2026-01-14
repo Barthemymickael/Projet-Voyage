@@ -1214,6 +1214,15 @@ export const COUNTRIES: CountryData[] = [
   category: 'Cuisine',
   description: 'Petit déjeuner chaque matin de la semaine du Lundi 11 au Vendredi 16 Janvier,posé devant la fenêtre avant de partir en balade pour la journée.',
   emoji: '🛒'
+},
+{
+  id: 'm88',
+  lat: 35.193434,
+  lng: 129.224313,
+  title: 'National Fisheries Science Museum',
+  category: 'Activité',
+  description: 'Visite de ce musée consacré aux techniques de la pêche et au monde marin des côtes coréennes.',
+  emoji: '🐟'
 }
 
 
