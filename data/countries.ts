@@ -2075,9 +2075,7 @@ Pour terminer la journée je pars sur la plage proche de mon logement et je rega
   id: 'j39',
   day: 39,
   title: 'Côte est de Busan et sentiments contrastés',
-  excerpt: `Jour 39 : 
-
-Départ en fin de matinée, je prends mon petit-déjeuner dans un CU, histoire de faire le plein d’énergie pour cette journée de découverte de l’est de Busan, et plus précisément de sa partie excentrée.
+  excerpt: `Départ en fin de matinée, je prends mon petit-déjeuner dans un CU, histoire de faire le plein d’énergie pour cette journée de découverte de l’est de Busan, et plus précisément de sa partie excentrée.
 Direction le gros centre commercial Lotte Premium Outlet.
 
 Pas très fan de l’endroit : c’est grand, trop grand. Heureusement, on est lundi, donc c’est presque vide.
