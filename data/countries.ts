@@ -1232,7 +1232,17 @@ export const COUNTRIES: CountryData[] = [
   category: 'Activité',
   description: 'Endroit calme avec quelques chaises en osier. Calme avec le bruit du ressac.',
   emoji: '🪑'
+},
+{
+  id: 'm90',
+  lat: 35.182415,
+  lng: 129.208878,
+  title: 'Coralani café',
+  category: 'Cuisine',
+  description: 'Café rooftop 4 étages vue sur mer',
+  emoji: '☕'
 }
+
 
 
 
