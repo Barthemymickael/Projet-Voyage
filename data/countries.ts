@@ -2160,22 +2160,35 @@ Très bon burger et ambiance chill, avec musique californienne.`,
 {
   id: 'j40',
   day: 40,
-  title: 'Lorem ipsum dolor sit amet',
-  excerpt: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+  title: 'Randonnée côtière de Songjeong à Haeundae',
+  excerpt: `Départ vers l’heure de midi. Petit-déj au CU : Monster, cookie, barre protéinée… et c’est parti pour une énorme randonnée.
 
-Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.
-Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
+Départ de Songjeong Beach jusqu’à Haeundae Beach (18 km aller-retour).
 
-Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim.
-Pellentesque congue. Ut in risus volutpat libero pharetra tempor.
+Ce chemin le long de la côte est juste parfait. Une allée en bois a été construite sur presque 9 km, avec une ligne de chemin de fer qui accompagne tout le parcours.
 
-Cras vestibulum bibendum augue. Praesent egestas leo in pede.
-Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales.
+C’est un petit train assez ancien, qui roule à environ 20 km/h et traverse trois petites villes côtières entre mon point de départ et mon arrivée (Songjeong – Cheongsapo – Mipo).
 
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum.`,
-  mood: 'Lorem ipsum'
+En gros, c’est un train qui permet aux habitants de la ville et des gratte-ciel d’aller très facilement dans des villages côtiers et vacanciers comme celui où je me trouve. Et inversement.
+
+Bref, après environ 2 heures de marche, avec quelques petites pauses sur des ponts en arc de cercle vitrés, j’arrive enfin à Haeundae Beach. La plage est belle, il fait beau. Première fois que je vois des gratte-ciel juste en face d’une plage, c’est assez impressionnant.
+
+Je regarde autour de moi : la plage est vivante, l’ambiance est cool, le soleil commence à se coucher. J’ai envie de trouver un bon spot pour en profiter. Je vois qu’au bout de la plage, côté ouest, il y a un parc qui pourrait offrir un point de vue imprenable sur le coucher de soleil.
+
+Environ 20 à 25 minutes pour faire le tour du parc, avec des escaliers qui longent la côte. Je finis par me poser devant une vue aménagée spécialement pour le coucher du soleil. C’était vraiment joli : le soleil disparaît derrière un pont et quelques buildings.
+
+Aux dernières lueurs, je fais le chemin inverse et je redécouvre la plage de Haeundae, baignée de magnifiques couleurs, avec les lumières des immeubles qui commencent à s’allumer.
+
+Balade de 30 minutes au bord de l’eau, la nuit tombe petit à petit. Il est temps de rentrer, en sachant qu’il me reste encore toute la route du retour.
+
+Mais finalement, ce n’était pas si compliqué. Musique dans les oreilles, presque seul au monde pendant tout le trajet. J’ai adoré cette ambiance nocturne, marcher pendant 2 heures dans le calme.
+
+J’arrive enfin près de mon quartier. Direction un ramen, puis un café pour boire un lait à la fraise accompagné d’un cookie.
+
+Plus de jambes.
+30 500 pas aujourd’hui, 18 km de marche.
+Sacrée journée. J’en ai pris plein la vue.`,
+  mood: 'Randonnée et coucher de soleil'
 },
 {
   id: 'j41',
