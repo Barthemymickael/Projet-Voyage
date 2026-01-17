@@ -2196,7 +2196,7 @@ Sacrée journée. J’en ai pris plein la vue.`,
   title: 'Journée chill et musée de la pêche',
   excerpt: `Aujourd’hui, journée plus chill. Visite du National Fisheries Science Museum, un musée sur les techniques de pêche à travers les siècles, avec pas mal d’infos sur les types de poissons et d’animaux, les courants marins et les températures de l’océan, notamment en Corée du Sud et dans l’océan Pacifique.
 
-Le musée est pensé en grande partie pour les enfants, donc j’avais un peu peur que ce soit trop enfantin. Environ la moitié du musée est traduite en anglais, le reste pas du tout : obligé de sortir le téléphone pour traduire, mais franchement ça ne gêne pas tant que ça.
+Le musée est pensé en grande partie pour les enfants, donc j’avais un peu peur que ce soit trop enfantin. Environ la moitié du musée est traduite en anglais, le reste pas du tout : obligé de sortir le téléphone pour traduire, mais franchement, ça ne gêne pas tant que ça.
 
 Environ 1 h de visite.
 
@@ -2211,24 +2211,24 @@ Chocolat chaud au Coralani : sympa, mais pas de vue directe sur le coucher de so
   id: 'j42',
   day: 42,
   title: 'Daebyeon, pêche et dernier coucher de soleil',
-  excerpt: `Départ en début d’après midi direction Daebyeon un village strictement tourné autour de la pêche ! 
+  excerpt: `Départ en début d’après-midi direction Daebyeon, un village strictement tourné autour de la pêche ! 
 
-Le bus me dépose juste à l’entrée du port, je marche tranquillement entre les personnes qui pêchent et les étales justes derrières les pêcheurs, de vieilles dame qui lave, et dépense les poissons et autre prises.
+Le bus me dépose juste à l’entrée du port. Je marche tranquillement entre les personnes qui pêchent et les étals juste derrière les pêcheurs : de vieilles dames qui lavent et dépensent les poissons et autres prises.
 
-Je me dirige vers le phare iconique de la ville à l’effigie de la coupe du monde de foot de 2002 ( qui fut origine en Corée du Sud et au Japon) 
+Je me dirige vers le phare iconique de la ville, à l’effigie de la Coupe du monde de foot de 2002 (qui fut organisée en Corée du Sud et au Japon).
 
-Malheureusement la digue haute était fermé, peut être trop de vent alors je me suis contenté de la digue basse là où une trentaine de pêcheur attendez patiemment leurs prise.
-Énormément de vent à cet endroit, mais c’était très sympa de me balader ici avec un grand soleil et une température agréable : 16 degrés ! J’ai quand même pu voir le phare même si je n’étais pas pile en face. 
+Malheureusement, la digue haute était fermée, peut-être à cause du vent, alors je me suis contenté de la digue basse, là où une trentaine de pêcheurs attendaient patiemment leurs prises.
+Énormément de vent à cet endroit, mais c’était très sympa de me balader ici avec un grand soleil et une température agréable : 16 degrés ! J’ai quand même pu voir le phare, même si je n’étais pas pile en face.
 
-Je reviens à l’entrée du port, reprend un bus direction le musée national de la science de Busan.
-Encore une fois il est annoncé qu’il est tourné pour les enfants avec cependant quelques espaces intéressants pour les adultes. 
+Je reviens à l’entrée du port, reprends un bus direction le Musée national de la science de Busan.
+Encore une fois, il est annoncé qu’il est tourné pour les enfants, avec cependant quelques espaces intéressants pour les adultes.
 
-Bon, le musée était vraiment accés pour l’apprentissage des enfants à la science de base (Poussé d’archimede, force cinétique ect) mais une partie plus intéressent dans la dernière exposition, les équipements volant et l’espace) il y  avait des simulateur de pilotage de drone, d’avions et des maquettes de l’iss et de quelques fusées. 
+Bon, le musée était vraiment axé sur l’apprentissage des enfants à la science de base (poussée d’Archimède, force cinétique, etc.), mais une partie plus intéressante se trouvait dans la dernière exposition : les équipements volants et l’espace. Il y avait des simulateurs de pilotage de drones, d’avions, ainsi que des maquettes de l’ISS et de quelques fusées.
 
-Activité sympathique mais sans plus. 
+Activité sympathique, mais sans plus.
 
-Je pars ensuite me poser sur ma chaise en osier à côté de mon endroit préféré. 
-Derniers couché de soleil ici, j’y reste une bonne demie heure et je pars manger`,
+Je pars ensuite me poser sur ma chaise en osier à côté de mon endroit préféré.
+Dernier coucher de soleil ici, j’y reste une bonne demi-heure et je pars manger.`,
   mood: 'Village de pêche et coucher de soleil'
 },
 {
