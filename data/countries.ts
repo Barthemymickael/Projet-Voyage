@@ -1241,7 +1241,62 @@ export const COUNTRIES: CountryData[] = [
   category: 'Cuisine',
   description: 'Café rooftop 4 étages vue sur mer',
   emoji: '☕'
+},
+{
+  id: 'm91',
+  lat: 35.215503,
+  lng: 129.233434,
+  title: 'World Cup Lighthouse',
+  category: 'Balade',
+  description: 'Balade sur la digue animée par de nombreux pêcheurs, avec une vue impressionnante sur le phare depuis le bas.',
+  emoji: '🗼'
+},
+{
+  id: 'm92',
+  lat: 35.224612,
+  lng: 129.228643,
+  title: 'Daebyeon',
+  category: 'Balade',
+  description: 'Véritable village de pêcheurs avec bateaux, étals de poissons et odeurs marines omniprésentes.',
+  emoji: '🎣'
+},
+{
+  id: 'm93',
+  lat: 35.204695,
+  lng: 129.212687,
+  title: 'Busan National Science Museum',
+  category: 'Activité',
+  description: 'Musée national des sciences, plutôt orienté pour les enfants mais agréable et intéressant à visiter.',
+  emoji: '🧪'
+},
+{
+  id: 'm94',
+  lat: 35.180919,
+  lng: 129.204384,
+  title: 'Cafe Moon Toast',
+  category: 'Cuisine',
+  description: 'Toast coréen à emporter, dégusté sur la plage pour la dernière soirée à Busan.',
+  emoji: '🥪'
+},
+{
+  id: 'm95',
+  lat: 35.168486,
+  lng: 129.159081,
+  title: 'Haeunjeongsa',
+  category: 'Balade',
+  description: 'Temple paisible niché au milieu des buildings, offrant un contraste saisissant avec l’agitation urbaine.',
+  emoji: '⛩️'
+},
+{
+  id: 'm96',
+  lat: 35.153180,
+  lng: 129.118663,
+  title: 'Gwangalli Beach',
+  category: 'Balade',
+  description: 'Deuxième plage la plus connue de Corée du Sud, à l’ambiance différente de Haeundae, avec une vue iconique sur le pont Gwangan.',
+  emoji: '🌉'
 }
+
 
 
 
