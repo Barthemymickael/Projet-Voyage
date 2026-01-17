@@ -366,7 +366,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                             <div className="flex items-start gap-3">
                                 <span className="text-lg">💪</span>
                                 <div>
-                                    <p className="font-semibold text-white">Abonnement salle de sport</p>
+                                    <p className="font-semibold text-white">Abonnement salle de sport (décembre)</p>
                                     <p className="text-sm text-white/80"> 50 000 ₩ ≈ 29 € pour le mois</p>
                                 </div>
                             </div>
@@ -402,7 +402,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                                 <span className="text-lg">🎵</span>
                                 <div>
                                     <p className="font-semibold text-white">La musique que j'écoute en boucle</p>
-                                    <p className="text-sm text-white/80">Plush - Stone Temple Pilots (1992)</p>
+                                    <p className="text-sm text-white/80">Until We Rich - Ice Cube (2000)</p>
                                 </div>
                             </div>
                         </div>
