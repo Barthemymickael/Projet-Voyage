@@ -2206,7 +2206,100 @@ Puis je redescends me poser face à l’océan, sur une chaise en osier, avec le
 
 Chocolat chaud au Coralani : sympa, mais pas de vue directe sur le coucher de soleil.`,
   mood: 'Musée et détente'
+},
+{
+  id: 'j42',
+  day: 42,
+  title: 'Daebyeon, pêche et dernier coucher de soleil',
+  excerpt: `Jour 42
+Départ en début d’après midi direction Daebyeon un village strictement tourné autour de la pêche ! 
+
+Le bus me dépose juste à l’entrée du port, je marche tranquillement entre les personnes qui pêchent et les étales justes derrières le pêcheurs, de vieilles dame qui lave, et dépense les poissons et autre prises.
+
+Je me dirige vers le phare iconique de la ville à l’effigie de la coupe du monde de foot de 2002 ( qui fut origine en Corée du Sud et au Japon) 
+
+Malheureusement la digue haute était fermé, peut être trop de vent alors je me suis contenté de la digue basse là où une trentaine de pêcheur attendez patiemment leurs prise.
+Énormément de vent à cet endroit, mais c’était très sympa de me balader ici avec un grand soleil et une température agréable : 16 degrés ! J’ai quand même pu voir le phare même si je n’étais pas pile en face. 
+
+Je reviens à l’entrée du port, reprend un bus direction le musée national de la science de Busan.
+Encore une fois il est annoncé qu’il est tourné pour les enfants avec cependant quelques espaces intéressants pour les adultes. 
+
+Bon, le musée était vraiment accés pour l’apprentissage des enfants à la science de base (Poussé d’archimede, force cinétique ect) mais une partie plus intéressent dans la dernière exposition, les équipements volant et l’espace) il y  avait des simulateur de pilotage de drone, d’avions et des maquettes de l’iss et de quelques fusées. 
+
+Activité sympathique mais sans plus. 
+
+Je pars ensuite me poser sur ma chaise en osier à côté de mon endroit préféré. 
+Derniers couché de soleil ici, j’y reste une bonne demie heure et je pars manger`,
+  mood: 'Village de pêche et coucher de soleil'
+},
+{
+  id: 'j43',
+  day: 43,
+  title: 'Dernière journée à Songjeong',
+  excerpt: `Jour 43 
+
+Dernière journée à Soagjong je sais déjà où je vais manger ce soir car en début de semaine quand j’ai voulu aller dans ce street food il ne prenait que du cash.
+Je me suis promi d’y retourner pour pouvoir manger ces minis sandwiches coréen sur la plage.
+
+Le petit déjeuner c’est fait rapidement au CU et me voilà parti pour 4h de marche entre mon airbnb et la plage Gwangalli Beach. Comme c’est ma dernière journée ici, j’en ai profité pour refaire le chemin en bois plutôt que de prendre les petits trains et capsules que je testerai plus tard.
+
+Je vois sur la map un petit temple un peu isolé des grands bâtiments de Haeundae Beach, le Haeunjeonsga Temple, extrêmement calme et comme toujours un beau paradoxe entre modernité et tradition ici.
+
+Je pars ensuite visiter Marine City, une ville construite sur la mer, qui est l’un des quartiers le plus chic et luxueux de Busan, 3 énorme buildings et un parc au pied. 
+Assez agréable et dérangeant d’être entouré d’autant de bâtiments.
+
+Je pars ensuite à la plage de Gwangalli Beach, c’est la deuxième plage la plus connue après Haeundae beach, le décors est un poil différent, moins de grand buildings en fond mais pas mal de bâtiments type restaurants et autre commerce. 
+Je reste 1h ici entre tranquillité sur un banc et balade au bord de l’eau, à 18h le Busan Gwangandaegyo Bridge s’est illuminé et des petits feux d’artifice était tiré par des bateaux en dessous du pont.
+
+Ambiance très cool, énormément de jeune se pose avec des trépieds tout le long de la plage pour y faire des photos ou des chorégraphies TikTok.
+
+Je prends mon bus pour 1h de trajet pour ensuite manger ce fameux sandwich coréen 
+devant la plage tout en écoutant un jeune artiste chanter sur la plage.
+
+Je pars ensuite me poser au 3eme étage du café lip avec une bière comme au premier jour.
+La boucle est bouclée : Épanadiplose 
+
+Pour finir, balade de nuit sur la plage éclairé, mains dans le poches, écouteurs aux oreilles !
+
+Très content d’avoir pu séjourner ici une semaine. Je ferai mon bilan demain`,
+  mood: 'Dernière journée et boucle bouclée'
+},
+{
+  id: 'j44',
+  day: 44,
+  title: 'Jour de transition et bilan à Songjeong',
+  excerpt: `Jour 44 
+
+Aujourd’hui est un jour de transition : je change d’Airbnb. Je troque l’ambiance balnéaire et plage contre un Airbnb situé dans les hauteurs de Busan, plus proche du centre. Mais je ne quitte pas vraiment la plage : elle restera accessible en 45 minutes de métro.
+
+Je quitte le logement à 11h avec mes deux sacs à dos, prend le métro et me pose dans un café et attends tranquillement l’heure d’entrée dans le nouveau logement, à 15h.
+
+Je vais rester dans ce logement pendant 3 semaines, et cela signera la fin de mon aventure en Corée du Sud 
+
+Trois semaines dans un quartier étudiant, tout près du métro et des bus, ce qui me permettra de partir plus facilement à la découverte des marchés, musées et autres lieux touristiques.
+
+Bilan après 1 semaine à Songjeong :
+
+Ici, l’ambiance vacances est au rendez-vous chaque jour.
+J’ai vu la plage et les couchers de soleil tous les jours de la semaine.
+Dans les dunes, sur une chaise au bord de l’eau, dans un café… et bien sûr lors de mes escapades à Haeundae et Gwangalli.
+
+Cependant, tout est plus cher ici
+Ville touristique oblige, la ville devient plus calme à 20h. Beaucoup d’établissements ferment ou ne proposent plus de plats en cuisine à cette heure-ci (hiver + pleine semaine).
+Le week-end, la ville devient une attraction hyper touristique et ultra vivante.
+
+De plus, Impossible de manger dans mon auberge : il n’y a ni espace avec des tables, ni bureau dans la chambre pour manger tranquillement et pas assez de place pour faire quelques exercices.
+Dans les cafés, les gens sont davantage là pour discuter que pour travailler sur leur PC.
+
+Et en plus, je suis tombé sur LA bonne semaine pour être près de la plage : dans trois jours, les températures vont chuter jusqu’à -7°C la nuit et 2°C en journée.
+
+Pour conclure hyper content d’avoir eu cette parenthèse balnéaire. 
+L’océan fait un bien fou, que ça soit à Cherbourg, à Biarritz, en Espagne ou ici, être proche de l’eau, des plages, des ports est vraiment hyper ressourçant !`,
+  mood: 'Transition et bilan'
 }
+
+
+
 
 
 
