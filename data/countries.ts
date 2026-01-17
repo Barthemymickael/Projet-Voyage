@@ -1304,7 +1304,17 @@ export const COUNTRIES: CountryData[] = [
   category: 'Balade',
   description: 'Ville construite sur l’eau, dominée par trois impressionnants buildings de verre aux lignes futuristes.',
   emoji: '🏙️'
+},
+{
+  id: 'm98',
+  lat: 35.229073,
+  lng: 129.087212,
+  title: 'Deuxième logement à Busan',
+  category: 'Logement',
+  description: 'Deuxième logement à Busan pour trois semaines, situé dans un quartier étudiant à deux pas du métro, entouré de très nombreux cafés et restaurants.',
+  emoji: '🏠'
 }
+
 
 
 
