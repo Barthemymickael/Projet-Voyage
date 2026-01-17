@@ -1295,7 +1295,17 @@ export const COUNTRIES: CountryData[] = [
   category: 'Balade',
   description: 'Deuxième plage la plus connue de Corée du Sud, à l’ambiance différente de Haeundae, avec une vue iconique sur le pont Gwangan.',
   emoji: '🌉'
+},
+{
+  id: 'm97',
+  lat: 35.156683,
+  lng: 129.145100,
+  title: 'Marine City',
+  category: 'Balade',
+  description: 'Ville construite sur l’eau, dominée par trois impressionnants buildings de verre aux lignes futuristes.',
+  emoji: '🏙️'
 }
+
 
 
 
