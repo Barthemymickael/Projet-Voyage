@@ -2211,10 +2211,9 @@ Chocolat chaud au Coralani : sympa, mais pas de vue directe sur le coucher de so
   id: 'j42',
   day: 42,
   title: 'Daebyeon, pêche et dernier coucher de soleil',
-  excerpt: `Jour 42
-Départ en début d’après midi direction Daebyeon un village strictement tourné autour de la pêche ! 
+  excerpt: `Départ en début d’après midi direction Daebyeon un village strictement tourné autour de la pêche ! 
 
-Le bus me dépose juste à l’entrée du port, je marche tranquillement entre les personnes qui pêchent et les étales justes derrières le pêcheurs, de vieilles dame qui lave, et dépense les poissons et autre prises.
+Le bus me dépose juste à l’entrée du port, je marche tranquillement entre les personnes qui pêchent et les étales justes derrières les pêcheurs, de vieilles dame qui lave, et dépense les poissons et autre prises.
 
 Je me dirige vers le phare iconique de la ville à l’effigie de la coupe du monde de foot de 2002 ( qui fut origine en Corée du Sud et au Japon) 
 
@@ -2236,9 +2235,7 @@ Derniers couché de soleil ici, j’y reste une bonne demie heure et je pars man
   id: 'j43',
   day: 43,
   title: 'Dernière journée à Songjeong',
-  excerpt: `Jour 43 
-
-Dernière journée à Soagjong je sais déjà où je vais manger ce soir car en début de semaine quand j’ai voulu aller dans ce street food il ne prenait que du cash.
+  excerpt: `Dernière journée à Soagjong je sais déjà où je vais manger ce soir car en début de semaine quand j’ai voulu aller dans ce street food il ne prenait que du cash.
 Je me suis promi d’y retourner pour pouvoir manger ces minis sandwiches coréen sur la plage.
 
 Le petit déjeuner c’est fait rapidement au CU et me voilà parti pour 4h de marche entre mon airbnb et la plage Gwangalli Beach. Comme c’est ma dernière journée ici, j’en ai profité pour refaire le chemin en bois plutôt que de prendre les petits trains et capsules que je testerai plus tard.
@@ -2268,9 +2265,7 @@ Très content d’avoir pu séjourner ici une semaine. Je ferai mon bilan demain
   id: 'j44',
   day: 44,
   title: 'Jour de transition et bilan à Songjeong',
-  excerpt: `Jour 44 
-
-Aujourd’hui est un jour de transition : je change d’Airbnb. Je troque l’ambiance balnéaire et plage contre un Airbnb situé dans les hauteurs de Busan, plus proche du centre. Mais je ne quitte pas vraiment la plage : elle restera accessible en 45 minutes de métro.
+  excerpt: `Aujourd’hui est un jour de transition : je change d’Airbnb. Je troque l’ambiance balnéaire et plage contre un Airbnb situé dans les hauteurs de Busan, plus proche du centre. Mais je ne quitte pas vraiment la plage : elle restera accessible en 45 minutes de métro.
 
 Je quitte le logement à 11h avec mes deux sacs à dos, prend le métro et me pose dans un café et attends tranquillement l’heure d’entrée dans le nouveau logement, à 15h.
 
