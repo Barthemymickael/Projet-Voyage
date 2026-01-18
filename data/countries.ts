@@ -404,13 +404,13 @@ export const COUNTRIES: CountryData[] = [
 {
   id: 't37',
   date: 'Jour 37 (10 440 pas)',
-  title: 'Trajet Séoul → Busan et arrivée à Haeundae',
+  title: 'Trajet Séoul → Busan et arrivée à Songjeong',
   description:
     'Journée de transport pour traverser le pays et rejoindre Busan.',
   bullets: [
     'Bus Séoul → Busan (4h de trajet)',
     'Petit stress à la station de bus',
-    'Arrivée à Haeundae en soirée',
+    'Arrivée à Songjeong en soirée',
     'Installation et repos'
   ]
 },
