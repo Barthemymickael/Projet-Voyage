@@ -1294,7 +1294,7 @@ export const COUNTRIES: CountryData[] = [
   title: 'Gwangalli Beach',
   category: 'Balade',
   description: 'Deuxième plage la plus connue de Corée du Sud, à l’ambiance différente de Haeundae, avec une vue iconique sur le pont Gwangan.',
-  emoji: '🌉'
+  emoji: '🏖️'
 },
 {
   id: 'm97',
