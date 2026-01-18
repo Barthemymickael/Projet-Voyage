@@ -2399,7 +2399,10 @@ L’océan fait un bien fou, que ce soit à Cherbourg, à Biarritz, en Espagne o
   day: 45,
   title: 'Nouveau logement et mémoire de la guerre',
   excerpt: `Premier réveil dans ce nouveau logement, et il ressemble énormément à celui que j’avais à Séoul, mais cette fois-ci avec une exposition plein sud. En plus, plein d’objets sont déjà disponibles dans l’appartement : serviettes, papier toilette, télé, gel douche et shampoing, quelques câbles, une trousse de premiers secours, des assiettes, des couverts et même du matériel de cuisine… Bref, une vraie location Airbnb.
-Réveil très chill. Je peux reprendre tranquillement mon petit rituel : petit-déjeuner sur le bureau devant une vidéo YouTube, puis me poser devant une série le soir avant de me coucher.
+Réveil très chill. 
+
+Je peux reprendre tranquillement mon petit rituel : petit-déjeuner sur le bureau devant une vidéo YouTube, puis me poser devant une série le soir avant de me coucher.
+
  Petit bonus non négligeable : une petite lumière au-dessus du lit, parfaite pour lire le soir.
 
 Enfin bref, je suis bien installé. Il fait bon dans l’appart, et j’ai déjà ma liste de choses à faire et à voir pour les 3 prochaines semaines :) Je me garde volontairement quelques activités pour la dernière semaine, comme j’avais pu le faire à Séoul.
