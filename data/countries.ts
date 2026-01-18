@@ -367,7 +367,6 @@ export const COUNTRIES: CountryData[] = [
   title: 'Lorem ipsum dolor sit',
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  video: 'https://youtube.com/watch?v=lorem34'
 },
 {
   id: 't35',
@@ -380,7 +379,6 @@ export const COUNTRIES: CountryData[] = [
     'Consectetur adipiscing elit',
     'Sed do eiusmod tempor'
   ],
-  video: 'https://youtube.com/watch?v=lorem35'
 },
 {
   id: 't36',
@@ -388,7 +386,6 @@ export const COUNTRIES: CountryData[] = [
   title: 'Sed do eiusmod tempor',
   description:
     'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-  video: 'https://youtube.com/watch?v=lorem36'
 },
 {
   id: 't37',
@@ -396,7 +393,6 @@ export const COUNTRIES: CountryData[] = [
   title: 'Incididunt ut labore',
   description:
     'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  video: 'https://youtube.com/watch?v=lorem37'
 },
 {
   id: 't38',
@@ -407,7 +403,6 @@ export const COUNTRIES: CountryData[] = [
     'Ut enim ad minim veniam',
     'Quis nostrud exercitation'
   ],
-  video: 'https://youtube.com/watch?v=lorem38'
 },
 {
   id: 't39',
@@ -415,7 +410,6 @@ export const COUNTRIES: CountryData[] = [
   title: 'Ullamco laboris nisi',
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
-  video: 'https://youtube.com/watch?v=lorem39'
 },
 {
   id: 't40',
@@ -423,7 +417,6 @@ export const COUNTRIES: CountryData[] = [
   title: 'Aliquip ex ea commodo',
   description:
     'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-  video: 'https://youtube.com/watch?v=lorem40'
 },
 {
   id: 't41',
@@ -434,7 +427,6 @@ export const COUNTRIES: CountryData[] = [
     'In reprehenderit in voluptate',
     'Velit esse cillum'
   ],
-  video: 'https://youtube.com/watch?v=lorem41'
 },
 {
   id: 't42',
@@ -442,7 +434,6 @@ export const COUNTRIES: CountryData[] = [
   title: 'Fugiat nulla pariatur',
   description:
     'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.',
-  video: 'https://youtube.com/watch?v=lorem42'
 },
 {
   id: 't43',
@@ -460,7 +451,6 @@ export const COUNTRIES: CountryData[] = [
     'Consectetur adipiscing elit',
     'Sed do eiusmod tempor incididunt'
   ],
-  video: 'https://youtube.com/watch?v=lorem44'
 },
 {
   id: 't45',
@@ -468,7 +458,6 @@ export const COUNTRIES: CountryData[] = [
   title: 'Lorem ipsum final',
   description:
     'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-  video: 'https://youtube.com/watch?v=lorem45'
 }
 
     ],
