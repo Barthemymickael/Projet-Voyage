@@ -361,104 +361,170 @@ export const COUNTRIES: CountryData[] = [
         video: 'https://www.youtube.com/watch?v=rZe7VnzSLcA'
 
       },
-      {
+    {
   id: 't34',
   date: 'Jour 34 (1 683 pas)',
-  title: 'Lorem ipsum dolor sit',
+  title: 'Grosse lessive et travail sur les projets',
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    'Retour du grand froid et journée très calme, consacrée au travail sur mes projets personnels.',
+  bullets: [
+    'Travail sur le projet jusqu’en fin d’après-midi',
+    'Lessive et lecture au lavomatique',
+    'Salle à 21h : séance épaules'
+  ]
 },
 {
   id: 't35',
   date: 'Jour 35 (6 337 pas)',
-  title: 'Consectetur adipiscing elit',
+  title: 'Séoul Sky – Lotte Tower et cocktail à 500 m',
   description:
-    'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    'Dernière grande activité à Séoul, sous un ciel parfaitement dégagé : montée au sommet de la Lotte Tower et long moment de contemplation.',
   bullets: [
-    'Lorem ipsum dolor sit amet',
-    'Consectetur adipiscing elit',
-    'Sed do eiusmod tempor'
-  ],
+    'Montée à la Lotte Tower (555 m)',
+    'Coucher de soleil et vue à plus de 30 km',
+    'Cocktail Mai Tai au lounge du 123e étage',
+    'Derniers regards sur Séoul et la Han River',
+    'Salle à 22h : séance bras'
+  ]
 },
 {
   id: 't36',
   date: 'Jour 36 (13 050 pas)',
-  title: 'Sed do eiusmod tempor',
+  title: 'Dernier jour à Séoul – MMCA Seoul Land',
   description:
-    'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+    'Dernier jour à Séoul avec la visite de la 3e branche du National Museum of Modern and Contemporary Art, perdue entre montagnes et parc.',
+  bullets: [
+    'Trajet excentré vers Seoul Land',
+    'Visite du MMCA (3 étages, 6 expositions)',
+    'Découverte de l’évolution de l’art coréen',
+    'Dernière séance à Séoul',
+    'Salle à 21h : séance pecs'
+  ]
 },
 {
   id: 't37',
   date: 'Jour 37 (10 440 pas)',
-  title: 'Incididunt ut labore',
+  title: 'Trajet Séoul → Busan et arrivée à Haeundae',
   description:
-    'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    'Journée de transport pour traverser le pays et rejoindre Busan.',
+  bullets: [
+    'Bus Séoul → Busan (4h de trajet)',
+    'Petit stress à la station de bus',
+    'Arrivée à Haeundae en soirée',
+    'Installation et repos'
+  ]
 },
 {
   id: 't38',
   date: 'Jour 38 (16 140 pas)',
-  title: 'Magna aliqua',
+  title: 'Première journée à Busan',
+  description:
+    'Découverte de Busan et de son ambiance balnéaire, entre plage, temples et cafés.',
   bullets: [
-    'Lorem ipsum dolor sit amet',
-    'Ut enim ad minim veniam',
-    'Quis nostrud exercitation'
-  ],
+    'Découverte du logement à Haeundae',
+    'Balade le long de la plage',
+    'Visite du temple Haedong Yonggung',
+    'Coucher de soleil face à l’océan',
+    'Pizza et bière en bord de mer'
+  ]
 },
 {
   id: 't39',
   date: 'Jour 39 (22 789 pas)',
-  title: 'Ullamco laboris nisi',
+  title: 'Côte est de Busan et contrastes',
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
+    'Longue balade le long de la côte est, entre ports traditionnels et complexes ultra luxueux.',
+  bullets: [
+    'Balade après Lotte Premium Outlet',
+    'Découverte de la côte est de Busan',
+    'Contrastes forts entre nature et urbanisme',
+    'Pause café au God Shot',
+    'Burger le soir'
+  ]
 },
 {
   id: 't40',
   date: 'Jour 40 (30 507 pas)',
-  title: 'Aliquip ex ea commodo',
+  title: 'Randonnée côtière Songjeong → Haeundae',
   description:
-    'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    'Grosse journée de marche le long de la côte, entre villages, plages et couchers de soleil.',
+  bullets: [
+    'Randonnée Songjeong – Haeundae (18 km A/R)',
+    'Chemin en bois le long de la mer',
+    'Coucher de soleil à Haeundae Beach',
+    'Retour de nuit en musique',
+    'Ramen et café pour terminer'
+  ]
 },
 {
   id: 't41',
   date: 'Jour 41 (14 973 pas)',
-  title: 'Consequat duis aute',
+  title: 'Journée chill et musée de la pêche',
+  description:
+    'Journée plus calme, entre musée et moments de détente face à l’océan.',
   bullets: [
-    'Duis aute irure dolor',
-    'In reprehenderit in voluptate',
-    'Velit esse cillum'
-  ],
+    'Visite du National Fisheries Science Museum',
+    'Balade et pauses face à la mer',
+    'Coucher de soleil',
+    'Chocolat chaud au Coralani'
+  ]
 },
 {
   id: 't42',
   date: 'Jour 42 (18 939 pas)',
-  title: 'Fugiat nulla pariatur',
+  title: 'Village de pêche de Daebyeon',
   description:
-    'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.',
+    'Découverte d’un village entièrement tourné vers la pêche, puis visite d’un musée scientifique.',
+  bullets: [
+    'Balade dans le port de Daebyeon',
+    'Observation des pêcheurs et étals',
+    'Vue sur le phare Coupe du monde 2002',
+    'Visite du National Science Museum of Busan',
+    'Dernier coucher de soleil à Songjeong'
+  ]
 },
 {
   id: 't43',
   date: 'Jour 43 (25 176 pas)',
-  title: 'Mollit anim id est',
+  title: 'Dernière journée à Songjeong',
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.'
+    'Derniers pas dans le quartier balnéaire, entre longues marches, plages et ambiance nocturne.',
+  bullets: [
+    'Marche jusqu’à Gwangalli Beach',
+    'Visite de Marine City',
+    'Coucher de soleil et feux d’artifice',
+    'Street food coréenne sur la plage',
+    'Balade nocturne'
+  ]
 },
 {
   id: 't44',
   date: 'Jour 44 (8 773 pas)',
-  title: 'Laborum sed ut',
+  title: 'Transition et bilan à Songjeong',
+  description:
+    'Changement de logement et bilan de la semaine passée près de l’océan.',
   bullets: [
-    'Lorem ipsum dolor sit amet',
-    'Consectetur adipiscing elit',
-    'Sed do eiusmod tempor incididunt'
-  ],
+    'Départ de Songjeong',
+    'Installation dans un quartier étudiant',
+    'Bilan de la semaine balnéaire',
+    'Derniers regards sur l’océan'
+  ]
 },
 {
   id: 't45',
   date: 'Jour 45 (13 684 pas)',
-  title: 'Lorem ipsum final',
+  title: 'Nouveau logement et mémoire de la guerre',
   description:
-    'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    'Installation définitive à Busan et journée marquée par l’histoire et la mémoire.',
+  bullets: [
+    'Installation dans le nouveau logement',
+    'Visite du Busan Museum',
+    'Visite du UN Memorial Cemetery Korea',
+    'Moment de recueillement',
+    'Coucher de soleil à Gwangalli Beach'
+  ]
 }
+
 
     ],
     markers: [
