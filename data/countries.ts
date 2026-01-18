@@ -363,7 +363,7 @@ export const COUNTRIES: CountryData[] = [
       },
       {
   id: 't34',
-  date: 'Jour 34 (X XXX pas)',
+  date: 'Jour 34 (1 683 pas)',
   title: 'Lorem ipsum dolor sit',
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -371,7 +371,7 @@ export const COUNTRIES: CountryData[] = [
 },
 {
   id: 't35',
-  date: 'Jour 35 (X XXX pas)',
+  date: 'Jour 35 (6 337 pas)',
   title: 'Consectetur adipiscing elit',
   description:
     'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
@@ -384,7 +384,7 @@ export const COUNTRIES: CountryData[] = [
 },
 {
   id: 't36',
-  date: 'Jour 36 (X XXX pas)',
+  date: 'Jour 36 (13 050 pas)',
   title: 'Sed do eiusmod tempor',
   description:
     'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
@@ -392,7 +392,7 @@ export const COUNTRIES: CountryData[] = [
 },
 {
   id: 't37',
-  date: 'Jour 37 (X XXX pas)',
+  date: 'Jour 37 (10 440 pas)',
   title: 'Incididunt ut labore',
   description:
     'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
@@ -400,7 +400,7 @@ export const COUNTRIES: CountryData[] = [
 },
 {
   id: 't38',
-  date: 'Jour 38 (X XXX pas)',
+  date: 'Jour 38 (16 140 pas)',
   title: 'Magna aliqua',
   bullets: [
     'Lorem ipsum dolor sit amet',
@@ -411,7 +411,7 @@ export const COUNTRIES: CountryData[] = [
 },
 {
   id: 't39',
-  date: 'Jour 39 (X XXX pas)',
+  date: 'Jour 39 (22 789 pas)',
   title: 'Ullamco laboris nisi',
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
@@ -419,7 +419,7 @@ export const COUNTRIES: CountryData[] = [
 },
 {
   id: 't40',
-  date: 'Jour 40 (X XXX pas)',
+  date: 'Jour 40 (30 507 pas)',
   title: 'Aliquip ex ea commodo',
   description:
     'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
@@ -427,7 +427,7 @@ export const COUNTRIES: CountryData[] = [
 },
 {
   id: 't41',
-  date: 'Jour 41 (X XXX pas)',
+  date: 'Jour 41 (14 973 pas)',
   title: 'Consequat duis aute',
   bullets: [
     'Duis aute irure dolor',
@@ -438,7 +438,7 @@ export const COUNTRIES: CountryData[] = [
 },
 {
   id: 't42',
-  date: 'Jour 42 (X XXX pas)',
+  date: 'Jour 42 (18 939 pas)',
   title: 'Fugiat nulla pariatur',
   description:
     'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.',
@@ -446,14 +446,14 @@ export const COUNTRIES: CountryData[] = [
 },
 {
   id: 't43',
-  date: 'Jour 43 (X XXX pas)',
+  date: 'Jour 43 (25 176 pas)',
   title: 'Mollit anim id est',
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.'
 },
 {
   id: 't44',
-  date: 'Jour 44 (X XXX pas)',
+  date: 'Jour 44 (8 773 pas)',
   title: 'Laborum sed ut',
   bullets: [
     'Lorem ipsum dolor sit amet',
@@ -464,7 +464,7 @@ export const COUNTRIES: CountryData[] = [
 },
 {
   id: 't45',
-  date: 'Jour 45 (X XXX pas)',
+  date: 'Jour 45 (13 684 pas)',
   title: 'Lorem ipsum final',
   description:
     'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
