@@ -515,7 +515,7 @@ export const COUNTRIES: CountryData[] = [
   date: 'Jour 45 (13 684 pas)',
   title: 'Nouveau logement et mémoire de la guerre',
   description:
-    'Installation définitive à Busan et journée marquée par l’histoire et la mémoire.',
+    'Logement à Busan proche université et découverte musée + cimetière.',
   bullets: [
     'Installation dans le nouveau logement',
     'Visite du Busan Museum',
