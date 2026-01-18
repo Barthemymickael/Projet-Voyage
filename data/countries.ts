@@ -2365,7 +2365,31 @@ Et en plus, je suis tombé sur LA bonne semaine pour être près de la plage : d
 Pour conclure, hyper content d’avoir eu cette parenthèse balnéaire. 
 L’océan fait un bien fou, que ce soit à Cherbourg, à Biarritz, en Espagne ou ici. Être proche de l’eau, des plages, des ports est vraiment hyper ressourçant !`,
   mood: 'Transition et bilan'
+},
+{
+  id: 'j45',
+  day: 45,
+  title: 'Nouveau logement et mémoire de la guerre',
+  excerpt: `Premier réveil dans ce nouveau logement, et il ressemble énormément à celui que j’avais à Séoul, mais cette fois-ci avec une exposition plein sud. En plus, plein d’objets sont déjà disponibles dans l’appartement : serviettes, papier toilette, télé, gel douche et shampoing, quelques câbles, une trousse de premiers secours, des assiettes, des couverts et même du matériel de cuisine… Bref, une vraie location Airbnb.
+Réveil très chill. Je peux reprendre tranquillement mon petit rituel : petit-déjeuner sur le bureau devant une vidéo YouTube, puis me poser devant une série le soir avant de me coucher.
+ Petit bonus non négligeable : une petite lumière au-dessus du lit, parfaite pour lire le soir.
+
+Enfin bref, je suis bien installé. Il fait bon dans l’appart, et j’ai déjà ma liste de choses à faire et à voir pour les 3 prochaines semaines :) Je me garde volontairement quelques activités pour la dernière semaine, comme j’avais pu le faire à Séoul.
+
+Aujourd’hui, découverte du Busan Museum ainsi que du UN Memorial Cemetery Korea.
+
+Je commence par le Busan Museum. Le musée se consacre à l’histoire de la ville et explique comment Busan a évolué au fil des siècles. Les quatre dernières expositions portent sur l’occupation japonaise au début du XXᵉ siècle, sur le rôle stratégique de Busan pour les Japonais, puis sur la guerre de Corée (1950-1953).
+
+Musée très sympathique, qui se termine par une conclusion explicative menant naturellement au cimetière : le UN Memorial Cemetery Korea, que je pars visiter juste après, à seulement 400 mètres du musée.
+
+Je fais le tour du cimetière pendant environ 45 minutes. On y observe les tombes des soldats et du personnel médical venus apporter leur aide durant la guerre de Corée, sous l’égide des Nations Unies. Il y a également le Wall of Remembrance, qui recense toutes les personnes envoyées par les Nations Unies, classées par pays et par ordre alphabétique. Je me suis laissé emporter par l’émotion et j’ai pris quelques minutes pour lire les noms et prénoms des soldats français morts au combat en Corée. (Prénoms les plus présents : Jean, Thierry, Georges, Alain, Pierre-Marie, Bernard)
+
+Puis balade dans Peace Park, très calme, avec un petit ruisseau qui serpente tout le long.
+
+Je termine cette journée en regardant le coucher de soleil à Gwangalli Beach`,
+  mood: 'Installation, musée et cimetière'
 }
+
 
 
 
