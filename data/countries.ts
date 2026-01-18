@@ -1313,7 +1313,35 @@ export const COUNTRIES: CountryData[] = [
   category: 'Logement',
   description: 'Deuxième logement à Busan pour trois semaines, situé dans un quartier étudiant à deux pas du métro, entouré de très nombreux cafés et restaurants.',
   emoji: '🏠'
+},
+{
+  id: 'm99',
+  lat: 35.129526,
+  lng: 129.094149,
+  title: 'Busan Museum',
+  category: 'Activité',
+  description: 'Musée retraçant l’évolution de la ville de Busan à travers les siècles.',
+  emoji: '🏛️'
+},
+{
+  id: 'm100',
+  lat: 35.127853,
+  lng: 129.097414,
+  title: 'UN Memorial Cemetery in Korea',
+  category: 'Balade',
+  description: 'Cimetière rassemblant les troupes militaires mortes au combat lors de la guerre de Corée (1950–1953).',
+  emoji: '🕊️'
+},
+{
+  id: 'm101',
+  lat: 35.126350,
+  lng: 129.100290,
+  title: 'Peace Park',
+  category: 'Balade',
+  description: 'Parc agréable parcouru de petits ruisseaux qui accompagnent la promenade tout au long du chemin.',
+  emoji: '🌿'
 }
+
 
 
 
