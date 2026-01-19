@@ -1505,7 +1505,27 @@ export const COUNTRIES: CountryData[] = [
   category: 'Balade',
   description: 'Parc agréable parcouru de petits ruisseaux qui accompagnent la promenade tout au long du chemin.',
   emoji: '🌿'
+},
+{
+  id: 'm102',
+  lat: 35.221516,
+  lng: 129.048847,
+  title: 'Seokbulsa Temple',
+  category: 'Balade',
+  description: 'Temple isolé en pleine montagne, perché à environ 700 mètres d’altitude, offrant une atmosphère hors du temps.',
+  emoji: '⛰️'
+},
+{
+  id: 'm103',
+  lat: 35.215352,
+  lng: 129.049967,
+  title: 'Café Smut',
+  category: 'Cuisine',
+  description: 'Café avec vue sur le bas de la montagne, décoration avec des appareils photo argentiques.',
+  emoji: '📷'
 }
+
+
 
 
 
