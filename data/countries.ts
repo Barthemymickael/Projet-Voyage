@@ -2584,7 +2584,33 @@ Puis balade dans Peace Park, très calme, avec un petit ruisseau qui serpente to
 
 Je termine cette journée en regardant le coucher de soleil à Gwangalli Beach`,
   mood: 'Installation, musée et cimetière'
+},
+{
+  id: 'j46',
+  day: 46,
+  title: 'Temple de montagne et jazz au crépuscule',
+  excerpt: `Aujourd’hui, je pars découvrir le temple de Seokbulsa (Seokbulso Temple), un temple un peu perdu au cœur des montagnes. Le bus me dépose en plein milieu de la montagne, et il me reste encore 1h de marche pour atteindre le temple.
+
+Au départ, la randonnée se fait sur des chemins assez abîmés, bordés de champs de culture privés, avec pas mal de déchets éparpillés au sol du coté des champs. Puis le chemin rejoint une route à peine praticable pour les voitures, à cause de pentes dépassant parfois les 35 degrés.
+
+J’arrive enfin au temple. Nous sommes 4 au début, puis petit à petit, je me retrouve seul. Seul dans ce temple, à plus de 700 mètres d’altitude.
+
+Je prends le temps de respirer à pleins poumons et je ferme les yeux 2 minutes pour vraiment ressentir l’atmosphère du lieu et les bruits alentour : un vent léger, le froissement des feuilles mortes qui glissent sur le sol, et les corbeaux, nombreux, qui volent, se bagarrent… L’un d’eux semble même un peu malade et pousse des cris étranges.
+
+Autour de moi, de grandes statuettes taillées directement dans la pierre, et des statues nichées au fond de cavités où les gens viennent prier.
+Je reste dans ce lieu hors du temps pendant 30 à 45 minutes, puis je redescends tranquillement par la route.
+
+Sur la descente, j’aperçois un café : Le smut. À l’intérieur, la décoration est composée de dizaines et de dizaines d’appareils photo argentiques exposés entre les tables. Impossible de résister.
+
+Je décide d’entrer et de commander un smoothie mangue / fraise / yaourt. Ambiance jazz très cool, avec une vue en hauteur sur le bas de la montagne et les immeubles en contrebas.
+
+La nuit tombe doucement. Le son du jazz devient légèrement plus présent, et je contemple l’arrivée de la nuit, sans pour autant voir le coucher de soleil à cause de la météo. Puis le serveur arrive et me tend son téléphone avec le traducteur, affichant en anglais : « Notre shop ferme à 18h00, merci à vous. »
+Je pars donc précipitamment.
+
+S’ensuivent 30 minutes de marche avant de prendre le bus, qui me dépose dans mon quartier.`,
+  mood: 'Seokbulso Temple et café'
 }
+
 
 
 
