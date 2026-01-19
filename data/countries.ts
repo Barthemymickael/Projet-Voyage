@@ -523,6 +523,17 @@ export const COUNTRIES: CountryData[] = [
     'Moment de recueillement',
     'Coucher de soleil à Gwangalli Beach'
   ]
+},
+{
+  id: 't46',
+  date: 'Jour 46 (11 355 pas)',
+  title: 'Seokbulso Temple et café',
+  description:
+    'Randonnée en montagne pour voir le Seokbulso Temple',
+  bullets: [
+    'Le temple est à une altitude de 700m',
+    'Smoothie en bas de la montagne'
+  ]
 }
 
 
@@ -1513,7 +1524,7 @@ export const COUNTRIES: CountryData[] = [
   title: 'Seokbulsa Temple',
   category: 'Balade',
   description: 'Temple isolé en pleine montagne, perché à environ 700 mètres d’altitude, offrant une atmosphère hors du temps.',
-  emoji: '⛰️'
+  emoji: '⛩️'
 },
 {
   id: 'm103',
@@ -1522,7 +1533,7 @@ export const COUNTRIES: CountryData[] = [
   title: 'Café Smut',
   category: 'Cuisine',
   description: 'Café avec vue sur le bas de la montagne, décoration avec des appareils photo argentiques.',
-  emoji: '📷'
+  emoji: '☕'
 }
 
 
