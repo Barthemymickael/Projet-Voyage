@@ -481,7 +481,9 @@ export const COUNTRIES: CountryData[] = [
     'Vue sur le phare Coupe du monde 2002',
     'Visite du National Science Museum of Busan',
     'Dernier coucher de soleil à Songjeong'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/hNrZHdLC1HA?si=nP-LwcrbQygMs2BJ'
+
 },
 {
   id: 't43',
