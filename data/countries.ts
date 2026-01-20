@@ -535,7 +535,9 @@ export const COUNTRIES: CountryData[] = [
   bullets: [
     'Le temple est à une altitude de 700m',
     'Smoothie en bas de la montagne'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/bhYQ6OkCRCs?si=f7oSzypbjPq9SqiA'
+
 },
 {
   id: 't47',
