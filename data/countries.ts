@@ -1534,7 +1534,62 @@ export const COUNTRIES: CountryData[] = [
   category: 'Cuisine',
   description: 'Café avec vue sur le bas de la montagne, décoration avec des appareils photo argentiques.',
   emoji: '☕'
+},
+{
+  id: 'm104',
+  lat: 35.098251,
+  lng: 129.029207,
+  title: 'BIFF Square',
+  category: 'Balade',
+  description: 'Quartier animé mêlant boutiques et marché, là où j’ai acheté mes chaussures.',
+  emoji: '🛍️'
+},
+{
+  id: 'm105',
+  lat: 35.101364,
+  lng: 129.028198,
+  title: 'Gukje Market',
+  category: 'Balade',
+  description: 'Grand marché populaire où tout est bon marché et où l’on trouve absolument de tout.',
+  emoji: '🏪'
+},
+{
+  id: 'm106',
+  lat: 35.096640,
+  lng: 129.030795,
+  title: 'Jagalchi Market',
+  category: 'Balade',
+  description: 'Plus grand marché aux poissons de Corée du Sud, emblématique de la ville de Busan.',
+  emoji: '🐠'
+},
+{
+  id: 'm107',
+  lat: 35.097396,
+  lng: 129.010594,
+  title: 'Gamcheon Culture Village',
+  category: 'Balade',
+  description: 'Village artistique inspiré du Petit Prince, avec dessins, fresques et citations colorées sur les murs.',
+  emoji: '🎨'
+},
+{
+  id: 'm108',
+  lat: 35.097752,
+  lng: 129.008539,
+  title: 'Little Prince and Desert Fox Statue',
+  category: 'Balade',
+  description: 'Statue iconique de Busan représentant le Petit Prince et le renard, symbole du Gamcheon Culture Village.',
+  emoji: '🦊'
+},
+{
+  id: 'm109',
+  lat: 35.096324,
+  lng: 129.010014,
+  title: '커피잇집 (IT Cafe)',
+  category: 'Cuisine',
+  description: 'Café offrant un panorama magnifique sur le Gamcheon Culture Village.',
+  emoji: '☕'
 }
+
 
 
 
