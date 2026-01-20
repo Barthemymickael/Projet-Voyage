@@ -482,7 +482,7 @@ export const COUNTRIES: CountryData[] = [
     'Visite du National Science Museum of Busan',
     'Dernier coucher de soleil à Songjeong'
   ],
-  video: 'https://youtube.com/shorts/hNrZHdLC1HA?si=nP-LwcrbQygMs2BJ'
+  video: 'https://youtube.com/shorts/RVKOzcf2sks?si=YNyJETm_XCgq_JMd'
 
 },
 {
