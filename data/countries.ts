@@ -2640,7 +2640,31 @@ Je pars donc précipitamment.
 
 S’ensuivent 30 minutes de marche avant de prendre le bus, qui me dépose dans mon quartier.`,
   mood: 'Seokbulso Temple et café'
+},
+{
+  id: 'j47',
+  day: 47,
+  title: 'BIFF Square, Marchés locaux et Gamcheon Village',
+  excerpt: `Aujourd’hui, départ pour BIFF Square, un marché à ciel ouvert avec énormément de boutiques à bas prix. J’ai d’ailleurs acheté une paire de baskets à 7,60 € pour remplacer les miennes, qui commençaient à être bien abîmées.
+
+Ensuite, je me balade dans Gukje Market. Je me perds un peu, je bifurque d’une allée à une autre. Les prix sont extrêmement bas, et certaines personnes qui tiennent les stands semblent parfois étonnées de voir des gens entrer… ou peut-être simplement surprises de voir un étranger, je ne sais pas.
+
+Je pars à la recherche de chaussettes blanches, mais à chaque fois on me demande de payer en cash. Flemme d’aller jusqu’à un distributeur.
+
+Au fil de ma balade, je tombe sur Jagalchi Market, un immense marché aux poissons, très local. Aucun touriste, uniquement des habitants venus acheter leur poisson. Les étals sont gigantesques : des centaines et des centaines de poissons, et juste derrière, des tables et des chaises sous des tonnelles pour manger directement ce que proposent les marchés.
+
+À la base, je devais aller me poser à Songdo Beach, mais en sortant de Jagalchi Market, j’aperçois un village dans les hauteurs. Je regarde la carte et me rends compte que je suis juste en bas de Gamcheon Village. Il est sur ma liste, je suis à côté… alors changement de plan. Et c’est parti pour 50 minutes de marche jusqu’à la statuette iconique du Petit Prince.
+
+Je monte à pied par des mini-ruelles, des escaliers très étroits et bien pentus, et me voilà arrivé dans ce village extrêmement mignon. Tout tourne autour du Petit Prince de Saint-Exupéry : des chats dessinés un peu partout sur les murs, des étoiles, et des phrases du livre inscrites à de nombreux endroits.
+
+Impossible de prendre une photo à côté de la statuette en milieu d’après-midi : trop de monde. Il y a même une file d’attente avec un agent qui régule l’accès pour les photos.
+
+Après ça, je décide d’aller prendre un goûter au café Coffee IT. Je m’y pose, j’écris ce texte et j’attends patiemment le coucher de soleil depuis cet endroit, qui offre un très beau point de vue sur le village.
+
+Comme hier, le café ferme assez tôt (18h), ce qui me laisse le temps de me balader dans le village sous les dernières lueurs du jour. J’en profite pour retourner du côté de la statuette, et là, enfin, j’ai pu prendre ma petite photo :)`,
+  mood: 'BIFF Square, Marchés locaux et Gamcheon Village'
 }
+
 
 
 
