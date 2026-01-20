@@ -534,7 +534,24 @@ export const COUNTRIES: CountryData[] = [
     'Le temple est à une altitude de 700m',
     'Smoothie en bas de la montagne'
   ]
+},
+{
+  id: 't47',
+  date: 'Jour 47 (16 024 pas)',
+  title: 'Marchés de Busan et Gamcheon Culture Village',
+  description:
+    'Exploration des marchés populaires de Busan avant une montée improvisée vers Gamcheon Culture Village',
+  bullets: [
+    'BIFF Square : shopping à bas prix + chaussure à 7€60',
+    'écouverte de Gukje Market',
+    'Découverte de Jagalchi Market, immense marché aux poissons',
+    'Montée à pied jusqu’à Gamcheon Culture Village',
+    'Café Coffee IT avec vue panoramique sur le village + coucher de soleil',
+    'Photo avec la statuette du Petit Prince'
+  ]
 }
+
+
 
 
     ],
