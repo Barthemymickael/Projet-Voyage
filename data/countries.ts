@@ -416,7 +416,9 @@ export const COUNTRIES: CountryData[] = [
     'Petit stress à la station de bus',
     'Arrivée à Songjeong en soirée',
     'Installation et repos'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/elU_e4oLowA?si=PeZoQ_RIqs3drAIR'
+
 },
 {
   id: 't38',
