@@ -586,7 +586,9 @@ export const COUNTRIES: CountryData[] = [
     'Exposition contemporaine et exposition permanente sur l’histoire de Busan',
     'Balade au Yongdusan Park avec vue sur les quartiers alentours',
     'Lessives et lecture pour finir la journée'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/LSUbpTvtZp4?si=RopLp8o6Jxgty0Ey'
+
 }
 
 
