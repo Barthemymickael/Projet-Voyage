@@ -385,7 +385,9 @@ export const COUNTRIES: CountryData[] = [
     'Cocktail Mai Tai au lounge du 123e étage',
     'Derniers regards sur Séoul et la Han River',
     'Salle à 22h : séance bras'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/cO5EPU2NjFg?si=f5HjDbRIBQtcI1Vi'
+
 },
 {
   id: 't36',
