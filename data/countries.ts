@@ -475,7 +475,9 @@ export const COUNTRIES: CountryData[] = [
     'Balade et pauses face à la mer',
     'Coucher de soleil',
     'Chocolat chaud au Coralani'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/OKjukI64YZc?si=R999604XXKVBruDa'
+
 },
 {
   id: 't42',
