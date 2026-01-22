@@ -574,7 +574,21 @@ export const COUNTRIES: CountryData[] = [
   ],
       video: 'https://youtube.com/shorts/8wLFeGIYUnU?si=umATVCd5DUU4AL9Z'
 
+},
+{
+  id: 't49',
+  date: 'Jour 49 (5 973 pas)',
+  title: 'Busan Modern History Museum et parc',
+  description:
+    'Une journée entre musée et balade',
+  bullets: [
+    'Visite du Busan Modern History Museum, installé dans une ancienne banque',
+    'Exposition contemporaine et exposition permanente sur l’histoire de Busan',
+    'Balade au Yongdusan Park avec vue sur les quartiers alentours',
+    'Lessives et lecture pour finir la journée'
+  ]
 }
+
 
 
 
