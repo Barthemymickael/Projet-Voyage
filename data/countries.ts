@@ -2904,7 +2904,27 @@ J’écoute toute la face A du vinyle, puis je vais m’installer dans un fauteu
 Enfin, le soleil commence à se coucher. En passant devant la chaîne de burgers Shake Shack, je me rends compte que ça fait presque un mois que je n’ai pas mangé de burger.
 Cette enseigne me faisait envie depuis un moment, alors je prends un menu et me pose à l’intérieur, accompagné d’une vidéo YouTube.`,
   mood: 'Musée fermé, art et cinéma'
+},
+{
+  id: 'j49',
+  day: 49,
+  title: 'Busan Modern and Contemporary History Museum et parc en hauteur',
+  excerpt: `Découverte aujourd’hui du Busan Modern and Contemporary History Museum, un musée installé dans une ancienne banque. Il s’étend sur trois étages : l’un est consacré à une exposition contemporaine, et les deux autres à une exposition permanente sur l’histoire de Busan, et plus particulièrement du port de Yeongdo.
+
+On y apprend à quel point le port a été un lieu central pour l’import-export. L’exposition retrace la transformation de la ville au fil du XXᵉ siècle, à travers des témoignages de personnes ayant vu Busan se métamorphoser au fil des décennies.
+
+Il y a beaucoup d’animations et de panneaux interactifs, ce qui rend la découverte des événements marquants de la ville assez immersive.
+
+Je pars ensuite dans l’annexe du musée, située dans la rue d’à côté. Il s’agit finalement d’une petite bibliothèque très design. Malheureusement, tous les livres sont en coréen, donc impossible de m’y poser pour lire un peu.
+
+Je continue ensuite par une balade dans le Yongdusan Park, situé à quelques minutes du musée. Le parc n’est pas très grand, mais reste agréable. En hauteur, il offre un joli point de vue sur les quartiers alentours.
+
+Je me balade tranquillement, mais le froid commence à bien tomber. Je rentre doucement à l’appartement et en profite pour lancer quelques lessives.
+
+Lecture en attendant la fin de la machine.`,
+  mood: 'Musée d’histoire et balade tranquille'
 }
+
 
 
 
