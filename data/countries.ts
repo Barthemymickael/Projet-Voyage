@@ -505,7 +505,9 @@ export const COUNTRIES: CountryData[] = [
     'Coucher de soleil et feux d’artifice',
     'Street food coréenne sur la plage',
     'Balade nocturne'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/Dp2PG2kyOfI?si=9ndffaL-Jfz3qSkY'
+
 },
 {
   id: 't44',
