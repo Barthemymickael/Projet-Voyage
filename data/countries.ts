@@ -1741,7 +1741,35 @@ export const COUNTRIES: CountryData[] = [
   category: 'Balade',
   description: 'Petit parc agréable et calme, idéal pour une pause au cœur de la ville.',
   emoji: '🌳'
+},
+{
+  id: 'm120',
+  lat: 35.227796,
+  lng: 129.087477,
+  title: 'CU (Convenience Store)',
+  category: 'Cuisine',
+  description: 'Convenience store situé à environ trois minutes de chez moi.',
+  emoji: '🛒'
+},
+{
+  id: 'm121',
+  lat: 35.231199,
+  lng: 129.086229,
+  title: 'CU (Convenience Store)',
+  category: 'Cuisine',
+  description: 'Convenience store situé à environ cinq minutes de chez moi.',
+  emoji: '🛒'
+},
+{
+  id: 'm122',
+  lat: 35.229774,
+  lng: 129.089356,
+  title: "Station de métro – Pusan Nat'l Univ. Stn.",
+  category: 'Transport',
+  description: 'Station de métro empruntée quotidiennement pour rejoindre le centre-ville, à environ cinq minutes à pied.',
+  emoji: '🚇'
 }
+
 
 
 
