@@ -1708,7 +1708,35 @@ export const COUNTRIES: CountryData[] = [
   category: 'Cuisine',
   description: 'Chaîne de burgers coréenne au quartier Centum.',
   emoji: '🍔'
+},
+{
+  id: 'm117',
+  lat: 35.102681,
+  lng: 129.031232,
+  title: 'Busan Modern and Contemporary History Museum Annex',
+  category: 'Activité',
+  description: 'Annexe du musée qui s’avère être principalement une bibliothèque et un centre d’archives littéraires.',
+  emoji: '📚'
+},
+{
+  id: 'm118',
+  lat: 35.102632,
+  lng: 129.032168,
+  title: 'Busan Modern and Contemporary History Museum',
+  category: 'Activité',
+  description: 'Musée moderne et historique consacré à l’évolution de la ville, avec une exposition dédiée au port de Yeongdo.',
+  emoji: '🏛️'
+},
+{
+  id: 'm119',
+  lat: 35.100655,
+  lng: 129.032622,
+  title: 'Yongdusan Park',
+  category: 'Balade',
+  description: 'Petit parc agréable et calme, idéal pour une pause au cœur de la ville.',
+  emoji: '🌳'
 }
+
 
 
 
