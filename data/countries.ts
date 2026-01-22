@@ -541,7 +541,7 @@ export const COUNTRIES: CountryData[] = [
 },
 {
   id: 't47',
-  date: 'Jour 47 (16 024 pas)',
+  date: 'Jour 47 (17 918 pas)',
   title: 'Marchés de Busan et Gamcheon Culture Village',
   description:
     'Exploration des marchés populaires de Busan avant une montée improvisée vers Gamcheon Culture Village',
@@ -553,7 +553,24 @@ export const COUNTRIES: CountryData[] = [
     'Café Coffee IT avec vue panoramique sur le village + coucher de soleil',
     'Photo avec la statuette du Petit Prince'
   ]
+},
+{
+  id: 't48',
+  date: 'Jour 48 (10 598 pas)',
+  title: 'Musée fermé, cinéma et parenthèse culturelle',
+  description:
+    'Journée improvisée autour de l’art, de l’architecture et du cinéma.',
+  bullets: [
+    'Busan Museum of Art fermé pour travaux',
+    'Exploration du BEXCO, immense mais entièrement vide',
+    'Shinsegae Department Store et Centum City',
+    'Découverte du Busan Cinema Center',
+    'Écoute de vinyles (Bodyguard – Alan Silvestri)',
+    'Lecture autour du film Oppenheimer',
+    'Burger chez Shake Shack pour conclure la journée'
+  ]
 }
+
 
 
 
@@ -2739,7 +2756,45 @@ Après ça, je décide d’aller prendre un goûter au café Coffee IT. Je m’y
 
 Comme hier, le café ferme assez tôt (18h), ce qui me laisse le temps de me balader dans le village sous les dernières lueurs du jour. J’en profite pour retourner du côté de la statuette, et là, enfin, j’ai pu prendre ma petite photo :)`,
   mood: 'BIFF Square, Marchés locaux et Gamcheon Village'
+},
+{
+  id: 'j48',
+  day: 48,
+  title: 'Musée fermé, art et cinéma',
+  excerpt: `Aujourd’hui, j’avais organisé ma journée autour de la visite du Busan Museum of Art.
+
+Problème : en arrivant devant, je découvre que le bâtiment entier est en travaux. Chaque étage du musée est vide, en pleine reconstruction. J’ai même pu voir les lettres du nom du musée sur la façade, en train d’être retirées.
+Effectivement, en vérifiant sur Google, le musée est bien indiqué comme temporairement fermé.
+
+Bon, ce n’est pas grave. Je me replie sur une autre activité.
+
+Juste à côté se trouve le BEXCO, qui ressemble à un mélange entre un Zénith et un parc des expositions. Étonnamment, le lieu est ouvert, mais toutes les galeries, les passages et les passerelles sont complètement vides.
+Il y a pourtant deux énormes bâtiments, et je me dis qu’il doit bien y avoir une exposition ou un événement en ce mois de janvier.
+
+Après une trentaine de minutes à parcourir le lieu, à aller au bout de chaque bâtiment, et après une petite recherche sur ChatGPT, je me rends compte qu’aucun événement n’a lieu aujourd’hui, ni dans les prochains jours, ni même dans les prochaines semaines.
+Bon, ce n’est pas grave non plus. Au moins, je peux dire que j’ai visité l’endroit.
+
+Je regarde ensuite ma liste de choses à faire et remarque que je suis juste à côté de deux grands centres commerciaux :
+Shinsegae Department Store et Shinsegae Centum City.
+
+Je commence par explorer le Shinsegae Department Store. Je fais le tour, je parcours les étages, puis je décide d’aller voir l’autre grand complexe, Shinsegae Centum City, qui est globalement dans le même esprit.
+
+Juste à côté se trouve le Busan Cinema Center. Cette place est en réalité le lieu d’accueil du Busan International Film Festival, un peu l’équivalent coréen du Festival de Cannes.
+Le site est immense et son architecture est vraiment impressionnante. D’un côté, il y a un cinéma en plein air complètement vide, de l’autre une librairie et un cinéma.
+
+Je prends l’ascenseur direction la librairie, et me retrouve au milieu des livres et d’étudiants qui travaillent tranquillement sur de grands bureaux.
+Je m’installe ensuite dans le coin médiathèque : six tourne-disques sont à disposition, avec des chaises et des casques.
+
+Je m’assieds à l’un d’eux et écoute l’album déjà posé sur la platine :
+la bande originale du film Bodyguard, composée par Alan Silvestri.
+
+J’écoute toute la face A du vinyle, puis je vais m’installer dans un fauteuil où je lis, pendant une vingtaine de minutes, un livre consacré au film Oppenheimer de Christopher Nolan.
+
+Enfin, le soleil commence à se coucher. En passant devant la chaîne de burgers Shake Shack, je me rends compte que ça fait presque un mois que je n’ai pas mangé de burger.
+Cette enseigne me faisait envie depuis un moment, alors je prends un menu et me pose à l’intérieur, accompagné d’une vidéo YouTube.`,
+  mood: 'Musée fermé, art et cinéma'
 }
+
 
 
 
