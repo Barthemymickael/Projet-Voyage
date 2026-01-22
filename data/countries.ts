@@ -526,7 +526,9 @@ export const COUNTRIES: CountryData[] = [
     'Visite du UN Memorial Cemetery Korea',
     'Moment de recueillement',
     'Coucher de soleil à Gwangalli Beach'
-  ]
+  ],
+  video: 'https://m.youtube.com/shorts/r2sjJt7WvXk'
+
 },
 {
   id: 't46',
