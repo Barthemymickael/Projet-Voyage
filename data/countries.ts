@@ -401,7 +401,9 @@ export const COUNTRIES: CountryData[] = [
     'Découverte de l’évolution de l’art coréen',
     'Dernière séance à Séoul',
     'Salle à 21h : séance pecs'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/vcnY6vyRoBo?si=YglxH1-9ozCPGuMp'
+
 },
 {
   id: 't37',
