@@ -569,7 +569,9 @@ export const COUNTRIES: CountryData[] = [
     'Écoute de vinyles (Bodyguard – Alan Silvestri)',
     'Lecture autour du film Oppenheimer',
     'Burger chez Shake Shack pour conclure la journée'
-  ]
+  ],
+      video: 'https://youtube.com/shorts/8wLFeGIYUnU?si=umATVCd5DUU4AL9Z'
+
 }
 
 
