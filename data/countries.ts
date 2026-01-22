@@ -552,7 +552,8 @@ export const COUNTRIES: CountryData[] = [
     'Montée à pied jusqu’à Gamcheon Culture Village',
     'Café Coffee IT avec vue panoramique sur le village + coucher de soleil',
     'Photo avec la statuette du Petit Prince'
-  ]
+  ],
+    video: 'https://youtube.com/shorts/otIbCOPT8-M?si=w6r9wxgJMhkaT44-'
 },
 {
   id: 't48',
