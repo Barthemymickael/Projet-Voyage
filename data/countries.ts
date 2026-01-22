@@ -1626,7 +1626,71 @@ export const COUNTRIES: CountryData[] = [
   category: 'Cuisine',
   description: 'Café offrant un panorama magnifique sur le Gamcheon Culture Village.',
   emoji: '☕'
+},
+{
+  id: 'm110',
+  lat: 35.166744,
+  lng: 129.137073,
+  title: 'Busan Museum of Art',
+  category: 'Activité',
+  description: 'Musée d’art de Busan, malheureusement fermé pendant la période de mon voyage.',
+  emoji: '🖼️'
+},
+{
+  id: 'm111',
+  lat: 35.168985,
+  lng: 129.136038,
+  title: 'BEXCO Exhibition Center 1',
+  category: 'Balade',
+  description: 'Parc des expositions, vide lors de ma visite, aucune exposition prévue durant le mois de janvier.',
+  emoji: '🏢'
+},
+{
+  id: 'm112',
+  lat: 35.165816,
+  lng: 129.135060,
+  title: 'BEXCO Exhibition Center 2',
+  category: 'Balade',
+  description: 'Deuxième parc des expositions BEXCO, également vide pendant ma visite, sans événement programmé en janvier.',
+  emoji: '🏢'
+},
+{
+  id: 'm113',
+  lat: 35.168926,
+  lng: 129.129633,
+  title: 'Shinsegae Department Store',
+  category: 'Shopping',
+  description: 'Grand centre commercial sur plusieurs étages',
+  emoji: '🛍️'
+},
+{
+  id: 'm114',
+  lat: 35.169908,
+  lng: 129.128349,
+  title: 'Shinsegae Centum City',
+  category: 'Shopping',
+  description: 'Immense centre commercial réparti sur plusieurs étages',
+  emoji: '🛍️'
+},
+{
+  id: 'm115',
+  lat: 35.171187,
+  lng: 129.127193,
+  title: 'Busan Cinema Center',
+  category: 'Activité',
+  description: 'Lieu incontournable du cinéma coréen, comprenant un cinéma en plein air, une librairie et plusieurs salles de projection.',
+  emoji: '🎬'
+},
+{
+  id: 'm116',
+  lat: 35.169818,
+  lng: 129.128723,
+  title: 'Shake Shack Centum',
+  category: 'Cuisine',
+  description: 'Chaîne de burgers coréenne au quartier Centum.',
+  emoji: '🍔'
 }
+
 
 
 
