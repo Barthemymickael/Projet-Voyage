@@ -427,12 +427,14 @@ export const COUNTRIES: CountryData[] = [
   description:
     'Découverte de Busan et de son ambiance balnéaire, entre plage, temples et cafés.',
   bullets: [
-    'Découverte du logement à Haeundae',
+    'Découverte du logement à Songjeong',
     'Balade le long de la plage',
     'Visite du temple Haedong Yonggung',
     'Coucher de soleil face à l’océan',
     'Pizza et bière en bord de mer'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/4z8-WLVtj80?si=C2ELbAvgQTtT3U3l'
+
 },
 {
   id: 't39',
