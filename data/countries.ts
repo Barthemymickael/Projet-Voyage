@@ -448,7 +448,9 @@ export const COUNTRIES: CountryData[] = [
     'Contrastes forts entre nature et urbanisme',
     'Pause café au God Shot',
     'Burger le soir'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/NhEkId9wI1o?si=a1DUSbXHuZxeRPoG'
+
 },
 {
   id: 't40',
