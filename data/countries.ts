@@ -620,7 +620,22 @@ export const COUNTRIES: CountryData[] = [
   ],
   video: 'https://youtube.com/shorts/r476rf0yYdo?si=sEkRNz94ai2AzgP2'
 
+},
+{
+  id: 't51',
+  date: 'Jour 51',
+  title: 'Seomyeon, centres commerciaux et salles d’arcade',
+  description:
+    'Journée tranquille entre entretien de l’appartement et découverte du quartier animé de Seomyeon, connu pour son immense centre commercial souterrain, ses néons et ses nombreuses salles d’arcade.',
+  bullets: [
+    'Lessive et ménage à l’appartement',
+    'Balade dans le quartier animé de Seomyeon',
+    'Exploration de l’Underground Mall',
+    'Centre commercial de 16 étages avec cinéma, parc à thème et e-sport',
+    'Jeux dans une salle d’arcade'
+  ]
 }
+
 
 
 
@@ -3101,7 +3116,28 @@ Mais une chose est sûre :
 j’en ai pris plein les yeux,
 et c’était sûrement l’une des plus belles journées de ce voyage.`,
   mood: 'Art contemporain, nature et moment suspendu'
+},
+{
+  id: 'j51',
+  day: 51,
+  title: 'Seomyeon et salles d’arcade',
+  excerpt: `Aujourd’hui, journée plus calme.
+
+Lessive de linge noir et nettoyage complet de l’appartement pour commencer la journée.
+
+En début d’après-midi, je pars à la découverte du quartier de Seomyeon, l’un des plus animés de Busan, notamment connu pour son immense Underground Mall.
+
+Je poursuis ensuite vers un centre commercial de 16 étages.
+Aux 15e et 16e étages, on trouve un cinéma, un parc à thème et même une arène dédiée à l’e-sport.
+
+Je continue ensuite à marcher dans le quartier.
+Néons, musique, jeunes partout, et surtout énormément de salles d’arcade.
+Je m’arrête dans l’une d’elles et joue quelques minutes à des jeux de basket 🏀.
+
+Tout le quartier me fait énormément penser à Myeongdong à Séoul.`,
+  mood: 'Seomyeon et salles d’arcade'
 }
+
 
 
 
