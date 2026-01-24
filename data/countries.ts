@@ -617,7 +617,9 @@ export const COUNTRIES: CountryData[] = [
     'Randonnée complète sur l’île d’Eulsukdo',
     'Parc au nord et sanctuaire naturel protégé au sud',
     'Marche au crépuscule, au milieu des oiseaux : MAGNIFIQUE'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/r476rf0yYdo?si=sEkRNz94ai2AzgP2'
+
 }
 
 
