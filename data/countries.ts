@@ -464,7 +464,9 @@ export const COUNTRIES: CountryData[] = [
     'Coucher de soleil à Haeundae Beach',
     'Retour de nuit en musique',
     'Ramen et café pour terminer'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/U75ylRyVubE?si=6Oamfc92q-1vEaKh'
+
 },
 {
   id: 't41',
