@@ -603,7 +603,21 @@ export const COUNTRIES: CountryData[] = [
   ],
   video: 'https://youtube.com/shorts/LSUbpTvtZp4?si=RopLp8o6Jxgty0Ey'
 
+},
+{
+  id: 't50',
+  date: 'Jour 50 (22 827 pas)',
+  title: 'Museum of Contemporary Art de l île d’Eulsukdo et balade de complete de l ile',
+  description:
+    'Découverte du MoCA (Museum of Contemporary Art) de Busan sur l’île d’Eulsukdo, entre exposition dédiée à Jean-Luc Godard et immersion totale dans un sanctuaire naturel notamment au moment du coucher de soleil.',
+  bullets: [
+    'Exposition cinéma au MoCA autour de Jean-Luc Godard',
+    'Randonnée complète sur l’île d’Eulsukdo',
+    'Parc au nord et sanctuaire naturel protégé au sud',
+    'Marche au crépuscule sans éclairage, au milieu des oiseaux',
+  ]
 }
+
 
 
 
@@ -1778,7 +1792,35 @@ export const COUNTRIES: CountryData[] = [
   category: 'Transport',
   description: 'Station de métro empruntée quotidiennement pour rejoindre le centre-ville, à environ cinq minutes à pied.',
   emoji: '🚇'
+},
+{
+  id: 'm123',
+  lat: 35.109286,
+  lng: 128.942752,
+  title: 'Museum of Contemporary Art',
+  category: 'Activité',
+  description: 'Musée d’art contemporain situé sur l’île d’Eulsukdo.',
+  emoji: '🖼️'
+},
+{
+  id: 'm124',
+  lat: 35.119902,
+  lng: 128.951560,
+  title: "Place au nord de l’île d’Eulsukdo",
+  category: 'Balade',
+  description: 'Petite place située à l’extrême nord de l’île, équipée de quelques bancs et tables de pique-nique.',
+  emoji: '🪑'
+},
+{
+  id: 'm125',
+  lat: 35.088264,
+  lng: 128.941299,
+  title: 'Observatoire d’oiseaux migrateurs',
+  category: 'Activité',
+  description: 'Observatoire situé à l’extrême sud de l’île, offrant une vue magnifique au coucher du soleil.',
+  emoji: '🦅'
 }
+
 
 
 
