@@ -1848,7 +1848,35 @@ export const COUNTRIES: CountryData[] = [
   category: 'Cuisine',
   description: 'Restaurant de gimbap ouvert 24h/24, idéal pour manger à toute heure.',
   emoji: '🍙'
+},
+{
+  id: 'm127',
+  lat: 35.156306,
+  lng: 129.059158,
+  title: 'Seomyeon Mall Underground',
+  category: 'Shopping',
+  description: 'Centre commercial souterrain situé au cœur du quartier animé de Seomyeon.',
+  emoji: '🛍️'
+},
+{
+  id: 'm128',
+  lat: 35.153016,
+  lng: 129.059653,
+  title: 'Samjung Tower',
+  category: 'Shopping',
+  description: 'Énorme centre commercial de seize étages regroupant boutiques, parc de loisirs, restaurants et cinéma.',
+  emoji: '🛍️'
+},
+{
+  id: 'm129',
+  lat: 35.155161,
+  lng: 129.060374,
+  title: 'Sambo Game Land',
+  category: 'Activité',
+  description: 'Salle d’arcade du quartier Seomyeon',
+  emoji: '🕹️'
 }
+
 
 
 
