@@ -1819,7 +1819,17 @@ export const COUNTRIES: CountryData[] = [
   category: 'Activité',
   description: 'Observatoire situé à l’extrême sud de l’île, offrant une vue magnifique au coucher du soleil.',
   emoji: '🦅'
+},
+{
+  id: 'm126',
+  lat: 35.230692,
+  lng: 129.086637,
+  title: 'Ssada Gimbap',
+  category: 'Cuisine',
+  description: 'Restaurant de gimbap ouvert 24h/24, idéal pour manger à toute heure.',
+  emoji: '🍙'
 }
+
 
 
 
