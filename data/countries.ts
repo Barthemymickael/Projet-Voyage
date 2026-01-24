@@ -607,16 +607,17 @@ export const COUNTRIES: CountryData[] = [
 {
   id: 't50',
   date: 'Jour 50 (22 827 pas)',
-  title: 'Museum of Contemporary Art de l île d’Eulsukdo et balade de complete de l ile',
+  title: 'Museum of Contemporary Art de l’île d’Eulsukdo et balade complète de l’île',
   description:
-    'Découverte du MoCA (Museum of Contemporary Art) de Busan sur l’île d’Eulsukdo, entre exposition dédiée à Jean-Luc Godard et immersion totale dans un sanctuaire naturel notamment au moment du coucher de soleil.',
+    'Découverte du MoCA (Museum of Contemporary Art) de Busan sur l’île d’Eulsukdo, entre exposition dédiée à Jean-Luc Godard et immersion totale dans un sanctuaire naturel, notamment au moment du coucher de soleil.',
   bullets: [
     'Exposition cinéma au MoCA autour de Jean-Luc Godard',
     'Randonnée complète sur l’île d’Eulsukdo',
     'Parc au nord et sanctuaire naturel protégé au sud',
-    'Marche au crépuscule sans éclairage, au milieu des oiseaux',
+    'Marche au crépuscule, au milieu des oiseaux : MAGNIFIQUE'
   ]
 }
+
 
 
 
@@ -3073,7 +3074,7 @@ Les couleurs du ciel sont tout simplement incroyables.
 Je marche encore et encore, en me répétant :
 « Putain, c’est incroyable. »
 
-Je suis entouré du chant des oiseaux, du bruit de l’eau, et parfois j’aperçois des animaux — peut-être des lévriers — surgir et disparaître à toute vitesse dans les fougères.
+Je suis entouré du chant des oiseaux, du bruit de l’eau, et parfois j’aperçois des animaux (peut-être des lévriers) surgir et disparaître à toute vitesse dans les fougères.
 
 J’arrive enfin à l’observatoire sud.
 Entièrement en bois, avec un petit escalier, un étage et des jumelles.
@@ -3081,7 +3082,7 @@ Entièrement en bois, avec un petit escalier, un étage et des jumelles.
 Finalement, ce n’était pas l’observatoire qui était incroyable, mais tout le chemin parcouru pendant cette demi-heure.
 Plus j’avançais, plus les couleurs du ciel devenaient irréelles.
 
-Écouteurs dans les oreilles, sûrement seul dans tout le sanctuaire — je n’ai croisé personne.
+Écouteurs dans les oreilles, sûrement seul dans tout le sanctuaire à cette heure-ci car je n’ai croisé personne.
 L’ambiance était folle.
 
 Il m’a ensuite fallu presque une heure de marche le long de l’eau pour sortir du sanctuaire et retrouver une route avec de la circulation.
