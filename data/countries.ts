@@ -2967,7 +2967,85 @@ Je me balade tranquillement, mais le froid commence à bien tomber. Je rentre do
 
 Lecture en attendant la fin de la machine.`,
   mood: 'Musée d’histoire et balade tranquille'
+},
+{
+  id: 'j50',
+  day: 50,
+  title: 'MoCA, île d’Eulsukdo et claque au crépuscule',
+  excerpt: `Aujourd’hui, découverte du MoCA (Museum of Contemporary Art Busan), installé sur l’île d’Eulsukdo, connue pour sa richesse naturelle et ses oiseaux migrateurs.
+
+Pour m’y rendre, il m’a fallu environ 1h10 de métro.
+
+Je commence par l’exposition située au niveau -1, entièrement dédiée au cinéma de Jean-Luc Godard. Je retiens surtout cette phrase :
+
+« En 1960, un nombre incalculable de films sont sortis.
+Ainsi, si un jeune de 20-25 ans voulait combler son retard,
+il devrait passer 10 à 15 ans dans les cinémathèques. »
+
+Le deuxième thème abordait le paradoxe entre la Seconde Guerre mondiale et le cinéma. Godard disait :
+
+« Ils ont voulu des larmes pendant 50 ans dans des salles obscures,
+leur monde leur en offrira en dehors. »
+
+Après la visite des étages supérieurs, je pars en randonnée sur toute l’île d’Eulsukdo.
+
+L’île est divisée en deux parties :
+au nord, un vaste parc où l’on peut se promener à pied ou à vélo, et pique-niquer sur les nombreuses tables installées.
+au sud, un sanctuaire dédié à la faune et à la flore.
+
+En arrivant au bout de la partie nord, je regarde la carte… et l’envie me prend de faire le tour complet de l’île pour aller voir ce qui se cache au sud.
+
+1h30 de marche plus tard, j’atteins l’extrémité sud d’Eulsukdo, et je suis tellement content d’avoir suivi cette impulsion.
+
+Le sud est un véritable sanctuaire naturel, notamment pour les oiseaux migrateurs. Des observatoires sont disséminés un peu partout : certains accessibles au public, d’autres réservés à la recherche ou strictement protégés.
+
+Mais le soleil commence à se coucher alors que je ne suis qu’aux trois quarts du chemin. J’analyse la situation :
+aucun lampadaire, aucune lumière au sol.
+Dans le sanctuaire, aucune lumière artificielle n’est autorisée pour ne pas perturber les oiseaux.
+
+Le soleil descend, ma batterie est à 30 %, mais j’ai une envie folle d’aller jusqu’au bout de cette partie sud de l’île.
+
+Je regarde la carte, commence à prendre le chemin du retour… puis je m’arrête en plein milieu du sentier. Et je me dis :
+« Il y a moyen que je ne revienne jamais ici.
+Même s’il fait noir, on s’en fout.
+Il faut que j’aille voir ce qu’il y a là-bas.
+Voir le paysage. Le panorama.
+Et pouvoir dire que j’ai fait le tour complet de l’île. »
+
+Après une minute de réflexion, je fais demi-tour.
+Et c’est reparti vers l’inconnu.
+
+Je marche assez vite pour profiter des dernières lueurs du coucher de soleil sur le sanctuaire, juste avant la nuit totale.
+Et là… pendant presque 30 minutes, je prends une énorme claque.
+Les couleurs du ciel sont tout simplement incroyables.
+Je marche encore et encore, en me répétant :
+« Putain, c’est incroyable. »
+
+Je suis entouré du chant des oiseaux, du bruit de l’eau, et parfois j’aperçois des animaux — peut-être des lévriers — surgir et disparaître à toute vitesse dans les fougères.
+
+J’arrive enfin à l’observatoire sud.
+Entièrement en bois, avec un petit escalier, un étage et des jumelles.
+
+Finalement, ce n’était pas l’observatoire qui était incroyable, mais tout le chemin parcouru pendant cette demi-heure.
+Plus j’avançais, plus les couleurs du ciel devenaient irréelles.
+
+Écouteurs dans les oreilles, sûrement seul dans tout le sanctuaire — je n’ai croisé personne.
+L’ambiance était folle.
+
+Il m’a ensuite fallu presque une heure de marche le long de l’eau pour sortir du sanctuaire et retrouver une route avec de la circulation.
+Une heure dans l’obscurité, avec pour seule lumière les lumières de la ville de l’autre côté de la rive.
+À réfléchir. À digérer ce que je venais de vivre.
+À mesurer la chance que j’avais d’être là.
+
+Ce fut une très belle journée.
+Je suis actuellement dans mon lit et j’ai du mal à retranscrire exactement les émotions et les sensations ressenties.
+
+Mais une chose est sûre :
+j’en ai pris plein les yeux,
+et c’était sûrement l’une des plus belles journées de ce voyage.`,
+  mood: 'Art contemporain, nature et moment suspendu'
 }
+
 
 
 
