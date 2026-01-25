@@ -3245,6 +3245,7 @@ Problème :
 le soleil se couche dans deux heures.
 Il fait froid.
 Je n’ai ni eau, ni nourriture.
+(Un inconnu me donnera plus tard une barre de chocolat, je ne sais pas pourquoi mais merci à lui pour ce plein d’énergie et de glycogène.)
 Seulement une batterie externe.
 Et la descente traverse la forêt, sans aucune lumière.
 Voir le coucher de soleil signifie redescendre une heure dans le noir.
@@ -3265,11 +3266,10 @@ Pendant une demi-heure, j’en prends plein les yeux.
 
 Un coucher de soleil incroyable à 360 degrés.
 D’ici, on voit le soleil disparaître derrière les petites montagnes à l’ouest.
-Je reste immobile cinq minutes, à observer lentement l’astre descendre.
+Je reste immobile cinq minutes, à observer lentement le soleil descendre.
 
 Seul depuis plus d’une heure.
 Plus aucun randonneur.
-Plus aucun touriste.
 Aucun bruit.
 
 Juste moi, la montagne et le soleil,
