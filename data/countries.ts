@@ -1893,7 +1893,17 @@ export const COUNTRIES: CountryData[] = [
   category: 'Activité',
   description: 'Plus grande montagne de Busan culminant à 801,5 mètres, offrant un point de vue absolument incroyable.',
   emoji: '⛰️'
+},
+{
+  id: 'm132',
+  lat: 35.228715,
+  lng: 129.087722,
+  title: 'Soso Sarada',
+  category: 'Cuisine',
+  description: 'K-Salad Bread : sandwichs coréens',
+  emoji: '🥪'
 }
+
 
 
 
