@@ -1875,7 +1875,26 @@ export const COUNTRIES: CountryData[] = [
   category: 'Activité',
   description: 'Salle d’arcade du quartier Seomyeon',
   emoji: '🕹️'
+},
+{
+  id: 'm130',
+  lat: 35.283997,
+  lng: 129.068764,
+  title: 'Beomeosa Temple',
+  category: 'Activité',
+  description: 'Temple bouddhiste niché au cœur de la montagne Geumjeongsan.',
+  emoji: '⛩️'
+},
+{
+  id: 'm131',
+  lat: 35.283055,
+  lng: 129.055475,
+  title: 'Geumjeongsan',
+  category: 'Activité',
+  description: 'Plus grande montagne de Busan culminant à 801,5 mètres, offrant un point de vue absolument incroyable.',
+  emoji: '⛰️'
 }
+
 
 
 
