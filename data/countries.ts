@@ -646,7 +646,9 @@ export const COUNTRIES: CountryData[] = [
     'Randonnée jusqu’au sommet du Geumjeongsan (801,5 m)',
     'Attente du coucher de soleil dans le froid',
     'Descente nocturne en forêt à la lampe torche'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/uXau_l6Z-8w?si=4oMiTZyrt-rdDL3T'
+
 }
 
 
@@ -3213,7 +3215,7 @@ Tout le quartier me fait énormément penser à Myeongdong à Séoul.`,
   day: 52,
   title: 'Beomeosa, Geumjeongsan et coucher de soleil au sommet',
   excerpt: `Je commence la journée en me dirigeant vers le métro.
-15 minutes de marche, 4 arrêts, et je descends à la station Beomeosa, située tout en bas de la montagne, tout en bas du temple.
+15 minutes de métro, 4 arrêts, et je descends à la station Beomeosa, située tout en bas de la montagne, tout en bas du temple.
 
 Il me faut ensuite environ 45 minutes de marche pour atteindre le temple de Beomeosa.
 
