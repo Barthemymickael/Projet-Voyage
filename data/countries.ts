@@ -623,7 +623,7 @@ export const COUNTRIES: CountryData[] = [
 },
 {
   id: 't51',
-  date: 'Jour 51',
+  date: 'Jour 51 (5 881 pas)',
   title: 'Seomyeon, centres commerciaux et salles d’arcade',
   description:
     'Journée tranquille entre entretien de l’appartement et découverte du quartier animé de Seomyeon, connu pour son immense centre commercial souterrain, ses néons et ses nombreuses salles d’arcade.',
