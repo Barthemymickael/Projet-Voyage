@@ -634,7 +634,21 @@ export const COUNTRIES: CountryData[] = [
     'Centre commercial de 16 étages avec cinéma, parc à thème et e-sport',
     'Jeux dans une salle d’arcade'
   ]
+},
+{
+  id: 't52',
+  date: 'Jour 52 (18 771 pas)',
+  title: 'Beomeosa Temple, ascension du Geumjeongsan et coucher de soleil au sommet',
+  description:
+    'Découverte du temple bouddhiste de Beomeosa, suivie d’une randonnée jusqu’au sommet du Geumjeongsan. Une longue attente dans le froid récompensée par un coucher de soleil spectaculaire à 360 degrés.',
+  bullets: [
+    'Visite du temple de Beomeosa',
+    'Randonnée jusqu’au sommet du Geumjeongsan (801,5 m)',
+    'Attente du coucher de soleil dans le froid',
+    'Descente nocturne en forêt à la lampe torche'
+  ]
 }
+
 
 
 
