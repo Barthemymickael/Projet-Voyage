@@ -3193,7 +3193,92 @@ Je m’arrête dans l’une d’elles et joue quelques minutes à des jeux de ba
 
 Tout le quartier me fait énormément penser à Myeongdong à Séoul.`,
   mood: 'Seomyeon et salles d’arcade'
+},
+{
+  id: 'j52',
+  day: 52,
+  title: 'Beomeosa, Geumjeongsan et solitude au sommet',
+  excerpt: `Je commence la journée en me dirigeant vers le métro.
+Quinze minutes de marche, quatre arrêts, et je descends à la station Beomeosa, située tout en bas de la montagne, au pied du temple.
+
+Il me faut ensuite environ 45 minutes de marche pour atteindre le temple de Beomeosa.
+Le chemin est extrêmement silencieux.
+Le site est assez vaste, paisible, presque hors du temps.
+
+Beomeosa signifie « le temple du poisson du Nirvana ».
+J’y croise un moine bouddhiste — le temple accueille d’ailleurs de nombreux moines ainsi que des programmes de templestay tout autour.
+
+La visite est plutôt rapide : en une vingtaine de minutes, j’ai fait le tour.
+Mais redescendre après si peu de temps n’a pas de sens.
+Je regarde la carte… et décide de poursuivre en randonnée jusqu’au sommet du Geumjeongsan.
+
+Il me faudra environ une heure de marche pour atteindre le sommet.
+Le temple est situé à 323 mètres d’altitude, il me reste donc un peu plus de la moitié à gravir.
+
+J’arrive au sommet à 15h15.
+Altitude : 801,5 mètres.
+La vue est incroyable, à 360 degrés.
+
+D’ici, je peux situer précisément plusieurs endroits :
+Songjeong, derrière les montagnes à l’est, où j’étais une semaine plus tôt.
+Puis Haeundae, Marina City, Gwangalli et son pont.
+J’aperçois même l’île d’Eulsukdo — le sanctuaire d’oiseaux visité deux jours auparavant — qui paraît minuscule vue d’ici, alors qu’il faut presque deux heures pour en faire le tour à pied.
+
+Il est environ 15h30.
+Je veux absolument voir le coucher de soleil depuis ce point de vue.
+
+Problème :
+le soleil se couche dans deux heures.
+Il fait froid.
+Je n’ai ni eau, ni nourriture.
+Seulement une batterie externe.
+Et le sentier de descente traverse la forêt, sans aucune lumière.
+
+Voir le coucher de soleil signifie redescendre une heure dans le noir.
+
+Je me dis que je ne suis pas monté ici pour rien.
+Le jeu en vaut la chandelle.
+Alors j’attends.
+
+Je me protège du vent entre les rochers, écoute de la musique, patiente.
+À 17h, la température chute brutalement.
+Je tremble beaucoup.
+0 degré ressenti, -2 avec le vent.
+Plus que 44 minutes avant le coucher du soleil.
+
+À 17h30, je me lève.
+Le spectacle commence.
+Pendant une demi-heure, j’en prends plein les yeux.
+
+Un coucher de soleil incroyable à 360 degrés.
+D’ici, on voit le soleil disparaître derrière les petites montagnes à l’ouest.
+Je reste immobile cinq minutes, à observer lentement l’astre descendre.
+
+Je suis seul.
+Seul depuis plus d’une heure.
+Plus aucun randonneur.
+Plus aucun touriste.
+Aucun bruit.
+
+Juste moi, la montagne et le soleil,
+perché à 801,5 mètres d’altitude.
+
+Lorsque le soleil disparaît, je reste encore dix minutes.
+Je prends quelques photos, puis je repars.
+
+S’ensuivent 45 minutes de descente, entre les dernières lueurs du jour et le noir complet pendant une vingtaine de minutes.
+Lampe torche du téléphone allumée.
+Musique en haut-parleur dans la forêt sombre.
+
+Ce fut une très belle expérience.
+Dans le calme.
+Dans le silence.
+Sans grand questionnement.
+Juste la beauté de la nature,
+à travers mes yeux.`,
+  mood: 'Solitude, altitude et contemplation pure'
 }
+
 
 
 
