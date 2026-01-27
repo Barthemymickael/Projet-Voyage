@@ -1941,7 +1941,53 @@ export const COUNTRIES: CountryData[] = [
   category: 'Cuisine',
   description: 'K-Salad Bread : sandwichs coréens',
   emoji: '🥪'
+},
+{
+  id: 'm133',
+  lat: 35.114025,
+  lng: 129.037474,
+  title: 'Busan Chinatown',
+  category: 'Activité',
+  description: 'Quartier Chinatown de Busan, modeste en taille, concentré sur seulement quelques rues.',
+  emoji: '🏮'
+},
+{
+  id: 'm134',
+  lat: 35.175299,
+  lng: 129.043617,
+  title: 'Samgwangsa Temple',
+  category: 'Activité',
+  description: 'Temple très calme situé au pied de la montagne Baegyangsan, propice à la méditation.',
+  emoji: '⛩️'
+},
+{
+  id: 'm135',
+  lat: 35.103217,
+  lng: 129.027371,
+  title: 'Bosu Book Street',
+  category: 'Activité',
+  description: 'Rue dédiée aux librairies indépendantes, où les livres sont empilés les uns sur les autres à l’intérieur des boutiques.',
+  emoji: '📚'
+},
+{
+  id: 'm136',
+  lat: 35.110138,
+  lng: 129.028067,
+  title: 'Democracy Park',
+  category: 'Activité',
+  description: 'Parc situé dans les hauteurs, offrant une belle vue sur le port de Busan.',
+  emoji: '🌳'
+},
+{
+  id: 'm137',
+  lat: 35.110194,
+  lng: 129.027276,
+  title: 'Busan Public Central Library',
+  category: 'Activité',
+  description: 'Bibliothèque publique ouverte à tous, proposant uniquement des livres en coréen, mais agréable pour lire ou travailler au calme.',
+  emoji: '📖'
 }
+
 
 
 
