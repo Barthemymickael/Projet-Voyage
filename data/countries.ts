@@ -649,7 +649,15 @@ export const COUNTRIES: CountryData[] = [
   ],
   video: 'https://youtube.com/shorts/uXau_l6Z-8w?si=4oMiTZyrt-rdDL3T'
 
+},
+{
+  id: 't53',
+  date: 'Jour 53',
+  title: 'Journée de repos sous la grisaille',
+  description:
+    'Journée calme et reposante, un temps gris et quelques heures passées à regarder des documentaires et des vidéos, avant une balade dans le quartier en fin d’après-midi.',
 }
+
 
 
 
@@ -3291,7 +3299,20 @@ Sans grand questionnement.
 Juste la beauté de la nature,
 à travers mes yeux.`,
   mood: 'Beomeosa, Geumjeongsan et coucher de soleil au sommet'
+},
+{
+  id: 'j53',
+  day: 53,
+  title: 'Jour de repos sous la grisaille',
+  excerpt: `Jour de repos aujourd’hui.
+Réveil assez tardif, ciel gris toute la journée.
+
+Je passe une bonne partie de la jorunée à regarder quelques documentaires et vidéos
+
+Je sors ensuite faire une petite balade dans le quartier en fin d'aprés-midi.`,
+  mood: 'Jour de repos sous la grisaille'
 }
+
 
 
 
