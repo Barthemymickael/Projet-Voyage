@@ -652,11 +652,26 @@ export const COUNTRIES: CountryData[] = [
 },
 {
   id: 't53',
-  date: 'Jour 53',
+  date: 'Jour 53 (999 pas)',
   title: 'Journée de repos sous la grisaille',
   description:
     'Journée calme et reposante, un temps gris et quelques heures passées à regarder des documentaires et des vidéos, avant une balade dans le quartier en fin d’après-midi.',
+},
+{
+  id: 't54',
+  date: 'Jour 54 (16 338 pas)',
+  title: 'Samgwangsa, book-street, chinatown et librairie dans le Democracy Park',
+  description:
+    'Visite du temple Samgwangsa, exploration de Bosu-dong Book Street, visite de chinatown et pose lecture dans une librairie',
+  bullets: [
+    'Visite du temple Samgwangsa',
+    'Descente à pied vers le Chinatown de Busan',
+    'Découverte de Bosu-dong Book Street et de ses librairies indépendantes',
+    'Pause lecture à la Busan Public Central Library',
+    'Balade nocturne dans Chinatown éclairée par les lanternes'
+  ]
 }
+
 
 
 
@@ -3311,7 +3326,32 @@ Je passe une bonne partie de la jorunée à regarder quelques documentaires et v
 
 Je sors ensuite faire une petite balade dans le quartier en fin d'aprés-midi.`,
   mood: 'Jour de repos sous la grisaille'
+},
+{
+  id: 'j54',
+  day: 54,
+  title: 'Temples, livres, librairie et parc',
+  excerpt: `Je pars à la découverte du temple Samgwangsa.
+L’endroit est très calme, bercé par des sons de prières diffusés dans les haut-parleurs.
+Il est possible d’entrer dans certains templestay et de marcher le long de grands balcons qui surplombent le site.
+
+Une fois la visite terminée, je descends à pied vers le quartier Chinatown de Busan.
+Le quartier est assez petit, et vers 15h, peu de boutiques sont ouvertes.
+
+Je poursuis ensuite ma balade dans un quartier assez méconnu : Bosu-dong Book Street.
+Une rue entière remplie de petites librairies indépendantes, avec des piles et des piles de livres et de mangas.
+C’est un peu comme un marché, mais uniquement dédié aux livres.
+La rue étant assez courte, on en fait cependant vite le tour.
+
+Je décide ensuite de monter vers Democracy Park.
+À l’entrée, je tombe sur la Busan Public Central Library.
+Je traîne dans les couloirs, explore les étages, puis me pose une vingtaine de minutes sur un siège pour lire le magazine The Economist (numéro de la semaine précédente), consacré notamment aux tensions avec les États-Unis et à l’horreur de la situation actuelle en Iran.
+
+Je pars enfin me balader dans Democracy Park, mais le lieu ne me marque pas particulièrement.
+Je prends donc le chemin du retour et retombe, un peu par hasard, sur le quartier chinois — cette fois-ci illuminé par les lanternes rouges du soir.`,
+  mood: 'Temples, livres, librairie et parc'
 }
+
 
 
 
