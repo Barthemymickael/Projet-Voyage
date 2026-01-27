@@ -655,7 +655,7 @@ export const COUNTRIES: CountryData[] = [
   date: 'Jour 53 (999 pas)',
   title: 'Journée de repos sous la grisaille',
   description:
-    'Journée calme et reposante, un temps gris et quelques heures passées à regarder des documentaires et des vidéos, avant une balade dans le quartier en fin d’après-midi.',
+    'Journée calme et reposante, un temps gris et quelques heures passées à regarder des documentaires et des vidéos Youtube',
 },
 {
   id: 't54',
@@ -669,7 +669,9 @@ export const COUNTRIES: CountryData[] = [
     'Découverte de Bosu-dong Book Street et de ses librairies indépendantes',
     'Pause lecture à la Busan Public Central Library',
     'Balade nocturne dans Chinatown éclairée par les lanternes'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/DK_S7HmQhhw?si=bJpcaQCHQ4ENdKyQ'
+
 }
 
 
@@ -3368,9 +3370,7 @@ Juste la beauté de la nature,
   excerpt: `Jour de repos aujourd’hui.
 Réveil assez tardif, ciel gris toute la journée.
 
-Je passe une bonne partie de la jorunée à regarder quelques documentaires et vidéos
-
-Je sors ensuite faire une petite balade dans le quartier en fin d'aprés-midi.`,
+Je passe une bonne partie de la jorunée à regarder quelques documentaires et vidéos youtube`,
   mood: 'Jour de repos sous la grisaille'
 },
 {
