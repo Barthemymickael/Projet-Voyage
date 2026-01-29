@@ -2046,8 +2046,18 @@ export const COUNTRIES: CountryData[] = [
   title: 'Café Haeparang',
   category: 'Cuisine',
   description: 'Café très agréable avec une belle vue.',
-  emoji: '🧋'
+  emoji: '☕'
 }
+{
+  id: 'm143',
+  lat: 35.126233,
+  lng: 129.114972,
+  title: 'Nambu Environmental Park',
+  category: 'Balade',
+  description: 'Parc de quartier situé juste au pied des immeubles.',
+  emoji: '🌳'
+}
+
 
 
 
