@@ -3515,6 +3515,31 @@ Pour finir la journée, il y avait un petit café juste à côté du pont suspen
 Je décide de prendre un ice tea à emporter, de me poser près de l’eau, juste en bas, à côté de quelques pêcheurs, et je reste ici tranquillement jusqu’au coucher du soleil.`,
   mood: 'Igidae Coastal Walk et Oryukdo Skywalk'
 },
+{
+  id: 'j56',
+  day: 56,
+  title: 'Wangnyeong Mountain Observatory',
+  excerpt: `Aujourd’hui, je vais voir un endroit qu’on voit partout sur les réseaux sociaux concernant Busan :
+
+Le Wangnyeong Mountain Observatory.
+
+Un observatoire situé en haut d’une montagne, qui surplombe la ville.
+
+Accessible très facilement en bus, puis 30 minutes à pied pour arriver au point de vue (beaucoup prennent des Uber ou des taxis pour arriver jusqu’en haut).
+
+Je descends donc à l’arrêt de bus le plus proche, et c’est parti pour 30 minutes à pied.
+
+Une fois arrivé en haut, il y a des bancs-balançoires.
+Je me pose sur celui qui est pile au milieu de la place et je contemple le coucher de soleil, ainsi que les lumières de la ville qui s’allument petit à petit, jusqu’à ce que la nuit complète tombe.
+(Le froid tombe beaucoup également, jusqu’à -2 ressenti, avec pas mal de vent.)
+
+Je ne suis cependant pas forcément ébloui par la vue, étant donné ma randonnée d’il y a quatre jours au Geumjeongsan.
+La vue ici est certes jolie, mais pas aussi incroyable qu’à 800 mètres d’altitude.
+
+Je pars de cet endroit, puis je reste encore quelques instants sur l’autre place, à quelques dizaines de mètres, pour voir l’autre côté, avec une vue sur l’est, les gratte-ciel et la mer en fond.`,
+  mood: 'Wangnyeong Mountain Observatory'
+},
+
 
 
 
