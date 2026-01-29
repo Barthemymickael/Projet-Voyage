@@ -672,7 +672,21 @@ export const COUNTRIES: CountryData[] = [
   ],
   video: 'https://youtube.com/shorts/DK_S7HmQhhw?si=bJpcaQCHQ4ENdKyQ'
 
+},
+{
+  id: 't55',
+  date: 'Jour 55',
+  title: 'Igidae Coastal Walk et Oryukdo Skywalk',
+  description:
+    'Grande randonnée côtière entre falaises, escaliers et chemins étroits le long d’Igidae Coastal Walk, conclue par la découverte de l’Oryukdo Skywalk et un moment calme au bord de l’eau face au coucher de soleil.',
+  bullets: [
+    'Randonnée de 2h30 sur l’Igidae Coastal Walk',
+    'Falaises, escaliers et points de vue sur la mer',
+    'Découverte de l’Oryukdo Skywalk et des îlots Oryukdo',
+    'Pause au bord de l’eau avec un ice tea au coucher du soleil'
+  ]
 }
+
 
 
 
