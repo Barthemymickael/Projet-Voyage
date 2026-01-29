@@ -2048,7 +2048,7 @@ export const COUNTRIES: CountryData[] = [
   category: 'Cuisine',
   description: 'Café très agréable avec une belle vue.',
   emoji: '☕'
-}
+},
 {
   id: 'm143',
   lat: 35.126233,
