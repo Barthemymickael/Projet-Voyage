@@ -698,7 +698,9 @@ export const COUNTRIES: CountryData[] = [
     'Point de vue populaire sur les réseaux sociaux',
     'Coucher de soleil depuis les bancs-balançoires',
     'Vue nocturne sur la ville et les gratte-ciel côté est',
-  ]
+  ],
+  video: 'https://youtube.com/shorts/g4oEs3XvZBw?si=qNfM8m0zm-Zcj6jc'
+
 }
 
 
