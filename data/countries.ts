@@ -3396,7 +3396,36 @@ Je traîne dans les couloirs, explore les étages, puis me pose une vingtaine de
 Je pars enfin me balader dans Democracy Park, mais le lieu ne me marque pas particulièrement.
 Je prends donc le chemin du retour et retombe, un peu par hasard, sur le quartier chinois — cette fois-ci illuminé par les lanternes rouges du soir.`,
   mood: 'Temples, livres, librairie et parc'
-}
+},
+{
+  id: 'j55',
+  day: 55,
+  title: 'Igidae Coastal Walk et Oryukdo Skywalk',
+  excerpt: `Je pars en fin de matinée direction Igidae Coastal Walk, situé entre Haeundae Beach et Yeongdo Island.
+Connue pour ses falaises et sa randonnée côtière.
+
+J’ai carrément envie de faire cette côte en arrivant à Igidae Entrance, puis de finir la randonnée par Oryukdo Skywalk, pile pour le coucher de soleil.
+
+L’arrêt de bus juste à côté de chez moi me dépose directement à l’entrée d’Igidae, mais il m’aura fallu 1h20 de trajet en bus (un peu long).
+
+Je descends du bus et traverse le parc Busan Environmental Corporation Nambu Environmental Park, qui est en réalité un parc pour les habitants d’ici, pile en dessous des immeubles.
+
+Enfin bref, j’arrive à l’entrée de la Igidae Coastal Walk, et c’est parti pour 2h30 de rando.
+
+Et ce fut vraiment super, magnifique, à faire et à voir.
+
+Il y a pas mal de dénivelé, puis énormément d’escaliers, puis énormément de chemins assez étroits.
+
+Je me pose de temps en temps sur les points de vue pour observer la mer, puis 5 minutes après je reprends le tracé.
+
+Je finis cette rando vers 16h15, puis je me dirige vers le pont suspendu avec un sol en verre, le Oryukdo Skywalk.
+D’ici, on peut observer les petites îles Oryukdo : de face, on dirait qu’il n’y a qu’une seule île, mais quand on se déplace un peu, on peut voir qu’il y a bien cinq petites îles les unes à côté des autres.
+
+Pour finir la journée, il y avait un petit café juste à côté du pont suspendu.
+Je décide de prendre un ice tea à emporter, de me poser près de l’eau, juste en bas, à côté de quelques pêcheurs, et je reste ici tranquillement jusqu’au coucher du soleil.`,
+  mood: 'Igidae Coastal Walk et Oryukdo Skywalk'
+},
+
 
 
 
