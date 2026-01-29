@@ -686,7 +686,6 @@ export const COUNTRIES: CountryData[] = [
     'Pause au bord de l’eau avec un ice tea au coucher du soleil'
   ],
   video: 'https://youtube.com/shorts/p88krFAKmnM?si=4sshE019WYndH2hu'
-
 }
 
 
