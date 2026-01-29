@@ -675,7 +675,7 @@ export const COUNTRIES: CountryData[] = [
 },
 {
   id: 't55',
-  date: 'Jour 55',
+  date: 'Jour 55 (15 853 pas)',
   title: 'Igidae Coastal Walk et Oryukdo Skywalk',
   description:
     'Grande randonnée côtière entre falaises, escaliers et chemins étroits le long d’Igidae Coastal Walk, conclue par la découverte de l’Oryukdo Skywalk et un moment calme au bord de l’eau face au coucher de soleil.',
