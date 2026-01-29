@@ -684,7 +684,9 @@ export const COUNTRIES: CountryData[] = [
     'Falaises, escaliers et points de vue sur la mer',
     'Découverte de l’Oryukdo Skywalk et des îlots Oryukdo',
     'Pause au bord de l’eau avec un ice tea au coucher du soleil'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/p88krFAKmnM?si=4sshE019WYndH2hu'
+
 }
 
 
