@@ -2057,7 +2057,26 @@ export const COUNTRIES: CountryData[] = [
   category: 'Balade',
   description: 'Parc de quartier situé juste au pied des immeubles.',
   emoji: '🌳'
+},
+{
+  id: 'm144',
+  lat: 35.157252,
+  lng: 129.081681,
+  title: 'Hwangnyeongsan Observatory (vue sur l’ouest)',
+  category: 'Balade',
+  description: 'Point de vue orienté vers l’ouest, offrant un superbe coucher de soleil derrière les montagnes.',
+  emoji: '🌄'
+},
+{
+  id: 'm145',
+  lat: 35.157889,
+  lng: 129.082774,
+  title: 'Hwangnyeong Observatory (vue sur l’est)',
+  category: 'Balade',
+  description: 'Point de vue orienté vers l’est, avec les gratte-ciel de Busan et la mer en arrière-plan.',
+  emoji: '🌆'
 }
+
 
 
 
