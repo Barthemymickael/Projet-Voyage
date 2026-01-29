@@ -2002,7 +2002,53 @@ export const COUNTRIES: CountryData[] = [
   category: 'Activité',
   description: 'Bibliothèque publique ouverte à tous, proposant uniquement des livres en coréen, mais agréable pour lire ou travailler au calme.',
   emoji: '📖'
+},
+{
+  id: 'm138',
+  lat: 35.132279,
+  lng: 129.120601,
+  title: 'Début de la randonnée Igidae Coastal Walk',
+  category: 'Balade',
+  description: 'Point de départ de la randonnée Igidae Coastal Walk, commencée dans ce sens.',
+  emoji: '🥾'
+},
+{
+  id: 'm139',
+  lat: 35.102567,
+  lng: 129.123018,
+  title: 'Fin de la randonnée Igidae Coastal Walk',
+  category: 'Balade',
+  description: 'Point d’arrivée de la randonnée Igidae Coastal Walk, terminée dans ce sens.',
+  emoji: '🥾'
+},
+{
+  id: 'm140',
+  lat: 35.100685,
+  lng: 129.124398,
+  title: 'Oryukdo Skywalk',
+  category: 'Activité',
+  description: 'Passerelle au sol en verre offrant une vue impressionnante sur la mer et l’île d’Oryukdo.',
+  emoji: '🌉'
+},
+{
+  id: 'm141',
+  lat: 35.099314,
+  lng: 129.122915,
+  title: 'Point de vue près de l’Oryukdo Skywalk',
+  category: 'Balade',
+  description: 'Point de vue au plus près de l’eau, parfait pour attendre le coucher du soleil.',
+  emoji: '🌅'
+},
+{
+  id: 'm142',
+  lat: 35.101458,
+  lng: 129.123226,
+  title: 'Café Haeparang',
+  category: 'Cuisine',
+  description: 'Café très agréable avec une belle vue.',
+  emoji: '🧋'
 }
+
 
 
 
