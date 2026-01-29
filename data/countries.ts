@@ -686,7 +686,21 @@ export const COUNTRIES: CountryData[] = [
     'Pause au bord de l’eau avec un ice tea au coucher du soleil'
   ],
   video: 'https://youtube.com/shorts/p88krFAKmnM?si=xf2PxLk7EZcWnLLG'
+},
+{
+  id: 't56',
+  date: 'Jour 56 (11 015 pas)',
+  title: 'Wangnyeong Mountain Observatory au coucher du soleil',
+  description:
+    'Montée facile jusqu’au Wangnyeong Mountain Observatory pour observer le coucher de soleil et les lumières de Busan s’allumer progressivement, malgré un froid marqué et une vue moins impressionnante que celle du Geumjeongsan.',
+  bullets: [
+    'Trajet en bus puis 30 minutes de marche jusqu’au sommet',
+    'Point de vue populaire sur les réseaux sociaux',
+    'Coucher de soleil depuis les bancs-balançoires',
+    'Vue nocturne sur la ville et les gratte-ciel côté est',
+  ]
 }
+
 
 
 
