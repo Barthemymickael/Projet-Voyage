@@ -546,7 +546,7 @@ export const COUNTRIES: CountryData[] = [
 },
 {
   id: 't46',
-  date: 'Jour 46 (11 355 pas)',
+  date: 'Jour 46 (11 363 pas)',
   title: 'Seokbulso Temple et café',
   description:
     'Randonnée en montagne pour voir le Seokbulso Temple',
@@ -575,7 +575,7 @@ export const COUNTRIES: CountryData[] = [
 },
 {
   id: 't48',
-  date: 'Jour 48 (10 598 pas)',
+  date: 'Jour 48 (10 606 pas)',
   title: 'Musée fermé, cinéma et parenthèse culturelle',
   description:
     'Journée improvisée autour de l’art, de l’architecture et du cinéma.',
@@ -637,7 +637,7 @@ export const COUNTRIES: CountryData[] = [
 },
 {
   id: 't52',
-  date: 'Jour 52 (18 771 pas)',
+  date: 'Jour 52 (19 909 pas)',
   title: 'Beomeosa Temple, ascension du Geumjeongsan et coucher de soleil au sommet',
   description:
     'Découverte du temple bouddhiste de Beomeosa, suivie d’une randonnée jusqu’au sommet du Geumjeongsan. Une longue attente dans le froid récompensée par un coucher de soleil spectaculaire à 360 degrés.',
@@ -689,7 +689,7 @@ export const COUNTRIES: CountryData[] = [
 },
 {
   id: 't56',
-  date: 'Jour 56 (11 015 pas)',
+  date: 'Jour 56 (11 037 pas)',
   title: 'Wangnyeong Mountain Observatory au coucher du soleil',
   description:
     'Montée facile jusqu’au Wangnyeong Mountain Observatory pour observer le coucher de soleil et les lumières de Busan s’allumer progressivement, malgré un froid marqué et une vue moins impressionnante que celle du Geumjeongsan.',
