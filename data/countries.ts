@@ -701,7 +701,21 @@ export const COUNTRIES: CountryData[] = [
   ],
   video: 'https://youtube.com/shorts/g4oEs3XvZBw?si=qNfM8m0zm-Zcj6jc'
 
+},
+{
+  id: 't58',
+  date: 'Jour 58 (6 847 pas)',
+  title: 'Musée maritime national de Corée et librairie maritime',
+  description:
+    'Découverte du Korea National Maritime Museum sur l’île de Yeongdo, expositions sur l’histoire maritime, la pêche et la navigation, et longue pause lecture dans la librairie du musée face au port.',
+  bullets: [
+    'Visite du Korea National Maritime Museum sur l’île de Yeongdo',
+    'Expositions sur les coquillages, la pêche et l’exploration maritime',
+    'Histoire de la navigation, des cartes et des grandes routes commerciales',
+    'Lecture dans la librairie maritime du musée pendant 2h',
+  ]
 }
+
 
 
 
@@ -3555,6 +3569,38 @@ La vue ici est certes jolie, mais pas aussi incroyable qu’à 800 mètres d’a
 Je pars de cet endroit, puis je reste encore quelques instants sur l’autre place, à quelques dizaines de mètres, pour voir l’autre côté, avec une vue sur l’est, les gratte-ciel et la mer en fond.`,
   mood: 'Wangnyeong Mountain Observatory'
 },
+{
+  id: 'j58',
+  day: 58,
+  title: 'Musée maritime et librairie maritime',
+  excerpt: `Visite du Korea National Maritime Museum (Musée Maritime National de Corée), situé sur l’île de Yeongdo.
+
+L’île est accessible en bus, mais elle est assez vaste, il faudra que j’y retourne pour explorer les parties nord et est.
+
+Le bus me dépose pile devant le musée, situé à l’ouest de l’île.
+
+Le musée se compose d’un rez-de-chaussée et de 3 étages.
+Le rez-de-chaussée est entièrement dédié à une librairie spécialisée dans le monde marin et maritime.
+Le 1er étage propose une exposition sur les coquillages et leur utilisation au cours de l’histoire coréenne et japonaise.
+Le 2ème étage est consacré aux outils liés à la pêche et à l’exploitation des ressources marines.
+Enfin, le 3ème et dernier étage traite de la manière dont l’homme a dompté les océans au fil du temps : navigation en haute mer, traçage des cartes, exploration… Tout ce qui a permis aux explorateurs du monde entier de découvrir les ressources de la planète, notamment à travers la route de la soie et la route des épices.
+
+Je prends vraiment mon temps dans chaque exposition pour bien comprendre.
+Ma visite aura duré une bonne heure et demie.
+
+Ensuite, je décide de me poser dans la librairie, avec une jolie vue sur le port et les îles d’Oryukdo au loin.
+Je suis resté là presque 2h à lire.
+
+J’ai commencé par le magazine Naval History, où je me suis plongé dans l’histoire des soldats américains — les Marines — de 1750 à nos jours (The Rise of America’s “Soldiers from the Sea”).
+
+Et puis j’ai carrément accroché au livre de Mark Adams : Meet Me in Atlantis.
+J’en ai lu une trentaine de pages.
+Dès le départ, le narrateur débat de l’existence de la fameuse Atlantide, notamment en remettant en question les dires de Platon (d’ailleurs, en anglais, c’est Plato).
+
+Bref, c’était agréable, cool, hyper silencieux… et le fauteuil dans lequel j’étais installé était carrément confortable.`,
+  mood: 'Musée maritime et librairie maritime'
+},
+
 
 
 
