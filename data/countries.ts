@@ -703,6 +703,13 @@ export const COUNTRIES: CountryData[] = [
 
 },
 {
+  id: 't57',
+  date: 'Jour 57 (737 pas)',
+  title: 'Lecture, documentaire et repos',
+  description:
+    'Pas grand chose ce jour, je mélange lecture et visonnage de documentaire',
+},
+{
   id: 't58',
   date: 'Jour 58 (6 847 pas)',
   title: 'Musée maritime national de Corée et librairie maritime',
@@ -713,7 +720,9 @@ export const COUNTRIES: CountryData[] = [
     'Expositions sur les coquillages, la pêche et l’exploration maritime',
     'Histoire de la navigation, des cartes et des grandes routes commerciales',
     'Lecture dans la librairie maritime du musée pendant 2h',
-  ]
+  ],
+    video: 'https://youtube.com/shorts/LIXc781mRcY?si=wHPPVAL8G7OWHXv5'
+
 }
 
 
@@ -3500,7 +3509,7 @@ Juste la beauté de la nature,
   excerpt: `Jour de repos aujourd’hui.
 Réveil assez tardif, ciel gris toute la journée.
 
-Je passe une bonne partie de la jorunée à regarder quelques documentaires et vidéos youtube`,
+Je passe une bonne partie de la journée à regarder quelques documentaires et vidéos youtube`,
   mood: 'Jour de repos sous la grisaille'
 },
 {
@@ -3578,6 +3587,14 @@ La vue ici est certes jolie, mais pas aussi incroyable qu’à 800 mètres d’a
 
 Je pars de cet endroit, puis je reste encore quelques instants sur l’autre place, à quelques dizaines de mètres, pour voir l’autre côté, avec une vue sur l’est, les gratte-ciel et la mer en fond.`,
   mood: 'Wangnyeong Mountain Observatory'
+},
+{
+  id: 'j57',
+  day: 57,
+  title: 'Lecture, documentaire et repos',
+  excerpt: `Jour de repos aujourd’hui.
+Je mélange lecture et visinnage de quelques documentaires.`,
+  mood: 'Lecture, documentaire et repos'
 },
 {
   id: 'j58',
