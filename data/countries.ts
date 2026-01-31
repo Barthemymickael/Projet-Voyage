@@ -3593,7 +3593,7 @@ Je pars de cet endroit, puis je reste encore quelques instants sur l’autre pla
   day: 57,
   title: 'Lecture, documentaire et repos',
   excerpt: `Jour de repos aujourd’hui.
-Je mélange lecture et visinnage de quelques documentaires.`,
+Je mélange lecture et visionnage de quelques documentaires.`,
   mood: 'Lecture, documentaire et repos'
 },
 {
