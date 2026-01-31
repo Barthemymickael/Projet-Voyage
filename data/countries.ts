@@ -2105,7 +2105,17 @@ export const COUNTRIES: CountryData[] = [
   category: 'Balade',
   description: 'Point de vue orienté vers l’est, avec les gratte-ciel de Busan et la mer en arrière-plan.',
   emoji: '🌆'
+},
+{
+  id: 'm146',
+  lat: 35.078544,
+  lng: 129.080299,
+  title: 'Korea National Maritime Museum',
+  category: 'Activité',
+  description: 'Musée consacré au monde maritime coréen, avec une librairie spécialisée et des expositions sur les coquillages, la pêche et l’exploration maritime.',
+  emoji: '⚓'
 }
+
 
 
 
