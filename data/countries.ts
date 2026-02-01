@@ -2123,7 +2123,35 @@ export const COUNTRIES: CountryData[] = [
   category: 'Activité',
   description: 'Musée consacré au monde maritime coréen, avec une librairie spécialisée et des expositions sur les coquillages, la pêche et l’exploration maritime.',
   emoji: '⚓'
+},
+{
+  id: 'm147',
+  lat: 35.046659,
+  lng: 128.966931,
+  title: 'Dadaepo Park',
+  category: 'Activité',
+  description: 'Parc situé juste avant l’accès à la plage de Dadaepo.',
+  emoji: '🌳'
+},
+{
+  id: 'm148',
+  lat: 35.046366,
+  lng: 128.963375,
+  title: 'Dadaepo Beach',
+  category: 'Activité',
+  description: 'Plage orientée plein ouest, magnifique coucher de soleil.',
+  emoji: '🌅'
+},
+{
+  id: 'm149',
+  lat: 35.041359,
+  lng: 128.966594,
+  title: 'Morundae Nakjo Observatory',
+  category: 'Activité',
+  description: 'Petite crique au plus près de l’eau.',
+  emoji: '🌊'
 }
+
 
 
 
