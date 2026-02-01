@@ -723,7 +723,23 @@ export const COUNTRIES: CountryData[] = [
   ],
     video: 'https://youtube.com/shorts/LIXc781mRcY?si=wHPPVAL8G7OWHXv5'
 
+},
+{
+  id: 't59',
+  date: 'Jour 59 (11 859 pas)',
+  title: 'Dadaepo Beach',
+  description:
+    'Découverte de Dadaepo Beach, l’une des plages les plus réputées de Busan pour le coucher de soleil, avec une longue balade entre parc, observatoire et marche au bord de l’eau face à un panorama totalement dégagé.',
+  bullets: [
+    'Balade dans Dadaepo Park',
+    'Plage orientée plein ouest, idéale pour le coucher de soleil',
+    'Petite crique au bord de l’eau',
+    'Marche le long de la plage directement au bord de l’eau',
+  ],
+  video: 'https://youtube.com/shorts/aRpM_LdoPAo?si=LzhrnZ4zwDIwb3Gs'
+
 }
+
 
 
 
@@ -3655,6 +3671,30 @@ Dès le départ, le narrateur débat de l’existence de la fameuse Atlantide, n
 Bref, c’était agréable, cool, hyper silencieux… et le fauteuil dans lequel j’étais installé était carrément confortable.`,
   mood: 'Musée maritime et librairie maritime'
 },
+{
+  id: 'j59',
+  day: 59,
+  title: 'Dadaepo Beach',
+  excerpt: `Troisième plage la plus connue de Busan, Dadaepo Beach offre apparemment le plus beau coucher de soleil de la région.
+
+En effet, la plage est orientée plein ouest, ce qui permet d’observer le soleil disparaître progressivement derrière les petites îles au large.
+
+Je commence par me balader dans le parc situé à l’entrée de la plage, le Dadaepo Park. Une musique légère est diffusée dans les haut-parleurs, ce qui rend l’ambiance particulièrement agréable.
+
+À l’entrée de la plage, on trouve des hamacs, des bancs, des bancs-balançoires ainsi qu’une longue allée en bois pour se promener tranquillement.
+
+Je me dirige d’abord du côté du Morundae Nakjo Observatory (sur la gauche), une petite crique située à l’extrémité de la plage, tout près de l’eau.
+
+Je longe ensuite toute la plage côté parc, avant de marcher directement au bord de l’eau tout au long du coucher de soleil.
+
+Ici, pas de pont ni d’obstacle pour gêner la vue : le panorama est totalement dégagé.
+
+Ce fut un très beau dimanche après-midi, marqué par un magnifique coucher de soleil.
+
+Pour une fois, il s’agit d’une plage en longueur, au sable fin, sans boutiques juste à côté. En revanche, de grands immeubles bordent le parc, ce qui rend l’ensemble un peu moins immersif.`,
+  mood: 'Dadaepo Beach'
+},
+
 
 
 
