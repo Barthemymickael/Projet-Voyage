@@ -742,7 +742,7 @@ export const COUNTRIES: CountryData[] = [
 {
   id: 't60',
   date: 'Jour 60 (10 085 pas)',
-  title: 'Balade le long d''une rivière',
+  title: "Promenade le long d’une rivière",
   description:
     'Journée calme lecture,écriture et une longue balade de 2 heures le long d’une rivière, sur une promenade parfaitement aménagée qui suit le tracé de la ligne 1 du métro.',
 }
@@ -3705,16 +3705,17 @@ Pour une fois, il s’agit d’une plage en longueur, au sable fin, sans boutiqu
 {
   id: 'j60',
   day: 60,
-  title: 'Promenade le long d''une rivière',
+  title: "Promenade le long d’une rivière",
   excerpt: `Aujourd’hui, grasse matinée, lecture, écriture, puis une longue balade de 2h sur une promenade aménagée qui longe tout le circuit du métro de la ligne 1, juste à côté d’une rivière.
 
 Je décide d’explorer la partie nord et de voir jusqu’où cette promenade s’étend. Il me faut environ 1h pour atteindre le bout, puis 1h supplémentaire pour revenir.
 
 En chemin, j’aperçois quelques loutres et prends le temps d’observer l’aménagement du parcours. Tous les 400 mètres environ, on trouve des machines de sport en libre accès, ainsi que des terrains de basket et de badminton.
 
-En fin de journée, la promenade se remplit peu à peu, beaucoup de personnes viennent marcher, faire leurs pas quotidiens ou simplement profiter de la petite balade du soir. Tout est bien éclairé, très propre, et parfaitement aménagé, avec même une piste cyclable.`,
-  mood: 'Calme, quotidien et observation locale'
+En fin de journée, la promenade se remplit peu à peu, beaucoup de personnes viennent marcher, faire leurs pas quotidiens ou simplement profiter de la petite balade du soir. Tout est bien éclairé, bien aménagé, avec même une piste cyclable.`,
+  mood: "Promenade le long d’une rivière"
 },
+
 
 
 
