@@ -745,7 +745,8 @@ export const COUNTRIES: CountryData[] = [
   title: "Promenade le long d’une rivière",
   description:
     'Journée calme lecture,écriture et une longue balade de 2 heures le long d’une rivière, sur une promenade parfaitement aménagée qui suit le tracé de la ligne 1 du métro.',
-}
+  video: 'https://youtube.com/shorts/_LReNiZIsUc?si=Opx957e-UboFKJSU'
+},
 
 
 
