@@ -3749,7 +3749,7 @@ Arrivé près du phare, au bout du parc, une autre dame m’aborde en anglais en
 
 Nous passons ensuite une trentaine de minutes ensemble à discuter, prendre des photos et parler de nos vies. Elle s’appelle Katsu, elle a à peu près l’âge de ma mère et me parle d’Osaka, au Japon. Je lui explique que je m’y rendrai dans deux mois, et selon elle, je vais beaucoup apprécier la ville.
 
-Nous remontons ensuite par les chemins au-dessus du phare, où elle me présente son mari, qui n’a pas pu descendre, probablement à cause de ses genoux. Le mari est plutôt froid et ne parle pas anglais, contrairement à elle. Je décide alors de les laisser et de redescendre vers le phare pour prendre des photos et vidéos, et passer un peu plus de temps seul sur place. C’était une rencontre vraiment très cool.
+Nous remontons ensuite par les chemins au-dessus du phare, où elle me présente son mari, qui n’a pas pu descendre, probablement à cause de ses genoux. Le mari est plutôt froid et ne parle pas anglais, contrairement à elle. Je décide alors de les laisser et de redescendre vers le phare pour prendre des photos et vidéos, et passer un peu plus de temps sur place. C’était une rencontre vraiment très cool.
 
 En redescendant près du phare, je me rends compte qu’il est finalement possible de monter à l’intérieur, contrairement à ce que Katsu m’avait dit. Je grimpe les 35 mètres du phare et profite de la vue depuis ce point culminant.
 
