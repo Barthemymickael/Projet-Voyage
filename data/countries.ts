@@ -747,6 +747,23 @@ export const COUNTRIES: CountryData[] = [
     'Journée calme lecture,écriture et une longue balade de 2 heures le long d’une rivière, sur une promenade parfaitement aménagée qui suit le tracé de la ligne 1 du métro.',
   video: 'https://youtube.com/shorts/_LReNiZIsUc?si=Opx957e-UboFKJSU'
 },
+{
+  id: 't61',
+  date: 'Jour 61 (13 866 pas)',
+  title: 'Falaises de Taejongdae et rencontres',
+  description:
+    'Randonnée côtière sur l’île de Yeongdo, au cœur du parc naturel de Taejongdae, entre forêt, falaises, phare et rencontres.',
+  bullets: [
+    'Exploration du parc naturel de Taejongdae sur Yeongdo Island',
+    'Boucle de randonnée entre forêt et falaises',
+    'Moment avec Katsu près du phare',
+    'Ascension du phare de Taejongdae',
+    'Temps de pause prolongé à l’observatoire face à la mer',
+    'Coucher de soleil observé depuis les rochers, face à l’océan'
+  ],
+  video: 'https://youtube.com/shorts/7Qo3slN4FQQ?si=sJ9Y9YXE59eVOiwB'
+
+}
 
 
 
