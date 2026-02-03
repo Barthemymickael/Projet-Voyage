@@ -2192,7 +2192,62 @@ export const COUNTRIES: CountryData[] = [
   category: 'Activité',
   description: 'Petite crique au plus près de l’eau.',
   emoji: '🌊'
+},
+{
+  id: 'm150',
+  lat: 35.052076,
+  lng: 129.092083,
+  title: 'Yeongdo Lighthouse',
+  category: 'Activité',
+  description: 'Phare de Yeongdo haut de 35 mètres, accessible jusqu’au sommet (rencontre aux abords de Katsu).',
+  emoji: '🗼'
+},
+{
+  id: 'm151',
+  lat: 35.050442,
+  lng: 129.088397,
+  title: 'Taejongdae Observation Deck',
+  category: 'Activité',
+  description: 'Observatoire offrant une belle vue sur la mer, etages avec restaurants et bars.',
+  emoji: '🌊'
+},
+{
+  id: 'm152',
+  lat: 35.053057,
+  lng: 129.082476,
+  title: 'Banc face à la mer',
+  category: 'Activité',
+  description: 'Banc exposé plein soleil, face à la mer.',
+  emoji: '🪑'
+},
+{
+  id: 'm153',
+  lat: 35.056133,
+  lng: 129.080143,
+  title: 'Point de vue sur les falaises',
+  category: 'Activité',
+  description: 'Point de vue depuis les falaises pour le coucher du soleil.',
+  emoji: '🌅'
+},
+{
+  id: 'm154',
+  lat: 35.055387,
+  lng: 129.084810,
+  title: 'Gumyeongsa Temple',
+  category: 'Activité',
+  description: 'Tout petit temple qui ne paie pas de mine',
+  emoji: '⛩️'
+},
+{
+  id: 'm155',
+  lat: 35.059785,
+  lng: 129.080545,
+  title: 'Entrée du parc de Taejongdae',
+  category: 'Activité',
+  description: 'Entrée principale du parc de Taejongdae avec deux choix possibles : départ par la forêt ou par les falaises.',
+  emoji: '🌲'
 }
+
 
 
 
