@@ -759,7 +759,7 @@ export const COUNTRIES: CountryData[] = [
     'Moment avec Katsu près du phare',
     'Ascension du phare de Taejongdae',
     'Taejongdae Observation Deck',
-    'Coucher de soleil observé depuis les rochers'
+    'Coucher de soleil depuis les rochers'
   ],
   video: 'https://youtube.com/shorts/7Qo3slN4FQQ?si=sJ9Y9YXE59eVOiwB'
 
