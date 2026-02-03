@@ -3716,6 +3716,33 @@ En chemin, j’aperçois quelques loutres et prends le temps d’observer l’am
 En fin de journée, la promenade se remplit peu à peu, beaucoup de personnes viennent marcher, faire leurs pas quotidiens ou simplement profiter de la petite balade du soir. Tout est bien éclairé, bien aménagé, avec même une piste cyclable.`,
   mood: "Promenade le long d’une rivière"
 },
+{
+  id: 'j61',
+  day: 61,
+  title: "Falaises de Taejongdae et rencontres",
+  excerpt: `Départ en fin de matinée direction Yeongdo Island pour explorer les falaises de Taejongdae Cliff. Taejongdae est un parc naturel côtier situé à l’extrémité de l’île de Yeongdo, réputé pour ses falaises et ses points de vue sur la mer.
+
+Je commence par prendre un petit déjeuner au CU juste à l’entrée du parc afin de faire le plein d’énergie avant la randonnée.
+
+Le parcours est une boucle, avec la possibilité de commencer soit par la forêt, soit par les falaises. Je choisis de partir sur la gauche, par la forêt.
+
+Après une dizaine de minutes de marche, je croise une dame qui me dit bonjour et me propose de m’asseoir à côté d’elle. Je m’assois, nous échangeons quelques rires. Elle m’explique qu’elle revient tout juste du temple situé à proximité, où elle est allée prier. Malheureusement, elle ne parle pas anglais, la discussion est donc limitée mais reste très agréable. Après quelques échanges, je lui souhaite une bonne journée et poursuis ma randonnée.
+
+Arrivé près du phare, au bout du parc, une autre dame m’aborde en anglais en me disant qu’elle ne sait pas par où passer pour accéder au chemin menant juste à côté du phare. Nous cherchons ensemble et trouvons finalement l’entrée permettant de descendre.
+
+Nous passons ensuite une trentaine de minutes ensemble à discuter, prendre des photos et parler de nos vies. Elle s’appelle Katsu, elle a à peu près l’âge de ma mère et me parle d’Osaka, au Japon. Je lui explique que je m’y rendrai dans deux mois, et selon elle, je vais beaucoup apprécier la ville.
+
+Nous remontons ensuite par les chemins au-dessus du phare, où elle me présente son mari, qui n’a pas pu descendre, probablement à cause de ses genoux. Le mari est plutôt froid et ne parle pas anglais, contrairement à elle. Je décide alors de les laisser et de redescendre vers le phare pour prendre des photos et vidéos, et passer un peu plus de temps seul sur place. C’était une rencontre vraiment très cool.
+
+En redescendant près du phare, je me rends compte qu’il est finalement possible de monter à l’intérieur, contrairement à ce que Katsu m’avait dit. Je grimpe les 35 mètres du phare et profite de la vue depuis ce point culminant.
+
+Je me dirige ensuite vers le Taejongdae Observation Deck, situé à environ 200 mètres. Je m’y pose près de 45 minutes sur un banc, pile en face du soleil, avec une température agréable et sans vent.
+
+À l’approche du coucher du soleil, je me rends vers un dernier point de vue. Je grimpe quelques rochers et reste immobile face à la mer agitée, observant le soleil disparaître derrière des nuages.
+
+Ce fut une très belle randonnée, facile et accessible à tous. Content d’avoir fait ce parc, d’avoir rencontré ces personnes, et surtout Katsu.`,
+  mood: 'Falaises de Taejongdae et rencontres'
+}
 
 
 
