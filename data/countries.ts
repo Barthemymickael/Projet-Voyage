@@ -2259,7 +2259,53 @@ export const COUNTRIES: CountryData[] = [
   category: 'Activité',
   description: 'Entrée principale du parc de Taejongdae avec deux choix possibles : départ par la forêt ou par les falaises.',
   emoji: '🌲'
+},
+{
+  id: 'm156',
+  lat: 35.076160,
+  lng: 129.017599,
+  title: 'Songdo Beach',
+  category: 'Activité',
+  description: 'Première plage touristique de l’histoire de la Corée du Sud. Pas exceptionnelle, mais agréable, mais avec de nombreux bateaux de pêche en arrière-plan.',
+  emoji: '🏖️'
+},
+{
+  id: 'm157',
+  lat: 35.075364,
+  lng: 129.022312,
+  title: 'Songdo Cloud Walk & Turtle Island',
+  category: 'Activité',
+  description: 'Passerelle suspendue au-dessus de l’eau, en forme de serpent.',
+  emoji: '🌉'
+},
+{
+  id: 'm158',
+  lat: 35.061628,
+  lng: 129.021614,
+  title: 'Début de la randonnée d’Amnam Park',
+  category: 'Activité',
+  description: 'Point de départ d’une randonnée improvisée dans Amnam Park, juste à côté du Songdo Yonggung Suspension Bridge.',
+  emoji: '🥾'
+},
+{
+  id: 'm159',
+  lat: 35.053456,
+  lng: 129.014490,
+  title: 'Fin de la randonnée d’Amnam Park',
+  category: 'Activité',
+  description: 'Fin de la randonnée dans Amnam Park, avec un point de vue sur le coucher de soleil.',
+  emoji: '🌅'
+},
+{
+  id: 'm160',
+  lat: 35.057803,
+  lng: 129.017605,
+  title: 'Banc avec vue incroyable',
+  category: 'Activité',
+  description: 'Banc isolé hors du sentier principal. Le calme et la vue sont absolument incroyables, une véritable claque.',
+  emoji: '🪑'
 }
+
 
 
 
