@@ -711,7 +711,7 @@ export const COUNTRIES: CountryData[] = [
 },
 {
   id: 't58',
-  date: 'Jour 58 (6 847 pas)',
+  date: 'Jour 58 (6 863 pas)',
   title: 'Musée maritime national de Corée et librairie maritime',
   description:
     'Découverte du Korea National Maritime Museum sur l’île de Yeongdo, expositions sur l’histoire maritime, la pêche et la navigation, et longue pause lecture dans la librairie du musée face au port.',
@@ -726,7 +726,7 @@ export const COUNTRIES: CountryData[] = [
 },
 {
   id: 't59',
-  date: 'Jour 59 (11 859 pas)',
+  date: 'Jour 59 (11 861 pas)',
   title: 'Dadaepo Beach',
   description:
     'Découverte de Dadaepo Beach, l’une des plages les plus réputées de Busan pour le coucher de soleil, avec une longue balade entre parc, observatoire et marche au bord de l’eau face à un panorama totalement dégagé.',
@@ -741,7 +741,7 @@ export const COUNTRIES: CountryData[] = [
 },
 {
   id: 't60',
-  date: 'Jour 60 (10 085 pas)',
+  date: 'Jour 60 (10 113 pas)',
   title: "Promenade le long d’une rivière",
   description:
     'Journée calme lecture,écriture et une longue balade de 2 heures le long d’une rivière, sur une promenade parfaitement aménagée qui suit le tracé de la ligne 1 du métro.',
@@ -749,7 +749,7 @@ export const COUNTRIES: CountryData[] = [
 },
 {
   id: 't61',
-  date: 'Jour 61 (13 866 pas)',
+  date: 'Jour 61 (13 888 pas)',
   title: 'Falaises de Taejongdae et rencontres',
   description:
     'Randonnée côtière sur l’île de Yeongdo, au cœur du parc naturel de Taejongdae, entre forêt, falaises, phare et rencontres.',
@@ -763,7 +763,20 @@ export const COUNTRIES: CountryData[] = [
   ],
   video: 'https://youtube.com/shorts/7Qo3slN4FQQ?si=sJ9Y9YXE59eVOiwB'
 
+},
+{
+  id: 't62',
+  date: 'Jour 62 (14 216 pas)',
+  title: 'Songdo Beach, Amnam Park et la beauté de l’imprévu',
+  description:
+    'Découverte de Songdo Beach et de la Songdo Cloud Walk, avant un changement de plan total : une randonnée improvisée dans Amnam Park. Une marche de 2h30 le long des falaises, entre passages raides, cordes de sécurité (peu confiante) et surtout un banc avec un point de vue magnifique.',
+  bullets: [
+    'Songdo Beach et Cloud Walk',
+    'Randonnée côtière improvisée à Amnam Park',
+    'Un banc avec une vue incroyable'
+  ]
 }
+
 
 
 
@@ -3814,7 +3827,37 @@ Je me dirige ensuite vers le Taejongdae Observation Deck, situé à environ 200 
 
 Ce fut une très belle randonnée, facile et accessible à tous. Content d’avoir fait ce parc, d’avoir rencontré ces personnes, et surtout Katsu.`,
   mood: 'Falaises de Taejongdae et rencontres'
+},
+{
+  id: 'j62',
+  day: 62,
+  title: 'Songdo Beach, Amnam Park et la beauté de l’imprévu',
+  excerpt: `Découverte de Songdo Beach et d’Amnam Park aujourd’hui.
+
+J’arrive d’abord en bus à Songdo Beach et me dirige vers la Songdo Cloud Walk, un petit pont en forme de serpent qui surplombe l’eau. Au loin, j’aperçois les cabines du téléphérique se diriger vers le Songdo Sky Park, un parc suspendu au-dessus de la mer, proche des falaises.
+
+Je préfère marcher plutôt que prendre les cabines, d’autant plus qu’elles sont payantes. En une trentaine de minutes, j’arrive à l’entrée du Songdo Sky Park. L’entrée est payante (pas très chère), mais je n’ai pas de liquide sur moi et ils ne prennent pas Apple Pay. En regardant la carte, je réalise que je suis juste à côté d’Amnam Park, un parc de randonnée.
+
+Je décide alors de me lancer, un peu à l’improviste, dans cette randonnée côtière qui longe les falaises. Elle durera environ 2h30.
+
+Et ce fut un vrai plaisir, une claque.
+
+Certains passages sont assez raides, parfois sécurisés par une simple corde sur le côté pour pouvoir avancer. Mais ce que j’ai le plus adoré, c’est un endroit totalement isolé, perdu au milieu du parc : un simple banc face à une vue absolument superbe.
+
+Je reste là une bonne demi-heure à contempler le paysage, les bateaux de pêche au loin et surtout le calme absolu. C’est presque magique tant l’endroit est paisible, reposant et spectaculaire.
+
+Je reprends ensuite le chemin et, à un moment, je remarque qu’il est possible de descendre encore plus près des falaises. Le passage est périlleux, assez dangereux, avec une corde qui n’inspire pas vraiment confiance. J’hésite, réfléchis, teste la corde, puis décide de descendre. J’arrive encore plus près de l’eau, mais il serait possible d’aller encore plus bas. Je choisis finalement de remonter, estimant que cela ne m’apporterait pas grand-chose de plus et qu’il me reste encore du chemin à parcourir.
+
+Une vingtaine de minutes plus tard, j’arrive à l’extrémité du parc, presque pile pour le coucher de soleil. Je m’assois sur les marches en bois et observe tranquillement les dernières lueurs disparaître.
+
+Une fois le soleil couché, je me retrouve dans une zone industrielle. Quelques travailleurs sortent de l’usine et prennent le même bus que moi.
+
+Conclusion : c’est clairement dans l’imprévu que je m’éclate le plus et que je découvre les endroits les plus marquants. Cette randonnée restera comme l’une des plus mémorables de Busan.
+
+(À voir en vidéo dans le jour 62)`,
+  mood: 'Songdo Beach, Amnam Park et la beauté de l’imprévu'
 }
+
 
 
 
