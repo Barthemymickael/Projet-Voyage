@@ -774,7 +774,9 @@ export const COUNTRIES: CountryData[] = [
     'Songdo Beach et Cloud Walk',
     'Randonnée côtière improvisée à Amnam Park',
     'Un banc avec une vue incroyable'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/4VSWVpREsgQ?si=iud7zkMXKAKoNO3G'
+
 }
 
 
