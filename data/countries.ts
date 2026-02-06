@@ -766,7 +766,7 @@ export const COUNTRIES: CountryData[] = [
 },
 {
   id: 't62',
-  date: 'Jour 62 (14 216 pas)',
+  date: 'Jour 62 (14 230 pas)',
   title: 'Songdo Beach, Amnam Park et la beauté de l’imprévu',
   description:
     'Découverte de Songdo Beach et de la Songdo Cloud Walk, avant un changement de plan total : une randonnée improvisée dans Amnam Park. Une marche de 2h30 le long des falaises, entre passages raides, cordes de sécurité (peu confiante) et surtout un banc avec un point de vue magnifique.',
@@ -777,7 +777,29 @@ export const COUNTRIES: CountryData[] = [
   ],
   video: 'https://youtube.com/shorts/4VSWVpREsgQ?si=iud7zkMXKAKoNO3G'
 
+},
+{
+  id: 't63',
+  date: 'Jour 63 (1 179 pas)',
+  title: 'Journée calme et préparation du départ',
+  description:
+    'Aujourd’hui lessive et préparation de mon sac pour mon départ d’ici quelques jours.Chill toute la journée pas grand chose aujourd’hui ',
+},
+{
+  id: 't64',
+  date: 'Jour 64 (12 316 pas)',
+  title: 'Busan Citizens Park et Huinnyeoul Culture Village',
+  description:
+    'Découverte de Busan Citizens Park, ancien site militaire reconverti en parc urbain central, avec visite de son musée retraçant l’histoire du lieu. L’après-midi se poursuit sur l’île de Yeongdo, au Huinnyeoul Culture Village : un village côtier coloré, ponctué de cafés, offrant une vue imprenable sur la mer. Lecture, chocolat chaud et coucher de soleil pour conclure la journée.',
+  bullets: [
+    'Busan Citizens Park et son musée',
+    'Huinnyeoul Culture Village sur l’île de Yeongdo'
+  ],
+  video: 'https://youtube.com/shorts/Byqbjw26Krg?si=Rj1Id8yBYO4ghpy7'
+
 }
+
+
 
 
 
@@ -2306,7 +2328,44 @@ export const COUNTRIES: CountryData[] = [
   category: 'Activité',
   description: 'Banc isolé hors du sentier principal. Le calme et la vue sont absolument incroyables, une véritable claque.',
   emoji: '🪑'
+},
+{
+  id: 'm161',
+  lat: 35.168168,
+  lng: 129.057386,
+  title: 'Busan Citizens Park',
+  category: 'Activité',
+  description: 'Ancien camp militaire américain reconverti en vaste parc familial, très agréable pour se promener.',
+  emoji: '🌳'
+},
+{
+  id: 'm162',
+  lat: 35.167161,
+  lng: 129.054357,
+  title: 'Citizens Park History Museum',
+  category: 'Activité',
+  description: 'Musée du parc retraçant 100 ans d’histoire du lieu : d’un simple champ à un hippodrome, puis un camp militaire, avant de devenir un parc public.',
+  emoji: '🏛️'
+},
+{
+  id: 'm163',
+  lat: 35.078285,
+  lng: 129.045321,
+  title: 'Huinnyeoul Culture Village',
+  category: 'Activité',
+  description: 'Village coloré tout en longueur, bordé de nombreux coffee shops faisant face à la mer.',
+  emoji: '🎨'
+},
+{
+  id: 'm164',
+  lat: 35.079468,
+  lng: 129.044378,
+  title: 'Café B.elle',
+  category: 'Cuisine',
+  description: 'Café sur 2 étages avec un rooftop, le tout avec une belle vue sur la mer.',
+  emoji: '☕'
 }
+
 
 
 
@@ -3904,7 +3963,39 @@ Conclusion : c’est clairement dans l’imprévu que je m’éclate le plus et 
 
 (À voir en vidéo dans le jour 62)`,
   mood: 'Songdo Beach, Amnam Park et la beauté de l’imprévu'
+},
+{
+  id: 'j63',
+  day: 63,
+  title: 'Journée calme et préparation du départ',
+  excerpt: `Aujourd’hui, journée très tranquille.
+
+Je m’occupe principalement de la lessive et de la préparation de mon sac en vue de mon départ d’ici quelques jours.
+
+Chill toute la journée pas grand chose aujourd’hui .`,
+  mood: 'Journée calme et préparation du départ'
+},
+{
+  id: 'j64',
+  day: 64,
+  title: 'Busan Citizens Park, musée et Huinnyeoul Culture Village',
+  excerpt: `Départ avec mon livre sous le bras, direction Busan Citizens Park. À l’origine, ce lieu n’est pas un parc classique : il s’agissait d’un ancien hippodrome durant l’occupation japonaise (1910–1945), puis d’un camp militaire américain pendant près de 70 ans, avant d’être restitué à la ville au début des années 2010.
+
+Je commence par explorer le parc afin d’en faire le tour. Il est situé en plein centre-ville, encerclé d’immeubles. Toute l’organisation du parc reprend l’ancienne structure militaire : disposition très symétrique, découpée en petits “quartiers”, chacun avec son propre jardin et ses infrastructures.
+
+En me rapprochant du centre, j’entre dans le musée du parc. J’y reste une bonne trentaine de minutes. L’exposition est passionnante et apporte beaucoup de contexte historique sur l’évolution du lieu. J’ai vraiment adoré.
+
+Je m’installe ensuite à une table de pique-nique, cookie à la main. J’hésite à lire, puis je décide finalement de cocher l’une des dernières grandes activités de ma liste : le Huinnyeoul Culture Village.
+
+Après environ une heure de bus, j’arrive dans ce petit village situé sur l’île de Yeongdo — la dernière vraie exploration prévue sur cette île. La vue est superbe : Songdo Beach est visible, ainsi que l’extrémité de l’île où j’avais randonné quelques jours plus tôt.
+
+Le Huinnyeoul Culture Village est un village tout en longueur, sur 300 à 400 mètres, perché le long de la côte. Très coloré, vivant, rempli de coffee shops et de cafés concept, tous misant sur le même atout : une vue imprenable sur la mer.
+
+Je m’installe au B.Elle Coffee, commande un chocolat chaud et reprends ma lecture. Coucher de soleil, ciel légèrement nuageux, musique douce, soleil frappant la vitre… Un moment simple, mais vraiment très cool.`,
+  mood: 'Busan Citizens Park, musée et Huinnyeoul Culture Village'
 }
+
+
 
 
 
