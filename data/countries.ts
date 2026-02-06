@@ -3987,11 +3987,11 @@ En me rapprochant du centre, j’entre dans le musée du parc. J’y reste une b
 
 Je m’installe ensuite à une table de pique-nique, cookie à la main. J’hésite à lire, puis je décide finalement de cocher l’une des dernières grandes activités de ma liste : le Huinnyeoul Culture Village.
 
-Après environ une heure de bus, j’arrive dans ce petit village situé sur l’île de Yeongdo — la dernière vraie exploration prévue sur cette île. La vue est superbe : Songdo Beach est visible, ainsi que l’extrémité de l’île où j’avais randonné quelques jours plus tôt.
+Après environ une heure de bus, j’arrive dans ce petit village situé sur l’île de Yeongdo,la dernière exploration sur cette île. La vue est superbe : Songdo Beach est visible, ainsi que l’extrémité de l’île où j’ai fait ma randonnée quelques jours plus tôt.
 
-Le Huinnyeoul Culture Village est un village tout en longueur, sur 300 à 400 mètres, perché le long de la côte. Très coloré, vivant, rempli de coffee shops et de cafés concept, tous misant sur le même atout : une vue imprenable sur la mer.
+Le Huinnyeoul Culture Village est un village tout en longueur, sur 300 à 400 mètres, perché le long de la côte. Très coloré et rempli de coffee shops et de cafés concept, tous misant sur le même atout : une vue imprenable sur la mer.
 
-Je m’installe au B.Elle Coffee, commande un chocolat chaud et reprends ma lecture. Coucher de soleil, ciel légèrement nuageux, musique douce, soleil frappant la vitre… Un moment simple, mais vraiment très cool.`,
+Je m’installe au B.Elle Coffee, commande un chocolat chaud et reprends ma lecture. Coucher de soleil, ciel légèrement nuageux, musique douce, soleil frappant la vitre. Très cool.`,
   mood: 'Busan Citizens Park, musée et Huinnyeoul Culture Village'
 }
 
