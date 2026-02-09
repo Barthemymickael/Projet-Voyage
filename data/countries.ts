@@ -808,7 +808,21 @@ export const COUNTRIES: CountryData[] = [
     'Eulsukdo Island et ses observatoires',
     'Bar vintage et discussion'
   ]
+},
+{
+  id: 't66',
+  date: 'Jour 66 (35 898 pas)',
+  title: 'Record de pas et très grande balade allant de mon logement à Gwangalli Beach',
+  description:
+    'Avant-dernier jour à Busan et record absolu de marche pour le voyage : 35 898 pas, soit plus de 22 km à pied. Parti sans réel objectif, simplement avec l’envie de marcher sur la promenade, la balade se transforme peu à peu en une longue traversée de la ville. Après plusieurs kilomètres le long de la rivière, j’arrive finalement aux abords de Gwangalli Beach à la tombée du jour. Juste avant la plage, je découvre un night market installé dans un grand food hall face à la mer. Je m’y arrête près de trois quarts d’heure, le temps de manger quelques slices de pizza.. Le retour se fait ensuite entièrement à pied, au milieu des néons, des restaurants et de la vie nocturne.',
+  bullets: [
+    'Promenades et traversée de la ville',
+    'Food hall Market Night : Millac the market',
+    'Gwangalli Beach de nuit'
+  ]
 }
+
+
 
 
 
