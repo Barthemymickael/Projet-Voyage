@@ -807,7 +807,9 @@ export const COUNTRIES: CountryData[] = [
   bullets: [
     'Eulsukdo Island et ses observatoires',
     'Bar vintage et discussion'
-  ]
+  ],
+  video: 'https://youtu.be/u3fJNzdbtyo?si=SDhaSshKtwDzykCU'
+
 },
 {
   id: 't66',
