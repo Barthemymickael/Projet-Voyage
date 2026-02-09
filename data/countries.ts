@@ -4058,7 +4058,33 @@ Je discute longuement avec lui. Nous partageons une passion pour le cinéma et l
 
 Le lieu me correspond totalement. Que des musiques que j’adore. Comme je suis français, il passe Desireless, Joe Dassin, France Gall. La pinte n’est vraiment pas chère (4 €), l’ambiance est top. Je lui apprends quelques mots de français, et nous nous quittons avec une franche poignée de main, en disant tous les deux : « Salut. » Parce qu’il n’arrivait pas à dire « au revoir ».`,
   mood: 'Retour à Eulsukdo Island sanctuary et Bar Vintage'
+},
+{
+  id: 'j66',
+  day: 66,
+  title: 'Record de pas et grande balade dans la ville',
+  excerpt: `Record de pas et de distance aujourd’hui pour ce voyage : 35 898 pas, soit 22,5 km parcourus à pied.
+
+Avant-dernier jour à Busan. Avec l’envie de revivre ce que j’avais fait à Séoul le long de la Han River (Jour 33), je décide de m’offrir une très grande balade. Je pars de chez moi en milieu d’après-midi pour rejoindre Gwangalli Beach, en empruntant la longue promenade proche de mon logement.
+
+Une semaine plus tôt, j’avais exploré la partie nord de cette promenade. Aujourd’hui, je choisis la direction sud, simplement pour voir jusqu’où elle mène. Après 7 km et environ 1h30 de marche, j’arrive au bout. La petite rivière longeant la promenade se jette ici dans la Suyeonggang River, elle aussi bordée d’une immense promenade.
+
+Deux options s’offrent alors à moi : faire demi-tour tranquillement et rentrer assez tôt, ou continuer en direction de Gwangalli Beach sans vraiment savoir combien de temps cela prendra. Je choisis la deuxième option. Parce que... pourquoi pas ?
+
+Un peu plus loin, je m’arrête devant un panneau indiquant ma position. Un Coréen très sympa s’approche et me demande si j’ai besoin d’aide. Je lui demande combien de temps il me reste pour rejoindre la plage. Réponse : encore 40 minutes.
+
+J’arrive finalement près de Gwangalli Beach. J’aperçois un night market installé dans un grand entrepôt, rempli de restaurants, avec un large escalier intérieur permettant de s’asseoir face à la mer et au port. Après un moment d’hésitation, je me laisse tenter par quelques slices de pizza et je reste environ 45 minutes sur place.
+
+Je ne traine pas trop : je suis parti sans carte de transport ni liquide. Autrement dit, impossible de rentrer autrement qu’à pied. Je passe tout de même par la plage, marche une dernière fois sur le sable de Gwangalli Beach, puis je prends le chemin du retour.
+
+Je traverse la ville sur une grande partie du trajet, avant de rejoindre la promenade pour le dernier tiers. Un vrai petit défi personnel, relevé. Record de pas battu. Heureux d’avoir emprunté ces promenades que tant de résidents parcourent au quotidien.
+
+Et surtout, cette sensation incroyable de marcher dans des rues baignées de néons, de lumières et de restaurants sur la route du retour. Les yeux et l’esprit émerveillés, je repense brièvement à ces deux mois passés dans le pays, et à ce mois à Busan. Mais je m’empêche volontairement de faire un vrai bilan. Pas encore.
+
+Je vis le moment à fond. La rétrospective, je me la garde pour demain soir, pour ma dernière activité. Une activité en écho à mes derniers jours à Séoul, histoire de boucler la boucle.`,
+  mood: 'Record de pas et grande balade dans la ville'
 }
+
 
 
 
