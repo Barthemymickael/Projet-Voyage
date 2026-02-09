@@ -4038,7 +4038,7 @@ Je m’installe au B.Elle Coffee, commande un chocolat chaud et reprends ma lect
   id: 'j65',
   day: 65,
   title: 'Retour à Eulsukdo Island sanctuary et Bar Vintage',
-  excerpt: `Retour à Eulsukdo Island, le sanctuaire des oiseaux. Le froid est de retour aujourd’hui, avec –7°C ressentis. Pourtant, je me sens presque obligé de revenir ici — sans aucun doute mon lieu préféré — avant de quitter Busan.
+  excerpt: `Retour à Eulsukdo Island, le sanctuaire des oiseaux. Le froid est de retour aujourd’hui, avec –7°C ressentis. Pourtant, je me sens presque obligé de revenir ici (sans aucun doute mon lieu préféré) avant de quitter Busan.
 
 Ironiquement, le site est peu connu et mal référencé sur Google ou Naver Maps. On ne trouve que quelques articles parlant des oiseaux migrateurs en hiver. Et pourtant, c’est ici que je ressens le plus de choses : le calme, le silence, la grandeur du lieu. Les oiseaux qui survolent ou frôlent les lacs, et surtout l’un des plus beaux spots de coucher de soleil que j’aie vus depuis plus de deux mois.
 
