@@ -803,7 +803,7 @@ export const COUNTRIES: CountryData[] = [
   date: 'Jour 65 (12 940 pas)',
   title: 'Retour à Eulsukdo Island et bar vintage en soirée',
   description:
-    'Retour à Eulsukdo Island, le sanctuaire des oiseaux. Une visite plus lente et plus posée que la précédente, consacrée entièrement au sanctuaire : observatoires, musée, longues minutes passées à observer les oiseaux et à contempler l’un des plus beaux couchers de soleil du séjour. En fin de journée, arrêt dans un bar vintage du quartier, rempli de vinyles et de musiques des années 70 à 2000. Discussionavec le patron autour du cinéma, des bandes originales et de la culture française.',
+    'Retour à Eulsukdo Island, le sanctuaire des oiseaux. Une visite plus lente et plus posée que la précédente, consacrée entièrement au sanctuaire : observatoires, musée, longues minutes passées à observer les oiseaux et à contempler l’un des plus beaux couchers de soleil du séjour. En fin de journée, arrêt dans un bar vintage du quartier, rempli de vinyles et de musiques des années 70 à 2000. Discussion avec le patron autour du cinéma, des bandes originales et de la culture française.',
   bullets: [
     'Eulsukdo Island et ses observatoires',
     'Bar vintage et discussion'
