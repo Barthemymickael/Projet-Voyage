@@ -821,7 +821,8 @@ export const COUNTRIES: CountryData[] = [
     'Promenades et traversée de la ville',
     'Food hall Market Night : Millac the market',
     'Gwangalli Beach de nuit'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/_HqgM17-nFI?si=KjHDtAnG6ObcK4zK'
 }
 
 
