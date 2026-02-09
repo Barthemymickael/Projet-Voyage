@@ -4093,7 +4093,7 @@ Je m’installe au B.Elle Coffee, commande un chocolat chaud et reprends ma lect
 
 Ironiquement, le site est peu connu et mal référencé sur Google ou Naver Maps. On ne trouve que quelques articles parlant des oiseaux migrateurs en hiver. Et pourtant, c’est ici que je ressens le plus de choses : le calme, le silence, la grandeur du lieu. Les oiseaux qui survolent ou frôlent les lacs, et surtout l’un des plus beaux spots de coucher de soleil que j’aie vus depuis plus de deux mois.
 
-Contrairement à ma dernière visite, où je m’étais pressé pour ne pas me retrouver dans la nuit noire, j’arrive aujourd’hui en début d’après-midi. Je me concentre uniquement sur la partie sanctuaire des oiseaux, ce qui me permet enfin de vraiment découvrir le lieu.
+Contrairement à ma dernière visite, où je m’étais pressé pour ne pas me retrouver dans la nuit noire, j’arrive aujourd’hui en début d’après-midi. Je me concentre uniquement sur la partie sanctuaire des oiseaux, ce qui me permet de vraiment découvrir le lieu.
 
 À mon arrivée, je me rends à l’observatoire principal. À l’intérieur, un petit musée et un panorama exceptionnel sur le premier lac, peuplé d’un nombre impressionnant d’oiseaux que l’on peut observer tranquillement, assis. Je fais le tour du musée et en apprends davantage sur la construction du site et la volonté de la ville de Busan de le protéger.
 
