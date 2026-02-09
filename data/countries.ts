@@ -2433,7 +2433,7 @@ export const COUNTRIES: CountryData[] = [
   lng: 129.114254,
   title: 'Fin de la promenade sud – Jour 66',
   category: 'Balade',
-  description: 'Fin de la promenade vers le sud du jour 66, là où une petite rivière se jette dans la Suyeonggang River.',
+  description: 'Fin de la promenade vers le sud du jour 66, là où la petite rivière se jette dans la Suyeonggang River.',
   emoji: '🚶‍♂️'
 },
 {
