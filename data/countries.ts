@@ -2417,7 +2417,44 @@ export const COUNTRIES: CountryData[] = [
   category: 'Cuisine',
   description: 'Bar vintage à l’ambiance rétro (vinyles, cassettes et CD), diffusant uniquement des musiques des années 70 à 2000. Patron très cool, discussion super cool, pinte à 4 €. Les clients peuvent suggérer des morceaux via de petites notes papier.',
   emoji: '🍺'
+},
+{
+  id: 'm168',
+  lat: 35.154202,
+  lng: 129.127036,
+  title: 'Millac The Market',
+  category: 'Cuisine',
+  description: 'Grand food hall installé dans un ancien entrepôt, où j’ai mangé des parts de pizza chez D1DP.',
+  emoji: '🍕'
+},
+{
+  id: 'm169',
+  lat: 35.188719,
+  lng: 129.114254,
+  title: 'Fin de la promenade sud – Jour 66',
+  category: 'Balade',
+  description: 'Fin de la promenade vers le sud du jour 66, là où une petite rivière se jette dans la Suyeonggang River.',
+  emoji: '🚶‍♂️'
+},
+{
+  id: 'm170',
+  lat: 35.258046,
+  lng: 129.091889,
+  title: 'Fin de la promenade nord – Jour 60',
+  category: 'Balade',
+  description: 'Fin de la promenade vers le nord du jour 60, après environ 1h de marche depuis le point de départ.',
+  emoji: '🚶‍♂️'
+},
+{
+  id: 'm171',
+  lat: 35.231131,
+  lng: 129.089170,
+  title: 'Départ de la promenade depuis mon quartier',
+  category: 'Balade',
+  description: 'Point de départ des promenades du jour 60 (vers le nord) et du jour 66 (vers le sud), depuis mon quartier.',
+  emoji: '🚶‍♂️'
 }
+
 
 
 
