@@ -2376,7 +2376,35 @@ export const COUNTRIES: CountryData[] = [
   category: 'Cuisine',
   description: 'Café sur 2 étages avec un rooftop, le tout avec une belle vue sur la mer.',
   emoji: '☕'
+},
+{
+  id: 'm165',
+  lat: 35.104502,
+  lng: 128.945992,
+  title: 'Nakdong River Estuary Eco Center',
+  category: 'Activité',
+  description: 'Centre écologique avec observatoire intérieur ouvert au public, comprenant un petit musée, des salles pédagogiques et un large panorama sur le lac.',
+  emoji: '🦆'
+},
+{
+  id: 'm166',
+  lat: 35.088464,
+  lng: 128.943696,
+  title: 'Nakdong Estuary Exploratory Experience Center',
+  category: 'Activité',
+  description: 'Observatoire situé au sud de l’île, avec bibliothèque, salles pédagogiques et rooftop malheureusement fermé.',
+  emoji: '🏞️'
+},
+{
+  id: 'm167',
+  lat: 35.228107,
+  lng: 129.086710,
+  title: '25 Salon',
+  category: 'Cuisine',
+  description: 'Bar vintage à l’ambiance rétro (vinyles, cassettes et CD), diffusant uniquement des musiques des années 70 à 2000. Patron très cool, discussion super cool, pinte à 4 €. Les clients peuvent suggérer des morceaux via de petites notes papier.',
+  emoji: '🍺'
 }
+
 
 
 
