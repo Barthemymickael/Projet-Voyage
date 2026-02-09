@@ -787,7 +787,7 @@ export const COUNTRIES: CountryData[] = [
 },
 {
   id: 't64',
-  date: 'Jour 64 (12 316 pas)',
+  date: 'Jour 64 (12 327 pas)',
   title: 'Busan Citizens Park et Huinnyeoul Culture Village',
   description:
     'Découverte de Busan Citizens Park, ancien site militaire reconverti en parc urbain central, avec visite de son musée retraçant l’histoire du lieu. L’après-midi se poursuit sur l’île de Yeongdo, au Huinnyeoul Culture Village : un village côtier coloré, ponctué de cafés, offrant une vue imprenable sur la mer. Lecture, chocolat chaud et coucher de soleil pour conclure la journée.',
@@ -797,7 +797,19 @@ export const COUNTRIES: CountryData[] = [
   ],
   video: 'https://youtube.com/shorts/Byqbjw26Krg?si=Rj1Id8yBYO4ghpy7'
 
+},
+{
+  id: 't65',
+  date: 'Jour 65 (12 940 pas)',
+  title: 'Retour à Eulsukdo Island et bar vintage en soirée',
+  description:
+    'Retour à Eulsukdo Island, le sanctuaire des oiseaux. Une visite plus lente et plus posée que la précédente, consacrée entièrement au sanctuaire : observatoires, musée, longues minutes passées à observer les oiseaux et à contempler l’un des plus beaux couchers de soleil du séjour. En fin de journée, arrêt dans un bar vintage du quartier, rempli de vinyles et de musiques des années 70 à 2000. Discussionavec le patron autour du cinéma, des bandes originales et de la culture française.',
+  bullets: [
+    'Eulsukdo Island et ses observatoires',
+    'Bar vintage et discussion'
+  ]
 }
+
 
 
 
@@ -3993,7 +4005,33 @@ Le Huinnyeoul Culture Village est un village tout en longueur, sur 300 à 400 m�
 
 Je m’installe au B.Elle Coffee, commande un chocolat chaud et reprends ma lecture. Coucher de soleil, ciel légèrement nuageux, musique douce, soleil frappant la vitre. Très cool.`,
   mood: 'Busan Citizens Park, musée et Huinnyeoul Culture Village'
+},
+{
+  id: 'j65',
+  day: 65,
+  title: 'Retour à Eulsukdo Island sanctuary et Bar Vintage',
+  excerpt: `Retour à Eulsukdo Island, le sanctuaire des oiseaux. Le froid est de retour aujourd’hui, avec –7°C ressentis. Pourtant, je me sens presque obligé de revenir ici — sans aucun doute mon lieu préféré — avant de quitter Busan.
+
+Ironiquement, le site est peu connu et mal référencé sur Google ou Naver Maps. On ne trouve que quelques articles parlant des oiseaux migrateurs en hiver. Et pourtant, c’est ici que je ressens le plus de choses : le calme, le silence, la grandeur du lieu. Les oiseaux qui survolent ou frôlent les lacs, et surtout l’un des plus beaux spots de coucher de soleil que j’aie vus depuis plus de deux mois.
+
+Contrairement à ma dernière visite, où je m’étais pressé pour ne pas me retrouver dans la nuit noire, j’arrive aujourd’hui en début d’après-midi. Je me concentre uniquement sur la partie sanctuaire des oiseaux, ce qui me permet enfin de vraiment découvrir le lieu.
+
+À mon arrivée, je me rends à l’observatoire principal. À l’intérieur, un petit musée et un panorama exceptionnel sur le premier lac, peuplé d’un nombre impressionnant d’oiseaux que l’on peut observer tranquillement, assis. Je fais le tour du musée et en apprends davantage sur la construction du site et la volonté de la ville de Busan de le protéger.
+
+Je reste ensuite longuement assis à observer. Le temps ralentit. Une heure passe.
+
+Je décide alors de rejoindre l’observatoire sud. Le rooftop est malheureusement fermé, je m’installe donc à l’observatoire extérieur juste à côté. J’y reste presque une heure, mains dans les poches, à regarder les oiseaux avec en toile de fond le coucher de soleil et les collines. Encore une fois, j’en prends plein la vue. Je me surprends à observer, sans aucune notion du temps.
+
+J’attends la toute dernière lueur du soleil avant de quitter l’île. Deux kilomètres de marche plus tard, je prends le bus pour rentrer dans mon quartier.
+
+Une fois arrivé, je m’arrête dans un bar que je voulais tester depuis longtemps. Un bar vintage, rempli de vinyles, CD et cassettes. Ici, seules des musiques des années 70, 80, 90 et 2000 sont diffusées. Les clients peuvent écrire un artiste et un titre sur une petite fiche pour que le patron le passe.
+
+Je discute longuement avec lui. Nous partageons une passion pour le cinéma et les bandes originales. Il me demande d’où me vient toute cette culture. Je lui réponds que c’est grâce à mon père. Il sourit et me dit : « C’est un bon père. »
+
+Le lieu me correspond totalement. Que des musiques que j’adore. Comme je suis français, il passe Desireless, Joe Dassin, France Gall. La pinte n’est vraiment pas chère (4 €), l’ambiance est top. Je lui apprends quelques mots de français, et nous nous quittons avec une franche poignée de main, en disant tous les deux : « Salut. » Parce qu’il n’arrivait pas à dire « au revoir ».`,
+  mood: 'Retour à Eulsukdo Island sanctuary et Bar Vintage'
 }
+
 
 
 
