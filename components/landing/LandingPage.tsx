@@ -64,15 +64,23 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
         <motion.div
           animate={{ y: isHovered ? -6 : 0 }}
           transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-          className="flex items-center justify-center gap-3 bg-white/8 border border-white/15 rounded-full px-4 py-2 sm:px-5 sm:py-2.5 backdrop-blur-lg shadow-lg shadow-black/30"
+          className={`flex items-center justify-center gap-3 rounded-full px-4 py-2 sm:px-5 sm:py-2.5 backdrop-blur-lg shadow-lg ${
+            country.isLocked
+              ? 'bg-white/8 border border-white/15 shadow-black/30'
+              : 'bg-emerald-500/20 border border-emerald-300/45 shadow-emerald-500/30'
+          }`}
         >
           {country.isLocked ? (
             <Lock className="w-6 h-6 lg:w-8 lg:h-8 text-zinc-300" />
           ) : (
-            <Unlock className="w-6 h-6 lg:w-8 lg:h-8 text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.5)]" />
+            <Unlock className="w-6 h-6 lg:w-8 lg:h-8 text-emerald-200 drop-shadow-[0_0_18px_rgba(16,185,129,0.8)]" />
           )}
-          <span className="text-xs sm:text-sm uppercase tracking-[0.16em] text-white/80 font-mono">
-            {country.isLocked ? 'Région verrouillée' : 'Région déverrouillée'}
+          <span
+            className={`text-xs sm:text-sm uppercase tracking-[0.16em] font-mono ${
+              country.isLocked ? 'text-white/80' : 'text-emerald-100 font-semibold'
+            }`}
+          >
+            {country.isLocked ? 'Région verrouillée' : 'Mission Accomplie'}
           </span>
         </motion.div>
 
