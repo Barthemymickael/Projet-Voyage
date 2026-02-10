@@ -15,9 +15,9 @@ export const COUNTRIES: CountryData[] = [
     isLocked: false,
     themeColor: 'indigo',
     hero: {
-      title: '3 mois en Corée du Sud',
+      title: '2 mois en Corée du Sud',
       subtitle: 'Mon voyage solo',
-      description: 'Voyage du 4 décembre 2025 jusqu’au 4 mars 2026',
+      description: 'Voyage du 4 décembre 2025 jusqu’au 10 février 2026',
       bgImage: withBase('seoul.jpg')
     },
     timeline: [
