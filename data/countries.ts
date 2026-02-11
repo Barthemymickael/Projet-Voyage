@@ -4158,42 +4158,10 @@ J’y prends des gimbaps (mon plat préféré de Corée) à emporter, que je dé
   title: 'Busan (Corée du Sud) → Osaka (Japon)',
   excerpt: `Journée de transition : Busan (Corée du Sud) → Osaka (Japon).
 
-C’est avec émotion que je rends l’appartement, avant de me diriger vers l’aéroport de Busan, l’aéroport international de Gimhae.
+C’est avec émotion que je rends l’appartement, avant de me diriger vers l’aéroport de Busan, l’aéroport international de Gimhae.`,
+  mood: 'Busan → Osaka'
+},
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    ]
-  },
   {
     id: 'japan',
     name: 'Japon',
