@@ -4168,7 +4168,8 @@ J’y prends des gimbaps (mon plat préféré de Corée) à emporter, que je dé
 
 C’est avec émotion que je rends l’appartement, avant de me diriger vers l’aéroport de Busan, l’aéroport international de Gimhae.`,
   mood: 'Busan → Osaka'
-},
+}
+      }
 
   {
     id: 'japan',
