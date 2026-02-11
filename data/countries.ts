@@ -4185,9 +4185,16 @@ C’est avec émotion que je rends l’appartement, avant de me diriger vers l�
 
 
 
-
-
-
+    videoUrl:
+      'https://images.unsplash.com/photo-1492571350019-22de08371fd3?q=80&w=1974&auto=format&fit=crop',
+    isLocked: false,
+    hero: {
+      title: 'Japon',
+      subtitle: 'Nouveau chapitre',
+      description: '',
+      bgImage:
+        'https://images.unsplash.com/photo-1492571350019-22de08371fd3?q=80&w=1974&auto=format&fit=crop'
+    },
 
 
 
