@@ -833,7 +833,9 @@ export const COUNTRIES: CountryData[] = [
   bullets: [
     'Haeundae Beach et promenade finale',
     'Busan X The Sky et coucher de soleil'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/YI-U97NOXI4?si=SNUZ9p2EslJn2p7s'
+
 },
 {
   id: 't68',
