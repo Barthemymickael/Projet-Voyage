@@ -4215,8 +4215,22 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Premier repas japonais : ramens traditionnels'
   ],
   video: 'https://youtube.com/shorts/AlIztWES-Uo?si=HIshMP4yheghdwsu'
+},
+  {
+  id: 't2',
+  date: 'Jour 2 (16 500 pas)',
+  title: 'Premiers pas à Osaka : immersion dans Namba',
+  description:
+    'Premier jour complet à Osaka et première immersion dans l’un de ses quartiers les plus emblématiques : Namba. Entre galeries commerçantes, centres commerciaux géants, salles d’arcade, lieux plus atypiques comme les immeubles de slots.',
+  bullets: [
+    'Galeries marchandes et centres commerciaux de Namba',
+    'Arcades, slots et contrastes urbains',
+    'Dōtonbori dt temples cachés'
+  ],
+  video: 'https://youtube.com/shorts/9krI0T_d4fs?si=scW0ftXiM7T3cE20'
 
 }
+
     ],
     markers: [],
     journal: [
