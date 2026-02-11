@@ -4242,7 +4242,7 @@ Je termine la journée par la visite du sanctuaire atypique de Namba Yasaka Jinj
 D’après ce que j’ai pu voir, si le lion a la gueule grande ouverte, c’est pour dévorer les mauvais esprits.
 
 Une fois la visite terminée, je rentre tranquillement chez moi, en passant par un supermarché pour faire quelques courses pour la semaine.`,
-  mood: 'Découverte urbaine, immersion culturelle et premières sensations japonaises'
+  mood: 'Premiers pas à Osaka : Namba'
 }
 
     ]
