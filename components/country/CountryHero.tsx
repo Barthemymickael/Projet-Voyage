@@ -96,29 +96,19 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
             value: 'Prix moyen d’un trajet : 190–240 ¥ (≈ 1,20 € à 1,50 €).'
           },
           {
-            emoji: '🏨',
-            label: 'Nuit en hôtel capsule (exemple)',
-            value: 'Entre 3 000 ¥ et 5 000 ¥ (≈ 19 € à 31 €) selon le quartier.'
+            emoji: '🍽️',
+            label: 'Repas',
+            value: "Prix moyen d'un repas : 1500 ¥ ≈ 8€."
           },
           {
-            emoji: '🍱',
-            label: 'Repas rapide (exemple)',
-            value: 'Un bento / gyudon tourne souvent autour de 700–1 000 ¥ (≈ 4,30 € à 6,20 €).'
+            emoji: '🎬',
+            label: 'La série que je regarde pour ce voyage',
+            value: 'Psych : Enquêteur malgré lui (2006-2014).'
           },
           {
-            emoji: '🏯',
-            label: 'Entrée de site culturel (exemple)',
-            value: 'Beaucoup de temples sont gratuits ; certains châteaux/musées coûtent 500–1 200 ¥.'
-          },
-          {
-            emoji: '🛒',
-            label: 'Konbini (exemple)',
-            value: 'Un combo onigiri + boisson revient souvent à 300–500 ¥ (≈ 2 € à 3 €).'
-          },
-          {
-            emoji: '🎵',
-            label: 'Playlist du moment (exemple)',
-            value: 'City pop japonaise en boucle pour les balades de nuit à Osaka.'
+            emoji: '📖',
+            label: 'Le livre que je lis pour ce voyage',
+            value: "L'Idiot - Dostoïevski (1874)."
           }
         ]
       : [
