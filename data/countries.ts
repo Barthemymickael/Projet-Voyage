@@ -4166,7 +4166,7 @@ Au programme : 1 h de bus, 1 h 05 d’avion, puis encore 1 h de train avant d’
 Départ de Busan à 10 h.
 Arrivée dans l’appartement à Osaka à 17 h 30.
 
-Et j’ai l’impression de ne pas vraiment comprendre ce qu’il se passe.
+    videoUrl: '/temple.jpg',
 En une heure, j’ai changé de pays, changé de culture et changé d’appartement.
 
 Le sentiment est étrange, presque irréel, comme si cette journée n’avait pas vraiment de sens.
