@@ -4232,7 +4232,81 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 }
 
     ],
-    markers: [],
+    markers: [
+      {
+  id: 'm174',
+  lat: 34.6455017379965,
+  lng: 135.49769067327392,
+  title: 'Mon logement à Osaka',
+  category: 'Logement',
+  description: 'Logement pour trois semaines à Osaka, proche du centre-ville avec une station de métro accessible en 4 minutes à pied.',
+  emoji: '🏠'
+},
+{
+  id: 'm175',
+  lat: 34.64223589639225,
+  lng: 135.49627937268025,
+  title: 'Manpumen Ramen',
+  category: 'Restaurant',
+  description: 'Premier repas japonais et premier repas à Osaka, quelques heures après l’atterrissage. Cuisine traditionnelle et ramen excellents.',
+  emoji: '🍜'
+},
+{
+  id: 'm176',
+  lat: 34.66849765768809,
+  lng: 135.50169713797519,
+  title: 'GIGO Osaka Dotonbori Main',
+  category: 'Divertissement',
+  description: 'Grande salle d’arcade emblématique sur plusieurs étages, située en plein cœur de Dōtonbori.',
+  emoji: '🕹️'
+},
+{
+  id: 'm177',
+  lat: 34.66873039050631,
+  lng: 135.50129782409002,
+  title: 'Dōtonbori',
+  category: 'Quartier',
+  description: 'Quartier ultra animé et lieu iconique d’Osaka, connu pour ses néons, ses restaurants et son ambiance nocturne.',
+  emoji: '🌃'
+},
+{
+  id: 'm178',
+  lat: 34.66161489148762,
+  lng: 135.50193489660612,
+  title: 'Namba Parks',
+  category: 'Shopping',
+  description: 'Grand centre commercial mêlant boutiques et restaurants, avec un immense jardin en rooftop au cœur de la ville.',
+  emoji: '🌿'
+},
+{
+  id: 'm179',
+  lat: 34.66764740753815,
+  lng: 135.50073758242496,
+  title: 'Namba HIPS',
+  category: 'Divertissement',
+  description: 'Immeuble dédié aux jeux et loisirs, connu notamment pour ses étages de machines à sous et d’arcade.',
+  emoji: '🎰'
+},
+{
+  id: 'm180',
+  lat: 34.661562482212624,
+  lng: 135.49670657881524,
+  title: 'Namba Yasaka Jinja',
+  category: 'Temple',
+  description: 'Sanctuaire shinto emblématique, célèbre pour son immense tête de lion sculptée, symbole de protection et de chance.',
+  emoji: '🦁'
+},
+{
+  id: 'm181',
+  lat: 34.667943633459586,
+  lng: 135.50246826715875,
+  title: 'Hōzen-ji Temple',
+  category: 'Temple',
+  description: 'Petit temple bouddhiste caché dans une ruelle de Namba, connu pour sa statue recouverte de mousse et son atmosphère paisible.',
+  emoji: '🧘'
+}
+
+    ],
     journal: [
       {
         id: 'j1',
