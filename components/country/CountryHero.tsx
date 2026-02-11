@@ -98,7 +98,7 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
           {
             emoji: '🍽️',
             label: 'Repas',
-            value: "Prix moyen d'un repas : 1500 ¥ ≈ 8€."
+            value: "Prix moyen d'un repas : 1200 ¥ ≈ 6,50 €."
           },
           {
             emoji: '🎬',
