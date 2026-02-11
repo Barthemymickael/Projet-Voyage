@@ -4129,9 +4129,15 @@ Ensuite, je me rends dans la tour, plus précisément aux étages de Busan x The
 J’y passerai finalement plus de 3h30, le temps de profiter pleinement du lieu, avec en prime un petit peach iced tea.
 
 D’ici, je peux voir Songjeong. Au loin, j’aperçois l’endroit, dans les dunes et les falaises, où je m’étais posé il y a un peu plus d’un mois (Jour 38, par exemple).
-Je refais aussi le tracé de toutes mes randonnées. D’en haut, on distingue Oryukdo Skywalk, Yeongdo Island, et plus loin encore, Amnam Park.
-On aperçoit également un petit bout de Gwangalli Beach.
-
+    videoUrl:
+      'https://images.unsplash.com/photo-1491884662610-dfcd28f30cfb?q=80&w=1974&auto=format&fit=crop',
+    isLocked: false,
+    hero: {
+      title: '2 mois au Japon',
+      subtitle: 'Mon voyage solo',
+      description: 'Voyage à venir — section ouverte, contenu en préparation.',
+      bgImage: ''
+    },
 Et je me dis que j’ai sacrément bien profité de cette ville.
 Je n’ai pas arrêté de bouger.
 J’ai fait tout ce qu’il y avait à faire.
