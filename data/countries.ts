@@ -847,7 +847,9 @@ export const COUNTRIES: CountryData[] = [
     'Busan → Osaka',
     'Arrivée et installation dans le nouvel appartement',
     'Premier repas japonais : ramens traditionnels'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/AlIztWES-Uo?si=HIshMP4yheghdwsu'
+
 }
 
 
@@ -2483,7 +2485,26 @@ export const COUNTRIES: CountryData[] = [
   category: 'Balade',
   description: 'Point de départ des promenades du jour 60 (vers le nord) et du jour 66 (vers le sud), depuis mon quartier.',
   emoji: '🚶‍♂️'
+},
+{
+  id: 'm172',
+  lat: 35.159494,
+  lng: 129.170072,
+  title: 'Busan X The Sky',
+  category: 'Panorama',
+  description: 'Observatoire situé à 410 mètres de hauteur. J’y ai passé 3h30 à contempler Busan une dernière fois, suspendu au-dessus de la ville.',
+  emoji: '🌆'
+},
+{
+  id: 'm173',
+  lat: 35.172876,
+  lng: 128.947178,
+  title: 'Aéroport international de Gimhae (PUS)',
+  category: 'Transport',
+  description: 'Aéroport international situé à environ 1h10 de mon logement. Départ vers Osaka, au Japon.',
+  emoji: '✈️'
 }
+
 
 
 
