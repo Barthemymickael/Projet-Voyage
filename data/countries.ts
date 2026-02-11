@@ -4208,7 +4208,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   date: 'Jour 1 (8 554 pas)',
   title: 'De Busan à Osaka, journée de transition',
   description:
-    'Dernier jour en Corée du Sud et transition vers le Japon. Une journée étrange, presque irréelle, où tout s’enchaîne très vite : rendre l’appartement à Busan, rejoindre l’aéroport de Gimhae, prendre l’avion, puis le train jusqu’à Osaka. En quelques heures, changement de pays, de culture et de repères. Le matin encore à Busan, le soir dans un ramen japonais. Une sensation de flottement, mais aussi un vrai plaisir de vivre ce genre de bascule.',
+    'Dernier jour en Corée du Sud et transition vers le Japon. Une journée étrange, presque irréelle, où tout s’enchaîne très vite : rendre l’appartement à Busan, rejoindre l’aéroport de Gimhae, prendre l’avion, puis le train jusqu’à Osaka. En quelques heures, changement de pays et de culture. Le matin encore à Busan, le soir dans un ramen japonais. Quel plaisir de vivre cette sensation',
   bullets: [
     'Busan → Osaka',
     'Arrivée et installation dans le nouvel appartement',
