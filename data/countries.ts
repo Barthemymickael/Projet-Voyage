@@ -4304,7 +4304,7 @@ Je me dirige ensuite vers un tout petit temple caché dans une ruelle : Hōzen-j
 
 Puis je pars vers l’endroit le plus emblématique du quartier — et de la ville : Dōtonbori, le quartier de la street food.
 
-Un canal artificiel traverse le quartier, bordé de grands immeubles couverts de néons, de panneaux publicitaires et d’enseignes lumineuses.
+Un canal traverse le quartier, bordé de grands immeubles couverts de néons, de panneaux publicitaires et d’enseignes lumineuses.
 Je longe le canal, observant tout autour de moi ce lieu culte d’Osaka.
 
 Je termine la journée par la visite du sanctuaire atypique de Namba Yasaka Jinja, avec son immense statue de tête de lion de 12 mètres.
