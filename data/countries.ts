@@ -834,7 +834,20 @@ export const COUNTRIES: CountryData[] = [
     'Haeundae Beach et promenade finale',
     'Busan X The Sky et coucher de soleil'
   ]
+},
+{
+  id: 't68',
+  date: 'Jour 68 (8 554 pas)',
+  title: 'De Busan à Osaka, journée de transition',
+  description:
+    'Dernier jour en Corée du Sud et transition vers le Japon. Une journée étrange, presque irréelle, où tout s’enchaîne très vite : rendre l’appartement à Busan, rejoindre l’aéroport de Gimhae, prendre l’avion, puis le train jusqu’à Osaka. En quelques heures, changement de pays, de culture et de repères. Le matin encore à Busan, le soir dans un ramen japonais. Une sensation de flottement, mais aussi un vrai plaisir de vivre ce genre de bascule.',
+  bullets: [
+    'Busan → Osaka',
+    'Arrivée et installation dans le nouvel appartement',
+    'Premier repas japonais : ramens traditionnels'
+  ]
 }
+
 
 
 
@@ -4189,7 +4202,48 @@ C’est aussi l’une des villes les mieux structurées en termes de transports 
 Pour conclure la journée, je reste dans ce lieu jusqu’à quelques minutes de la fermeture, puis je regagne tranquillement mon quartier.
 J’y prends des gimbaps (mon plat préféré de Corée) à emporter, que je déguste paisiblement dans mon logement, devant ma série Psych.`,
   mood: 'Busan X The Sky à Haeundae Beach'
+},
+{
+  id: 'j68',
+  day: 68,
+  title: 'Busan (Corée du Sud) → Osaka (Japon)',
+  excerpt: `Journée de transition : Busan (Corée du Sud) → Osaka (Japon).
+
+C’est avec émotion que je rends l’appartement, avant de me diriger vers l’aéroport de Busan, l’aéroport international de Gimhae.
+
+Au programme : 1 h de bus, 1 h 05 d’avion, puis encore 1 h de train avant d’arriver dans mon futur logement à Osaka.
+
+Départ de Busan à 10 h.
+Arrivée dans l’appartement à Osaka à 17 h 30.
+
+Et j’ai l’impression de ne pas vraiment comprendre ce qu’il se passe.
+En une heure, j’ai changé de pays, changé de culture et changé d’appartement.
+
+Le sentiment est étrange, presque irréel, comme si cette journée n’avait pas vraiment de sens.
+
+Moi qui dormais encore paisiblement ce matin à Busan, me voilà à écrire ces mots, allongé dans mon lit à Osaka.
+
+Quel globe-trotter.
+Et surtout, quel plaisir de vivre ce genre de sensation.
+
+Une fois sur place, je prends rapidement mes marques.
+J’éparpille mes affaires, puis je m’installe tranquillement sur mon PC pour écrire sur les deux derniers jours passés à Busan.
+
+En début de soirée, je pars vagabonder dans les rues de mon nouveau quartier, en quête d’un repas simple, consistant et surtout réconfortant.
+
+Rien de mieux alors que des ramens traditionnels.
+Je trouve un tout petit restaurant, pas loin de mon logement.
+Je m’installe à l’intérieur, juste devant la cuisine, où je regarde le chef préparer les ramens sous mes yeux.
+
+4,90 €.
+Hyper rentable.
+Et surtout, rien de mieux que ce lieu pour commencer mon voyage japonais.
+
+Voilà ce qui fut mon dernier vrai jour à Busan, et plus largement en Corée du Sud.
+Une journée qui ressemble finalement davantage à une transition vers une nouvelle partie du voyage.`,
+  mood: 'Busan (Corée du Sud) → Osaka (Japon)'
 }
+
 
 
 
