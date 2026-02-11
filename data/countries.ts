@@ -4128,10 +4128,18 @@ Puis, aller-retour tranquille sur la plage, longue d’un kilomètre.
 Ensuite, je me rends dans la tour, plus précisément aux étages de Busan x The Sky.
 J’y passerai finalement plus de 3h30, le temps de profiter pleinement du lieu, avec en prime un petit peach iced tea.
 
-Ce n’est pas comme à Séoul : ici, la vue n’est pas à 360°, mais plutôt à 260°.
-Et ce n’est pas très grave.
-
-Au contraire, cela me laisse le temps d’observer le coucher de soleil et de retracer mentalement toutes les activités que j’ai faites, jour après jour, dans cette ville.
+}
+    ]
+  },
+    videoUrl:
+      'https://images.unsplash.com/photo-1492571350019-22de08371fd3?q=80&w=2070&auto=format&fit=crop',
+    isLocked: false,
+    hero: {
+      title: 'Japon',
+      subtitle: 'Ouverture de la section',
+      description: 'Contenu à venir.',
+      bgImage: withBase('seoul.jpg')
+    },
 
 D’ici, je peux voir Songjeong. Au loin, j’aperçois l’endroit, dans les dunes et les falaises, où je m’étais posé il y a un peu plus d’un mois (Jour 38, par exemple).
 Je refais aussi le tracé de toutes mes randonnées. D’en haut, on distingue Oryukdo Skywalk, Yeongdo Island, et plus loin encore, Amnam Park.
