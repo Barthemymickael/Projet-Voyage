@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Lock, Unlock, ArrowRight } from 'lucide-react';
+import { Lock, Check, ArrowRight } from 'lucide-react';
 import { COUNTRIES } from '../../data/countries';
 import { CountryData } from '../../types';
 
@@ -73,7 +73,7 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
           {country.isLocked ? (
             <Lock className="w-6 h-6 lg:w-8 lg:h-8 text-zinc-300" />
           ) : (
-            <Unlock className="w-6 h-6 lg:w-8 lg:h-8 text-emerald-200 drop-shadow-[0_0_18px_rgba(16,185,129,0.8)]" />
+            <Check className="w-6 h-6 lg:w-8 lg:h-8 text-emerald-200 drop-shadow-[0_0_18px_rgba(16,185,129,0.8)]" />
           )}
           <span
             className={`text-xs sm:text-sm uppercase tracking-[0.16em] font-mono ${
