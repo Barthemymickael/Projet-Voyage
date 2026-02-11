@@ -4170,7 +4170,7 @@ C’est avec émotion que je rends l’appartement, avant de me diriger vers l�
     videoUrl: 'https://picsum.photos/id/1015/600/1000',
     isLocked: true,
     themeColor: 'rose',
-    hero: { title: 'Japon', subtitle: 'Ouverture de la section', description: 'Contenu à venir.', bgImage: '' },
+    hero: { title: '3 mois au Japon', subtitle: 'Mon voyage solo', description: 'Voyage du 10 février 2026 jusqu’au 10 mai 2026', bgImage: '' },
     timeline: [],
     markers: [],
     journal: []
