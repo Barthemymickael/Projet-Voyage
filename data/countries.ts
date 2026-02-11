@@ -4206,8 +4206,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     markers: [],
     journal: [
       {
-        id: 'j68',
-        day: 68,
+        id: 'j1',
+        day: 1,
         title: 'Busan (Corée du Sud) → Osaka (Japon)',
         excerpt: `Journée de transition : Busan (Corée du Sud) → Osaka (Japon).
 
@@ -4246,8 +4246,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
         mood: 'Busan → Osaka'
       },
       {
-  id: 'j69',
-  day: 69,
+  id: 'j2',
+  day: 2,
   title: 'Premiers pas à Osaka : Namba',
   excerpt: `Premier jour complet à Osaka, et je me dirige vers le quartier le plus iconique de la ville : Namba.
 
