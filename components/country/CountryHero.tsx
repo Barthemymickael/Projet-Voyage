@@ -87,6 +87,78 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
     'En conception': 'text-fuchsia-200 bg-fuchsia-500/10 border-fuchsia-500/30',
   };
 
+  const practicalInfoItems =
+    data.id === 'japan'
+      ? [
+          {
+            emoji: '🚇',
+            label: 'Ticket métro (exemple Osaka)',
+            value: 'Prix moyen d’un trajet : 190–240 ¥ (≈ 1,20 € à 1,50 €).'
+          },
+          {
+            emoji: '🏨',
+            label: 'Nuit en hôtel capsule (exemple)',
+            value: 'Entre 3 000 ¥ et 5 000 ¥ (≈ 19 € à 31 €) selon le quartier.'
+          },
+          {
+            emoji: '🍱',
+            label: 'Repas rapide (exemple)',
+            value: 'Un bento / gyudon tourne souvent autour de 700–1 000 ¥ (≈ 4,30 € à 6,20 €).'
+          },
+          {
+            emoji: '🏯',
+            label: 'Entrée de site culturel (exemple)',
+            value: 'Beaucoup de temples sont gratuits ; certains châteaux/musées coûtent 500–1 200 ¥.'
+          },
+          {
+            emoji: '🛒',
+            label: 'Konbini (exemple)',
+            value: 'Un combo onigiri + boisson revient souvent à 300–500 ¥ (≈ 2 € à 3 €).'
+          },
+          {
+            emoji: '🎵',
+            label: 'Playlist du moment (exemple)',
+            value: 'City pop japonaise en boucle pour les balades de nuit à Osaka.'
+          }
+        ]
+      : [
+          {
+            emoji: '🚇',
+            label: 'Ticket métro/bus',
+            value: "Prix moyen d'un trajet : 1 750 ₩ = 1 €."
+          },
+          {
+            emoji: '💪',
+            label: 'Abonnement salle de sport (décembre)',
+            value: '50 000 ₩ ≈ 29 € pour le mois.'
+          },
+          {
+            emoji: '🏛️',
+            label: 'Musée',
+            value: 'Gratuit pour beaucoup (peu importe l’âge) ou alors 5 000 ₩ ≈ 2,50 €.'
+          },
+          {
+            emoji: '🍽️',
+            label: 'Repas',
+            value: "Prix moyen d'un repas : 10 000 ₩ ≈ 5 €."
+          },
+          {
+            emoji: '🎬',
+            label: 'La série que je regarde pour ce voyage',
+            value: 'Psych : Enquêteur malgré lui (2006-2014).'
+          },
+          {
+            emoji: '📖',
+            label: 'Le livre que je lis pour ce voyage',
+            value: "L'Idiot - Dostoïevski (1874)."
+          },
+          {
+            emoji: '🎵',
+            label: "La musique que j'écoute en boucle",
+            value: 'Until We Rich - Ice Cube (2000).'
+          }
+        ];
+
   return (
     <div
       ref={containerRef}
@@ -356,55 +428,15 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
                             </button>
                         </div>
                         <div className="space-y-3 text-white/90">
-                            <div className="flex items-start gap-3">
-                                <span className="text-lg">🚇</span>
-                                <div>
-                                    <p className="font-semibold text-white">Ticket métro/bus</p>
-                                    <p className="text-sm text-white/80">Prix moyen d'un trajet : 1750 ₩ = 1€</p>
+                            {practicalInfoItems.map((item) => (
+                                <div key={item.label} className="flex items-start gap-3">
+                                    <span className="text-lg">{item.emoji}</span>
+                                    <div>
+                                        <p className="font-semibold text-white">{item.label}</p>
+                                        <p className="text-sm text-white/80">{item.value}</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="flex items-start gap-3">
-                                <span className="text-lg">💪</span>
-                                <div>
-                                    <p className="font-semibold text-white">Abonnement salle de sport (décembre)</p>
-                                    <p className="text-sm text-white/80"> 50 000 ₩ ≈ 29 € pour le mois</p>
-                                </div>
-                            </div>
-                          <div className="flex items-start gap-3">
-                                <span className="text-lg">🏛️</span>
-                                <div>
-                                    <p className="font-semibold text-white">Musée</p>
-                                    <p className="text-sm text-white/80"> Gratuit pour beaucoup (peu importe l’âge) ou alors 5000 ₩ ≈ 2,50 € </p>
-                                </div>
-                            </div>
-                            <div className="flex items-start gap-3">
-                                <span className="text-lg">🍽️</span>
-                                <div>
-                                    <p className="font-semibold text-white">Repas</p>
-                                    <p className="text-sm text-white/80">Prix moyen d'un repas : 10 000 ₩ ≈ 5 €</p>
-                                </div>
-                            </div>
-                            <div className="flex items-start gap-3">
-                                <span className="text-lg">🎬</span>
-                                <div>
-                                    <p className="font-semibold text-white">La série que je regarde pour ce voyage</p>
-                                    <p className="text-sm text-white/80">Psych : Enquêteur malgré lui (2006-2014)</p>
-                                </div>
-                            </div>
-                          <div className="flex items-start gap-3">
-                                <span className="text-lg">📖</span>
-                                <div>
-                                    <p className="font-semibold text-white">Le livre que je lis pour ce voyage</p>
-                                    <p className="text-sm text-white/80">L'Idiot - Dostoïevski (1874)</p>
-                                </div>
-                            </div>
-                          <div className="flex items-start gap-3">
-                                <span className="text-lg">🎵</span>
-                                <div>
-                                    <p className="font-semibold text-white">La musique que j'écoute en boucle</p>
-                                    <p className="text-sm text-white/80">Until We Rich - Ice Cube (2000)</p>
-                                </div>
-                            </div>
+                            ))}
                         </div>
                     </motion.div>
                 </motion.div>
