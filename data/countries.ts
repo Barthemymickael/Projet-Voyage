@@ -4113,10 +4113,10 @@ Je vis le moment à fond. La rétrospective, je me la garde pour demain soir, po
   mood: 'Record de pas et grande balade dans la ville'
 },
 {
-  id: 'j67',
-  day: 67,
-  title: 'Busan X The Sky à Haeundae Beach',
-  excerpt: `Dernier jour à Busan. Et pour clôturer ce voyage en Corée du Sud, rien de mieux que de prendre un peu de hauteur.
+        id: 'j67',
+        day: 67,
+        title: 'Busan X The Sky à Haeundae Beach',
+        excerpt: `Dernier jour à Busan. Et pour clôturer ce voyage en Corée du Sud, rien de mieux que de prendre un peu de hauteur.
 
 Je me dirige donc vers Haeundae Beach, là où se trouve le plus grand gratte-ciel de la ville, culminant à 410 mètres.
 
@@ -4127,19 +4127,6 @@ Aujourd’hui, je refais exactement la même chose.
 Puis, aller-retour tranquille sur la plage, longue d’un kilomètre.
 Ensuite, je me rends dans la tour, plus précisément aux étages de Busan x The Sky.
 J’y passerai finalement plus de 3h30, le temps de profiter pleinement du lieu, avec en prime un petit peach iced tea.
-
-}
-    ],
-  },
-    videoUrl:
-      'https://images.unsplash.com/photo-1492571350019-22de08371fd3?q=80&w=2070&auto=format&fit=crop',
-    isLocked: false,
-    hero: {
-      title: 'Japon',
-      subtitle: 'Ouverture de la section',
-      description: 'Contenu à venir.',
-      bgImage: withBase('seoul.jpg')
-    },
 
 D’ici, je peux voir Songjeong. Au loin, j’aperçois l’endroit, dans les dunes et les falaises, où je m’étais posé il y a un peu plus d’un mois (Jour 38, par exemple).
 Je refais aussi le tracé de toutes mes randonnées. D’en haut, on distingue Oryukdo Skywalk, Yeongdo Island, et plus loin encore, Amnam Park.
@@ -4158,26 +4145,26 @@ C’est aussi l’une des villes les mieux structurées en termes de transports 
 
 Pour conclure la journée, je reste dans ce lieu jusqu’à quelques minutes de la fermeture, puis je regagne tranquillement mon quartier.
 J’y prends des gimbaps (mon plat préféré de Corée) à emporter, que je déguste paisiblement dans mon logement, devant ma série Psych.`,
-  mood: 'Busan X The Sky à Haeundae Beach'
-},
-{
-  id: 'j68',
-  day: 68,
-  title: 'Busan (Corée du Sud) → Osaka (Japon)',
-  excerpt: `Journée de transition : Busan (Corée du Sud) → Osaka (Japon).
+        mood: 'Busan X The Sky à Haeundae Beach'
+      },
+      {
+        id: 'j68',
+        day: 68,
+        title: 'Busan (Corée du Sud) → Osaka (Japon)',
+        excerpt: `Journée de transition : Busan (Corée du Sud) → Osaka (Japon).
 
 C’est avec émotion que je rends l’appartement, avant de me diriger vers l’aéroport de Busan, l’aéroport international de Gimhae.`,
-  mood: 'Busan → Osaka'
-}
+        mood: 'Busan → Osaka'
       }
-
+    ] // Ferme le tableau timeline (ou journal) de la Corée
+  }, // Ferme l'objet Corée
   {
     id: 'japan',
     name: 'Japon',
     videoUrl: 'https://picsum.photos/id/1015/600/1000',
     isLocked: true,
     themeColor: 'rose',
-    hero: { title: '', subtitle: '', description: '', bgImage: '' },
+    hero: { title: 'Japon', subtitle: 'Ouverture de la section', description: 'Contenu à venir.', bgImage: '' },
     timeline: [],
     markers: [],
     journal: []
