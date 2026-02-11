@@ -4136,9 +4136,10 @@ J’y passerai finalement plus de 3h30, le temps de profiter pleinement du lieu,
     isLocked: false,
     hero: {
       title: 'Japon',
-      subtitle: 'Ouverture de la section',
-      description: 'Contenu à venir.',
-      bgImage: withBase('seoul.jpg')
+}
+    ]
+  },
+    isLocked: false,
     },
 
 D’ici, je peux voir Songjeong. Au loin, j’aperçois l’endroit, dans les dunes et les falaises, où je m’étais posé il y a un peu plus d’un mois (Jour 38, par exemple).
