@@ -18,6 +18,40 @@ export default function App() {
   const [publishState, setPublishState] = useState<'idle' | 'success' | 'error'>('idle');
   const scrollContainerRef = useRef<HTMLDivElement | null>(null);
 
+  const availableCountries = useMemo(() => {
+    const fallbackById = new Map(COUNTRIES.map((country) => [country.id, country]));
+
+    const merged = countries.map((country) => {
+      const fallback = fallbackById.get(country.id);
+      const combined = {
+        ...(fallback ?? {}),
+        ...country
+      } as CountryData;
+
+      if (combined.id === 'japan') {
+        return {
+          ...combined,
+          isLocked: false
+        };
+      }
+
+      return combined;
+    });
+
+    const missingFallbackCountries = COUNTRIES.filter(
+      (country) => !merged.some((currentCountry) => currentCountry.id === country.id)
+    );
+
+    return [...merged, ...missingFallbackCountries].map((country) =>
+      country.id === 'japan'
+        ? {
+            ...country,
+            isLocked: false
+          }
+        : country
+    );
+  }, [countries]);
+
   const handleScrollToTop = () => {
     const container = scrollContainerRef.current;
     if (!container) return;
@@ -47,8 +81,8 @@ export default function App() {
   }, []);
 
   const selectedCountry = useMemo(
-    () => countries.find((c) => c.id === selectedCountryId) || null,
-    [countries, selectedCountryId]
+    () => availableCountries.find((c) => c.id === selectedCountryId) || null,
+    [availableCountries, selectedCountryId]
   );
 
   const handleCountryUpdate = (updated: CountryData) => {
@@ -157,7 +191,7 @@ export default function App() {
             transition={{ duration: 0.8 }}
             className="absolute inset-0 overflow-y-auto"
           >
-            <LandingPage onSelectCountry={setSelectedCountryId} />
+            <LandingPage countries={availableCountries} onSelectCountry={setSelectedCountryId} />
           </motion.div>
         ) : (
           <motion.div

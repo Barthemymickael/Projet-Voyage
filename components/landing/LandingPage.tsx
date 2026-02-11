@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Lock, Check, ArrowRight } from 'lucide-react';
-import { COUNTRIES } from '../../data/countries';
 import { CountryData } from '../../types';
 
 interface LandingPageProps {
+  countries: CountryData[];
   onSelectCountry: (id: string) => void;
 }
 
@@ -143,7 +143,7 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
   );
 };
 
-export const LandingPage: React.FC<LandingPageProps> = ({ onSelectCountry }) => {
+export const LandingPage: React.FC<LandingPageProps> = ({ countries, onSelectCountry }) => {
   return (
     <div className="relative min-h-screen w-full bg-gradient-to-b from-black via-zinc-950 to-black px-4 py-10 sm:px-6 sm:py-14 lg:px-12 lg:py-16 flex items-stretch lg:items-center">
       <div className="pointer-events-none absolute inset-0 opacity-40 bg-[radial-gradient(circle_at_30%_10%,rgba(59,130,246,0.08),transparent_30%),radial-gradient(circle_at_70%_60%,rgba(244,114,182,0.08),transparent_30%)]" />
@@ -152,7 +152,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onSelectCountry }) => 
         <div className="relative rounded-[28px] sm:rounded-[32px] overflow-hidden shadow-[0_30px_80px_rgba(0,0,0,0.45)] bg-white/5">
           <div className="absolute inset-0 bg-gradient-to-b from-white/5 via-white/0 to-white/5 opacity-60" aria-hidden />
           <div className="relative grid grid-cols-1 gap-6 sm:gap-8 lg:grid-cols-2 lg:gap-0">
-            {COUNTRIES.map((country) => (
+            {countries.map((country) => (
               <CountryBlock key={country.id} country={country} onSelect={onSelectCountry} />
             ))}
           </div>
