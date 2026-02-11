@@ -4364,20 +4364,18 @@ Le tout est organisé dans de grandes galeries marchandes ouvertes sur la ville,
 Et évidemment, une multitude de petits restaurants et de cafés intimistes, souvent avec une dizaine de places maximum chacun.
 Je me balade tranquillement et entre dans plusieurs grands centres commerciaux.
 
-Notamment Namba Parks, réparti sur huit étages, avec en prime un jardin en guise de rooftop.
+Notamment Namba Parks, réparti sur huit étages, avec un jardin en guise de rooftop.
 
 Mais aussi un immense immeuble de salles d’arcade GiGO, rempli de machines en tout genre : jeux de voiture, de tir, de danse ou encore d’agilité.
 
-Je passe ensuite par Namba Hips, un espace dédié aux slots — une sorte de casino, ou plutôt un immeuble entier rempli de machines à sous.
+Je passe ensuite par Namba Hips, un espace dédié aux slots (une sorte de casino, ou plutôt un immeuble entier rempli de machines à sous)
 C’est extrêmement étrange de voir, à 14 h, tous ces gens fixer les écrans et jouer de manière presque robotique.
-
 L’ambiance est assez angoissante, surtout que ce n’est pas quelque chose qui m’attire.
 Mais ça fait partie de la culture japonaise, alors je prends le temps de me balader entre les étages pour mieux comprendre le lieu.
 
 Je me dirige ensuite vers un tout petit temple caché dans une ruelle : Hōzen-ji.
 
-Puis je pars vers l’endroit le plus emblématique du quartier — et de la ville : Dōtonbori, le quartier de la street food.
-
+Puis je pars vers l’endroit le plus emblématique du quartier et de la ville : Dōtonbori : le quartier de la street food.
 Un canal traverse le quartier, bordé de grands immeubles couverts de néons, de panneaux publicitaires et d’enseignes lumineuses.
 Je longe le canal, observant tout autour de moi ce lieu culte d’Osaka.
 
