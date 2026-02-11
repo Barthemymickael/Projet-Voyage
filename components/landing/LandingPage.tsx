@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Lock, Check, ArrowRight } from 'lucide-react';
+import { Lock, Unlock, Check, ArrowRight } from 'lucide-react';
 import { CountryData } from '../../types';
 
 interface LandingPageProps {
@@ -11,6 +11,8 @@ interface LandingPageProps {
 const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => void }> = ({ country, onSelect }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [isFlashing, setIsFlashing] = useState(false);
+  const isJapan = country.id === 'japan';
+  const hasNeutralBadge = country.isLocked || isJapan;
 
   const handleClick = () => {
     if (country.isLocked) return;
@@ -65,22 +67,24 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
           animate={{ y: isHovered ? -6 : 0 }}
           transition={{ type: 'spring', stiffness: 300, damping: 20 }}
           className={`flex items-center justify-center gap-3 rounded-full px-4 py-2 sm:px-5 sm:py-2.5 backdrop-blur-lg shadow-lg ${
-            country.isLocked
+            hasNeutralBadge
               ? 'bg-white/8 border border-white/15 shadow-black/30'
               : 'bg-emerald-500/20 border border-emerald-300/45 shadow-emerald-500/30'
           }`}
         >
-          {country.isLocked ? (
+          {country.isLocked && !isJapan ? (
             <Lock className="w-6 h-6 lg:w-8 lg:h-8 text-zinc-300" />
+          ) : isJapan ? (
+            <Unlock className="w-6 h-6 lg:w-8 lg:h-8 text-zinc-300" />
           ) : (
             <Check className="w-6 h-6 lg:w-8 lg:h-8 text-emerald-200 drop-shadow-[0_0_18px_rgba(16,185,129,0.8)]" />
           )}
           <span
             className={`text-xs sm:text-sm uppercase tracking-[0.16em] font-mono ${
-              country.isLocked ? 'text-white/80' : 'text-emerald-100 font-semibold'
+              hasNeutralBadge ? 'text-white/80' : 'text-emerald-100 font-semibold'
             }`}
           >
-            {country.isLocked ? 'Région verrouillée' : 'Mission Accomplie'}
+            {country.isLocked && !isJapan ? 'Région verrouillée' : isJapan ? 'Région déveoruuller' : 'Mission Accomplie'}
           </span>
         </motion.div>
 
