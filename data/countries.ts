@@ -4316,10 +4316,10 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 
 C’est avec émotion que je rends l’appartement, avant de me diriger vers l’aéroport de Busan, l’aéroport international de Gimhae.
 
-Au programme : 1 h de bus, 1 h 05 d’avion, puis encore 1 h de train avant d’arriver dans mon futur logement à Osaka.
+Au programme : 1h de bus, 1h05 d’avion, puis encore 1h de train avant d’arriver dans mon futur logement à Osaka.
 
-Départ de Busan à 10 h.
-Arrivée dans l’appartement à Osaka à 17 h 30.
+Départ de Busan à 10h.
+Arrivée dans l’appartement à Osaka à 17h30.
 
 Et j’ai l’impression de ne pas vraiment comprendre ce qu’il se passe.
 En une heure, j’ai changé de pays, changé de culture et changé d’appartement.
@@ -4345,8 +4345,8 @@ Hyper rentable.
 Et surtout, rien de mieux que ce lieu pour commencer mon voyage japonais.
 
 Voilà ce qui fut mon dernier vrai jour à Busan, et plus largement en Corée du Sud.
-Une journée qui ressemble finalement davantage à une transition vers une nouvelle partie du voyage.`,
-        mood: 'Busan → Osaka'
+Une journée qui ressemble finalement davantage à une transition vers une nouvelle partie du voyage : Le Japon`,
+        mood: 'Busan (Corée du Sud) → Osaka (Japon)'
       },
       {
   id: 'j2',
