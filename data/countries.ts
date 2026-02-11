@@ -823,7 +823,19 @@ export const COUNTRIES: CountryData[] = [
     'Gwangalli Beach de nuit'
   ],
   video: 'https://youtube.com/shorts/_HqgM17-nFI?si=KjHDtAnG6ObcK4zK'
+},
+{
+  id: 't67',
+  date: 'Jour 67 (11 833 pas)',
+  title: 'Busan X The Sky et dernier regard sur la ville',
+  description:
+    'Dernier jour à Busan. Pour clôturer ce voyage en Corée du Sud, je prends de la hauteur à Haeundae Beach, au sommet du plus grand gratte-ciel de la ville. Plus de trois heures passées à observer la ville, le coucher de soleil et à retracer mentalement toutes mes randonnées, mes balades et mes souvenirs. Une vue pour mesurer à quel point j’ai bien profité de Busan.',
+  bullets: [
+    'Haeundae Beach et promenade finale',
+    'Busan X The Sky et coucher de soleil'
+  ]
 }
+
 
 
 
@@ -4137,7 +4149,48 @@ Et surtout, cette sensation incroyable de marcher dans des rues baignées de né
 
 Je vis le moment à fond. La rétrospective, je me la garde pour demain soir, pour ma dernière activité. Une activité en écho à mes derniers jours à Séoul, histoire de boucler la boucle.`,
   mood: 'Record de pas et grande balade dans la ville'
+},
+{
+  id: 'j67',
+  day: 67,
+  title: 'Busan X The Sky à Haeundae Beach',
+  excerpt: `Dernier jour à Busan. Et pour clôturer ce voyage en Corée du Sud, rien de mieux que de prendre un peu de hauteur.
+
+Je me dirige donc vers Haeundae Beach, là où se trouve le plus grand gratte-ciel de la ville, culminant à 410 mètres.
+
+Pour commencer, je prends un cookie au CU situé juste en bas de la tour. Une façon de boucler la boucle avec ce que j’avais fait il y a trois semaines.
+Ce jour-là (Jour 40), je m’étais déjà arrêté dans ce même CU pour prendre un cookie avant de marcher sur la plage.
+Aujourd’hui, je refais exactement la même chose.
+
+Puis, aller-retour tranquille sur la plage, longue d’un kilomètre.
+Ensuite, je me rends dans la tour, plus précisément aux étages de Busan x The Sky.
+J’y passerai finalement plus de 3h30, le temps de profiter pleinement du lieu, avec en prime un petit peach iced tea.
+
+Ce n’est pas comme à Séoul : ici, la vue n’est pas à 360°, mais plutôt à 260°.
+Et ce n’est pas très grave.
+
+Au contraire, cela me laisse le temps d’observer le coucher de soleil et de retracer mentalement toutes les activités que j’ai faites, jour après jour, dans cette ville.
+
+D’ici, je peux voir Songjeong. Au loin, j’aperçois l’endroit, dans les dunes et les falaises, où je m’étais posé il y a un peu plus d’un mois (Jour 38, par exemple).
+Je refais aussi le tracé de toutes mes randonnées. D’en haut, on distingue Oryukdo Skywalk, Yeongdo Island, et plus loin encore, Amnam Park.
+On aperçoit également un petit bout de Gwangalli Beach.
+
+Et je me dis que j’ai sacrément bien profité de cette ville.
+Je n’ai pas arrêté de bouger.
+J’ai fait tout ce qu’il y avait à faire.
+Et je suis extrêmement heureux d’avoir vécu tout ça.
+
+Busan offre un large panel de possibilités, à la fois côté mer et côté montagnes :
+des musées, des randonnées, des quartiers ultra animés.
+Un véritable terrain de jeu où l’on ne peut pas s’ennuyer.
+
+C’est aussi l’une des villes les mieux structurées en termes de transports : métro, bus… absolument tout est accessible, même quand cela semble un peu loin.
+
+Pour conclure la journée, je reste dans ce lieu jusqu’à quelques minutes de la fermeture, puis je regagne tranquillement mon quartier.
+J’y prends des gimbaps (mon plat préféré de Corée) à emporter, que je déguste paisiblement dans mon logement, devant ma série Psych.`,
+  mood: 'Busan X The Sky à Haeundae Beach'
 }
+
 
 
 
