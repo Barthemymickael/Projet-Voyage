@@ -4228,8 +4228,22 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Dōtonbori dt temples cachés'
   ],
   video: 'https://youtube.com/shorts/9krI0T_d4fs?si=scW0ftXiM7T3cE20'
+},
+{
+  id: 't3',
+  date: 'Jour 3 (14 031 pas)',
+  title: 'Sanctuaire Sumiyoshi Taisha',
+  description:
+    'Découverte du sanctuaire shinto Sumiyoshi Taisha, l’un des plus anciens du Japon. Loin de l’agitation touristique, célèbre pour son pont arqué Taikobashi, d’un orange vif (vermillon). La visite se prolonge dans le parc voisin, entre lac, oiseaux et promeneurs du quartier, avant un long retour à pied à travers des rues résidentielles typiquement japonaises.',
+  bullets: [
+    'Sanctuaire shinto Sumiyoshi Taisha et pont Taikobashi',
+    'Sumiyoshi Park, lac et vie locale',
+    'Balade à pied dans un Osaka résidentiel'
+  ],
+  video: 'https://youtube.com/shorts/t8ivuxVBro4?si=FU1VJUmuB7nKe5lX'
 
 }
+
 
     ],
     markers: [
@@ -4304,7 +4318,26 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Temple',
   description: 'Petit temple bouddhiste caché dans une ruelle de Namba, connu pour sa statue recouverte de mousse et son atmosphère paisible.',
   emoji: '🧘'
+},
+{
+  id: 'm182',
+  lat: 34.61239773384149,
+  lng: 135.49376004839405,
+  title: 'Sanctuaire Sumiyoshi-taisha',
+  category: 'Temple',
+  description: 'Grand sanctuaire shinto ancien et très calme, à l’écart des zones touristiques.',
+  emoji: '⛩️'
+},
+{
+  id: 'm183',
+  lat: 34.612547436215294,
+  lng: 135.4881620707508,
+  title: 'Sumiyoshi Park',
+  category: 'Parc',
+  description: 'Parc agréable situé juste à côté du sanctuaire Sumiyoshi-taisha.',
+  emoji: '🌳'
 }
+
 
     ],
     journal: [
@@ -4384,7 +4417,34 @@ D’après ce que j’ai pu voir, si le lion a la gueule grande ouverte, c’est
 
 Une fois la visite terminée, je rentre tranquillement chez moi, en passant par un supermarché pour faire quelques courses pour la semaine.`,
   mood: 'Premiers pas à Osaka : Namba'
+},
+{
+  id: 'j3',
+  day: 3,
+  title: 'Sanctuaire Sumiyoshi Taisha',
+  excerpt: `Visite aujourd’hui d’un sanctuaire shinto : Sumiyoshi Taisha.
+Peu de touristes, et surtout hyper calme.
+
+C’est l’un des plus anciens sanctuaires du Japon, fondé au IIIe siècle, bien avant l’influence de l’architecture bouddhiste.
+
+Le sanctuaire est connu pour son pont arqué emblématique : le Taikobashi, d’un orange vif typiquement japonais.
+
+Dans la tradition shinto, le vermillon (la couleur orange) est censé repousser les mauvais esprits et symbolise la protection.
+
+Je pars ensuite me balader dans le parc juste à côté : Sumiyoshi Park.
+Beaucoup de résidents viennent ici promener leur chien (notamment pas mal de Shiba Inu).
+
+Je m’assois sur un banc pendant une trentaine de minutes, face à un petit lac.
+Quelques oiseaux se déplacent tranquillement sur l’eau.
+Rien de spectaculaire, mais tout est apaisant.
+
+Je décide ensuite de rentrer à pied.
+Je marche dans de petites rues calmes et typiquement japonaises : maisons basses, vélos stationnés de partout, fils électriques au-dessus de ma tête, silence presque total.
+
+Une journée plus calme qu’hier, dans un Osaka beaucoup plus résidentiel.`,
+  mood: 'Sanctuaire Sumiyoshi Taisha'
 }
+
 
     ]
   }
