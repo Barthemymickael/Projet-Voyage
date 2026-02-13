@@ -4464,8 +4464,8 @@ Une journée plus calme qu’hier, dans un Osaka beaucoup plus résidentiel.`,
   mood: 'Sanctuaire Sumiyoshi Taisha'
 },
 {
-  id: 'j2',
-  day: 2,
+  id: 'j4',
+  day: 4,
   title: 'Le Château d’Osaka',
   excerpt: `Découverte aujourd’hui de l’un des lieux les plus emblématiques de la ville : le Château d’Osaka, entouré de larges douves et d’un immense parc.
 
