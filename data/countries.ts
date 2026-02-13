@@ -4241,8 +4241,22 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Balade à pied dans un Osaka résidentiel'
   ],
   video: 'https://youtube.com/shorts/t8ivuxVBro4?si=FU1VJUmuB7nKe5lX'
+},
+{
+  id: 't4',
+  date: 'Jour 4 (22 852 pas)',
+  title: 'Le Château d’Osaka sous le soleil',
+  description:
+    'Découverte de l’un des sites les plus emblématiques de la ville avec la visite du Château d’Osaka.La visite retrace son histoire mouvementée depuis sa construction en 1583 par Toyotomi Hideyoshi jusqu’à sa restauration moderne. Fresques de batailles, armures de samouraïs et panorama depuis l’observatoire. La journée se termine par l’immense magasin Don quijote à dotonbori, une vraie caverne d’Ali Baba remplie de souvenirs, snacks et curiosités typiquement japonaises.',
+  bullets: [
+    'Parc et musée du Château d’Osaka',
+    'Observatoire et vue sur l’ensemble du site',
+    'Dōtonbori et exploration du Don Quijote'
+  ],
+  video: 'https://youtube.com/shorts/zvmPOjZGbnw?si=XJvkGqjRDSz4X_uO'
 
 }
+
 
 
     ],
