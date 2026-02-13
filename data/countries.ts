@@ -4443,7 +4443,39 @@ Je marche dans de petites rues calmes et typiquement japonaises : maisons basses
 
 Une journée plus calme qu’hier, dans un Osaka beaucoup plus résidentiel.`,
   mood: 'Sanctuaire Sumiyoshi Taisha'
+},
+{
+  id: 'j71',
+  day: 71,
+  title: 'Le Château d’Osaka',
+  excerpt: `Découverte aujourd’hui de l’un des lieux les plus emblématiques de la ville : le Château d’Osaka, entouré de larges douves et d’un immense parc.
+
+Grand soleil aujourd’hui, et ça fait vraiment plaisir. Après deux jours bien nuageux, je découvre enfin Osaka sous une belle lumière.
+
+Le parc est entièrement gratuit, et la visite du château (qui abrite aujourd’hui un musée ainsi qu’un observatoire à 360 degrés) coûte 6,50 €.
+Parfait pour moi qui voulais visiter un musée ici : voilà le premier au Japon.
+
+Sur 6 étages, on découvre toute l’histoire du château. Il a été construit à partir de 1583 par le célèbre seigneur de guerre Toyotomi Hideyoshi.
+
+Le château a connu de nombreuses destructions et reconstructions au fil des siècles :
+une première destruction majeure en 1615 lors du siège d’Osaka,
+plusieurs incendies,
+une reconstruction moderne en béton en 1931,
+puis des dégâts importants lors des bombardements de la Seconde Guerre mondiale en 1945.
+
+La version actuelle, restaurée et transformée en musée, date de 1997.
+
+La visite est vraiment intéressante, notamment grâce aux grandes fresques représentant les batailles autour du château, ainsi qu’aux armures complètes de samouraïs exposées.
+
+Je termine par l’observatoire, tout en haut. La vue n’est pas spectaculaire, mais c’est agréable de voir l’ensemble du parc et de prendre conscience de l’ampleur du site.
+
+Pour finir la journée, je me dirige vers le quartier de Dōtonbori pour faire un tour dans l’immense magasin Don Quijote.
+
+7 étages remplis de goodies en tout genre, et surtout une quantité impressionnante de gâteaux et de boissons totalement farfelues qu’on ne trouve qu’au Japon.
+Des KitKat à la fraise, au matcha, et même des versions ultra spécifiques qu’on ne voit nulle part ailleurs.`,
+  mood: 'Le Château d’Osaka'
 }
+
 
 
     ]
