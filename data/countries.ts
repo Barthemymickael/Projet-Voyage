@@ -4336,7 +4336,26 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Parc',
   description: 'Parc agréable situé juste à côté du sanctuaire Sumiyoshi-taisha.',
   emoji: '🌳'
+},
+{
+  id: 'm184',
+  lat: 34.687262586678415,
+  lng: 135.52585191439823,
+  title: 'Château d’Osaka',
+  category: 'Monument',
+  description: 'Magnifique château emblématique d’Osaka, abritant un musée à l’intérieur et offrant une vue panoramique à 360 degrés depuis son sommet.',
+  emoji: '🏯'
+},
+{
+  id: 'm185',
+  lat: 34.669306323390366,
+  lng: 135.50264491288976,
+  title: 'Don Quijote Dotonbori',
+  category: 'Shopping',
+  description: 'Épicerie géante et magasin incontournable de Dōtonbori, rempli de snacks, boissons, souvenirs et goodies en tout genre.',
+  emoji: '🛍️'
 }
+
 
 
     ],
