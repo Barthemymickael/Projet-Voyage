@@ -4254,8 +4254,25 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Dōtonbori et exploration du Don Quijote'
   ],
   video: 'https://youtube.com/shorts/zvmPOjZGbnw?si=XJvkGqjRDSz4X_uO'
+},
+{
+  id: 't5',
+  date: 'Jour 5 (10 696 pas)',
+  title: 'Musée des beaux-arts d’Osaka et jardin zen Keitakuen Garden',
+  description:
+    'Journée calme avec la visite du Musée municipal des beaux-arts d’Osaka. Sur le trajet, passage par le quartier de Shinsekai, connu pour son ambiance populaire et la tour Tsutenkaku. Le musée se visite tranquillement, avec une collection d’art asiatique classique, peu fréquentée. L’entrée inclut l’accès au jardin zen Keitakuen Garden. La journée se termine par une balade dans le parc Tenshiba.',
+  bullets: [
+    'Balade dans le quartier Shinsekai',
+    'Musée des beaux-arts d’Osaka',
+    'Jardin zen Keitakuen Garden',
+    'Balade au parc Tenshiba'
+  ],
+  video: 'https://youtube.com/shorts/Otqjk2AGPP0?si=7D75hOMw6L5Hcvfd'
 
-}
+},
+
+
+
 
 
 
@@ -4507,7 +4524,34 @@ Pour finir la journée, je me dirige vers le quartier de Dōtonbori pour faire u
 7 étages remplis de goodies en tout genre, et surtout une quantité impressionnante de gâteaux et de boissons totalement farfelues qu’on ne trouve qu’au Japon.
 Des KitKat à la fraise, au matcha, et même des versions ultra spécifiques qu’on ne voit nulle part ailleurs.`,
   mood: 'Le Château d’Osaka'
+},
+{
+  id: 'j5',
+  day: 5,
+  title: 'Musée municipal des beaux-arts d’Osaka jardin zen Keitakuen Garden',
+  excerpt: `Aujourd’hui, je regarde la carte pour voir ce que je peux faire, et je remarque que je ne suis pas loin d’un parc avec le Musée municipal des beaux-arts d’Osaka.
+
+Je me prépare et je sors en direction du musée. En marchant, je me rends compte que je suis proche du quartier de Shinsekai, très connu pour la tour Tsutenkaku et pour ses nombreux restaurants tout autour.
+
+Je décide donc de me balader un peu dans ce quartier, histoire de voir l’ambiance et les différentes activités possibles.
+
+Une fois le tour terminé, je me dirige vers le musée. L’entrée me coûte 2,75 €, avec un accès inclus au jardin zen Keitakuen Garden.
+
+Le musée se visite assez rapidement. On y trouve principalement des œuvres d’art asiatique classique : calligraphies, peintures et sculptures. C’est calme et peu fréquenté.
+
+Je me retrouve ensuite dans le jardin. Là, je prends vraiment le temps.
+Je m’assois, je réfléchis, je contemple le petit étang. Je lis un chapitre de mon livre, installé sur un banc face au soleil.
+
+Très agréable.
+
+Puis je me dirige vers le parc public juste à côté : Tenshiba.
+
+Ambiance très “couple” aujourd’hui. Nous sommes le 14 février, et beaucoup sont assis sur l’herbe à partager des snacks, discuter, profiter du moment.
+
+Je reste une trentaine de minutes à me balader entre les petites boutiques présentes sur place, puis je regagne tranquillement mon quartier en fin de journée.`,
+  mood: 'Musée municipal des beaux-arts d’Osaka jardin zen Keitakuen Garden'
 }
+
 
 
 
