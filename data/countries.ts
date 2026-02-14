@@ -4385,7 +4385,44 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Shopping',
   description: 'Épicerie géante et magasin incontournable de Dōtonbori, rempli de snacks, boissons, souvenirs et goodies en tout genre.',
   emoji: '🛍️'
+},
+{
+  id: 'm186',
+  lat: 34.650094817471505,
+  lng: 135.51035168337629,
+  title: 'Musée municipal des beaux-arts d’Osaka',
+  category: 'Musée',
+  description: 'Musée d’art proposant des expositions permanentes et temporaires, situé à proximité du parc Tennōji.',
+  emoji: '🖼️'
+},
+{
+  id: 'm187',
+  lat: 34.64965930259528,
+  lng: 135.51158489859688,
+  title: 'Keitakuen Garden',
+  category: 'Jardin',
+  description: 'Jardin japonais paisible de style zen, accessible pour quelques yens, idéal pour une pause calme en ville.',
+  emoji: '🌿'
+},
+{
+  id: 'm188',
+  lat: 34.64854611443675,
+  lng: 135.51104644513444,
+  title: 'Parc Tenshiba',
+  category: 'Parc',
+  description: 'Parc public moderne avec un grand espace vert ouvert, parfait pour se détendre ou pique-niquer.',
+  emoji: '🌳'
+},
+{
+  id: 'm189',
+  lat: 34.652502332748185,
+  lng: 135.50630765233424,
+  title: 'Quartier Shinsekai',
+  category: 'Quartier',
+  description: 'Quartier populaire et animé d’Osaka, connu pour ses restaurants typiques autour de la tour Tsūtenkaku.',
+  emoji: '🍢'
 }
+
 
 
 
