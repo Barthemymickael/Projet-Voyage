@@ -4280,7 +4280,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Nagai Park',
     'Osaka Museum of Natural History',
     'Nagai Botanical Garden'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/nybnoW8Zx78?si=Emrv7WldQRi3VHdW'
 }
 
 
