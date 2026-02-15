@@ -4461,7 +4461,17 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Parc',
   description: 'Grand parc multifonction avec stades d’athlétisme et de baseball, jardin botanique, musée, cafés et espaces pour enfants.',
   emoji: '🏟️'
+},
+{
+  id: 'm193',
+  lat: 34.630740997466894,
+  lng: 135.52143487329147,
+  title: 'Momogaike Park',
+  category: 'Parc',
+  description: 'Petit parc de quartier agréable, idéal pour une courte pause au calme dans un environnement résidentiel.',
+  emoji: '🌳'
 }
+
 
 
 
