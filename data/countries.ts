@@ -4434,7 +4434,35 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Quartier',
   description: 'Quartier populaire et animé d’Osaka, connu pour ses restaurants typiques autour de la tour Tsūtenkaku.',
   emoji: '🍢'
+},
+{
+  id: 'm190',
+  lat: 34.610417704100264,
+  lng: 135.5226630228092,
+  title: 'Osaka Museum of Natural History',
+  category: 'Musée',
+  description: 'Musée d’histoire naturelle d’Osaka, visite d’environ 45 minutes, axée sur les espèces qui cohabitent avec l’être humain.',
+  emoji: '🦕'
+},
+{
+  id: 'm191',
+  lat: 34.6123227951416,
+  lng: 135.52436756663778,
+  title: 'Nagai Botanical Garden',
+  category: 'Jardin',
+  description: 'Jardin botanique vaste et soigné, proposant plusieurs types de jardins et ambiances végétales.',
+  emoji: '🌺'
+},
+{
+  id: 'm192',
+  lat: 34.61258162366585,
+  lng: 135.51999154259488,
+  title: 'Parc Nagai',
+  category: 'Parc',
+  description: 'Grand parc multifonction avec stades d’athlétisme et de baseball, jardin botanique, musée, cafés et espaces pour enfants.',
+  emoji: '🏟️'
 }
+
 
 
 
