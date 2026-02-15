@@ -4268,8 +4268,21 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Balade au parc Tenshiba'
   ],
   video: 'https://youtube.com/shorts/Otqjk2AGPP0?si=7D75hOMw6L5Hcvfd'
-
 },
+{
+  id: 't6',
+  date: 'Jour 6 (20 170 pas)',
+  title: 'Osaka Museum of Natural History et Nagai Botanical Garden',
+  description:
+    'En s’éloignant du centre, le décor change totalement : petites maisons, silence, odeurs de cuisine et scènes du quotidien. Arrivée ensuite dans l’immense Nagai Park, le musée d’histoire naturelle se visite rapidement, intéressant sans être marquant, mais la vraie surprise vient du Nagai Botanical Garden, vaste et apaisant, parfait pour se perdre entre jardins japonais, chinois et floraux.',
+  bullets: [
+    'Marche dans les zones résidentielles et pavillonaire',
+    'Nagai Park',
+    'Osaka Museum of Natural History',
+    'Nagai Botanical Garden'
+  ]
+}
+
 
 
 
@@ -4587,7 +4600,44 @@ Ambiance très “couple” aujourd’hui. Nous sommes le 14 février, et beauco
 
 Je reste une trentaine de minutes à me balader entre les petites boutiques présentes sur place, puis je regagne tranquillement mon quartier en fin de journée.`,
   mood: 'Musée municipal des beaux-arts d’Osaka jardin zen Keitakuen Garden'
+},
+{
+  id: 'j6',
+  day: 6,
+  title: 'Osaka Museum of Natural History et Nagai Botanical Garden',
+  excerpt: `Je sors de mon quartier et passe par le petit Momogaike Park. Juste à côté, j’aperçois un stade municipal de baseball.
+
+Les sensations sont exactement les mêmes que lorsqu’on tombe, un dimanche, sur un match de football dans une commune en France.
+Sauf qu’ici, c’est du baseball : les cris des entraîneurs, les discussions entre joueurs, le bruit de la balle contre la batte.
+
+Pendant quelques minutes, j’ai vraiment l’impression d’être un résident moi aussi, de regarder brièvement le match de l’équipe de mon quartier.
+
+Plus je marche, plus je m’enfonce dans des quartiers extrêmement calmes. Les gens se promènent tranquillement. Je vois même une dame faire du jardinage devant chez elle.
+À seulement une heure à pied du centre-ville d’Osaka, plus de foule, plus de grands immeubles.
+Uniquement des petites maisons résidentielles.
+Je sens même l’odeur de la cuisine s’échapper de certaines habitations.
+
+J’arrive ensuite dans l’immense Nagai Park.
+On y trouve des jardins, un grand stade d’athlétisme, un stade de baseball et un de football. Plusieurs clubs de jeunes sportifs sont en train de s’échauffer à l’extérieur.
+
+Je continue ma balade en direction du musée.
+Pour 1,50 €, la visite est agréable sans être exceptionnelle. En 45 minutes, elle est bouclée.
+On y découvre des expositions sur les origines de la vie, les espèces qui cohabitent avec nous, ainsi qu’une partie intéressante consacrée aux dinosaures et aux animaux du Mésozoïque.
+
+Mais le vrai plaisir est à l’extérieur.
+
+Le Nagai Botanical Garden est divisé en plusieurs espaces : jardins chinois, japonais, jardins floraux…
+Idéal pour se balader, se perdre et marcher au hasard dans les allées.
+
+Je fais ensuite le chemin du retour, toujours à pied. Cette fois, je traverse des quartiers plus huppés, toujours aussi calmes.
+Chaque maison possède une ou deux voitures, un petit jardin, quelques vélos devant l’entrée. De véritables petites villas.
+
+Aucun restaurant.
+Aucun convenience store.
+Juste des habitations… et le silence.`,
+  mood: 'Osaka Museum of Natural History et Nagai Botanical Garden'
 }
+
 
 
 
