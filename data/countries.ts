@@ -4460,7 +4460,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   title: 'Parc Nagai',
   category: 'Parc',
   description: 'Grand parc multifonction avec stades d’athlétisme et de baseball, jardin botanique, musée, cafés et espaces pour enfants.',
-  emoji: '🏟️'
+  emoji: '🌳'
 },
 {
   id: 'm193',
