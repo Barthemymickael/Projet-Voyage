@@ -109,6 +109,11 @@ export const CountryHero = ({ data }: { data: CountryData }) => {
             emoji: '📖',
             label: 'Le livre que je lis pour ce voyage',
             value: "L'Idiot - Dostoïevski (1874)."
+          },
+          {
+            emoji: '🎵',
+            label: "La musique que j'écoute en boucle",
+            value: 'I Stay Away - Alice In Chains (1994).'
           }
         ]
       : [
