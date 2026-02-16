@@ -4486,7 +4486,6 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   description: 'Petit parc de quartier agréable, idéal pour une courte pause au calme dans un environnement résidentiel.',
   emoji: '🌳'
 },
-[
   {
     id: 'm194',
     lat: 34.67318290231305,
@@ -4523,7 +4522,6 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     description: 'Magasin de jouets spécialisé dans les figurines et surtout les miniatures de voitures, avions, hélicoptères et trains.',
     emoji: '🚗'
   }
-]
 
 
 
