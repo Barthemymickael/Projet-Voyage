@@ -4691,8 +4691,8 @@ Juste des habitations… et le silence.`,
   mood: 'Osaka Museum of Natural History et Nagai Botanical Garden'
 },
 {
-  id: 'j75',
-  day: 75,
+  id: 'j7',
+  day: 7,
   title: 'Figurines, nostalgie et culture pop japonaise',
   excerpt: `Aujourd’hui, découverte du royaume des figurines et des jouets made in Japan !
 
