@@ -4167,7 +4167,7 @@ Départ de Busan à 10 h.
 Arrivée dans l’appartement à Osaka à 17 h 30.
 
     videoUrl: withBase('osaka.png'),
-En une heure, j’ai changé de pays, changé de culture et changé d’appartement.
+    hero: { title: '3 mois au Japon', subtitle: 'Mon voyage solo', description: 'Voyage du 10 février 2026 jusqu’au 10 mai 2026', bgImage: withBase('osaka.png') },
 
     hero: { title: '3 mois au Japon', subtitle: 'Mon voyage solo', description: 'Voyage du 10 février 2026 jusqu’au 10 mai 2026', bgImage: withBase('osaka.png') },
 
