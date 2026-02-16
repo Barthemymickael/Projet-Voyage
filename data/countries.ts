@@ -4282,7 +4282,21 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Nagai Botanical Garden'
   ],
   video: 'https://youtube.com/shorts/nybnoW8Zx78?si=Emrv7WldQRi3VHdW'
+},
+{
+  id: 't7',
+  date: 'Jour 7 (20 921 pas)',
+  title: 'Den Den Town, nostalgie et culture pop japonaise',
+  description:
+    'Journée plongée dans la culture pop japonaise à Den Den Town, véritable paradis pour les amateurs de figurines, mangas et jeux vidéo. Entre les étages infinis de Mandarake et de Joshin Kids Land, je passe des heures à observer figurines cultes, licences mythiques et surtout des milliers de voitures miniatures qui réveillent une forte nostalgie d’enfance. L’après-midi se poursuit par le marché de Kuromon et friperies vintage à Amerikamura.',
+  bullets: [
+    'Den Den Town : magasins de figurines, miniatures et jeux vidéos',
+    'Balade dans Kuromon Market',
+    'Amerikamura : Quartier de la mode et des friperies',
+    'Salle de Flippers rétro et Pokémon Center'
+  ]
 }
+
 
 
 
@@ -4675,7 +4689,65 @@ Aucun restaurant.
 Aucun convenience store.
 Juste des habitations… et le silence.`,
   mood: 'Osaka Museum of Natural History et Nagai Botanical Garden'
+},
+{
+  id: 'j75',
+  day: 75,
+  title: 'Figurines, nostalgie et culture pop japonaise',
+  excerpt: `Aujourd’hui, découverte du royaume des figurines et des jouets made in Japan !
+
+Je me dirige vers Den Den Town, une rue entière de magasins pour les fans de figurines, d’animés/mangas et de jeux vidéo.
+
+Je commence par entrer dans le magasin Mandarake, qui possède plus de 7 étages.  
+À l’intérieur : des figurines collector, Goldorack, Transformers, Godzilla et autres figurines et petits robots.
+
+Dans les étages supérieurs, on retrouve beaucoup de mangas, parfois connus, parfois moins connus, des affiches, des pins, des cartes, des CD, des DVD et des magazines anciens.
+
+Je rentre ensuite dans le second magasin, Joshin Kids Land, et là, j’ai vraiment passé presque 1 heure entre les étages.
+
+Ici, on retrouve des figurines plutôt modernes concernant Naruto, Dragon Ball Z, One Piece, Jujutsu Kaisen, Attaque des Titans, ainsi que Power Rangers, Marvel et DC Comics et d’autres licences que je ne connais pas.
+
+Mais c’est dans les étages du dessus que je me suis perdu.
+
+Des milliers de voitures miniatures, ainsi que des avions, bateaux, hélicoptères et trains.
+
+J’ai vraiment eu un petit coup de nostalgie, car j’avais moi-même des miniatures comme jouets quand j’étais petit.  
+Sûrement grâce à mon père qui en avait ou m’achetait celles-ci.
+
+Ici, on retrouve parfois des miniatures pour quelques dizaines d’euros, puis d’autres beaucoup plus collectors qui peuvent monter jusqu’à 500 euros.
+
+Parfois de la taille d’un doigt, d’autres de la taille d’une main, voire un peu plus grandes.
+
+Je regardais attentivement les différents modèles de voitures : les Nissan Skyline, les Ferrari, Subaru, Mitsubishi, et même parfois des miniatures de voitures de films (Fast And Furious, James Bond, Ghostbusters, Batman, K 2000).
+
+C’était vraiment cool, comme si j’étais dans une bulle à me rappeler quand j’étais petit et que je jouais aux voitures.
+
+Il y avait même un étage pour les voitures télécommandées, ici collector, mais très nostalgique pour moi également.
+
+Puis je suis rentré dans un magasin de jeux vidéo avec des jeux rétro (PS1, PS2, PS3, Nintendo 64, SEGA, NES, DS, etc.).  
+Malheureusement, les licences sont en japonais, donc pas facile de lire les jaquettes.
+
+Après avoir passé plusieurs heures dans ce quartier, je me suis baladé dans le marché iconique Kuromon Market, où il y a beaucoup de cuisine venant de la mer.
+
+Je finis l’après-midi par un quartier vraiment sympa, celui des friperies, de la mode vintage et de la street culture : Amerikamura.  
+On sent direct le style du quartier : les gens ont tous un style différent, très fashion.
+
+Ici, des boutiques indépendantes et des boutiques vintage de seconde main.
+
+On y retrouve de tout : des blousons en cuir, des chemises à carreaux, des vestes, des pulls, des lunettes, des casquettes, etc.
+
+Malheureusement, moi qui adore les boutiques vintage, je suis en road trip avec deux sacs à dos bien chargés, donc je ne peux malheureusement plus rien prendre.  
+Je ferai quelques achats à Tokyo avant mon retour en France, histoire de ramener quelques souvenirs.
+
+Puis je rentre dans un centre commercial ouvert sur l’extérieur, où j’entre dans une boutique de vinyles et surtout dans un magasin avec uniquement des flippers avec des licences de films et séries (Pirates des Caraïbes, Avatar, James Bond, Star Wars, Le Parrain, Ghostbusters, Les Dents de la mer, Terminator et j’en passe).
+
+Je joue au flipper du Parrain sans grand succès, mais le plaisir était là : être dans l’ambiance, entendre toutes les machines et les bruits des coups sur les boutons des flippers… sensation d’être dans les années 80–90.
+
+Je finis la journée en rentrant dans une boutique Pokémon Center, avec plein de peluches et autres goodies.`,
+  mood: 'Nostalgie, culture pop et émerveillement'
 }
+
+
 
 
 
