@@ -4166,7 +4166,7 @@ Au programme : 1 h de bus, 1 h 05 d’avion, puis encore 1 h de train avant d’
 Départ de Busan à 10 h.
 Arrivée dans l’appartement à Osaka à 17 h 30.
 
-    videoUrl: '/temple.jpg',
+    videoUrl: withBase('osaka.png'),
 En une heure, j’ai changé de pays, changé de culture et changé d’appartement.
 
     hero: { title: '3 mois au Japon', subtitle: 'Mon voyage solo', description: 'Voyage du 10 février 2026 jusqu’au 10 mai 2026', bgImage: withBase('aqura.jpg') },
