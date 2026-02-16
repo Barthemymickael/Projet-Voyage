@@ -4485,7 +4485,46 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Parc',
   description: 'Petit parc de quartier agréable, idéal pour une courte pause au calme dans un environnement résidentiel.',
   emoji: '🌳'
-}
+},
+[
+  {
+    id: 'm194',
+    lat: 34.67318290231305,
+    lng: 135.50075382605448,
+    title: 'Pokémon Center Osaka DX',
+    category: 'Shopping',
+    description: 'Boutique Pokémon officielle avec peluches, figurines et de nombreux goodies Pokémon.',
+    emoji: '🎮'
+  },
+  {
+    id: 'm195',
+    lat: 34.67222107252314,
+    lng: 135.49788867563228,
+    title: 'American Village',
+    category: 'Quartier',
+    description: 'Quartier fashion et alternatif, rempli de boutiques vintage, de friperies et de cafés.',
+    emoji: '🧢'
+  },
+  {
+    id: 'm196',
+    lat: 34.65914202924077,
+    lng: 135.50568558278147,
+    title: 'Mandarake Grand Chaos',
+    category: 'Shopping',
+    description: 'Magasin culte sur 7 étages dédié aux figurines, mangas, DVD, CD et magazines.',
+    emoji: '📚'
+  },
+  {
+    id: 'm197',
+    lat: 34.65930906413586,
+    lng: 135.50550804834398,
+    title: 'Joshin Super Kids Land Main Store',
+    category: 'Shopping',
+    description: 'Magasin de jouets spécialisé dans les figurines et surtout les miniatures de voitures, avions, hélicoptères et trains.',
+    emoji: '🚗'
+  }
+]
+
 
 
 
