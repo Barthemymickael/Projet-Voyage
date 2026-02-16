@@ -4521,7 +4521,16 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     category: 'Shopping',
     description: 'Magasin de jouets spécialisé dans les figurines et surtout les miniatures de voitures, avions, hélicoptères et trains.',
     emoji: '🚗'
-  }
+  },
+  {
+  id: 'm198',
+  lat: 34.672501484719106,
+  lng: 135.4986531555021,
+  title: 'The Silver Ball Planet',
+  category: 'Divertissement',
+  description: 'Salle d’arcade entièrement dédiée aux flippers, avec des licences cultes de films et séries comme Pirates des Caraïbes, Avatar, James Bond, Star Wars, Le Parrain, Ghostbusters, Les Dents de la mer ou Terminator.',
+  emoji: '🕹️'
+}
 
 
 
