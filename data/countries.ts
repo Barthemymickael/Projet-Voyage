@@ -4693,7 +4693,7 @@ Juste des habitations… et le silence.`,
 {
   id: 'j7',
   day: 7,
-  title: 'Figurines, nostalgie et culture pop japonaise',
+  title: 'Den Den Town, nostalgie et culture pop japonaise',
   excerpt: `Aujourd’hui, découverte du royaume des figurines et des jouets made in Japan !
 
 Je me dirige vers Den Den Town, une rue entière de magasins pour les fans de figurines, d’animés/mangas et de jeux vidéo.
@@ -4744,7 +4744,7 @@ Puis je rentre dans un centre commercial ouvert sur l’extérieur, où j’entr
 Je joue au flipper du Parrain sans grand succès, mais le plaisir était là : être dans l’ambiance, entendre toutes les machines et les bruits des coups sur les boutons des flippers… sensation d’être dans les années 80–90.
 
 Je finis la journée en rentrant dans une boutique Pokémon Center, avec plein de peluches et autres goodies.`,
-  mood: 'Nostalgie, culture pop et émerveillement'
+  mood: 'Den Den Town, nostalgie et culture pop japonaise'
 }
 
 
