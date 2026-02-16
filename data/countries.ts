@@ -4294,9 +4294,10 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Balade dans Kuromon Market',
     'Amerikamura : Quartier de la mode et des friperies',
     'Salle de Flippers rétro et Pokémon Center'
-  ]
-}
+  ],
+  video: 'https://youtube.com/shorts/rELE3M3nVf4?si=HnSLoUXPlTu7ZT4F'
 
+}
 
 
 
