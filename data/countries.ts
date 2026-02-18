@@ -4558,7 +4558,80 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Divertissement',
   description: 'Salle d’arcade entièrement dédiée aux flippers, avec des licences cultes de films et séries comme Pirates des Caraïbes, Avatar, James Bond, Star Wars, Le Parrain, Ghostbusters, Les Dents de la mer ou Terminator.',
   emoji: '🕹️'
-}
+},
+  {
+    id: 'm199',
+    lat: 34.7025559359571,
+    lng: 135.49595059660788,
+    title: 'Quartier Umeda',
+    category: 'Quartier',
+    description: 'Quartier des affaires avec de nombreux gratte-ciel, centres commerciaux et hôtels.',
+    emoji: '🏙️'
+  },
+  {
+    id: 'm200',
+    lat: 34.70387286588051,
+    lng: 135.49491909725558,
+    title: 'Grand Front Osaka',
+    category: 'Shopping',
+    description: 'Centre commercial divisé en plusieurs bâtiments : immense et impressionnant.',
+    emoji: '🛍️'
+  },
+  {
+    id: 'm201',
+    lat: 34.70410419565637,
+    lng: 135.4962686671602,
+    title: 'Yodobashi Camera Umeda',
+    category: 'Shopping',
+    description: 'Centre commercial de 12 étages dédié à la tech, à l’électronique et au divertissement : absolument tout s’y trouve.',
+    emoji: '📱'
+  },
+  {
+    id: 'm202',
+    lat: 34.70529599300235,
+    lng: 135.4896526966079,
+    title: 'Umeda Sky Building',
+    category: 'Point de vue',
+    description: 'Gratte-ciel emblématique avec observatoire. Je n’ai visité que le sous-sol et le rez-de-chaussée, qui abritent une rue souterraine de restaurants.',
+    emoji: '🌆'
+  },
+  {
+    id: 'm203',
+    lat: 34.703665156338865,
+    lng: 135.49255080521488,
+    title: 'Ume Kita Park',
+    category: 'Parc',
+    description: 'Parc récent situé à la sortie des grands centres commerciaux du quartier Umeda.',
+    emoji: '🌳'
+  },
+  {
+    id: 'm204',
+    lat: 34.67098670913208,
+    lng: 135.49627704291913,
+    title: 'Orange Street Osaka',
+    category: 'Quartier',
+    description: 'Petite rue regroupant des marques indépendantes, des designers et des pop-up stores.',
+    emoji: '🧡'
+  },
+  {
+    id: 'm205',
+    lat: 34.67383137239933,
+    lng: 135.4863376230307,
+    title: 'Osaka Municipal Central Library',
+    category: 'Bibliothèque',
+    description: 'Grande bibliothèque municipale où j’ai lu une autobiographie de Michael J. Fox.',
+    emoji: '📖'
+  },
+  {
+    id: 'm206',
+    lat: 34.68498528126861,
+    lng: 135.49350495550266,
+    title: 'Utsubo Park',
+    category: 'Parc',
+    description: 'Parc en longueur avec terrains de tennis et une zone paisible dotée de jets d’eau et de bancs.',
+    emoji: '🌳'
+  }
+
 
 
 
