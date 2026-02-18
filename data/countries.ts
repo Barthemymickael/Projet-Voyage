@@ -4296,8 +4296,35 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Salle de Flippers rétro et Pokémon Center'
   ],
   video: 'https://youtube.com/shorts/rELE3M3nVf4?si=HnSLoUXPlTu7ZT4F'
-
+},
+{
+  id: 't8',
+  date: 'Jour 8 (27 718 pas)',
+  title: "Quartier Umeda : Le quartier d'affaire et des buildings ",
+  description:
+    'Balade sous un grand soleil dans le quartier d’Umeda, centre d’Osaka où se concentrent la gare principale, les sièges d’entreprises et les grands hôtels. L’ambiance rappelle des quartiers comme La Défense ou Gangnam : buildings, costumes, rythme rapide. Je passe une bonne partie de la journée à déambuler entre centres commerciaux immenses, notamment Grand Front Osaka et surtout Yodobashi Camera, le lieu de la technologie où absolument tout semble disponible immédiatement. Un terrain de jeu pour les amateurs de tech.',
+  bullets: [
+    'Umeda le quartier d’affaires',
+    'Centre commercial : Grand Front Osaka',
+    'Centre commercial : Yodobashi Camera, temple de la technologie',
+    'Umeda Sky Building et café au Ume Kita Park'
+  ]
+},
+{
+  id: 't9',
+  date: 'Jour 9 (17 781 pas)',
+  title: 'Orange Street Osaka et lecture à la Osaka Municipal Central Library',
+  description:
+    'Découverte d’Orange Street, une rue dédiée à la mode indépendante et aux designers locaux. En chemin vers Utsubo Park, arrêt spontané à la Osaka Municipal Central Library. Je m’y installe longuement pour lire une autobiographie de Michael J. Fox.La journée se termine doucement dans Utsubo Park, à regarder le soleil disparaître derrière les immeubles, avant une balade nocturnedu côté du quartier Dotonbori.',
+  bullets: [
+    'Orange Street et designers indépendants',
+    'Lecture à la bibliothèque centrale d’Osaka',
+    'Balade à Utsubo Park',
+    'Balade nocturne à Dōtonbori'
+  ]
 }
+
+
 
 
 
@@ -4792,7 +4819,77 @@ Je joue au flipper du Parrain sans grand succès, mais le plaisir était là : �
 
 Je finis la journée en rentrant dans une boutique Pokémon Center, avec plein de peluches et autres goodies.`,
   mood: 'Den Den Town, nostalgie et culture pop japonaise'
+},
+{
+  id: 'j8',
+  day: 8,
+  title: 'Quartier Umeda',
+  excerpt: `Balade sous un grand soleil dans le quartier central d’Osaka : Umeda.
+
+C’est dans ce quartier que se trouve la gare centrale, Osaka Station, les grosses entreprises et les hôtels de luxe. Globalement, c’est ici que les touristes séjournent quelques jours.
+
+Je suis donc entouré de buildings, de coffee shops et de restaurants bien notés, ainsi que d’énormes centres commerciaux.
+
+Beaucoup de Japonais, sacoche de PC à la main, sortent ou rentrent dans les locaux. Beaucoup sont en costume.
+Un peu comme à La Défense à Paris, ou encore à Gangnam en Corée du Sud : ici, tout va vite, tout est grand.
+
+Je me balade dans un premier temps dans l’immense centre commercial Grand Front Osaka, où l’on retrouve des marques de luxe et de nombreux restaurants, puis je continue dans un deuxième mastodonte : Yodobashi Camera.
+Et là, je n’ai réellement jamais vu un centre commercial aussi gigantesque en termes d’objets disponibles à l’achat.
+
+Ici, il y a vraiment tout.
+N’importe quelle petite pièce de n’importe quel objet semble disponible.
+
+On passe de la pêche à la chasse, aux produits numériques, appareils photo, téléphones, ordinateurs…
+Le moindre petit câble, la moindre pièce informatique est disponible à l’achat.
+
+Des télévisions, des machines à laver, des jouets pour enfants, des miniatures, des figurines, des jeux vidéo.
+Des centaines de claviers, des centaines de souris, des centaines de chaises gaming, et une quantité impressionnante d’écrans.
+
+Enfin bref, il y a vraiment de quoi passer toute une après-midi à déambuler entre les étages, à tester les produits, à comparer.
+
+C’est bien la première fois que je suis autant choqué par la taille d’un magasin et par la disponibilité immédiate des objets.
+
+Moi qui adore la technologie, là, j’étais vraiment servi.
+
+Je me dirige ensuite vers la Umeda Sky Building pour explorer quelques étages, puis je sors direction le parc Ume Kita Park où je me pose dans un café en fin de journée, j’y reste une bonne heure.`,
+  mood: 'Quartier Umeda'
+},
+{
+  id: 'j9',
+  day: 9,
+  title: 'Orange Street Osaka et lecture à la Osaka Municipal Central Library',
+  excerpt: `Balade dans le quartier Orange Street Osaka et lecture à la Osaka Municipal Central Library.
+
+Orange Street est une rue dédiée à la mode, aux pop-up stores et aux designers indépendants.
+Elle n’est pas très grande, mais les boutiques sont vraiment cool.
+Les designers viennent parfois vous parler pour donner plus de détails sur leurs pièces, expliquer leur travail, leur univers.
+C’était sympa, plus humain que dans les grandes enseignes.
+
+Sur la route pour aller vers le parc Utsubo, je tombe sur la bibliothèque centrale municipale d’Osaka.
+Je décide d’y entrer.
+
+Je me rends dans la section cinéma et je trouve un livre sur Michael J. Fox.
+
+Je me pose et je lis pendant quasiment 2 heures.
+À cette heure-ci, il n’y a que des personnes âgées et quelques étudiants.
+
+Hyper intéressant de lire cette autobiographie.
+L’acteur y retrace certains moments forts de sa vie, notamment la naissance de ses enfants, et comment toute sa famille et lui-même ont fait face à la maladie.
+Il explique aussi comment il a réinventé son métier d’acteur tout en vivant avec la maladie de Parkinson.
+
+Quelques passages sont très émouvants, notamment celui sur un chien qu’il a rencontré en Thaïlande.
+Plus tard, il apprendra que le nouveau nom de ce chien est devenu Michael J. Fox.
+
+En fin de journée, je me balade dans le Utsubo Park, entre les buildings.
+Je le pensais un peu plus grand, mais ce n’est pas grave.
+Il contient plusieurs terrains de tennis, un parc central avec un ruisseau et des jets d’eau.
+C’est ici que je regarde le soleil disparaître derrière les immeubles.
+
+Puis je reprends la route, direction Dotonbori de nuit, où je me balade tranquillement dans le quartier.`,
+  mood: 'Orange Street Osaka et lecture à la Osaka Municipal Central Library'
 }
+
+
 
 
 
