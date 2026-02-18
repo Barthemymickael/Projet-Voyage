@@ -4315,7 +4315,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   date: 'Jour 9 (17 781 pas)',
   title: 'Orange Street Osaka et lecture à la Osaka Municipal Central Library',
   description:
-    'Découverte d’Orange Street, une rue dédiée à la mode indépendante et aux designers locaux. En chemin vers Utsubo Park, arrêt spontané à la Osaka Municipal Central Library. Je m’y installe longuement pour lire une autobiographie de Michael J. Fox.La journée se termine doucement dans Utsubo Park, à regarder le soleil disparaître derrière les immeubles, avant une balade nocturnedu côté du quartier Dotonbori.',
+    'Découverte d’Orange Street, une rue dédiée à la mode indépendante et aux designers locaux. En chemin vers Utsubo Park, arrêt spontané à la Osaka Municipal Central Library. Je m’y installe longuement pour lire une autobiographie de Michael J. Fox.La journée se termine doucement dans Utsubo Park, à regarder le soleil disparaître derrière les immeubles, avant une balade nocturne du côté du quartier Dotonbori.',
   bullets: [
     'Orange Street et designers indépendants',
     'Lecture à la bibliothèque centrale d’Osaka',
