@@ -4308,7 +4308,9 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Centre commercial : Grand Front Osaka',
     'Centre commercial : Yodobashi Camera, temple de la technologie',
     'Umeda Sky Building et café au Ume Kita Park'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/Rcvu_3YkVh4?si=TEjv6zuNZwuiktfl'
+
 },
 {
   id: 't9',
@@ -4321,7 +4323,9 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Lecture à la bibliothèque centrale d’Osaka',
     'Balade à Utsubo Park',
     'Balade nocturne à Dōtonbori'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/8YIxduPNgYo?si=lXWEv7TqlIgy7ypt'
+
 }
 
 
