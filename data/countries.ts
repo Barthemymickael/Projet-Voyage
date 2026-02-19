@@ -4325,8 +4325,21 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Balade nocturne à Dōtonbori'
   ],
   video: 'https://youtube.com/shorts/8YIxduPNgYo?si=lXWEv7TqlIgy7ypt'
-
+},
+{
+  id: 't10',
+  date: 'Jour 10 (18 018 pas)',
+  title: 'Temple Shitennō-ji et retour au quartier Den Den Town',
+  description:
+    'Découverte du temple bouddhiste Shitennō-ji, l’un des plus anciens du Japon, fondé en 593. La visite se poursuit ensuite à Den Den Town avec plusieurs boutiques spécialisées (figurines, mangas et rétro gaming).',
+  bullets: [
+    'Temple Shitennō-ji (fondé en 593)',
+    'Montée sans chaussure dans le pavillon principal',
+    'Boutiques otaku à Den Den Town',
+    'Fin de journée à Namba Parks'
+  ]
 }
+
 
 
 
@@ -4634,7 +4647,62 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     category: 'Parc',
     description: 'Parc en longueur avec terrains de tennis et une zone paisible dotée de jets d’eau et de bancs.',
     emoji: '🌳'
+  },
+  {
+    id: 'm207',
+    lat: 34.6544650092532,
+    lng: 135.51652447553948,
+    title: 'Shitennō-ji',
+    category: 'Temple',
+    description: 'Temple bouddhiste calme avec un pavillon central très joli.',
+    emoji: '⛩️'
+  },
+  {
+    id: 'm208',
+    lat: 34.66088909464782,
+    lng: 135.50608777879737,
+    title: 'Hero Gangu',
+    category: 'Shopping',
+    description: 'Boutique spécialisée dans les jouets et figurines, située dans le quartier Nipponbashi.',
+    emoji: '🧸'
+  },
+  {
+    id: 'm209',
+    lat: 34.66069380982319,
+    lng: 135.5060814683666,
+    title: 'Volks Osaka Showroom',
+    category: 'Shopping',
+    description: 'Magasin réputé pour ses figurines, maquettes et produits de collection pour passionnés.',
+    emoji: '🧩'
+  },
+  {
+    id: 'm210',
+    lat: 34.66196237910889,
+    lng: 135.505056926054,
+    title: 'Super Potato Osaka',
+    category: 'Shopping',
+    description: 'Magasin culte de jeux vidéo rétro avec consoles, cartouches et merchandising vintage.',
+    emoji: '🎮'
+  },
+  {
+    id: 'm211',
+    lat: 34.660403694687666,
+    lng: 135.50605604808706,
+    title: 'Game Taito Station (Osaka Nipponbashi)',
+    category: 'Activité',
+    description: 'Grande salle d’arcade Taito Station avec de nombreuses bornes de jeux.',
+    emoji: '🕹️'
+  },
+  {
+    id: 'm212',
+    lat: 34.660482861019084,
+    lng: 135.5047422293262,
+    title: 'Animate Osaka Nipponbashi',
+    category: 'Shopping',
+    description: 'Boutique spécialisée en anime, manga et produits dérivés dans le quartier otaku.',
+    emoji: '📚'
   }
+
 
 
 
@@ -4964,7 +5032,29 @@ C’est ici que je regarde le soleil disparaître derrière les immeubles.
 
 Puis je reprends la route, direction Dotonbori de nuit, où je me balade tranquillement dans le quartier.`,
   mood: 'Orange Street Osaka et lecture à la Osaka Municipal Central Library'
+},
+{
+  id: 'j10',
+  day: 10,
+  title: 'Temple Shi Tennō-ji et retour à Den Den Town',
+  excerpt: `Découverte du temple bouddhiste Shi Tennō-ji, l’un des plus anciens temples du Japon (fondé en 593).
+
+J’entre dans le temple : nous sommes une dizaine, aucun bruit, forte odeur d’encens et calme absolu.
+L’ambiance est vraiment apaisante.
+
+Pour monter à l’intérieur du pavillon Tenno-ji, il faut enlever ses chaussures (une tradition classique dans les temples japonais pour respecter la pureté du lieu) puis prendre les escaliers sur 4 étages.
+Tout en haut, de petites fenêtres laissent passer la lumière, avec une jolie sculpture au milieu.
+
+La visite était sympa et calme, j’ai pu faire de belles photos.
+
+Je suis parti ensuite dans le quartier Den Den Town pour faire quelques boutiques que je n’avais pas faites la dernière fois (Hero Gangu, Volks Osaka Showroom, Super Potato Osaka, Taito Station et Animate Osaka Nipponbashi).
+
+Globalement, c’est toujours la même chose : des figurines, des cartes collector, beaucoup de mangas ainsi que des jeux et consoles rétro.
+
+Fin de journée dans le centre commercial Namba Parks, où je me balade entre les différentes enseignes.`,
+  mood: 'Sérénité spirituelle et plongée otaku'
 }
+
 
 
 
