@@ -5054,7 +5054,7 @@ Je suis parti ensuite dans le quartier Den Den Town pour faire quelques boutique
 Globalement, c’est toujours la même chose : des figurines, des cartes collector, beaucoup de mangas ainsi que des jeux et consoles rétro.
 
 Fin de journée dans le centre commercial Namba Parks, où je me balade entre les différentes enseignes.`,
-  mood: 'Sérénité spirituelle et plongée otaku'
+  mood: 'Temple Shi Tennō-ji et retour à Den Den Town'
 }
 
 
