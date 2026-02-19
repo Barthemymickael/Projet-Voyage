@@ -4337,7 +4337,9 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Montée sans chaussure dans le pavillon principal',
     'Boutiques otaku à Den Den Town',
     'Fin de journée à Namba Parks'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/DCo_lgoFV-U?si=MQgJdXPCNNIFzX_W'
+
 }
 
 
