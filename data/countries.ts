@@ -4394,7 +4394,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   title: 'Namba Parks',
   category: 'Shopping',
   description: 'Grand centre commercial mêlant boutiques et restaurants, avec un immense jardin en rooftop au cœur de la ville.',
-  emoji: '🌿'
+  emoji: '🛍️'
 },
 {
   id: 'm179',
