@@ -5055,6 +5055,37 @@ Globalement, c’est toujours la même chose : des figurines, des cartes collect
 
 Fin de journée dans le centre commercial Namba Parks, où je me balade entre les différentes enseignes.`,
   mood: 'Temple Shi Tennō-ji et retour à Den Den Town'
+},
+{
+  id: 'j11',
+  day: 11,
+  title: "Musée de l’histoire d’Osaka et balade dans le parc du château d’Osaka",
+  excerpt: `Journée sous la grisaille, donc je pars faire le musée de l’histoire d’Osaka (Osaka Museum of History).
+
+Le musée retrace 1400 ans d’histoire de la ville, depuis l’époque où Osaka s’appelait Naniwa et était la capitale du Japon, jusqu’à l’ère moderne et la grande époque du Japon au XXe siècle.
+On y trouve des reconstitutions, des maquettes et même des reproductions de rues anciennes.
+Le musée offre également une belle vue en hauteur sur le château d’Osaka.
+
+Dans le bâtiment voisin se trouve une petite exposition sur des éléments de décor de la série The Ghost Writer Wife (que je ne connais pas).
+
+J’entre dans cette exposition et c’est en fait un décor de la série qui ressemble trait pour trait aux anciennes maisons japonaises.
+
+Je finis par une balade autour du château d’Osaka, où je me pose devant une fontaine avant de rentrer à pied jusqu’à mon logement.
+
+Google Maps me fait passer par le centre commercial Abeno Q’s Mall, et je reste perdu pendant 5 à 10 minutes à vouloir trouver la bonne sortie.`,
+  mood: 'Musée de l’histoire d’Osaka et balade dans le parc du château d’Osaka'
+},
+{
+  id: 't11',
+  date: 'Jour 11 (22 832 pas)',
+  title: "Musée de l’histoire d’Osaka et balade autour du château",
+  description:
+    "Le musée retrace plus de 1 400 ans d’histoire de la ville, depuis l’époque où Osaka s’appelait Naniwa jusqu’à l’ère moderne. Maquettes, reconstitutions et reproductions de rues anciennes, avec en bonus une belle vue en hauteur sur le château d'Osaka. Je passe ensuite par une petite exposition consacrée à la série *The Ghost Writer Wife*, avant de terminer par une balade autour du château.",
+  bullets: [
+    "Osaka Museum of History",
+    "Exposition The Ghost Writer Wife",
+    "Balade autour du château",
+  ]
 }
 
 
