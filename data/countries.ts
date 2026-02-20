@@ -4340,6 +4340,18 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   ],
   video: 'https://youtube.com/shorts/DCo_lgoFV-U?si=MQgJdXPCNNIFzX_W'
 
+},
+{
+  id: 't11',
+  date: 'Jour 11 (22 832 pas)',
+  title: "Musée de l’histoire d’Osaka et balade autour du château",
+  description:
+    "Le musée retrace plus de 1 400 ans d’histoire de la ville, depuis l’époque où Osaka s’appelait Naniwa jusqu’à l’ère moderne. Maquettes, reconstitutions et reproductions de rues anciennes, avec en bonus une belle vue en hauteur sur le château d'Osaka. Je passe ensuite par une petite exposition consacrée à la série *The Ghost Writer Wife*, avant de terminer par une balade autour du château.",
+  bullets: [
+    "Osaka Museum of History",
+    "Exposition The Ghost Writer Wife",
+    "Balade autour du château",
+  ]
 }
 
 
@@ -5074,18 +5086,6 @@ Je finis par une balade autour du château d’Osaka, où je me pose devant une 
 
 Google Maps me fait passer par le centre commercial Abeno Q’s Mall, et je reste perdu pendant 5 à 10 minutes à vouloir trouver la bonne sortie.`,
   mood: 'Musée de l’histoire d’Osaka et balade dans le parc du château d’Osaka'
-},
-{
-  id: 't11',
-  date: 'Jour 11 (22 832 pas)',
-  title: "Musée de l’histoire d’Osaka et balade autour du château",
-  description:
-    "Le musée retrace plus de 1 400 ans d’histoire de la ville, depuis l’époque où Osaka s’appelait Naniwa jusqu’à l’ère moderne. Maquettes, reconstitutions et reproductions de rues anciennes, avec en bonus une belle vue en hauteur sur le château d'Osaka. Je passe ensuite par une petite exposition consacrée à la série *The Ghost Writer Wife*, avant de terminer par une balade autour du château.",
-  bullets: [
-    "Osaka Museum of History",
-    "Exposition The Ghost Writer Wife",
-    "Balade autour du château",
-  ]
 }
 
 
