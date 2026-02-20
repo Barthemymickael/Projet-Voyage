@@ -4351,10 +4351,9 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     "Osaka Museum of History",
     "Exposition The Ghost Writer Wife",
     "Balade autour du château",
-  ]
+  ],
+  video: 'https://youtube.com/shorts/CRu8tvhRcgs?si=1prRlcA2jcdXLqmf'
 }
-
-
 
 
 
