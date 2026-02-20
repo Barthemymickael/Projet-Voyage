@@ -4715,7 +4715,43 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     category: 'Shopping',
     description: 'Boutique spécialisée en anime, manga et produits dérivés dans le quartier otaku.',
     emoji: '📚'
-  }
+  },
+  {
+    id: 'm213',
+    lat: 34.682630615114746,
+    lng: 135.52079079109458,
+    title: 'Osaka Museum of History',
+    category: 'Musée',
+    description: 'Musée retraçant 1 400 ans d’histoire de la ville avec maquettes et reconstitutions de rues.',
+    emoji: '🏛️'
+  },
+  {
+    id: 'm214',
+    lat: 34.682707260548014,
+    lng: 135.52006123024077,
+    title: 'NHK Osaka Hall',
+    category: 'Activité',
+    description: 'Exposition temporaire sur la série "The Ghost Writer Wife" avec décors ayant servi au tournage.',
+    emoji: '🏛️'
+  },
+  {
+    id: 'm215',
+    lat: 34.64533218948459,
+    lng: 135.5116829966054,
+    title: "Abeno Q's Mall",
+    category: 'Shopping',
+    description: 'Centre commercial dans lequel je me suis perdu en essayant de rentrer à mon logement.',
+    emoji: '🛍️'
+  },
+  {
+  id: 'm216',
+  lat: 34.68275901229638,
+  lng: 135.532093266174,
+  title: 'Osaka Castle Park Fountain',
+  category: 'Balade',
+  description: 'Fontaine située dans le parc entourant le château d’Osaka.',
+  emoji: '⛲'
+}
 
 
 
