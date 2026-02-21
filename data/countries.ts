@@ -4328,7 +4328,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't10',
-  date: 'Jour 10 (18 018 pas)',
+  date: 'Jour 10 (18 059 pas)',
   title: 'Temple Shitennō-ji et retour au quartier Den Den Town',
   description:
     'Découverte du temple bouddhiste Shitennō-ji, l’un des plus anciens du Japon, fondé en 593. La visite se poursuit ensuite à Den Den Town avec plusieurs boutiques spécialisées (figurines, mangas et rétro gaming).',
@@ -4353,6 +4353,18 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     "Balade autour du château",
   ],
   video: 'https://youtube.com/shorts/CRu8tvhRcgs?si=1prRlcA2jcdXLqmf'
+},
+{
+  id: 't12',
+  date: 'Jour 12 (19 435 pas)',
+  title: "Parc Expo ’70 Commemorative Park et Tower of the Sun",
+  description:
+    "Direction Expo ’70 Commemorative Park’, immense parc situé au nord d’Osaka, vestige de l’exposition universelle de 1970. Après une erreur de métro qui rallonge la marche, j’entre finalement par la partie sportive et tombe sur un match amateur de baseball à l’ambiance très familiale. De l’autre côté de l’autoroute qui coupe le site en deux se trouve le grand parc principal, dominé par l’impressionnante , œuvre de l’artiste japonais . Haute d’environ 70 mètres, la sculpture symbolise le passé, le présent et le futur. Le reste du parc, très orienté famille, alterne jardins, espaces pour enfants et larges allées propices à la balade.",
+  bullets: [
+    "Match amateur de baseball",
+    "Parc Expo ’70 Commemorative Park",
+    "Monument Tower of the Sun (1970)"
+  ]
 }
 
 
@@ -5121,7 +5133,44 @@ Je finis par une balade autour du château d’Osaka, où je me pose devant une 
 
 Google Maps me fait passer par le centre commercial Abeno Q’s Mall, et je reste perdu pendant 5 à 10 minutes à vouloir trouver la bonne sortie.`,
   mood: 'Musée de l’histoire d’Osaka et balade dans le parc du château d’Osaka'
-}
+},
+{
+  id: 'j12',
+  day: 12,
+  title: "Balade dans le parc Expo ’70 Commemorative Park",
+  excerpt: `Aujourd’hui, direction le parc « Expo ’70 Commemorative Park », sûrement le parc le plus connu et le plus grand d’Osaka !
+
+Il est situé à l’extrême nord de la ville, dans une zone plutôt industrielle et pas loin de l’autoroute.
+
+Le parc est assez bizarre dans sa construction : une autoroute le sépare en deux.
+D’un côté, un espace avec plusieurs stades, dont 2 de baseball.
+De l’autre, un immense parc familial avec la célèbre Tour du Soleil (Tower of the Sun).
+
+Je commence la journée en prenant le mauvais métro…
+Résultat : 45 minutes de plus à pied pour rejoindre le parc.
+
+Mais au final, cette erreur me fait entrer par la première partie du parc, celle avec les stades.
+
+Et je me retrouve à regarder un match amateur de baseball dans l’un des stades !
+
+L’ambiance est familiale : certaines familles ont amené glacière, parasol et même cafetière.
+Je me pose et regarde ce match qui n’a pas l’air d’être un grand match, mais qui apporte quand même son ambiance japonaise.
+Je reste une bonne demi-heure avant de partir explorer le grand parc derrière l’autoroute.
+
+L’entrée coûte 1,50 €.
+
+À l’entrée du parc se trouve la Tower of the Sun, immense sculpture créée pour l’exposition universelle de 1970 conçue par l’artiste japonais Taro Okamoto.
+
+Elle mesure environ 70 mètres de haut.
+
+La tour représente le passé, le présent et le futur :
+- Le Masque d’or tout en haut, qui représente le futur.
+- Le Visage du Soleil sur la face avant, qui symbolise le présent.
+- Le Soleil noir à l’arrière, qui représente le passé.
+
+Enfin le parc est assez grand mais on voit tout de suite que c’est un parc familial, beaucoup d’attractions et d’espaces pour enfants avec cependant de jolis jardins et notamment des cerisiers.`,
+  mood: 'Balade dans le parc Expo ’70 Commemorative Park'
+},
 
 
 
