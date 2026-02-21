@@ -4762,7 +4762,34 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Balade',
   description: 'Fontaine située dans le parc entourant le château d’Osaka.',
   emoji: '⛲'
-}
+},
+  {
+    id: 'm217',
+    lat: 34.805417444080994,
+    lng: 135.54023174996988,
+    title: "Expo '70 Commemorative Park Baseball Stadium",
+    category: 'Sport',
+    description: 'Stade de baseball situé dans le parc de l’Expo ’70, où j’ai assisté à un match amateur avec une ambiance très familiale.',
+    emoji: '⚾'
+  },
+  {
+    id: 'm218',
+    lat: 34.809520379815865,
+    lng: 135.53240841679084,
+    title: 'Tour du Soleil',
+    category: 'Monument',
+    description: 'Grande sculpture emblématique construite pour l’Exposition universelle de 1970.',
+    emoji: '🌞'
+  },
+  {
+    id: 'm219',
+    lat: 34.806434434107615,
+    lng: 135.5288585131239,
+    title: "Expo '70 Commemorative Park",
+    category: 'Parc',
+    description: 'Grand parc aménagé sur le site de l’Exposition universelle de 1970, très familial et agréable pour se promener.',
+    emoji: '🌳'
+  }
 
 
 
