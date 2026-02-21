@@ -4359,16 +4359,15 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   date: 'Jour 12 (19 435 pas)',
   title: "Parc Expo ’70 Commemorative Park et Tower of the Sun",
   description:
-    "Direction Expo ’70 Commemorative Park’, immense parc situé au nord d’Osaka, vestige de l’exposition universelle de 1970. Après une erreur de métro qui rallonge la marche, j’entre finalement par la partie sportive et tombe sur un match amateur de baseball à l’ambiance très familiale. De l’autre côté de l’autoroute qui coupe le site en deux se trouve le grand parc principal, dominé par l’impressionnante , œuvre de l’artiste japonais . Haute d’environ 70 mètres, la sculpture symbolise le passé, le présent et le futur. Le reste du parc, très orienté famille, alterne jardins, espaces pour enfants et larges allées propices à la balade.",
+    "Direction Expo ’70 Commemorative Park’, un immense parc situé au nord d’Osaka, vestige de l’exposition universelle de 1970 avec le monument du parc la Tour du Soleil. Je tombe sur un match amateur de baseball à l’ambiance très familiale.Le reste du parc, très orienté famille, alterne jardins et espaces pour enfants.",
   bullets: [
     "Match amateur de baseball",
     "Parc Expo ’70 Commemorative Park",
     "Monument Tower of the Sun (1970)"
-  ]
+  ],
+  video: 'https://youtube.com/shorts/LwFVOzSFcC4?si=7opRiO_0LLcEfrM1'
+
 }
-
-
-
 
 
 
