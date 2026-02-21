@@ -5167,7 +5167,7 @@ Google Maps me fait passer par le centre commercial Abeno Q’s Mall, et je rest
   title: "Balade dans le parc Expo ’70 Commemorative Park",
   excerpt: `Aujourd’hui, direction le parc « Expo ’70 Commemorative Park », sûrement le parc le plus connu et le plus grand d’Osaka !
 
-Il est situé à l’extrême nord de la ville, dans une zone plutôt industrielle et pas loin de l’autoroute.
+Il est situé à l’extrême nord de la ville, dans une zone plutôt industrielle.
 
 Le parc est assez bizarre dans sa construction : une autoroute le sépare en deux.
 D’un côté, un espace avec plusieurs stades, dont 2 de baseball.
