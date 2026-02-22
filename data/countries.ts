@@ -5247,19 +5247,18 @@ Musique dans les oreilles (🎵 With Every Heartbeat - Robyn), pas trop forte po
 À quelques pas du stade, je commence à voir des supporters avec le fameux maillot rose.
 Tout est super bien organisé.
 Je commence par me prendre une bière à la buvette avant de rentrer dans ma tribune.
+Je me suis posé à une buvette à la mi-temps mais pas de rencontre inopinée.
 
-Résultat : 2-1 pour Hiroshima.
+Enfin bref, résultat : 2-1 pour Hiroshima.
 
-Deux buts après la 95e minute.
+Deux buts après la 90ème minute.
 
-Égalisation sur un retourné acrobatique d’un joueur d’Osaka (1-1).
+Égalisation sur un retourné acrobatique d’un joueur d’Osaka à la 95ème minutes (1-1).
 
-Mais deux minutes après, à la 97e, but pour Hiroshima (2-1).
+Mais deux minutes après, à la 97ème, but pour Hiroshima (2-1).
 
 Une fin de match incroyable.
-L’ambiance était super.
-
-Je me suis posé à une buvette à la mi-temps mais pas de rencontre inopinée.`,
+L’ambiance était super.`,
   mood: 'Match du Cerezo Osaka au Yodoko Sakura Stadium'
 },
 
