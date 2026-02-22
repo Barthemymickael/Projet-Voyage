@@ -4356,7 +4356,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't12',
-  date: 'Jour 12 (19 435 pas)',
+  date: 'Jour 12 (19 531 pas)',
   title: "Parc Expo ’70 Commemorative Park et Tower of the Sun",
   description:
     "Direction Expo ’70 Commemorative Park’, un immense parc situé au nord d’Osaka, vestige de l’exposition universelle de 1970 avec le monument du parc la Tour du Soleil. Je tombe sur un match amateur de baseball à l’ambiance très familiale.Le reste du parc, très orienté famille, alterne jardins et espaces pour enfants.",
@@ -4366,6 +4366,19 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     "Monument Tower of the Sun (1970)"
   ],
   video: 'https://youtube.com/shorts/LwFVOzSFcC4?si=7opRiO_0LLcEfrM1'
+},
+{
+  id: 't13',
+  date: 'Jour 13 (16 034 pas)',
+  title: 'Match du Cerezo Osaka au Yodoko Sakura Stadium',
+  description:
+    'Une semaine après être passé devant le stade par hasard, me voilà au Yodoko Sakura Stadium pour assister à mon premier match de football japonais. Le Cerezo Osaka affronte le Sanfrecce Hiroshima pour la troisième journée de la J1 League. Le match se conclut sur un scénario complètement fou : égalisation d’Osaka sur un retourné acrobatique après la 90e minute, puis but décisif d’Hiroshima à la 94e. Défaite 2-1, mais une fin de match mémorable et une superbe ambiance.',
+  bullets: [
+    'Cerezo Osaka vs Sanfrecce Hiroshima',
+    "Égalisation magnifique d'Osaka à la 95e (1-1)",
+    'But décisif à la 97e minute pour Hiroshima (2-1)'
+  ],
+  video: 'https://youtube.com/shorts/q82oqKM_rm8?si=lPr7uFBgAvdjs4E8'
 
 }
 
@@ -4788,7 +4801,16 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     category: 'Parc',
     description: 'Grand parc aménagé sur le site de l’Exposition universelle de 1970, très familial et agréable pour se promener.',
     emoji: '🌳'
-  }
+  },
+  {
+  id: 'm220',
+  lat: 34.61534632161243,
+  lng: 135.5164620280286,
+  title: 'Stade Yodoko Sakura',
+  category: 'Sport',
+  description: 'Stade où j’ai assisté, le 22 février, à un match de la J1 League : Cerezo Osaka vs Sanfrecce Hiroshima.',
+  emoji: '⚽'
+}
 
 
 
@@ -5196,6 +5218,49 @@ La tour représente le passé, le présent et le futur :
 
 Enfin le parc est assez grand mais on voit tout de suite que c’est un parc familial, beaucoup d’attractions et d’espaces pour enfants avec cependant de jolis jardins et notamment des cerisiers.`,
   mood: 'Balade dans le parc Expo ’70 Commemorative Park'
+},
+{
+  id: 'j13',
+  day: 13,
+  title: 'Match du Cerezo Osaka au Yodoko Sakura Stadium',
+  excerpt: `Il y a quasiment une semaine (Jour 6), je me baladais dans le parc Nagai pour aller voir le musée d’histoire naturelle ainsi que le jardin botanique du parc.
+
+À l’entrée du parc, j’étais passé devant un grand stadium : le Yodoko Sakura Stadium, avec des affiches annonçant les différents matchs de foot qui allaient se disputer ici durant les prochains mois.
+
+J’y ai vu la date du dimanche 22 février, et je me suis dit :
+« Franchement, ça peut être très cool de voir un match de foot japonais. »
+
+Et c’est ainsi que je me retrouve aujourd’hui, le dimanche 22 février, à aller voir mon premier match de foot japonais !
+
+Il oppose le club d’Osaka, le Cerezo Osaka, contre Hiroshima, le Sanfrecce Hiroshima.
+
+C’est un match de la ligue professionnelle : la J1 League.
+
+Ce n’est que le début de la saison, et c’est la troisième journée du championnat.
+
+Osaka a gagné son premier match et perdu le deuxième, tandis que Hiroshima a gagné les deux premiers et se trouve actuellement premier du classement.
+
+Mais avant ça, je marche dans les rues des beaux quartiers pavillonnaires sous un grand soleil et 20 degrés. Comme si c’était l’été.
+Je marche librement dans les rues calmes en direction du stade.
+Musique dans les oreilles, pas trop forte pour entendre les différents bruits de la vie du quartier (With Every Heartbeat – Robyn).
+
+À quelques pas du stade, je commence à voir des supporters avec le fameux maillot rose.
+Tout est super bien organisé.
+Je commence par me prendre une bière à la buvette avant de rentrer dans ma tribune.
+
+Résultat : 2-1 pour Hiroshima.
+
+Deux buts après la 90e minute.
+
+Égalisation sur un retourné acrobatique d’un joueur d’Osaka (1-1).
+
+Mais deux minutes après, à la 94e, but pour Hiroshima (2-1).
+
+Une fin de match incroyable.
+L’ambiance était super.
+
+Je me suis posé à une buvette à la mi-temps mais pas de rencontre inopinée.`,
+  mood: 'Match du Cerezo Osaka au Yodoko Sakura Stadium'
 },
 
 
