@@ -5242,7 +5242,7 @@ Osaka a gagné son premier match et perdu le deuxième, tandis que Hiroshima a g
 
 Mais avant ça, je marche dans les rues des beaux quartiers pavillonnaires sous un grand soleil et 20 degrés. Comme si c’était l’été.
 Je marche librement dans les rues calmes en direction du stade.
-Musique dans les oreilles, pas trop forte pour entendre les différents bruits de la vie du quartier (With Every Heartbeat – Robyn).
+Musique dans les oreilles (With Every Heartbeat – Robyn), pas trop forte pour entendre les différents bruits de la vie des quartiers.
 
 À quelques pas du stade, je commence à voir des supporters avec le fameux maillot rose.
 Tout est super bien organisé.
