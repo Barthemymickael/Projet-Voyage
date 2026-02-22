@@ -5223,7 +5223,7 @@ Enfin le parc est assez grand mais on voit tout de suite que c’est un parc fam
   id: 'j13',
   day: 13,
   title: 'Match du Cerezo Osaka au Yodoko Sakura Stadium',
-  excerpt: `Il y a quasiment une semaine (Jour 6), je me baladais dans le parc Nagai pour aller voir le musée d’histoire naturelle ainsi que le jardin botanique du parc.
+  excerpt: `Il y a une semaine (Jour 6), je me baladais dans le parc Nagai pour aller voir le musée d’histoire naturelle ainsi que le jardin botanique du parc.
 
 À l’entrée du parc, j’étais passé devant un grand stadium : le Yodoko Sakura Stadium, avec des affiches annonçant les différents matchs de foot qui allaient se disputer ici durant les prochains mois.
 
