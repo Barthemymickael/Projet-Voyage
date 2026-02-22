@@ -4372,7 +4372,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   date: 'Jour 13 (16 034 pas)',
   title: 'Match du Cerezo Osaka au Yodoko Sakura Stadium',
   description:
-    'Une semaine après être passé devant le stade par hasard, me voilà au Yodoko Sakura Stadium pour assister à mon premier match de football japonais. Le Cerezo Osaka affronte le Sanfrecce Hiroshima pour la troisième journée de la J1 League. Le match se conclut sur un scénario complètement fou : égalisation d’Osaka sur un retourné acrobatique après la 90e minute, puis but décisif d’Hiroshima à la 94e. Défaite 2-1, mais une fin de match mémorable et une superbe ambiance.',
+    'Une semaine après être passé devant le stade par hasard, me voilà au Yodoko Sakura Stadium pour assister à mon premier match de football japonais. Le Cerezo Osaka affronte le Sanfrecce Hiroshima pour la troisième journée de la J1 League. Le match se conclut sur un scénario complètement fou : égalisation d’Osaka sur un retourné acrobatique après la 95e minute, puis but décisif d’Hiroshima à la 97e. Défaite 2-1, mais une fin de match mémorable et une superbe ambiance.',
   bullets: [
     'Cerezo Osaka vs Sanfrecce Hiroshima',
     "Égalisation magnifique d'Osaka à la 95e (1-1)",
@@ -5250,11 +5250,11 @@ Je commence par me prendre une bière à la buvette avant de rentrer dans ma tri
 
 Résultat : 2-1 pour Hiroshima.
 
-Deux buts après la 90e minute.
+Deux buts après la 95e minute.
 
 Égalisation sur un retourné acrobatique d’un joueur d’Osaka (1-1).
 
-Mais deux minutes après, à la 94e, but pour Hiroshima (2-1).
+Mais deux minutes après, à la 97e, but pour Hiroshima (2-1).
 
 Une fin de match incroyable.
 L’ambiance était super.
