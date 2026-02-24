@@ -4379,7 +4379,18 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'But décisif à la 97e minute pour Hiroshima (2-1)'
   ],
   video: 'https://youtube.com/shorts/q82oqKM_rm8?si=lPr7uFBgAvdjs4E8'
-
+},
+{
+  id: 't14',
+  date: 'Jour 14 (19 354 pas)',
+  title: 'Nara Park, temples et daims en liberté',
+  description:
+    'Sous un grand ciel bleu, direction la ville de Nara, célèbre pour son immense parc rempli de daims en liberté : Nara Park. Des milliers de daims se promènent librement et sont habitués aux visiteurs, ils inclinent la tête en guise de révérence pour obtenir un biscuit, trés mignon. Je termine la journée en goûtant un mochi fraîchement préparé chez Nakatanidou, célèbre pour sa préparation spectaculaire au pilon.',
+  bullets: [
+    'Nara Park et ses daims en liberté',
+    'Kōfuku-ji, Tōdai-ji et Kasuga-taisha',
+    'Mochi artisanal chez Nakatanidou'
+  ]
 }
 
 
@@ -5260,6 +5271,35 @@ Mais deux minutes après, à la 97ème, but pour Hiroshima (2-1).
 Une fin de match incroyable.
 L’ambiance était super.`,
   mood: 'Match du Cerezo Osaka au Yodoko Sakura Stadium'
+},
+{
+  id: 'j14',
+  day: 14,
+  title: 'Nara Park et ses daims en liberté',
+  excerpt: `Je commence la semaine en partant à la découverte, sous un grand ciel bleu, de la ville de Nara, la ville des daims.
+
+En effet, cette ville est connue dans le monde entier pour son parc : le Nara Park.
+
+On y trouve des milliers de daims en liberté que l’on peut nourrir avec des biscuits spéciaux vendus sur place (1 € les 10 biscuits).
+
+J’ai fait le tour de la partie ouverte du parc (une zone était fermée et n’ouvre qu’à partir du mois de mars), en passant par différents sanctuaires et temples qui font partie du site :
+* le Kofuku-ji ainsi que son musée (malheureusement, le Kofuku-ji était en travaux et couverte d’une bâche),
+* le Todai-ji,
+* le Kasuga-taisha,
+* le pavillon Ukimido qui, de base, est entouré d’eau mais là, le lac était vide.
+
+Tout le long de ma balade, j’ai nourri des daims avec ces fameux biscuits.
+
+Ici, les daims ont appris à faire une sorte de révérence : ils inclinent la tête pour qu’en retour on fasse la même chose et qu’on leur donne un biscuit.
+
+C’était une balade agréable et super mignonne.
+
+J’ai fini la journée en goûtant un mochi fait main chez Nakatanidou (très connu sur les réseaux sociaux).
+
+Un mochi, c’est une pâtisserie japonaise à base de riz gluant pilé qui devient une pâte très lisse et élastique, avec à l’intérieur une pâte sucrée de haricot rouge.
+
+C’était bon mais sans plus.`,
+  mood: 'Nara Park et ses daims en liberté'
 },
 
 
