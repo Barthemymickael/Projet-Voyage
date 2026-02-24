@@ -4392,6 +4392,22 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Mochi artisanal chez Nakatanidou'
   ],
   video: 'https://youtube.com/shorts/4PPdTYU-J-k?si=R_fpYUXunbAuw_dd'
+},
+{
+  id: 't15',
+  date: 'Jour 15 (10 975 pas)',
+  title: 'Découverte de la ville de Sakai et ses kofun impériaux',
+  description:
+    'Direction Sakai, au sud d’Osaka, connue pour abriter d’immenses tumulus funéraires appelés kofun. Datant du IIIe au VIe siècle, ces tombeaux sont en forme de trou de serrure et sont attribués à d’anciens empereurs japonais et sont inscrits au patrimoine mondial de l’UNESCO.',
+  bullets: [
+    'Kofun classés UNESCO',
+    'Daisen-ryō Kofun (empereur Nintoku)',
+    'Hōchigai Shrine',
+    'Pause détente au Daisen Park'
+  ],
+  video: 'https://youtube.com/shorts/H8_Q9B3IUhk?si=4tQJftu7a0fA4mzl'
+
+  
 }
 
 
@@ -4883,6 +4899,42 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     category: 'Food',
     description: 'Boutique célèbre pour ses mochis japonais (gâteaux à base de riz) avec démonstrations de fabrication visibles derrière une vitre.',
     emoji: '🍡'
+  },
+  {
+    id: 'm228',
+    lat: 34.57683638562304,
+    lng: 135.48940025549808,
+    title: 'Hochigai Shrine',
+    category: 'Sanctuaire',
+    description: 'Petit sanctuaire local, très rapide à visiter.',
+    emoji: '⛩️'
+  },
+  {
+    id: 'm229',
+    lat: 34.57577135892372,
+    lng: 135.48842191975572,
+    title: 'Mausoleum of Emperor Hanzei',
+    category: 'Kofun',
+    description: 'Petit kofun attribué à l’empereur Hanzei. Visible uniquement depuis l’extérieur, site fermé au public.',
+    emoji: '🏺'
+  },
+  {
+    id: 'm230',
+    lat: 34.5639496953732,
+    lng: 135.48747241776186,
+    title: 'Daisen-ryo Kofun',
+    category: 'Kofun',
+    description: 'Grand kofun emblématique de la ville. Visible uniquement depuis l’extérieur ou en montgolfière depuis Daisen Park.',
+    emoji: '🏺'
+  },
+  {
+    id: 'm231',
+    lat: 34.55850155696606,
+    lng: 135.48275105933718,
+    title: 'Daisen Park',
+    category: 'Parc',
+    description: 'Grand parc avec lac, café et possibilité de survol en montgolfière pour observer les kofun depuis le ciel.',
+    emoji: '🌳'
   }
 
 
@@ -5362,6 +5414,34 @@ Un mochi, c’est une pâtisserie japonaise à base de riz gluant pilé qui devi
 
 C’était bon mais sans plus.`,
   mood: 'Nara Park et ses daims en liberté'
+},
+{
+  id: 'j15',
+  day: 15,
+  title: 'Découverte de la ville de Sakai et ses kofun',
+  excerpt: `Direction la ville de Sakai, au sud d’Osaka, connue pour ses tombeaux d’anciens empereurs japonais.
+
+Ce matin, en traînant sur Instagram, je suis tombé sur le réel d’un influenceur vivant au Japon qui conseillait de visiter cette petite ville.
+Je décide d’y aller pour la demi-journée.
+
+Sakai n’est pas une ville incroyable en soi, mais elle est surtout connue pour ses kofun : d’immenses tumulus funéraires datant du IIIe au VIe siècle.
+Ces tombeaux ont une forme en trou de serrure.
+Ils sont attribués à d’anciens empereurs japonais et font partie du patrimoine mondial de l’UNESCO.
+
+Moi qui pensais pouvoir m’approcher au plus près des tombeaux, j’ai vite compris que ce ne serait pas possible.
+Ils sont protégés, fermés au public, et on ne peut les observer que depuis l’extérieur (ou du ciel via une montgolfière).
+
+Je commence par entrer dans le petit sanctuaire Hochigai Shrine, puis je fais le tour d’un premier tumulus : le Mausoleum of Emperor Hanzei.
+
+Ensuite, je me dirige vers le plus impressionnant de la ville : le Daisen-ryo Kofun, le tombeau de l’empereur Nintoku.
+C’est l’un des plus grands tombeaux du monde.
+
+Je me pose ensuite pendant près d’1h15 dans le parc juste à côté, le Daisen Park.
+Je contemple le lac avec de la musique dans les oreilles, puis je lis un chapitre de mon livre.
+
+Ambiance relaxante.
+La ville est douce et tranquille.`,
+  mood: 'Découverte de la ville de Sakai et ses kofun'
 },
 
 
