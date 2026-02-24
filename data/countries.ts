@@ -4390,10 +4390,9 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Nara Park et ses daims en liberté',
     'Kōfuku-ji, Tōdai-ji et Kasuga-taisha',
     'Mochi artisanal chez Nakatanidou'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/4PPdTYU-J-k?si=R_fpYUXunbAuw_dd'
 }
-
-
 
 
 
