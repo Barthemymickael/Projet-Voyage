@@ -4820,7 +4820,70 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Sport',
   description: 'Stade où j’ai assisté, le 22 février, à un match de la J1 League : Cerezo Osaka vs Sanfrecce Hiroshima.',
   emoji: '⚽'
-}
+},
+  {
+    id: 'm221',
+    lat: 34.68504983785237,
+    lng: 135.8430122584435,
+    title: 'Nara Park',
+    category: 'Parc',
+    description: "Célèbre parc abritant des milliers de daims en liberté, avec à l'intérieur, des temples, sanctuaires et lanternes traditionnelles.",
+    emoji: '🦌'
+  },
+  {
+    id: 'm222',
+    lat: 34.68323493274157,
+    lng: 135.83115688495047,
+    title: 'Kōfuku-ji',
+    category: 'Temple',
+    description: 'Temple bouddhiste historique. Lors de ma visite, le bâtiment principal était en travaux et recouvert d’une bâche.',
+    emoji: '⛩️'
+  },
+  {
+    id: 'm223',
+    lat: 34.688992792018176,
+    lng: 135.83981579660718,
+    title: 'Tōdai-ji',
+    category: 'Temple',
+    description: 'Temple bouddhiste fondé au VIIIe siècle, abritant l’une des plus grandes statues en bronze de Bouddha du Japon.',
+    emoji: '⛩️'
+  },
+  {
+    id: 'm224',
+    lat: 34.6815492328206,
+    lng: 135.84847055550247,
+    title: 'Kasuga-taisha',
+    category: 'Sanctuaire',
+    description: 'Sanctuaire shinto fondé en 768, célèbre pour ses nombreuses lanternes en pierre et en bronze.',
+    emoji: '⛩️'
+  },
+  {
+    id: 'm225',
+    lat: 34.67879079583667,
+    lng: 135.85022100826373,
+    title: 'Kobotaishi Gomadan',
+    category: 'Temple',
+    description: 'Endroit calme situé un peu après Kasuga-taisha, offrant une atmosphère paisible à l’écart de la foule.',
+    emoji: '🌿'
+  },
+  {
+    id: 'm226',
+    lat: 34.680123044188115,
+    lng: 135.83864258254428,
+    title: 'Ukimido',
+    category: 'Balade',
+    description: 'Pavillon sur l’eau situé dans le parc. Lors de ma visite fin février, le bassin était à sec.',
+    emoji: '🏞️'
+  },
+  {
+    id: 'm227',
+    lat: 34.68193778712299,
+    lng: 135.82889910199916,
+    title: 'Nakatanidou',
+    category: 'Food',
+    description: 'Boutique célèbre pour ses mochis japonais (gâteaux à base de riz) avec démonstrations de fabrication visibles derrière une vitre.',
+    emoji: '🍡'
+  }
 
 
 
