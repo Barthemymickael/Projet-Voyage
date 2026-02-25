@@ -4231,7 +4231,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't3',
-  date: 'Jour 3 (14 031 pas)',
+  date: 'Jour 3 (14 039 pas)',
   title: 'Sanctuaire Sumiyoshi Taisha',
   description:
     'Découverte du sanctuaire shinto Sumiyoshi Taisha, l’un des plus anciens du Japon. Loin de l’agitation touristique, célèbre pour son pont arqué Taikobashi, d’un orange vif (vermillon). La visite se prolonge dans le parc voisin, entre lac, oiseaux et promeneurs du quartier, avant un long retour à pied à travers des rues résidentielles typiquement japonaises.',
@@ -4244,7 +4244,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't4',
-  date: 'Jour 4 (22 852 pas)',
+  date: 'Jour 4 (22 868 pas)',
   title: 'Le Château d’Osaka sous le soleil',
   description:
     'Découverte de l’un des sites les plus emblématiques de la ville avec la visite du Château d’Osaka.La visite retrace son histoire mouvementée depuis sa construction en 1583 par Toyotomi Hideyoshi jusqu’à sa restauration moderne. Fresques de batailles, armures de samouraïs et panorama depuis l’observatoire. La journée se termine par l’immense magasin Don quijote à dotonbori, une vraie caverne d’Ali Baba remplie de souvenirs, snacks et curiosités typiquement japonaises.',
@@ -4257,7 +4257,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't5',
-  date: 'Jour 5 (10 696 pas)',
+  date: 'Jour 5 (10 713 pas)',
   title: 'Musée des beaux-arts d’Osaka et jardin zen Keitakuen Garden',
   description:
     'Journée calme avec la visite du Musée municipal des beaux-arts d’Osaka. Sur le trajet, passage par le quartier de Shinsekai, connu pour son ambiance populaire et la tour Tsutenkaku. Le musée se visite tranquillement, avec une collection d’art asiatique classique, peu fréquentée. L’entrée inclut l’accès au jardin zen Keitakuen Garden. La journée se termine par une balade dans le parc Tenshiba.',
@@ -4271,7 +4271,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't6',
-  date: 'Jour 6 (20 170 pas)',
+  date: 'Jour 6 (20 172 pas)',
   title: 'Osaka Museum of Natural History et Nagai Botanical Garden',
   description:
     'En s’éloignant du centre, le décor change totalement : petites maisons, silence, odeurs de cuisine et scènes du quotidien. Arrivée ensuite dans l’immense Nagai Park, le musée d’histoire naturelle se visite rapidement, intéressant sans être marquant, mais la vraie surprise vient du Nagai Botanical Garden, vaste et apaisant, parfait pour se perdre entre jardins japonais, chinois et floraux.',
@@ -4285,7 +4285,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't7',
-  date: 'Jour 7 (20 921 pas)',
+  date: 'Jour 7 (20 936 pas)',
   title: 'Den Den Town, nostalgie et culture pop japonaise',
   description:
     'Journée plongée dans la culture pop japonaise à Den Den Town, véritable paradis pour les amateurs de figurines, mangas et jeux vidéo. Entre les étages infinis de Mandarake et de Joshin Kids Land, je passe des heures à observer figurines cultes, licences mythiques et surtout des milliers de voitures miniatures qui réveillent une forte nostalgie d’enfance. L’après-midi se poursuit par le marché de Kuromon et friperies vintage à Amerikamura.',
@@ -4369,7 +4369,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't13',
-  date: 'Jour 13 (16 034 pas)',
+  date: 'Jour 13 (16 127 pas)',
   title: 'Match du Cerezo Osaka au Yodoko Sakura Stadium',
   description:
     'Une semaine après être passé devant le stade par hasard, me voilà au Yodoko Sakura Stadium pour assister à mon premier match de football japonais. Le Cerezo Osaka affronte le Sanfrecce Hiroshima pour la troisième journée de la J1 League. Le match se conclut sur un scénario complètement fou : égalisation d’Osaka sur un retourné acrobatique après la 95e minute, puis but décisif d’Hiroshima à la 97e. Défaite 2-1, mais une fin de match mémorable et une superbe ambiance.',
@@ -4395,7 +4395,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't15',
-  date: 'Jour 15 (10 975 pas)',
+  date: 'Jour 15 (11 031 pas)',
   title: 'Découverte de la ville de Sakai et ses kofun impériaux',
   description:
     'Direction Sakai, au sud d’Osaka, connue pour abriter d’immenses tumulus funéraires appelés kofun. Datant du IIIe au VIe siècle, ces tombeaux sont en forme de trou de serrure et sont attribués à d’anciens empereurs japonais et sont inscrits au patrimoine mondial de l’UNESCO.',
