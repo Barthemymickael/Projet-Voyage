@@ -5470,9 +5470,7 @@ La ville est douce et tranquille.`,
 Pas de grosse motivation pour sortir, alors j’en profite pour faire quelques courses et lancer une grosse lessive.
 D’ailleurs, j’ai un peu galéré à faire sécher les vêtements dans la chambre, faute de place.
 
-Le reste de la journée : lecture, vidéos YouTube et préparation de mon activité de demain.
-
-Une journée simple, calme et productive malgré la météo.`,
+Le reste de la journée : lecture, vidéos YouTube et préparation de mon activité de demain.`,
   mood: 'Grosse journée de pluie'
 },
 {
