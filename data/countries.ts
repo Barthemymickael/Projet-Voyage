@@ -4406,8 +4406,26 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Pause détente au Daisen Park'
   ],
   video: 'https://youtube.com/shorts/H8_Q9B3IUhk?si=4tQJftu7a0fA4mzl'
-
-  
+},
+{
+  id: 't16',
+  date: 'Jour 16 (1 802 pas)',
+  title: 'Grosse journée du pluie',
+  description:
+    "Grosse journée du pluie. J'en profite donc pour faire quelques courses, lancer une grosse lessive. Le reste de la journée : lecture, vidéos YouTube et préparation de l’activité prévue pour le lendemain.",
+},
+{
+  id: 't17',
+  date: 'Jour 17 (29 957 pas)',
+  title: 'Découverte de la ville de Kobe',
+  description:
+    'Journée complète à Kobe, célèbre pour son bœuf réputé dans le monde entier. Après un passage au Ikuta Shrine puis dans le Chinatown de Nankinmachi, je goûte enfin au fameux bœuf de Kobe chez Kobe Beef Daichi : une viande hyper fondante. L’après-midi, je pars en randonnée vers le Nunobiki Herb Garden, dans les hauteurs de la ville. Entre cascades, sentiers calmes et hamacs avec vue panoramique, l’endroit est paisible et poétique. Je termine la journée au Meriken Park face à la Kobe Port Tower, sous les dernières lumières du soir.',
+  bullets: [
+    'Bœuf de Kobe',
+    'Randonnée vers Nunobiki Herb Garden',
+    'Repos dans un hamac',
+    'Les dernières lueurs au port'
+  ]
 }
 
 
@@ -5442,6 +5460,72 @@ Je contemple le lac avec de la musique dans les oreilles, puis je lis un chapitr
 Ambiance relaxante.
 La ville est douce et tranquille.`,
   mood: 'Découverte de la ville de Sakai et ses kofun'
+},
+{
+  id: '16',
+  day: 16,
+  title: 'Grosse journée de pluie',
+  excerpt: `Grosse journée de pluie du matin au soir.
+
+Pas de grosse motivation pour sortir, alors j’en profite pour faire quelques courses et lancer une grosse lessive.
+D’ailleurs, j’ai un peu galéré à faire sécher les vêtements dans la chambre, faute de place.
+
+Le reste de la journée : lecture, vidéos YouTube et préparation de mon activité de demain.
+
+Une journée simple, calme et productive malgré la météo.`,
+  mood: 'Grosse journée de pluie'
+},
+{
+  id: 'j17',
+  day: 17,
+  title: 'Découverte de la ville de Kobe',
+  excerpt: `Découverte de la ville de Kobe, connue pour son bœuf de Kobe, considéré comme l’une des viandes les plus exquises au monde.
+
+Je décide d’y passer toute la journée afin de profiter au maximum de la ville.
+
+Après 1h de train, j’arrive à Kobe et je commence par visiter le Ikuta Shrine, un sanctuaire en plein milieu des buildings.
+J’en fais rapidement le tour.
+
+Puis je me dirige vers le quartier emblématique de la ville : Nankinmachi, le Chinatown de Kobe.
+Beaucoup de street food chinoise, des stands partout, mais rien ne m’attire particulièrement.
+
+Quelques rues plus loin, je tombe sur le restaurant Kobe Beef Daichi qui propose de la viande de Kobe à manger à l’extérieur.
+
+Pas envie de dépenser 70 € pour un repas complet, je me laisse tenter par deux petites brochettes de bœuf de Kobe avec un bol de riz.
+
+Et bien c’était très très bon.
+La viande fond littéralement en bouche.
+
+Mais je ne dirais pas personnellement que c’est la meilleure viande que j’ai pu goûter.
+
+L’expérience est faite : manger du bœuf de Kobe à Kobe. Parfait !
+
+Une fois ce petit repas fini et le plein d’énergie fait, je me dirige vers une randonnée improvisée vers le Nunobiki Herb Garden.
+
+Ce jardin est situé dans les montagnes au-dessus de la ville, accessible en téléphérique ou via une randonnée d’environ 1h.
+
+Je n’ai pas réfléchi longtemps : je voulais partir à l’aventure dans la montagne, voir les cascades et le réservoir de Nunobiki.
+
+La randonnée est assez simple mais agréable.
+Quasiment personne sur les chemins : un vrai bonheur.
+
+Une fois arrivé au jardin, je ne m’attendais pas à un complexe aussi beau.
+
+Plusieurs jardins répartis sur les collines, des hamacs posés un peu partout avec vue sur la ville, et tout en haut une grande serre avec café ainsi qu’une maison de parfum, le tout avec de la musique symphonique diffusée dans les haut-parleurs.
+
+L’endroit est extrêmement reposant.
+
+Je reste une bonne demi-heure allongé dans un hamac à écouter de la musique jusqu’à la fermeture du parc à 17h10.
+
+Je finis la journée avec les dernières lueurs du jour au Meriken Park, au bord du port de Kobe, avec la magnifique Kobe Port Tower.
+
+L’esplanade est assez grande, avec vue sur le port, un grand hôtel et évidemment la tour de Kobe.
+
+Ce fut une très agréable journée.
+
+Le jardin Nunobiki Herb Garden a clairement été mon coup de cœur du jour.
+Très poétique, lent et surtout très beau.`,
+  mood: 'Découverte de la ville de Kobe'
 },
 
 
