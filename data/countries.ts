@@ -4953,7 +4953,72 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     category: 'Parc',
     description: 'Grand parc avec lac, café et possibilité de survol en montgolfière pour observer les kofun depuis le ciel.',
     emoji: '🌳'
+  },
+  [
+  {
+    id: 'm232',
+    lat: 34.691347,
+    lng: 135.190939,
+    title: 'Ikuta Shrine',
+    category: 'Sanctuaire',
+    description: 'Sanctuaire shinto situé en plein centre de Kobe, entouré d’un petit bois paisible.',
+    emoji: '⛩️'
+  },
+  {
+    id: 'm233',
+    lat: 34.690447,
+    lng: 135.195826,
+    title: 'Kobe Chinatown (Nankinmachi)',
+    category: 'Quartier',
+    description: 'Quartier chinois animé de Kobe, idéal pour découvrir la street food et l’ambiance colorée.',
+    emoji: '🥟'
+  },
+  {
+    id: 'm234',
+    lat: 34.689512,
+    lng: 135.195143,
+    title: 'Kobe Beef Daichi',
+    category: 'Food',
+    description: 'Restaurant où j’ai mangé du véritable bœuf de Kobe à Kobe',
+    emoji: '🥩'
+  },
+  {
+    id: 'm235',
+    lat: 34.708923,
+    lng: 135.195511,
+    title: 'Nunobiki Waterfall Hike',
+    category: 'Randonnée',
+    description: 'Randonnée vers les cascades de Nunobiki avec passage par le réservoir, belle vue nature proche de la ville.',
+    emoji: '🥾'
+  },
+  {
+    id: 'm236',
+    lat: 34.715682,
+    lng: 135.198534,
+    title: 'Nunobiki Herb Garden',
+    category: 'Jardin',
+    description: 'Jardin botanique accessible en téléphérique ou à pied, avec vue panoramique sur Kobe.',
+    emoji: '🌿'
+  },
+  {
+    id: 'm237',
+    lat: 34.682609,
+    lng: 135.188966,
+    title: 'Meriken Park',
+    category: 'Parc',
+    description: 'Parc en bord de mer avec monuments modernes et vue sur le port de Kobe.',
+    emoji: '🌊'
+  },
+  {
+    id: 'm238',
+    lat: 34.682484,
+    lng: 135.187985,
+    title: 'Kobe Port Tower',
+    category: 'Monument',
+    description: 'Tour emblématique rouge de Kobe.',
+    emoji: '🗼'
   }
+]
 
 
 
