@@ -4956,17 +4956,17 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   },
   {
     id: 'm232',
-    lat: 34.691347,
-    lng: 135.190939,
+    lat: 34.694726348110045,
+    lng: 135.19072228495074,
     title: 'Ikuta Shrine',
     category: 'Sanctuaire',
-    description: 'Sanctuaire shinto situé en plein centre de Kobe, entouré d’un petit bois paisible.',
+    description: 'Sanctuaire shinto situé en plein centre de Kobe.',
     emoji: '⛩️'
   },
   {
     id: 'm233',
-    lat: 34.690447,
-    lng: 135.195826,
+    lat: 34.688221270908194,
+    lng: 135.1881103769608,
     title: 'Kobe Chinatown (Nankinmachi)',
     category: 'Quartier',
     description: 'Quartier chinois animé de Kobe, idéal pour découvrir la street food et l’ambiance colorée.',
