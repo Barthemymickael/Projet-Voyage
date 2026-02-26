@@ -4954,7 +4954,6 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     description: 'Grand parc avec lac, café et possibilité de survol en montgolfière pour observer les kofun depuis le ciel.',
     emoji: '🌳'
   },
-  [
   {
     id: 'm232',
     lat: 34.691347,
@@ -5018,7 +5017,6 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     description: 'Tour emblématique rouge de Kobe.',
     emoji: '🗼'
   }
-]
 
 
 
