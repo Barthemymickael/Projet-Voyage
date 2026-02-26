@@ -4974,8 +4974,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   },
   {
     id: 'm234',
-    lat: 34.689512,
-    lng: 135.195143,
+    lat: 34.68837157089489,
+    lng: 135.18925427697405,
     title: 'Kobe Beef Daichi',
     category: 'Food',
     description: 'Restaurant où j’ai mangé du véritable bœuf de Kobe à Kobe',
@@ -4992,8 +4992,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   },
   {
     id: 'm236',
-    lat: 34.715682,
-    lng: 135.198534,
+    lat: 34.71700803236871,
+    lng: 135.19118820130018,
     title: 'Nunobiki Herb Garden',
     category: 'Jardin',
     description: 'Jardin botanique accessible en téléphérique ou à pied, avec vue panoramique sur Kobe.',
@@ -5001,8 +5001,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   },
   {
     id: 'm237',
-    lat: 34.682609,
-    lng: 135.188966,
+    lat: 34.68229918701068,
+    lng: 135.18864613771152,
     title: 'Meriken Park',
     category: 'Parc',
     description: 'Parc en bord de mer avec monuments modernes et vue sur le port de Kobe.',
@@ -5010,11 +5010,11 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   },
   {
     id: 'm238',
-    lat: 34.682484,
-    lng: 135.187985,
+    lat: 34.68263879542543,
+    lng: 135.18672497759275,
     title: 'Kobe Port Tower',
     category: 'Monument',
-    description: 'Tour emblématique rouge de Kobe.',
+    description: 'Tour emblématique rouge de Kobe de 108m.',
     emoji: '🗼'
   }
 
