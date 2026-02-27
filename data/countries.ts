@@ -4438,7 +4438,9 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Quartier Nakazakichō',
     'Yodogawa Park',
     'Retour à pied sous la pluie'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/7IiyJyYYVH8?si=wdLXefBCtSYC7wL4'
+
 }
 
 
