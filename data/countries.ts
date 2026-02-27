@@ -4427,7 +4427,18 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Les dernières lueurs au port'
   ],
   video: 'https://youtu.be/PZtcrqCfLb0?feature=shared'
-
+},
+{
+  id: 't18',
+  date: 'Jour 18 (21 164 pas)',
+  title: 'Quartier Nakazakicho et balade au Yodogawa Park',
+  description:
+    'Je découvre d’abord Nakazakicho, quartier calme aux ruelles étroites, maisons anciennes et petites boutiques indépendantes. Coffee shops, friperies et objets faits main. Je poursuis ensuite vers le Yodogawa Park, au nord de la ville. L’ambiance y est plus brute que prévue : ponts ferroviaires, avions réguliers et décor presque industriel. Quelques couples pique-niquent malgré tout, et je reste un moment à écouter les oiseaux entre deux passages de train. Je rentre finalement à pied sous une fine pluie, histoire de me perdre dans les rues d’Osaka.',
+  bullets: [
+    'Quartier Nakazakichō',
+    'Yodogawa Park',
+    'Retour à pied sous la pluie'
+  ]
 }
 
 
@@ -5017,6 +5028,24 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     category: 'Monument',
     description: 'Tour emblématique rouge de Kobe de 108m.',
     emoji: '🗼'
+  },
+  {
+    id: 'm239',
+    lat: 34.70816132613689,
+    lng: 135.50451195018505,
+    title: 'Quartier Nakazakicho',
+    category: 'Quartier',
+    description: 'Petit quartier mignon rempli de coffee shops, boutiques de produit artisanaux et friperies vintage. Ambiance calme et créative.',
+    emoji: '☕'
+  },
+  {
+    id: 'm240',
+    lat: 34.71984874406864,
+    lng: 135.51298044202264,
+    title: 'Yodogawa Park',
+    category: 'Parc',
+    description: 'Parc situé le long de la rivière au nord de la ville. Pas ouf ni pas très joli.',
+    emoji: '🌳'
   }
 
 
@@ -5588,6 +5617,30 @@ Ce fut une très agréable journée.
 Le jardin Nunobiki Herb Garden a clairement été mon coup de cœur du jour.
 Très poétique, lent et surtout très beau.`,
   mood: 'Découverte de la ville de Kobe'
+},
+{
+  id: 'j18',
+  day: 18,
+  title: 'Quartier Nakazakicho et balade au Yodogawa Park',
+  excerpt: `Aujourd’hui, je me rends dans l’un des derniers quartiers importants que je n’avais pas encore vu : Nakazakichō.
+
+Quartier calme, maisons anciennes, petites ruelles, rempli de coffee shops, de boutiques d’objets faits main et de friperies vintage.
+
+Après m’être baladé entre les boutiques, je pars en direction du parc Yodogawa.
+
+Moi qui pensais tomber sur un parc aménagé au bord de la rivière…
+Je me retrouve finalement dans une sorte de zone industrielle, avec les trains qui passent sur les ponts au-dessus de l’eau et les avions qui survolent ma tête toutes les dix minutes.
+
+Le parc se situe au nord d’Osaka et marque un peu la fin de la ville.
+
+Certes, il y a une piste cyclable, quelques bancs et quelques couples qui pique-niquent sous les arbres.
+Mais l’endroit n’est pas spécialement beau, alors qu’il pourrait être super bien aménagé et chaleureux.
+
+Je reste quand même une vingtaine de minutes, à écouter les oiseaux quand les autres bruits se taisent.
+
+Puis je décide de rentrer à pied, pour me perdre dans les rues d'Osaka.
+Pluie fine sur presque un tiers de ma marche.`,
+  mood: 'Quartier Nakazakicho et balade au Yodogawa Park'
 },
 
 
