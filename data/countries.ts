@@ -4450,7 +4450,9 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   bullets: [
     'Balade dans Ikuno-ku',
     'Osaka Ikuno Korea Town'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/JJYcCeqcLZM?si=hUtPimvd4LY2c742'
+
 }
 
 
