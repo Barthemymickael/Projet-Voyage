@@ -4440,7 +4440,17 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Retour à pied sous la pluie'
   ],
   video: 'https://youtube.com/shorts/7IiyJyYYVH8?si=wdLXefBCtSYC7wL4'
-
+},
+{
+  id: 't19',
+  date: 'Jour 19 (18 230 pas)',
+  title: 'Ikuno Korea Town',
+  description:
+    'Direction l’est d’Osaka, et plus précisément Ikuno. Ici, pas de grand monument ni d’attraction majeure, mais des quartiers résidentiels et une ambiance plus quotidienne. Je découvre le Ikuno Korea Town, petit marché coréen animé qui me rappelle mon voyage en Corée du Sud.',
+  bullets: [
+    'Balade dans Ikuno-ku',
+    'Osaka Ikuno Korea Town'
+  ]
 }
 
 
@@ -5048,7 +5058,16 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     category: 'Parc',
     description: 'Parc situé le long de la rivière au nord de la ville. Pas ouf ni pas très joli.',
     emoji: '🌳'
-  }
+  },
+  {
+  id: 'm241',
+  lat: 34.66062159467301,
+  lng: 135.53788111439715,
+  title: 'Osaka Ikuno Korea Town',
+  category: 'Quartier',
+  description: 'Quartier coréen d’Osaka avec boutiques, street food, cafés et restaurants coréens.',
+  emoji: '🇰🇷'
+}
 
 
 
@@ -5643,6 +5662,23 @@ Je reste quand même une vingtaine de minutes, à écouter les oiseaux quand les
 Puis je décide de rentrer à pied, pour me perdre dans les rues d'Osaka.
 Pluie fine sur presque un tiers de ma marche.`,
   mood: 'Quartier Nakazakicho et balade au Yodogawa Park'
+},
+{
+  id: 'j19',
+  day: 19,
+  title: 'Ikuno Korea Town',
+  excerpt: `Aujourd’hui, direction l’est de la ville.
+Aucun grand monument par ici, pas d’attraction touristique majeure, juste des quartiers normaux.
+
+Je me balade dans le quartier d’Ikuno-ku, où je découvre le Osaka Ikuno Korea Town.
+Un petit marché coréen qui me rappelle quelques souvenirs de mon voyage en Corée du Sud.
+
+En me promenant dans les rues, on sent que c’est ici la réalité de la vie japonaise.
+
+Juste la vie normale :
+un marché de quartier, quelques petits parcs, des gens qui se promènent, qui font leurs courses, qui discutent.
+Loin de la pression du travail et des hautes tours des quartiers d’affaires.`,
+  mood: 'Ikuno Korea Town'
 },
 
 
