@@ -4430,7 +4430,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't18',
-  date: 'Jour 18 (21 164 pas)',
+  date: 'Jour 18 (21 183 pas)',
   title: 'Quartier Nakazakicho et balade au Yodogawa Park',
   description:
     'Je découvre d’abord Nakazakicho, quartier calme aux ruelles étroites, maisons anciennes et petites boutiques indépendantes. Coffee shops, friperies et objets faits main. Je poursuis ensuite vers le Yodogawa Park, au nord de la ville. L’ambiance y est plus brute que prévue : ponts ferroviaires, avions réguliers et décor presque industriel. Quelques couples pique-niquent malgré tout, et je reste un moment à écouter les oiseaux entre deux passages de train. Je rentre finalement à pied sous une fine pluie, histoire de me perdre dans les rues d’Osaka.',
@@ -4443,7 +4443,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't19',
-  date: 'Jour 19 (18 230 pas)',
+  date: 'Jour 19 (18 252 pas)',
   title: 'Ikuno Korea Town',
   description:
     'Direction l’est d’Osaka, et plus précisément Ikuno. Ici, pas de grand monument ni d’attraction majeure, mais des quartiers résidentiels et une ambiance plus quotidienne. Je découvre le Ikuno Korea Town, petit marché coréen animé qui me rappelle mon voyage en Corée du Sud.',
@@ -4452,7 +4452,19 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Osaka Ikuno Korea Town'
   ],
   video: 'https://youtube.com/shorts/JJYcCeqcLZM?si=hUtPimvd4LY2c742'
-
+},
+{
+  id: 't20',
+  date: 'Jour 20 (26 081 pas)',
+  title: 'Randonnée à Minoo et temple des Daruma',
+  description:
+    'Dimanche randonnée à Minoo, au nord d’Osaka. Après une marche facile à travers la forêt, j’arrive à la célèbre cascade de Minoo (33 mètres de haut), où un arc-en-ciel se forme au pied de l’eau. Je poursuis ensuite jusqu’au temple Katsuo-ji, surnommé le temple de la victoire, connu pour ses milliers de Daruma dispersés dans les jardins et sur les marches. Perché dans la montagne, l’endroit est magnifique. Rencontre surprise en marchant : une famille de singes sur le chemin.',
+  bullets: [
+    'Cascade de Minoo',
+    'Temple Katsuo-ji et ses milliers de Daruma',
+    'Randonnée en forêt',
+    'Retour sous les dernières lueurs du jour entre lanternes et singes'
+  ]
 }
 
 
@@ -5069,7 +5081,34 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Quartier',
   description: 'Quartier coréen d’Osaka avec boutiques, street food, cafés et restaurants coréens.',
   emoji: '🇰🇷'
-}
+},
+  {
+    id: 'm242',
+    lat: 34.83516404692176,
+    lng: 135.46845807169439,
+    title: 'Station de métro de Mino-o',
+    category: 'Transport',
+    description: 'Terminus de la ligne au pied de la montagne. Petite ville mignonne servant de point de départ pour les randonnées.',
+    emoji: '🚉'
+  },
+  {
+    id: 'm243',
+    lat: 34.85383330829652,
+    lng: 135.47198987041835,
+    title: 'Cascade de Minoo',
+    category: 'Nature',
+    description: 'Cascade de 33 mètres accessible par un sentier de randonnée facile, adapté à tous les niveaux.',
+    emoji: '💧'
+  },
+  {
+    id: 'm244',
+    lat: 34.86577976500515,
+    lng: 135.49108719858864,
+    title: 'Temple Katsuo-ji',
+    category: 'Temple',
+    description: 'Magnifique temple perché dans les montagnes avec jardins soignés, lac rempli de carpes koi et des milliers de daruma disséminés dans le parc.',
+    emoji: '⛩️'
+  }
 
 
 
@@ -5681,6 +5720,46 @@ Juste la vie normale :
 un marché de quartier, quelques petits parcs, des gens qui se promènent, qui font leurs courses, qui discutent.
 Loin de la pression du travail et des hautes tours des quartiers d’affaires.`,
   mood: 'Ikuno Korea Town'
+},
+{
+  id: 'j20',
+  day: 20,
+  title: 'Randonnée à Minoo et temple des Daruma',
+  excerpt: `Dimanche randonnée à Minoo, au nord d’Osaka.
+
+Le coin est connu pour la grande cascade de Minoo, haute d’environ 33 mètres.
+Environ 45 minutes de marche depuis le dernier arrêt de train, qui s’arrête juste au pied des montagnes, pour rejoindre la cascade.
+
+Au départ, il y a des petits cafés et des boutiques, puis on s’enfonce petit à petit dans la montagne, dans la forêt, jusqu’à arriver face à la belle cascade.
+Randonnée hyper simple et accessible à tous.
+
+Je fais quelques photos, je m’assois sur un banc et je contemple l’arc-en-ciel qui s’est formé en bas de la cascade : très joli.
+
+Ensuite, 50 minutes de marche le long de la route en direction du temple Katsuo-ji.
+
+Le temple Katsuo-ji, qu’on appelle le « temple de la victoire », est rempli de petits Daruma posés un peu partout : sur les marches, dans les jardins, au bord des chemins…
+
+Un Daruma, c’est une figurine japonaise, une petite poupée ronde, souvent rouge, qui symbolise la persévérance.
+Elle est vendue sans yeux : quand tu te fixes un objectif, tu dessines un premier œil. Et quand tu l’atteins, tu dessines le deuxième.
+Sa forme est faite exprès : même si elle tombe, elle se redresse toujours.
+
+Coup de cœur pour ce temple. Il y a vraiment des milliers et des milliers de Daruma partout.
+
+Il y a des jets d’eau, un petit lac avec des carpes koi, et un parcours à suivre pour se balader dans un sens bien précis à travers le temple.
+
+C’était super agréable, magnifique, perché dans les hauteurs des montagnes.
+
+J’ai pu faire de magnifiques photos et vidéos.
+
+J’ai fini la journée en refaisant le chemin inverse à pied jusqu’à la station.
+Il y avait la possibilité de prendre un bus, mais je voulais terminer la journée tranquillement et voir la forêt ainsi que les chemins de la cascade de nuit.
+
+Sensation superbe, agréable, presque magique de voir les lanternes et les maisons traditionnelles éclairées.
+
+J’ai même croisé une famille de singes sur le chemin, c’était assez marrant.
+
+Magnifique journée, superbe randonnée.`,
+  mood: 'Randonnée à Minoo et temple des Daruma'
 },
 
 
