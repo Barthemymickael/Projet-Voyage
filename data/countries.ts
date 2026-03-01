@@ -4464,7 +4464,9 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Temple Katsuo-ji et ses milliers de Daruma',
     'Randonnée en forêt',
     'Retour sous les dernières lueurs du jour entre lanternes et singes'
-  ]
+  ],
+  video: 'https://youtu.be/SW4cmA29Q_Y?si=OOQvrd5jkd3w5Ls5'
+
 }
 
 
