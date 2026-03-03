@@ -4455,7 +4455,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't20',
-  date: 'Jour 20 (26 081 pas)',
+  date: 'Jour 20 (26 160 pas)',
   title: 'Randonnée à Minoo et temple des Daruma',
   description:
     'Dimanche randonnée à Minoo, au nord d’Osaka. Après une marche facile à travers la forêt, j’arrive à la célèbre cascade de Minoo (33 mètres de haut), où un arc-en-ciel se forme au pied de l’eau. Je poursuis ensuite jusqu’au temple Katsuo-ji, surnommé le temple de la victoire, connu pour ses milliers de Daruma dispersés dans les jardins et sur les marches. Perché dans la montagne, l’endroit est magnifique. Rencontre surprise en marchant : une famille de singes sur le chemin.',
@@ -4466,6 +4466,14 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Retour sous les dernières lueurs du jour entre lanternes et singes'
   ],
   video: 'https://youtu.be/SW4cmA29Q_Y?si=OOQvrd5jkd3w5Ls5'
+},
+{
+  id: 't21',
+  date: 'Jour 21 (14 555 pas)',
+  title: 'Dernière balade à Dōtonbori',
+  description:
+    'Dernière vraie balade à Dōtonbori avant mon départ d’Osaka dans quelques jours. Cette fois, je prends simplement le temps d’observer et de m’imprégner une dernière fois de ce quartier iconique.',
+    video: 'https://youtube.com/shorts/dkOmhTOh3kA?si=GenAmT6uR6e8Kinz'
 
 }
 
@@ -5762,6 +5770,19 @@ J’ai même croisé une famille de singes sur le chemin, c’était assez marra
 
 Magnifique journée, superbe randonnée.`,
   mood: 'Randonnée à Minoo et temple des Daruma'
+},
+{
+  id: 'j21',
+  day: 21,
+  title: 'Dernière balade à Dōtonbori',
+  excerpt: `Balade à Dōtonbori.
+
+Je ne pense pas revenir ici avant mon départ d’Osaka, alors j’en profite pour vraiment me balader dans le quartier, découvrir les petites comme les grosses boutiques cultes.
+
+C’est un peu la place iconique de la ville, avec ses néons, ses écrans géants ect.
+
+Autant y passer du temps une dernière fois, prendre le temps de regarder, d’observer, et de m’imprégner une dernière fois de cette ambiance.`,
+  mood: 'Dernière balade à Dōtonbori'
 },
 
 
