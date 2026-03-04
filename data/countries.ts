@@ -5867,7 +5867,7 @@ En plus de ses toiles très graphiques, l’artiste a réalisé plusieurs mini-d
 J’ai pu en apprendre davantage sur son travail, notamment sur sa collaboration avec l’architecte Frank Gehry, à l’origine de l’architecture de la Fondation Louis Vuitton à Paris.
 
 Je finis la journée par une balade au Nakanoshima Rose Garden, un parc posé au milieu des buildings sur l’île de Nakanoshima, entourée par la rivière Tosabori.
-Un peu comme une version osakienne de l’île de la Cité à Paris.`,
+Un peu comme l’île de la Cité à Paris.`,
   mood: 'Osaka Municipal Housing Museum et Nakanoshima Museum of Art (NAKKA)'
 },
 
