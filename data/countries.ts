@@ -5136,6 +5136,33 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     category: 'Temple',
     description: 'Magnifique temple perché dans les montagnes avec jardins soignés, lac rempli de carpes koi et des milliers de daruma disséminés dans le parc.',
     emoji: '⛩️'
+  },
+  {
+    id: 'm245',
+    lat: 34.71035081137345,
+    lng: 135.51132684307998,
+    title: 'Osaka Municipal Housing Museum',
+    category: 'Musée',
+    description: 'Musée sur 3 étages avec reconstitutions grandeur nature d’un ancien village traditionnel et maquettes représentant l’évolution d’un quartier entre les années 1920 et 1960.',
+    emoji: '🖼️'
+  },
+  {
+    id: 'm246',
+    lat: 34.692453791694064,
+    lng: 135.49139105550296,
+    title: 'Nakanoshima Museum of Art (NAKKA)',
+    category: 'Musée',
+    description: 'Musée d’art contemporain proposant uniquement des expositions temporaires. Lors de ma visite, il y avait une exposition sur Sarah Morris.',
+    emoji: '🖼️'
+  },
+  {
+    id: 'm247',
+    lat: 34.69239314418113,
+    lng: 135.50788643620106,
+    title: 'Nakanoshima Rose Garden',
+    category: 'Parc',
+    description: 'Parc situé sur l’île de Nakanoshima, avec espaces verts, roseraie, bars et musées à proximité, entouré de nombreux buildings.',
+    emoji: '🌳'
   }
 
 
