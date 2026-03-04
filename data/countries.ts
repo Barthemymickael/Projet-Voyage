@@ -4492,7 +4492,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Village Edo reconstitué au Osaka Municipal Housing Museum',
     'Exposition Sarah Morris au Nakanoshima Museum of Art (NAKKA)',
     'Balade au Nakanoshima Rose Garden'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/H4LBBMd3-BY?si=duc83sEbTFjqft8g'
 }
 
 
