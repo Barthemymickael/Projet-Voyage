@@ -4474,7 +4474,25 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   description:
     'Dernière vraie balade à Dōtonbori avant mon départ d’Osaka dans quelques jours. Cette fois, je prends simplement le temps d’observer et de m’imprégner une dernière fois de ce quartier iconique.',
     video: 'https://youtube.com/shorts/dkOmhTOh3kA?si=GenAmT6uR6e8Kinz'
-
+},
+{
+  id: 't22',
+  date: 'Jour 22 (1 749 pas)',
+  title: 'Pluie, tri et nouveau projet',
+  description:
+    'Après-midi pluvieuse et changement de programme : le musée prévu est fermé le mardi, je reporte donc la visite au lendemain. J’en profite pour avancer sur la conception visuelle de mon nouveau projet, qui devrait voir le jour dans quelques mois.',
+},
+{
+  id: 't23',
+  date: 'Jour 23 (22 725 pas)',
+  title: 'Osaka Municipal Housing Museum et Nakanoshima Museum of Art (NAKKA)',
+  description:
+    'Je commence par le Osaka Municipal Housing Museum, qui reconstitue un village japonais de l’époque Edo en taille réelle. On se balade dans les ruelles, on entre dans les maisons, avec même une simulation du passage du jour à la nuit. La seconde partie présente des maquettes montrant l’évolution d’Osaka entre 1920 et 1960. L’après-midi, direction le Nakanoshima Museum of Art pour une exposition consacrée à Sarah Morris, entre toiles graphiques et films urbains. Je termine par une balade au Nakanoshima Rose Garden.',
+  bullets: [
+    'Village Edo reconstitué au Osaka Municipal Housing Museum',
+    'Exposition Sarah Morris au Nakanoshima Museum of Art (NAKKA)',
+    'Balade au Nakanoshima Rose Garden'
+  ]
 }
 
 
@@ -5784,7 +5802,47 @@ C’est un peu la place iconique de la ville, avec ses néons, ses écrans géan
 Autant y passer du temps une dernière fois, prendre le temps de regarder, d’observer, et de m’imprégner une dernière fois de cette ambiance.`,
   mood: 'Dernière balade à Dōtonbori'
 },
+{
+  id: 'j22',
+  day: 22,
+  title: 'Pluie, organisation et projet',
+  excerpt: `Pas grand-chose aujourd’hui, de la pluie toute l’après-midi.
 
+Le musée que je voulais faire est fermé le mardi, donc je reporte ça à demain.
+Je ferai demain un combo : musée classique + un musée d’art moderne.
+
+Gros tri de photos et de vidéos.
+Je commence à être limité niveau stockage, une journée, c’est quasiment 1 Go de contenu entre photos et vidéos.
+
+J’en ai aussi profité pour avancer sur l’élaboration et la conception visuelle de mon nouveau projet, qui verra le jour d’ici quelques mois.`,
+  mood: 'Pluie, organisation et projet'
+},
+{
+  id: 'j23',
+  day: 23,
+  title: 'Osaka Municipal Housing Museum et Nakanoshima Museum of Art (NAKKA)',
+  excerpt: `Aujourd’hui, le Osaka Municipal Housing Museum est bien ouvert.
+
+Je pars donc le visiter pour 3,25 €.
+Le musée a reproduit en taille réelle, à l’intérieur d’un grand bâtiment, un village japonais de l’époque Edo (1603 – 1868).
+
+On peut se balader dans les ruelles, entrer dans certaines maisons, et vraiment avoir l’impression de revenir plusieurs siècles en arrière.
+C’est carrément immersif, avec en plus une simulation du passage du jour à la nuit.
+
+La deuxième partie du musée est consacrée à des maquettes à l’échelle 1/50 qui reconstituent certains lieux d’une ville japonaise entre les années 1920 et 1960.
+On voit la ville se métamorphoser au fil des décennies, entre modernisation, arrivée des tramways, évolution des bâtiments… c’est hyper intéressant.
+
+Ensuite, je me rends au Nakanoshima Museum of Art (NAKKA), où je découvre une exposition temporaire sur Sarah Morris.
+
+J’ai bien aimé l’exposition.
+En plus de ses toiles très graphiques, l’artiste a réalisé plusieurs mini-documentaires sur des villes comme New York, Rio ou Paris.
+
+J’ai pu en apprendre davantage sur son travail, notamment sur sa collaboration avec l’architecte Frank Gehry, à l’origine de l’architecture de la Fondation Louis Vuitton à Paris.
+
+Je finis la journée par une balade au Nakanoshima Rose Garden, un parc posé au milieu des buildings sur l’île de Nakanoshima, entourée par la rivière Tosabori.
+Un peu comme une version osakienne de l’île de la Cité à Paris.`,
+  mood: 'Osaka Municipal Housing Museum et Nakanoshima Museum of Art (NAKKA)'
+},
 
 
 
