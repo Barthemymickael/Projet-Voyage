@@ -4500,7 +4500,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   date: 'Jour 24 (13 907 pas)',
   title: 'Le château du héron blanc à Himeji',
   description:
-    'Excursion à Himeji pour découvrir le célèbre château du Héron Blanc, considéré comme le plus beau château du Japon. Classé à l’UNESCO.On peut monter à l’intérieur étage par étage, sans chaussures, pour découvrir la structure du bâtiment et ses systèmes de défense. Après la visite, je découvre le Koko-en Garden, un ensemble de jardins japonais paisibles situés juste à côté du château.',
+    'Excursion à Himeji pour découvrir le célèbre château du Héron Blanc, considéré comme le plus beau château du Japon. Classé à l’UNESCO. On peut monter à l’intérieur étage par étage, sans chaussures, pour découvrir la structure du bâtiment et ses systèmes de défense. Après la visite, je découvre le Koko-en Garden, un ensemble de jardins japonais paisibles situés juste à côté du château.',
   bullets: [
     'Le Château de Himeji, classé UNESCO, surnommé le “château du héron blanc',
     'Balade au Koko-en Garden'
