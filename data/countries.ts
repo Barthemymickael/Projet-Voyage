@@ -4504,7 +4504,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   bullets: [
     'Le Château de Himeji, classé UNESCO, surnommé le “château du héron blanc',
     'Balade au Koko-en Garden'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/TjXdLInvPIw?si=Llo2s3FidUaS_72P'
 }
 
 
