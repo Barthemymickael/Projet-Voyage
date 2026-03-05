@@ -4484,7 +4484,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't23',
-  date: 'Jour 23 (22 725 pas)',
+  date: 'Jour 23 (22 752 pas)',
   title: 'Osaka Municipal Housing Museum et Nakanoshima Museum of Art (NAKKA)',
   description:
     'Je commence par le Osaka Municipal Housing Museum, qui reconstitue un village japonais de l’époque Edo en taille réelle. On se balade dans les ruelles, on entre dans les maisons, avec même une simulation du passage du jour à la nuit. La seconde partie présente des maquettes montrant l’évolution d’Osaka entre 1920 et 1960. L’après-midi, direction le Nakanoshima Museum of Art pour une exposition consacrée à Sarah Morris, entre toiles graphiques et films urbains. Je termine par une balade au Nakanoshima Rose Garden.',
@@ -4494,6 +4494,17 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Balade au Nakanoshima Rose Garden'
   ],
   video: 'https://youtube.com/shorts/H4LBBMd3-BY?si=duc83sEbTFjqft8g'
+},
+{
+  id: 't24',
+  date: 'Jour 24 (13 907 pas)',
+  title: 'Le château du héron blanc à Himeji',
+  description:
+    'Excursion à Himeji pour découvrir le célèbre château du Héron Blanc, considéré comme le plus beau château du Japon. Classé à l’UNESCO.On peut monter à l’intérieur étage par étage, sans chaussures, pour découvrir la structure du bâtiment et ses systèmes de défense. Après la visite, je découvre le Koko-en Garden, un ensemble de jardins japonais paisibles situés juste à côté du château.',
+  bullets: [
+    'Le Château de Himeji, classé UNESCO, surnommé le “château du héron blanc',
+    'Balade au Koko-en Garden'
+  ]
 }
 
 
@@ -5164,6 +5175,24 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     category: 'Parc',
     description: 'Parc situé sur l’île de Nakanoshima, avec espaces verts, roseraie, bars et musées à proximité, entouré de nombreux buildings.',
     emoji: '🌳'
+  },
+  {
+    id: 'm248',
+    lat: 34.83945337574922,
+    lng: 134.69390402606132,
+    title: 'Château de Himeji',
+    category: 'Monument',
+    description: "Magnifique château féodal japonais surnommé le 'Château du Héron Blanc', classé au patrimoine mondial de l’UNESCO. L’un des châteaux les mieux conservés du Japon. Visite des étages du chateau sans chaussures",
+    emoji: '🏯'
+  },
+  {
+    id: 'm249',
+    lat: 34.837058473305405,
+    lng: 134.69038553862217,
+    title: 'Koko-en Garden',
+    category: 'Jardin',
+    description: "Ensemble de jardins japonais traditionnels situé juste à côté du château de Himeji, composé de plusieurs jardins thématiques avec étangs, ponts et carpes Koi.",
+    emoji: '🌿'
   }
 
 
@@ -5870,6 +5899,43 @@ J’ai pu en apprendre davantage sur son travail, notamment sur sa collaboration
 Je finis la journée par une balade au Nakanoshima Rose Garden, un parc posé au milieu des buildings sur l’île de Nakanoshima, entourée par la rivière Tosabori.
 Un peu comme l’île de la Cité à Paris.`,
   mood: 'Osaka Municipal Housing Museum et Nakanoshima Museum of Art (NAKKA)'
+},
+{
+  id: 'j24',
+  day: 24,
+  title: 'Le château du héron blanc à Himeji',
+  excerpt: `Direction la ville de Himeji pour voir le plus beau château du Japon : le Château de Himeji.
+
+Situé dans la ville d’Himeji, il est accessible en environ 2h de train depuis Osaka, finalement pas très loin de Kobe.
+
+Une fois arrivé à la gare d’Himeji, il reste environ 15 minutes à pied sur une longue ligne droite.
+Et au loin, on voit déjà le château qui domine la ville.
+
+Le château d’Himeji est considéré comme le plus beau et le mieux conservé du Japon.
+Construit au XIVᵉ siècle, il est classé au patrimoine mondial de l’UNESCO.
+Il est surnommé le “château du héron blanc”, car ses murs blancs et ses toits courbés donnent l’impression d’un oiseau prêt à s’envoler.
+
+La visite du château est vraiment cool.
+On peut entrer à l’intérieur (il faut enlever ses chaussures et les porter dans un petit sac) et monter étage par étage pour découvrir comment le bâtiment était organisé et à quoi servaient les différentes pièces.
+
+On traverse aussi plusieurs portes, couloirs et chemins défensifs qui étaient pensés pour ralentir les ennemis en cas d’attaque.
+
+Le comble, c’est que le château possède presque tous les systèmes de défense possibles (meurtrières pour les archers, ouvertures pour jeter des pierres, labyrinthes de portes et de passages), mais il n’a en réalité jamais été attaqué pendant plus de 400 ans d’existence.
+
+Malheureusement, l’intérieur est complètement vide, ce qui rend parfois difficile d’imaginer comment le château devait être aménagé et occupé à l’époque.
+
+Je me suis alors imaginé, comme je le fais souvent dans les châteaux (français ou même espagnols), être un seigneur marchant seul dans les couloirs, en regardant par les fenêtres la beauté des extérieurs.
+
+Après la visite, je me suis dirigé vers le Koko-en Garden, un jardin japonais situé à 5 minutes du château.
+
+Ce jardin est composé de 9 jardins différents, chacun avec son propre style : jardin de seigneur féodal, jardin de thé, étangs avec carpes koï, petits ruisseaux, une petite forêt de bambous, etc.
+
+Belle découverte aujourd’hui, même si la ville d’Himeji ne possède finalement que ces deux grandes choses à faire.
+
+Je me suis baladé dans les quartiers mais la ville semble assez calme, presque un peu morte et pas très intéressante.
+
+Les autres activités de la ville, comme les parcs près de l’eau ou certains points de vue dans les montagnes, sont accessibles avec environ 1 heure de transport supplémentaire, ce qui commence à faire beaucoup quand on vient d’Osaka.`,
+  mood: 'Le château du héron blanc à Himeji'
 },
 
 
