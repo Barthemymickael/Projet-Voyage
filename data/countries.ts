@@ -4493,6 +4493,17 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Balade au Koko-en Garden'
   ],
   video: 'https://youtube.com/shorts/TjXdLInvPIw?si=Llo2s3FidUaS_72P'
+},
+{
+  id: 't25',
+  date: 'Jour 25 (14 783 pas)',
+  title: "L'Aquarium Kaiyukan",
+  description:
+    'Dernière activité à Osaka : la visite de Kaiyukan, l’un des plus grands aquariums du monde. Le bassin principal, représentant l’océan Pacifique, permet d’observer sur plusieurs étages des requins-baleines, des raies manta et de nombreux poissons évoluer lentement dans l’eau. Après ce moment complètement zen, je termine la journée par la visite d’un garage de voitures japonaises mythiques.',
+  bullets: [
+    'Aquarium Kaiyukan (Bassin géant avec requins-baleines et raies manta)',
+    'Visite du garage Mr. Hiro Car Studio',
+  ]
 }
 
 
@@ -5190,6 +5201,24 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Supermarché',
   description: "Supermarché japonais avec un étage food market proposant de très bonnes réductions sur les plats préparés en fin de journée. Ressemble beaucoup à un Intermarché avec une grande variété de produits.",
   emoji: '🛒'
+},
+{
+  id: 'm251',
+  lat: 34.654522034089744,
+  lng: 135.428964496606,
+  title: 'Aquarium Kaiyukan',
+  category: 'Aquarium',
+  description: "L’un des plus grands aquariums du monde avec un immense bassin central représentant l’océan Pacifique et de nombreuses espèces marines dont le célèbre requin-baleine, requin-marteau, des raies manta ect.",
+  emoji: '🐠'
+},
+{
+  id: 'm252',
+  lat: 34.6566659216361,
+  lng: 135.47185491608354,
+  title: 'Mr. Hiro Car Studio',
+  category: 'Boutique',
+  description: "Petite boutique spécialisée dans les voitures collectors japonaise, Nissan Skyliyne R-34 et R-35 et la fameuse Mazda RX-7 de Fast And Furious.",
+  emoji: '🚗'
 }
 
 
@@ -5933,6 +5962,46 @@ Je me suis baladé dans les quartiers mais la ville semble assez calme, presque 
 
 Les autres activités de la ville, comme les parcs près de l’eau ou certains points de vue dans les montagnes, sont accessibles avec environ 1 heure de transport supplémentaire, ce qui commence à faire beaucoup quand on vient d’Osaka.`,
   mood: 'Le château du héron blanc à Himeji'
+},
+{
+  id: 'j25',
+  day: 25,
+  title: 'Aquarium kaiyukan',
+  excerpt: `Dernière activité à Osaka : l’aquarium Kaiyukan, l’un des aquariums les plus grands et impressionnants du monde.
+
+C’était officiellement la dernière activité que je fais à Osaka, et j’ai passé toute l’après-midi là-bas.
+
+Au départ, on traverse plusieurs zones avec différents animaux : des canards, des loutres, des phoques, des manchots, ainsi que plusieurs petits aquariums remplis de poissons tropicaux.
+
+Puis j’arrive au niveau de l’aquarium principal, celui qui représente l’océan Pacifique.
+
+Et c’est là que la magie opère.
+Un immense bassin sur plusieurs étages. L’un des plus grand aquarium du monde est sous mes yeux, et je peux voir passer lentement des requins-baleines, des raies manta, des requins, des bancs de poissons et plein d’autres créatures marines.
+
+Je m’assois sur un petit fauteuil et je contemple, avec une musique symphonique diffusée dans les haut-parleurs, ces merveilleuses créatures.
+
+Je me lève ensuite pour continuer la visite, mais je vois que c’est bientôt la fin du parcours.
+Il reste environ 20 minutes.
+
+Alors je décide de remonter un peu et de revenir à mon fauteuil.
+
+Je ne sais pas trop pourquoi, mais je me sentais bien ici.
+
+Paisible, relax.
+À observer les mouvements lents des animaux, les poissons tourner doucement dans l’eau, accompagné de cette musique presque envoûtante, ambiance aquatique.
+
+Après ça, je finis la journée par la visite d’un garage de voitures sportives assez connu à Osaka : Mr. Hiro Car Studio.
+
+À l’intérieur, il y a plusieurs voitures japonaises mythiques, toutes collectors.
+On peut notamment voir des Nissan Skyline GT-R R34 et R35, une Subaru, et la fameuse Mazda RX-7 de l’univers du film Fast & Furious : Tokyo Drift.
+
+La soirée se termine sous la pluie.
+Je prépare mes deux sacs à dos, j’achète un plat préparé au supermarché et je me pose tranquillement devant un épisode de ma série (Psych : Enquêteur malgré lui).
+
+Demain matin, départ à 10h pour Kyoto.
+
+Étape numéro 2 de mon voyage au Japon.`,
+  mood: 'Aquarium kaiyukan'
 },
 
 
