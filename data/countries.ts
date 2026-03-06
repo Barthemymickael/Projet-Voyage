@@ -6001,7 +6001,7 @@ Je prépare mes deux sacs à dos, j’achète un plat préparé au supermarché 
 Demain matin, départ à 10h pour Kyoto.
 
 Étape numéro 2 de mon voyage au Japon.`,
-  mood: 'Aquarium kaiyukan'
+  mood: "L'Aquarium kaiyukan"
 },
 
 
