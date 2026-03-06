@@ -4499,7 +4499,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   date: 'Jour 25 (14 783 pas)',
   title: "L'Aquarium Kaiyukan",
   description:
-    'Dernière activité à Osaka : la visite de Kaiyukan, l’un des plus grands aquariums du monde. Le bassin principal, représentant l’océan Pacifique, permet d’observer sur plusieurs étages des requins-baleines, des raies manta et de nombreux poissons évoluer lentement dans l’eau. Après ce moment complètement zen, je termine la journée par la visite d’un garage de voitures japonaises mythiques.',
+    'Dernière activité à Osaka : la visite de Kaiyukan, l’un des plus grands aquariums du monde. Le bassin principal, représentant l’océan Pacifique, permet d’observer sur plusieurs étages des requins-baleines, des raies manta et de nombreux poissons. Après ce moment complètement zen, je termine la journée par la visite d’un garage de voitures japonaises mythiques.',
   bullets: [
     'Aquarium Kaiyukan (Bassin géant avec requins-baleines et raies manta)',
     'Visite du garage Mr. Hiro Car Studio',
