@@ -5969,7 +5969,7 @@ Les autres activités de la ville, comme les parcs près de l’eau ou certains 
   title: 'Aquarium kaiyukan',
   excerpt: `Dernière activité à Osaka : l’aquarium Kaiyukan, l’un des aquariums les plus grands et impressionnants du monde.
 
-C’était officiellement la dernière activité que je fais à Osaka, et j’ai passé toute l’après-midi là-bas.
+C’était officiellement la dernière activité à Osaka, et j’ai passé toute l’après-midi là-bas.
 
 Au départ, on traverse plusieurs zones avec différents animaux : des canards, des loutres, des phoques, des manchots, ainsi que plusieurs petits aquariums remplis de poissons tropicaux.
 
