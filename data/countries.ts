@@ -4129,15 +4129,7 @@ Ensuite, je me rends dans la tour, plus précisément aux étages de Busan x The
 J’y passerai finalement plus de 3h30, le temps de profiter pleinement du lieu, avec en prime un petit peach iced tea.
 
 D’ici, je peux voir Songjeong. Au loin, j’aperçois l’endroit, dans les dunes et les falaises, où je m’étais posé il y a un peu plus d’un mois (Jour 38, par exemple).
-    videoUrl:
-      'https://images.unsplash.com/photo-1491884662610-dfcd28f30cfb?q=80&w=1974&auto=format&fit=crop',
-    isLocked: false,
-    hero: {
-      title: '2 mois au Japon',
-      subtitle: 'Mon voyage solo',
-      description: 'Voyage à venir — section ouverte, contenu en préparation.',
-      bgImage: ''
-    },
+
 Et je me dis que j’ai sacrément bien profité de cette ville.
 Je n’ai pas arrêté de bouger.
 J’ai fait tout ce qu’il y avait à faire.
@@ -4165,11 +4157,6 @@ Au programme : 1 h de bus, 1 h 05 d’avion, puis encore 1 h de train avant d’
 
 Départ de Busan à 10 h.
 Arrivée dans l’appartement à Osaka à 17 h 30.
-
-    videoUrl: withBase('osaka.png'),
-    hero: { title: '3 mois au Japon', subtitle: 'Mon voyage solo', description: 'Voyage du 10 février 2026 jusqu’au 10 mai 2026', bgImage: withBase('osaka.png') },
-
-    hero: { title: '3 mois au Japon', subtitle: 'Mon voyage solo', description: 'Voyage du 10 février 2026 jusqu’au 10 mai 2026', bgImage: withBase('osaka.png') },
 
 Moi qui dormais encore paisiblement ce matin à Busan, me voilà à écrire ces mots, allongé dans mon lit à Osaka.
 
