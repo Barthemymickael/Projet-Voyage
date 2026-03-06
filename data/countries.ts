@@ -5184,8 +5184,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   },
   {
   id: 'm250',
-  lat: 34.6433010236928,
-  lng: 135.49695424531743,
+  lat: 34.643184069991264,
+  lng: 135.4968368986724,
   title: 'Izumiya Hanazono',
   category: 'Supermarché',
   description: "Supermarché japonais avec un étage food market proposant de très bonnes réductions sur les plats préparés en fin de journée. Ressemble beaucoup à un Intermarché avec une grande variété de produits.",
