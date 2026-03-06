@@ -5181,7 +5181,16 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     category: 'Jardin',
     description: "Ensemble de jardins japonais traditionnels situé juste à côté du château de Himeji, composé de plusieurs jardins thématiques avec étangs, ponts et carpes Koi.",
     emoji: '🌿'
-  }
+  },
+  {
+  id: 'm250',
+  lat: 34.6433010236928,
+  lng: 135.49695424531743,
+  title: 'Izumiya Hanazono',
+  category: 'Supermarché',
+  description: "Supermarché japonais avec un étage food market proposant de très bonnes réductions sur les plats préparés en fin de journée. Ressemble beaucoup à un Intermarché avec une grande variété de produits.",
+  emoji: '🛒'
+}
 
 
 
