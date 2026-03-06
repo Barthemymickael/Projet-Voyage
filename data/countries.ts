@@ -4503,9 +4503,12 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   bullets: [
     'Aquarium Kaiyukan (Bassin géant avec requins-baleines et raies manta)',
     'Visite du garage Mr. Hiro Car Studio',
-  ]
+  ],
+  video: 'https://youtube.com/shorts/_GhDe4TO59c?si=AVM5ou9P58sldt0I'
+
 }
 
+      
 
     ],
     markers: [
