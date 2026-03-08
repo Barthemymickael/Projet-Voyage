@@ -5234,7 +5234,36 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Boutique',
   description: "Petite boutique spécialisée dans les voitures collectors japonaise, Nissan Skyliyne R-34 et R-35 et la fameuse Mazda RX-7 de Fast And Furious.",
   emoji: '🚗'
-}
+},
+[
+  {
+    id: 'm253',
+    lat: 35.00220108329648,
+    lng: 135.76665529224448,
+    title: 'Guesthouse Sign',
+    category: 'Logement',
+    description: "Mon auberge de jeunesse à Kyoto, située en plein centre-ville. Dortoir de 6 personnes avec lits superposés.",
+    emoji: '🛏️'
+  },
+  {
+    id: 'm254',
+    lat: 35.000603681645444,
+    lng: 135.76679073047288,
+    title: 'Fresco',
+    category: 'Supermarché',
+    description: "Supermarché situé à seulement 2 minutes à pied de l’auberge.",
+    emoji: '🛒'
+  },
+  {
+    id: 'm255',
+    lat: 35.00227451858582,
+    lng: 135.76674934476756,
+    title: 'The City Bakery Kyoto Shijo Teramachi',
+    category: 'Café',
+    description: "Petit café sympa où je discute avec Alice seulement quelques heures après notre rencontre.",
+    emoji: '☕'
+  }
+]
 
 
 
