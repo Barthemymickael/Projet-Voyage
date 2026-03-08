@@ -4518,6 +4518,21 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Dortoir partagé pour 14 jours',
     'Premières rencontres à l’auberge'
   ]
+},
+{
+  id: 't27',
+  date: 'Jour 27 (25 965 pas)',
+  title: 'Premier réveil à l’auberge, premier jour entier à Kyoto',
+  description:
+    'Premier vrai jour à Kyoto. Je pars marcher sans objectif précis et découvre plusieurs petits sanctuaires et temples de quartier, avant de traverser la forêt sacrée Tadasu no Mori jusqu’au célèbre Shimogamo-jinja. Sur le chemin, j’aperçois aussi quelques cerisiers en fleurs et je fais une pause au Funaokayama Park pour profiter d’une vue sur la ville. La journée se termine dans les Kyoto Gyoen National Garden puis par un passage au Nishiki Market et dans la rue commerçante Teramachi.',
+  bullets: [
+    'Balade entre sanctuaires et temples de quartier',
+    'Pause au Funaokayama Park',
+    'Forêt sacrée Tadasu no Mori',
+    'Fin de journée au Nishiki Market et Teramachi Market'
+  ],
+  video: 'https://youtube.com/shorts/5xCjiUUkQpI?si=Y3X7Zfu6p7AT6ffq'
+
 }
 
       
@@ -6079,7 +6094,31 @@ On discute toute la soirée : d’abord en anglais avec un Canadien, puis entre 
 Une rencontre très agréable qui rend l’expérience de l’auberge tout de suite beaucoup plus cool.`,
   mood: 'Journée de transition : Osaka → Kyoto'
 },
+{
+  id: 'j27',
+  day: 27,
+  title: 'Premier réveil à l’auberge, premier jour entier à Kyoto',
+  excerpt: `Je commence la journée par un petit déjeuner rapide, puis je pars me perdre dans les rues toute la journée.
 
+Je me dirige un peu au hasard et tombe sur plein de petits sanctuaires de quartier : le Go'o Shrine, le Seimei-jinja, le Shiramine-jingu, le Honpo-ji Temple, le Kenkun Shrine, le Kamigoryo Shrine, puis la forêt sacrée Tadasu no Mori et enfin le célèbre Shimogamo-jinja.
+
+Sur le chemin, j’aperçois plusieurs cerisiers en fleurs.
+
+Je fais aussi une pause dans le Funaokayama Park, un petit parc perché sur une colline avec quelques points de vue sur la ville.
+
+Je termine ensuite la journée par une balade dans les Kyoto Gyoen National Garden, les grands jardins impériaux situés au cœur de la ville, autour du palais impérial.
+L’endroit est immense et très paisible.
+
+Juste avant de rentrer à l’auberge, je passe par le Nishiki Market et la rue commerçante Teramachi Street.
+
+Et de ce que j’ai pu voir et ressentir aujourd’hui, Kyoto est vraiment la ville du silence et du calme, très loin des écrans géants et des néons d’Osaka.
+
+Les rues sont petites, étroites, souvent longues et très tranquilles.
+J’adore déjà l’atmosphère.
+
+J’ai hâte de découvrir les endroits les plus iconiques et importants de la ville dans les prochains jours.`,
+  mood: 'Premier réveil à l’auberge, premier jour entier à Kyoto'
+},
 
 
 
