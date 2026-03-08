@@ -5235,7 +5235,6 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   description: "Petite boutique spécialisée dans les voitures collectors japonaise, Nissan Skyliyne R-34 et R-35 et la fameuse Mazda RX-7 de Fast And Furious.",
   emoji: '🚗'
 },
-[
   {
     id: 'm253',
     lat: 35.00220108329648,
@@ -5263,7 +5262,6 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     description: "Petit café sympa où je discute avec Alice seulement quelques heures après notre rencontre.",
     emoji: '☕'
   }
-]
 
 
 
