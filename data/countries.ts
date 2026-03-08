@@ -1,4 +1,4 @@
-zimport { CountryData } from '../types';
+import { CountryData } from '../types';
 
 const withBase = (path: string) => {
   const base = import.meta.env.BASE_URL.replace(/\/$/, '');
