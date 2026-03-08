@@ -5276,6 +5276,114 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     category: 'Café',
     description: "Petit café sympa où je discute avec Alice seulement quelques heures après notre rencontre.",
     emoji: '☕'
+  },
+  {
+    id: 'm256',
+    lat: 35.024894,
+    lng: 135.759172,
+    title: "Go'o Shrine",
+    category: 'Sanctuaire',
+    description: "Petit sanctuaire shinto connu pour ses statues de sangliers. Situé près du Palais impérial de Kyoto et associé à la protection des jambes et de la mobilité.",
+    emoji: '⛩️'
+  },
+  {
+    id: 'm257',
+    lat: 35.023333,
+    lng: 135.750664,
+    title: 'Seimei-jinja',
+    category: 'Sanctuaire',
+    description: "Sanctuaire dédié au célèbre onmyōji Abe no Seimei. Connu pour ses symboles en forme d’étoile à cinq branches.",
+    emoji: '⛩️'
+  },
+  {
+    id: 'm258',
+    lat: 35.025183,
+    lng: 135.754692,
+    title: 'Shiramine-jingu',
+    category: 'Sanctuaire',
+    description: "Sanctuaire shinto réputé pour être le protecteur des sports et des athlètes.",
+    emoji: '⛩️'
+  },
+  {
+    id: 'm259',
+    lat: 35.022879,
+    lng: 135.757509,
+    title: 'Honpo-ji Temple',
+    category: 'Temple',
+    description: "Temple bouddhiste appartenant à l’école Nichiren, situé dans le quartier historique de Kamigyo.",
+    emoji: '🛕'
+  },
+  {
+    id: 'm260',
+    lat: 35.043255,
+    lng: 135.739618,
+    title: 'Kenkun Shrine',
+    category: 'Sanctuaire',
+    description: "Sanctuaire situé sur les hauteurs, dédié au célèbre seigneur de guerre Oda Nobunaga.",
+    emoji: '⛩️'
+  },
+  {
+    id: 'm261',
+    lat: 35.032255,
+    lng: 135.758923,
+    title: 'Kamigoryo Shrine',
+    category: 'Sanctuaire',
+    description: "Sanctuaire ancien entouré d’arbres, connu pour son festival Goryo Matsuri.",
+    emoji: '⛩️'
+  },
+  {
+    id: 'm262',
+    lat: 35.039489,
+    lng: 135.772655,
+    title: 'Tadasu no Mori',
+    category: 'Nature',
+    description: "Forêt sacrée ancienne entourant le sanctuaire Shimogamo-jinja, connue pour son atmosphère paisible.",
+    emoji: '🌳'
+  },
+  {
+    id: 'm263',
+    lat: 35.039657,
+    lng: 135.772451,
+    title: 'Shimogamo-jinja',
+    category: 'Sanctuaire',
+    description: "Sanctuaire shinto classé au patrimoine mondial de l’UNESCO, l’un des plus anciens de Kyoto.",
+    emoji: '⛩️'
+  },
+  {
+    id: 'm264',
+    lat: 35.040708,
+    lng: 135.740573,
+    title: 'Funaokayama Park',
+    category: 'Parc',
+    description: "Petit parc sur une colline offrant une vue intéressante sur Kyoto.",
+    emoji: '🌳'
+  },
+  {
+    id: 'm265',
+    lat: 35.025431,
+    lng: 135.762132,
+    title: 'Kyoto Gyoen National Garden',
+    category: 'Parc',
+    description: "Grand parc public entourant le Palais impérial de Kyoto, très apprécié pour les promenades.",
+    emoji: '🌳'
+  },
+  {
+    id: 'm266',
+    lat: 35.005018,
+    lng: 135.764386,
+    title: 'Nishiki Market',
+    category: 'Food',
+    description: "Marché couvert très populaire surnommé 'la cuisine de Kyoto', rempli de spécialités locales et street food.",
+    emoji: '🛍️'
+  },
+  {
+    id: 'm267',
+    lat: 35.005835,
+    lng: 135.765783,
+    title: 'Teramachi Street',
+    category: 'Shopping',
+    description: "Rue commerçante couverte avec boutiques, cafés et magasins traditionnels.",
+    emoji: '🛍️'
   }
 
 
