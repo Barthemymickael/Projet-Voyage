@@ -1,4 +1,4 @@
-import { CountryData } from '../types';
+zimport { CountryData } from '../types';
 
 const withBase = (path: string) => {
   const base = import.meta.env.BASE_URL.replace(/\/$/, '');
@@ -4511,7 +4511,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   date: 'Jour 26 (8 484 pas)',
   title: 'Journée de transition : Osaka → Kyoto',
   description:
-    'Départ d’Osaka en fin de matinée pour rejoindre Kyoto. Après un trajet tranquille en train local, j’arrive près de mon auberge située en plein centre-ville. L’enregistrement étant prévu à 16h, je patiente dans quelques cafés avec mes sacs, avec un peu d’appréhension : c’est ma première expérience en auberge de jeunesse et en dortoir partagé pour les deux prochaines semaines. Finalement, la soirée commence très bien avec plusieurs rencontres à l’auberge, dont une voyageuse canadienne et un couple de Français.',
+    'Départ d’Osaka en fin de matinée pour rejoindre Kyoto. Après un trajet tranquille en train local, j’arrive près de mon auberge située en plein centre-ville. Un peu d’appréhension au départ : c’est ma première expérience en auberge de jeunesse et en dortoir partagé. Finalement, la soirée commence très bien avec plusieurs rencontres à l’auberge.',
   bullets: [
     'Trajet Osaka → Kyoto',
     'Première expérience en auberge de jeunesse',
