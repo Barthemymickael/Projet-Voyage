@@ -4505,7 +4505,19 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Visite du garage Mr. Hiro Car Studio',
   ],
   video: 'https://youtube.com/shorts/_GhDe4TO59c?si=AVM5ou9P58sldt0I'
-
+},
+{
+  id: 't26',
+  date: 'Jour 26 (8 484 pas)',
+  title: 'Journée de transition : Osaka → Kyoto',
+  description:
+    'Départ d’Osaka en fin de matinée pour rejoindre Kyoto. Après un trajet tranquille en train local, j’arrive près de mon auberge située en plein centre-ville. L’enregistrement étant prévu à 16h, je patiente dans quelques cafés avec mes sacs, avec un peu d’appréhension : c’est ma première expérience en auberge de jeunesse et en dortoir partagé pour les deux prochaines semaines. Finalement, la soirée commence très bien avec plusieurs rencontres à l’auberge, dont une voyageuse canadienne et un couple de Français.',
+  bullets: [
+    'Trajet Osaka → Kyoto',
+    'Première expérience en auberge de jeunesse',
+    'Dortoir partagé pour 14 jours',
+    'Premières rencontres à l’auberge'
+  ]
 }
 
       
@@ -6005,6 +6017,40 @@ Demain matin, départ à 10h pour Kyoto.
 
 Étape numéro 2 de mon voyage au Japon.`,
   mood: "L'Aquarium kaiyukan"
+},
+{
+  id: 'j26',
+  day: 26,
+  title: 'Journée de transition : Osaka → Kyoto',
+  excerpt: `Départ à 10h de mon logement à Osaka, arrivée près de mon auberge à Kyoto vers 11h45.
+J’ai pris un métro assez lent au lieu du train, pour seulement 3,50 € pour environ 50 km, ça valait largement le coup.
+
+En quittant mon logement, je croise des dizaines de personnes comme moi : sacs à dos/valises un peu partout.
+C’est l’heure classique des check-out dans les hôtels et les Airbnb.
+
+L’enregistrement de mon auberge de jeunesse est prévu à 16h, alors je patiente dans un Burger King puis dans un Starbucks proche de l’auberge, avec mes deux sacs à dos.
+
+J’attends tranquillement, mais avec quand même un peu de stress.
+C’est la première fois que je vais séjourner dans une auberge de jeunesse, et plus précisément dans un dortoir mixte de 6 personnes avec lits superposés.
+
+Je vais y rester 14 jours, donc j’espère que tout va bien se passer : réussir à prendre mes marques, dormir sans trop de ronflements des autres et surtout me sentir à l’aise.
+Et qui sait… faire quelques rencontres.
+
+Je troque les appartements et chambres individuelles dans lesquels je séjourne depuis 3 mois pour les auberges de jeunesse, à partir d’aujourd’hui et jusqu’à la fin de mon voyage.
+
+Ce qui est incroyable, c’est que là je suis en plein hypercentre de Kyoto.
+Parfait pour visiter la ville sans m’infliger de longs trajets chaque jour.
+Ça va être super de pouvoir partir le matin et revenir le soir sans devoir reprendre les transports.
+
+Puis, en fin d’après-midi, je fais la rencontre d’Alice, 62 ans, qui voyage seule depuis des années.
+On part prendre un café ensemble et on discute de nos vies respectives.
+Elle a été guide touristique une grande partie de sa vie en Europe et voyage maintenant tranquillement seule en Asie.
+
+Plus tard, dans la salle à manger de l’auberge, je rencontre un couple de Français d’environ 30 ans.
+On discute toute la soirée : d’abord en anglais avec un Canadien, puis entre nous en français un peu plus tard.
+
+Une rencontre très agréable qui rend l’expérience de l’auberge tout de suite beaucoup plus cool.`,
+  mood: 'Journée de transition : Osaka → Kyoto'
 },
 
 
