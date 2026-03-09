@@ -5398,7 +5398,52 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     category: 'Shopping',
     description: "Rue commerçante couverte avec boutiques, cafés et magasins traditionnels.",
     emoji: '🛍️'
-  }
+  },
+  {
+  id: 'm268',
+  lat: 35.003713,
+  lng: 135.778781,
+  title: 'Yasaka Shrine',
+  category: 'Sanctuaire',
+  description: "Grand sanctuaire shinto situé à l’entrée du quartier de Gion. Célèbre pour ses lanternes illuminées le soir et pour accueillir le célèbre festival Gion Matsuri.",
+  emoji: '⛩️'
+},
+{
+  id: 'm269',
+  lat: 35.000996,
+  lng: 135.778530,
+  title: 'Ryosoku-in',
+  category: 'Temple',
+  description: "Sous-temple zen du complexe Kennin-ji, connu pour ses jardins paisibles et ses ouvertures saisonnières au public.",
+  emoji: '⛩️'
+},
+{
+  id: 'm270',
+  lat: 34.998608,
+  lng: 135.780814,
+  title: 'Ninenzaka',
+  category: 'Quartier historique',
+  description: "Rue pavée traditionnelle bordée de maisons anciennes, boutiques et salons de thé. L’un des endroits les plus photogéniques de Kyoto.",
+  emoji: '🏮'
+},
+{
+  id: 'm271',
+  lat: 34.994856,
+  lng: 135.784923,
+  title: 'Kiyomizu-dera',
+  category: 'Temple',
+  description: "Temple bouddhiste emblématique classé au patrimoine mondial de l’UNESCO, célèbre pour sa grande terrasse en bois offrant une vue spectaculaire sur Kyoto.",
+  emoji: '⛩️'
+},
+{
+  id: 'm272',
+  lat: 34.995807,
+  lng: 135.783397,
+  title: 'Cafe & Giftshop TEN',
+  category: 'Café',
+  description: "Petit café et boutique de souvenirs près de Kiyomizu-dera, j'ai gouté ici mon premier matcha",
+  emoji: '☕'
+}
 
 
 
