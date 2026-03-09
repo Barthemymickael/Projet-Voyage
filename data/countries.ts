@@ -4521,7 +4521,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't27',
-  date: 'Jour 27 (25 965 pas)',
+  date: 'Jour 27 (26 311 pas)',
   title: 'Premier réveil à l’auberge, premier jour entier à Kyoto',
   description:
     'Premier vrai jour à Kyoto. Je pars marcher sans objectif précis et découvre plusieurs petits sanctuaires et temples de quartier, avant de traverser la forêt sacrée Tadasu no Mori jusqu’au célèbre Shimogamo-jinja. Sur le chemin, j’aperçois aussi quelques cerisiers en fleurs et je fais une pause au Funaokayama Park pour profiter d’une vue sur la ville. La journée se termine dans les Kyoto Gyoen National Garden puis par un passage au Nishiki Market et dans la rue commerçante Teramachi.',
@@ -4532,6 +4532,20 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Fin de journée au Nishiki Market et Teramachi Market'
   ],
   video: 'https://youtube.com/shorts/5xCjiUUkQpI?si=Y3X7Zfu6p7AT6ffq'
+},
+{
+  id: 't28',
+  date: 'Jour 28 (19 175 pas)',
+  title: 'Quartier Gion, geishas tour et balade dans le Kyoto historique',
+  description:
+    'Matinée guidée dans le quartier de Gion pour découvrir l’univers des geishas. Après la visite, je retrouve Alice pour un déjeuner improvisé et un café dans un petit établissement tenu par un propriétaire de 86 ans. L’après-midi se poursuit entre le temple Ryosoku-in, les ruelles historiques de Ninenzaka et le célèbre temple Kiyomizu-dera, avant de goûter mon premier matcha et de rentrer de nuit à travers les rues illuminées de lanternes.',
+  bullets: [
+    'Guide tour sur les geishas dans le quartier Gion',
+    'Déjeuner et café avec Alice',
+    'Balade dans Ninenzaka',
+    'Visite du Kiyomizu-dera et premier matcha'
+  ],
+  video: 'https://youtube.com/shorts/F-OUMUUOZes?si=FYiaonhX1JhPBeI1'
 
 }
 
@@ -6226,6 +6240,50 @@ J’adore déjà l’atmosphère.
 
 J’ai hâte de découvrir les endroits les plus iconiques et importants de la ville dans les prochains jours.`,
   mood: 'Premier réveil à l’auberge, premier jour entier à Kyoto'
+},
+{
+  id: 'j28',
+  day: 28,
+  title: 'Guide tour sur les geishas et aprés-midi avec Alice',
+  excerpt: `Avec Alice, nous avions réservé un guide tour pour ce début de semaine.
+Mais nous nous sommes rendu compte qu’elle avait déjà fait exactement le même tour la veille, alors j’y suis allé seul.
+
+De 10h à 12h, j’ai visité le quartier de Gion avec un guide en anglais.
+Nous avons eu beaucoup d’explications sur le monde des geishas, une tradition très importante de Kyoto.
+
+Le guide nous a expliqué comment une femme devient geisha.
+Tout commence très jeune : les apprenties, appelées maiko, commencent leur formation à l’adolescence.
+Elles quittent souvent leur famille pour vivre dans une maison spécialisée appelée okiya, où elles apprennent pendant plusieurs années les arts traditionnels japonais : danse, musique, chant, cérémonie du thé et art de la conversation.
+
+Une vie entièrement dédiée à cet art.
+
+Après plusieurs années, la maiko peut devenir une geisha à part entière, appelée geiko à Kyoto.
+
+Pendant la visite, nous avons aussi découvert plusieurs lieux religieux et leurs pratiques bouddhistes et shintoïstes, notamment le Yasaka Shrine, très important dans ce quartier.
+
+En rentrant à l’auberge vers midi, Alice m’a carrément acheté un déjeuner à partager ensemble : une brioche, une baguette fourrée au bacon et même un camembert.
+Et pour finir, un pain au chocolat, le tout acheté dans une bonne boulangerie.
+(On avait parlé plusieurs fois de notre passion commune pour le brie ces derniers jours.)
+
+Nous sommes ensuite allés dans un petit café tenu par un homme de 86 ans.
+À l’intérieur, on peut même fumer et le propriétaire prépare les cafés à l’ancienne, très lentement.
+
+Puis nous sommes partis visiter le Ryosoku-in avant de terminer dans le quartier historique de Ninenzaka.
+
+Alice a dû rentrer à l’auberge à cause d’un problème avec sa banque, alors j’ai continué la visite seul jusqu’au célèbre Kiyomizu-dera.
+Ce temple est construit sur une grande terrasse en bois, avec une magnifique vue sur Kyoto.
+
+Je termine la visite en goûtant un matcha chez Cafe & Giftshop TEN.
+C’était la première fois que j’en buvais, et je dois dire que c’est une boisson plutôt bonne.
+
+Je suis ensuite rentré de nuit en traversant les rues du quartier, illuminées par les lanternes.
+C’était vraiment magnifique.
+
+Nous avons dîné et discuté ensemble dans la salle commune de l’auberge.
+
+J’écris ces quelques lignes ici.
+L’ambiance est calme et studieuse : certaines personnes lisent, d’autres écoutent de la musique, certains travaillent sur leur ordinateur ou leur téléphone, et d’autres sont en train de cuisiner.`,
+  mood: 'Guide tour sur les geishas et aprés-midi avec Alice'
 },
 
 
