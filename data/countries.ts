@@ -5543,6 +5543,60 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Restaurant',
   description: "Chaîne célèbre pour son ramen tonkotsu avec cabines individuelles permettant de manger seul.",
   emoji: '🍜'
+},
+{
+  id: 'm281',
+  lat: 35.014239,
+  lng: 135.748134,
+  title: 'Château de Nijō',
+  category: 'Château',
+  description: "Château construit en 1603 pour le shogun Tokugawa Ieyasu. Classé au patrimoine mondial de l’UNESCO, il est célèbre pour ses planchers 'rossignols' qui grincent pour détecter les intrus.",
+  emoji: '🏯'
+},
+{
+  id: 'm282',
+  lat: 35.018875,
+  lng: 135.768074,
+  title: 'Kyoto Museum',
+  category: 'Musée',
+  description: "Musée retraçant l’histoire et la culture de Kyoto avec des expositions permanentes et temporaires.",
+  emoji: '🏛️'
+},
+{
+  id: 'm283',
+  lat: 35.015999,
+  lng: 135.782097,
+  title: 'Kyoto City KYOCERA Museum of Art',
+  category: 'Musée',
+  description: "Grand musée d’art moderne et contemporain de Kyoto avec expositions internationales et architecture rénovée spectaculaire.",
+  emoji: '🖼️'
+},
+{
+  id: 'm284',
+  lat: 35.014644,
+  lng: 135.748686,
+  title: 'Honmaru Garden',
+  category: 'Jardin',
+  description: "Jardin traditionnel situé dans l’enceinte du château de Nijō, offrant un cadre paisible avec étang et végétation soignée.",
+  emoji: '🌿'
+},
+{
+  id: 'm285',
+  lat: 35.014311,
+  lng: 135.748042,
+  title: 'Seiryu-en',
+  category: 'Jardin',
+  description: "Jardin japonais du château de Nijō mélangeant styles traditionnels et modernes avec espaces ouverts et bassins.",
+  emoji: '🌿'
+},
+{
+  id: 'm286',
+  lat: 35.014942,
+  lng: 135.747862,
+  title: 'Ninomaru Garden',
+  category: 'Jardin',
+  description: "Jardin paysager historique du château de Nijō conçu au XVIIe siècle, célèbre pour ses rochers décoratifs et son étang central.",
+  emoji: '🌿'
 }
 
 
