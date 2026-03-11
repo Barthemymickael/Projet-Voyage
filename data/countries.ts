@@ -4535,7 +4535,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't28',
-  date: 'Jour 28 (19 175 pas)',
+  date: 'Jour 28 (19 235 pas)',
   title: 'Quartier Gion, geishas tour et balade dans le Kyoto historique',
   description:
     'Matinée guidée dans le quartier de Gion pour découvrir l’univers des geishas. Après la visite, je retrouve Alice pour un déjeuner improvisé et un café dans un petit établissement tenu par un propriétaire de 86 ans. L’après-midi se poursuit entre le temple Ryosoku-in, les ruelles historiques de Ninenzaka et le célèbre temple Kiyomizu-dera, avant de goûter mon premier matcha et de rentrer de nuit à travers les rues illuminées de lanternes.',
@@ -4546,7 +4546,21 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Visite du Kiyomizu-dera et premier matcha'
   ],
   video: 'https://youtube.com/shorts/F-OUMUUOZes?si=FYiaonhX1JhPBeI1'
-
+},
+{
+  id: 't29',
+  date: 'Jour 29 (24 142 pas)',
+  title: 'Temples, musées, matcha et Ichiran Ramen',
+  description:
+    'Je commence par le temple Tō-ji et sa célèbre pagode en bois à cinq niveaux, la plus haute du Japon. Après une balade dans l’enceinte du temple et son petit musée, je me rends à Umekoji Park et au jardin japonais Suzaku Garden. Ensuite visite du Kyoto Railway Museum, un immense musée retraçant l’histoire du train au Japon avec locomotives à vapeur, anciens Shinkansen et wagons visitables. En fin de journée, je m’arrête pour un excellent matcha latte chez Matcha Sparkle Kyoto, passe par le Pokémon Center Kyoto, puis termine la soirée avec un ramen chez Ichiran Ramen.',
+  bullets: [
+    'Temple Tō-ji et sa pagode à cinq niveaux',
+    'Umekoji Park et Suzaku Garden',
+    'Kyoto Railway Museum',
+    'Matcha latte chez Matcha Sparkle Kyoto',
+    'Ramen chez Ichiran Ramen'
+  ],
+  video: 'https://youtube.com/shorts/neuzLI0HHY0?si=9fFSbIxNiCCHVVoo'
 }
 
       
@@ -6329,6 +6343,37 @@ Nous avons dîné et discuté ensemble dans la salle commune de l’auberge.
 J’écris ces quelques lignes ici.
 L’ambiance est calme et studieuse : certaines personnes lisent, d’autres écoutent de la musique, certains travaillent sur leur ordinateur ou leur téléphone, et d’autres sont en train de cuisiner.`,
   mood: 'Guide tour sur les geishas et aprés-midi avec Alice'
+},
+{
+  id: 'j29',
+  day: 29,
+  title: 'Temples, musées, matcha et Ichiran Ramen',
+  excerpt: `Journée un peu plus organisée aujourd’hui.
+Hier soir, j’ai analysé les activités que je pouvais faire dans une même zone.
+
+Je commence donc la journée par visiter le temple bouddhiste Tō-ji, connu pour sa grande pagode en bois à cinq niveaux, construite à l’origine au VIIIᵉ siècle.
+C’est d’ailleurs la pagode en bois la plus haute du Japon.
+
+Je me balade dans l’enceinte du temple et visite aussi un petit musée.
+
+Je me dirige ensuite vers Umekoji Park.
+Le parc en lui-même n’est pas incroyable, mais il donne accès au Suzaku Garden, un joli jardin japonais accessible pour 200 yens (environ 1 €).
+
+À seulement 5 minutes de là se trouve la deuxième grosse activité de ma journée : le Kyoto Railway Museum.
+
+Le musée est immense et retrace toute l’histoire du train au Japon.
+On peut voir d’anciennes locomotives à vapeur, des trains historiques et même certains anciens Shinkansen.
+Il y a aussi des simulateurs et plusieurs wagons dans lesquels on peut monter.
+
+En sortant du musée, je passe devant le temple Nishi Hongan-ji.
+
+Je m’arrête ensuite dans un café spécialisé dans le matcha : Matcha Sparkle Kyoto.
+C’était cette fois-ci un Matcha Latte, et il était vraiment très très bon.
+
+Je termine la journée par un passage au Pokémon Center Kyoto.
+
+Et pour finir la journée comme il se doit, je vais manger un ramen dans la célèbre enseigne Ichiran Ramen.`,
+  mood: 'Temples, musées, matcha et Ichiran Ramen'
 },
 
 
