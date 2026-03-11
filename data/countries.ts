@@ -4561,6 +4561,18 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Ramen chez Ichiran Ramen'
   ],
   video: 'https://youtube.com/shorts/neuzLI0HHY0?si=9fFSbIxNiCCHVVoo'
+},
+{
+  id: 't30',
+  date: 'Jour 30 (19 876 pas)',
+  title: 'Château de Nijō et art moderne à Kyoto',
+  description:
+    'Départ en fin de matinée pour visiter le château de Nijō, ancienne résidence du shogun Tokugawa à Kyoto. Puis balade dans les jardins du domaine (Honmaru Garden, Seiryu-en et Ninomaru Garden) je poursuis la journée au Kyoto Museum pour découvrir l’histoire de la ville et sa culture. Je termine ensuite par une exposition d’avant-garde japonaise (1948–1970) au Kyoto City KYOCERA Museum of Art, consacrée à des artistes ayant cherché à casser les codes de l’art traditionnel après-guerre. La journée se conclut par une promenade le long de la rivière Kamo-gawa avant de rentrer à l’auberge.',
+  bullets: [
+    'Visite du château de Nijō',
+    'Kyoto Museum',
+    'Exposition d’avant-garde au Kyoto City KYOCERA Museum of Art'
+  ]
 }
 
       
@@ -6446,6 +6458,29 @@ Je termine la journée par un passage au Pokémon Center Kyoto.
 
 Et pour finir la journée comme il se doit, je vais manger un ramen dans la célèbre enseigne Ichiran Ramen.`,
   mood: 'Temples, musées, matcha et Ichiran Ramen'
+},
+{
+  id: 'j30',
+  day: 30,
+  title: 'Château de Nijō et art moderne à Kyoto',
+  excerpt: `Départ en fin de matinée pour aller visiter le Nijō Castle.
+
+Ce château, construit au début du XVIIᵉ siècle, était la résidence officielle du shogun Tokugawa lorsqu’il séjournait à Kyoto.
+La visite est vraiment intéressante, notamment à l’intérieur du palais Ninomaru, où l’on peut voir les grandes salles décorées de peintures traditionnelles représentant des tigres et des pins.
+
+Un détail assez cool du château : les fameux “planchers rossignols”, des planchers en bois qui grincent volontairement quand on marche dessus.
+Ils servaient aussi de système pour détecter les intrus ou les assassins qui auraient essayé de s’infiltrer dans le palais, même si ce n’était pas leur fonction première à l’origine.
+
+Je me balade ensuite dans les jardins situés à l’intérieur du château, notamment le Honmaru Garden, le Seiryu-en Garden ainsi que le Ninomaru Garden.
+
+Après cette visite, je continue tranquillement la journée avec le Kyoto Museum.
+Le musée retrace une partie de l’histoire de la ville, avec des expositions sur la culture locale, l’évolution de Kyoto et la vie quotidienne à différentes époques.
+
+Je termine ensuite la journée par une exposition consacrée à l’avant-garde japonaise (1948–1970) au Kyoto City KYOCERA Museum of Art.
+L’exposition présentait un groupe d’artistes japonais qui ont cherché à casser les codes de l’art traditionnel après-guerre, avec des œuvres beaucoup plus expérimentales mêlant peinture, performances et créations intégrant des objets du quotidien.
+
+Balade avant de rentrer à l’auberge le long de la promenade de la rivière Kamo-Gawa.`,
+  mood: 'Château de Nijō et art moderne à Kyoto'
 },
 
 
