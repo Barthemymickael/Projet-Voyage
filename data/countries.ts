@@ -5457,6 +5457,78 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Café',
   description: "Petit café et boutique de souvenirs près de Kiyomizu-dera, j'ai gouté ici mon premier matcha",
   emoji: '☕'
+},
+{
+  id: 'm273',
+  lat: 34.980579,
+  lng: 135.747792,
+  title: 'Tō-ji',
+  category: 'Temple',
+  description: "Temple bouddhiste célèbre pour sa pagode en bois à cinq étages, la plus haute du Japon. Fondé au VIIIe siècle, il est classé au patrimoine mondial de l’UNESCO.",
+  emoji: '🏯'
+},
+{
+  id: 'm274',
+  lat: 34.987473,
+  lng: 135.742476,
+  title: 'Umekoji Park',
+  category: 'Parc',
+  description: "Grand parc urbain situé près de la gare de Kyoto avec espaces verts, musée ferroviaire et jardins.",
+  emoji: '🌳'
+},
+{
+  id: 'm275',
+  lat: 34.985688,
+  lng: 135.743740,
+  title: 'Suzaku Garden',
+  category: 'Jardin',
+  description: "Jardin japonais paysager situé dans Umekoji Park, avec étangs, passerelles et zones de détente.",
+  emoji: '🌿'
+},
+{
+  id: 'm276',
+  lat: 34.987958,
+  lng: 135.742153,
+  title: 'Kyoto Railway Museum',
+  category: 'Musée',
+  description: "Musée ferroviaire impressionnant retraçant l’histoire des trains japonais avec locomotives historiques et simulateurs.",
+  emoji: '🚆'
+},
+{
+  id: 'm277',
+  lat: 34.991654,
+  lng: 135.751185,
+  title: 'Nishi Hongan-ji',
+  category: 'Temple',
+  description: "Grand temple bouddhiste de l’école Jōdo Shinshū, classé au patrimoine mondial de l’UNESCO et célèbre pour ses immenses pavillons en bois.",
+  emoji: '🛕'
+},
+{
+  id: 'm278',
+  lat: 35.005292,
+  lng: 135.762014,
+  title: 'Matcha Sparkle Kyoto',
+  category: 'Café',
+  description: "Petit café spécialisé dans les desserts et boissons au matcha avec une présentation moderne.",
+  emoji: '🍵'
+},
+{
+  id: 'm279',
+  lat: 35.003463,
+  lng: 135.768084,
+  title: 'Pokémon Center Kyoto',
+  category: 'Boutique',
+  description: "Boutique officielle Pokémon avec peluches, cartes et produits exclusifs inspirés de Kyoto.",
+  emoji: '⚡'
+},
+{
+  id: 'm280',
+  lat: 35.004653,
+  lng: 135.763302,
+  title: 'Ichiran Ramen Kyoto',
+  category: 'Restaurant',
+  description: "Chaîne célèbre pour son ramen tonkotsu avec cabines individuelles permettant de manger seul.",
+  emoji: '🍜'
 }
 
 
