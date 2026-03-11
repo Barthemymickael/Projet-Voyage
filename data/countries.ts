@@ -4572,7 +4572,9 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Visite du château de Nijō',
     'Kyoto Museum',
     'Exposition d’avant-garde au Kyoto City KYOCERA Museum of Art'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/Sq9eCEYUl8I?si=Fxrow4H5wCa-tl5N'
+
 }
 
       
