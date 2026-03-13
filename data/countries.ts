@@ -4564,7 +4564,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't30',
-  date: 'Jour 30 (19 876 pas)',
+  date: 'Jour 30 (20 527 pas)',
   title: 'Château de Nijō et art moderne à Kyoto',
   description:
     'Départ en fin de matinée pour visiter le château de Nijō, ancienne résidence du shogun Tokugawa à Kyoto. Puis balade dans les jardins du domaine (Honmaru Garden, Seiryu-en et Ninomaru Garden) je poursuis la journée au Kyoto Museum pour découvrir l’histoire de la ville et sa culture. Je termine ensuite par une exposition d’avant-garde japonaise (1948–1970) au Kyoto City KYOCERA Museum of Art, consacrée à des artistes ayant cherché à casser les codes de l’art traditionnel après-guerre. La journée se conclut par une promenade le long de la rivière Kamo-gawa avant de rentrer à l’auberge.',
@@ -4574,7 +4574,19 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Exposition d’avant-garde au Kyoto City KYOCERA Museum of Art'
   ],
   video: 'https://youtube.com/shorts/Sq9eCEYUl8I?si=Fxrow4H5wCa-tl5N'
-
+},
+{
+  id: 't31',
+  date: 'Jour 31 (28 327 pas)',
+  title: 'Temples, chemin de la philosophie et rencontres',
+  description:
+    'Je commence la journée au Nanzen-ji, un grand temple entouré de nature, connu pour son impressionnant aqueduc en pierre et le canal de Biwa qui passe par la. En continuant ma marche, je découvre par hasard le temple Eikan-do Zenrin-ji et son très beau jardin japonais avec étang. Je poursuis ensuite vers le petit sanctuaire Otoyo Shrine, niché au pied de la forêt. À partir de là, j’emprunte le célèbre Philosopher’s Path, un long chemin paisible qui suit un canal bordé d’arbres et de temples, jusqu’au Ginkaku-ji, le Silver Pavilion. La journée se termine par un burger chez Daruma Burger, où je fais la rencontre de Lian, un Canadien d’origine chinoise, avec qui je discute longuement avant qu’il ne parte prendre son train pour Osaka.',
+  bullets: [
+    'Temple Nanzen-ji et son aqueduc',
+    'Eikan-do Zenrin-ji et jardin japonais',
+    'Philosopher’s Path jusqu’au Ginkaku-ji',
+    'Rencontre avec Lian au Daruma Burger'
+  ]
 }
 
       
@@ -5597,6 +5609,60 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Jardin',
   description: "Jardin paysager historique du château de Nijō conçu au XVIIe siècle, célèbre pour ses rochers décoratifs et son étang central.",
   emoji: '🌿'
+},
+{
+  id: 'm287',
+  lat: 35.011573,
+  lng: 135.794559,
+  title: 'Nanzen-ji',
+  category: 'Temple',
+  description: "Grand temple zen entouré de nature avec un célèbre aqueduc en briques traversant le complexe. L’un des temples les plus importants de Kyoto.",
+  emoji: '🛕'
+},
+{
+  id: 'm288',
+  lat: 35.008806,
+  lng: 135.792430,
+  title: 'Eikan-dō Zenrin-ji',
+  category: 'Temple',
+  description: "Temple bouddhiste célèbre pour ses magnifiques jardins et son étang. Particulièrement réputé à l’automne pour ses érables rouges.",
+  emoji: '🛕'
+},
+{
+  id: 'm289',
+  lat: 35.012896,
+  lng: 135.800641,
+  title: 'Otoyo Shrine',
+  category: 'Sanctuaire',
+  description: "Petit sanctuaire discret situé au pied des collines de l’est de Kyoto, connu pour ses statues de souris gardiennes.",
+  emoji: '⛩️'
+},
+{
+  id: 'm290',
+  lat: 35.019054,
+  lng: 135.795347,
+  title: "Philosopher's Path",
+  category: 'Nature',
+  description: "Chemin piétonnier longeant un canal bordé de cerisiers. Très agréable pour se promener entre temples et quartiers résidentiels.",
+  emoji: '🌸'
+},
+{
+  id: 'm291',
+  lat: 35.027189,
+  lng: 135.798204,
+  title: 'Ginkaku-ji',
+  category: 'Temple',
+  description: "Temple du Pavillon d’Argent entouré de magnifiques jardins de sable et de mousse. L’un des sites historiques majeurs de Kyoto.",
+  emoji: '🏯'
+},
+{
+  id: 'm292',
+  lat: 35.025584,
+  lng: 135.797963,
+  title: 'Daruma Burger',
+  category: 'Restaurant',
+  description: "Petit restaurant de burgers artisanaux près du Ginkaku-ji, connu pour ses burgers généreux et son ambiance décontractée.",
+  emoji: '🍔'
 }
 
 
@@ -6537,6 +6603,35 @@ L’exposition présentait un groupe d’artistes japonais qui ont cherché à c
 
 Balade avant de rentrer à l’auberge le long de la promenade de la rivière Kamo-Gawa.`,
   mood: 'Château de Nijō et art moderne à Kyoto'
+},
+{
+  id: 'j30',
+  day: 31,
+  title: 'Temples, chemin de la philosophie et rencontres',
+  excerpt: `Je commence la journée en me rendant au Nanzen-ji, un temple historique situé au milieu de la nature. L’endroit est paisible : beaucoup de verdure, un canal qui traverse le site et un grand aqueduc en pierre.
+
+En continuant à marcher, je tombe un peu par hasard sur un autre temple : Eikan-do Zenrin-ji. Ce temple possède un très beau jardin japonais avec un étang.
+
+Je me dirige ensuite vers un petit sanctuaire caché au pied de la forêt qui borde Kyoto : Otoyo Shrine.
+
+À partir de là, j’arrive naturellement sur le célèbre Philosopher's Path (le chemin de la philosophie). C’est un long chemin qui suit un petit canal bordé d’arbres et de temples.
+
+Après avoir atteint la fin du chemin, j’arrive juste à côté du Ginkaku-ji (Silver Pavilion).
+
+C’est un temple assez célèbre à Kyoto et beaucoup de voyageurs viennent le voir. Personnellement, je ne l’ai pas trouvé incroyable. Le jardin reste très beau, surtout avec la mousse verte présente un peu partout qui donne beaucoup de charme à l’endroit.
+
+Sur le chemin du retour, je reprends à nouveau le Philosopher's Path. À un moment, je croise une dame qui, sans que je comprenne vraiment pourquoi, me fait une sorte de bénédiction. Ça a duré peut-être deux minutes. L’interaction était un peu étrange… mais en même temps très zen.
+
+En fin de journée, Alice devait manger avec moi, mais elle ne se sentait pas très bien. Je me dirige alors vers un restaurant de gyozas, mais il y avait au moins une heure d’attente, donc je change de plan et je vais manger chez Daruma Burger.
+
+C’est là que je rencontre Lian, un Canadien d’origine chinoise. Il commence la discussion et petit à petit on se met à parler de plein de choses. On s’entend bien.
+
+Je pensais continuer la soirée avec lui à discuter encore un peu, mais il devait prendre un train pour Osaka.
+
+Je termine donc tranquillement mon burger et ma bière. Et juste avant de partir, un autre homme me donne la sienne parce qu’il devait s’en aller.
+
+Je me suis donc retrouvé seul avec deux bières, mais c’était quand même un très bon moment.`,
+  mood: 'Temples, jardins, chemin de la philosophie et rencontres'
 },
 
 
