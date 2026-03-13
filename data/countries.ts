@@ -5680,6 +5680,96 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   description: "Petit restaurant de burgers artisanaux près du Ginkaku-ji, connu pour ses burgers généreux et son ambiance décontractée.",
   emoji: '🍔'
 },
+{
+  id: 'm293',
+  lat: 34.987270,
+  lng: 135.772669,
+  title: 'Sanjūsangen-dō',
+  category: 'Temple',
+  description: "Temple bouddhiste célèbre pour sa longue salle principale abritant 1001 statues de Kannon, déesse de la compassion.",
+  emoji: '🛕'
+},
+{
+  id: 'm294',
+  lat: 34.989588,
+  lng: 135.773438,
+  title: 'Kyoto National Museum',
+  category: 'Musée',
+  description: "Grand musée consacré à l’art et à l’histoire du Japon avec de nombreuses pièces historiques et expositions temporaires.",
+  emoji: '🏛️'
+},
+{
+  id: 'm295',
+  lat: 34.996965,
+  lng: 135.778599,
+  title: 'Mimizuka',
+  category: 'Monument',
+  description: "Monument historique datant de l’époque de Toyotomi Hideyoshi, contenant des vestiges rapportés des invasions de la Corée au XVIe siècle.",
+  emoji: '🪦'
+},
+{
+  id: 'm296',
+  lat: 34.998799,
+  lng: 135.779218,
+  title: 'Rokuharamitsu-ji',
+  category: 'Temple',
+  description: "Temple bouddhiste fondé au Xe siècle, connu pour ses statues importantes du bouddhisme japonais.",
+  emoji: '🛕'
+},
+{
+  id: 'm297',
+  lat: 35.003663,
+  lng: 135.780282,
+  title: 'Maruyama Park',
+  category: 'Parc',
+  description: "Parc populaire situé à côté du sanctuaire Yasaka, célèbre pour ses cerisiers et son ambiance animée au printemps.",
+  emoji: '🌸'
+},
+{
+  id: 'm298',
+  lat: 35.003713,
+  lng: 135.778781,
+  title: 'Yasaka Shrine',
+  category: 'Sanctuaire',
+  description: "Grand sanctuaire shinto situé à l’entrée du quartier de Gion, célèbre pour ses lanternes et le festival Gion Matsuri.",
+  emoji: '⛩️'
+},
+{
+  id: 'm299',
+  lat: 35.001888,
+  lng: 135.782304,
+  title: 'Chōraku-ji',
+  category: 'Temple',
+  description: "Temple paisible situé sur les hauteurs de Maruyama Park, entouré d’arbres et offrant une atmosphère calme.",
+  emoji: '🛕'
+},
+{
+  id: 'm300',
+  lat: 34.999976,
+  lng: 135.783918,
+  title: 'Ōtani Sōbyō',
+  category: 'Temple',
+  description: "Mausolée impressionnant appartenant à l’école bouddhiste Jōdo Shinshū avec un grand escalier monumental.",
+  emoji: '🛕'
+},
+{
+  id: 'm301',
+  lat: 35.000529,
+  lng: 135.781105,
+  title: 'Kōdai-ji',
+  category: 'Temple',
+  description: "Temple zen fondé au XVIIe siècle par la veuve de Toyotomi Hideyoshi, célèbre pour ses jardins et ses érables.",
+  emoji: '🌿'
+},
+{
+  id: 'm302',
+  lat: 35.002126,
+  lng: 135.781221,
+  title: 'Higashiyama',
+  category: 'Quartier historique',
+  description: "Quartier traditionnel de Kyoto avec ruelles pavées, maisons anciennes, temples et nombreuses boutiques artisanales.",
+  emoji: '🏮'
+}
 
 
 
