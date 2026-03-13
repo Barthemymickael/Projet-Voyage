@@ -4586,7 +4586,9 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Eikan-do Zenrin-ji et jardin japonais',
     'Philosopher’s Path jusqu’au Ginkaku-ji',
     'Rencontre avec Lian au Daruma Burger'
-  ]
+  ],
+  video: 'https://youtu.be/cKvZzLOoJWo'
+
 },
 {
   id: 't32',
