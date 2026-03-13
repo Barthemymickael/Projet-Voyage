@@ -6610,7 +6610,7 @@ Balade avant de rentrer à l’auberge le long de la promenade de la rivière Ka
   title: 'Temples, chemin de la philosophie et rencontres',
   excerpt: `Je commence la journée en me rendant au Nanzen-ji, un temple historique situé au milieu de la nature. L’endroit est paisible : beaucoup de verdure, un canal qui traverse le site et un grand aqueduc en pierre.
 
-En continuant à marcher, je tombe un peu par hasard sur un autre temple : Eikan-do Zenrin-ji. Ce temple possède un très beau jardin japonais avec un étang.
+En continuant de marcher, je tombe un peu par hasard sur un autre temple : Eikan-do Zenrin-ji. Ce temple possède un très beau jardin japonais avec un étang.
 
 Je me dirige ensuite vers un petit sanctuaire caché au pied de la forêt qui borde Kyoto : Otoyo Shrine.
 
