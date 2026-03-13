@@ -4587,6 +4587,22 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Philosopher’s Path jusqu’au Ginkaku-ji',
     'Rencontre avec Lian au Daruma Burger'
   ]
+},
+{
+  id: 't32',
+  date: 'Jour 32 (18 208 pas)',
+  title: 'Plusieurs temples et Kyoto National Museum',
+  description:
+    'Journée nuageuse passée entre temples, musée et balade dans l’est de Kyoto. Après la visite de Sanjūsangen-dō, je me réfugie au Kyoto National Museum avant de continuer la journée en explorant plusieurs temples et parcs autour de Higashiyama.',
+  bullets: [
+    'Sanjūsangen-dō et ses 1001 statues de Kannon',
+    'Kyoto National Museum',
+    'Monument Mimizuka et Rokuharamitsu-ji',
+    'Temple Rokuharamitsu-ji',
+    'Maruyama Park et Yasaka Shrine',
+    'Temple Chōraku-ji et Ōtani Sobyo',
+    'Temple Kōdai-ji et sa petite forêt de bambous'
+  ]
 }
 
       
@@ -5663,7 +5679,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Restaurant',
   description: "Petit restaurant de burgers artisanaux près du Ginkaku-ji, connu pour ses burgers généreux et son ambiance décontractée.",
   emoji: '🍔'
-}
+},
+
 
 
 
@@ -6633,7 +6650,33 @@ Je termine donc tranquillement mon burger et ma bière. Et juste avant de partir
 Je me suis donc retrouvé seul avec deux bières, mais c’était quand même un très bon moment.`,
   mood: 'Temples, jardins, chemin de la philosophie et rencontres'
 },
+{
+  id: 'j32',
+  day: 32,
+  title: 'Plusieurs temples et Kyoto National Museum',
+  excerpt: `Départ en début d’après-midi en direction du temple Sanjūsangen-dō : le temple aux 1001 statues de Kannon, la déesse bouddhiste de la compassion. Le lieu servait aussi autrefois de site de compétition de tir à l’arc, avec une épreuve appelée Tōshiya, où les archers tentaient de tirer le plus de flèches possible sur toute la longueur du bâtiment, soit environ 120 mètres.
 
+La journée étant nuageuse, avec quelques petites gouttes de pluie, je décide finalement de me diriger vers le Kyoto National Museum, situé à seulement deux minutes du temple.
+
+Le musée est vraiment hyper intéressant. On passe de la céramique traditionnelle à l’art du katana, puis à des statues de Bouddha. L’architecture du lieu est aussi très réussie : lumière tamisée, grandes salles, et des explications claires en anglais (le musée est l’un des quatre grands musées nationaux du Japon et conserve beaucoup d’objets liés à l’histoire culturelle et religieuse de Kyoto).
+
+En continuant ma marche, je passe rapidement devant le monument peu connu Mimizuka puis par le temple Rokuharamitsu-ji.
+
+En regardant bien la carte, je me dis que ce serait sympa d’aller me balader dans Maruyama Park, juste à côté du Yasaka Shrine.
+
+Je découvre le parc tranquillement, puis en marchant vers une partie plus reculée je tombe sur le temple Chōraku-ji.
+
+Il n’y a pas de guichet pour entrer, seulement une petite boîte de confiance où les visiteurs sont censés laisser une contribution.
+
+L’endroit est très calme. Je suis seul, avec le silence autour de moi. Il y a une petite forêt de bambous et un cimetière. Je m’en rends vraiment compte en montant les marches un peu plus loin… du coup je fais demi-tour pour revenir vers le parc.
+
+Et par total hasard, en sortant d’un petit temple, Ōtani Sobyo, je me retrouve juste devant l’entrée du Kōdai-ji.
+
+Le temple Kōdai-ji est sympa à visiter en fin de journée. Le parcours est agréable, les jardins sont jolis sans être incroyables, mais la visite se termine par une petite forêt de bambous.
+
+Je rentre ensuite tranquillement à l’auberge en traversant les ruelles du quartier iconique de Higashiyama.`,
+  mood: 'Plusierus temples et Kyoto National Museum'
+},
 
 
 
