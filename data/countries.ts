@@ -4580,7 +4580,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   date: 'Jour 31 (28 327 pas)',
   title: 'Temples, chemin de la philosophie et rencontres',
   description:
-    'Je commence la journée au Nanzen-ji, un grand temple entouré de nature, connu pour son impressionnant aqueduc en pierre et le canal de Biwa qui passe par la. En continuant ma marche, je découvre par hasard le temple Eikan-do Zenrin-ji et son très beau jardin japonais avec étang. Je poursuis ensuite vers le petit sanctuaire Otoyo Shrine, niché au pied de la forêt. À partir de là, j’emprunte le célèbre Philosopher’s Path, un long chemin paisible qui suit un canal bordé d’arbres et de temples, jusqu’au Ginkaku-ji, le Silver Pavilion. La journée se termine par un burger chez Daruma Burger, où je fais la rencontre de Lian, un Canadien d’origine chinoise, avec qui je discute longuement avant qu’il ne parte prendre son train pour Osaka.',
+    'Je commence la journée au Nanzen-ji, un grand temple entouré de nature, connu pour son  aqueduc en pierre et le canal de Biwa qui passe par la. Je découvre par hasard le temple Eikan-do Zenrin-ji. Je poursuis ensuite vers le petit sanctuaire Otoyo Shrine, niché au pied de la forêt. À partir de là, j’emprunte le célèbre Philosopher’s Path, jusqu’au Ginkaku-ji, le Silver Pavilion. La journée se termine par un burger chez Daruma Burger, où je fais la rencontre de Lian, un Canadien d’origine chinoise, avec qui je discute longuement avant qu’il ne parte prendre son train pour Osaka.',
   bullets: [
     'Temple Nanzen-ji et son aqueduc',
     'Eikan-do Zenrin-ji et jardin japonais',
@@ -4604,7 +4604,9 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Maruyama Park et Yasaka Shrine',
     'Temple Chōraku-ji et Ōtani Sobyo',
     'Temple Kōdai-ji et sa petite forêt de bambous'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/dP75Rs5VNjQ?si=0evCo5r620rg0BG2'
+
 }
 
       
