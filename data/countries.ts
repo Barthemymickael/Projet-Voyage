@@ -4615,8 +4615,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   bullets: [
     'Visite du musée de Miho',
     'Matcha latte au Pine View Tea Room'
-  ]
-
+  ],
+  video: 'https://youtube.com/shorts/bKKU6ZTtAU8?si=owNOkg6xqLLwRLVN'
 }
 
       
