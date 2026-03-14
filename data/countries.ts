@@ -6769,7 +6769,7 @@ Et par total hasard, en sortant d’un petit temple, Ōtani Sobyo, je me retrouv
 Le temple Kōdai-ji est sympa à visiter en fin de journée. Le parcours est agréable, les jardins sont jolis sans être incroyables, mais la visite se termine par une petite forêt de bambous.
 
 Je rentre ensuite tranquillement à l’auberge en traversant les ruelles du quartier iconique de Higashiyama.`,
-  mood: 'Plusierus temples et Kyoto National Museum'
+  mood: 'Plusieurs temples et Kyoto National Museum'
 },
 
 
