@@ -4588,11 +4588,10 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Rencontre avec Lian au Daruma Burger'
   ],
   video: 'https://youtu.be/cKvZzLOoJWo'
-
 },
 {
   id: 't32',
-  date: 'Jour 32 (18 208 pas)',
+  date: 'Jour 32 (19 206 pas)',
   title: 'Plusieurs temples et Kyoto National Museum',
   description:
     'Journée nuageuse passée entre temples, musée et balade dans l’est de Kyoto. Après la visite de Sanjūsangen-dō, je me réfugie au Kyoto National Museum avant de continuer la journée en explorant plusieurs temples et parcs autour de Higashiyama.',
@@ -4606,6 +4605,17 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Temple Kōdai-ji et sa petite forêt de bambous'
   ],
   video: 'https://youtube.com/shorts/dP75Rs5VNjQ?si=0evCo5r620rg0BG2'
+},
+{
+  id: 't33',
+  date: 'Jour 33 (11 784 pas)',
+  title: 'Excursion au Miho Museum',
+  description:
+    'Visite du Miho Museum, un musée spectaculaire perdu en pleine nature. Entre architecture impressionnante, collections antiques et vue sur les montagnes.',
+  bullets: [
+    'Visite du musée de Miho',
+    'Matcha latte au Pine View Tea Room'
+  ]
 
 }
 
@@ -5773,6 +5783,15 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Quartier historique',
   description: "Quartier traditionnel de Kyoto avec ruelles pavées, maisons anciennes, temples et nombreuses boutiques artisanales.",
   emoji: '🏮'
+},
+{
+  id: 'm303',
+  lat: 34.91489477865035,
+  lng: 136.01621194385535,
+  title: 'Musée Miho',
+  category: 'Musée',
+  description: "Musée perdu dans les montagnes conçu par l’architecte I.M. Pei. Il présente des expositions temporaires consacrées à des objets d’art anciens et des antiquités provenant de différentes civilisations.",
+  emoji: '🏛️'
 }
 
 
@@ -6770,6 +6789,39 @@ Le temple Kōdai-ji est sympa à visiter en fin de journée. Le parcours est agr
 
 Je rentre ensuite tranquillement à l’auberge en traversant les ruelles du quartier iconique de Higashiyama.`,
   mood: 'Plusieurs temples et Kyoto National Museum'
+},
+{
+  id: 'j33',
+  day: 33,
+  title: 'Excursion au Miho Museum',
+  excerpt: `Il y a quelques semaines, je m’étais amusé à utiliser Google Maps pour zoomer sur quelques activités intéressantes à faire dans le Kansai (la région où se trouvent Kyoto, Osaka et Nara).
+
+Et je suis tombé sur la fiche du Miho Museum, qui était marqué comme « fermé temporairement ». En effet, sa période d’ouverture oscille généralement entre mars et juin, puis de mi-juillet à mi-août, et enfin entre novembre et décembre selon les années.
+
+Nous sommes le 14 mars, premier jour d’ouverture du musée depuis la fermeture de décembre 2025.
+J’ai donc mis mon réveil assez tôt, pris le métro, puis un train, puis un long bus et me voici au Miho Museum après environ 2 heures de transport.
+
+C’est un musée complètement, mais vraiment complètement perdu dans les montagnes. Sur le site officiel, on peut lire qu’il est « niché au cœur de la beauté naturelle et abondante des montagnes de Shigaraki », et je crois bien que c’est la première fois que je vois un musée aussi éloigné de tout.
+
+Avant de rentrer dans le musée, on passe par un long tunnel aménagé, éclairé tout du long, avec seulement une petite voiture de golf qui fait quelques allers-retours pour venir chercher les visiteurs.
+
+Arrivé devant le bâtiment, on voit vraiment que l’architecture du lieu est impressionnante. C’est ni plus ni moins que l’architecte de la pyramide du Louvre à Paris, I. M. Pei, qui l’a conçu. (Oui, j’ai été assez surpris au début, puis finalement pas tant que ça : en y réfléchissant, on retrouve clairement les formes géométriques et triangulaires caractéristiques de son style, avec beaucoup de verre.)
+
+Le musée a ouvert en 1997 et une grande partie de la structure est construite directement dans la montagne, ce qui permet de préserver le paysage naturel autour selon les mots de l’architecte.
+
+Le musée est divisé en trois sections : l’aile nord, l’aile sud et un niveau souterrain, avec des expositions consacrées à des objets de collection venant d’Asie de l’Ouest, d’Égypte, de Chine ainsi que de la Grèce et de la Rome antique.
+
+J’ai particulièrement aimé l’exposition temporaire de l’aile nord : Tales of Ancient Gold.
+
+Assez impressionnant de voir comment l’or était trouvé puis utilisé pour fabriquer des objets. Impressionnant aussi de voir la précision au millimètre près de certains bijoux datant des premiers siècles après J.-C., avec des techniques de travail du métal déjà extrêmement avancées.
+
+Pour clôturer la journée, j’ai pris un matcha latte dans le salon de thé à l’intérieur du musée : Pine View Tea Room.
+L’endroit était assez chic, avec une belle vue sur les montagnes, mais surtout avec la lumière du soleil qui venait directement taper sur les grandes vitres du bâtiment.
+
+J’ai ensuite pris quelques photos et vidéos du lieu. J’ai aussi demandé à quelques personnes de me prendre en photo, puis attendu une bonne demi-heure pour le bus du retour (il y a environ un bus par heure, généralement entre 9h et 16h, donc il ne faut vraiment pas le rater).
+
+Superbe journée, magnifique découverte. C’est dans ce genre de moment que j’apprécie pleinement mon voyage : 4 heures de transport certes, mais une découverte unique, loin des lieux ultra touristiques et surtout perdu en pleine nature comme ça. J’adore.`,
+  mood: 'Excursion au Miho Museum'
 },
 
 
