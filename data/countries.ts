@@ -5837,6 +5837,33 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Arcade',
   description: "Grande salle d’arcade japonaise où je passe la soirée avec Liron et Itay, avec jeux d’arcade, fléchettes et autres attractions.",
   emoji: '🎮'
+},
+{
+  id: 'm306',
+  lat: 34.967700517336944,
+  lng: 135.77918826717118,
+  title: 'Sanctuaire Fushimi Inari Taisha',
+  category: 'Sanctuaire',
+  description: "Longue balade à travers les célèbres torii rouges du sanctuaire, avec une ambiance ultra japonaise très Miyazaki.",
+  emoji: '⛩️'
+},
+{
+  id: 'm307',
+  lat: 34.97602936838391,
+  lng: 135.7737613555147,
+  title: 'Temple Tōfuku-ji',
+  category: 'Temple',
+  description: "Grand temple bouddhiste fondé en 1236, célèbre pour ses jardins zen et ses magnifiques couleurs en automne.",
+  emoji: '🏯'
+},
+{
+  id: 'm308',
+  lat: 35.015988313755386,
+  lng: 135.7824289788298,
+  title: 'Sanctuaire Heian-jingū',
+  category: 'Sanctuaire',
+  description: "Sanctuaire shinto entouré d’un immense jardin japonais. L’un des plus beaux jardins que j’ai pu visiter, avec étangs, ponts et quelques sakura.",
+  emoji: '🌿'
 }
 
 
