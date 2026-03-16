@@ -4608,7 +4608,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't33',
-  date: 'Jour 33 (11 784 pas)',
+  date: 'Jour 33 (12 657 pas)',
   title: 'Excursion au Miho Museum',
   description:
     'Visite du Miho Museum, un musée spectaculaire perdu en pleine nature. Entre architecture impressionnante, collections antiques et vue sur les montagnes.',
@@ -4617,6 +4617,19 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Matcha latte au Pine View Tea Room'
   ],
   video: 'https://youtube.com/shorts/bKKU6ZTtAU8?si=owNOkg6xqLLwRLVN'
+},
+{
+  id: 't34',
+  date: 'Jour 34 (19 878 pas)',
+  title: 'Manga Museum et soirée improvisée',
+  description:
+    'Journée tranquille au Kyoto International Manga Museum avant une longue balade dans les jardins impériaux de Kyoto. La soirée prend finalement une tournure inattendue après une rencontre à l’auberge qui se transforme en nuit de discussions, de jeux et de bières dans la ville.',
+  bullets: [
+    'Visite du Kyoto International Manga Museum',
+    'Lecture du premier tome de Naruto',
+    'Balade dans les Kyoto Imperial Palace Gardens',
+    'Rencontre et soirée avec Liron et Itay ',
+  ]
 }
 
       
@@ -6823,7 +6836,59 @@ J’ai ensuite pris quelques photos et vidéos du lieu. J’ai aussi demandé à
 Superbe journée, magnifique découverte. C’est dans ce genre de moment que j’apprécie pleinement mon voyage : 4 heures de transport certes, mais une découverte unique, loin des lieux ultra touristiques et surtout perdu en pleine nature comme ça. J’adore.`,
   mood: 'Excursion au Miho Museum'
 },
+{
+  id: 'j34',
+  day: 34,
+  title: 'Kyoto International Manga Museum et soirée improvisée',
+  excerpt: `Journée plus chill aujourd’hui : visite du Kyoto International Manga Museum, qui possède pas moins de 300 000 objets liés à la culture du manga.
 
+Exposition hyper intéressante sur les débuts du manga : qu’est-ce qu’un manga, comment ce format s’est développé au Japon puis comment il s’est exporté dans le monde. Différence shōnen / shōjo, etc.
+
+Le lieu est en lui-même assez original : c’est une ancienne école primaire reconvertie en musée. Chaque couloir et chaque ancienne salle de classe ont été transformés en espaces de lecture. Les murs sont recouverts de longues étagères remplies de mangas.
+
+Il y a même une terrasse et un jardin en herbe synthétique où l’on peut se poser au soleil pour lire toute la journée.
+
+Certaines sections proposent aussi une sélection de mangas dans plusieurs langues étrangères pour les visiteurs.
+
+Je me suis donc posé pendant presque une heure à lire et finir le premier tome de Naruto, découvert il y a quelques années en animé avec la série Naruto. Aujourd’hui, j’ai découvert son manga et redécouvert l’histoire principale.
+
+Même si j’ai pris l’un des mangas les plus connus au monde, j’ai quand même aimé parcourir les rayons et lire les quatrièmes de couverture ou observer les dessins de mangas comme Nana, Berserk, Cobra, Thermae Romae ou encore One-Punch Man, ainsi que plein d’autres références dont je ne connaissais même pas la traduction française.
+
+Je finis l’après-midi par une longue balade dans les Kyoto Imperial Palace Gardens, entre les cerisiers blancs et roses déjà en floraison. Le pic du sakura est prévu dans une quinzaine de jours, mais les couleurs sont déjà très belles et les arbres commencent à être bien fleuris.
+
+Lecture en début de soirée dans la salle commune de l’auberge.
+
+Puis, en allant me coucher (et en passant par la case pipi), je croise Liron qui me demande si je connais un bar sympa ici à Kyoto. Je lui réponds en anglais :
+« Non, tu sais ça fait quelques jours que je suis ici et je n’ai pas eu l’occasion de tester les bars, désolé. »
+
+Je ferme la porte des toilettes et je me dis :
+« Mais merde… je ne suis même pas foutu de continuer la discussion. Je stoppe net avec un “désolé”. Quel con. »
+
+Alors je prends une décision ultra rapide : tenter de la rattraper pour lui proposer de l’accompagner trouver un bar.
+
+Je descends au rez-de-chaussée et, par chance, elle était assise sur les fauteuils de l’entrée.
+
+C’est comme ça que je me suis présenté, puis que j’ai fait la connaissance de son ami Itay.
+
+Nous avons passé la soirée tous les trois et une bonne partie de la nuit à boire quelques bières japonaises dans la rue. Puis nous avons fait un arrêt pendant une heure dans un Round1, une grande salle d’arcade avec plein de jeux différents. Nous avons joué aux fléchettes et à d’autres petits jeux.
+
+Nous avons ensuite rencontré des Espagnols de Barcelone, ce qui m’a permis de reparler en espagnol (qui est toujours aussi bon, je dois dire).
+
+Vers 2 h du matin, nous avons discuté longuement dans un McDonald's avant de nous séparer.
+
+Itay est parti dans une autre auberge, et Liron et moi sommes retournés dans la nôtre. Je l’ai remerciée pour cette soirée et lui ai dit de venir visiter Paris un jour.
+
+Bref, c’était ma première vraie soirée festive au Japon, et même ma première soirée tout court depuis plus de quatre mois de voyage.
+
+Comme si on se connaissait depuis longtemps, on n’a pas arrêté de rire, de blaguer et de boire ensemble.
+
+Pour conclure, si je n’avais pas eu l’audace de sortir de ma zone de confort, je me serais certainement couché à 21 h et j’aurais sûrement passé quelques heures sur les réseaux sociaux avant de trouver le sommeil.
+
+Merveilleuse rencontre, merveilleuse soirée.
+
+Mode Yes Life un peu.`,
+  mood: 'Kyoto International Manga Museum et soirée improvisée'
+},
 
 
 
