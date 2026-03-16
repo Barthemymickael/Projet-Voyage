@@ -5805,6 +5805,24 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Musée',
   description: "Musée perdu dans les montagnes conçu par l’architecte I.M. Pei. Il présente des expositions temporaires consacrées à des objets d’art anciens et des antiquités provenant de différentes civilisations.",
   emoji: '🏛️'
+},
+{
+  id: 'm304',
+  lat: 35.01186441031329,
+  lng: 135.75941820645087,
+  title: 'Kyoto International Manga Museum',
+  category: 'Musée',
+  description: "Musée hyper intéressant consacré à la culture du manga avec plus de 300 000 objets liés au manga. Installé dans une ancienne école, chaque salle et couloir est rempli d’étagères de mangas à lire librement.",
+  emoji: '🏛️'
+},
+{
+  id: 'm305',
+  lat: 35.006957328149745,
+  lng: 135.76858966839598,
+  title: 'Round1',
+  category: 'Arcade',
+  description: "Grande salle d’arcade japonaise où je passe la soirée avec Liron et Itay, avec jeux d’arcade, fléchettes et autres attractions.",
+  emoji: '🎮'
 }
 
 
