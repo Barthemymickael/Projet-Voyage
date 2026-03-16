@@ -6234,7 +6234,31 @@ J’entre dans cette exposition et c’est en fait un décor de la série qui re
 
 Je finis par une balade autour du château d’Osaka, où je me pose devant une fontaine avant de rentrer à pied jusqu’à mon logement.
 
-Google Maps me fait passer par le centre commercial Abeno Q’s Mall, et je reste perdu pendant 5 à 10 minutes à vouloir trouver la bonne sortie.`,
+Google Maps me fait passer par le centre commercial Abeno Q’s Mall, et je reste perdu pendant 5 à 10 minutes à vouloir trouver la bonne sortie.
+
+Puis sur le chemin, je vois un couple qui se mettent sur la pointe des pieds pour regarder par-dessus un mur. Ils observent une longue allée.
+
+Des escaliers sont présents des deux côtés du mur, donc je décide d’y passer pour voir ce qu’il y a derrière, car de ce que je peux apercevoir, le quartier a l’air mignon.
+
+J’aperçois alors cette longue allée avec des lanternes et des lumières roses qui sortent d’une trentaine de maisons.
+
+Et j’ai très vite compris où j’avais mis les pieds : c’était le quartier rouge d’Osaka, Tobita Shinchi.
+
+Il est 19 h, et il y a plusieurs jeunes hommes dans les rues. Et pendant tout le long des allées, les hommes se font accoster par les mères maquerelles.
+
+Pour expliquer et bien visualiser la scène : dans chaque petite maison à l’entrée ouverte, il y a une mère maquerelle assise sur une chaise à l’intérieur. Elle appelle le client, et au milieu, sur un tatami avec coussins et produits de beauté, se trouve la prostituée.
+
+Et étonnamment, le lieu est surveillé par la police : à chaque entrée du quartier, un policier est posté.
+
+En effet, après quelques recherches, la technique est légale au Japon, car il est officiellement question de « rencontre fortuite » plutôt que de relation tarifée.
+
+Je vois même un jeune homme, sac à dos sur les épaules, entrer dans l’une de ces maisons closes.
+
+Et pendant les 20 minutes du trajet pour rentrer à l’appart, j’ai eu un sentiment bizarre. C’est quand même fou de voir autant de jeunes filles (maximum 25 ans), presque nues, exercer la prostitution de manière aussi ouverte.
+
+Très loin de l’image que j’avais en tête, celle de la prostituée d’une quarantaine d’années faisant le tapin au coin d’une rue en France.
+
+Ici, tout est mis en scène, presque comme dans un supermarché où le client fait son choix.`,
   mood: 'Musée de l’histoire d’Osaka et balade dans le parc du château d’Osaka'
 },
 {
