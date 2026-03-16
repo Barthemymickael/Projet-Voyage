@@ -4629,7 +4629,9 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Lecture du premier tome de Naruto',
     'Balade dans les Kyoto Imperial Palace Gardens',
     'Rencontre et soirée avec Liron et Itay ',
-  ]
+  ],
+  video: 'https://youtube.com/shorts/FxB653FmsPo?si=WUQBsHhBTaqaOICY'
+
 }
 
       
