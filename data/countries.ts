@@ -4631,7 +4631,19 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Rencontre et soirée avec Liron et Itay ',
   ],
   video: 'https://youtube.com/shorts/FxB653FmsPo?si=WUQBsHhBTaqaOICY'
-
+},
+{
+  id: 't35',
+  date: 'Jour 35 (20 565 pas)',
+  title: 'Fushimi Inari et jardins du sanctuaire Heian',
+  description:
+    "Après la soirée d'hier soir, je pars découvrir le célèbre sanctuaire Fushimi Inari et ses milliers de torii rouges. En m’éloignant de la foule, la balade devient beaucoup plus calme. La journée se termine paisiblement dans les magnifiques jardins du sanctuaire Heian.",
+  bullets: [
+    'Sanctuaire Fushimi Inari Taisha et ses torii rouges',
+    'Visite du temple Tōfuku-ji',
+    'Visite du sanctuaire Heian Shrine et ses jardins japonais',
+  ],
+  video: 'https://youtube.com/shorts/0OZwe8xaroA?si=N1TE2InEFmnFIDIN'
 }
 
       
@@ -6908,6 +6920,35 @@ Merveilleuse rencontre, merveilleuse soirée.
 
 Mode Yes Life un peu.`,
   mood: 'Kyoto International Manga Museum et soirée improvisée'
+},
+{
+  id: 'j35',
+  day: 35,
+  title: 'Fushimi Inari Taisha et jardins du sanctuaire Heian',
+  excerpt: `Après la soirée de cette nuit, je voulais me lever assez tôt, mais j’ai préféré rester un peu au lit pour récupérer et être bien réveillé pour la journée.
+
+Je pars donc en fin de matinée en direction du Fushimi Inari Taisha, le célèbre sanctuaire aux milliers de torii rouges.
+
+L’endroit est assez impressionnant. Au départ, c’est noir de monde : on avance en file indienne, très lentement. Mais au bout d’environ un quart du parcours (soit à peu près 15 minutes sur l’heure de marche jusqu’au sommet), la plupart des visiteurs font demi-tour au niveau de la boucle.
+
+Résultat : le chemin devient soudain beaucoup plus calme.
+
+Même en début d’après-midi, on peut alors marcher tranquillement sans personne devant ou derrière soi.
+
+C’était parfait. Je ne voulais pas que l’endroit soit bondé de touristes, et j’ai pu me balader tranquillement, complètement envoûté par le lieu. L’ambiance est très japonaise, presque comme dans un décor de film de Hayao Miyazaki.
+
+Pour le retour, j’ai choisi un petit sentier secondaire plutôt que de reprendre le chemin principal. Pendant presque 30 minutes, j’étais totalement seul : moi, la forêt, et quelques torii apparaissant de temps en temps entre les arbres.
+
+Je passe ensuite par le temple Tōfuku-ji.
+
+Et je termine la journée par la visite du Heian Shrine, où je me pose longuement dans son grand jardin japonais.
+
+C’est probablement l’un des plus beaux jardins que j’ai visités pendant mon voyage au Japon.
+
+La vue sur l’étang est magnifique : le reflet du sanctuaire dans l’eau, quelques sakura déjà légèrement fleuris, le bruit des oiseaux, et les petites ondulations à la surface de l’eau provoquées par le vent.
+
+Je me sentais bien, calme, relax… et je repensais doucement à la soirée d’hier, et à quel point j’avais passé un bon moment.`,
+  mood: 'Fushimi Inari Taisha et jardins du sanctuaire Heian'
 },
 
 
