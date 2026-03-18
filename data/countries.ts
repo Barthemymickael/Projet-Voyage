@@ -4644,7 +4644,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Visite du sanctuaire Heian Shrine et ses jardins japonais',
   ],
   video: 'https://youtube.com/shorts/0OZwe8xaroA?si=N1TE2InEFmnFIDIN'
-}
+},
 {
   id: 't36',
   date: 'Jour 36 (31 537 pas)',
