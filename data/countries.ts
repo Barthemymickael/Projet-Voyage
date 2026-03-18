@@ -4658,7 +4658,9 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Café chez Drip & Drop Coffee Supply',
     'Dîner (omurice)',
     'Rencontre avec Mihail et soirée dans Kyoto'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/KhH-9DSZmO8?si=PJO93w7zgK_g-PC7'
+
 }
 
       
