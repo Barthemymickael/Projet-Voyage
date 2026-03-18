@@ -4645,6 +4645,21 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   ],
   video: 'https://youtube.com/shorts/0OZwe8xaroA?si=N1TE2InEFmnFIDIN'
 }
+{
+  id: 't36',
+  date: 'Jour 36 (31 537 pas)',
+  title: 'Rencontres et discussions à Kyoto',
+  description:
+    'Je passe la journée avec Itay, rencontré quelques jours plus tôt, entre visites, repas et longues discussions. Entre rires, échanges sur le voyage et sujets plus profonds, la journée se prolonge le soir avec de nouvelles rencontres et une balade nocturne dans Kyoto.',
+  bullets: [
+    'Visite du Kinkaku-ji (Pavillon d’Or)',
+    'Déjeuner dans un restaurant d’udon',
+    'Balade dans les Kyoto Imperial Palace Gardens',
+    'Café chez Drip & Drop Coffee Supply',
+    'Dîner (omurice)',
+    'Rencontre avec Mihail et soirée dans Kyoto'
+  ]
+}
 
       
 
@@ -7000,6 +7015,41 @@ La vue sur l’étang est magnifique : le reflet du sanctuaire dans l’eau, que
 
 Je me sentais bien, calme, relax… et je repensais doucement à la soirée d’hier, et à quel point j’avais passé un bon moment.`,
   mood: 'Fushimi Inari Taisha et jardins du sanctuaire Heian'
+},
+{
+  id: 'j36',
+  day: 36,
+  title: 'Rencontres et discussions profondes',
+  excerpt: `Itay m’envoie un message ce matin pour savoir comment je vais. Je change mes plans pour la journée et lui propose de m’accompagner visiter le Kinkaku-ji, le célèbre Pavillon d’Or.
+
+On se rejoint vers 11h45 et on passe toute la journée ensemble.
+
+On commence par la visite du temple, que l’on survole assez rapidement car on discute beaucoup.
+
+Ensuite, on part manger dans un petit restaurant d’udon, puis on se balade dans les Kyoto Imperial Palace Gardens, avant de s’arrêter prendre un café chez Drip & Drop Coffee Supply.
+
+On termine la journée dans un restaurant d’omelette japonaise (omurice), qui était d’ailleurs vraiment très bonne.
+
+Durant la journée, j’apprends aussi à mieux connaître Itay. Il voyage lui aussi en solo depuis plusieurs mois et s’est fait pas mal d’amis en passant par le Laos, le Vietnam, la Thaïlande, la Corée du Sud et maintenant le Japon.
+
+Il ne reste jamais très longtemps dans les villes, généralement 3 à 4 jours. Il est resté 4 jours à Kyoto et prévoit de passer 3 jours à Osaka avant de repartir à Tokyo avant son retour en Israël.
+
+On a aussi beaucoup parlé de la situation dans son pays. Il m’a montré les notifications qu’il reçoit sur son téléphone, notamment des alertes liées à des bombardements venant d’Iran.
+
+Même s’il arrive parfois à tourner ça en dérision, j’ai bien senti que la situation restait préoccupante.
+
+La journée était vraiment cool. On a beaucoup ri, beaucoup discuté et appris l’un de l’autre.
+
+Le soir, on retrouve un de ses amis, Mihail, et on passe la soirée à boire des bières et à marcher dans la ville.
+
+Je discute longuement avec Mihail de sa passion pour la photographie : les différents appareils, les objectifs, les styles… c’était vraiment intéressant d’avoir son point de vue et de rentrer un peu dans ce monde-là.
+
+On a marché longtemps, en se perdant un peu dans la ville, puis on s’est séparés vers 1h du matin.
+
+J’ai alors mis mes écouteurs et profité des rues éclairées de Kyoto avant de rentrer dormir.
+
+(Content de mon niveau d’anglais)`,
+  mood: 'Rencontres et discussions profondes'
 },
 
 
