@@ -4660,6 +4660,21 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Rencontre avec Mihail et soirée dans Kyoto'
   ],
   video: 'https://youtube.com/shorts/KhH-9DSZmO8?si=PJO93w7zgK_g-PC7'
+},
+{
+  id: 't37',
+  date: 'Jour 37 (12 788 pas)',
+  title: 'Arashiyama, forêt de bambous et Monkey Park',
+  description:
+    'Direction le quartier d’Arashiyama pour une journée entre nature et balade. Si la célèbre forêt de bambous est un peu décevante, l’ambiance générale du quartier, entre rivière, montagnes et temples, rend la visite très agréable. La journée se termine tranquillement sous la pluie.',
+  bullets: [
+    'Discussion matinale avec une prof chinoise à l’auberge',
+    'Arashiyama forêt de bambous',
+    'Balade dans le quartier Arashiyama le long de la rivière',
+    'Traversée du Togetsukyo Bridge',
+    'Iwatayama Monkey Park et vue sur Kyoto'
+  ],
+  video: 'https://youtube.com/shorts/PgKwRfVvMIY?si=4hvUIAjODYP7pVPh'
 
 }
 
@@ -7052,6 +7067,33 @@ J’ai alors mis mes écouteurs et profité des rues éclairées de Kyoto avant 
 
 (Content de mon niveau d’anglais)`,
   mood: 'Rencontres et discussions profondes'
+},
+{
+  id: 'j37',
+  day: 37,
+  title: 'Quartier Arashiyama',
+  excerpt: `Avant de partir découvrir le quartier d’Arashiyama, j’ai discuté longuement avec une dame qui dort dans mon dortoir, une prof chinoise. Elle m’a posé pas mal de questions sur mon voyage, c’était cool.
+
+(Ce qui est drôle, c’est que ce matin, en me réveillant, je me suis dit : « mais bordel, qui fait du bruit comme ça ? » et en fait c’était elle… en train de mettre de la musique symphonique pendant 10–15 minutes. Bon, c’était agréable, ça m’a presque donné envie de me rendormir.)
+
+Je pars ensuite découvrir Arashiyama, connu notamment pour sa célèbre forêt de bambous, la Arashiyama Bamboo Grove.
+
+La forêt en elle-même est un peu surcotée (environ 500 mètres de chemin tout droit, beaucoup de monde, et finalement pas aussi impressionnante que ce à quoi je m’attendais, surtout après avoir déjà vu plusieurs petites forêts de bambous ces dernières semaines).
+
+Mais ce n’est clairement pas le plus intéressant du coin.
+
+C’est surtout le quartier dans son ensemble qui vaut le détour : une longue rivière, des maisons traditionnelles, et plein de petites boutiques, cafés et restaurants qui donnent une vraie ambiance paisible.
+
+Je traverse le Togetsukyo Bridge, avec une belle vue sur les montagnes autour, puis je monte vers le Iwatayama Monkey Park, situé sur les hauteurs.
+
+La pluie commence à tomber doucement, mais j’ai quand même le temps de profiter du parc pendant un bon moment. Les singes (des macaques japonais) se baladent librement autour des visiteurs, avec en plus une belle vue sur toute la ville de Kyoto depuis le sommet.
+
+Après environ 45 minutes dans ce parc, je prends le chemin du retour.
+
+L’après-midi se passe sous la pluie à Kyoto, donc j’en profite pour me reposer, regarder quelques vidéos et lire tranquillement dans la salle commune.
+
+Le soir, j’envoie un message à Itay. On a tous les deux la flemme de ressortir sous la pluie, alors je lui souhaite une bonne continuation pour la suite de son voyage et le remercie pour ces quelques jours passés ensemble.`,
+  mood: 'Arashiyama, forêt de bambous et Monkey Park'
 },
 
 
