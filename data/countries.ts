@@ -5909,6 +5909,33 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Sanctuaire',
   description: "Sanctuaire shinto entouré d’un immense jardin japonais. L’un des plus beaux jardins que j’ai pu visiter, avec étangs, ponts et quelques sakura.",
   emoji: '🌿'
+},
+{
+  id: 'm309',
+  lat: 35.01682581203592,
+  lng: 135.6712999555165,
+  title: 'Arashiyama Bamboo Grove',
+  category: 'Nature',
+  description: "Forêt de bambous très connue. Un peu surcotée et moins impressionnante que prévu, mais le quartier d’Arashiyama vaut clairement le détour.",
+  emoji: '🎋'
+},
+{
+  id: 'm310',
+  lat: 35.012880167997054,
+  lng: 135.67777345551633,
+  title: 'Togetsukyo Bridge',
+  category: 'Monument',
+  description: "Pont de 155 mètres traversant la rivière Katsura, souvent utilisé dans le cinéma japonais. Très beau avec les montagnes en arrière-plan.",
+  emoji: '🌉'
+},
+{
+  id: 'm311',
+  lat: 35.011398747160605,
+  lng: 135.67662337369805,
+  title: 'Iwatayama Monkey Park',
+  category: 'Activité',
+  description: "Parc situé sur les hauteurs d’Arashiyama avec de nombreux singes en liberté que l’on peut observer et nourrir.",
+  emoji: '🐒'
 }
 
 
