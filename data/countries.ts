@@ -4688,7 +4688,20 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Lecture à l’auberge en fin de journée'
   ],
   video: 'https://youtube.com/shorts/CruLWmpWx0A?si=fbMBgM4VNaoVtwAG'
-
+},
+{
+  id: 't39',
+  date: 'Jour 39 (21 363 pas))',
+  title: 'Dernière journée à Kyoto',
+  description:
+    'Dernier jour à Kyoto entre architecture, jardins et balade le long de la Kamo River. La journée se termine par une dernière exploration nocturne des quartiers iconiques de la ville histoire de finir en beauté',
+  bullets: [
+    'Garden of Fine Arts Kyoto',
+    'Kyoto Botanical Garden et serre tropicale',
+    'Balade le long de la Kamo River',
+    'Pontocho Alley de nuit',
+    'Quartier de Gion de nuit : Magnifique'
+  ]
 }
 
       
@@ -7176,6 +7189,41 @@ Plus je m’éloigne, moins il y a de piétons, et plus je croise principalement
 
 Je termine la journée par lire dans la salle commune avant d’aller me coucher.`,
   mood: 'Lessive, longue balade le long de la Kamo River et lecture'
+},
+{
+  id: 'j39',
+  day: 39,
+  title: 'Dernière journée à Kyoto',
+  excerpt: `Dernier jour à Kyoto.
+
+Je commence ma journée par prendre le bus pour me rendre au Garden of Fine Arts Kyoto, un endroit assez spécial avec une architecture très brute en béton. Le lieu a été conçu par l’architecte japonais Tadao Ando.
+
+Huit chefs-d’œuvre y sont reproduits sur de grands panneaux en porcelaine.
+
+Pendant les 15–20 minutes de visite, c’est sympa de se balader entre les cascades artificielles et les œuvres.
+
+Je me dirige ensuite vers le Kyoto Botanical Garden, situé juste à côté, où je passe une bonne partie de l’après-midi. Beaucoup de cerisiers en fleurs, plusieurs jardins à thème, et surtout une grande serre avec différentes ambiances : tropicale, cactus, etc.
+
+Je me pose ensuite devant une fontaine, où je profite du soleil et du bruit de l’eau pendant une bonne demi-heure.
+
+À 17h, heure de fermeture du parc, je prends le chemin du retour. Je décide de rentrer à pied en longeant la promenade de la rivière Kamo River, cette fois-ci du nord vers le sud.
+
+Et clairement, cette partie est bien plus aménagée que celle d’hier : beaucoup de bancs en bois, des espaces pour se poser, et jour férié oblige, il y a pas mal de monde.
+
+Beaucoup de jeunes sont installés près de la rivière, un peu comme les quais de Seine à Paris. Des couples qui pique-niquent, des groupes qui jouent au frisbee ou au foot, certains qui posent leur trépied pour faire des TikTok… ambiance vivante.
+
+Une fois arrivé près de l’auberge, toujours le long de la rivière, je me dis que ce serait une bonne idée d’aller me balader de nuit dans les quartiers iconiques de la ville : Pontocho Alley et évidemment Gion.
+
+Et j’ai bien fait.
+
+Pontochō est vraiment bondée, mais les lumières sont super belles. À cette heure-ci, beaucoup de familles et de touristes font la queue devant les restaurants.
+
+Ambiance totalement différente du côté de Gion : de nuit, l’atmosphère n’a rien à voir. Moins de monde, beaucoup plus calme, presque silencieux, sans le bruit constant des touristes de la journée.
+
+Je me balade pendant presque une heure, sans écouteurs, juste à profiter de l’ambiance et de ma dernière soirée ici à Kyoto.
+
+Heureux d’avoir fait ce petit tour de nuit, prêt maintenant à passer à l’étape suivante de mon voyage : Hiroshima.`,
+  mood: 'Dernière journée à Kyoto'
 },
 
 
