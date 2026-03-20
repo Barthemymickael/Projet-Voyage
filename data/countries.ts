@@ -5976,6 +5976,42 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Café',
   description: "Adresse proposant café de spécialité et bières artisanales. J’y ai pris un matcha latte avec Itay.",
   emoji: '☕'
+},
+{
+  id: 'm315',
+  lat: 35.05066370695681,
+  lng: 135.7654434671746,
+  title: 'Garden of Fine Arts Kyoto',
+  category: 'Musée',
+  description: "Musée en plein air avec reproductions d’œuvres célèbres intégrées dans une architecture moderne en béton, eau et verre.",
+  emoji: '🖼️'
+},
+{
+  id: 'm316',
+  lat: 35.0486276485022,
+  lng: 135.76303685512724,
+  title: 'Kyoto Botanical Garden',
+  category: 'Parc',
+  description: "Grand jardin botanique avec serres, fleurs saisonnières et vastes espaces verts pour se promener. Cerisiers en fleurs lors de ma viiste : Magnifique",
+  emoji: '🌿'
+},
+{
+  id: 'm317',
+  lat: 35.00394046390717,
+  lng: 135.77102981502296,
+  title: 'Pontochō Alley',
+  category: 'Quartier historique',
+  description: "Ruelle étroite et animée, remplie de restaurants et bars traditionnels avec une ambiance typiquement japonaise.",
+  emoji: '🏮'
+},
+{
+  id: 'm318',
+  lat: 34.99697503044749,
+  lng: 135.78097497636665,
+  title: 'Higashiyama',
+  category: 'Quartier historique',
+  description: "Quartier traditionnel de Kyoto avec ruelles pavées, temples, boutiques artisanales et atmosphère ancienne.",
+  emoji: '🏮'
 }
 
 
