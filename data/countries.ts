@@ -7120,8 +7120,6 @@ De ce côté-ci, la promenade n’est pas hyper aménagée : un long chemin parf
 
 Plus je m’éloigne, moins il y a de piétons, et plus je croise principalement des cyclistes, sûrement des gens qui rentrent du travail à cette heure-ci.
 
-Une ambiance simple, presque banale, mais qui fait du bien.
-
 Je termine la journée par lire dans la salle commune avant d’aller me coucher.`,
   mood: 'Lessive, longue balade le long de la Kamo River et lecture'
 },
