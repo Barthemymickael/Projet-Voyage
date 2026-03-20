@@ -5936,6 +5936,33 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Activité',
   description: "Parc situé sur les hauteurs d’Arashiyama avec de nombreux singes en liberté que l’on peut observer et nourrir.",
   emoji: '🐒'
+},
+{
+  id: 'm312',
+  lat: 35.00346821125751,
+  lng: 135.76973547102475,
+  title: 'Hokkyokusei Shijo Kawaramachi',
+  category: 'Restaurant',
+  description: "Restaurant spécialisé dans les omelettes japonaises (omurice) où je mange avec Itay.",
+  emoji: '🍳'
+},
+{
+  id: 'm313',
+  lat: 35.03937985515751,
+  lng: 135.72924711993542,
+  title: 'Kinkaku-ji',
+  category: 'Temple',
+  description: "Temple emblématique de Kyoto connu pour son Pavillon d’Or recouvert de feuilles d’or, reflété dans un étang.",
+  emoji: '🏯'
+},
+{
+  id: 'm314',
+  lat: 35.01266218326611,
+  lng: 135.76731830843372,
+  title: 'Drip & Drop Coffee Supply',
+  category: 'Café',
+  description: "Adresse proposant café de spécialité et bières artisanales. J’y ai pris un matcha latte avec Itay.",
+  emoji: '☕'
 }
 
 
