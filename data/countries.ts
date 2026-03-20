@@ -4701,7 +4701,9 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Balade le long de la Kamo River',
     'Pontocho Alley de nuit',
     'Quartier de Gion de nuit : Magnifique'
-  ]
+  ],
+  video: 'https://youtu.be/jxiSNjjZ-F4'
+
 }
 
       
