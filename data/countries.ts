@@ -4691,7 +4691,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't39',
-  date: 'Jour 39 (21 363 pas))',
+  date: 'Jour 39 (21 363 pas)',
   title: 'Dernière journée à Kyoto',
   description:
     'Dernier jour à Kyoto entre architecture, jardins et balade le long de la Kamo River. La journée se termine par une dernière exploration nocturne des quartiers iconiques de la ville histoire de finir en beauté',
