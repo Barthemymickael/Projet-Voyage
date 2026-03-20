@@ -4663,7 +4663,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't37',
-  date: 'Jour 37 (12 788 pas)',
+  date: 'Jour 37 (13 238 pas)',
   title: 'Arashiyama, forêt de bambous et Monkey Park',
   description:
     'Direction le quartier d’Arashiyama pour une journée entre nature et balade. Si la célèbre forêt de bambous est un peu décevante, l’ambiance générale du quartier, entre rivière, montagnes et temples, rend la visite très agréable. La journée se termine tranquillement sous la pluie.',
@@ -4675,6 +4675,19 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Iwatayama Monkey Park et vue sur Kyoto'
   ],
   video: 'https://youtube.com/shorts/PgKwRfVvMIY?si=4hvUIAjODYP7pVPh'
+},
+{
+  id: 't38',
+  date: 'Jour 38 (21 034 pas)',
+  title: 'Lessive, longue balade le long de la Kamo River et lecture',
+  description:
+    'Lessive, préparation du départ et longue balade le long de la Kamo River.',
+  bullets: [
+    'Lessive et préparation du sac',
+    'Longue balade le long de la Kamo River',
+    'Lecture à l’auberge en fin de journée'
+  ],
+  video: 'https://youtube.com/shorts/CruLWmpWx0A?si=fbMBgM4VNaoVtwAG'
 
 }
 
@@ -7094,6 +7107,23 @@ L’après-midi se passe sous la pluie à Kyoto, donc j’en profite pour me rep
 
 Le soir, j’envoie un message à Itay. On a tous les deux la flemme de ressortir sous la pluie, alors je lui souhaite une bonne continuation pour la suite de son voyage et le remercie pour ces quelques jours passés ensemble.`,
   mood: 'Arashiyama, forêt de bambous et Monkey Park'
+},
+{
+  id: 'j38',
+  day: 38,
+  title: 'Lessive, longue balade le long de la Kamo River et lecture',
+  excerpt: `Grasse matinée ce matin. Je profite de cet avant-dernier jour à Kyoto pour faire une lessive, préparer mon sac pour mon départ samedi matin, puis je pars faire une longue balade le long de la promenade de la rivière Kamo River, vers le sud de la ville à partir du milieu de l’après-midi.
+
+Sans but précis, juste marcher, découvrir la promenade et me remémorer ces deux semaines ici : les rencontres et toutes les activités que j’ai pu faire.
+
+De ce côté-ci, la promenade n’est pas hyper aménagée : un long chemin parfois en pierre, parfois en herbe, très axé vélo.
+
+Plus je m’éloigne, moins il y a de piétons, et plus je croise principalement des cyclistes, sûrement des gens qui rentrent du travail à cette heure-ci.
+
+Une ambiance simple, presque banale, mais qui fait du bien.
+
+Je termine la journée par lire dans la salle commune avant d’aller me coucher.`,
+  mood: 'Lessive, longue balade le long de la Kamo River et lecture'
 },
 
 
