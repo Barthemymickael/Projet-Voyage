@@ -4703,10 +4703,23 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Quartier de Gion de nuit : Magnifique'
   ],
   video: 'https://youtu.be/jxiSNjjZ-F4'
-
+},
+{
+  id: 't40',
+  date: 'Jour 40 (10 608 pas)',
+  title: 'Journée de transition Kyoto → Hiroshima',
+  description:
+    'Long trajet en bus entre Kyoto et Hiroshima, rythmé par lecture, repos et paysages de campagne. Arrivée en fin de journée et première découverte d’une nouvelle auberge avant une soirée calme.',
+  bullets: [
+    'Trajet en bus Kyoto → Hiroshima (7h)',
+    'Lecture, écriture et sieste',
+    'Paysages de campagne japonaise',
+    'Installation dans une nouvelle auberge',
+    'Balade nocturne à Hiroshima',
+    'Soirée calme et repos'
+  ]
 }
 
-      
 
     ],
     markers: [
@@ -7262,6 +7275,29 @@ Je me balade pendant presque une heure, sans écouteurs, juste à profiter de l�
 
 Heureux d’avoir fait ce petit tour de nuit, prêt maintenant à passer à l’étape suivante de mon voyage : Hiroshima.`,
   mood: 'Dernière journée à Kyoto'
+},
+{
+  id: 'j40',
+  day: 40,
+  title: 'Journée de transition Kyoto → Hiroshima',
+  excerpt: `Départ de l’auberge à 9h20. Toutes mes affaires étaient déjà prêtes, plus qu’à prendre une douche, m’habiller et partir pour rejoindre la gare de Kyoto. Sans stress.
+
+Départ à 10h50, arrivée à 18h00 à Hiroshima.
+
+Effectivement, 7 heures de bus… assez long, mais étonnamment confortable : prise USB, siège rétractable, rideaux (même pour la tête), séparation avec la personne à côté, et quatre pauses de 15 minutes sur des aires d’autoroute, dont une à Osaka.
+
+Pour 28 € et presque 375 km, je ne dis pas non.
+
+J’alterne entre lecture, écriture, sieste et contemplation du paysage : plein de villages perdus au milieu de nulle part, et beaucoup de petites montagnes.
+
+Arrivée à Hiroshima en fin d’après-midi, je découvre l’auberge de jeunesse où je vais dormir pendant une semaine.
+
+Dans l’ensemble, elle est sympa, mais un peu petite : un seul étage, pour environ 24 personnes maximum. Différente de celle de Kyoto, mais ça reste cool.
+
+Après cette longue journée, je mange rapidement, puis je me balade dans la rue principale, bien animée vers 20h.
+
+Je rentre ensuite me poser tranquillement dans la pièce commune pour écrire ces quelques mots, avant d’aller dormir vers 22h.`,
+  mood: 'Journée de transition Kyoto → Hiroshima'
 },
 
 
