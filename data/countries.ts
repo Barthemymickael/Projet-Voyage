@@ -4691,7 +4691,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't39',
-  date: 'Jour 39 (21 363 pas)',
+  date: 'Jour 39 (22 263 pas)',
   title: 'Dernière journée à Kyoto',
   description:
     'Dernier jour à Kyoto entre architecture, jardins et balade le long de la Kamo River. La journée se termine par une dernière exploration nocturne des quartiers iconiques de la ville histoire de finir en beauté',
@@ -4712,12 +4712,10 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Long trajet en bus entre Kyoto et Hiroshima, rythmé par lecture, repos et paysages de campagne. Arrivée en fin de journée et première découverte d’une nouvelle auberge avant une soirée calme.',
   bullets: [
     'Trajet en bus Kyoto → Hiroshima (7h)',
-    'Lecture, écriture et sieste',
-    'Paysages de campagne japonaise',
     'Installation dans une nouvelle auberge',
-    'Balade nocturne à Hiroshima',
-    'Soirée calme et repos'
-  ]
+    'Balade nocturne à Hiroshima'
+  ],
+  video: 'https://youtube.com/shorts/RnQf5JA7SB8?si=f1l703zQudid6gqZ'
 }
 
 
