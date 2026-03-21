@@ -6025,6 +6025,15 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Quartier historique',
   description: "Quartier traditionnel de Kyoto avec ruelles pavées, temples, boutiques artisanales et atmosphère ancienne.",
   emoji: '🏮'
+},
+{
+  id: 'm319',
+  lat: 34.3902199,
+  lng: 132.4612422,
+  title: 'Mon auberge de jeunesse à Hiroshima',
+  category: 'Logement',
+  description: "Auberge de jeunesse située en plein centre-ville d’Hiroshima, idéale pour se balader facilement et accéder rapidement aux principaux points d’intérêt.",
+  emoji: '🛏️'
 }
 
 
