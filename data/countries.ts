@@ -4716,6 +4716,19 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Balade nocturne à Hiroshima'
   ],
   video: 'https://youtube.com/shorts/RnQf5JA7SB8?si=f1l703zQudid6gqZ'
+}, 
+{
+  id: 't41',
+  date: 'Jour 41 (10 895 pas)',
+  title: "Musées d'art et jardin Shukkeien",
+  description:
+    "Première journée à Hiroshima entre musées et jardin japonais.",
+  bullets: [
+    'Hiroshima Prefectural Art Museum',
+    'Shukkeien Garden et cerisiers en fleurs',
+    'Hiroshima Museum of Art'
+  ],
+  video: 'https://youtube.com/shorts/8Mv2aYQfJR0?si=wXtSNYrz6hC9aPmU'
 }
 
 
@@ -7307,6 +7320,45 @@ Je rentre ensuite me poser tranquillement dans la pièce commune pour écrire ce
   mood: 'Journée de transition Kyoto → Hiroshima'
 },
 
+{
+  id: 'j41',
+  day: 41,
+  title: "Musées d'art et jardin Shukkeien Garden",
+  excerpt: `Première journée complète à Hiroshima.
+
+Je commence la journée en marchant tranquillement dans les rues du centre-ville, avant de me rendre au Hiroshima Prefectural Art Museum.
+
+C’est un petit musée que je visite en environ 45 minutes, avec des collections autour d’artistes de la préfecture d’Hiroshima, une section dédiée à Salvador Dalí et Max Ernst, ainsi qu’une partie consacrée au textile indien, le chintz.
+
+Au 3ᵉ étage, il y a une belle vue sur le jardin juste à côté. Je m’y pose quelques minutes avant d’aller m’y balader.
+
+Grâce au billet du musée, on peut accéder au Shukkeien Garden.
+
+Le jardin est vraiment très joli. Il date de 1620, mais il a été presque entièrement détruit par la bombe atomique. Un seul arbre a survécu, et il est encore là aujourd’hui, légèrement penché.
+
+Avec les cerisiers en fleurs, l’étang, les petits ponts et les espaces pour s’asseoir, l’endroit est parfait pour se poser, observer et réfléchir.
+
+Quand on sait ce que la ville a traversé, le fait que ce jardin soit revenu à la vie rend l’expérience encore plus forte.
+
+On apprend aussi que certaines personnes sont venues s’y réfugier juste après le bombardement, mais n’ont malheureusement pas survécu aux effets de la bombe.
+
+Je continue ensuite mon après-midi sans trop me presser, en me dirigeant vers le Hiroshima Museum of Art.
+
+À la base, je comptais y aller plus tard dans la semaine, mais il ferme pour la semaine, donc c’était aujourd’hui ou jamais.
+
+En chemin, je passe devant des courts de tennis où un petit tournoi est en cours. Les joueurs ont des dossards accrochés dans le dos, les gradins sont presque vides, mais quelques familles et amis sont là. Je reste une dizaine de minutes avant de repartir.
+
+Puis j’arrive au musée d’art, qui est impressionnant, presque trop rempli. Il y a énormément d’œuvres, au point de ne plus savoir où donner de la tête.
+
+La collection est assez incroyable : on y retrouve des artistes comme Claude Monet, Édouard Manet, Edgar Degas, Pierre-Auguste Renoir, Eugène Delacroix, Henri de Toulouse-Lautrec, Camille Pissarro, Berthe Morisot, Paul Cézanne, Vincent van Gogh ou encore Pablo Picasso.
+
+Franchement, je ne m’attendais pas à voir une telle collection ici.
+
+Je retiens aussi la découverte de l’artiste japonais Aihara Kyūichirō, ainsi qu’une exposition autour de la couleur blanche en peinture : comment elle est utilisée pour représenter la neige, les nuages ou la lumière, notamment dans des paysages à la manière de Monet.
+
+Je passe finalement environ 2h30 dans le musée, à lire les pancartes des œuvres, observer et me perdre dans les différentes salles. C’était passionnant.`,
+  mood: "Musées d'art et jardin Shukkeien Garden"
+},
 
 
 
