@@ -6047,6 +6047,33 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Logement',
   description: "Auberge de jeunesse située en plein centre-ville d’Hiroshima, idéale pour se balader facilement et accéder rapidement aux principaux points d’intérêt.",
   emoji: '🛏️'
+},
+{
+  id: 'm320',
+  lat: 34.3998728,
+  lng: 132.4660997,
+  title: 'Hiroshima Prefectural Art Museum',
+  category: 'Musée',
+  description: "Musée d’art présentant des œuvres japonaises et occidentales, situé à proximité du jardin Shukkeien.",
+  emoji: '🖼️'
+},
+{
+  id: 'm321',
+  lat: 34.4004913,
+  lng: 132.4677174,
+  title: 'Shukkeien Garden',
+  category: 'Jardin',
+  description: "Magnifique jardin japonais traditionnel avec étang, ponts et paysages miniatures, parfait pour une promenade paisible.",
+  emoji: '🌿'
+},
+{
+  id: 'm322',
+  lat: 34.3987017,
+  lng: 132.4581148,
+  title: 'Hiroshima Museum of Art',
+  category: 'Musée',
+  description: "Musée d’art exposant des œuvres européennes et japonaises, notamment des peintures impressionnistes.",
+  emoji: '🖼️'
 }
 
 
