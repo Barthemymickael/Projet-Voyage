@@ -4746,7 +4746,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Coucher de soleil en montagne',
     'Descente de nuit en forêt',
     'Retour au sanctuaire à marée basse'
-  ]
+  ],
+  video: 'https://youtu.be/iPlqOAfwD3g'
 }
 
 
