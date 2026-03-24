@@ -4729,6 +4729,24 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Hiroshima Museum of Art'
   ],
   video: 'https://youtube.com/shorts/8Mv2aYQfJR0?si=wXtSNYrz6hC9aPmU'
+},
+{
+  id: 't42',
+  date: 'Jour 42 (21 699 pas)',
+  title: 'Miyajima et ascension du mont Misen',
+  description:
+    "Journée exceptionnelle sur l’île de Miyajima entre sanctuaire, randonnée et moments suspendus. L’ascension du mont Misen offre des panoramas incroyables, jusqu’à un coucher de soleil vécu seul, dans un silence presque irréel.",
+  bullets: [
+    'Île de Miyajima et ferry',
+    'Sanctuaire Itsukushima-jinja',
+    'Daims en liberté',
+    'Randonnée jusqu’au mont Misen',
+    'Observatoires et vue panoramique',
+    'Moment seul au sommet',
+    'Coucher de soleil en montagne',
+    'Descente de nuit en forêt',
+    'Retour au sanctuaire à marée basse'
+  ]
 }
 
 
