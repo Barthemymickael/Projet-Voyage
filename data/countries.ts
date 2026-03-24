@@ -6093,6 +6093,51 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Musée',
   description: "Musée d’art exposant des œuvres européennes et japonaises, notamment des peintures impressionnistes.",
   emoji: '🖼️'
+},
+{
+  id: 'm323',
+  lat: 34.2795144,
+  lng: 132.3198083,
+  title: 'Mont Misen',
+  category: 'Nature',
+  description: "Montagne culminant à 535 mètres sur l’île de Miyajima, accessible en téléphérique ou via plusieurs sentiers de randonnée avec des points de vue incroyables.",
+  emoji: '⛰️'
+},
+{
+  id: 'm324',
+  lat: 34.2959982,
+  lng: 132.3198268,
+  title: 'Sanctuaire Itsukushima-jinja',
+  category: 'Sanctuaire',
+  description: "Sanctuaire shinto iconique construit sur l’eau sur l’île de Miyajima, célèbre pour son grand torii flottant.",
+  emoji: '⛩️'
+},
+{
+  id: 'm325',
+  lat: 34.3112581,
+  lng: 132.3048758,
+  title: 'Terminal Ferry Hiroshima',
+  category: 'Transport',
+  description: "Terminal depuis lequel je prends le ferry pour rejoindre l’île de Miyajima.",
+  emoji: '⛴️'
+},
+{
+  id: 'm326',
+  lat: 34.3946145,
+  lng: 132.4589064,
+  title: 'Lawson',
+  category: 'Convenience store',
+  description: "Konbini où je mange le soir pendant mon séjour à Hiroshima.",
+  emoji: '🏪'
+},
+{
+  id: 'm327',
+  lat: 34.3902318,
+  lng: 132.4621787,
+  title: 'Family Mart',
+  category: 'Convenience store',
+  description: "Konbini où je prends mon petit déjeuner chaque matin.",
+  emoji: '🛒'
 }
 
 
