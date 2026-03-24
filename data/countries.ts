@@ -7386,7 +7386,202 @@ Je retiens aussi la découverte de l’artiste japonais Aihara Kyūichirō, ains
 Je passe finalement environ 2h30 dans le musée, à lire les pancartes des œuvres, observer et me perdre dans les différentes salles. C’était passionnant.`,
   mood: "Musées d'art et jardin Shukkeien Garden"
 },
+{
+  "id": "j42",
+  "day": 42,
+  "title": "Miyajima et ascension du mont Misen",
+  "excerpt": `Journée complète à Miyajima, une île proche de Hiroshima
 
+Je vais écrire ce texte au présent pour bien comprendre le déroulé de ma journée et à quel point j’ai vécu l’une de mes plus belles journées.
+
+Je commence ma journée par prendre un petit déjeuner dans un konbini : cookies, pain brioché fourré à la crème et jus d’orange (mon petit déjeuner classique ici).
+
+Je prends ensuite le tramway pendant 1h05, puis j’arrive devant le terminal de ferry de Miyajima. Je prends mon ticket (aller-retour 2,50€), monte à bord du ferry et passe 10 minutes sur l’eau avant d’arriver sur l’île.
+
+Après mes premiers pas, je prends une bouteille d’eau d’un litre et un gâteau, histoire de me donner quelques forces.
+
+Je suis venu principalement sur cette île pour voir le fameux sanctuaire Itsukushima-jinja sur l’eau !
+
+En marchant, je me rends compte que des daims sont en liberté sur l’île, ce qui rajoute encore plus de charme.
+
+J’arrive devant le sanctuaire, demande à quelques personnes de me prendre en photo avec mon appareil photo jetable, et je regarde la carte de l’île que j’ai prise en arrivant au terminal.
+
+Et là, je vois inscrit : Mont Misen.
+Une montagne au milieu de l’île, haute de 535 mètres.
+
+Et évidemment, comme à mon habitude, il y a un téléphérique ou la possibilité d’un chemin de randonnée avec une estimation de 1h30.
+
+Et c’est ainsi que je commence la randonnée. Moi qui pensais que le chemin allait être plutôt vallonné, je me rends compte que finalement, ce ne sont quasiment que des marches en pierre, parfois grandes jusqu’au niveau du genou.
+
+Mais ce n’est pas grave, je prends mon temps, je fais quelques pauses de temps en temps car effectivement, la rando n’est pas si facile que ça. Mais j’arrive au sommet après 1h20 et quelques pauses.
+
+Une fois au sommet, il y a deux possibilités : soit aller vers l’observatoire A, soit vers l’observatoire B.
+
+L’observatoire A est à côté du téléphérique, l’observatoire B est un peu plus haut et représente le pic, le sommet de la montagne.
+
+Je décide donc de commencer par l’observatoire B.
+
+J’arrive donc au sommet, il est 14h. Il y a quand même beaucoup de touristes. En effet, avec le téléphérique, la montée est beaucoup plus accessible pour tout le monde.
+
+Là où je suis, il y a une construction avec un étage protégé et un toit avec une vue à 360 degrés.
+
+Je marche tranquillement sur le toit, me pose un peu à l’étage protégé et commence à me prendre en photo en posant le téléphone sur mon sac.
+
+Et puis, d’un coup, une fille arrive, toute souriante, toute heureuse, en me disant en anglais :
+« J’ai vu que tu galérais, je vais t’aider. »
+
+Elle prend de merveilleuses photos de moi devant le panorama, en me disant :
+« Allez, sois cool, détendu, fashion ahah »
+
+Et c’est comme ça que je me retrouve avec d’excellentes photos face à ce paysage.
+
+Après cette interaction, je me pose derrière quelques rochers pour observer la vue. Je me retrouve devant un arbre à la forme un peu spéciale que je contemple pendant plusieurs dizaines de minutes.
+
+L’endroit est tellement incroyable, tellement beau, tellement ressourçant que je prends mon carnet et commence à écrire.
+
+J’écris ce que je ressens sur le moment. Je fais un petit croquis rapide de l’arbre que je vois en face de moi. Je respire à plein poumons. Entre chaque paragraphe, je lève la tête, j’observe, je ressens et je continue à écrire.
+
+Je reste quasiment une heure à cet endroit. Je ne sais pas pourquoi, je suis envoûté par cet arbre, par la vue, avec la mer et les montagnes derrière.
+
+Je sais que je vis quelque chose de fort, mais j’ai du mal à poser des mots dessus.
+
+Je regarde ma montre : il est 16h. Et comme à mon habitude, je ne peux pas résister à cette pensée :
+« Le coucher de soleil ici doit être incroyable. Il faut que je reste. Oui, je suis en t-shirt. Oui, le soleil se couche dans 2h30. Mais je dois rester. Je dois voir ça de mes propres yeux. Et je pense que je serai seul à ce moment-là. »
+
+Seulement voilà, je suis posé à un endroit vraiment parfait. Je n’ai pas envie qu’on me le prenne. Mais je veux quand même voir l’observatoire A.
+
+Je me dis donc : OK, je vais à l’observatoire A, j’y reste une heure, puis je remonte.
+
+Je descends, prends 30 minutes pour arriver à l’autre observatoire A et là, c’est la claque de la journée.
+
+Il est 16h30, et c’est l’heure du dernier téléphérique qui redescend.
+
+Je vois une énorme queue. Je dépasse tout le monde pour aller à l’observatoire… et là, je me retrouve seul. Seul au monde face à une vue que je ne peux même pas expliquer.
+
+Aucun bruit. Vraiment aucun bruit. Le calme absolu. Juste les oiseaux.
+
+Je fais quelques photos et vidéos, et les mots qui sortent de ma bouche sont :
+« Putain… »
+« Non c’est pas possible… »
+« Ohlalalala… »
+« Incroyable… »
+« J’y crois pas… »
+
+Trop de beauté. Trop d’immensité. Je ne sais même plus quoi dire. Je me dis que c’est trop pour moi.
+
+À 17h pile, une musique japonaise résonne dans les haut-parleurs pendant une minute. Style animé.
+
+Frissons immédiats.
+
+Je pose mes mains sur la barrière, regarde le paysage.
+Comme dans un film. Comme si j’étais le personnage principal.
+
+Mon souffle devient court, comme une énorme inspiration d’un coup.
+
+Moment irréel.
+
+Je regarde ma montre : il est 17h. J’ai une demi-heure pour remonter et une heure à attendre le coucher de soleil.
+
+Je remonte. Cette fois, personne sur le chemin.
+
+J’arrive au sommet. Plus personne. Silence total.
+
+Je retourne à mon spot. Toujours libre.
+
+Je m’assois en tailleur pendant presque une heure.
+
+Je ressors mon carnet et j’écris encore quelques mots, quelques lignes.
+
+J’écris sur ce que j’ai ressenti, il y a 30 minutes, une heure. J’essaie de poser des mots sur ce que j’ai vu, ressenti.
+
+Voici les mots que j’ai écrits :
+
+« Je me suis retrouvé seul au deuxième observatoire et c’était juste exceptionnel.
+
+Je ne sais pas si je suis objectif en disant cela, mais c’était sans doute l’une des plus belles vues que je n’ai jamais vues.
+
+Une sensation étrange, comme si c’était trop… trop beau, trop merveilleux. Un rêve, une illusion.
+
+Des petits îlots, des criques avec des plages de sable, le bruit des oiseaux, de la nature.
+
+Une sensation d’être minuscule.
+
+La sensation que je ne peux pas ingurgiter autant de beauté et d’immensité.
+
+En 30 minutes, je suis revenu à l’observatoire du mont Misen pour contempler le coucher de soleil, comme à mon habitude depuis la Corée.
+
+Et c’est comme ça, assis en tailleur, au-dessus des rochers, que je regarde le soleil descendre lentement.
+
+Il disparaît dans 10 minutes derrière les montagnes.
+
+J’ai les yeux éblouis, alors mon écriture n’est pas fameuse.
+
+Moment zen, hors du temps. »
+
+Pendant que j’écris, une bande d’Anglais s’installe à quelques dizaines de mètres. Ils parlent un peu fort, mais ce n’est pas grave. Je suis dans ma bulle.
+
+Le soleil se couche, disparaît derrière les montagnes. Je me lève, remonte sur le toit, fais un petit tour, prends quelques vidéos.
+
+Je suis seul.
+
+Et là je me dis :
+« Je suis sur une île, au sommet d’une montagne, seul. Les derniers ferries partent bientôt. »
+
+Je respire profondément. Le ciel devient rose, orangé.
+
+Puis je prends le chemin du retour.
+
+La nuit tombe. J’allume mon flash. Je ne vois pas à plus de 5 mètres.
+
+Je descends pendant 35 minutes.
+Le bruit des cascades que je ne vois pas.
+Des animaux qui fuient.
+Le silence total de la forêt.
+
+Température parfaite. Être en t-shirt pour la descente est hyper agréable.
+
+J’arrive en ville. Les lumières des maisons japonaises éclairent les ruelles.
+
+Je me sens dans un anime.
+
+Plus j’avance, plus je me rends compte que je suis seul.
+Et là, je vois des daims marcher dans les rues.
+J’entends leurs sabots sur les pavés.
+
+Je marche avec eux.
+
+Comme si ce n’était pas déjà assez irréel.
+
+J’arrive au sanctuaire du début. Marée basse.
+Je marche sur le sable, passe en dessous.
+
+Mon ferry est à 20h. J’ai le temps.
+
+J’observe la vie locale. Les vélos. Les couples. Les gens.
+
+Des jeunes sortent d’un konbini avec de l’alcool. Une soirée sûrement.
+
+Et moi, toujours en t-shirt, j’attends mon ferry.
+
+Je suis vide.
+Je ne pense plus.
+Je suis juste émerveillé.
+
+Les 10 minutes de ferry, puis 1h05 de tram passent extrêmement vite.
+
+Voilà.
+C’était peut-être la plus belle journée de mon voyage.
+
+J’ai pris le temps d’écrire le plus possible sur ce que j’ai ressenti, sur ce que j’ai vu, vécu.
+
+Peut-être que c’était la dernière fois que je vivais un moment pareil lors de ce voyage. Peut-être oui, peut-être non.
+
+Ce que je sais, c’est que ça va être compliqué de surpasser tout ça.
+
+Le texte est long, peut-être répétitif…
+mais c’était la réalité de ce lundi 23 mars 2026, sur l’île de Miyajima, lors de ma randonnée au mont Misen.`,
+  "mood": "Miyajima et ascension du mont Misen"
+}
 
 
 
