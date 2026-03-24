@@ -6128,7 +6128,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   title: 'Lawson',
   category: 'Convenience store',
   description: "Konbini où je mange le soir pendant mon séjour à Hiroshima.",
-  emoji: '🏪'
+  emoji: '🛒'
 },
 {
   id: 'm327',
