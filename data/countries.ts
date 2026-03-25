@@ -4748,6 +4748,24 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Retour au sanctuaire à marée basse'
   ],
   video: 'https://youtu.be/iPlqOAfwD3g'
+},
+{
+  id: 't43',
+  date: 'Jour 43 (24 206 pas)',
+  title: 'Mitaki-dera et randonnée improvisée',
+  description:
+    "Journée qui se transforme en belle surprise avec une randonnée improvisée dans les montagnes d’Hiroshima. Entre temple, forêt de bambous sauvage et panoramas sur la ville, une nouvelle exploration inattendue.",
+  bullets: [
+    'Dôme de Genbaku (Hiroshima Peace Memorial)',
+    'Temple Mitaki-dera en pleine nature',
+    'Forêt de bambous sauvage',
+    'Randonnée improvisée en montagne',
+    'Sommet du mont Sōkasan (356m)',
+    'Vue panoramique sur Hiroshima et Miyajima',
+    'Deuxième sommet : mont Takatoge (237,4m)',
+    'Retour au calme dans les quartiers locaux'
+  ],
+  video: 'https://youtube.com/shorts/iGwJJDRNqcY?si=_ixnw9jAYL-pr7uT'
 }
 
 
@@ -6138,6 +6156,42 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Convenience store',
   description: "Konbini où je prends mon petit déjeuner chaque matin.",
   emoji: '🛒'
+},
+{
+  id: 'm328',
+  lat: 34.4201307,
+  lng: 132.4384066,
+  title: 'Temple Mitaki-dera',
+  category: 'Temple',
+  description: "Temple niché dans la montagne, point de départ d’un chemin de randonnée entouré d’une dense forêt de bambous et d’une nature apaisante.",
+  emoji: '🛕'
+},
+{
+  id: 'm329',
+  lat: 34.3954400,
+  lng: 132.4535953,
+  title: 'Dôme de Genbaku',
+  category: 'Monument',
+  description: "Vestige emblématique de l’explosion atomique de 1945, conservé en l’état comme symbole de paix et mémoire historique.",
+  emoji: '🏛️'
+},
+{
+  id: 'm330',
+  lat: 34.4256800,
+  lng: 132.4345496,
+  title: 'Mont Sōkasan',
+  category: 'Nature',
+  description: "Montagne de 356 mètres offrant une belle randonnée et des points de vue sur Hiroshima et ses environs.",
+  emoji: '⛰️'
+},
+{
+  id: 'm331',
+  lat: 34.4155383,
+  lng: 132.4329697,
+  title: 'Mont Takatoge',
+  category: 'Nature',
+  description: "Mont de 237,4 mètres accessible en randonnée, avec un environnement calme et boisé.",
+  emoji: '🌄'
 }
 
 
@@ -7645,7 +7699,82 @@ Ce que je sais, c’est que ça va être compliqué de surpasser tout ça.
 Le texte est long, peut-être répétitif…
 mais c’était la réalité de ce lundi 23 mars 2026, sur l’île de Miyajima, lors de ma randonnée au mont Misen.`,
   "mood": "Miyajima et ascension du mont Misen"
+},
+{
+  "id": "j43",
+  "day": 43,
+  "title": "Mitaki-dera et randonnée improvisée dans les montagnes d’Hiroshima",
+  "excerpt": `Voici ce que je pensais ce matin dans mon lit, j’ai écrit ces premières notes :
+
+« Journée plus calme. Je me demande comment je vais faire pour retrouver les sensations que j’ai vécues hier. Le pic d’adrénaline était au plus haut.
+Difficile de faire mieux, de ressentir les mêmes sensations, comme si j’étais en manque de drogue, en manque d’adrénaline.
+
+Assez difficile de passer d’une journée juste mémorable et magnifique à une journée plus calme.
+
+Mais ce sont les aléas et la réalité du voyage. L’extraordinaire ne peut être qu’occasionnel, sinon il deviendrait ordinaire. »
+
+C’est avec cet état d’esprit qu’aujourd’hui j’ai démarré la journée.
+
+En ouvrant Google Maps ce matin, j’ai vu qu’un temple dans la forêt se situait au nord-ouest de la ville : le temple Mitaki-dera.
+
+C’est ainsi que j’ai démarré ma journée en marchant jusqu’à celui-ci. Sur la route, une distribution gratuite de Monster, j’ai donc pu tester gratuitement la Monster Ultra Vice Guava.
+
+Sur le passage, je suis arrivé devant le Dôme de Genbaku, lieu rempli d’histoire…
+
+Ce bâtiment est l’un des seuls à être resté debout après l’explosion de la bombe atomique le 6 août 1945 à 08h15.
+À l’origine, c’était un palais d’exposition industrielle, mais il se trouvait presque juste sous le point d’impact de la bombe.
+
+L’explosion a tout détruit autour sur plusieurs kilomètres, mais sa structure a résisté, en partie, à cause de l’onde de choc venue du dessus.
+
+Aujourd’hui, il a été conservé tel quel, en ruine, comme un symbole de mémoire, de paix et pour rappeler ce qu’il s’est passé ici.
+
+Je me suis arrêté ensuite face à la rivière pour me poser rapidement, finir la Monster avant de reprendre mon chemin vers le temple.
+
+En arrivant au temple, je me retrouve seul. Les environs sont très verts, une forêt calme.
+
+Je prends quelques photos et vidéos et décide de monter un peu au hasard vers un chemin de randonnée dans la forêt.
+
+Et très honnêtement, je pensais que c’était juste une petite forêt au-dessus du temple… mais que nini.
+
+Car effectivement, j’ai bien fait de prendre ce chemin, direction la forêt, car je me suis retrouvé dans une forêt de bambous, et celle-là est impressionnante, vraiment naturelle, rien à voir avec celle de Kyoto.
+
+Aucun touriste. Juste le calme, le vent dans les feuilles et des bambous de partout.
+
+Parfois certains sont couchés, d’autres très grands, d’autres complètement cassés, mais ça fait toute la beauté de la forêt, au naturel.
+
+Pendant ce chemin, je n’ai trouvé aucun panneau avec des indications de distance, donc je ne savais vraiment pas où aller ni même le nom des monts.
+
+J’ai juste marché, grimpé, suivi quelques panneaux un peu au hasard.
+
+À un moment donné, je me suis retrouvé à une sorte de carrefour avec plusieurs chemins. J’ai donc pris celui de droite.
+
+Et au bout d’une demi-heure depuis le temple, j’arrive au sommet : le mont Sōkasan (Mount Sokayama / mont Mitaki), 356 m.
+
+Comme je ne savais pas où j’allais, je me disais parfois :
+« Mais où est-ce que je vais ? »
+
+Mais au final, j’arrive bien au sommet et me voilà devant un panorama sur toute la ville d’Hiroshima.
+
+Le temps est un mélange de soleil et de grand ciel bleu, avec un peu de brume/pollution, je ne sais pas, mais on distingue bien la ville, les rivières, les ports et évidemment les îles aux alentours.
+
+Et d’ici, je peux même voir l’île de Miyajima où j’étais hier, ainsi que le mont Misen.
+
+Puis, sur le chemin du retour, je me retrouve de nouveau au carrefour. J’ai deux choix : soit redescendre vers la ville, soit découvrir un deuxième sommet.
+
+Je choisis la deuxième option.
+
+En une quinzaine de minutes, j’arrive au mont Takatoge (237,4 m).
+
+La vue n’est pas si différente du premier point, c’est juste l’autre côté de la crête, mais ça reste quand même super cool. J’y reste une heure avant de redescendre en ville, juste avant la tombée de la nuit.
+
+Enfin voilà… moi qui doutais ce matin du déroulé de ma journée, moi qui pensais qu’elle allait être plus calme et monotone, je profite encore d’un panorama.
+
+Moins impressionnant qu’hier, évidemment, rien à voir en termes de beauté et d’adrénaline… mais ça reste incroyable d’avoir une vue sur toute la ville d’Hiroshima.
+
+Retour à pied dans des petits patelins bien tranquilles avant de rejoindre le centre-ville.`,
+  "mood": "Temple Mitaki-dera et randonnée improvisée dans les montagnes d’Hiroshima"
 }
+
 
 
 
