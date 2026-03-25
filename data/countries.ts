@@ -4706,7 +4706,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't40',
-  date: 'Jour 40 (10 608 pas)',
+  date: 'Jour 40 (10 681 pas)',
   title: 'Journée de transition Kyoto → Hiroshima',
   description:
     'Long trajet en bus entre Kyoto et Hiroshima, rythmé par lecture, repos et paysages de campagne. Arrivée en fin de journée et première découverte d’une nouvelle auberge avant une soirée calme.',
@@ -4719,7 +4719,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 }, 
 {
   id: 't41',
-  date: 'Jour 41 (10 895 pas)',
+  date: 'Jour 41 (13 547 pas)',
   title: "Musées d'art et jardin Shukkeien",
   description:
     "Première journée à Hiroshima entre musées et jardin japonais.",
@@ -4766,6 +4766,21 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Retour au calme dans les quartiers locaux'
   ],
   video: 'https://youtube.com/shorts/iGwJJDRNqcY?si=_ixnw9jAYL-pr7uT'
+},
+{
+  id: 't44',
+  date: 'Jour 44 (11 138 pas)',
+  title: 'Journée pluvieuse, art contemporain et manga à Hiroshima',
+  description:
+    "Journée calme sous la pluie entre art contemporain et manga.",
+  bullets: [
+    'Hiroshima City Museum of Contemporary Art',
+    'Expositions : destruction, perception et mémoire',
+    'Hiroshima City Manga Library',
+    'Lecture du tome 1 de One Piece',
+    'Centre commercial EDION (high-tech et jeux vidéo)'
+  ],
+  video: 'https://youtube.com/shorts/uFIvw9lqBbk?si=btP57q17fP5Dn1e9'
 }
 
 
@@ -6192,7 +6207,35 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Nature',
   description: "Mont de 237,4 mètres accessible en randonnée, avec un environnement calme et boisé.",
   emoji: '🌄'
+},
+{
+  id: 'm332',
+  lat: 34.3861162,
+  lng: 132.4732015,
+  title: 'Hiroshima City Museum of Contemporary Art',
+  category: 'Musée',
+  description: "Musée d’art contemporain situé sur une colline.",
+  emoji: '🖼️'
+},
+{
+  id: 'm333',
+  lat: 34.3876595,
+  lng: 132.4744407,
+  title: 'Hiroshima City Manga Library',
+  category: 'Bibliothèque',
+  description: "Bibliothèque spécialisée dans le manga avec une petite selection traudite en angalis également.",
+  emoji: '📚'
+},
+{
+  id: 'm334',
+  lat: 34.3951982,
+  lng: 132.4565893,
+  title: 'EDION Hiroshima Main Store',
+  category: 'Shopping',
+  description: "Grand magasin d’électronique sur plusieurs étages avec un large choix de produits high-tech.",
+  emoji: '📱'
 }
+
 
 
 
@@ -7773,6 +7816,39 @@ Moins impressionnant qu’hier, évidemment, rien à voir en termes de beauté e
 
 Retour à pied dans des petits patelins bien tranquilles avant de rejoindre le centre-ville.`,
   "mood": "Temple Mitaki-dera et randonnée improvisée dans les montagnes d’Hiroshima"
+},
+{
+  "id": "j44",
+  "day": 44,
+  "title": "Journée pluvieuse et art contemporain à Hiroshima",
+  "excerpt": `Journée entièrement pluvieuse à Hiroshima.
+
+J’en profite pour rester un peu à l’auberge le matin et chiller tranquillement. Puis en début d’après-midi, je pars visiter le Hiroshima City Museum of Contemporary Art.
+
+L’exposition que je découvre se découpe en trois phases :
+
+Destruction of Art : l’idée que la création commence par détruire les valeurs établies. On y retrouve les “ready-made” de Marcel Duchamp, qui ont complètement renversé la définition de l’art, ainsi que des artistes japonais comme Tetsumi Kudo, avec des œuvres assez absurdes pour casser les codes.
+
+Plasticity of Art : une réflexion sur la manière dont une œuvre change selon son environnement et selon celui qui la regarde. Rien n’est figé, tout dépend du regard.
+
+Being and Memory : une partie plus sombre, autour de la mort, de la mémoire, de la violence et de la fragilité de l’identité.
+
+C’était intéressant, mais très conceptuel, presque trop abstrait pour moi.
+Un mélange de “j’aime bien” et de “pas ouf”.
+
+Je fais le tour en environ une heure.
+
+Ensuite, je me dirige vers la Hiroshima City Manga Library, juste à côté.
+Une bibliothèque spécialisée dans le manga.
+
+Je vais dans la section des traductions étrangères et je prends le premier tome de One Piece.
+
+Franchement, j’ai plutôt bien aimé. Les personnages sont cool et l’histoire donne envie de continuer.
+
+Je pars ensuite me balader sous la pluie, parapluie à la main, dans un grand centre commercial orienté high-tech et jeux vidéo : EDION Hiroshima Main Store.
+
+Je rentre à l’auberge en début de soirée, après cette journée calme, rythmée par la pluie.`,
+  "mood": "Journée pluvieuse, art contemporain et manga à Hiroshima"
 }
 
 
