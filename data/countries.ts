@@ -4781,6 +4781,23 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Centre commercial EDION (high-tech et jeux vidéo)'
   ],
   video: 'https://youtube.com/shorts/uFIvw9lqBbk?si=btP57q17fP5Dn1e9'
+},
+Voici le j45 au bon format 👇
+
+{
+  id: 't45',
+  date: 'Jour 45 (15 001 pas)',
+  title: 'Hiroshima Peace Memorial Museum et friperie',
+  description:
+    "Découverte du musée le plus important de la ville, balade dans le parc et découverte de plusieurs friperies",
+  bullets: [
+    'Hiroshima Gate Park (petit-déjeuner)',
+    'Hiroshima Castle (extérieur)',
+    'Hiroshima Peace Memorial Museum',
+    'Hiroshima Peace Memorial Park',
+    'Friperies et boutiques de seconde main',
+    'Magasin de vinyles'
+  ]
 }
 
 
@@ -7849,7 +7866,45 @@ Je pars ensuite me balader sous la pluie, parapluie à la main, dans un grand ce
 
 Je rentre à l’auberge en début de soirée, après cette journée calme, rythmée par la pluie.`,
   "mood": "Journée pluvieuse, art contemporain et manga à Hiroshima"
-}
+},
+{
+  "id": "j45",
+  "day": 45,
+  "title": "Hiroshima entre histoire et mémoire",
+  "excerpt": `Journée sous le soleil à Hiroshima, 21 degrés, je passe la journée en t-shirt.
+
+Je commence tranquillement avec mon petit-déjeuner habituel (Cookie Cream, Chocolate flavor et jus d’orange), assis dans le Hiroshima Gate Park.
+
+Je me dirige ensuite vers le Hiroshima Castle.
+
+Et là, surprise : le château a fermé définitivement ses portes le 22 mars 2026, à cause de son vieillissement. J’ai loupé ça d’une semaine, mais ce n’est pas grave.
+
+Un peu frustrant sur le moment, mais je suis quand même content d’être devant.
+Reconstruit après la bombe atomique, il reste impressionnant, surtout avec ce grand ciel bleu derrière. Pas de visite, mais l’essentiel était de le voir.
+
+Je me dirige ensuite vers l’activité la plus importante de la ville : le Hiroshima Peace Memorial Museum.
+
+Énormément de monde à l’intérieur. Le musée est construit comme un parcours en plusieurs étapes.
+
+On entre directement dans le cœur du sujet avec le 6 août 1945 à 8h15 : une maquette montre la ville avant et après l’explosion, avec une visualisation très marquante de l’impact.
+
+Puis vient la partie la plus dure : des objets récupérés après la bombe (vêtements brûlés, objets du quotidien), accompagnés de dizaines et de dizaines de témoignages de victimes.
+
+C’était clairement la partie la plus dure et la plus émotionnelle.
+
+Des enfants méconnaissables en retrouvant leurs parents, d’autres revenus sains et saufs mais qui meurent quelques jours plus tard à cause des radiations…
+Une histoire m’a marqué : une petite fille dit à son grand frère « tu as eu de la chance, toi », juste avant de mourir des effets de la bombe.
+
+Enfin, le musée ouvre sur une réflexion plus large autour de la paix et de l’abolition des armes nucléaires.
+
+Je termine ensuite l’après-midi dans le Hiroshima Peace Memorial Park.
+
+Je me pose presque une heure sur un banc, entouré de cerisiers en fleurs, avec des grands-mères qui chantent en groupe, et le soleil qui tape doucement sur la peau… au point de prendre un petit coup de soleil sur les bras.
+
+Je finis la journée en me baladant dans quelques friperies et boutiques de vêtements de seconde main, avant de passer une bonne demi-heure dans un magasin de vinyles juste en face de mon auberge.`,
+  "mood": "Hiroshima Peace Memorial Museum et friperie"
+},
+
 
 
 
