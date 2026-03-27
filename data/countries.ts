@@ -4782,8 +4782,6 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   ],
   video: 'https://youtube.com/shorts/uFIvw9lqBbk?si=btP57q17fP5Dn1e9'
 },
-Voici le j45 au bon format 👇
-
 {
   id: 't45',
   date: 'Jour 45 (15 001 pas)',
