@@ -4795,7 +4795,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Hiroshima Peace Memorial Park',
     'Friperies et boutiques de seconde main',
     'Magasin de vinyles'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/p9EhbgEydhI?si=K8ts4M6eA8UmUh13'
 }
 
 
