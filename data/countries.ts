@@ -6251,6 +6251,33 @@ Voici le j45 au bon format 👇
   category: 'Shopping',
   description: "Grand magasin d’électronique sur plusieurs étages avec un large choix de produits high-tech.",
   emoji: '📱'
+},
+{
+  id: 'm335',
+  lat: 34.3925716,
+  lng: 132.4521365,
+  title: 'Parc du Mémorial de la Paix d’Hiroshima',
+  category: 'Parc',
+  description: "Grand parc situé en face du musée où je me pose près d’une heure sous les cerisiers. Rencontre avec des Allemandes et un groupe de grand-mères qui chantent, moment très marquant.",
+  emoji: '🌸'
+},
+{
+  id: 'm336',
+  lat: 34.3915183,
+  lng: 132.4532382,
+  title: 'Musée du Mémorial de la Paix d’Hiroshima',
+  category: 'Musée',
+  description: "Musée retraçant les événements du bombardement atomique de 1945 avec témoignages, objets et expositions marquantes.",
+  emoji: '🏛️'
+},
+{
+  id: 'm337',
+  lat: 34.4027204,
+  lng: 132.4590670,
+  title: 'Château de Hiroshima',
+  category: 'Château',
+  description: "Château reconstruit après la Seconde Guerre mondiale. Définitivement fermé lors de ma visite mais reste agréable à observer de l’extérieur.",
+  emoji: '🏯'
 }
 
 
