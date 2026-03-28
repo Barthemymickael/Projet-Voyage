@@ -6293,6 +6293,51 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Château',
   description: "Château reconstruit après la Seconde Guerre mondiale. Définitivement fermé lors de ma visite mais reste agréable à observer de l’extérieur.",
   emoji: '🏯'
+},
+{
+  id: 'm338',
+  lat: 34.4059061,
+  lng: 132.4779410,
+  title: 'Hiroshima Peace Pagoda',
+  category: 'Monument',
+  description: "Pagode située sur les hauteurs où je m’allonge sur un banc bleu pendant 45 minutes en plein soleil, moment calme avec une belle vue.",
+  emoji: '🛕'
+},
+{
+  id: 'm339',
+  lat: 34.4035434,
+  lng: 132.4756591,
+  title: 'Hiroshima Toshogu Shrine',
+  category: 'Sanctuaire',
+  description: "Sanctuaire shinto avec un magnifique cerisier blanc à l’intérieur, apportant une atmosphère très paisible.",
+  emoji: '⛩️'
+},
+{
+  id: 'm340',
+  lat: 34.3819331,
+  lng: 132.4735811,
+  title: 'Hijiyama Park',
+  category: 'Parc',
+  description: "Grand parc urbain avec de nombreux cerisiers. J’y fais une sieste sous l’un d’eux, moment très calme et agréable.",
+  emoji: '🌸'
+},
+{
+  id: 'm341',
+  lat: 34.3935670,
+  lng: 132.4600963,
+  title: 'Round1 Hiroshima',
+  category: 'Arcade',
+  description: "Grande salle d’arcade japonaise avec jeux, bowling et autres activités.",
+  emoji: '🎮'
+},
+{
+  id: 'm342',
+  lat: 34.3938406,
+  lng: 132.4590063,
+  title: 'Gaba Kamiyacho',
+  category: 'Restaurant',
+  description: "Restaurant de ramen plutôt bon, une adresse simple et efficace pour manger à Hiroshima.",
+  emoji: '🍜'
 }
 
 
