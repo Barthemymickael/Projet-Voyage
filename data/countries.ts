@@ -4797,6 +4797,21 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Magasin de vinyles'
   ],
   video: 'https://youtube.com/shorts/p9EhbgEydhI?si=K8ts4M6eA8UmUh13'
+},
+{
+  id: 't46',
+  date: 'Jour 46 (22 252 pas)',
+  title: 'Dernier jour à Hiroshima',
+  description:
+    "Dernière journée tranquille à Hiroshima entre balades, sieste sous les cerisiers en fleurs.",
+  bullets: [
+    'Balade le long de la Kyobashi River',
+    'Hiroshima Peace Pagoda',
+    'Hiroshima Toshogu Shrine',
+    'Hijiyama Park et sieste sous les cerisiers',
+    'Repas ramen tonkotsu chez Gaba Kamiyacho',
+    'Balade nocturne et salles d’arcade'
+  ]
 }
 
 
@@ -7930,6 +7945,42 @@ Je me pose presque une heure sur un banc, entouré de cerisiers en fleurs, avec 
 Je finis la journée en me baladant dans quelques friperies et boutiques de vêtements de seconde main, avant de passer une bonne demi-heure dans un magasin de vinyles juste en face de mon auberge.`,
   "mood": "Hiroshima Peace Memorial Museum et friperie"
 },
+{
+  "id": "j46",
+  "day": 46,
+  "title": "Derniers instants à Hiroshima",
+  "excerpt": `Dernière journée à Hiroshima
+
+Une semaine, ça passe vite mais j’ai eu le temps de faire toutes les activités que je voulais.
+Je repense encore à ma journée à Miyajima, quel classique !
+
+Pour ce dernier jour, je prends le temps de simplement me balader dans les quartiers de la ville.
+
+Je passe d’abord le long du canal de la Kyobashi River, du côté du quartier de Nagarekawa.
+Autour de moi, plein de travailleurs sont en pause déjeuner : certains mangent leur bento sur les bancs, d’autres discutent, d’autres encore marchent en groupe pour aller trouver un restaurant vers Hiroshima Station.
+
+Moi, je me pose 15 minutes sur un banc. Je vois les locaux qui s’installent près des cerisiers en fleurs et prennent des photos
+
+Le premier jour, en arrivant en bus, j’avais aperçu une sorte de pagode en métal dans les hauteurs de la ville.
+Je ne savais pas ce que c’était, mais je l’avais noté.
+
+Aujourd’hui, je découvre la Hiroshima Peace Pagoda.
+Je m’allonge sur un banc de couleur bleu, allongé au soleil juste à côté de la pagode pendant 45 minutes.
+
+Je continue ensuite vers le Hiroshima Toshogu Shrine, avec un magnifique cerisier blanc dans le sanctuaire.
+Magnifique.
+
+Puis direction le Hijiyama Park, où je fais une petite sieste sous les cerisiers.
+Derrière moi, un groupe (amis, famille, collègues, impossible de savoir) fait un barbecue : chaises pliantes, nourriture, rires
+
+Enfin, pour clôturer mon séjour à Hiroshima, je pars manger au Gaba Kamiyacho en fin de soirée après ma lessive.
+Je prends un ramen tonkotsu avec une bière.
+
+Je termine par une petite balade digestive dans la ville, éclairée par les devantures et les néons du soir.
+
+Je rentre dans quelques salles d’arcade, sans vraiment trouver mon bonheur.`,
+  "mood": "Dernier jour à Hiroshima"
+}
 
 
 
