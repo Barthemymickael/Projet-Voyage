@@ -4811,7 +4811,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Hijiyama Park et sieste sous les cerisiers',
     'Repas ramen tonkotsu chez Gaba Kamiyacho',
     'Balade nocturne et salles d’arcade'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/HzUAm7_VCus?si=LL0vpuYy0djcSgbG'
 }
 
 
