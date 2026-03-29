@@ -4813,6 +4813,20 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Balade nocturne et salles d’arcade'
   ],
   video: 'https://youtube.com/shorts/HzUAm7_VCus?si=LL0vpuYy0djcSgbG'
+},
+{
+  id: 't47',
+  date: 'Jour 47 (18 827 pas)',
+  title: 'Journée de transition Hiroshima → Fukuoka',
+  description:
+    'Journée de transition entre Hiroshima et Fukuoka avec un petit défi matinal réussi. Première immersion dans la ville entre festival des sakura, ambiance street food et découverte du quartier animé de Tenjin.',
+  bullets: [
+    'Trajet en bus Hiroshima → Fukuoka (4h30)',
+    'Installation à l’auberge et première balade',
+    'Festival des sakura à Maizuru Park',
+    'Expérience dans un yatai (ramen + bière)',
+    'Découverte du quartier de Tenjin',
+  ]
 }
 
 
@@ -8026,6 +8040,65 @@ Je termine par une petite balade digestive dans la ville, éclairée par les dev
 
 Je rentre dans quelques salles d’arcade, sans vraiment trouver mon bonheur.`,
   "mood": "Dernier jour à Hiroshima"
+},
+{
+  "id": "j47",
+  "day": 47,
+  "title": "Arrivée à Fukuoka",
+  "excerpt": `Journée de transition Hiroshima → Fukuoka
+
+Ce matin je me lance un petit défi : bus à 11h05, et j’attends l’ouverture de deux magasins (10h puis 10h30) pour acheter une casquette vintage et un disque dur SSD externe pour mon PC.
+
+Mission accomplie. J’arrive pile poil avant le départ avec mes achats. Me voilà l’heureux détenteur d’une belle casquette et d’un disque dur externe pour pouvoir travailler tranquillement.
+
+Bref, aujourd’hui : 4h30 de bus.
+Départ d’Hiroshima à 11h05
+Arrivée à Fukuoka à 15h30
+Arrivée à l’auberge à 15h45
+
+Je dépose mes affaires, je les éparpille un peu dans mon petit espace et je pars me balader dans la ville.
+
+Première surprise : à 5 minutes à pied de l’auberge, il y a un festival dans le Maizuru Park : le festival des sakura (du 25 mars au 5 avril).
+
+Ambiance super cool : attractions, stands de street food, musique, plein de monde.
+Les gens mangent et boivent soit sur des tables, soit directement au sol sur des bâches.
+Je me dis direct que je vais revenir le soir pour voir les illuminations.
+
+En attendant, je marche, je me balade, je découvre.
+L’ambiance est vraiment stylée, très fashion, beaucoup de monde dans les rues.
+
+Vers 18h45, je fais la queue devant un yatai.
+
+Un yatai, c’est un petit stand de street food typique de Fukuoka : quelques places assises, souvent une dizaine, collé aux autres clients, ambiance conviviale.
+On mange, on discute, puis on laisse sa place.
+
+J’attends environ 30 minutes car c’est blindé.
+
+Une fois assis, je me retrouve avec 9 autres personnes, toutes japonaises.
+L’ambiance est super. Je prends un ramen avec une bière.
+
+On ne reste pas longtemps ici : on mange, on discute vite fait, et on part.
+Et derrière moi, la queue n’arrête pas de s’allonger.
+
+Après ça, je déambule dans les rues, écouteurs dans les oreilles, mains dans les poches.
+
+Je passe par le quartier de Tenjin : grands magasins, boutiques de mode, restos…
+Il fait nuit mais tout est ultra lumineux : écrans géants, musiques, odeurs des boutiques… la vibe est géniale.
+
+Je rentre dans quelques magasins comme H&M ou Supreme ect.
+
+Puis sur le chemin du retour, comme prévu, je retourne au Maizuru Park.
+Et là… des milliers de personnes.
+Les sakura illuminés, les lumières partout… ambiance incroyable.
+
+Je marche, je profite, mais forcément… je me dis que ça serait encore mieux avec une bande de potes.
+Voir tous ces groupes boire, manger, rigoler, les couples se balader sous les cerisiers… ça donne envie.
+
+Puis à force de marcher, la fatigue me rattrape : mal aux jambes, tête pleine, ventre plein.
+
+Je prends la direction de l’auberge, et je m’effondre littéralement dans mon lit.
+(Confortable, je dois dire)`,
+  "mood": "Journée de transition Hiroshima → Fukuoka"
 }
 
 
