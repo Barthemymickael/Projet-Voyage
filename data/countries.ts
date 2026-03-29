@@ -4828,6 +4828,24 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Découverte du quartier de Tenjin',
   ],
   video: 'https://youtube.com/shorts/yryA5aNH5W4?si=SNvoSOnePaUl8yWO'
+},
+{
+  id: 't48',
+  date: 'Jour 48 (24 906 pas)',
+  title: 'Première journée à Fukuoka',
+  description:
+    "Première journée complète à Fukuoka entre art contemporain, balade autour du lac Ohori et découverte des temples de la ville. La journée se termine dans l'ambiance animée de Canal City.",
+  bullets: [
+    'Fukuoka Art Museum',
+    'Pause au Café AQUAM face au lac',
+    'Ohori Park et Japanese Garden',
+    'Temples de Gion : Tocho-ji, Shofuku-ji',
+    'Sanctuaire Kushida-jinja',
+    'Canal City Hakata',
+    'Starbucks et burger chez Masajiro Burger'
+  ],
+  video: 'https://youtube.com/shorts/1IvmU0Jyq0g?si=tuoeEuDZ__SgqdEN'
+
 }
 
 
@@ -8218,6 +8236,38 @@ Puis à force de marcher, la fatigue me rattrape : mal aux jambes, tête pleine,
 Je prends la direction de l’auberge, et je m’effondre littéralement dans mon lit.
 (Confortable, je dois dire)`,
   "mood": "Journée de transition Hiroshima → Fukuoka"
+},
+{
+  "id": "j48",
+  "day": 48,
+  "title": "Première journée à Fukuoka",
+  "excerpt": `C’est parti pour ma première journée complète à Fukuoka !
+
+Je commence par me rendre au Musée d’art de Fukuoka, à 15 minutes à pied de l’auberge, dans le parc Ohori. La visite coûte 200 yens (environ 1€), et pour le prix, je suis carrément surpris.
+Il y a une exposition permanente qui n’est pas incroyable, mais surtout une superbe exposition d’art contemporain, avec des tableaux de Marc Chagall, Jean-Michel Basquiat, et des thèmes/projets artistiques vraiment bien pensés, qui ont du sens (en tout cas qui me parlent vraiment).
+
+Notamment deux projets que j’ai adorés, dont une représentation par Yinka Shonibare d’une femme avec un fusil qui tire des cerisiers : un contraste entre la violence du monde et le pouvoir que peuvent avoir certaines personnes, notamment les femmes, pour apporter de la paix.
+
+Ensuite, en descendant les marches du musée pour accéder au parc, je prends un jus d’orange au Café AQUAM du musée. Je me pose sur la terrasse face au lac du parc Ohori (il n’y a pas mieux pour prendre un petit-déj, surtout en plein soleil).
+
+À deux pas se trouve le jardin Ohori Park Japanese Garden. Comme d’habitude : calme, reposant, et j’ai particulièrement apprécié la beauté de l’étang.
+
+Longue balade tout autour du lac. Les familles sont présentes en masse, on sent que c’est dimanche et que le festival y est pour quelque chose.
+Du coup : plein de poussettes, des enfants qui courent, des couples sur les bancs près du lac… Franchement, l’ambiance est super détente.
+
+Après avoir fait le tour (au sens propre comme figuré), je décide de prendre le métro pour me diriger vers le quartier de Gion, pour découvrir 2 temples et 1 sanctuaire :
+* Tochoji Temple
+* Shofukuji Temple
+* Kushida-jinja
+
+J’ai vite fait le tour, rien à voir avec ceux que j’ai pu faire jusqu’ici, mais bon, c’est toujours intéressant de voir les temples de la ville (surtout que ceux-ci sont en plein milieu des buildings).
+
+Puis, à 5 minutes à pied, je pars me perdre dans le GIGANTESQUE centre commercial : Canal City Hakata.
+
+Longue balade entre les étages, je repère des boutiques vintage, des magasins de jeux vidéo, de figurines, etc. Puis vers 17h30, je me pose dans un Starbucks du centre commercial pour bosser un peu, avant d’aller manger dans un restaurant de burgers : Masajiro Burger (je suis passé devant tout à l’heure, et puis ça change des ramen et du riz).
+
+Je rentre encore à pied ce soir, écouteurs dans les oreilles, musique et ambiance de la nuit tout du long. Je m’arrête en chemin pour manger 2 cookies, puis je rentre à l’auberge me poser dans la salle commune.`,
+  "mood": "Découverte chill et artistique de Fukuoka"
 }
 
 
