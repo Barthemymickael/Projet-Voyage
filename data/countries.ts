@@ -4826,7 +4826,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Festival des sakura à Maizuru Park',
     'Expérience dans un yatai (ramen + bière)',
     'Découverte du quartier de Tenjin',
-  ]
+  ],
+  video: 'https://youtube.com/shorts/yryA5aNH5W4?si=SNvoSOnePaUl8yWO'
 }
 
 
