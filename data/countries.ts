@@ -6389,7 +6389,89 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Logement',
   description: "Auberge de jeunesse où je séjourne pendant une semaine à Fukuoka.",
   emoji: '🛏️'
+},
+{
+  id: 'm347',
+  lat: 33.58415958333216,
+  lng: 130.37955942643677,
+  title: 'Musée d’art de Fukuoka',
+  category: 'Musée',
+  description: "Musée d’art proposant une exposition contemporaine surprenante et très intéressante, pour seulement 1 euro.",
+  emoji: '🖼️'
+},
+{
+  id: 'm348',
+  lat: 33.58611026153298,
+  lng: 130.376465498323,
+  title: 'Parc Ohori',
+  category: 'Parc',
+  description: "Magnifique parc avec un immense lac central, idéal pour se balader et profiter d’un moment calme.",
+  emoji: '🌿'
+},
+{
+  id: 'm349',
+  lat: 33.58382273495102,
+  lng: 130.37912088526073,
+  title: 'Cafe AQUAM',
+  category: 'Café',
+  description: "Pause jus d’orange,plein soleil face au lac du parc Ohori, cadre magnifique.",
+  emoji: '🍊'
+},
+{
+  id: 'm350',
+  lat: 33.58257567004843,
+  lng: 130.3787790321443,
+  title: 'Ohori Park Japanese Garden',
+  category: 'Jardin',
+  description: "Très beau jardin japonais avec carpes koi et un étang particulièrement agréable.",
+  emoji: '🌸'
+},
+{
+  id: 'm351',
+  lat: 33.594960385780354,
+  lng: 130.41437763827915,
+  title: 'Temple Tochoji',
+  category: 'Temple',
+  description: "Temple bouddhiste connu pour abriter une grande statue de Bouddha en bois.",
+  emoji: '🛕'
+},
+{
+  id: 'm352',
+  lat: 33.59723352683013,
+  lng: 130.41444221239465,
+  title: 'Temple Shofukuji',
+  category: 'Temple',
+  description: "Premier temple zen du Japon, fondé au XIIe siècle, avec une atmosphère très paisible.",
+  emoji: '🛕'
+},
+{
+  id: 'm353',
+  lat: 33.59296071752421,
+  lng: 130.41046090821956,
+  title: 'Sanctuaire Kushida-jinja',
+  category: 'Sanctuaire',
+  description: "Sanctuaire shinto emblématique de Fukuoka, connu pour le festival Hakata Gion Yamakasa.",
+  emoji: '⛩️'
+},
+{
+  id: 'm354',
+  lat: 33.58930742660524,
+  lng: 130.41101441020317,
+  title: 'Canal City Hakata',
+  category: 'Shopping',
+  description: "Grand centre commercial avec architecture moderne, boutiques, restaurants et spectacles autour du canal central.",
+  emoji: '🛍️'
+},
+{
+  id: 'm355',
+  lat: 33.58928113866124,
+  lng: 130.4108336441416,
+  title: 'Masajiro Burger',
+  category: 'Restaurant',
+  description: "Très bon burger dégusté après une longue balade dans le centre commercial.",
+  emoji: '🍔'
 }
+
 
 
 
