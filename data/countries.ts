@@ -8267,7 +8267,7 @@ Puis, à 5 minutes à pied, je pars me perdre dans le GIGANTESQUE centre commerc
 Longue balade entre les étages, je repère des boutiques vintage, des magasins de jeux vidéo, de figurines, etc. Puis vers 17h30, je me pose dans un Starbucks du centre commercial pour bosser un peu, avant d’aller manger dans un restaurant de burgers : Masajiro Burger (je suis passé devant tout à l’heure, et puis ça change des ramen et du riz).
 
 Je rentre encore à pied ce soir, écouteurs dans les oreilles, musique et ambiance de la nuit tout du long. Je m’arrête en chemin pour manger 2 cookies, puis je rentre à l’auberge me poser dans la salle commune.`,
-  "mood": "Découverte chill et artistique de Fukuoka"
+  "mood": "Première journée complète à Fukuoka"
 }
 
 
