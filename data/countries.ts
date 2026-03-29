@@ -6353,6 +6353,42 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Restaurant',
   description: "Restaurant de ramen plutôt bon, une adresse simple et efficace pour manger à Hiroshima.",
   emoji: '🍜'
+},
+{
+  id: 'm343',
+  lat: 33.58606601801819,
+  lng: 130.38316359103996,
+  title: 'Festival des sakura (Maizuru Park)',
+  category: 'Événement',
+  description: "Grand parc accueillant le festival des sakura pendant une dizaine de jours, avec de nombreux stands, lanternes et une ambiance très animée.",
+  emoji: '🌸'
+},
+{
+  id: 'm344',
+  lat: 33.591381344042595,
+  lng: 130.3988679960118,
+  title: 'Tenjin',
+  category: 'Quartier',
+  description: "Quartier central de Fukuoka avec boutiques, grands magasins, restaurants, bars et vie nocturne animée.",
+  emoji: '🏙️'
+},
+{
+  id: 'm345',
+  lat: 33.5854370833163,
+  lng: 130.4032637981472,
+  title: 'Yatai Okamoto',
+  category: 'Street Food',
+  description: "Premier yatai de ma vie, ambiance animée avec stands de street food typiques de Fukuoka.",
+  emoji: '🍜'
+},
+{
+  id: 'm346',
+  lat: 33.59035345441182,
+  lng: 130.3799583671149,
+  title: 'Mon auberge à Fukuoka',
+  category: 'Logement',
+  description: "Auberge de jeunesse où je séjourne pendant une semaine à Fukuoka.",
+  emoji: '🛏️'
 }
 
 
