@@ -4831,7 +4831,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't48',
-  date: 'Jour 48 (24 906 pas)',
+  date: 'Jour 48 (25 021 pas)',
   title: 'Première journée à Fukuoka',
   description:
     "Première journée complète à Fukuoka entre art contemporain, balade autour du lac Ohori et découverte des temples de la ville. La journée se termine dans l'ambiance animée de Canal City.",
