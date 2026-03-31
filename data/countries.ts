@@ -6505,6 +6505,105 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Restaurant',
   description: "Très bon burger dégusté après une longue balade dans le centre commercial.",
   emoji: '🍔'
+},
+{
+  id: 'm356',
+  lat: 33.59808690245357,
+  lng: 130.37530888490616,
+  title: 'Nishi Park',
+  category: 'Parc',
+  description: "Parc situé sur les hauteurs avec de beaux points de vue sur la ville et la mer, très agréable pendant la saison des cerisiers.",
+  emoji: '🌸'
+},
+{
+  id: 'm357',
+  lat: 33.597143709370634,
+  lng: 130.37638887037758,
+  title: 'Terumo Shrine',
+  category: 'Sanctuaire',
+  description: "Sanctuaire calme situé à proximité de Nishi Park, offrant une ambiance paisible au milieu de la nature.",
+  emoji: '⛩️'
+},
+{
+  id: 'm358',
+  lat: 33.60076169250248,
+  lng: 130.36694396159265,
+  title: 'Fukuhama Beach',
+  category: 'Plage',
+  description: "Plage tranquille au nord de Fukuoka, idéale pour une balade au bord de l’eau.",
+  emoji: '🏖️'
+},
+{
+  id: 'm359',
+  lat: 33.59677305268412,
+  lng: 130.3594366816409,
+  title: 'Seaside Momochi Jigyohama',
+  category: 'Plage',
+  description: "Grande plage urbaine avec vue sur les buildings modernes de Fukuoka.",
+  emoji: '🌊'
+},
+{
+  id: 'm360',
+  lat: 33.594734788847084,
+  lng: 130.35122588827969,
+  title: 'Momochi Seaside Park',
+  category: 'Parc',
+  description: "Parc en bord de mer avec espaces de détente, parfait pour profiter du coucher de soleil.",
+  emoji: '🌅'
+},
+{
+  id: 'm361',
+  lat: 33.59506295868034,
+  lng: 130.35313915923695,
+  title: 'Momochihama Beach',
+  category: 'Plage',
+  description: "Plage populaire de Fukuoka avec ambiance détendue et vue sur la skyline.",
+  emoji: '🏖️'
+},
+{
+  id: 'm362',
+  lat: 33.59621788083566,
+  lng: 130.33953775545857,
+  title: 'Atago Beach Park',
+  category: 'Parc',
+  description: "Parc côtier calme avec vue dégagée sur la mer et les environs.",
+  emoji: '🌿'
+},
+{
+  id: 'm363',
+  lat: 33.585626949167136,
+  lng: 130.33485027324897,
+  title: 'Washio Atago Shrine',
+  category: 'Sanctuaire',
+  description: "Sanctuaire situé sur les hauteurs offrant un panorama impressionnant sur Fukuoka.",
+  emoji: '⛩️'
+},
+{
+  id: 'm364',
+  lat: 33.593717460733814,
+  lng: 130.41145991496538,
+  title: 'Hakata Machiya Hometown Museum',
+  category: 'Musée',
+  description: "Musée retraçant la vie traditionnelle de Hakata avec maisons reconstituées et objets du quotidien.",
+  emoji: '🏛️'
+},
+{
+  id: 'm365',
+  lat: 33.5908725203497,
+  lng: 130.41271254175982,
+  title: 'Fuk Café',
+  category: 'Café',
+  description: "Petit café sympa dans le quartier de Hakata, parfait pour une pause.",
+  emoji: '☕'
+},
+{
+  id: 'm366',
+  lat: 33.588228254573266,
+  lng: 130.40331708354273,
+  title: 'Jazz Bar Jab',
+  category: 'Bar',
+  description: "Bar à l’ambiance jazz avec musique live et atmosphère intimiste.",
+  emoji: '🎷'
 }
 
 
