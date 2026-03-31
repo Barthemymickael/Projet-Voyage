@@ -4831,7 +4831,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't48',
-  date: 'Jour 48 (25 021 pas)',
+  date: 'Jour 48 (25 029 pas)',
   title: 'Première journée à Fukuoka',
   description:
     "Première journée complète à Fukuoka entre art contemporain, balade autour du lac Ohori et découverte des temples de la ville. La journée se termine dans l'ambiance animée de Canal City.",
@@ -4845,7 +4845,24 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Starbucks et burger chez Masajiro Burger'
   ],
   video: 'https://youtube.com/shorts/1IvmU0Jyq0g?si=tuoeEuDZ__SgqdEN'
-
+},
+{
+  id: 't49',
+  date: 'Jour 49 (22 595 pas)',
+  title: 'Balade entre plage et quartiers locaux',
+  description:
+    'Journée entre parcs, plages et quartiers locaux à Fukuoka. Météo changeante et pauses café.',
+  bullets: [
+    'Nishi Park et sanctuaire Terumo-jinja',
+    'Fukuhama Beach et Seaside Momochi',
+    'Pause face à la mer (Momochi Seaside Park)',
+    'Fukuoka Tower et Momochihama Beach',
+    'Atago Beach Park',
+    'Sanctuaire Washio Atago (vue sur la ville)',
+    'Hakata Machiya Folk Museum',
+    'Pause au Fuk Coffee',
+    'Bar jazz Jab pour finir la journée'
+  ]
 }
 
 
@@ -8268,6 +8285,42 @@ Longue balade entre les étages, je repère des boutiques vintage, des magasins 
 
 Je rentre encore à pied ce soir, écouteurs dans les oreilles, musique et ambiance de la nuit tout du long. Je m’arrête en chemin pour manger 2 cookies, puis je rentre à l’auberge me poser dans la salle commune.`,
   "mood": "Première journée complète à Fukuoka"
+},
+{
+  "id": "j49",
+  "day": 49,
+  "title": "Balade entre plage et quartiers locaux",
+  "excerpt": `Ce matin, je commence par prendre mon petit-déjeuner inclus avec l’auberge : pain au chocolat, œuf dur.
+
+Balade matinale dans le Nishi Park, à 20 minutes de l’auberge. Malheureusement, beaucoup d’endroits sont en travaux, notamment les points de vue avec panorama (je vois qu’ils installent des passerelles et des bancs pour aménager tout ça parfaitement).
+Je passe par le sanctuaire Terumo Shrine, à l’intérieur du parc.
+
+Passage par Fukuhama Beach, elle aussi en travaux ahah… mais ça n’a pas l’air d’être la plage la plus jolie.
+
+Pause du midi, posé sur la digue de Seaside Momochi Jigyohama. Complètement solo : un caramel latte, un cookie et deux autres pâtisseries, au calme, avec le clapotis de l’eau.
+
+Balade dans le parc Momochi Seaside Park, juste devant la tour de Fukuoka, et Momochihama Beach, avec plusieurs bars et snacks de plage.
+Sur mon chemin, je tombe sur un saxophoniste en train de s’entraîner, posé à côté d’une promenade. Musique en fond sur sa chaîne hi-fi, il essaie de se placer correctement en fonction du son.
+Sympathique.
+
+Passage par Atago Beach Park : quelques méduses mortes sur le sable, peu de monde, quelques marcheurs et pêcheurs.
+
+Bus direction le sanctuaire Washio Atago. Il est niché au sommet d’une petite montagne entre les habitations. Une fois en haut, une belle vue sur la ville, malgré un temps gris.
+
+Puis métro direction le musée Hakata Machiya Hometown Fukuoka.
+30 minutes de visite (1 €), qui retracent la célèbre fête annuelle de la ville : le Hakata Gion Yamakasa. C’est un festival traditionnel qui a lieu chaque été, où des équipes d’habitants portent d’immenses chars décorés à travers la ville en courant.
+
+Et c’est vers 16h qu’il s’est mis fortement à pleuvoir, je regarde mon téléphone, je me demande ce que je peux faire.
+
+Je décide donc de prendre une pause au Fuk Café, où je prends un matcha latte.
+Je pensais pouvoir me poser sur mon PC, mais impossible : c’est un coffee shop tendance avec des mini tables pour boire rapidement, toujours une queue à l’entrée. Du coup, je bois tranquillement puis je repars en quête d’un autre endroit.
+
+C’est environ 20 minutes plus tard, une fois sorti du Fuk Café, que je termine ma journée en prenant un café au lait dans un bar de modern jazz : Jab.
+
+Ce bar, c’est Antoine (un pote de mon groupe) qui me l’a conseillé, et c’était une expérience vraiment sympathique.
+Ici, que du cash, alors je m’absente 5 minutes pour aller retirer de l’argent avant de revenir déguster mon café au lait.
+Beaucoup d’habitués passent, prennent un café bien brûlant, discutent avec le gérant, puis repartent.`,
+  "mood": "Journée calme entre mer, pluie et quartiers locaux"
 }
 
 
