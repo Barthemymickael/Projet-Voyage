@@ -4861,8 +4861,10 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Sanctuaire Washio Atago (vue sur la ville)',
     'Hakata Machiya Folk Museum',
     'Pause au Fuk Coffee',
-    'Bar jazz Jab pour finir la journée'
-  ]
+    'Bar modern jazz : Jab pour finir la journée'
+  ],
+  video: 'https://youtube.com/shorts/t6klgDrV3Qs?si=HtP-ZvVo1y_Fano6'
+
 }
 
 
