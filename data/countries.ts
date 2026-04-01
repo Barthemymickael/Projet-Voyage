@@ -8548,7 +8548,43 @@ Le mot d’ordre du jour : “Et pourquoi pas ?”
 
 La pluie et le mauvais temps n’annonçaient rien de bon et pourtant, c’était une belle journée ! »`,
   "mood": "Escapade à Palm Beach dans la préfecture d'Itoshima"
-} 
+},
+{
+  "id": "j51",
+  "day": 51,
+  "title": "Dazaifu",
+  "excerpt": `Réveil à 9h30, mais pas trop motivé à me lever direct. Je reste un peu au lit, sans prendre le petit-déjeuner de l’auberge. De toute façon, la météo est encore capricieuse aujourd’hui… donc je change mes plans.
+
+Direction la petite ville de Dazaifu, connue pour son sanctuaire et surtout pour son musée.
+
+Je commence par le célèbre Dazaifu Tenman-gū. Un sanctuaire dédié à Tenjin, le dieu des études et du savoir.
+
+L’ambiance est vraiment cool : allée principale animée, petits stands.
+
+Je passe ensuite par le Dazaifu Tenmangu Museum, rapide mais intéressant pour comprendre un peu mieux l’histoire du lieu.
+
+Puis je me dirige vers le gros morceau de la journée : le Kyushu National Museum.
+J’y reste presque 2 heures.
+
+Le musée retrace les échanges entre le Japon et le reste de l’Asie à travers les siècles : Chine, Corée, routes commerciales, influences culturelles…
+
+Après ça, petite pause au café du musée. Un jus d’orange, tranquille, histoire de souffler un peu.
+
+Vers 16h, je reprends le chemin du retour pour Fukuoka.
+
+Cette fois-ci, j’ai un objectif simple : trouver un café pour me poser et lire.
+
+Je tombe sur Lamplight Books Cafe Fukuoka.
+
+Parfait.
+
+Je prends un croissant, un matcha latte, je m’installe… et je lis.
+Deux chapitres.
+
+Et par pur hasard, je tombe sur un passage où le personnage principal se balade dans les rues de Saint-Pétersbourg, complètement dans ses pensées. Il change d’avis en permanence, revient sur ses pas, hésite, devient anxieux puis euphorique selon ce qui lui passe par la tête.
+Et là, ça me rappelle exactement ma journée d’hier à Itoshima. Ce moment où j’étais incapable de choisir, où j’étais un peu perdu dans mes propres pensées… avant de juste me dire : “Et pourquoi pas ?”`,
+  "mood": "Découverte de la ville de Dazaifu et ses musées"
+}
 
 
 
