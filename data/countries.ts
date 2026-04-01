@@ -4881,6 +4881,22 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Pause au Surf Side Cafe Itoshima',
   ],
   video: 'https://youtube.com/shorts/xwFvmcnvG-Y?si=eqG6V7xY0M401FKM'
+},
+{
+  id: 't51',
+  date: 'Jour 51 (12 858 pas)',
+  title: 'Ville de Dazaifu, musée et lecture',
+  description:
+    'Journée entre sanctuaire, musée et lecture.',
+  bullets: [
+    'Dazaifu Tenman-gū (sanctuaire dédié à Tenjin)',
+    'Dazaifu Tenmangu Museum',
+    'Kyushu National Museum (échanges Japon-Asie)',
+    'Pause au café du musée',
+    'Lamplight Books Cafe Fukuoka',
+  ],
+  video: 'https://youtube.com/shorts/DZW1ePEF1P8?si=Rt100--aAkUbxao0'
+
 }
 
 
