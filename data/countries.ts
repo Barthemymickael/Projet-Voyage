@@ -6638,6 +6638,105 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Bar',
   description: "Bar à l’ambiance jazz avec musique live et atmosphère intimiste.",
   emoji: '🎷'
+},
+{
+  id: 'm367',
+  lat: 33.55728,
+  lng: 130.19558,
+  title: 'Palm Beach Itoshima',
+  category: 'Plage',
+  description: "Plage d’Itoshima avec ambiance chill, cafés et spot parfait pour profiter de l’océan.",
+  emoji: '🏖️'
+},
+{
+  id: 'm368',
+  lat: 33.6361,
+  lng: 130.1993,
+  title: 'Honu Cafe Itoshima Futamigaura',
+  category: 'Café',
+  description: "Café en bord de mer avec vue sur l’océan, très populaire pour ses spots photo.",
+  emoji: '☕'
+},
+{
+  id: 'm369',
+  lat: 33.6385,
+  lng: 130.1990,
+  title: 'Sakurai Futamigaura Meoto Iwa',
+  category: 'Monument',
+  description: "Rochers sacrés reliés par une corde shimenawa dans la mer, symbole iconique d’Itoshima.",
+  emoji: '🌊'
+},
+{
+  id: 'm370',
+  lat: 33.6145,
+  lng: 130.1892,
+  title: 'Heart Tree',
+  category: 'Nature',
+  description: "Arbre en forme de cœur situé dans le Futamigaura Park, spot photo connu pour les couples.",
+  emoji: '🌳'
+},
+{
+  id: 'm371',
+  lat: 33.5573,
+  lng: 130.1962,
+  title: 'Surfers Market Itoshima',
+  category: 'Shopping',
+  description: "Boutique lifestyle avec ambiance surf, vêtements et accessoires.",
+  emoji: '🏄'
+},
+{
+  id: 'm372',
+  lat: 33.5573,
+  lng: 130.1962,
+  title: 'Surf Side Cafe Itoshima',
+  category: 'Café',
+  description: "Café en bord de mer avec ambiance surf et vue sur l’océan.",
+  emoji: '🌊'
+},
+{
+  id: 'm373',
+  lat: 33.519036,
+  lng: 130.531408,
+  title: 'Gare de Dazaifu',
+  category: 'Transport',
+  description: "Petite gare menant directement au sanctuaire Dazaifu Tenman-gū.",
+  emoji: '🚉'
+},
+{
+  id: 'm374',
+  lat: 33.521389,
+  lng: 130.535000,
+  title: 'Dazaifu Tenman-gū',
+  category: 'Sanctuaire',
+  description: "Sanctuaire célèbre dédié à Tenjin, dieu des études, très populaire auprès des étudiants.",
+  emoji: '⛩️'
+},
+{
+  id: 'm375',
+  lat: 33.521389,
+  lng: 130.535000,
+  title: 'Dazaifu Tenmangu Museum',
+  category: 'Musée',
+  description: "Musée situé dans l’enceinte du sanctuaire, présentant l’histoire et les objets liés à Tenman-gū.",
+  emoji: '🏛️'
+},
+{
+  id: 'm376',
+  lat: 33.518356,
+  lng: 130.538297,
+  title: 'Kyushu National Museum',
+  category: 'Musée',
+  description: "Grand musée national moderne présentant l’histoire et les échanges culturels du Japon avec l’Asie.",
+  emoji: '🖼️'
+},
+{
+  id: 'm377',
+  lat: 33.5869581,
+  lng: 130.3953161,
+  title: 'Lamplight Books Cafe Fukuoka',
+  category: 'Café',
+  description: "Café-librairie cosy parfait pour lire et se poser autour d’un café.",
+  emoji: '📚'
 }
 
 
