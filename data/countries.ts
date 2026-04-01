@@ -4864,7 +4864,23 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Bar modern jazz : Jab pour finir la journée'
   ],
   video: 'https://youtube.com/shorts/t6klgDrV3Qs?si=HtP-ZvVo1y_Fano6'
-
+},
+{
+  id: 't50',
+  date: 'Jour 50 (16 913 pas)',
+  title: 'Escapade à Palm Beach Itoshima',
+  description:
+    'Excursion à Itoshima entre météo capricieuse, ambiance surf et réflexions personnelles. Malgré la pluie, une journée marquée par des paysages marins, des pauses chill et une belle leçon : profiter et dire “pourquoi pas”.',
+  bullets: [
+    'Palm Beach Itoshima (ambiance surf sous la pluie)',
+    'Honu Cafe Itoshima (fluffy pancakes)',
+    'Sakurai Futamigaura Meoto Iwa (torii face à la mer)',
+    'Spot du Heart Tree et vue sur la baie',
+    'Surfers Market Itoshima (shopping)',
+    'Spot “hawaïen” (hamacs, balançoires)',
+    'Pause au Surf Side Cafe Itoshima',
+  ],
+  video: 'https://youtube.com/shorts/xwFvmcnvG-Y?si=eqG6V7xY0M401FKM'
 }
 
 
@@ -8422,8 +8438,101 @@ Ce bar, c’est Antoine (un pote de mon groupe) qui me l’a conseillé, et c’
 Ici, que du cash, alors je m’absente 5 minutes pour aller retirer de l’argent avant de revenir déguster mon café au lait.
 Beaucoup d’habitués passent, prennent un café bien brûlant, discutent avec le gérant, puis repartent.`,
   "mood": "Journée calme entre mer, pluie et quartiers locaux"
-}
+},
+{
+  "id": "j50",
+  "day": 50,
+  "title": "Escapade à Palm Beach dans la préfecture d'Itoshima",
+  "excerpt": `Départ vers 9h30 en direction de l’ouest de la préfecture de Fukuoka, pile au nord de la zone d’Itoshima. Environ 1h30 de trajet pour changer complètement d’ambiance.
 
+J’arrive sur la plage, un endroit appelé Palm Beach Itoshima.
+
+Et là… grosse déception niveau météo.
+Pluie fine, ciel gris, vent. Impossible de voir le plein potentiel du lieu, qui a pourtant l’air complètement paradisiaque : palmiers, sable clair, petites cabanes de surfeurs, cafés posés face à la mer… un petit air d’Okinawa, clairement.
+
+Mais aujourd’hui, pour moi, c’est ambiance pluie + ciel dégueulasse.
+
+Je trouve quand même un super café : Honu Cafe Itoshima Futamigaura.
+Je me prends des fluffy pancakes banane-chocolat avec un jus d’orange, tout fait maison.
+
+Franchement, masterclass.
+
+Je me pose tranquille, je lis mon livre, face à la mer.
+Un petit chat se balade dans le café, ambiance hyper chill, presque hors du temps.
+
+On sent que l’été ici doit être incroyable, blindé de monde, avec une vraie vibe surf / vacances.
+
+La pluie finit par s’arrêter, mais le ciel reste bien chargé.
+
+Je pars ensuite voir les célèbres Sakurai Futamigaura Meoto Iwa.
+Deux rochers reliés par une corde sacrée, avec un torii blanc face à la mer.
+Même avec ce temps, ça reste un spot assez puissant.
+
+Je continue ensuite dans les hauteurs juste en face de la plage.
+Je tombe sur un cimetière, puis sur un petit spot connu : le “Heart Tree”.
+
+Et surtout, un endroit complètement inattendu : ambiance presque hawaïenne.
+Des palmiers, une herbe bien verte, des bancs en marbre noir, et une vue ouverte sur toute la baie.
+
+Je reste là quelques minutes, accoudé à une barrière, à regarder les vagues, le vent, les surfeurs… et ce torii au loin.
+
+Puis je redescends, je longe la plage, j’observe les cafés, les gens, l’ambiance.
+
+Je passe dans la boutique Surfers Market Itoshima.
+Beaucoup d’objets autour du surf, de la van life, des vêtements cool… mais je ne trouve pas LE truc.
+
+Et surtout, je me dis : “j’ai pas de place”.
+
+Je sors.
+Je marche.
+
+Et là, petit combat intérieur.
+
+Je vois un spot à 1h de marche sur Google Maps.
+Mais en même temps, j’ai envie d’acheter un souvenir ici.
+
+Et pendant une bonne partie de la marche, je suis pas satisfait.
+Je veux deux choses en même temps.
+
+Et je me répète :
+“Est-ce que cette journée est vraiment mémorable ?”
+“Est-ce que je vais m’en souvenir ?”
+“Est-ce que ça vaut le coup ?”
+
+Puis déclic :
+
+“Mais qui m’interdit de faire les deux ?”
+
+Et là, tout devient simple.
+
+Je continue jusqu’au spot (pas incroyable honnêtement : déco un peu fake hawaïenne, balançoires, hamacs… sympa sans plus).
+
+Puis je prends un bus.
+Retour direct à la boutique.
+
+Et là… meilleure décision de la journée.
+
+J’achète un t-shirt et un autocollant, tout deux avec des designs du lieu “Itoshima”.
+
+Puis pour finir parfaitement la journée, je me pose pendant 2 heures au Surf Side Cafe Itoshima.
+
+Face à la plage, les surfeurs, les collines, le torii au loin.
+Musique chill.
+Un coca, des frites.
+
+Et surtout… un moment.
+
+Je sors mon carnet, et j’écris :
+
+« J’écris ces quelques lignes au Surf Side Café devant la plage, les surfeurs, les collines, le torii blanc sur la gauche, la musique chill du café et mon plateau de frites et coca que j’ai terminé.
+
+Je ne sais pas si c’est la journée en elle-même qui est mémorable ou si j’ai fait en sorte qu’elle le soit.
+
+Le mot d’ordre du jour : “Et pourquoi pas ?”
+
+La pluie et le mauvais temps n’annonçaient rien de bon et pourtant, c’était une belle journée ! »`,
+  "mood": "Escapade à Palm Beach dans la préfecture d'Itoshima"
+} 
 
 
 
