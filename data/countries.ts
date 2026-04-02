@@ -6728,6 +6728,15 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Café',
   description: "Café-librairie cosy parfait pour lire et se poser autour d’un café.",
   emoji: '📚'
+},
+{
+  id: 'm378',
+  lat: 33.6291658359029,
+  lng: 130.22697544726486,
+  title: 'Palm Tree Swing',
+  category: 'Nature',
+  description: "Spot à voir à Itoshima (Fais à pied entre Palm Beach et celui-ci)",
+  emoji: '🌳'
 }
 
 
