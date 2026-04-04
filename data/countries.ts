@@ -4884,7 +4884,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't51',
-  date: 'Jour 51 (12 858 pas)',
+  date: 'Jour 51 (12 962 pas)',
   title: 'Ville de Dazaifu, musée et lecture',
   description:
     'Journée entre sanctuaire, musée et lecture.',
@@ -4896,7 +4896,24 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Lamplight Books Cafe Fukuoka',
   ],
   video: 'https://youtube.com/shorts/DZW1ePEF1P8?si=Rt100--aAkUbxao0'
-
+},
+{
+  id: 't52',
+  date: 'Jour 52 (27 024 pas)',
+  title: 'L’île de Nokono et Fukuoka Tower',
+  description:
+    'Journée entre nature et panorama : exploration libre de l’île de Nokono, puis soirée en hauteur avec vue sur Fukuoka.',
+  bullets: [
+    'Accès à l’île de Nokono (marche, bus, ferry)',
+    'Exploration à pied hors des sentiers touristiques',
+    'Plage isolée et pause face à la mer',
+    'Marche instinctive à travers champs et villages',
+    'Nokonoshima Island Park (fleurs et panorama)',
+    'Pause bière avec vue sur la mer',
+    'Artisanat local et stands dans le parc',
+    'Fukuoka Tower au coucher de nuit',
+    'Dîner chez Sushiro (premiers sushis du voyage)',
+  ]
 }
 
 
