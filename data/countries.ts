@@ -6806,6 +6806,51 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Nature',
   description: "Petite île magnifiqueau large de Fukuoka offrant nature, fleurs et vues magnifiques sur la mer.",
   emoji: '🏝️'
+},
+{
+  id: 'm383',
+  lat: 33.6198697,
+  lng: 130.5730415,
+  title: 'Temple Nanzoïn',
+  category: 'Temple',
+  description: "Temple célèbre pour son immense statue de Bouddha couché, l’une des plus grandes au monde.",
+  emoji: '🛕'
+},
+{
+  id: 'm384',
+  lat: 33.6260681,
+  lng: 130.5535640,
+  title: 'Barrage de Narufuchi',
+  category: 'Nature',
+  description: "Barrage entouré de montagnes offrant un cadre naturel très paisible.",
+  emoji: '🌄'
+},
+{
+  id: 'm385',
+  lat: 33.6260207,
+  lng: 130.5562267,
+  title: 'Parc en hauteur (Narufuchi)',
+  category: 'Point de vue',
+  description: "Petit parc mignon avec un chalet en bois et une vue panoramique sur le barrage et les montagnes.",
+  emoji: '🌅'
+},
+{
+  id: 'm386',
+  lat: 33.5926733,
+  lng: 130.3968509,
+  title: 'Shin Shin',
+  category: 'Restaurant',
+  description: "Restaurant de nouilles très populaire à Fukuoka, avec souvent une longue attente. Bon mais légèrement surcoté.",
+  emoji: '🍜'
+},
+{
+  id: 'm387',
+  lat: 33.5923275,
+  lng: 130.4058574,
+  title: 'BOMES INDEE',
+  category: 'Bar',
+  description: "Bar reggae ultra cool où je rencontre Chris et Violet. Soirée incroyable de 21h à 2h du matin.",
+  emoji: '🍹'
 }
 
 
