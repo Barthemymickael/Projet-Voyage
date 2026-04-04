@@ -8802,6 +8802,107 @@ C’était parfait, j’ai mangé plus d’une vingtaine de pièces, très bonne
 
 Enfin, pour clôturer la journée, je pars faire une lessive dans un lavomatique car effectivement demain c’est mon dernier jour complet à Fukuoka, alors je prépare déjà les affaires, ma valise et je suis prêt à profiter de la dernière journée`,
   "mood": "L’île de Nokono et Fukuoka Tower"
+},
+{
+  "id": "j53",
+  "day": 53,
+  "title": "Dernière journée à Fukuoka",
+  "excerpt": `Dernière journée à Fukuoka
+
+Et c’est une journée qui s’organise sur le fil. Je me réveille, j’ai une idée de ce que je vais faire, je change d’avis… et je m’y tiens.
+
+Je prends donc un train JR pour me rendre à Nanzoïn.
+
+30 minutes plus tard, j’arrive dans cette petite ville de Sasaguri pour découvrir le temple Nanzoïn, connu pour son immense statue de bouddha allongé.
+
+Le temple se situe dans la montagne. Il n’y a pas grand-chose à faire, si ce n’est prendre une glace et contempler la statue (ce que je fais pendant une vingtaine de minutes).
+
+Puis j’ai plusieurs idées en tête, plusieurs choses à faire pour le reste de l’après-midi, et donc pour mes derniers moments à Fukuoka.
+
+Mais mon esprit s’en mêle. J’ai envie de faire ça, ça ou ça… mais il faut bien choisir.
+
+En me baladant dans les sentiers du temple, je découvre quelques petites cascades, des statuettes, puis un sentier dans une forêt de bambous.
+
+Je pénètre donc dans ce sentier rempli de bambous, atteins le sommet en une dizaine de minutes, et me voilà face à un carrefour à trois chemins différents.
+
+Le premier : retourner au temple (pas besoin).
+Le deuxième : retourner à la gare et reprendre le train en direction de Fukuoka.
+Le troisième : une petite route de campagne.
+
+Je regarde sur Google Maps : si je continue pendant une heure à pied, je tomberai sur un barrage au style un peu particulier.
+
+À ce moment-là, tout se mélange. Pas envie de marcher pour rien, d’aller vers un endroit pas forcément incroyable… mais en même temps, comme à mon habitude, je suis curieux. Impossible de ne pas me dire « pourquoi pas » et partir vers l’inconnu.
+
+J’ai donc pris ce chemin. Marché pendant une heure.
+
+Sur la route, pas grand-chose. Le calme absolu. Parfois des petites maisons un peu délabrées, mais habitées. Parfois des cabanes avec des oranges achetables pour 100 yens. Évidemment, quelques cerisiers en fleurs, et quelques personnes âgées marchant, comme moi (peut-être des habitants d’ici, je ne sais pas).
+
+J’arrive ensuite sur un chemin de campagne, avec des maisons typiques. Des habitants font sécher leur linge. Je dis bonjour et profite d’une jolie vue sur les montagnes.
+
+Après une heure de marche, j’arrive enfin au barrage de Narufuchi.
+
+Au pied du barrage : un endroit calme, de la verdure, de l’herbe fraîchement tondue.
+
+Un petit camping privé où je vois quelques personnes qui ont planté des tentes, ainsi que quelques mobile homes design, éparpillés ici et là.
+
+Et en face de moi, cet énorme barrage au style particulier. Je ne trouve pas immédiatement les escaliers (en réalité, il n’y en a pas : il faut passer par la route).
+
+Au bout de 20 minutes, je marche tranquillement sur le barrage, profitant d’une jolie vue. Mais je remarque qu’il y a encore plus haut, dans les hauteurs, un petit chalet avec sûrement une vue imprenable.
+
+25 minutes plus tard, je m’y retrouve.
+
+Un tout petit parc, mignon, avec des tables et un chalet en bois.
+
+L’endroit est très sympa, très paisible, et surtout doté d’une vue magnifique sur le barrage, le lac et les montagnes tout autour.
+
+Un endroit parfait pour se poser, se détendre, réfléchir. Je suis entouré par les oiseaux, et seulement trois personnes passent en l’espace de 2h30 (sans rester longtemps comme moi).
+
+J’appelle ma mère pendant plus d’une heure, tout en contemplant ce paysage.
+
+Je reste encore 30 minutes à observer autour de moi, écouter le chant des oiseaux, profiter de la tranquillité du lieu, de chaque angle que la montagne m’offre.
+
+Une magnifique façon de clôturer cette journée, ainsi que ma semaine à Fukuoka : chill, paisible, entre les montagnes.
+
+Sans aucun bruit, si ce n’est celui de la nature.
+
+Pour rentrer dans le centre-ville, il me faut 35 minutes de marche pour rejoindre la gare locale la plus proche, puis 40 minutes de train.
+
+Avant de rentrer à l’auberge pour ma dernière nuit, je m’installe dans un restaurant que j’avais sauvegardé quelques jours plus tôt : Shin Shin (restaurant de nouilles japonaises ultra connu en ville).
+1 heure d’attente. C’était bon… mais pas incroyable pour une heure.
+
+En sortant, je me balade sur les quais en direction d’un bar reggae (conseillé par mon pote Antoine, qui y était allé un an auparavant).
+
+Le bar est au premier étage d’un immeuble. Je rentre : l’ambiance est géniale. Intimiste. 7-8 places au bar, des vinyles partout, des affiches, magazines, objets des années 80-90… j’adore.
+
+Le tout dans une déco entièrement en bois, tenue par le même homme depuis 32 ans.
+
+Au départ, deux Japonais d’une quarantaine d’années discutent avec le patron du bar.
+
+Puis un Australien s’assoit à côté de moi, puis quelques minutes plus tard, une Hongkongaise également.
+
+Chris (30 ans) et Violet (26 ans).
+
+Et finalement, on aura passé toute la soirée ensemble, de 21h à 2h du matin.
+
+Je n’ai pas vu le temps passer. Les discussions étaient géniales, beaucoup de rires, de partage. Découverte de plusieurs alcools japonais : highball et évidemment du saké.
+
+Je suis vraiment très content de les avoir rencontrés. Toujours des perspectives et des chemins de vie différents, découvrir leur vie, leur façon de penser, et évidemment l’effet désinhibant de l’alcool qui nous permet de lâcher prise, de rire de tout et de se confier, etc.
+
+L’ambiance fut géniale. Discussion avec le patron du bar via Google Traduction : il nous faisait tester quelques alcools et prenait part à nos discussions.
+
+Puis, vers la fin, avant de partir, Violet sort un Polaroid et prend plein de photos de nous avec le patron du bar.
+
+Ainsi, je repars de Fukuoka avec un beau souvenir : à la fois ce moment de partage toute la nuit, mais également une photo Polaroid du moment !
+
+Tout simplement magique !
+
+Et c’est comme ça que s’est terminée cette journée, dernière journée à Fukuoka.
+Serrage de main avec Chris, accolades avec Violet, et nous nous invitons mutuellement à venir dans nos pays respectifs un jour.
+
+Au final, je voulais trouver une façon simple et mémorable de passer cette journée. Comme dit au début, j’étais un peu sceptique sur son organisation, mais j’ai réussi à construire de A à Z une journée parfaite en suivant mon instinct.
+
+Magnifique journée qui restera mémorable.`,
+  "mood": "Instinct, liberté et rencontres"
 }
 
 
