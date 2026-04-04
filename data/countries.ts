@@ -4913,7 +4913,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Artisanat local et stands dans le parc',
     'Fukuoka Tower au coucher de nuit',
     'Dîner chez Sushiro (premiers sushis du voyage)',
-  ]
+  ],
+  video: 'https://youtu.be/LGYfH3zGLgk'
 }
 
 
