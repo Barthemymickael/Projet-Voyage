@@ -8701,6 +8701,8 @@ Et par pur hasard, je tombe sur un passage où le personnage principal se balade
 Et là, ça me rappelle exactement ma journée d’hier à Itoshima. Ce moment où j’étais incapable de choisir, où j’étais un peu perdu dans mes propres pensées… avant de juste me dire : “Et pourquoi pas ?”`,
   "mood": "Découverte de la ville de Dazaifu et ses musées"
 },
+Voici ton texte corrigé uniquement sur les fautes, sans changer ton style ni ton contenu :
+
 {
   "id": "j52",
   "day": 52,
@@ -8709,63 +8711,62 @@ Et là, ça me rappelle exactement ma journée d’hier à Itoshima. Ce moment o
 
 Petit déjeuner à l’auberge puis je me refais un tout petit déjeuner en passant par Family Mart 
 
-20 minutes à pied puis 15 minutes de bus puis 10 minutes de ferry et me voilà arrive sur l’île de Nokono 
+20 minutes à pied puis 15 minutes de bus puis 10 minutes de ferry et me voilà arrivé sur l’île de Nokono 
 
-L’île est connu pour son parc à l’extrémité nord, le ferry nous dépose et un bus est disponible pour nous y emmener ainsi que des vélos en libre service 
+L’île est connue pour son parc à l’extrémité nord, le ferry nous dépose et un bus est disponible pour nous y emmener ainsi que des vélos en libre-service 
 
-Mais comme à mon habitude, mes jambes sont en pleines formes alors j’en profite pour partir explorer l’ouest de l’île à pied.
+Mais comme à mon habitude, mes jambes sont en pleine forme alors j’en profite pour partir explorer l’ouest de l’île à pied.
 
-Je passe donc devant le bus où tous les touristes montent et me voilà sur mon propres chemin à explorer à mon rythme l’île.
+Je passe donc devant le bus où tous les touristes montent et me voilà sur mon propre chemin à explorer à mon rythme l’île.
 
-Je commence ma marche en me trouvant dans des quartiers, calmes, quasiment désert, avec parfois des maisons neuves et parfois des champs, mal entretenus, à l’abandon 
+Je commence ma marche en me trouvant dans des quartiers calmes, quasiment déserts, avec parfois des maisons neuves et parfois des champs mal entretenus, à l’abandon 
 
-Je trouve ensuite une superbe plage, je me pose, m’assoie, fait quelques photos et vidéos et reste là à regarder le paysage, c’est une toute petite plage, mais elle fait l’affaire, j’ai les montagnes en face de moi et la mer
+Je trouve ensuite une superbe plage, je me pose, m’assois, fais quelques photos et vidéos et reste là à regarder le paysage, c’est une toute petite plage, mais elle fait l’affaire, j’ai les montagnes en face de moi et la mer
 
 Puis je me lance le défi de rejoindre à pied l’autre extrémité de l’île là où il y a le parc, l’activité importante de l’île 
 
-Mais avant d’y accéder, je me suis fié quasiment uniquement à mon instinct, parfois en prenant à droite, parfois en prenant à gauche en descendant en montant, parfois certains sentiers ne menaient à rien alors je faisais machine arrière, parfois je rentrais chez les gens, alors, je faisais très rapidement demi-tour
+Mais avant d’y accéder, je me suis fié quasiment uniquement à mon instinct, parfois en prenant à droite, parfois en prenant à gauche, en descendant, en montant, parfois certains sentiers ne menaient à rien alors je faisais machine arrière, parfois je rentrais chez les gens, alors je faisais très rapidement demi-tour
 
-Je passe par des champs, des chanms de mandarine, de cultivassions
+Je passe par des champs, des champs de mandarines, des cultures
 
-Je me perds, je marche sans réel, objectif précis, si ce n’est atteindre le parc
+Je me perds, je marche sans réel objectif précis, si ce n’est atteindre le parc
 
 Libre comme l’air, je vais où je veux
 
 Et au bout d’une heure et demie de marche, j’arrive enfin au fameux parc de Nokono 
 
 L’entrée est payante, huit euros
-Mais le prix en vaut la peine, car le parc était extrêmement bien entretenu
+Mais le prix en vaut la peine, car le parc est extrêmement bien entretenu
 
-Des arbres et arbustes tailler à la perfection, des chants de coquelicot, jaune, vert, violet, de partout, un petit parcours de de golf est aussi présent
+Des arbres et arbustes taillés à la perfection, des champs de coquelicots jaunes, verts, violets, de partout, un petit parcours de golf est aussi présent
 
-Enfin, bref, on marche, on se balade, des grands-mères préparent à la chaîne des frites, tempura et du poulet grillé
+Enfin bref, on marche, on se balade, des grands-mères préparent à la chaîne des frites, tempura et du poulet grillé
 Il y a même un mini bar de bière à disposition
 
 Je prends donc une bière en canette et me pose devant une magnifique vue, qui donne sur la mer 
 
-Je continue ensuite le parcours, on traverse à un moment donné quelques étals d’artisans, indépendants, qui vendent leurs œuvres, de la céramique, des peintures, de la poterie
+Je continue ensuite le parcours, on traverse à un moment donné quelques étals d’artisans indépendants qui vendent leurs œuvres : de la céramique, des peintures, de la poterie
 
-Puis après ça, on arrive au point final du parc, une grande étendue avec des coquelicots, jaunes, quelques mobilehomes, éparpiller ici, et là, un restaurant café et plein plein de tables de picnic pour pouvoir se poser observer le champ de coquelicots ainsi que la vue en pente sur le paysage, sur la mer
+Puis après ça, on arrive au point final du parc, une grande étendue avec des coquelicots jaunes, quelques mobile homes éparpillés ici et là, un restaurant-café et plein de tables de pique-nique pour pouvoir se poser, observer le champ de coquelicots ainsi que la vue en pente sur le paysage, sur la mer
 
 Il est 16 heures, le dernier ferry est dans une heure alors je ne tarde pas, je prends le bus retour, le ferry retour
 
-Et décide de passer le début de soirée à la tour, Fukuoka Tower, comme Séoul, comme un Busan c’est une très grande tour, la troisième plus haute tour du Japon et la plus haute tour du Japon donnant sur la mer 
+Et décide de passer le début de soirée à la tour, Fukuoka Tower, comme Séoul, comme Busan, c’est une très grande tour, la troisième plus haute tour du Japon et la plus haute tour du Japon donnant sur la mer 
 
-C’était magique, parfait, j’ai retrouvé quasiment les mêmes sensations que j’avais lorsque, j’ai visité les tours à Séoul et Busan
+C’était magique, parfait, j’ai retrouvé quasiment les mêmes sensations que j’avais lorsque j’ai visité les tours à Séoul et Busan
 
-Poser contre la rambarde à 230 m de haut, je me refais le parcours de ma semaine, en tout cas ce que je peux voir d’ici
+Posé contre la rambarde à 230 m de haut, je me refais le parcours de ma semaine, en tout cas ce que je peux voir d’ici
 
-Ma longue balade, le musée et le Ohiri 
-Ect 
+Ma longue balade, le musée et le Ohori, etc. 
 
-Je m’installe ensuite au café de cette tour, je prends un café, écris quelques lignes dans mon bloc-notes, je réfléchis, je suis pensif, contemple la ville, éclairée de nuit
+Je m’installe ensuite au café de cette tour, je prends un café, écris quelques lignes dans mon bloc-notes, je réfléchis, je suis pensif, contemple la ville éclairée de nuit
 
-Puis vers 20 heures, je prends l’ascenseur, quitte la tour, retourne dans le centre-ville et  je pars manger mes premiers sushis de mon voyage dans la célèbre, enseigne Sushiro 
+Puis vers 20 heures, je prends l’ascenseur, quitte la tour, retourne dans le centre-ville et je pars manger mes premiers sushis de mon voyage dans la célèbre enseigne Sushiro 
 
-C’était parfait, j’ai mangé plus d’une vingtaine de pièces, très bon enseigne, je suis très content de l’avoir testé depuis le temps
+C’était parfait, j’ai mangé plus d’une vingtaine de pièces, très bonne enseigne, je suis très content de l’avoir testée depuis le temps
 
-Enfin, pour clôturer la journée, je pars faire une lessive dans un Lavomatique car effectivement demain c’est mon dernier jour complet à Fukuoka, alors je prépare déjà les affaires, ma valise et je suis prêt à profiter de la dernière journée`,
-  "mood": "L’île de Nokono et Fukoka Tower"
+Enfin, pour clôturer la journée, je pars faire une lessive dans un lavomatique car effectivement demain c’est mon dernier jour complet à Fukuoka, alors je prépare déjà les affaires, ma valise et je suis prêt à profiter de la dernière journée`,
+  "mood": "L’île de Nokono et Fukuoka Tower"
 }
 
 
