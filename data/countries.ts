@@ -6754,6 +6754,42 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Nature',
   description: "Spot à voir à Itoshima (Fais à pied entre Palm Beach et celui-ci)",
   emoji: '🌳'
+},
+{
+  id: 'm379',
+  lat: 33.5932405,
+  lng: 130.3515135,
+  title: 'Fukuoka Tower',
+  category: 'Monument',
+  description: "Tour emblématique de Fukuoka offrant une vue panoramique sur la ville et la mer.",
+  emoji: '🗼'
+},
+{
+  id: 'm380',
+  lat: 33.6356930,
+  lng: 130.3030061,
+  title: 'Nokonoshima Island Park',
+  category: 'Parc',
+  description: "Parc fleuri situé sur l’île de Nokonoshima, célèbre pour ses paysages saisonniers et ses vues sur la baie.",
+  emoji: '🌸'
+},
+{
+  id: 'm381',
+  lat: 33.5974978,
+  lng: 130.3270303,
+  title: 'Terminal du ferry pour l’île de Nokono',
+  category: 'Transport',
+  description: "Terminal permettant de rejoindre l’île de Nokonoshima en ferry depuis Fukuoka.",
+  emoji: '⛴️'
+},
+{
+  id: 'm382',
+  lat: 33.6222068,
+  lng: 130.3062365,
+  title: 'Île de Nokonoshima',
+  category: 'Nature',
+  description: "Petite île magnifiqueau large de Fukuoka offrant nature, fleurs et vues magnifiques sur la mer.",
+  emoji: '🏝️'
 }
 
 
