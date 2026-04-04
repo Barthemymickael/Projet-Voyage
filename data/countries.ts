@@ -4915,6 +4915,21 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Dîner chez Sushiro (premiers sushis du voyage)',
   ],
   video: 'https://youtu.be/LGYfH3zGLgk'
+},
+{
+  id: 't53',
+  date: 'Jour 53 (21 940 pas)',
+  title: 'Dernière journée à Fukuoka',
+  description:
+    'Une dernière journée guidée par l’instinct entre temple, nature et rencontres. Entre exploration improvisée dans la campagne et soirée mémorable, tout s’enchaîne naturellement pour conclure ce séjour à Fukuoka.',
+  bullets: [
+    'Excursion au temple Nanzo-in (bouddha allongé)',
+    'Découverte du barrage de Narufuchi',
+    'Dîner chez Shin Shin (ramen)',
+    'Bar reggae intimiste et rencontre avec Chris et Violet',
+    'Découverte du saké et highball',
+    'Soirée jusqu’à 2h et souvenir Polaroid'
+  ]
 }
 
 
