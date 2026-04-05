@@ -4929,7 +4929,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Bar reggae intimiste et rencontre avec Chris et Violet',
     'Découverte du saké et highball',
     'Soirée jusqu’à 2h et souvenir Polaroid'
-  ]
+  ],
+  video: 'https://youtu.be/b36BLc9SqyE'
 },
 {
   id: 't54',
