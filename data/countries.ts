@@ -6868,6 +6868,42 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Bar',
   description: "Bar reggae ultra cool où je rencontre Chris et Violet. Soirée incroyable de 21h à 2h du matin.",
   emoji: '🍹'
+},
+{
+  id: 'm388',
+  lat: 32.7421829,
+  lng: 129.8766901,
+  title: 'Casq Blanca',
+  category: 'Logement',
+  description: "Mon auberge à Fukuoka (séjour à Nagasaki), bien située et pratique pour explorer la ville.",
+  emoji: '🛏️'
+},
+{
+  id: 'm389',
+  lat: 32.7464924,
+  lng: 129.8807660,
+  title: 'CoCo Burgers & Sports Bar',
+  category: 'Restaurant',
+  description: "Très bon burger avec frites offertes en échange d’un avis Google. Ambiance détendue.",
+  emoji: '🍔'
+},
+{
+  id: 'm390',
+  lat: 32.7596559,
+  lng: 129.8800402,
+  title: 'Parc Tateyama',
+  category: 'Parc',
+  description: "Parc magnifique de nuit avec lanternes rouges, ambiance romantique avec couples et familles en pique-nique.",
+  emoji: '🏮'
+},
+{
+  id: 'm391',
+  lat: 32.7412097,
+  lng: 129.8690820,
+  title: 'Nagasaki Seaside Park',
+  category: 'Parc',
+  description: "Parc en bord de mer agréable pour se balader et profiter de la vue sur le port de Nagasaki.",
+  emoji: '🌊'
 }
 
 
