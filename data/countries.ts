@@ -4944,7 +4944,9 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Découverte du parc Tateyama et ses lanternes rouges',
     'Dîner chez CoCo Burgers & Sports Bar',
     'Balade nocturne vers Nagasaki Seaside Park'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/m9F28aobB8w?si=t9C31OPe4ze2Pb4t'
+
 }
 
 
