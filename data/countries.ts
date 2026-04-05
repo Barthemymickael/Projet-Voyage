@@ -4961,7 +4961,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Plage de Kakidomari et baignade improvisée',
     'Coucher de soleil face à la mer',
     'Balade de 18 km en totale liberté'
-  ]
+  ],
+  video: 'https://youtu.be/G4QU8jXA2A4'
 }
 
 
