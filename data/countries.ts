@@ -4946,7 +4946,22 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Balade nocturne vers Nagasaki Seaside Park'
   ],
   video: 'https://youtube.com/shorts/m9F28aobB8w?si=t9C31OPe4ze2Pb4t'
-
+},
+{
+  id: 't55',
+  date: 'Jour 55 (24 721 pas)',
+  title: 'Une journée irréelle sur la côte ouest de Nagasaki',
+  description:
+    'Exploration sauvage de la côte nord-ouest de Nagasaki entre marche, tunnels, villages isolés et plages. Sensation de liberté totale et un coucher de soleil mémorable.',
+  bullets: [
+    'Exploration de la côte nord-ouest de Nagasaki',
+    'Marche entre tunnels et routes isolées',
+    'Cap Fukuda et Nagasaki Sunset Marina',
+    'Rencontre improbable avec un aigle',
+    'Plage de Kakidomari et baignade improvisée',
+    'Coucher de soleil face à la mer',
+    'Balade de 18 km en totale liberté'
+  ]
 }
 
 
@@ -9051,6 +9066,126 @@ Du coup, près du port, on voit plein de maisons dans les hauteurs, de l’autre
 
 Après cette balade nocturne, je rejoins l’auberge pour m’endormir tranquillement, en ayant hâte de ma journée de demain.`,
   "mood": "Journée de transition Fukuoka --> Nagasaki"
+},
+{
+  "id": "j55",
+  "day": 55,
+  "title": "Une journée irréelle sur la côte de Nagasaki",
+  "excerpt": `Et hop, journée préférée de mon voyage direct ! Aujourd’hui, le dimanche 5 avril 2026.
+
+Un peu de patience… je m’explique :
+
+Tout content de me réveiller pour passer ma première journée complète à Nagasaki, et je pars déjà me perdre dans les contrées sauvages de la préfecture !
+
+Au programme : direction la côte nord-ouest au-dessus de Nagasaki, sur la côte ouest du mont Inasa.
+
+Pour y aller, 40 minutes de bus.
+
+Je trouve même assez impressionnant que le réseau de bus ici, dans la préfecture de Nagasaki, soit aussi étendu.
+Pas besoin de prendre un train local, le réseau de bus est bien présent.
+
+Ainsi, après 40 minutes de bus, j’arrive devant ce parc. Et comme j’ai bien organisé la chose, j’ai déjà mon petit déjeuner dans mon sac, acheté juste avant de monter dans le bus !
+
+Du coup, je me pose sur une petite digue devant l’eau turquoise. Quelques pêcheurs sont un peu plus loin, sur une autre digue, et je déguste tranquillement ce petit déjeuner pendant une vingtaine de minutes.
+
+Le bus m’a déposé ici, mais évidemment je ne vais pas me contenter de cet endroit. Alors, à 11h40, je démarre officiellement en longeant tranquillement la côte.
+
+En marchant, je m’aperçois petit à petit que la vue au loin n’est plus la même : des grues, des gros ports avec des conteneurs, etc.
+
+Ça me donne envie de longer encore plus la côte pour voir ce qui se cache derrière les montagnes.
+
+Je commence à voir un parc avec un terrain de baseball. Je regarde autour de moi et je m’aperçois que je suis en réalité vers le bout de cet endroit, dans une petite zone industrielle. C’est ainsi que je me retrouve à marcher sur une longue, longue route déserte, en plein soleil.
+
+L’ambiance est assez spéciale. J’y prends goût, je marche au milieu de la route et je rejoue d’ailleurs la même musique en boucle pour apprécier encore plus le mood.
+
+Après ça, pour longer la côte, je dois passer par un tunnel long de 526 m (je me rappelle du panneau ahah).
+
+Toujours avec la même musique, je marche dans ce tunnel où les voitures roulent assez vite, mais fort heureusement il y a une barrière piétonne.
+
+Puis à la fin de ce tunnel, je tourne à gauche et je dois reprendre un autre tunnel (700 m celui-ci).
+
+Enfin bref, comme j’ai pris plusieurs tunnels qui traversent littéralement la montagne, je me retrouve sur une autre côte.
+
+Son nom : le cap Fukuda.
+
+J’arrive dans cette zone un peu irréelle : palmiers, soleil, montagne en fond.
+
+J’en profite pour m’acheter quelques viennoiseries, une Monster et un donut (très important pour la suite de l’histoire).
+
+Je traverse un charmant petit village, puis j’arrive dans le parc du Nagasaki Sunset Marina.
+
+Vraiment très beau, avec pas mal de bancs face à la mer.
+
+Je m’assois, j’ouvre ma canette de Monster, puis le sachet de mon donut. Je fais une croque et… POUFFF.
+
+En une fraction de seconde, un aigle m’a littéralement chipé mon donut, avec une précision incroyable, sans même me toucher ni toucher mes doigts ou ma main. L’aigle a réussi à choper le donut…
+
+Et je dis à haute voix : « Putain mon donut ».
+
+Bon, heureusement j’avais d’autres viennoiseries donc de ce côté ça va, mais je suis resté un peu bête pendant 2-3 minutes.
+
+Obligé de me planquer derrière un mur et un pré en hauteur pour manger le reste de ce que j’avais acheté ahah.
+
+Après ça, je m’assois sur un autre banc, je contemple la vue, je profite du grand soleil tranquillement en respirant à plein poumons.
+
+(Je zieutais de temps en temps les aigles pour pas qu’ils chopent mon téléphone au cas où.)
+
+J’ouvre Google Maps et je clique sur la plage de Kakidomari Beach, très bien notée (4,4/5 avec 80 avis).
+
+Google me propose 3h30 à pied. C’est non.
+
+En fait, il contournait carrément une route nationale pour me faire passer par des chemins plus tranquilles.
+
+J’ai donc pris la direction de la route nationale, en marchant le plus possible près du bord. Et parfois, quand il y avait des trottoirs, ils étaient impraticables, avec de l’herbe, de la brousse ou des trous, etc.
+
+Après 15 minutes de marche et à l’intersection d’un cimetière, je peux enfin me placer sur un trottoir relativement praticable.
+
+J’arrive, en prenant des petits chemins, à tomber sur un autre petit village complètement charmant : Koemachi.
+
+Un parc avec de l’herbe fraîchement tondue, des cerisiers, et une vue sympathique sur la mer et un port.
+
+Je marche encore puis je tombe sur un autre tunnel. Mais cette fois-ci, je le sais, je le sens : quand je vais arriver au bout, il va y avoir une belle vue.
+
+Je vois la fin du tunnel, la lumière est de plus en plus forte. Je sors, je prends la première petite route qui descend… et je vois la plage.
+
+Mais avant, je tombe sur une piste de course de voitures télécommandées.
+
+6 personnes sont là à discuter et, évidemment, à télécommander leurs petites voitures. Sûrement des amateurs, car ils étaient tous vraiment doués.
+
+Bref, je regarde ça pendant 5 minutes, puis je descends pendant 2 minutes et je me retrouve enfin sur la plage de Kakidomari Beach.
+
+Très peu de personnes, une belle formation rocheuse sur ma gauche, une belle crique avec des escaliers pour s’asseoir et regarder la mer.
+
+Je me pose, puis je pars me balader dans les rochers.
+
+Je vois deux jeunes se baigner, puis l’idée me vient à l’esprit…
+
+Il fait beau, il fait bon, peu de personnes sur la plage, la mer est calme… alors c’est décidé : je vais me baigner. Première baignade de l’année 2026 !
+
+Je pose mon sac, me déshabille et pars me baigner en caleçon (pas besoin de serviette, avec le soleil je sécherai rapidement).
+
+Et c’est comme ça que j’ai passé 5-10 minutes dans l’eau, seul, à contempler la vue, la plage et à nager sous l’eau.
+
+Complètement libre, complètement heureux !
+
+Puis retour sur la terre ferme, séchage, habillage… et je reste là pendant 3 heures.
+
+Le temps est passé à une vitesse folle !
+
+Orientée plein ouest, je savais que le coucher de soleil allait être magnifique !
+
+La plage était presque vide, calme.
+
+J’en ai profité pour faire quelques photos et vidéos, et j’ai juste contemplé, assis sur les marches de la crique, le soleil descendre et disparaître.
+
+Je suis ensuite allé voir le rocher en forme de pomme, puis je me suis tranquillement rapproché de l’arrêt de bus le plus proche.
+
+30 minutes à attendre dans le noir complet, proche d’une route.
+
+Quelques bruits d’animaux, un silence fou, et la présence d’une cinquantaine d’étoiles bien visibles dans le ciel !
+
+Magnifique journée ! Belle balade, belle découverte, beaucoup de réflexion et, évidemment, une balade de 18 km que je ne pourrai pas oublier !`,
+  "mood": "Journée irréelle et liberté totale"
 }
 
 
