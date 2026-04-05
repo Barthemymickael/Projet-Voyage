@@ -4930,6 +4930,20 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Découverte du saké et highball',
     'Soirée jusqu’à 2h et souvenir Polaroid'
   ]
+},
+{
+  id: 't54',
+  date: 'Jour 54 (20 471 pas)',
+  title: 'Journée de transition Fukuoka --> Nagasaki',
+  description:
+    'Une journée de transition entre Fukuoka et Nagasaki.',
+  bullets: [
+    'Trajet en bus de Fukuoka à Nagasaki (2h50)',
+    'Installation à l’auberge Casa Blanca',
+    'Découverte du parc Tateyama et ses lanternes rouges',
+    'Dîner chez CoCo Burgers & Sports Bar',
+    'Balade nocturne vers Nagasaki Seaside Park'
+  ]
 }
 
 
@@ -8963,6 +8977,41 @@ Au final, je voulais trouver une façon simple et mémorable de passer cette jou
 
 Magnifique journée qui restera mémorable.`,
   "mood": "Instinct, liberté et rencontres"
+},
+{
+  "id": "j54",
+  "day": 54,
+  "title": "Arrivée à Nagasaki",
+  "excerpt": `Réveil difficile ce matin : tête dans le cul, mal au bide, mais content de la soirée d’hier et de ces deux rencontres avec Chris et Violet.
+
+Mais pas le temps de rester au lit, mon bus pour Nagasaki est à 11h46. Alors je me lève relativement tôt et je me prépare.
+
+Départ de Fukuoka à 11h46  
+Arrivée à Nagasaki à 14h35  
+Arrivée à l’auberge à 15h00  
+
+Découverte de l’auberge « Casa Blanca » : sympathique, tout est blanc et le dortoir a l’air bien agencé.
+
+Bref, je déballe mon sac, j’éparpille mes affaires, puis je me pose tranquillement dans mon lit pour mettre à jour ce site sur les derniers jours. Ensuite, je pars flâner dans les rues de la ville jusqu’au soir.
+
+La ville est petite, calme, tranquille.
+
+Puis je monte dans les hauteurs de la ville pour aller au parc Tateyama, car depuis que la nuit est tombée, je vois des lanternes rouges, ce qui m’intrigue.
+
+En arrivant, je découvre que ce sont en fait des installations de lanternes rouges dans tout le parc. Il y a notamment quelques petits stands de street food.
+
+Mais bon, tout le monde est accompagné ou en couple, posé en mode pique-nique… alors je ne reste pas trop longtemps et je pars marcher vers le centre-ville pour manger un burger chez CoCo Burgers & Sports Bar.
+
+Le restaurant était très bon, et le serveur propose des frites gratuites en échange d’un avis Google, donc j’ai eu mes frites gratuites : parfait.
+
+Puis petite balade digestive dans la ville de nuit, en passant par le centre-ville et Nagasaki Seaside Park.
+
+La ville en elle-même est assez petite, mais la préfecture de Nagasaki est immense.
+
+Du coup, près du port, on voit plein de maisons dans les hauteurs, de l’autre côté de la mer.
+
+Après cette balade nocturne, je rejoins l’auberge pour m’endormir tranquillement, en ayant hâte de ma journée de demain.`,
+  "mood": "Journée de transition Fukuoka --> Nagasaki"
 }
 
 
