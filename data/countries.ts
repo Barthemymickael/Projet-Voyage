@@ -9072,7 +9072,7 @@ Après cette balade nocturne, je rejoins l’auberge pour m’endormir tranquill
   "id": "j55",
   "day": 55,
   "title": "Une journée irréelle sur la côte de Nagasaki",
-  "excerpt": `Et hop, journée préférée de mon voyage direct ! Aujourd’hui, le dimanche 5 avril 2026.
+  "excerpt": `Et hop, une de mes journées préférées de mon voyage ! Aujourd’hui, le dimanche 5 avril 2026.
 
 Un peu de patience… je m’explique :
 
