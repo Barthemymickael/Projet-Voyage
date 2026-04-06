@@ -9117,7 +9117,7 @@ Je traverse un charmant petit village, puis j’arrive dans le parc du Nagasaki 
 
 Vraiment très beau, avec pas mal de bancs face à la mer.
 
-Je m’assois, j’ouvre ma canette de Monster, puis le sachet de mon donut. Je fais une croque et… POUFFF.
+Je m’assois, j’ouvre ma canette de Monster, puis le sachet de mon donut. Je fais un croc et… POUFFF.
 
 En une fraction de seconde, un aigle m’a littéralement chipé mon donut, avec une précision incroyable, sans même me toucher ni toucher mes doigts ou ma main. L’aigle a réussi à choper le donut…
 
@@ -9125,7 +9125,7 @@ Et je dis à haute voix : « Putain mon donut ».
 
 Bon, heureusement j’avais d’autres viennoiseries donc de ce côté ça va, mais je suis resté un peu bête pendant 2-3 minutes.
 
-Obligé de me planquer derrière un mur et un pré en hauteur pour manger le reste de ce que j’avais acheté ahah.
+Obligé de me planquer derrière un mur et un préau pour manger le reste de ce que j’avais acheté ahah.
 
 Après ça, je m’assois sur un autre banc, je contemple la vue, je profite du grand soleil tranquillement en respirant à plein poumons.
 
