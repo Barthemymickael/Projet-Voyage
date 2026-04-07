@@ -4978,7 +4978,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Cathédrale d’Urakami',
     'Musée des 26 Martyrs du Japon',
     'Musée préfectoral d’art de Nagasaki'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/9y5nwsOJ9xQ?si=c0suEzf78zq35CdN'
 },
 {
   id: 't57',
