@@ -4993,7 +4993,9 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Rencontre et échanges avec l’artiste Kiyoto Ueda',
     'Mont Inasa : panorama 360° et coucher de soleil',
     'Observation nocturne de la ville illuminée'
-  ]
+  ],
+  video: 'https://youtu.be/xoCj5_CexbM'
+
 }
 
 
