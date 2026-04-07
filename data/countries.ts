@@ -4979,6 +4979,20 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Musée des 26 Martyrs du Japon',
     'Musée préfectoral d’art de Nagasaki'
   ]
+},
+{
+  id: 't57',
+  date: 'Jour 57 (25 498 pas)',
+  title: 'Glover Garden, discussion avec un artiste peintre et coucher de soleil',
+  description:
+    'Journée lumineuse entre balade au Glover Garden, rencontre avec l’artiste Kiyoto Ueda et ascension du mont Inasa pour un coucher de soleil spectaculaire sur la ville.',
+  bullets: [
+    'Petit-déjeuner au Seaside Park',
+    'Visite du Glover Garden et vue sur le port',
+    'Rencontre et échanges avec l’artiste Kiyoto Ueda',
+    'Mont Inasa : panorama 360° et coucher de soleil',
+    'Observation nocturne de la ville illuminée'
+  ]
 }
 
 
@@ -9273,6 +9287,57 @@ Une journée peut-être moins spectaculaire mais remplie de culture et d'apprent
 
 J'adore`,
   "mood": "Culture et histoire de Nagasaki"
+},
+{
+  "id": "j57",
+  "day": 57,
+  "title": "Entre rencontres et coucher de soleil sur Nagasaki",
+  "excerpt": `Petit-déjeuner au Seaside Park de Nagasaki sous un grand soleil, le mood est trop cool. Des aigles rôdent autour du parc, alors maintenant je fais gaffe.
+
+Puis, visite du jardin iconique de la ville, le Glover Garden, pendant 2h. C'est un véritable musée à ciel ouvert qui regroupe d'anciennes demeures coloniales occidentales, offrant une vue imprenable sur le port de Nagasaki.
+
+Une fois la visite finie, j’ai eu plusieurs pensées, plusieurs idées de choses à faire. 
+
+Est-ce que je pars encore en vadrouille proche de la côte ? Mais si je fais ça, je ne pourrai pas voir le mont Inasa... Vais-je faire ma lessive en attendant 16h pour y aller ? 
+
+Finalement, comme il fait beau et chaud avec un grand soleil, je prends la décision de prendre de la hauteur et de me promener dans un parc au hasard : le Kazagashira Park.
+
+Une canette de Coca prise au distributeur, puis j'admire la vue pendant 45 minutes. 
+
+Avant de partir pour la montagne en face, je rentre dans un petit musée d’un artiste indépendant : Kiyoto Ueda.
+
+Le local est niché dans un coin reculé du parc. 
+
+Évidemment, je suis seul dans ce petit musée et nous discutons tous les deux. Son anglais est un peu limité, mais on arrive à se comprendre.
+
+S’ensuit une vingtaine de minutes de discussion sur sa vie, ses peintures et ses inspirations. Il m’a même offert un thé et une pancarte avec l'un de ses dessins. Une rencontre et une discussion vraiment agréables. 
+
+C'est assez fou de se dire que cet homme a été artiste toute sa vie ; il est maintenant professeur de dessin pour des collégiens. Né sur une petite île, il a étudié à l’université à Tokyo, puis est parti vivre tout en bas du Japon, à Nagasaki, où il possède sa maison et ce local depuis des dizaines d’années.
+
+Il m’a l’air d’être un homme seul, ce qui lui permet, avec ce musée, de rencontrer à la fois des locaux et des étrangers. J’ai d’ailleurs noté mon nom sur un calepin : on y voit pas mal de locaux et, sur la semaine, un seul autre étranger venant d’Angleterre. Je suis le deuxième et j'ai pu noter mon pays : la France.
+
+À 16 heures, j’ai fini mon thé et notre discussion s’éteint petit à petit. Je lui achète un souvenir, puis je prends la direction de la sortie. Je le remercie pour son cadeau et pour le thé, et c’est ici que nos chemins se séparent. 
+
+Je reprends ma route direction le mont Inasa.
+
+Pour y aller depuis le parc où je suis : 15 minutes à pied jusqu’au centre-ville, puis 15 minutes de bus et 1h à pied. 
+
+Une ligne de bus ainsi qu’un téléphérique sont disponibles pour monter. 
+
+Mais j’ai préféré y aller à pied vu que j’ai le temps et l’énergie.
+
+À 17h30, je suis bien arrivé au sommet, à 333 m d'altitude. D’abord un parc sympathique avec une première vue, puis 20 minutes plus tard, direction la plateforme d’observation. C'est totalement gratuit avec une vue à 360 degrés.
+
+J’arrive à 18h04 au sommet de la plateforme, je m'installe face à l’ouest et j’attends patiemment le coucher de soleil. 
+
+D'ici, je peux retracer quelques moments de mon séjour : notamment la longue allée où j’ai écouté de la musique en boucle, la marina de Nagasaki et, évidemment, je me dis que derrière la petite montagne en face de moi se cache la plage où je me suis baigné deux jours auparavant !
+
+Magnifique coucher de soleil depuis cet endroit ; à plus de 333 m, la vue est franchement incroyable. L’endroit est très connu alors il y a plein de monde, mais ça reste magique. Le soleil se couche puis laisse place à la nuit ; la ville est magnifique éclairée. Un peu comme Busan, avec les lumières des rues, du port et de la rivière.
+
+Je serai finalement resté dans l’observatoire de 18h à 21h. Après le coucher du soleil, le vent et le froid étaient trop forts sur le toit, alors je me suis posé à l’intérieur de 19h45 à 21h pour contempler la ville. La musique d'Enya qui passait créait une atmosphère paisible et planante.
+
+Encore une merveilleuse journée qui s’achève et qui laisse place à ma dernière journée à Nagasaki.`,
+  "mood": "Glover Garden, discussion avec un artiste et coucher de soleil au mont Inasa"
 }
 
 
