@@ -6920,6 +6920,51 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Parc',
   description: "Parc en bord de mer agréable pour se balader et profiter de la vue sur le port de Nagasaki.",
   emoji: '🌊'
+},
+{
+  id: 'm392',
+  lat: 32.7180707,
+  lng: 129.8272617,
+  title: 'Kaminoshima Park',
+  category: 'Parc',
+  description: "Spot où je descends du bus pour prendre mon petit déjeuner sur la digue, proche de la statue de la Vierge Marie. Moment calme face à la mer.",
+  emoji: '🌅'
+},
+{
+  id: 'm393',
+  lat: 32.7231289,
+  lng: 129.8195134,
+  title: 'Kaminoshima Breakwater',
+  category: 'Point de vue',
+  description: "Très longue route sur la digue, ambiance ultra cinématographique au cœur d’une zone industrielle.",
+  emoji: '🎬'
+},
+{
+  id: 'm394',
+  lat: 32.7397077,
+  lng: 129.8146888,
+  title: 'Nagasaki Sunset Marina',
+  category: 'Parc',
+  description: "Magnifique marina avec vue sur la mer, endroit où un aigle m’a volé mon donut… moment inattendu.",
+  emoji: '🦅'
+},
+{
+  id: 'm395',
+  lat: 32.7684503,
+  lng: 129.8003856,
+  title: 'Kakidomari Beach',
+  category: 'Plage',
+  description: "Superbe plage avec formations rocheuses originales. C’est ici que je me suis baigné pour la première fois en 2026.",
+  emoji: '🏖️'
+},
+{
+  id: 'm396',
+  lat: 32.7712272,
+  lng: 129.8011930,
+  title: 'Umbrella Rock (Apple Rock)',
+  category: 'Nature',
+  description: "Rocher emblématique en forme de pomme/ombrelle situé près de la plage de Kakidomari.",
+  emoji: '🪨'
 }
 
 
