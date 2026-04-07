@@ -4963,6 +4963,22 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Balade de 18 km en totale liberté'
   ],
   video: 'https://youtu.be/G4QU8jXA2A4'
+},
+{
+  id: 't56',
+  date: 'Jour 56 (15 277 pas)',
+  title: 'Culture et mémoire à Nagasaki',
+  description:
+    'Une journée autour de l’histoire à Nagasaki. Entre musées, lieux de mémoire et découvertes culturelles, la visite prend une dimension forte, ponctuée par une rencontre et des moments plus calmes tournés vers l’art et la lecture.',
+  bullets: [
+    'Musée de la bombe atomique de Nagasaki',
+    'Atomic Bomb Hypocenter Monument',
+    'Rencontre avec un Japonais d’Isahaya',
+    'Parc de la Paix',
+    'Cathédrale d’Urakami',
+    'Musée des 26 Martyrs du Japon',
+    'Musée préfectoral d’art de Nagasaki'
+  ]
 }
 
 
@@ -9232,6 +9248,31 @@ Quelques bruits d’animaux, un silence fou, et la présence d’une cinquantain
 
 Magnifique journée ! Belle balade, belle découverte, beaucoup de réflexion et, évidemment, une balade de 18 km que je ne pourrai pas oublier !`,
   "mood": "Journée irréelle et liberté totale"
+},
+{
+  "id": "j56",
+  "day": 56,
+  "title": "Culture et mémoire à Nagasaki",
+  "excerpt": `Journée nuageuse mais il fait 21 degrés.
+
+J’en profite pour aller voir le Musée de la Bombe Atomique. Toujours aussi émotif... Je pensais que ce serait une sorte d’annexe à celui d'Hiroshima, mais pas du tout, il a sa propre identité.
+
+Je me pose ensuite au Atomic Bomb Hypocenter Monument, dans le parc de l'hypocentre. J'y rencontre un Japonais originaire d'Isahaya. Il souhaite améliorer son anglais, alors il est venu m'aborder. J'ai pu lui poser pas mal de questions et lui en a fait de même sur la culture française. Un bel échange.
+
+Direction ensuite le Parc de la Paix où je me pose quelques instants, avant de partir voir la Cathédrale d'Urakami. C'est assez bizarre de pénétrer dans un lieu chrétien après 5 mois passés entre les temples bouddhistes et les sanctuaires shintoïstes.
+
+J'enchaîne avec le Musée des 26 Martyrs du Japon. Hyper intéressant ! Je ne connaissais absolument pas cette histoire, notamment la persécution des chrétiens à cette période. Il y a d'ailleurs un film de Scorsese à ce sujet (Silence), ce qui rendait la visite d'autant plus importante pour moi.
+
+Je finis l'après-midi au Musée préfectoral d'art de Nagasaki avec une exposition sur Kikuhata Mokuma. Je m'installe ensuite dans le coin librairie où je feuillette trois livres : un sur Pixar, un sur les objets des années 50-60, et un sur les impressionnistes.
+
+J'ai dû y rester une bonne demi-heure. J'avais l'impression d'être un étudiant à la Sorbonne ou un étudiant en lettres qui se pose en bibliothèque pour se documenter. J'étais assis, entouré de bouquins, avec mon iPad pour mes recherches. Le mood était vraiment sympa.
+
+Je termine la journée dans un restaurant de ramen choisi au hasard. Ambiance sympathique : je suis posé devant les cuisines et je regarde une vidéo YouTube sur mon téléphone.
+
+Une journée peut-être moins spectaculaire mais remplie de culture et d'apprentissages sur la ville, l'histoire et l'art. 
+
+J'adore`,
+  "mood": "Culture et histoire de Nagasaki"
 }
 
 
