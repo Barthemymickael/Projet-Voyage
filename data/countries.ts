@@ -9265,7 +9265,7 @@ J'enchaîne avec le Musée des 26 Martyrs du Japon. Hyper intéressant ! Je ne c
 
 Je finis l'après-midi au Musée préfectoral d'art de Nagasaki avec une exposition sur Kikuhata Mokuma. Je m'installe ensuite dans le coin librairie où je feuillette trois livres : un sur Pixar, un sur les objets des années 50-60, et un sur les impressionnistes.
 
-J'ai dû y rester une bonne demi-heure. J'avais l'impression d'être un étudiant à la Sorbonne ou un étudiant en lettres qui se pose en bibliothèque pour se documenter. J'étais assis, entouré de bouquins, avec mon iPad pour mes recherches. Le mood était vraiment sympa.
+J'ai dû y rester une bonne demi-heure. J'avais l'impression d'être un étudiant à la Sorbonne ou un étudiant en lettres qui se pose en bibliothèque pour se documenter. J'étais assis, entouré de bouquins, avec des iPad pour lesrecherches. Le mood était vraiment sympa.
 
 Je termine la journée dans un restaurant de ramen choisi au hasard. Ambiance sympathique : je suis posé devant les cuisines et je regarde une vidéo YouTube sur mon téléphone.
 
