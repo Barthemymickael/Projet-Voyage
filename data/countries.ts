@@ -4188,7 +4188,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     videoUrl: 'https://photos.smugmug.com/Osaka/Osaka-Categories/i-J9MFjBv/0/L/Osaka_Districts-L.jpg',
     isLocked: true,
     themeColor: 'rose',
-    hero: { title: '3 mois au Japon', subtitle: 'Mon voyage solo', description: 'Voyage du 10 février 2026 jusqu’au 10 mai 2026', bgImage: withBase('osaka.png') },
+    hero: { title: '2,5 mois au Japon', subtitle: 'Mon voyage solo', description: 'Voyage du 10 février 2026 jusqu’au 21 avril 2026', bgImage: withBase('osaka.png') },
     timeline: [
       {
   id: 't1',
