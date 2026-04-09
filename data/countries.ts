@@ -7146,8 +7146,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Logement',
   description: "Auberge de jeunesse à Tokyo où je séjourne pendant 12 nuits, située dans le quartier d’Ueno.",
   emoji: '🛏️'
-}
-
+},
 
 
 
