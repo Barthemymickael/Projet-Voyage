@@ -7086,8 +7086,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 'm405',
-  lat: null,
-  lng: null,
+  lat: 32.7463929,
+  lng: 129.8867571,
   title: 'Kaze No Daichi Museum',
   category: 'Musée',
   description: "Petit musée d’art où je discute et prends un thé avec l’artiste du lieu, expérience très humaine.",
