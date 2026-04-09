@@ -4995,7 +4995,20 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Observation nocturne de la ville illuminée'
   ],
   video: 'https://youtu.be/xoCj5_CexbM'
-
+},
+{
+  id: 't58',
+  date: 'Jour 58 (30 170 pas)',
+  title: 'Dernière aventure sauvage à Nagasaki',
+  description:
+    'Une dernière journée marquée par l’imprévu et la liberté. Entre errance le long de la côte, exploration de villages reculés et coucher de soleil en solitaire sur une plage déserte, cette journée symbolise parfaitement la fin d’une partie du voyage guidé par l’instinct.',
+  bullets: [
+    'Trajet en bus perturbé et arrivée improvisée en pleine campagne',
+    'Marche le long de la côte entre villages et criques',
+    'Visite rapide du musée de Gunkanjima et du musée des dinosaures',
+    'Ascension jusqu’au mont Gongen et vue panoramique',
+    'Coucher de soleil seul sur la plage de Wakimisaki Beach'
+  ]
 }
 
 
