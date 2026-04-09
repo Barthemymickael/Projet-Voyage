@@ -5010,6 +5010,21 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Coucher de soleil seul sur la plage de Wakimisaki Beach'
   ],
   video: 'https://youtu.be/mWgoYqBEGg0'
+},
+{
+  id: 't59',
+  date: 'Jour 59 (18 020 pas)',
+  title: 'Arrivée à Tokyo et premières lumières d’Akihabara',
+  description:
+    'Une journée de transition marquée par un long trajet vers Tokyo et une arrivée presque cinématographique face au Mont Fuji. Entre premières impressions de la capitale et immersion dans les néons d’Akihabara, cette journée lance la dernière étape du voyage.',
+  bullets: [
+    'Trajet en shinkansen de Nagasaki à Tokyo',
+    'Aperçu du Mont Fuji depuis le train',
+    'Installation à l’auberge dans le quartier d’Ueno',
+    'Balade dans le quartier d’Akihabara',
+    'Sessions de jeux dans les salles d’arcade',
+    'Dîner dans un restaurant de ramen'
+  ]
 }
 
 
@@ -9576,6 +9591,48 @@ Et j’étais vraiment connecté au moment présent, en sachant très bien que j
 
 Demain, direction la capitale : Tokyo.`,
   "mood": "Dernière aventure à Nagasaki et liberté"
+},
+{
+  "id": "j59",
+  "day": 59,
+  "title": "Arrivée à Tokyo et premières lumières d’Akihabara",
+  "excerpt": `Départ de l’auberge à Nagasaki – 08h00
+Arrivée à Tokyo – 16h15
+Arrivée à l’auberge (quartier Ueno) – 16h50
+(Distance : 950km)
+
+Honnêtement, je n’ai pas vu le temps passer pendant le trajet. J’étais très pensif, parfois le regard perdu sur le paysage… Quelques petites siestes, la lecture d’un chapitre de mon livre, et un peu de musique.
+
+J’ai eu la chance d’apercevoir pendant 2 minutes le sommet du Mont Fuji depuis le train shinkansen. Moment un peu spécial : frissons… et dans mes oreilles, la musique d’introduction du film Cocktail (1988), Wild Again de Starship, exactement à ce moment-là.
+
+Dans le film, Tom Cruise, alias Bryan Flanagan, prend un bus direction New York. Il regarde par la fenêtre et observe les deux tours jumelles, scène accompagnée par cette musique.
+
+Et moi, au même moment, j’ai cette musique dans les oreilles… et je regarde, presque poétiquement, le Mont Fuji. Prêt à vivre les dernières semaines de mon voyage.
+
+Bref, après ce moment un peu cinématographique, j’arrive à la gare de Tokyo, puis à l’auberge.
+
+Une fois sur place, je dépose mes affaires, je prends une douche, puis je me dirige vers le quartier d’Akihabara.
+
+Ça y est… j’y suis. La capitale du Japon.
+
+J’arrive à Akihabara vers 18h00.
+
+Et là, je découvre un quartier rempli de néons, d’écrans géants, de lumières et de couleurs éclatantes, à la nuit tombée.
+
+Je me balade tranquillement. Je rentre dans quelques boutiques, j’achète quelques souvenirs.
+
+Je passe notamment dans des salles d’arcade, style Taito ou GiGO.
+
+Je joue à pas mal de jeux de conduite, de tir, mais aussi aux machines à grappin… où, clairement, la chance n’était pas avec moi.
+
+Plus tard, je trouve un restaurant de ramen : Hakata Furyu (Akihabara flagship shop).
+
+Puis, pendant ma balade digestive, je me rends compte que j’ai déjà fait le tour du quartier. Akihabara n’est pas très grand, mais j’ai pu faire toutes les boutiques que je voulais… et évidemment me perdre dans les magasins de figurines, d’animé et de jeux vidéo.
+
+J’ai quand même ressenti que la folie de la découverte n’était pas totalement là. En réalité, la plupart des grandes enseignes, je les avais déjà vues pendant mon séjour de trois semaines à Osaka.
+
+Mais ça reste un vrai plaisir de se balader dans ce quartier culte de la pop culture.`,
+  "mood": "Arrivée à Tokyo et premières lumières d’Akihabara"
 }
 
 
