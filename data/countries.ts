@@ -7011,6 +7011,141 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Nature',
   description: "Rocher emblématique en forme de pomme/ombrelle situé près de la plage de Kakidomari.",
   emoji: '🪨'
+},
+{
+  id: 'm397',
+  lat: 32.7727462,
+  lng: 129.8645052,
+  title: 'Musée de la Bombe Atomique de Nagasaki',
+  category: 'Musée',
+  description: "Musée retraçant l’histoire du bombardement atomique de Nagasaki avec témoignages et objets marquants.",
+  emoji: '🏛️'
+},
+{
+  id: 'm398',
+  lat: 32.7737108,
+  lng: 129.8632589,
+  title: 'Atomic Bomb Hypocenter Monument',
+  category: 'Monument',
+  description: "Point exact de l’explosion atomique, lieu chargé d’histoire et de mémoire.",
+  emoji: '🕊️'
+},
+{
+  id: 'm399',
+  lat: 32.7765203,
+  lng: 129.8637327,
+  title: 'Parc de la Paix de Nagasaki',
+  category: 'Parc',
+  description: "Parc commémoratif dédié à la paix avec statues et mémoriaux.",
+  emoji: '🌿'
+},
+{
+  id: 'm400',
+  lat: 32.7761310,
+  lng: 129.8684423,
+  title: 'Cathédrale d’Urakami',
+  category: 'Monument',
+  description: "Cathédrale reconstruite après la Seconde Guerre mondiale, symbole de résilience.",
+  emoji: '⛪'
+},
+{
+  id: 'm401',
+  lat: 32.7547296,
+  lng: 129.8717481,
+  title: 'Musée des 26 Martyrs du Japon',
+  category: 'Musée',
+  description: "Musée dédié aux martyrs chrétiens du Japon et à l’histoire du christianisme dans le pays.",
+  emoji: '🏛️'
+},
+{
+  id: 'm402',
+  lat: 32.7416798,
+  lng: 129.8705063,
+  title: 'Musée préfectoral d’art de Nagasaki',
+  category: 'Musée',
+  description: "Musée d’art moderne avec expositions variées et architecture contemporaine.",
+  emoji: '🖼️'
+},
+{
+  id: 'm403',
+  lat: 32.7343067,
+  lng: 129.8691507,
+  title: 'Glover Garden',
+  category: 'Parc',
+  description: "Jardin historique avec anciennes résidences occidentales et vue sur le port.",
+  emoji: '🌺'
+},
+{
+  id: 'm404',
+  lat: 32.7461267,
+  lng: 129.8860715,
+  title: 'Kazagashira Park',
+  category: 'Parc',
+  description: "Parc situé sur les hauteurs offrant une vue panoramique sur Nagasaki.",
+  emoji: '🌄'
+},
+{
+  id: 'm405',
+  lat: null,
+  lng: null,
+  title: 'Kaze No Daichi Museum',
+  category: 'Musée',
+  description: "Petit musée d’art où je discute et prends un thé avec l’artiste du lieu, expérience très humaine.",
+  emoji: '🎨'
+},
+{
+  id: 'm406',
+  lat: 32.7526058,
+  lng: 129.8494499,
+  title: 'Plateforme d’observation du mont Inasa',
+  category: 'Point de vue',
+  description: "Point de vue spectaculaire sur Nagasaki, réputé pour ses couchers de soleil et sa vue nocturne.",
+  emoji: '🌃'
+},
+{
+  id: 'm407',
+  lat: 32.5931825,
+  lng: 129.7619891,
+  title: 'Musée Gunkanjima',
+  category: 'Musée',
+  description: "Musée dédié à l’île abandonnée de Hashima (Gunkanjima) et à son histoire industrielle.",
+  emoji: '🏚️'
+},
+{
+  id: 'm408',
+  lat: 32.5939946,
+  lng: 129.7618158,
+  title: 'Nagasaki City Dinosaur Museum',
+  category: 'Musée',
+  description: "Musée sur les dinosaures et la préhistoire, situé en bord de mer.",
+  emoji: '🦖'
+},
+{
+  id: 'm409',
+  lat: 32.5799309,
+  lng: 129.7404936,
+  title: 'Mont Gongen',
+  category: 'Nature',
+  description: "Montagne offrant une immersion nature avec vue sur la côte sauvage de Nagasaki.",
+  emoji: '⛰️'
+},
+{
+  id: 'm410',
+  lat: 32.5812299,
+  lng: 129.7733835,
+  title: 'Plage de Wakimisaki Beach',
+  category: 'Plage',
+  description: "Plage isolée et sauvage avec une eau claire et peu de touristes.",
+  emoji: '🏖️'
+},
+{
+  id: 'm411',
+  lat: 35.7144310,
+  lng: 139.7808780,
+  title: 'Auberge Tomariya Ueno',
+  category: 'Logement',
+  description: "Auberge de jeunesse à Tokyo où je séjourne pendant 12 nuits, située dans le quartier d’Ueno.",
+  emoji: '🛏️'
 }
 
 
