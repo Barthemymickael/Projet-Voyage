@@ -9341,6 +9341,93 @@ Je serai finalement resté dans l’observatoire de 18h à 21h. Après le couche
 
 Encore une merveilleuse journée qui s’achève et qui laisse place à ma dernière journée à Nagasaki.`,
   "mood": "Glover Garden, discussion avec un artiste et coucher de soleil au mont Inasa"
+},
+{
+  "id": "j58",
+  "day": 58,
+  "title": "Dernière aventure sauvage à Nagasaki",
+  "excerpt": `Dernière journée à Nagasaki, et ça fait déjà quelques jours que je sais exactement ce que je vais faire pour cette dernière journée.
+
+Direction le musée Nagasaki City Dinosaur Museum, situé à 23 km du centre-ville.
+
+Ce n’est clairement pas l’activité principale de la préfecture, mais je pense bien aimer, et surtout, la localisation du lieu est son vrai point fort.
+
+Pour y aller, je dois prendre deux bus de 30 minutes chacun.
+
+Mais gros rebondissement : le premier bus bifurque au milieu du trajet. Je regarde à droite, à gauche… je ne sais pas du tout où je suis, donc je descends.
+
+Et me voilà complètement perdu au milieu de la campagne japonaise, à côté d’un petit port de pêcheurs.
+
+À ce moment-là, j’ai le choix : soit je prends deux autres bus pour aller au musée, soit…
+
+faire un quart du trajet à pied, en longeant la côte.
+
+Évidemment, j’ai longé la côte. Et pendant une heure, j’ai eu une vue incroyable sur la mer, deux petites plages comme des criques, des villages de pêcheurs, et de longues routes super agréables.
+
+Je suis aussi passé par des petits villages, tout mignons et surtout très calmes.
+
+De belles maisons, style maisons de vacances, des jardins extrêmement bien entretenus, avec pas mal de bonsaïs et autres décorations.
+
+Bref, il est 12h45 et me voilà devant le musée, comme si je venais de vivre une journée à part entière dans la journée elle-même, totalement imprévue.
+
+Pourquoi je voulais voir ce musée ?
+
+Je ne dirais pas que c’est le musée en lui-même qui m’a attiré, mais plutôt sa localisation.
+
+Je me suis dit que ça pouvait être intéressant de faire une visite instructive et pédagogique sur les dinosaures, puis de partir à l’aventure dans les falaises et les sentiers de la presqu’île.
+
+Bref, j’arrive à 12h45 devant le musée. Je dois faire attention, car le dernier bus retour est à 20h51, ce qui me laisse toute l’après-midi et le début de soirée pour vagabonder et me perdre une dernière fois dans les montagnes, les sentiers et les plages pendant ce voyage.
+
+En effet, je pars demain pour Tokyo… et ça m’étonnerait que je retrouve des paysages et des panoramas similaires dans la capitale.
+
+C’est assez émouvant, parce que c’est peut-être la dernière fois que je vais pouvoir faire ça : partir me perdre comme ça, au hasard, dans des chemins de campagne, dans les falaises, sur des routes sinueuses et peu entretenues… pousser à fond ce sentiment de liberté, de libre arbitre et d’adrénaline.
+
+Ce que j’ai encore vécu ce matin : être totalement libre, juste flâner et découvrir des paysages incroyables.
+
+Pour parler des musées, le premier, sur l’ancienne île de charbon Gunkanjima, puis le musée des dinosaures.
+
+J’ai passé 20 minutes dans le premier et 45 minutes dans le musée dino.
+
+Je me dirige ensuite vers le petit restaurant à côté du musée, qui propose des « sandwiches dinosaures »… qui sont en réalité des kebabs.
+
+Je prends un kebab avec une bière, je marche une minute, et je me pose face à la mer, seul, tranquille, à déguster ça vers 14h30.
+
+Une fois le ventre bien rempli, vers 14h40, je commence mon escapade dans les alentours.
+
+15h54 : arrivée à l’observation deck du mont Gongen.
+
+Magnifique panorama. J’achète une canette de Monster au distributeur pas loin, je me pose et je contemple pendant une bonne heure cet endroit avec une vue incroyable.
+
+Je me pose alors une question : est-ce que je regarde le coucher de soleil ici, ou est-ce que je vais à la plage Wakimisaki Beach pour le voir ?
+
+Finalement, je fais quasiment 50 minutes à pied, presque que de la descente, pour rejoindre la plage Wakimisaki.
+
+Sur Google, les photos avaient l’air beaucoup plus impressionnantes.
+
+En arrivant, je découvre une longue plage… avec seulement 3 ou 4 personnes qui promènent leurs chiens.
+
+Très vite, je me retrouve complètement seul sur cette grande étendue jusqu’aux dernières lueurs du jour.
+
+Je profite à fond du moment. Je mets les musiques que j’aime, je cours un peu… j’ai vraiment l’impression d’être dans un rêve éveillé, en me disant que c’est peut-être la dernière fois que je vis ça pendant ce voyage.
+
+Je reste là, immobile face à la mer, avec les couleurs magnifiques du coucher de soleil.
+
+Petit à petit, la plage s’assombrit… la nuit prend le relais.
+
+Je prends ensuite le chemin du retour, direction l’arrêt de bus le plus proche.
+
+Je pars d’abord à droite (mauvais choix), puis je cours un peu vers la gauche pour ne pas rater l’avant-dernier bus.
+
+Après une heure de transport, j’arrive dans le centre-ville, où je trouve un restaurant chinois qui propose des ramens : pas incroyables, mais ça fait le taf.
+
+Vers 22h, je fais une lessive, je plie mon linge dans mon sac, puis je retourne à l’auberge.
+
+Voilà, c’était mon dernier jour à Nagasaki.
+
+Et j’étais vraiment connecté au moment présent, en sachant très bien que je disais au revoir à une partie du voyage… à un mode de vie chill, calme, reposant, entre mer, plage et montagne.
+
+Demain, direction la capitale : Tokyo.`,
+  "mood": "Dernière aventure à Nagasaki et liberté"
 }
 
 
