@@ -5008,7 +5008,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Visite rapide du musée de Gunkanjima et du musée des dinosaures',
     'Ascension jusqu’au mont Gongen et vue panoramique',
     'Coucher de soleil seul sur la plage de Wakimisaki Beach'
-  ]
+  ],
+  video: 'https://youtu.be/mWgoYqBEGg0'
 }
 
 
