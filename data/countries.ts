@@ -7082,7 +7082,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   title: 'Kazagashira Park',
   category: 'Parc',
   description: "Parc situé sur les hauteurs offrant une vue panoramique sur Nagasaki.",
-  emoji: '🌄'
+  emoji: '🌳'
 },
 {
   id: 'm405',
