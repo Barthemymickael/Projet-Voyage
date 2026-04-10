@@ -5041,7 +5041,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Exposition sur la peinture suédoise',
     'Pause café chez St.Marc café',
     'Dîner ramen au canard chez Ramen Kamo to Negi Ueno Okachimachi Main Store'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/xO2tBOn6IWE?si=pR7-wsj9h7vqc4QD'
 }
 
 
