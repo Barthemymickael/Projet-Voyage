@@ -5024,7 +5024,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Balade dans le quartier d’Akihabara',
     'Sessions de jeux dans les salles d’arcade',
     'Dîner dans un restaurant de ramen'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/BWpKcArQ0jI?si=K6-992Kxs6vMxWLo'
 }
 
 
