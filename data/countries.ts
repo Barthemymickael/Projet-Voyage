@@ -5026,6 +5026,22 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Dîner dans un restaurant de ramen'
   ],
   video: 'https://youtube.com/shorts/BWpKcArQ0jI?si=K6-992Kxs6vMxWLo'
+},
+{
+  id: 't60',
+  date: 'Jour 60 (17 687 pas)',
+  title: 'Journée culturelle et pluvieuse à Tokyo',
+  description:
+    'Une journée culturelle au cœur de Tokyo, rythmée par les musées, les expositions et les cafés. Entre découvertes artistiques et ambiance pluvieuse dans le parc d’Ueno.',
+  bullets: [
+    'Visite du Musée national de Tokyo',
+    'Brunch chez Kayaba Coffee',
+    'Balade dans le parc d’Ueno',
+    'Visite du Tokyo Metropolitan Art Museum',
+    'Exposition sur la peinture suédoise',
+    'Pause café chez St.Marc café',
+    'Dîner ramen au canard chez Ramen Kamo to Negi Ueno Okachimachi Main Store'
+  ]
 }
 
 
@@ -9634,6 +9650,55 @@ J’ai quand même ressenti que la folie de la découverte n’était pas totale
 
 Mais ça reste un vrai plaisir de se balader dans ce quartier culte de la pop culture.`,
   "mood": "Arrivée à Tokyo et premières lumières d’Akihabara"
+},
+{
+  "id": "j60",
+  "day": 60,
+  "title": "Journée culturelle et pluvieuse à Tokyo",
+  "excerpt": `Journée nuageuse et pluvieuse
+
+Comme je suis dans le quartier d’Ueno, j’en profite pour commencer la journée avec le Musée national de Tokyo, ainsi que son annexe : le National Institutes for Cultural Heritage.
+
+Je reste 2h30 à découvrir des artefacts de différentes époques japonaises et chinoises, avec aussi quelques sections sur l’Égypte et l’Asie du Sud-Est.
+
+Ça fait officiellement 2 mois jour pour jour que je suis au Japon, et je commence vraiment à connaître (ou en tout cas à reconnaître) les différentes époques, à faire des liens entre les changements dans l’histoire du pays. C’est carrément satisfaisant.
+
+Vers 14h, je pars manger et découvrir un très beau restaurant : Kayaba Coffee.
+
+Un brunch / coffee à la carte, dans un lieu vieux de plus de 100 ans.
+
+Je prends un sandwich au corned beef, avec un matcha latte en boisson/dessert.
+
+Très bon. L’ambiance est géniale : assis par terre sur une petite table, musique jazz en fond, portes coulissantes typiques du Japon en shoji.
+
+Après ça, je pars me balader dans le parc d’Ueno, connu pour être le bol d’air frais de la capitale (un peu comme le Jardin du Luxembourg à Paris).
+
+Parfait pour les balades après le travail ou le week-end.
+
+Dans le parc, il y a notamment le The Ueno Royal Museum et le Tokyo Metropolitan Art Museum.
+
+Le premier musée expose des œuvres de jeunes artistes japonais pour leur donner un peu de visibilité.
+
+Le second, beaucoup plus connu au Japon, propose une exposition permanente divisée en quatre parties, ainsi qu’une exposition éphémère qui change chaque trimestre.
+
+Je tombe donc sur l’exposition Masters of Swedish Painting, qui m’a permis de découvrir l’art suédois, et notamment comment il s’est métamorphosé après que plusieurs artistes soient venus en France pour se former auprès des grands noms de l’impressionnisme.
+
+J’ai donc découvert les artistes suivants :
+	•	Marcus Larson (Gale on the Bohuslän Coast)
+	•	Edvard Bergh
+	•	Ernst Josephson
+
+Enfin voilà, loin des montagnes et des plages, j’ai essayé de me construire une journée comme je les aime :
+
+Musée + brunch + jazz + galerie d’art + balade tranquille.
+
+C’est ça, pour moi, l’essence et le mood des grandes capitales comme Tokyo.
+
+Un peu dans le style de New York :
+prendre des cafés, se balader, voir des expositions et des galeries d’art, puis finir par dîner dans un restaurant le soir.
+
+Je finis la journée avec une glace banane tiramisu au St. Marc Cafe, puis je me dirige, à deux pas de là, pour manger un ramen un peu spécial : un ramen avec de la viande de canard chez Ramen Kamo to Negi Ueno Okachimachi Main Store.`,
+  "mood": "Journée culturelle et pluvieuse à Tokyo"
 }
 
 
