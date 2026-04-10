@@ -7181,6 +7181,96 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   description: "Auberge de jeunesse à Tokyo où je séjourne pendant 12 nuits, située dans le quartier d’Ueno.",
   emoji: '🛏️'
 },
+{
+  id: 'm412',
+  lat: 35.6996449,
+  lng: 139.7713065,
+  title: 'Akihabara Electric Town',
+  category: 'Quartier',
+  description: "Quartier emblématique de la culture otaku avec magasins d’électronique, manga, figurines et salles d’arcade.",
+  emoji: '🎮'
+},
+{
+  id: 'm413',
+  lat: 35.7187788,
+  lng: 139.7763467,
+  title: 'Musée national de Tokyo',
+  category: 'Musée',
+  description: "Le plus grand musée du Japon, présentant des collections d’art et d’artefacts historiques japonais et asiatiques.",
+  emoji: '🏛️'
+},
+{
+  id: 'm414',
+  lat: 35.7199588,
+  lng: 139.7756289,
+  title: 'National Institutes for Cultural Heritage',
+  category: 'Musée',
+  description: "Institut dédié à la préservation et à la recherche sur le patrimoine culturel japonais.",
+  emoji: '🏛️'
+},
+{
+  id: 'm415',
+  lat: 35.7127587,
+  lng: 139.7747931,
+  title: 'The Ueno Royal Museum',
+  category: 'Musée',
+  description: "Musée accueillant principalement des expositions temporaires d’art moderne et contemporain.",
+  emoji: '🖼️'
+},
+{
+  id: 'm416',
+  lat: 35.7172294,
+  lng: 139.7728042,
+  title: 'Tokyo Metropolitan Art Museum',
+  category: 'Musée',
+  description: "Grand musée d’art proposant des expositions variées dans un cadre moderne au cœur du parc d’Ueno.",
+  emoji: '🖼️'
+},
+{
+  id: 'm417',
+  lat: 35.7148091,
+  lng: 139.7734312,
+  title: 'Parc d’Ueno',
+  category: 'Parc',
+  description: "Grand parc public très animé avec musées, étangs et cerisiers, parfait pour se balader.",
+  emoji: '🌸'
+},
+{
+  id: 'm418',
+  lat: 35.7018587,
+  lng: 139.7713783,
+  title: 'Hakata Furyu Akihabara flagship shop',
+  category: 'Restaurant',
+  description: "Restaurant de ramen testé au hasard, pas incroyable mais fait le travail.",
+  emoji: '🍜'
+},
+{
+  id: 'm419',
+  lat: 35.7211418,
+  lng: 139.7707459,
+  title: 'Kayaba Coffee',
+  category: 'Café',
+  description: "Excellent café/brunch avec des sandwichs vraiment très bons dans un cadre traditionnel très joli.",
+  emoji: '☕'
+},
+{
+  id: 'm420',
+  lat: 35.7070409,
+  lng: 139.7740524,
+  title: 'St. Marc Cafe',
+  category: 'Café',
+  description: "Café où je prends un parfait banane tiramisu chocolat.",
+  emoji: '🍰'
+},
+{
+  id: 'm421',
+  lat: 35.7083809,
+  lng: 139.7753057,
+  title: 'Ramen Kamo to Negi Ueno Okachimachi Main Store',
+  category: 'Restaurant',
+  description: "Ramen spécialisé au canard, bon mais sans plus.",
+  emoji: '🍜'
+}
 
 
 
