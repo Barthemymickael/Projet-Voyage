@@ -5077,7 +5077,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Pause au Kinshi Park',
     'Passage par le Senso-ji et Asakusa Shrine',
     'Dîner dans un restaurant de ramen'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/szYjc1xGfrc?si=j01gOe8NrPyytgBY'
 }
 
 
