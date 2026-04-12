@@ -5061,6 +5061,23 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Balade nocturne à Asakusa et Sumida Park'
   ],
   video: 'https://youtube.com/shorts/I80FfEBUfPU?si=GiIAhGGpkqQgCQGo'
+},
+{
+  id: 't62',
+  date: 'Jour 62 (19 097 pas)',
+  title: 'Quartier Asakusa et Sumida',
+  description:
+    'Une journée paisible à Tokyo entre gourmandise, culture et balades urbaines.',
+  bullets: [
+    'Petit-déjeuner chez Age.3',
+    'Sumida Park',
+    'Balade autour de la Tokyo Skytree',
+    'Visite du Tobacco & Salt Museum',
+    'Découverte du Oyokogawa Water Park',
+    'Pause au Kinshi Park',
+    'Passage par le Senso-ji et Asakusa Shrine',
+    'Dîner dans un restaurant de ramen'
+  ]
 }
 
 
@@ -9872,6 +9889,42 @@ Je finis la journée par manger dans un restaurant de burgers : le Japanese Food
 
 Puis balade digestive vers le quartier d’Asakusa où je me pose au Sumida Park, devant la Tokyo Skytree, avec mes écouteurs.`,
   "mood": "Le Mont Fuji"
+},
+{
+  "id": "j62",
+  "day": 62,
+  "title": "Asakusa, Sumida et plaisirs simples",
+  "excerpt": `Quartiers d’Asakusa et de Sumida
+
+Ce matin, réveil tranquille, puis sortie de l’auberge vers 10h30.
+
+Prêt à profiter pleinement des quartiers d’Asakusa et de Sumida pour toute la journée !
+
+Je commence par m’offrir un petit-déjeuner plutôt sympa chez Age.3. Une heure d’attente, mais ça en valait largement la peine : chaque bouchée était un vrai plaisir.
+J’ai pris trois pains frits croustillants (banane chocolat, whipped cream et crème brûlée) accompagnés d’un matcha latte.
+Un vrai régal. Ça faisait longtemps que je n’avais pas été autant surpris par le goût d’une pâtisserie.
+
+Je me suis ensuite posé au Sumida Park, le long de la rivière (le même que celui d’hier soir), avec une vue directe sur la Tokyo Skytree.
+Un moment calme et paisible pour profiter pleinement de ce petit-déjeuner.
+
+J’ai ensuite marché un peu au hasard dans le quartier de Sumida, en passant juste en dessous de la Tokyo Skytree, avant de me diriger vers le Tobacco & Salt Museum.
+
+Musée extrêmement intéressant. J’y ai découvert une exposition sur le sel et son importance pour les animaux, les humains et la société en général : procédés chimiques, savoir-faire humains, rôle essentiel pour le corps, etc.
+
+Puis vient la partie principale : le tabac.
+
+« Avant le XVe siècle et l’arrivée des Européens, les Amérindiens pensaient que fumer le tabac jouait un rôle important dans le lien entre les humains et les dieux. »
+
+J’y ai passé presque 2 heures et j’ai vraiment adoré. Beaucoup d’informations, d’objets, des pipes, des narguilés, des paquets de cigarettes… mais aussi tout ce qui concerne la fabrication du tabac, sa mondialisation et le marketing autour. Passionnant.
+
+J’enchaîne avec une balade rapide dans le Oyokogawa Water Park, un parc tout en longueur avec un parcours en zigzag, entrecoupé de petits ruisseaux.
+
+Je fais ensuite une pause goûter au Kinshi Park. Ambiance très détendue, presque comme un dimanche : beaucoup de familles et de groupes d’amis en pique-nique. Une atmosphère vraiment chaleureuse.
+
+Je passe ensuite rapidement par le sanctuaire Asakusa et le Senso-ji, toujours aussi impressionnants.
+
+Je termine la journée avec un ramen chez Janbara Ramen, une petite adresse encore peu touristique.`,
+  "mood": "Quartier Asakusa et Sumida"
 }
 
 
