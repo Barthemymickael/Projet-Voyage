@@ -5059,7 +5059,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Contemplation du Mont Fuji face au lac',
     'Dîner burger wagyu',
     'Balade nocturne à Asakusa et Sumida Park'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/I80FfEBUfPU?si=GiIAhGGpkqQgCQGo'
 }
 
 
