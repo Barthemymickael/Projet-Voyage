@@ -5043,6 +5043,23 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Dîner ramen au canard chez Ramen Kamo to Negi Ueno Okachimachi Main Store'
   ],
   video: 'https://youtube.com/shorts/xO2tBOn6IWE?si=pR7-wsj9h7vqc4QD'
+},
+{
+  id: 't61',
+  date: 'Jour 61 (23 761 pas)',
+  title: 'Le Mont Fuji',
+  description:
+    'Une journée attendue depuis des mois, découverte du Mont Fuji dans des conditions parfaites. Entre trajet, imprévus et contemplation face au lac Kawaguchiko.',
+  bullets: [
+    'Trajet en bus vers Fujikawaguchiko',
+    'Premiers regards sur le Mont Fuji',
+    'Passage au spot du Lawson',
+    'Balade autour du lac Kawaguchiko',
+    'Découverte du parc Oishi',
+    'Contemplation du Mont Fuji face au lac',
+    'Dîner burger wagyu',
+    'Balade nocturne à Asakusa et Sumida Park'
+  ]
 }
 
 
@@ -9790,6 +9807,70 @@ prendre des cafés, se balader, voir des expositions et des galeries d’art, pu
 
 Je finis la journée avec une glace banane tiramisu au St. Marc Cafe, puis je me dirige, à deux pas de là, pour manger un ramen un peu spécial : un ramen avec de la viande de canard chez Ramen Kamo to Negi Ueno Okachimachi Main Store.`,
   "mood": "Journée culturelle et pluvieuse à Tokyo"
+},
+{
+  "id": "j61",
+  "day": 61,
+  "title": "Face au Mont Fuji, enfin",
+  "excerpt": `C’est avec beaucoup de plaisir et avec impatience que je pars aujourd’hui admirer le mont Fuji.
+
+Pour le contexte, le mont Fuji n’est pleinement visible qu’environ 80 jours par an. La plupart du temps, son sommet est dissimulé par les nuages, la brume ou les variations météorologiques, en raison de son altitude (3 776 mètres) et de son climat très instable.
+
+Ainsi, il y a quelques jours, j’ai commencé à analyser la météo. J’ai comparé les prévisions sur les dix jours à venir, croisé plusieurs sources, et je suis même allé jusqu’à consulter l’IA pour déterminer avec précision quel serait LE jour idéal pour l’observer dans les meilleures conditions.
+
+Réponse finale, après quelques recherches :
+
+Aujourd’hui, samedi 11 avril 2026.
+(Grand soleil toute la journée, ciel bleu, pas un nuage et en prime une température de 23 degrés)
+
+J’écris donc ces quelques mots dans le bus (3h50 de trajet avec bouchons), direction Fujikawaguchiko, la ville parfaite pour observer le mont avec quelques spots iconiques dans les environs. 
+
+Ce jour, j’y pense depuis très longtemps. En effet, même quand j’étais à Séoul en Corée du Sud, j’y pensais. Je me disais en décembre : 
+
+« Et dire que je vais voir le mont Fuji, ça va être fou, je vais le voir de mes propres yeux, wow »
+
+Ainsi, je mets le réveil à 6h30, prends le métro puis rejoins le bus que j’ai réservé à 8h50.
+
+Arrivée à Fujikawaguchiko à 12h40.
+
+Premier pas : il fait chaud, il fait beau et je prends mon propre chemin direction le spot du Lawson Fujikawaguchiko, ultra connu. J’ai donc pris un truc à manger et en même temps fait quelques photos.
+
+Sur la route, je me sens bien, grand sourire, et je n’arrête pas d’avoir la tête tournée pour regarder le mont Fuji.
+
+J’arrive au spot, génial mais avec pas mal de monde.
+
+Je décide ensuite de prendre un bus direction le Oishi Park pour tester le café Oishi Park Café avec une vue sur la montagne.
+
+Je prends le bus, puis je ne comprends pas pourquoi il va plus loin que prévu : il ne prend pas la route que j’ai sur Google Maps. Alors je descends à un arrêt et c’est parti pour 1h de balade à pied autour du lac Kawaguchiko.
+
+Cette balade était imprévue mais elle fut géniale. La vue avec le lac qui brille au soleil et le mont Fuji en fond… franchement c’était super beau !
+
+Arrivée au parc Oishi, plus de monde que prévu. Je ne m’attendais pas à voir autant de monde.
+
+Tellement de monde qu’il y a même une longue file d’attente pour s’installer au café. Je n’ai donc pas pu tester les pancakes du café mais j’ai quand même pris une spécialité du stand à côté : un jus de pêche à emporter.
+
+Posé sur un banc, je contemple tranquillement le mont Fuji.
+
+J’essaie tant bien que mal de prendre un taxi via Uber pour aller sur un spot dans les hauteurs, bien connu, mais impossible : ma course est refusée à chaque fois, faute de chauffeurs disponibles au vu du monde présent dans la ville.
+
+Tant pis, je reste un peu plus longtemps dans le parc Oishi. Je fais quelques photos, je demande à des gens de me prendre en photo et je me rapproche de l’eau du lac pour observer le paysage.
+
+16h30, il est déjà temps de prendre le chemin du retour. Le bus est bondé, avec plein de bouchons partout dans la ville.
+
+Une fois arrivé à la station, je monte directement dans le bus retour direction Tokyo.
+
+Enfin bref, il fallait s’y attendre : entre la pluie d’hier et la météo annoncée pour la semaine suivante, c’était LE jour parfait pour voir le mont Fuji !
+
+J’écris ces derniers mots dans le bus. La journée fut intense et rapide. Évidemment, au vu de mon voyage, j’en veux toujours plus. Je ne suis pas rassasié, je n’ai pas l’habitude d’avoir une deadline de retour… mais je peux quand même être content et heureux de l’avoir vu de mes propres yeux.
+
+J’ai pu marcher tranquillement dans ma bulle pendant 1h, quelques musiques dans mes écouteurs accompagnées du mont Fuji :
+
+C’était parfait.
+
+Je finis la journée par manger dans un restaurant de burgers : le Japanese Food Wagyu Restaurant (très très bon burger et très bonne viande, un peu cher ceci dit).
+
+Puis balade digestive vers le quartier d’Asakusa où je me pose au Sumida Park, devant la Tokyo Skytree, avec mes écouteurs.`,
+  "mood": "Le Mont Fuji"
 }
 
 
