@@ -9983,6 +9983,45 @@ Je traverse plusieurs fois le carrefour, je suis là, je tourne à 360 degrés, 
 
 J’aime ce sentiment de me savoir ici !`,
   "mood": "Gotokuji, friperies et Shibuya"
+},
+{
+  "id": "j64",
+  "day": 64,
+  "title": "Quartier Ginza, musées et quartier Jinbocho",
+  "excerpt": `Ma journée a commencé par la découverte de Ginza, le quartier chic par excellence.
+
+Ici, d'immenses buildings séparés par des avenues en 3x3 voies. C’est le royaume du shopping de luxe.
+
+Le style me rappelle beaucoup Gangnam à Séoul, La Défense à Paris ou encore le quartier Umeda à Osaka.
+
+Le soleil joue à cache-cache, souvent dissimulé par la hauteur des façades.
+
+J’ai quand même pris le temps d’entrer dans quelques boutiques, dont le fameux Uniqlo de 12 étages, assez impressionnant.
+
+Je me suis ensuite dirigé vers les jardins du Palais impérial pour une balade autour du château de Kōkyō.
+
+En me posant sur un banc pour observer la vie autour de moi, j’ai réalisé qu’il était 13h : l’heure de la pause déjeuner pour les travailleurs, les lycéens et les étudiants. C’était super sympa à voir : il y avait des petits groupes un peu partout sur les bancs, contre les arbres ou directement sur l’herbe. Ils avaient tous leurs plats préparés et profitaient du parc et du soleil.
+
+J’ai continué avec la visite gratuite des Jardins de l’Est. Ce n’est pas forcément incroyable, mais c’est vraiment plaisant de s’y promener.
+
+Juste à deux pas du jardin, j’ai découvert le National Museum of Modern Art - Crafts Gallery.
+
+Le musée s’étend sur 4 étages et retrace l’évolution de l’art de 1900 à nos jours. C’était l’occasion de voir des œuvres d’artistes célèbres comme Paul Cézanne, Pierre Bonnard ou encore Robert Delaunay.
+
+« L’invention de la photographie a effrayé bon nombre d’artistes qui pensaient que l’art était mort. »
+
+Pour la suite, je suis allé me poser dans un café du quartier de Jinbocho, l’endroit rêvé pour les amoureux de livres et de librairies. J’ai bu un très bon chocolat chaud chez GalleryCafe, une adresse située juste au-dessus d’une papeterie.
+
+En sortant, je suis tombé par hasard sur une devanture qui m’a tout de suite parlé. À l’intérieur, il y avait des gens en costume-cravate, alors je me suis dit que c’était sûrement une bonne adresse, simple et rapide.
+
+C’était le Tokyo Abura Soba Jimbocho Branch. Je n’ai pas réfléchi trop longtemps et j’ai commandé des abura soba.
+
+Et franchement, j’ai adoré ! C’était extrêmement bon. La portion était un peu petite, j’étais presque prêt à reprendre le même plat sur-le-champ.
+
+J’avais toujours hésité à goûter les abura soba, mais maintenant c’est fait, et c’est carrément validé.
+
+J’ai finalement terminé la soirée en déambulant dans le quartier d’Akihabara, en entrant dans quelques boutiques au fil de ma marche avant de rentrer.`,
+  "mood": "Quartier Ginza et Jinbocho"
 }
 
 
