@@ -5116,7 +5116,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Découverte du quartier des librairies',
     'Dîner et découverte du plat abura soba',
     'Balade nocturne à Akihabara'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/ldVariN9IuA?si=ngykkXyRH1LlHkMf'
 }
 
     ],
