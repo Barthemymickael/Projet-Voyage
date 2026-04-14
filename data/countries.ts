@@ -5079,6 +5079,25 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Dîner dans un restaurant de ramen'
   ],
   video: 'https://youtube.com/shorts/szYjc1xGfrc?si=j01gOe8NrPyytgBY'
+},
+{
+  id: 't63',
+  date: 'Jour 63 (22 746 pas)',
+  title: 'Gotokuji, friperies et Shibuya',
+  description:
+    'Une journée mêlant temples atypiques, quartiers alternatifs et immersion dans l’énergie de la capitale. Entre friperies, culture pop et ambiance électrique à Shibuya.',
+  bullets: [
+    'Visite du temple Gotokuji et ses chats porte-bonheur',
+    'Balade dans le quartier calme de Setagaya',
+    'Exploration des friperies de Shimokitazawa',
+    'Passage par le sanctuaire Meiji-jingū et le parc Yoyogi',
+    'Découverte de Harajuku et Takeshita Street',
+    'Pause matcha latte chez MACCHA HOUSE',
+    'Balade sur Cat Street',
+    'Coucher de soleil au Tokyo Plaza Harajuku',
+    'Dîner Udon Carbonara chez Menchirashi',
+    'Baladenocturne à Shibuya Crossing'
+  ]
 }
 
 
@@ -9926,6 +9945,43 @@ Je passe ensuite rapidement par le sanctuaire Asakusa et le Senso-ji, toujours a
 
 Je termine la journée avec un ramen chez Janbara Ramen, une petite adresse encore peu touristique.`,
   "mood": "Quartier Asakusa et Sumida"
+},
+{
+  "id": "j63",
+  "day": 63,
+  "title": "Gotokuji, friperies et Shibuya",
+  "excerpt": `Direction le temple Gōtokuji en fin de matinée, un temple bouddhiste avec une grande collection de statues de chats porte-bonheur.
+
+Situé dans un quartier ultra calme de Tokyo, on ne se croit pas du tout dans la capitale.
+
+Le temple n’est pas incroyable, plus marketing qu’autre chose, mais ça reste mignon et sympa de voir ces petites statuettes à côté du cimetière et du temple tout de même.
+
+Je prends ensuite le métro direction Shimokitazawa, le quartier chill de la friperie et de la seconde main.
+
+Je reprends ensuite un autre métro direction le sanctuaire Meiji-jingū ainsi que son parc, le Yoyogi-kōen.
+
+Pas hyper convaincu par le sanctuaire : ayant déjà fait Kyoto et vu les plus beaux et les plus anciens sanctuaires et temples du Japon, celui-ci me laisse un peu perplexe.
+
+En fait, c’est souvent l’un des premiers qu’un touriste voit en arrivant au Japon.
+
+En sortant du parc, j’arrive dans le quartier de Harajuku où je m’arrête déguster un matcha latte chez MACCHA HOUSE With Harajuku Store.
+
+Je me perds ensuite dans la rue Takeshita Street : des boutiques de partout, de la musique dans les haut-parleurs… ici, on trouve n’importe quels petits goodies et accessoires de mode japonaise.
+
+Je découvre notamment le Harry Potter Shop dans les rues adjacentes, hyper grand, et c’est cool de se retrouver quelques minutes dans l’univers d’Harry Potter.
+
+Je me balade ensuite dans la rue Cat Street : boutiques de mode et friperies plutôt chères, que des gens stylés, bien habillés, une vibe assez cool et des coffee shops à perte de vue.
+
+Je me pose ensuite sur le rooftop du Tokyo Plaza Harajuku (Garden Terrace), je prends un matcha latte au Starbucks et contemple le coucher de soleil depuis ce point de vue.
+
+Je décide ensuite de manger chez Menchirashi, un restaurant que j’avais enregistré depuis longtemps sur Instagram. J’y ai dégusté des udons carbonara avec une bière : c’était très bon, pas cher et sympa de tester l’adresse.
+
+Je finis la soirée par découvrir le quartier de Shibuya et évidemment passer par le Shibuya Crossing, écouteurs aux oreilles — Self Control de Laura Branigan, plus précisément — et me voilà dans le carrefour le plus connu du monde.
+
+Je traverse plusieurs fois le carrefour, je suis là, je tourne à 360 degrés, je regarde tout autour de moi, comme dans un film. J’observe les dizaines et les dizaines d’écrans géants.
+
+J’aime ce sentiment de me savoir ici !`,
+  "mood": "Gotokuji, friperies et Shibuya"
 }
 
 
