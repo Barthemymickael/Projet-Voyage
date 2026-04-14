@@ -5096,8 +5096,9 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Balade sur Cat Street',
     'Coucher de soleil au Tokyo Plaza Harajuku',
     'Dîner Udon Carbonara chez Menchirashi',
-    'Baladenocturne à Shibuya Crossing'
-  ]
+    'Balade nocturne au Shibuya Crossing'
+  ],
+  video: 'https://youtube.com/shorts/2F93q3J0GRI?si=NHq3Sgtkwq9GqU0f'
 }
 
 
