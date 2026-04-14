@@ -5114,7 +5114,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Visite du National Museum of Modern Art',
     'Pause café à Jinbocho',
     'Découverte du quartier des librairies',
-    'Dîner et découverte du p'abura soba',
+    'Dîner et découverte du plat abura soba',
     'Balade nocturne à Akihabara'
   ]
 }
