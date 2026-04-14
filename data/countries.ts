@@ -5099,8 +5099,25 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Balade nocturne au Shibuya Crossing'
   ],
   video: 'https://youtube.com/shorts/2F93q3J0GRI?si=NHq3Sgtkwq9GqU0f'
+},
+{
+  id: 't64',
+  date: 'Jour 64 (22 680 pas)',
+  title: 'Quartier Ginza et Jinbocho',
+  description:
+    'Découverte du quartier de Ginza, des alentours du palais impérial et du quartier des livres de Tokyo.',
+  bullets: [
+    'Découverte du quartier de Ginza',
+    'Visite du Uniqlo de 12 étages',
+    'Balade autour du Palais impérial',
+    'Promenade dans les Jardins de l’Est',
+    'Visite du National Museum of Modern Art',
+    'Pause café à Jinbocho',
+    'Découverte du quartier des librairies',
+    'Dîner et découverte du p'abura soba',
+    'Balade nocturne à Akihabara'
+  ]
 }
-
 
     ],
     markers: [
