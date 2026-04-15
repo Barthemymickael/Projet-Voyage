@@ -7632,6 +7632,78 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Restaurant',
   description: "Première découverte des abura soba, excellente adresse fréquentée par les locaux.",
   emoji: '🍜'
+},
+{
+  id: 'm452',
+  lat: 35.6387146,
+  lng: 139.7025598,
+  title: 'Nakameguro',
+  category: 'Quartier',
+  description: "Quartier branché et élégant, connu pour ses cafés, boutiques et son ambiance chill le long de la rivière.",
+  emoji: '🏙️'
+},
+{
+  id: 'm453',
+  lat: 35.6361595,
+  lng: 139.7089515,
+  title: 'Meguro River Cherry Blossoms Promenade',
+  category: 'Spot',
+  description: "Promenade emblématique le long de la rivière Meguro, célèbre pour les cerisiers en fleurs.",
+  emoji: '🌸'
+},
+{
+  id: 'm454',
+  lat: 35.6317418,
+  lng: 139.7066824,
+  title: 'Meguro Parasitological Museum',
+  category: 'Musée',
+  description: "Musée insolite entièrement dédié aux parasites.",
+  emoji: '🧫'
+},
+{
+  id: 'm455',
+  lat: 35.6348483,
+  lng: 139.7077465,
+  title: 'Meguro Museum of Art',
+  category: 'Musée',
+  description: "Musée d’art local proposant des expositions modernes et contemporaines.",
+  emoji: '🖼️'
+},
+{
+  id: 'm456',
+  lat: 35.6347854,
+  lng: 139.7085696,
+  title: 'Meguro Citizen Center Park',
+  category: 'Parc',
+  description: "Petit parc de quartier agréable pour se poser.",
+  emoji: '🌿'
+},
+{
+  id: 'm457',
+  lat: 35.6369372,
+  lng: 139.7190031,
+  title: 'Tokyo Metropolitan Teien Art Museum',
+  category: 'Musée',
+  description: "Musée situé dans une ancienne résidence avec un superbe jardin mêlant styles japonais et occidentaux.",
+  emoji: '🏛️'
+},
+{
+  id: 'm458',
+  lat: 35.6348840,
+  lng: 139.7164168,
+  title: 'Café Renoir',
+  category: 'Café',
+  description: "Café calme où je prends un matcha latte en travaillant tranquillement.",
+  emoji: '☕'
+},
+{
+  id: 'm459',
+  lat: 35.6336063,
+  lng: 139.7142348,
+  title: 'Tonki',
+  category: 'Restaurant',
+  description: "Excellente adresse de tonkatsu avec une expérience immersive et authentique.",
+  emoji: '🍛'
 }
 
 
