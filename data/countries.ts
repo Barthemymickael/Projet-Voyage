@@ -5134,7 +5134,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Visite du Tokyo Metropolitan Teien Art Museum',
     'Pause café chez Café Renoir',
     'Découverte du tonkatsu chez Tonki',
-  ]
+  ],
+  video: 'https://youtube.com/shorts/n7oTgPqhrgo?si=ZuKtI63hh_PR73yU'
 }
 
     ],
