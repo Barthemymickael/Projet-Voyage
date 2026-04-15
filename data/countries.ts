@@ -5118,6 +5118,23 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Balade nocturne à Akihabara'
   ],
   video: 'https://youtube.com/shorts/ldVariN9IuA?si=ngykkXyRH1LlHkMf'
+},
+{
+  id: 't65',
+  date: 'Jour 65 (14 278 pas)',
+  title: 'Quartier de Nakameguro',
+  description:
+    'Une journée paisible à Tokyo, entre balades le long de la Meguro River, musées atypiques et découvertes artistiques.',
+  bullets: [
+    'Balade à Nakameguro le long de la Meguro River',
+    'Visite du Meguro Parasitological Museum',
+    'Visite du Meguro Museum of Art',
+    'Pause au Meguro Citizen Center Park',
+    'Promenade vers le Nature Study Institute',
+    'Visite du Tokyo Metropolitan Teien Art Museum',
+    'Pause café chez Café Renoir',
+    'Découverte du tonkatsu chez Tonki',
+  ]
 }
 
     ],
@@ -10310,6 +10327,40 @@ J’avais toujours hésité à goûter les abura soba, mais maintenant c’est f
 
 J’ai finalement terminé la soirée en déambulant dans le quartier d’Akihabara, en entrant dans quelques boutiques au fil de ma marche avant de rentrer.`,
   "mood": "Quartier Ginza et Jinbocho"
+},
+{
+  "id": "j65",
+  "day": 65,
+  "title": "Nakameguro et ambiance locale",
+  "excerpt": `Aujourd’hui, découverte du quartier de Nakameguro. Ce n’est pas le plus connu de Tokyo, mais il vaut le détour pour son ambiance calme.
+
+Je me promène le long de la Meguro River Cherry Blossoms Promenade, une promenade très réputée au printemps pour ses cerisiers en fleurs. Même si la saison des sakura est terminée à Tokyo, l’endroit reste cool !
+
+Je passe ensuite quelques instants au Meguro Parasitological Museum, un musée gratuit. Il est entièrement dédié aux parasites : on y découvre des spécimens bizarres, des explications scientifiques accessibles, et même un ver solitaire de plusieurs mètres conservé dans une vitrine.
+
+Avant d’entrer dans le Meguro Museum of Art, je tombe sur une petite exposition locale installée au rez-de-chaussée du bâtiment. On y trouve des dessins et peintures qui, je pense, appartiennent aux personnes âgées présentes sur place !
+
+Les personnes qui tenaient le cahier de signatures ne parlaient pas un mot d’anglais, mais cela a donné lieu à un échange assez drôle, fait de gestes et de sourires.
+
+Je visite ensuite le musée d’art de Meguro. Il est assez petit (environ 30 minutes de visite), mais intéressant. J’y découvre notamment un artiste nommé Kenzo Okada, et son parcours artistique entre Paris, Meguro et New York.
+Chaque ville a influencé son travail différemment : une vision de l’art par les cultures, les rencontres et les maîtres qu’il a côtoyés.
+
+En me posant au Meguro Citizen Center Park, je me retrouve en pleine réflexion : « Je vais où ? Je fais quoi ? »
+
+Je décide alors de marcher vers le National Museum of Nature and Science Nature Study Institute. Sur le chemin, je prends un pain suisse et une Monster, puis je m’installe tranquillement dans le parc.
+
+Je visite ensuite le Tokyo Metropolitan Teien Art Museum et ses magnifiques jardins. Le bâtiment lui-même est un ancien palais impérial de style Art déco, ce qui rend la visite encore plus immersive.
+
+J’y découvre des artistes comme Henri Rapin, Ivan Léon Alexandre Blanchot, René Lalique, Max Ingrand et Raymond Subes, qui ont tous contribué à l’architecture intérieure du lieu.
+J’ai adoré la visite : le style Art déco est passionnant, élégant et très riche en détails.
+
+Pause café en fin de journée chez Café Renoir, où j’en profite pour travailler un peu sur mon PC dans une ambiance calme.
+
+Puis découverte du plat tonkatsu chez Tonki. L’intérieur est assez particulier : un grand comptoir en forme de U, avec la cuisine et les serveurs au centre, et une trentaine de places tout autour.
+C’était bon, mais surtout, l’expérience était vraiment sympa à vivre.
+
+Je termine la journée en faisant une lessive en rentrant à l’auberge, avant d’aller me coucher.`,
+  "mood": "Exploration du quartier de Nakameguro"
 }
 
 
