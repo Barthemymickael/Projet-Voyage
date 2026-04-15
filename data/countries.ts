@@ -7344,6 +7344,276 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Restaurant',
   description: "Ramen spécialisé au canard, bon mais sans plus.",
   emoji: '🍜'
+},
+{
+  id: 'm422',
+  lat: 35.3649704,
+  lng: 138.7293374,
+  title: 'Mont Fuji',
+  category: 'Nature',
+  description: "Montagne emblématique du Japon, symbole national offrant des paysages spectaculaires.",
+  emoji: '🗻'
+},
+{
+  id: 'm423',
+  lat: 35.4985169,
+  lng: 138.7563452,
+  title: 'Lawson Fujikawaguchiko',
+  category: 'Spot photo',
+  description: "Konbini iconique avec le Mont Fuji parfaitement aligné en arrière-plan.",
+  emoji: '📸'
+},
+{
+  id: 'm424',
+  lat: 35.5228901,
+  lng: 138.7457401,
+  title: 'Oishi Park',
+  category: 'Parc',
+  description: "Magnifique parc fleuri avec vue directe sur le Mont Fuji.",
+  emoji: '🌸'
+},
+{
+  id: 'm425',
+  lat: 35.5156555,
+  lng: 138.7592417,
+  title: 'Lac Kawaguchiko',
+  category: 'Nature',
+  description: "Lac offrant l’un des plus beaux panoramas sur le Mont Fuji.",
+  emoji: '🏞️'
+},
+{
+  id: 'm426',
+  lat: 35.7026118,
+  lng: 139.7781012,
+  title: 'Japanese Food Wagyu Restaurant',
+  category: 'Restaurant',
+  description: "Très bon burger au wagyu, mais beaucoup trop cher pour ce que c’est.",
+  emoji: '🍔'
+},
+{
+  id: 'm427',
+  lat: 35.7137088,
+  lng: 139.8014314,
+  title: 'Sumida Park',
+  category: 'Parc',
+  description: "Parc agréable avec vue sur la Tokyo Skytree.",
+  emoji: '🌿'
+},
+{
+  id: 'm428',
+  lat: 35.7151575,
+  lng: 139.7944325,
+  title: 'Age.3',
+  category: 'Food',
+  description: "Excellente adresse de pain frit, surtout ceux au sucre : une tuerie.",
+  emoji: '🍩'
+},
+{
+  id: 'm429',
+  lat: 35.7057196,
+  lng: 139.8084514,
+  title: 'Tobacco & Salt Museum',
+  category: 'Musée',
+  description: "Musée original dédié au tabac et au sel.",
+  emoji: '🏛️'
+},
+{
+  id: 'm430',
+  lat: 35.7034678,
+  lng: 139.8082261,
+  title: 'Oyokogawa Water Park',
+  category: 'Parc',
+  description: "Parc paisible avec canaux et espaces verts.",
+  emoji: '🌿'
+},
+{
+  id: 'm431',
+  lat: 35.6989444,
+  lng: 139.8164115,
+  title: 'Kinshi Park',
+  category: 'Parc',
+  description: "Parc urbain avec vue sur la Skytree et espaces de détente.",
+  emoji: '🌳'
+},
+{
+  id: 'm432',
+  lat: 35.7146863,
+  lng: 139.7967379,
+  title: 'Sanctuaire Asakusa',
+  category: 'Sanctuaire',
+  description: "Sanctuaire situé dans le quartier d’Asakusa, proche du temple Senso-ji.",
+  emoji: '⛩️'
+},
+{
+  id: 'm433',
+  lat: 35.7149724,
+  lng: 139.7923136,
+  title: 'Janbara Ramen',
+  category: 'Restaurant',
+  description: "Petite adresse de ramen peu touristique.",
+  emoji: '🍜'
+},
+{
+  id: 'm434',
+  lat: 35.6487544,
+  lng: 139.6474444,
+  title: 'Temple Gōtokuji',
+  category: 'Temple',
+  description: "Temple célèbre pour ses centaines de statuettes de chats porte-bonheur.",
+  emoji: '🐱'
+},
+{
+  id: 'm435',
+  lat: 35.6608569,
+  lng: 139.6686601,
+  title: 'Shimokitazawa',
+  category: 'Quartier',
+  description: "Quartier branché connu pour ses friperies et la seconde main.",
+  emoji: '🧥'
+},
+{
+  id: 'm436',
+  lat: 35.6763414,
+  lng: 139.6993526,
+  title: 'Sanctuaire Meiji-jingū',
+  category: 'Sanctuaire',
+  description: "Grand sanctuaire shinto entouré d’une forêt en plein Tokyo.",
+  emoji: '⛩️'
+},
+{
+  id: 'm437',
+  lat: 35.6701008,
+  lng: 139.6949564,
+  title: 'Yoyogi-kōen',
+  category: 'Parc',
+  description: "Grand parc urbain très fréquenté pour se détendre et pique-niquer.",
+  emoji: '🌿'
+},
+{
+  id: 'm438',
+  lat: 35.6698314,
+  lng: 139.7089398,
+  title: 'Harajuku',
+  category: 'Quartier',
+  description: "Quartier jeune et créatif avec mode, street culture et boutiques originales.",
+  emoji: '🛍️'
+},
+{
+  id: 'm439',
+  lat: 35.6706537,
+  lng: 139.7032870,
+  title: 'MACCHA HOUSE Harajuku',
+  category: 'Café',
+  description: "Très bonne adresse pour boire un matcha.",
+  emoji: '🍵'
+},
+{
+  id: 'm440',
+  lat: 35.6714929,
+  lng: 139.7035425,
+  title: 'Takeshita Street',
+  category: 'Shopping',
+  description: "Rue emblématique de Harajuku avec boutiques colorées et street food.",
+  emoji: '🛍️'
+},
+{
+  id: 'm441',
+  lat: 35.6686474,
+  lng: 139.7043864,
+  title: 'Harry Potter Shop',
+  category: 'Boutique',
+  description: "Boutique dédiée à l’univers Harry Potter.",
+  emoji: '🪄'
+},
+{
+  id: 'm442',
+  lat: 35.6698477,
+  lng: 139.7088828,
+  title: 'Cat Street',
+  category: 'Shopping',
+  description: "Rue avec boutiques indépendantes et friperies.",
+  emoji: '🧢'
+},
+{
+  id: 'm443',
+  lat: 35.6686117,
+  lng: 139.7058606,
+  title: 'Tokyo Plaza Harajuku (Garden Terrace)',
+  category: 'Spot',
+  description: "Architecture moderne avec rooftop et vue sympa, parfait pour une pause.",
+  emoji: '🏙️'
+},
+{
+  id: 'm444',
+  lat: 35.6664702,
+  lng: 139.7051294,
+  title: 'Menchirashi',
+  category: 'Restaurant',
+  description: "Restaurant connu pour ses udon à la carbonara, plutôt bon.",
+  emoji: '🍝'
+},
+{
+  id: 'm445',
+  lat: 35.6594644,
+  lng: 139.7005659,
+  title: 'Shibuya Crossing',
+  category: 'Monument',
+  description: "Carrefour le plus fréquenté du monde, symbole de Tokyo.",
+  emoji: '🚸'
+},
+{
+  id: 'm446',
+  lat: 35.6711998,
+  lng: 139.7664836,
+  title: 'Ginza',
+  category: 'Quartier',
+  description: "Quartier chic avec boutiques de luxe et grandes enseignes.",
+  emoji: '🏙️'
+},
+{
+  id: 'm447',
+  lat: 35.6870058,
+  lng: 139.7572269,
+  title: 'Jardins Est du Palais Impérial',
+  category: 'Parc',
+  description: "Jardin gratuit à visiter, agréable mais pas exceptionnel.",
+  emoji: '🌿'
+},
+{
+  id: 'm448',
+  lat: 35.6904671,
+  lng: 139.7546597,
+  title: 'National Museum of Modern Art - Crafts Gallery',
+  category: 'Musée',
+  description: "Musée dédié à l’art moderne et aux objets artisanaux japonais.",
+  emoji: '🖼️'
+},
+{
+  id: 'm449',
+  lat: 35.6959683,
+  lng: 139.7581097,
+  title: 'Jinbocho',
+  category: 'Quartier',
+  description: "Quartier réputé pour ses librairies et son ambiance littéraire.",
+  emoji: '📚'
+},
+{
+  id: 'm450',
+  lat: 35.6952914,
+  lng: 139.7609398,
+  title: 'GalleryCafe',
+  category: 'Café',
+  description: "Petit café simple situé au-dessus d’une papeterie.",
+  emoji: '☕'
+},
+{
+  id: 'm451',
+  lat: 35.6953184,
+  lng: 139.7606739,
+  title: 'Tokyo Abura Soba Jimbocho',
+  category: 'Restaurant',
+  description: "Première découverte des abura soba, excellente adresse fréquentée par les locaux.",
+  emoji: '🍜'
 }
 
 
