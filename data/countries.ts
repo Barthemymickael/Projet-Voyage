@@ -5121,7 +5121,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't65',
-  date: 'Jour 65 (14 278 pas)',
+  date: 'Jour 65 (14 317 pas)',
   title: 'Quartier de Nakameguro',
   description:
     'Une journée paisible à Tokyo, entre balades le long de la Meguro River, musées atypiques et découvertes artistiques.',
@@ -5136,6 +5136,23 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Découverte du tonkatsu chez Tonki',
   ],
   video: 'https://youtube.com/shorts/n7oTgPqhrgo?si=ZuKtI63hh_PR73yU'
+},
+{
+  id: 't66',
+  date: 'Jour 66 (29 558 pas)',
+  title: 'Quartier Odaiba',
+  description:
+    'Une journée entre détente et modernité sur l’île d’Odaiba. Plage artificielle, musées interactifs et vues panoramiques.',
+  bullets: [
+    'Arrivée à Odaiba et petit-déjeuner face à la plage',
+    'Balade dans les parcs et sieste au Shiokaze Park',
+    'Passage devant la statue de la Liberté',
+    'Découverte du Unicorn Gundam à DiverCity',
+    'Exploration du centre commercial DiverCity Tokyo Plaza',
+    'Visite du musée scientifique Miraikan',
+    'Coucher de soleil au Telecom Center Observatory',
+    'Longue marche nocturne jusqu’à Ueno'
+  ]
 }
 
     ],
@@ -10434,6 +10451,69 @@ C’était bon, mais surtout, l’expérience était vraiment sympa à vivre.
 
 Je termine la journée en faisant une lessive en rentrant à l’auberge, avant d’aller me coucher.`,
   "mood": "Exploration du quartier de Nakameguro"
+},
+{
+  "id": "j66",
+  "day": 66,
+  "title": "Quartier Odaiba",
+  "excerpt": `Découverte du quartier d’Odaiba, une île artificielle au sud de Tokyo, avec plage, parc, centres commerciaux, grands buildings et zone portuaire.
+
+55 minutes de métro pour arriver dans le quartier, mais à peine descendu, je sais exactement ce que je vais faire.
+
+Je trouve rapidement un FamilyMart, j’achète mon petit déjeuner, je marche 3 minutes et je me pose tranquillement devant la plage artificielle d’Odaiba.
+
+Et franchement, qu’est-ce que j’aime faire ça… prendre mon petit déjeuner tranquille, posé face à l’eau.
+
+Je prends le temps, puis je pars me balader dans le parc collé à cette plage.
+
+Ce parc possède une statue de la Liberté, installée à l’origine pour une exposition liée aux relations franco-japonaises.
+
+Je continue ma marche et je tombe sur Shiokaze Park, avec une grande zone verte en cercle. Silence total, personne autour.
+
+Grand soleil, ciel bleu… alors je décide de me poser. Je m’allonge, la tête sur mon sac.
+
+S’ensuivent 45 minutes de sieste.
+
+Musique dans les oreilles, respiration lente… un vrai moment de calme.
+
+Je me réveille en sueur, mais bien. Une vraie sieste efficace.
+
+Je me dirige ensuite vers la grande statue du Unicorn Gundam, juste devant l’immense centre commercial DiverCity Tokyo Plaza.
+
+7 étages. Je les fais tous. Quelques achats, mais pas de coup de cœur.
+
+Ensuite, direction le musée scientifique Miraikan pendant 2 heures.
+
+Un musée interactif vraiment intéressant : robots, vieillissement, environnement, catastrophes naturelles… beaucoup de sujets qui font réfléchir.
+
+Pour finir la journée, je décide d’aller au Tokyo Telecom Center Observatory.
+
+Un lieu peu connu, presque vide.
+
+Et là : ambiance incroyable.
+
+Canapés en cuir, fauteuils massants, grandes baies vitrées… et une vue imprenable sur Tokyo avec la Tokyo Tower au loin.
+
+Je descends chercher à manger, puis je remonte m’installer face au coucher de soleil.
+
+Je reste ici 3 heures.
+
+Entre contemplation, musique jazz, écriture et repos.
+
+Le soleil se couche, la ville s’illumine… moment parfait.
+
+À 20h, je quitte les lieux.
+
+Pas envie de rentrer.
+
+Alors je marche.
+
+3 heures dans Tokyo, à travers plusieurs quartiers : Ginza, Chiyoda, Akihabara, Ueno.
+
+Juste marcher, observer, profiter.
+
+Une journée simple, mais parfaitement réussie.`,
+  "mood": "Quartier Odaiba"
 }
 
 
