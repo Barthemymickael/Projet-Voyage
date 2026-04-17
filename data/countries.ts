@@ -10458,63 +10458,96 @@ Je termine la journée en faisant une lessive en rentrant à l’auberge, avant 
   "id": "j66",
   "day": 66,
   "title": "Quartier Odaiba",
-  "excerpt": `Découverte du quartier d’Odaiba, une île artificielle au sud de Tokyo, avec plage, parc, centres commerciaux, grands buildings et zone portuaire.
+  "excerpt": `Découverte du quartier d’Odaiba, une île artificielle au sud de Tokyo, avec plage, parc, centre commercial, grands buildings et zone portuaire.
 
 55 minutes de métro pour arriver dans le quartier, mais à peine descendu, je sais exactement ce que je vais faire.
 
-Je trouve rapidement un FamilyMart, j’achète mon petit déjeuner, je marche 3 minutes et je me pose tranquillement devant la plage artificielle d’Odaiba.
+Je trouve rapidement un FamilyMart, j’achète mon petit déjeuner, je marche 3 minutes et je me pose tranquillement devant cette plage artificielle : Odaiba Beach.
 
-Et franchement, qu’est-ce que j’aime faire ça… prendre mon petit déjeuner tranquille, posé face à l’eau.
+Et bordel, qu’est-ce que j’aime faire ça… prendre mon petit déjeuner tranquille, peinard comme ça.
 
-Je prends le temps, puis je pars me balader dans le parc collé à cette plage.
+Je prends le temps, puis je pars me balader dans le parc collé à cette plage, Odaiba Marine Park.
 
-Ce parc possède une statue de la Liberté, installée à l’origine pour une exposition liée aux relations franco-japonaises.
+Ce parc possède une statue de la Liberté.
+Elle a été installée à la base pour une expo liée aux relations franco-japonaises, et elle est restée depuis.
 
-Je continue ma marche et je tombe sur Shiokaze Park, avec une grande zone verte en cercle. Silence total, personne autour.
+Je continue ma marche et je tombe sur Shiokaze Park, avec une grande zone verte en cercle. Silence, personne aux alentours.
 
-Grand soleil, ciel bleu… alors je décide de me poser. Je m’allonge, la tête sur mon sac.
+Grand soleil, grand ciel bleu, alors je décide de me poser sur les petits murets tout autour de la zone verte. Je pose mon sac, je m’allonge et je pose ma tête dessus.
 
-S’ensuivent 45 minutes de sieste.
+S’ensuivent 45 minutes de bronzette / sieste.
 
-Musique dans les oreilles, respiration lente… un vrai moment de calme.
+Je trouvais ça assez drôle (et surtout spécial) de faire une sieste alors que j’étais debout depuis seulement quelques heures.
 
-Je me réveille en sueur, mais bien. Une vraie sieste efficace.
+Mais j’étais bien. La zone était déserte, donc je pouvais vraiment me relaxer sans problème.
 
-Je me dirige ensuite vers la grande statue du Unicorn Gundam, juste devant l’immense centre commercial DiverCity Tokyo Plaza.
+Musique dans les oreilles, respiration lente… un vrai plaisir.
 
-7 étages. Je les fais tous. Quelques achats, mais pas de coup de cœur.
+Au bout de 45 minutes, je me relève complètement en sueur : le pantalon qui colle, le dos du t-shirt trempé.
+Ça, c’est ce qu’on appelle une sieste de qualité.
 
-Ensuite, direction le musée scientifique Miraikan pendant 2 heures.
+Je me dirige ensuite vers la grande statue Unicorn Gundam, juste devant l’immense centre commercial : DiverCity Tokyo Plaza.
 
-Un musée interactif vraiment intéressant : robots, vieillissement, environnement, catastrophes naturelles… beaucoup de sujets qui font réfléchir.
+7 étages. J’ai parcouru les 7 étages entiers. J’ai acheté quelques trucs, mais je n’ai pas trouvé LA perle rare niveau vêtements.
 
-Pour finir la journée, je décide d’aller au Tokyo Telecom Center Observatory.
+Après ça, je me suis dit que ce serait quand même cool de compléter la journée par une touche de culture et d’apprentissage.
 
-Un lieu peu connu, presque vide.
+Alors j’ai visité pendant 2h le musée scientifique Miraikan.
 
-Et là : ambiance incroyable.
+Musée scientifique hyper intéressant, et surtout interactif.
 
-Canapés en cuir, fauteuils massants, grandes baies vitrées… et une vue imprenable sur Tokyo avec la Tokyo Tower au loin.
+Plusieurs thèmes abordés :
 
-Je descends chercher à manger, puis je remonte m’installer face au coucher de soleil.
+- le robot dans l’histoire
+- le mécanisme du vieillissement
+- comment protéger notre planète
+- que peut-on faire face au hasard des catastrophes (humaines et naturelles)
 
-Je reste ici 3 heures.
+Enfin, pour conclure la journée d’une façon magnifique, j’ai décidé d’aller au Tokyo Telecom Center Observatory.
 
-Entre contemplation, musique jazz, écriture et repos.
+Endroit très peu connu des touristes. C’est un observatoire situé au dernier étage d’un immeuble où siègent plusieurs grandes entreprises.
 
-Le soleil se couche, la ville s’illumine… moment parfait.
+500 yens pour y accéder (2,60 €), autant dire que ce n’est rien du tout.
 
-À 20h, je quitte les lieux.
+Et là : magie.
 
-Pas envie de rentrer.
+Je découvre un étage entier avec canapés en cuir noir, fauteuils en cuir, sièges massants, tables en verre, et une vue incroyable à travers les baies vitrées.
 
-Alors je marche.
+Le plus choquant : il n’y avait personne.
 
-3 heures dans Tokyo, à travers plusieurs quartiers : Ginza, Chiyoda, Akihabara, Ueno.
+Et à ce moment-là, je me suis senti comme un gosse. Trop d’émerveillement, trop de joie d’avoir cet étage rien que pour moi.
 
-Juste marcher, observer, profiter.
+Je réfléchis, et je me dis que ce serait cool d’avoir à manger et une boisson pour être vraiment bien.
 
-Une journée simple, mais parfaitement réussie.`,
+Alors je demande à l’accueil si je peux ramener de la nourriture, et elle me dit oui.
+
+Ni une ni deux, je prends l’ascenseur, je descends les 20 étages, et par chance, un FamilyMart est présent directement dans l’énorme hall.
+
+Je prends donc un onigiri, un sandwich, un brownie et une Monster.
+
+Je remonte et je me pose sur un canapé, face au coucher de soleil, avec la Tokyo Tower au loin.
+
+Je suis resté dans cet endroit pendant 3h, de 17h à 20h (heure de fermeture).
+
+Petite musique jazz en fond.
+Le coucher de soleil laisse place à Tokyo éclairée de nuit, avec les illuminations de la Tokyo Tower.
+
+J’ai oscillé entre contempler la vue, travailler un peu sur mon PC, écrire quelques mots dans mon carnet, et prendre pas mal de photos/vidéos.
+
+J’ai testé pendant la dernière heure les fauteuils massants. Il y en avait une dizaine, tous vides, donc j’avais le choix ahah.
+
+Franchement, agréable de finir la journée comme ça.
+
+Il était 20h, je ne voulais pas rentrer immédiatement.
+
+Alors j’ai pris un métro qui m’a déposé à Tokyo Station, puis j’ai flâné pendant 3h dans les rues.
+
+3h de marche quasiment. J’ai traversé plein de quartiers, chacun avec une ambiance différente :
+
+- Ginza
+- Chiyoda
+- Akihabara
+- Ueno`,
   "mood": "Quartier Odaiba"
 }
 
