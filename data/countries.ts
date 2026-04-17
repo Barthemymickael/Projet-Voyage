@@ -5152,7 +5152,9 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Visite du musée scientifique Miraikan',
     'Coucher de soleil au Telecom Center Observatory',
     'Longue marche nocturne jusqu’à Ueno'
-  ]
+  ],
+  video: 'https://youtu.be/zeK3IPEzS4k'
+
 }
 
     ],
