@@ -7774,6 +7774,186 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
   category: 'Restaurant',
   description: "Excellente adresse de tonkatsu avec une expérience immersive et authentique.",
   emoji: '🍛'
+},
+{
+  id: 'm460',
+  lat: 35.6315110,
+  lng: 139.7774005,
+  title: 'Odaiba Beach',
+  category: 'Plage',
+  description: "Plage artificielle avec vue sur la baie de Tokyo, ambiance détente en plein cœur de la ville.",
+  emoji: '🏖️'
+},
+{
+  id: 'm461',
+  lat: 35.6299250,
+  lng: 139.7756675,
+  title: 'Odaiba Marine Park',
+  category: 'Parc',
+  description: "Parc en bord de mer avec promenade et vue sur le Rainbow Bridge.",
+  emoji: '🌊'
+},
+{
+  id: 'm462',
+  lat: 35.6278631,
+  lng: 139.7718366,
+  title: 'Statue de la Liberté (Odaiba)',
+  category: 'Monument',
+  description: "Réplique de la Statue de la Liberté avec vue sur la baie de Tokyo.",
+  emoji: '🗽'
+},
+{
+  id: 'm463',
+  lat: 35.6238709,
+  lng: 139.7688905,
+  title: 'Shiokaze Park',
+  category: 'Parc',
+  description: "Grand parc calme en bord de mer, parfait pour se poser.",
+  emoji: '🌿'
+},
+{
+  id: 'm464',
+  lat: 35.6244209,
+  lng: 139.7754911,
+  title: 'Unicorn Gundam',
+  category: 'Monument',
+  description: "Statue géante du Gundam Unicorn devant DiverCity, emblème de la culture japonaise.",
+  emoji: '🤖'
+},
+{
+  id: 'm465',
+  lat: 35.6253535,
+  lng: 139.7757348,
+  title: 'DiverCity Tokyo Plaza',
+  category: 'Shopping',
+  description: "Centre commercial populaire à Odaiba avec vue sur le Gundam.",
+  emoji: '🛍️'
+},
+{
+  id: 'm466',
+  lat: 35.6192838,
+  lng: 139.7764302,
+  title: 'Miraikan',
+  category: 'Musée',
+  description: "Musée des sciences et de l’innovation avec expositions interactives.",
+  emoji: '🔬'
+},
+{
+  id: 'm467',
+  lat: 35.6174664,
+  lng: 139.7804736,
+  title: 'Tokyo Telecom Center Observatory',
+  category: 'Point de vue',
+  description: "Vue incroyable pour 500 yens avec fauteuils confortables. Je me pose face au coucher de soleil avec à manger : moment parfait.",
+  emoji: '🌇'
+},
+{
+  id: 'm468',
+  lat: 35.6898762,
+  lng: 139.7015446,
+  title: 'Tower Records Shibuya',
+  category: 'Boutique',
+  description: "Magasin mythique de musique sur plusieurs étages.",
+  emoji: '🎵'
+},
+{
+  id: 'm469',
+  lat: 35.6736435,
+  lng: 139.7602950,
+  title: 'Statue de Godzilla',
+  category: 'Monument',
+  description: "Statue emblématique du célèbre monstre japonais.",
+  emoji: '🦖'
+},
+{
+  id: 'm470',
+  lat: 35.6958444,
+  lng: 139.7006384,
+  title: 'Tokyo Kabukicho Tower',
+  category: 'Spot',
+  description: "Grande tour moderne où je me pose au Starbucks avec matcha latte et donut.",
+  emoji: '🏙️'
+},
+{
+  id: 'm471',
+  lat: 35.6846764,
+  lng: 139.7099262,
+  title: 'Shinjuku Gyoen Park',
+  category: 'Parc',
+  description: "L’un des plus beaux parcs de Tokyo avec jardins japonais, parfait pour se détendre.",
+  emoji: '🌸'
+},
+{
+  id: 'm472',
+  lat: 35.6744151,
+  lng: 139.7169066,
+  title: 'Meiji Jingu Stadium',
+  category: 'Sport',
+  description: "Stade où j’assiste au derby Tokyo Yakult Swallows vs Yomiuri Giants.",
+  emoji: '⚾'
+},
+{
+  id: 'm473',
+  lat: 35.6925345,
+  lng: 139.6996372,
+  title: 'Sushiro Shibuya',
+  category: 'Restaurant',
+  description: "Chaîne de sushi à tapis roulant, pratique et abordable.",
+  emoji: '🍣'
+},
+{
+  id: 'm474',
+  lat: 35.6941206,
+  lng: 139.6991139,
+  title: 'T2 Night Club',
+  category: 'Nightlife',
+  description: "Boîte de nuit techno où je reste de 22h30 à 4h30, grosse ambiance.",
+  emoji: '🎶'
+},
+{
+  id: 'm475',
+  lat: 35.6603192,
+  lng: 139.7292317,
+  title: 'Roppongi Hills',
+  category: 'Shopping',
+  description: "Grand complexe avec boutiques, jardins et espaces modernes.",
+  emoji: '🏙️'
+},
+{
+  id: 'm476',
+  lat: 35.6652382,
+  lng: 139.7263825,
+  title: 'Centre d’Art national de Tokyo',
+  category: 'Musée',
+  description: "Musée à l’architecture impressionnante avec expositions temporaires.",
+  emoji: '🖼️'
+},
+{
+  id: 'm477',
+  lat: 35.5949904,
+  lng: 139.7430055,
+  title: 'Tokyo City Flea Market',
+  category: 'Marché',
+  description: "Grand marché aux puces avec vêtements et objets variés.",
+  emoji: '🛍️'
+},
+{
+  id: 'm478',
+  lat: 35.5921416,
+  lng: 139.7388863,
+  title: 'Shinagawa Park',
+  category: 'Parc',
+  description: "Parc calme où je fais une pause d’une heure.",
+  emoji: '🌿'
+},
+{
+  id: 'm479',
+  lat: 35.6647967,
+  lng: 139.7702430,
+  title: 'Tsukiji Market',
+  category: 'Food',
+  description: "Ancien marché aux poissons célèbre, aujourd’hui connu pour sa street food.",
+  emoji: '🐟'
 }
 
 
