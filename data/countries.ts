@@ -5172,7 +5172,9 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Dîner chez Sushiro',
     'Soirée au T2 Night Club',
     'Retour au lever du soleil'
-  ]
+  ],
+  video: 'https://youtu.be/n70y_KVe93w'
+
 },
 {
   id: 't68',
