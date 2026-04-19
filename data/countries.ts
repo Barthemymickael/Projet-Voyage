@@ -5190,6 +5190,22 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Balade nocturne autour du parc d’Ueno',
   ],
   video: 'https://youtube.com/shorts/8T3i5cBS5Qc?si=2nDCyLcmO912KFaq'
+},
+{
+  id: 't69',
+  date: 'Jour 69 (29 083 pas)',
+  title: 'Tokyo, dernière grande balade',
+  description:
+    'Une journée simple mais marquante, entre marché, pause au parc et longue marche à travers Tokyo.',
+  bullets: [
+    'Visite du marché Tokyo City Flea Market',
+    'Pause détente au Shinagawa Park',
+    'Découverte du Tsukiji Market',
+    'Longue marche à travers Tokyo',
+    'Fin de journée au Sumida Park'
+  ],
+  video: 'https://youtube.com/shorts/3EVM7nOU-Vs?si=wCiFR8kDqmZS8q-9'
+
 }
 
     ],
@@ -10674,7 +10690,72 @@ Amusant, et surtout hyper inspirant de voir les anciens continuer le sport comme
 
 Le genre de moment assez simple, mais qui fait du bien à observer. Ça me donne le sourire de voir ça ici, au Japon.`,
   "mood": "Quartier Roppongi, art contemporain et balade de nuit"
+},
+{
+  "id": "j69",
+  "day": 69,
+  "title": "Tokyo, dernière grande balade",
+  "excerpt": `Dimanche balade dans Tokyo.
+
+Direction le marché aux puces le plus connu de la ville : Tokyo City Flea Market.
+
+Ce marché se tient sur un grand parking en plein air, rempli d’étals de vêtements et d’objets en tout genre. Un vrai marché, très fréquenté par les touristes (forcément, les prix sont hyper accessibles et attractifs).
+
+Franchement agréable de se promener ici. Aujourd’hui, le soleil tape bien : 25 degrés au compteur.
+
+Je n’ai pas trouvé mon bonheur… J’ai l’impression d’avoir déjà tout ce qu’il me faut.
+
+Ensuite, petite pause détente au Shinagawa Park pendant une heure, avant de repartir vers le centre de Tokyo.
+
+Ambiance très familiale dans le parc, avec le bruit d’un petit ruisseau à côté de moi, mêlé aux sons environnants. Ça fait du bien.
+
+Après cette pause de milieu de journée, direction le Tsukiji Market.
+
+Je passe par le quartier de Ginza, où certaines grandes avenues sont fermées aux voitures ce dimanche et réservées aux piétons. Toujours sympa comme ambiance.
+
+J’arrive donc à Tsukiji, mais pas mal d’étals sont fermés. Le dimanche n’est clairement pas le jour le plus animé (c’est plutôt le samedi).
+
+Pas grave. Ce point marque surtout le début de ma longue balade du jour.
+
+Une très longue balade : de 16h30 à 21h.
+
+Quasiment 30 000 pas aujourd’hui. Et pas pour rien, car c’est mon avant-dernier jour ici à Tokyo.
+
+Du coup, j’ai marché encore et encore. Juste pour profiter au maximum. Graver ces derniers moments.
+
+Pendant cette balade, je ne me suis pas remémoré mon voyage ni mes activités au Japon. Je garde ça pour demain.
+
+Non. Aujourd’hui, j’étais juste là. Vraiment présent. À profiter du moment présent.
+
+À observer les moindres détails de la vie japonaise, de la vie à Tokyo.
+
+Les grandes allées et les buildings de Ginza.
+La couleur des feux de circulation.
+Les fils électriques partout.
+Les gens qui attendent patiemment aux passages piétons.
+Le petit signal sonore pour traverser.
+Les rires et discussions en japonais en croisant des passants.
+
+Et puis, à chaque coin de rue, les konbini : 7-Eleven, Lawson, FamilyMart.
+
+Les yeux souvent levés vers le ciel : observer les buildings, les devantures, les noms des boutiques.
+Et tous ces panneaux qui indiquent les étages : 6th floor, 7th floor, etc.
+
+Je prenais parfois une grande inspiration, avec une grande expiration, un peu comme pour dire :
+« Pfff… c’était fou quand même. »
+
+Bref.
+
+Accompagné de ma playlist en aléatoire, j’ai vraiment kiffé cette balade. Je l’ai terminée au Sumida Park (le parc du jour 61 en fin de journée).
+
+Quelques sons qui ont marqué cette journée de vadrouille :
+
+- Forever Young — Alphaville (1984)
+- Noir meilleur — Damso (2018)
+- Ça va ensemble — Alpha Wann (2018)`,
+  "mood": "Tokyo, dernière grande balade""
 }
+		
 
 
 
