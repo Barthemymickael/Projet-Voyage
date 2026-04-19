@@ -5188,7 +5188,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Exposition YBA London sur l’art contemporain britannique',
     'Dîner improvisé dans un restaurant d’abura soba',
     'Balade nocturne autour du parc d’Ueno',
-  ]
+  ],
+  video: 'https://youtube.com/shorts/8T3i5cBS5Qc?si=2nDCyLcmO912KFaq'
 }
 
     ],
