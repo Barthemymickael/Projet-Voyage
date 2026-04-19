@@ -5173,6 +5173,20 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Soirée au T2 Night Club',
     'Retour au lever du soleil'
   ]
+},
+{
+  id: 't68',
+  date: 'Jour 68 (19 309 pas)',
+  title: 'Quartier Roppongi, art contemporain et balade nocturne',
+  description:
+    'Une journée marquée par l’architecture impressionnante de Roppongi et une immersion dans l’art contemporain britannique.',
+  bullets: [
+    'Découverte du quartier de Roppongi Hills',
+    'Visite du National Art Center Tokyo',
+    'Exposition YBA London sur l’art contemporain britannique',
+    'Dîner improvisé dans un restaurant d’abura soba',
+    'Balade nocturne autour du parc d’Ueno',
+  ]
 }
 
     ],
@@ -10622,6 +10636,41 @@ Retour via le premier métro, lever de soleil sur la capitale, et un monde fou s
 
 Coucher vers 6h00 du matin.`,
   "mood": "Quartier Shinjuku et baseball"
+},
+{
+  "id": "j68",
+  "day": 68,
+  "title": "Quartier Roppongi, art contemporain et balade de nuit",
+  "excerpt": `Découverte du quartier de Roppongi, quartier connu pour son centre commercial Roppongi Hills, un lieu immense avec des jardins en hauteur, des fontaines et d’autres éléments architecturaux.
+
+Je me balade un peu entre les étages, les grandes allées extérieures du bâtiment, puis je me pose dans un Starbucks.
+
+J’ai le choix entre deux musées pour cet après-midi, mais je décide de faire le plus important : le Centre d’Art national de Tokyo.
+
+Un endroit à l’architecture magnifique, très moderne et audacieuse.
+
+J’ai passé 4h dans le musée, dont une grosse partie sur l’exposition éphémère du moment : YBA London.
+
+Une exposition retraçant la métamorphose de l’art anglais, et principalement londonien, à l’époque de Margaret Thatcher (révolte, changement et racisme).
+
+C’était extrêmement intéressant, avec quelques documentaires expérimentaux sur la danse, la lutte contre le racisme et d’autres expériences plus abstraites.
+
+La nuit tombe petit à petit, et je suis toujours dans le musée. Je décide donc de rentrer dans mon quartier pour tester un restaurant de burgers, mais une fois arrivé, une longue file d’attente interminable !
+
+Je me dis que c’est le destin qui va me mener vers un restaurant plus local, plus traditionnel.
+
+Et c’est exactement ce qui s’est passé. Je suis tombé sur un restaurant d’abura soba. J’ai pris une grosse portion, je me suis régalé et je me suis bien rempli la panse.
+
+Après ça, je fais une longue balade digestive autour du parc d’Ueno.
+
+Beaucoup de couples ou de groupes d’amis posés sur les bancs et les murets.
+
+J’ai même regardé pendant 5 minutes un match de baseball amateur vétéran.
+
+Amusant, et surtout hyper inspirant de voir les anciens continuer le sport comme ça, se donner à fond pour gagner contre l’équipe adverse.
+
+Le genre de moment assez simple, mais qui fait du bien à observer. Ça me donne le sourire de voir ça ici, au Japon.`,
+  "mood": "Quartier Roppongi, art contemporain et balade de nuit"
 }
 
 
