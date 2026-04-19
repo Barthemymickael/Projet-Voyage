@@ -10932,7 +10932,7 @@ Quelques sons qui ont marqué cette journée de vadrouille :
 - Forever Young — Alphaville (1984)
 - Noir meilleur — Damso (2018)
 - Ça va ensemble — Alpha Wann (2018)`,
-  "mood": "Tokyo, dernière grande balade""
+  "mood": "Tokyo, dernière grande balade"
 }
 		
 
