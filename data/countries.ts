@@ -5133,7 +5133,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Promenade vers le Nature Study Institute',
     'Visite du Tokyo Metropolitan Teien Art Museum',
     'Pause café chez Café Renoir',
-    'Découverte du tonkatsu chez Tonki',
+    'Découverte du tonkatsu chez Tonki'
   ],
   video: 'https://youtube.com/shorts/n7oTgPqhrgo?si=ZuKtI63hh_PR73yU'
 },
@@ -5187,7 +5187,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Visite du National Art Center Tokyo',
     'Exposition YBA London sur l’art contemporain britannique',
     'Dîner improvisé dans un restaurant d’abura soba',
-    'Balade nocturne autour du parc d’Ueno',
+    'Balade nocturne autour du parc d’Ueno'
   ],
   video: 'https://youtube.com/shorts/8T3i5cBS5Qc?si=2nDCyLcmO912KFaq'
 },
@@ -5205,7 +5205,6 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Fin de journée au Sumida Park'
   ],
   video: 'https://youtube.com/shorts/3EVM7nOU-Vs?si=wCiFR8kDqmZS8q-9'
-
 }
 
     ],
