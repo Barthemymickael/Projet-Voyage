@@ -84,7 +84,7 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
               hasNeutralBadge ? 'text-white/80' : 'text-emerald-100 font-semibold'
             }`}
           >
-            {country.isLocked && !isJapan ? 'Région verrouillée' : isJapan ? 'Région déverrouillée' : 'Mission Accomplie'}
+            {country.isLocked && !isJapan ? 'Région verrouillée' : isJapan ? 'MISSION ACCOMPLIE' : 'Mission Accomplie'}
           </span>
         </motion.div>
 
