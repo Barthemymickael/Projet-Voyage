@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Lock, Unlock, Check, ArrowRight } from 'lucide-react';
+import { Lock, Check, ArrowRight } from 'lucide-react';
 import { CountryData } from '../../types';
 
 interface LandingPageProps {
@@ -11,8 +11,7 @@ interface LandingPageProps {
 const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => void }> = ({ country, onSelect }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [isFlashing, setIsFlashing] = useState(false);
-  const isJapan = country.id === 'japan';
-  const hasNeutralBadge = country.isLocked || isJapan;
+  const hasNeutralBadge = country.isLocked;
 
   const handleClick = () => {
     if (country.isLocked) return;
@@ -72,10 +71,8 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
               : 'bg-emerald-500/20 border border-emerald-300/45 shadow-emerald-500/30'
           }`}
         >
-          {country.isLocked && !isJapan ? (
+          {country.isLocked ? (
             <Lock className="w-6 h-6 lg:w-8 lg:h-8 text-zinc-300" />
-          ) : isJapan ? (
-            <Unlock className="w-6 h-6 lg:w-8 lg:h-8 text-zinc-300" />
           ) : (
             <Check className="w-6 h-6 lg:w-8 lg:h-8 text-emerald-200 drop-shadow-[0_0_18px_rgba(16,185,129,0.8)]" />
           )}
@@ -84,7 +81,7 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
               hasNeutralBadge ? 'text-white/80' : 'text-emerald-100 font-semibold'
             }`}
           >
-            {country.isLocked && !isJapan ? 'Région verrouillée' : isJapan ? 'Région déverrouillée' : 'Mission Accomplie'}
+            {country.isLocked ? 'Région verrouillée' : 'Mission Accomplie'}
           </span>
         </motion.div>
 
