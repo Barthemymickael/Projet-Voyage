@@ -5193,7 +5193,7 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
 },
 {
   id: 't69',
-  date: 'Jour 69 (29 083 pas)',
+  date: 'Jour 69 (29 121 pas)',
   title: 'Tokyo, dernière grande balade',
   description:
     'Une journée simple mais marquante, entre marché, pause au parc et longue marche à travers Tokyo.',
@@ -5205,6 +5205,21 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Fin de journée au Sumida Park'
   ],
   video: 'https://youtube.com/shorts/3EVM7nOU-Vs?si=wCiFR8kDqmZS8q-9'
+},
+{
+  id: 't70',
+  date: 'Jour 70 (13 070 pas)',
+  title: 'Shibuya et dernier coucher de soleil',
+  description:
+    'Une dernière journée symbolique à Tokyo, exploration de Shibuya et moment suspendu au sommet du Shibuya Sky. Souvenirs, introspection et dernier coucher de soleil japonais.',
+  bullets: [
+    'Balade dans le quartier de Shibuya',
+    'Passage par Miyashita Park et Tower Records',
+    'Expérience au Shibuya Sky',
+    'Dernière balade dans Shibuya de nuit',
+    'Ramen pour clôturer le voyage',
+    'Passage au Shibuya Crossing',
+  ]
 }
 
     ],
