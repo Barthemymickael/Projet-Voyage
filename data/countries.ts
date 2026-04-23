@@ -5219,9 +5219,10 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Dernière balade dans Shibuya de nuit',
     'Ramen pour clôturer le voyage',
     'Passage au Shibuya Crossing',
-  ]
-}
+  ],
+  video: 'https://youtu.be/HL2pKphOa0Q'
 
+}
     ],
     markers: [
       {
