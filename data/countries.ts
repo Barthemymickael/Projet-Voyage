@@ -10933,6 +10933,83 @@ Quelques sons qui ont marqué cette journée de vadrouille :
 - Noir meilleur — Damso (2018)
 - Ça va ensemble — Alpha Wann (2018)`,
   "mood": "Tokyo, dernière grande balade"
+},
+{
+  "id": "j70",
+  "day": 70,
+  "title": "Jour 70 : Quartier Shibuya et Shibuya Sky",
+  "excerpt": `Dernier jour complet à Tokyo.
+Dernier jour complet au Japon.
+Dernier jour de mon voyage.
+
+Je commence donc ma journée avec mon dernier petit déjeuner habituel ici :
+jus d’orange, donut et croissant au chocolat.
+
+Puis direction Shibuya.
+
+J’avais déjà pu y aller de nuit il y a quelques jours, mais aujourd’hui, je vais en découvrir les deux ambiances.
+
+Je me balade dans le quartier pendant quasiment deux heures.
+
+Je passe par le Miyashita Park, ce parc en hauteur, puis je découvre le Tower Records Shibuya sur huit étages… jusqu’à 13h30, heure d’entrée de ma dernière activité.
+
+Et pas des moindres.
+
+Comme ce que j’avais pu faire à Séoul ou encore à Busan, je m’offre un après-midi et un début de soirée dans la tour du Shibuya Sky.
+
+Une belle façon de clôturer ce voyage.
+Clôturer de la même manière qu’à Séoul ou à Busan.
+
+Une sorte de rituel.
+Un rituel qui me fait plaisir, qui conclut à chaque fois de belles aventures.
+
+— « C’était comment tes derniers jours dans les grandes villes ? »
+— « Eh bien… je prenais de la hauteur. À la fois au sens propre et au sens figuré. »
+
+Ainsi, aujourd’hui, le 20 avril 2026, je me retrouve au Shibuya Sky.
+
+Un rooftop à 360 degrés : bancs, transats, escaliers, zone en herbe synthétique… le tout à plus de 229 mètres de hauteur.
+
+Parfait pour repenser à mon voyage au Japon.
+Parfait pour être pensif.
+Et parfait pour observer le coucher de soleil à 18h18.
+
+Malheureusement, les écouteurs sont interdits… mais j’ai quand même pris ce moment pour réfléchir, tranquillement, face à la vue.
+
+J’ai relu ces pages, retracé tout mon parcours japonais, redécouvert certaines journées en me disant :
+« Ah oui… c’est vrai que j’ai fait ça. C’était incroyable. »
+
+Grâce à la vue à 360 degrés, je me remémore les quartiers où je suis allé, les activités que j’y ai vécues.
+
+Et puis, sans vraiment m’en rendre compte… il est déjà 18h18.
+
+Le soleil se couche.
+
+Je suis face à mon dernier coucher de soleil japonais.
+
+Tout simplement magnifique.
+Et forcément… un peu nostalgique.
+
+La nuit tombe.
+Je fais le tour un nombre incalculable de fois, j’immortalise ce moment en demandant à quelques personnes de me prendre en photo.
+
+Vers 19h30, je quitte le rooftop pour prendre un coca et des frites au lounge de l’étage inférieur.
+
+Musique dans les oreilles, et c’est parti pour une heure de détente dans un fauteuil, à contempler la vue.
+
+21h10, je quitte le Shibuya Sky et je pars marcher dans le quartier à la recherche d’un ramen, au hasard.
+
+J’ai commencé mon voyage au Japon le 10 février avec des ramens.
+Je le termine aujourd’hui, le 21 avril, avec des ramens.
+
+Épanadiplose.
+
+Je passe ensuite quelques minutes au Shibuya Crossing, traverse plusieurs fois le carrefour, avant de rentrer à l’auberge.
+
+Voilà ce qu’a été mon dernier jour complet à Tokyo.
+Mon dernier jour au Japon.
+Le dernier jour de ce voyage… indescriptible.`,
+  "mood": "Quartier Shibuya et Shibuya Sky"
 }
 		
 
