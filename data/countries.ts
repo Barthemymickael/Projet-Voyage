@@ -5236,7 +5236,8 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Arrivée à Paris Charles de Gaulle',
     'Retour final à Caen',
     'Fin officielle du voyage'
-  ]
+  ],
+  video: 'https://youtube.com/shorts/wNzVGGlpXGY?si=HDf1vcJKBXMq3b0h'
 }
     ],
     markers: [
