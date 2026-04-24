@@ -11046,9 +11046,7 @@ Le dernier jour de ce voyage… indescriptible.`,
   "id": "j71-72",
   "day": 71,
   "title": "Retour en France, fin du voyage",
-  "excerpt": `Jour 71-72
-
-44h de déplacement : de Tokyo à Caen
+  "excerpt": `44h de déplacement : de Tokyo à Caen
 
 Départ de l’auberge (quartier Ueno) – 10h12
 Arrivée à l’aéroport de Tokyo Narita – 11h46
