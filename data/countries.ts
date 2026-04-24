@@ -5221,7 +5221,22 @@ Une journée qui ressemble finalement davantage à une transition vers une nouve
     'Passage au Shibuya Crossing',
   ],
   video: 'https://youtu.be/HL2pKphOa0Q'
-
+},
+{
+  id: 't71-72',
+  date: 'Jour 71-72 (16 042 pas)',
+  title: 'Retour en France, fin du voyage',
+  description:
+    'Retour en France après 44 heures de trajet',
+  bullets: [
+    'Départ de Tokyo et trajet jusqu’à l’aéroport de Narita',
+    'Escale à Séoul et nuit à l’aéroport d’Incheon pendant 11h',
+    'Vol long-courrier vers Paris pendant 15h',
+    'Films, musique et souvenirs pendant le trajet',
+    'Arrivée à Paris Charles de Gaulle',
+    'Retour final à Caen',
+    'Fin officielle du voyage'
+  ]
 }
     ],
     markers: [
@@ -11026,6 +11041,72 @@ Voilà ce qu’a été mon dernier jour complet à Tokyo.
 Mon dernier jour au Japon.
 Le dernier jour de ce voyage… indescriptible.`,
   "mood": "Quartier Shibuya et Shibuya Sky"
+},
+{
+  "id": "j71-72",
+  "day": 71,
+  "title": "Retour en France, fin du voyage",
+  "excerpt": `Jour 71-72
+
+44h de déplacement : de Tokyo à Caen
+
+Départ de l’auberge (quartier Ueno) – 10h12
+Arrivée à l’aéroport de Tokyo Narita – 11h46
+
+Départ de Narita – 18h55
+Arrivée à l’aéroport de Séoul Incheon – 21h45
+
+Ici, longue attente de nuit à l’aéroport.
+
+Moi qui pensais que ça allait être chiant et interminable… finalement, pas tant que ça.
+
+Je commence par manger un KFC, histoire de bien remplir l’estomac pour tenir la nuit.
+
+Ensuite, je trouve un endroit calme : une zone d’embarquement complètement vide.
+Je me pose entre les portes 7 et 8, avec des vols prévus à partir de 8h30 et 11h00. Parfait : ça me laisse toute la nuit tranquille, sans voyageurs autour.
+
+Je passe donc quelques heures à écrire, écouter de la musique… puis j’achète une canette de Monster.
+
+Musique iconique de cette journée, et belle découverte :
+Mon papa à moi est un gangster – Stomy Bugsy
+
+Finalement, je réussis à dormir de 2h à 6h30.
+
+Allongé sur les fauteuils, mon sac en guise de coussin (avec une serviette pour adoucir un peu), et l’autre sac pour poser mes pieds.
+
+Casquette, écouteurs, lunettes de soleil, capuche… et c’est parti pour essayer de dormir.
+
+Bon, je me réveille toutes les 45 minutes environ… mais j’ai quand même réussi à récupérer un peu d’énergie.
+
+8h30, direction ma porte d’embarquement.
+
+Départ de Séoul Incheon – 10h10 (heure locale)
+Arrivée à Paris Charles de Gaulle – 18h10 (heure française)
+
+Durée du vol : 15h
+
+Deux repas dans l’avion : bibimbap et porridge bœuf, œuf, champignons.
+
+Pour m’occuper pendant ces 15 heures, j’ai regardé 4 épisodes de ma série Psych - Enquêteur malgré lui (téléchargés au préalable).
+
+J’ai aussi regardé la moitié d’un film que je connais bien : L’amour de l’or, avec Kate Hudson et Matthew McConaughey.
+
+Quelques siestes par-ci par-là, la lecture de ces pages dans une ambiance un peu nostalgique…
+Et l’écoute de ma playlist créée par YouTube Music : un mix de mes musiques écoutées entre décembre 2025 et février 2026. Parfait pour se replonger dans les souvenirs.
+
+Arrivée à Paris Saint-Lazare – 20h
+
+Et comme par hasard… le jour de mon retour en France : train supprimé sur la ligne Paris–Normandie.
+
+Aucune alternative.
+Et clairement pas envie d’attendre le lendemain à Saint-Lazare.
+
+Obligé de demander à ma sœur de venir me chercher à Mantes-la-Jolie, j’ai donc pris le Transilien, ligne J (histoire qu’on fasse chacun la moitié du trajet).
+
+Arrivée à Caen – 23h30
+
+Fin officielle du voyage.`,
+  "mood": "Retour en France, fin du voyage"
 }
 		
 
