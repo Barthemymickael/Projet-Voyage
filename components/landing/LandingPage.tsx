@@ -91,8 +91,7 @@ const StorySection = ({ title, children }: any) => {
     <motion.section
       className="min-h-screen flex items-center justify-center px-6 py-32"
       initial={{ opacity: 0, y: 80 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.5 }}
+      animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
     >
       <div className="max-w-3xl text-center space-y-8">
@@ -106,7 +105,6 @@ const StorySection = ({ title, children }: any) => {
     </motion.section>
   );
 };
-
 /* ===================== LANDING ===================== */
 export const LandingPage: React.FC<LandingPageProps> = ({
   countries,
