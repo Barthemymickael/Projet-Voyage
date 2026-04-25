@@ -131,7 +131,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ countries, onSelectCou
           </div>
 
           <div className="flex items-center gap-2 text-white/60 group-hover:text-white">
-            <span className="hidden sm:block">Entrer</span>
+            <span className="hidden sm:block">Lire</span>
             <ArrowRight />
           </div>
         </button>
