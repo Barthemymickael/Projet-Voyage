@@ -154,63 +154,46 @@ export const LandingPage: React.FC<LandingPageProps> = ({ countries, onSelectCou
       <div className="mx-auto max-w-6xl lg:max-w-[1400px] w-full space-y-6 sm:space-y-8">
         <div className="relative overflow-hidden rounded-3xl border border-white/15 bg-white/5 p-2 shadow-[0_20px_60px_rgba(0,0,0,0.35)] backdrop-blur-xl">
           <button
-  type="button"
   onClick={() => setIsTravelSummaryOpen((prev) => !prev)}
-  className="group relative w-full overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-white/5 to-white/0 px-6 py-5 text-left transition-all duration-500 hover:border-white/30 hover:shadow-[0_15px_40px_rgba(34,211,238,0.25)] focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300/70"
-  aria-expanded={isTravelSummaryOpen}
-  aria-controls="travel-summary-panel"
+  className="group relative w-full flex items-center justify-between px-6 py-4 rounded-xl border border-white/10 bg-white/[0.03] hover:bg-white/[0.06] transition-all duration-300"
 >
-  {/* Glow animé */}
-  <motion.div
-    className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-[radial-gradient(circle_at_20%_30%,rgba(34,211,238,0.25),transparent_40%)]"
-    initial={{ opacity: 0 }}
-    animate={{ opacity: isTravelSummaryOpen ? 0.6 : 0 }}
-    transition={{ duration: 0.6 }}
-  />
-
-  {/* Ligne animée */}
-  <motion.div
-    className="absolute inset-x-0 top-0 h-[2px] bg-gradient-to-r from-transparent via-cyan-300 to-transparent opacity-70"
-    animate={{ x: ['-100%', '100%'] }}
-    transition={{ duration: 2.5, repeat: Infinity, ease: 'linear' }}
-  />
-
-  <div className="relative flex items-center justify-between gap-4">
+  {/* LEFT */}
+  <div className="flex items-center gap-4">
     
-    {/* LEFT CONTENT */}
-    <div className="flex flex-col gap-2">
-      
-      {/* Badge NOUVEAU amélioré */}
-      <div className="inline-flex items-center gap-2">
-        <span className="relative inline-flex items-center px-3 py-1 text-[10px] font-bold tracking-[0.2em] uppercase text-cyan-200">
-          
-          {/* Pulse effect */}
-          <span className="absolute inset-0 rounded-full bg-cyan-400/20 blur-md animate-pulse" />
-          
-          <span className="relative z-10">NOUVEAU</span>
-        </span>
-      </div>
+    {/* Dot animé */}
+    <span className="relative flex h-3 w-3">
+      <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-60"></span>
+      <span className="relative inline-flex rounded-full h-3 w-3 bg-cyan-300"></span>
+    </span>
 
-      {/* Title + subtitle */}
-      <div>
-        <h2 className="text-xl sm:text-2xl font-semibold text-white tracking-tight">
-          Bilan de mon voyage
-        </h2>
-        <p className="text-sm text-white/60 mt-1">
-          Explorer mes souvenirs et moments marquants
-        </p>
-      </div>
+    {/* Texte */}
+    <div className="flex flex-col">
+      <span className="text-xs tracking-widest text-white/40 uppercase">
+        Nouveau contenu
+      </span>
+      <span className="text-white text-lg font-medium tracking-tight">
+        Bilan de mon voyage
+      </span>
     </div>
+  </div>
 
-    {/* RIGHT ICON */}
+  {/* RIGHT CTA */}
+  <div className="flex items-center gap-2 text-white/60 group-hover:text-white transition-colors">
+    
+    <span className="text-sm hidden sm:block">
+      Explorer
+    </span>
+
     <motion.div
-      animate={{ rotate: isTravelSummaryOpen ? 180 : 0 }}
-      transition={{ duration: 0.3 }}
-      className="flex items-center justify-center w-11 h-11 rounded-full bg-white/10 border border-white/20 group-hover:bg-white/20"
+      animate={{ x: isTravelSummaryOpen ? 0 : 6 }}
+      transition={{ type: 'spring', stiffness: 300 }}
     >
-      <ChevronDown className="w-5 h-5 text-white" />
+      <ArrowRight className="w-5 h-5" />
     </motion.div>
   </div>
+
+  {/* Hover line */}
+  <span className="absolute bottom-0 left-0 h-[1px] w-0 bg-gradient-to-r from-cyan-400 to-purple-400 group-hover:w-full transition-all duration-500"></span>
 </button>
 
           <AnimatePresence initial={false}>
