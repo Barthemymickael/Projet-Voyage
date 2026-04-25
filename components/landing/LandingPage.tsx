@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Lock, Check, ArrowRight } from 'lucide-react';
+import { Lock, Check, ArrowRight, ChevronDown } from 'lucide-react';
 import { CountryData } from '../../types';
 
 interface LandingPageProps {
@@ -145,11 +145,40 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
 };
 
 export const LandingPage: React.FC<LandingPageProps> = ({ countries, onSelectCountry }) => {
+  const [isTravelSummaryOpen, setIsTravelSummaryOpen] = useState(false);
+
   return (
     <div className="relative min-h-screen w-full bg-gradient-to-b from-black via-zinc-950 to-black px-4 py-10 sm:px-6 sm:py-14 lg:px-12 lg:py-16 flex items-stretch lg:items-center">
       <div className="pointer-events-none absolute inset-0 opacity-40 bg-[radial-gradient(circle_at_30%_10%,rgba(59,130,246,0.08),transparent_30%),radial-gradient(circle_at_70%_60%,rgba(244,114,182,0.08),transparent_30%)]" />
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_10%_85%,rgba(34,211,238,0.06),transparent_35%),radial-gradient(circle_at_90%_20%,rgba(168,85,247,0.06),transparent_32%)]" />
       <div className="mx-auto max-w-6xl lg:max-w-[1400px] w-full space-y-6 sm:space-y-8">
+        <div className="relative">
+          <motion.button
+            type="button"
+            onClick={() => setIsTravelSummaryOpen(true)}
+            whileHover={{ scale: 1.02, y: -2 }}
+            whileTap={{ scale: 0.98 }}
+            className="group relative w-full overflow-hidden rounded-3xl border border-white/20 bg-gradient-to-r from-violet-500/25 via-fuchsia-500/15 to-cyan-500/25 px-5 py-4 sm:px-6 sm:py-5 text-left shadow-[0_20px_60px_rgba(0,0,0,0.4)] backdrop-blur-xl transition-all duration-300 hover:border-cyan-200/50 hover:shadow-[0_20px_50px_rgba(34,211,238,0.35)] focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300/80"
+            aria-haspopup="dialog"
+            aria-expanded={isTravelSummaryOpen}
+            aria-controls="travel-summary-modal"
+          >
+            <motion.div
+              className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.22),transparent_35%),radial-gradient(circle_at_80%_80%,rgba(34,211,238,0.26),transparent_35%)]"
+              animate={{ opacity: [0.6, 1, 0.7] }}
+              transition={{ duration: 3.2, repeat: Infinity, ease: 'easeInOut' }}
+            />
+            <div className="relative flex items-center justify-between gap-4">
+              <div>
+                <p className="text-xs uppercase tracking-[0.2em] text-white/75">Nouveau</p>
+                <h2 className="mt-1 text-lg sm:text-xl font-semibold text-white">Bilan de mon voyage</h2>
+              </div>
+              <span className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/25 bg-white/15 text-white shadow-[0_0_25px_rgba(168,85,247,0.45)]">
+                <ChevronDown className="h-5 w-5 -rotate-90 transition-transform duration-300 group-hover:rotate-0" />
+              </span>
+            </div>
+          </motion.button>
+        </div>
         <div className="relative rounded-[28px] sm:rounded-[32px] overflow-hidden shadow-[0_30px_80px_rgba(0,0,0,0.45)] bg-white/5">
           <div className="absolute inset-0 bg-gradient-to-b from-white/5 via-white/0 to-white/5 opacity-60" aria-hidden />
           <div className="relative grid grid-cols-1 gap-6 sm:gap-8 lg:grid-cols-2 lg:gap-0">
@@ -159,6 +188,74 @@ export const LandingPage: React.FC<LandingPageProps> = ({ countries, onSelectCou
           </div>
         </div>
       </div>
+
+      <AnimatePresence>
+        {isTravelSummaryOpen && (
+          <motion.div
+            className="fixed inset-0 z-[70] flex items-center justify-center p-4 sm:p-6"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+          >
+            <motion.button
+              type="button"
+              className="absolute inset-0 bg-black/70 backdrop-blur-sm"
+              onClick={() => setIsTravelSummaryOpen(false)}
+              aria-label="Fermer le bilan de voyage"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+            />
+
+            <motion.div
+              id="travel-summary-modal"
+              role="dialog"
+              aria-modal="true"
+              aria-label="Bilan de mon voyage"
+              className="relative z-10 w-full max-w-2xl overflow-hidden rounded-3xl border border-white/20 bg-gradient-to-br from-zinc-900/95 via-violet-950/70 to-cyan-950/80 p-6 sm:p-8 shadow-[0_30px_120px_rgba(0,0,0,0.6)]"
+              initial={{ scale: 0.85, y: 40, opacity: 0 }}
+              animate={{ scale: 1, y: 0, opacity: 1 }}
+              exit={{ scale: 0.9, y: 20, opacity: 0 }}
+              transition={{ type: 'spring', stiffness: 260, damping: 22 }}
+            >
+              <motion.div
+                className="pointer-events-none absolute inset-0 opacity-60 bg-[radial-gradient(circle_at_20%_25%,rgba(168,85,247,0.45),transparent_45%),radial-gradient(circle_at_80%_75%,rgba(34,211,238,0.35),transparent_40%)]"
+                animate={{ opacity: [0.45, 0.75, 0.5] }}
+                transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
+              />
+
+              <div className="relative">
+                <div className="mb-5 flex items-start justify-between gap-4">
+                  <div>
+                    <p className="text-xs uppercase tracking-[0.2em] text-cyan-200/80">Bilan immersif</p>
+                    <h3 className="mt-2 text-2xl sm:text-3xl font-semibold text-white">Bilan de mon voyage</h3>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => setIsTravelSummaryOpen(false)}
+                    className="h-10 w-10 rounded-full border border-white/20 bg-white/10 text-white text-xl leading-none hover:bg-white/20 transition-colors"
+                    aria-label="Fermer la fenêtre"
+                  >
+                    ×
+                  </button>
+                </div>
+
+                <div className="space-y-4 text-zinc-100/95 leading-relaxed">
+                  <p>
+                    Ce voyage en Asie a été une traversée d&apos;émotions, entre énergie urbaine, héritages culturels et
+                    moments de calme inattendus. Chaque lieu visité a laissé une empreinte différente, avec ses sons,
+                    ses visages et ses histoires.
+                  </p>
+                  <p>
+                    Ce journal rassemble ces instants clés : les découvertes, les surprises et les rencontres qui ont
+                    façonné cette aventure. Clique sur une région pour revivre le parcours jour après jour.
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 };
