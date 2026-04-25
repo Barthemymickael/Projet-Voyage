@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Lock, Check, ArrowRight } from 'lucide-react';
+import { Lock, Check, ArrowRight, ChevronDown } from 'lucide-react';
 import { CountryData } from '../../types';
 
 interface LandingPageProps {
@@ -145,11 +145,59 @@ const CountryBlock: React.FC<{ country: CountryData; onSelect: (id: string) => v
 };
 
 export const LandingPage: React.FC<LandingPageProps> = ({ countries, onSelectCountry }) => {
+  const [isTravelSummaryOpen, setIsTravelSummaryOpen] = useState(false);
+
   return (
     <div className="relative min-h-screen w-full bg-gradient-to-b from-black via-zinc-950 to-black px-4 py-10 sm:px-6 sm:py-14 lg:px-12 lg:py-16 flex items-stretch lg:items-center">
       <div className="pointer-events-none absolute inset-0 opacity-40 bg-[radial-gradient(circle_at_30%_10%,rgba(59,130,246,0.08),transparent_30%),radial-gradient(circle_at_70%_60%,rgba(244,114,182,0.08),transparent_30%)]" />
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_10%_85%,rgba(34,211,238,0.06),transparent_35%),radial-gradient(circle_at_90%_20%,rgba(168,85,247,0.06),transparent_32%)]" />
       <div className="mx-auto max-w-6xl lg:max-w-[1400px] w-full space-y-6 sm:space-y-8">
+        <div className="relative overflow-hidden rounded-3xl border border-white/15 bg-white/5 p-2 shadow-[0_20px_60px_rgba(0,0,0,0.35)] backdrop-blur-xl">
+          <button
+            type="button"
+            onClick={() => setIsTravelSummaryOpen((prev) => !prev)}
+            className="group relative flex w-full items-center justify-between gap-4 rounded-2xl border border-white/15 bg-gradient-to-r from-violet-500/20 via-cyan-500/10 to-emerald-500/20 px-5 py-4 text-left transition-all duration-300 hover:border-white/35 hover:shadow-[0_10px_25px_rgba(56,189,248,0.25)] focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300/70"
+            aria-expanded={isTravelSummaryOpen}
+            aria-controls="travel-summary-panel"
+          >
+            <div>
+              <p className="text-xs uppercase tracking-[0.2em] text-white/70">Nouveau</p>
+              <h2 className="mt-1 text-lg sm:text-xl font-semibold text-white">Bilan de mon voyage</h2>
+            </div>
+            <motion.span
+              animate={{ rotate: isTravelSummaryOpen ? 180 : 0 }}
+              transition={{ duration: 0.25, ease: 'easeOut' }}
+              className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/20 bg-white/10 text-white/90 group-hover:bg-white/20"
+            >
+              <ChevronDown className="h-5 w-5" />
+            </motion.span>
+          </button>
+
+          <AnimatePresence initial={false}>
+            {isTravelSummaryOpen && (
+              <motion.div
+                id="travel-summary-panel"
+                initial={{ height: 0, opacity: 0 }}
+                animate={{ height: 'auto', opacity: 1 }}
+                exit={{ height: 0, opacity: 0 }}
+                transition={{ duration: 0.35, ease: 'easeInOut' }}
+                className="overflow-hidden"
+              >
+                <div className="px-4 sm:px-5 pb-4 pt-5 text-sm sm:text-base text-zinc-200/95 leading-relaxed space-y-3">
+                  <p>
+                    Ce carnet retrace une aventure en Asie entre traditions, modernité et découvertes humaines.
+                    Chaque étape raconte un moment fort : les rues vibrantes de Séoul, les temples paisibles et les
+                    rencontres qui donnent du sens au voyage.
+                  </p>
+                  <p>
+                    Ouvre une région pour explorer les souvenirs, revivre les journées marquantes et suivre le fil
+                    complet de cette expérience, du premier départ jusqu&apos;aux derniers instants.
+                  </p>
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
         <div className="relative rounded-[28px] sm:rounded-[32px] overflow-hidden shadow-[0_30px_80px_rgba(0,0,0,0.45)] bg-white/5">
           <div className="absolute inset-0 bg-gradient-to-b from-white/5 via-white/0 to-white/5 opacity-60" aria-hidden />
           <div className="relative grid grid-cols-1 gap-6 sm:gap-8 lg:grid-cols-2 lg:gap-0">
