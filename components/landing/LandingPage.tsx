@@ -123,10 +123,10 @@ export const LandingPage: React.FC<LandingPageProps> = ({ countries, onSelectCou
         >
           <div className="flex flex-col text-left">
             <span className="text-xs uppercase tracking-widest text-white/40">
-              Expérience immersive
+              Le bilan finale de ce voyage
             </span>
             <span className="text-2xl text-white font-semibold">
-              Voir le film du voyage
+              Voir le bilan 
             </span>
           </div>
 
