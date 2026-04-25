@@ -154,24 +154,64 @@ export const LandingPage: React.FC<LandingPageProps> = ({ countries, onSelectCou
       <div className="mx-auto max-w-6xl lg:max-w-[1400px] w-full space-y-6 sm:space-y-8">
         <div className="relative overflow-hidden rounded-3xl border border-white/15 bg-white/5 p-2 shadow-[0_20px_60px_rgba(0,0,0,0.35)] backdrop-blur-xl">
           <button
-            type="button"
-            onClick={() => setIsTravelSummaryOpen((prev) => !prev)}
-            className="group relative flex w-full items-center justify-between gap-4 rounded-2xl border border-white/15 bg-gradient-to-r from-violet-500/20 via-cyan-500/10 to-emerald-500/20 px-5 py-4 text-left transition-all duration-300 hover:border-white/35 hover:shadow-[0_10px_25px_rgba(56,189,248,0.25)] focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300/70"
-            aria-expanded={isTravelSummaryOpen}
-            aria-controls="travel-summary-panel"
-          >
-            <div>
-              <p className="text-xs uppercase tracking-[0.2em] text-white/70">Nouveau</p>
-              <h2 className="mt-1 text-lg sm:text-xl font-semibold text-white">Bilan de mon voyage</h2>
-            </div>
-            <motion.span
-              animate={{ rotate: isTravelSummaryOpen ? 180 : 0 }}
-              transition={{ duration: 0.25, ease: 'easeOut' }}
-              className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/20 bg-white/10 text-white/90 group-hover:bg-white/20"
-            >
-              <ChevronDown className="h-5 w-5" />
-            </motion.span>
-          </button>
+  type="button"
+  onClick={() => setIsTravelSummaryOpen((prev) => !prev)}
+  className="group relative w-full overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-white/5 to-white/0 px-6 py-5 text-left transition-all duration-500 hover:border-white/30 hover:shadow-[0_15px_40px_rgba(34,211,238,0.25)] focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300/70"
+  aria-expanded={isTravelSummaryOpen}
+  aria-controls="travel-summary-panel"
+>
+  {/* Glow animé */}
+  <motion.div
+    className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-[radial-gradient(circle_at_20%_30%,rgba(34,211,238,0.25),transparent_40%)]"
+    initial={{ opacity: 0 }}
+    animate={{ opacity: isTravelSummaryOpen ? 0.6 : 0 }}
+    transition={{ duration: 0.6 }}
+  />
+
+  {/* Ligne animée */}
+  <motion.div
+    className="absolute inset-x-0 top-0 h-[2px] bg-gradient-to-r from-transparent via-cyan-300 to-transparent opacity-70"
+    animate={{ x: ['-100%', '100%'] }}
+    transition={{ duration: 2.5, repeat: Infinity, ease: 'linear' }}
+  />
+
+  <div className="relative flex items-center justify-between gap-4">
+    
+    {/* LEFT CONTENT */}
+    <div className="flex flex-col gap-2">
+      
+      {/* Badge NOUVEAU amélioré */}
+      <div className="inline-flex items-center gap-2">
+        <span className="relative inline-flex items-center px-3 py-1 text-[10px] font-bold tracking-[0.2em] uppercase text-cyan-200">
+          
+          {/* Pulse effect */}
+          <span className="absolute inset-0 rounded-full bg-cyan-400/20 blur-md animate-pulse" />
+          
+          <span className="relative z-10">NOUVEAU</span>
+        </span>
+      </div>
+
+      {/* Title + subtitle */}
+      <div>
+        <h2 className="text-xl sm:text-2xl font-semibold text-white tracking-tight">
+          Bilan de mon voyage
+        </h2>
+        <p className="text-sm text-white/60 mt-1">
+          Explorer mes souvenirs et moments marquants
+        </p>
+      </div>
+    </div>
+
+    {/* RIGHT ICON */}
+    <motion.div
+      animate={{ rotate: isTravelSummaryOpen ? 180 : 0 }}
+      transition={{ duration: 0.3 }}
+      className="flex items-center justify-center w-11 h-11 rounded-full bg-white/10 border border-white/20 group-hover:bg-white/20"
+    >
+      <ChevronDown className="w-5 h-5 text-white" />
+    </motion.div>
+  </div>
+</button>
 
           <AnimatePresence initial={false}>
             {isTravelSummaryOpen && (
