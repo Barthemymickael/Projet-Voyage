@@ -152,32 +152,51 @@ export const LandingPage: React.FC<LandingPageProps> = ({ countries, onSelectCou
       <div className="pointer-events-none absolute inset-0 opacity-40 bg-[radial-gradient(circle_at_30%_10%,rgba(59,130,246,0.08),transparent_30%),radial-gradient(circle_at_70%_60%,rgba(244,114,182,0.08),transparent_30%)]" />
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_10%_85%,rgba(34,211,238,0.06),transparent_35%),radial-gradient(circle_at_90%_20%,rgba(168,85,247,0.06),transparent_32%)]" />
       <div className="mx-auto max-w-6xl lg:max-w-[1400px] w-full space-y-6 sm:space-y-8">
-        <div className="relative">
-          <motion.button
+        <div className="relative overflow-hidden rounded-3xl border border-white/15 bg-white/5 p-2 shadow-[0_20px_60px_rgba(0,0,0,0.35)] backdrop-blur-xl">
+          <button
             type="button"
-            onClick={() => setIsTravelSummaryOpen(true)}
-            whileHover={{ scale: 1.02, y: -2 }}
-            whileTap={{ scale: 0.98 }}
-            className="group relative w-full overflow-hidden rounded-3xl border border-white/20 bg-gradient-to-r from-violet-500/25 via-fuchsia-500/15 to-cyan-500/25 px-5 py-4 sm:px-6 sm:py-5 text-left shadow-[0_20px_60px_rgba(0,0,0,0.4)] backdrop-blur-xl transition-all duration-300 hover:border-cyan-200/50 hover:shadow-[0_20px_50px_rgba(34,211,238,0.35)] focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300/80"
-            aria-haspopup="dialog"
+            onClick={() => setIsTravelSummaryOpen((prev) => !prev)}
+            className="group relative flex w-full items-center justify-between gap-4 rounded-2xl border border-white/15 bg-gradient-to-r from-violet-500/20 via-cyan-500/10 to-emerald-500/20 px-5 py-4 text-left transition-all duration-300 hover:border-white/35 hover:shadow-[0_10px_25px_rgba(56,189,248,0.25)] focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300/70"
             aria-expanded={isTravelSummaryOpen}
-            aria-controls="travel-summary-modal"
+            aria-controls="travel-summary-panel"
           >
-            <motion.div
-              className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.22),transparent_35%),radial-gradient(circle_at_80%_80%,rgba(34,211,238,0.26),transparent_35%)]"
-              animate={{ opacity: [0.6, 1, 0.7] }}
-              transition={{ duration: 3.2, repeat: Infinity, ease: 'easeInOut' }}
-            />
-            <div className="relative flex items-center justify-between gap-4">
-              <div>
-                <p className="text-xs uppercase tracking-[0.2em] text-white/75">Nouveau</p>
-                <h2 className="mt-1 text-lg sm:text-xl font-semibold text-white">Bilan de mon voyage</h2>
-              </div>
-              <span className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/25 bg-white/15 text-white shadow-[0_0_25px_rgba(168,85,247,0.45)]">
-                <ChevronDown className="h-5 w-5 -rotate-90 transition-transform duration-300 group-hover:rotate-0" />
-              </span>
+            <div>
+              <p className="text-xs uppercase tracking-[0.2em] text-white/70">Nouveau</p>
+              <h2 className="mt-1 text-lg sm:text-xl font-semibold text-white">Bilan de mon voyage</h2>
             </div>
-          </motion.button>
+            <motion.span
+              animate={{ rotate: isTravelSummaryOpen ? 180 : 0 }}
+              transition={{ duration: 0.25, ease: 'easeOut' }}
+              className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/20 bg-white/10 text-white/90 group-hover:bg-white/20"
+            >
+              <ChevronDown className="h-5 w-5" />
+            </motion.span>
+          </button>
+
+          <AnimatePresence initial={false}>
+            {isTravelSummaryOpen && (
+              <motion.div
+                id="travel-summary-panel"
+                initial={{ height: 0, opacity: 0 }}
+                animate={{ height: 'auto', opacity: 1 }}
+                exit={{ height: 0, opacity: 0 }}
+                transition={{ duration: 0.35, ease: 'easeInOut' }}
+                className="overflow-hidden"
+              >
+                <div className="px-4 sm:px-5 pb-4 pt-5 text-sm sm:text-base text-zinc-200/95 leading-relaxed space-y-3">
+                  <p>
+                    Ce carnet retrace une aventure en Asie entre traditions, modernité et découvertes humaines.
+                    Chaque étape raconte un moment fort : les rues vibrantes de Séoul, les temples paisibles et les
+                    rencontres qui donnent du sens au voyage.
+                  </p>
+                  <p>
+                    Ouvre une région pour explorer les souvenirs, revivre les journées marquantes et suivre le fil
+                    complet de cette expérience, du premier départ jusqu&apos;aux derniers instants.
+                  </p>
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
         </div>
         <div className="relative rounded-[28px] sm:rounded-[32px] overflow-hidden shadow-[0_30px_80px_rgba(0,0,0,0.45)] bg-white/5">
           <div className="absolute inset-0 bg-gradient-to-b from-white/5 via-white/0 to-white/5 opacity-60" aria-hidden />
