@@ -118,19 +118,20 @@ export const LandingPage: React.FC<LandingPageProps> = ({
       {/* CTA (VERSION 2 CONSERVÉE) */}
       <div className="max-w-5xl mx-auto py-12 px-6">
         <button
-          onClick={() => setIsOpen(true)}
-          className="w-full flex justify-between items-center px-6 py-5 rounded-2xl bg-white/5 hover:bg-white/10 transition"
-        >
-          <div className="text-left">
-            <p className="text-xs uppercase text-white/40">
-              Le bilan finale de ce voyage
-            </p>
-            <p className="text-2xl font-semibold">
-              Voir le bilan
-            </p>
-          </div>
-          <ArrowRight />
-        </button>
+  onClick={() => setIsOpen(true)}
+  className="w-full flex flex-col items-center justify-center text-center px-6 py-5 rounded-2xl bg-white/5 hover:bg-white/10 transition"
+>
+  <div className="text-center">
+    <p className="text-xs uppercase text-white/40 text-center">
+      Le bilan final de ce voyage
+    </p>
+    <p className="text-2xl font-semibold text-center">
+      Voir le bilan
+    </p>
+  </div>
+
+  <ArrowRight className="mt-3" />
+</button>
       </div>
 
       {/* COUNTRIES */}
